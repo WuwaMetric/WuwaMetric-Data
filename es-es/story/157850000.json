@@ -1,0 +1,238 @@
+{
+  "Id": 157850000,
+  "Name": "Sueño corrompido",
+  "Description": "Completa el desafío y derrota la Pesadilla oculta dentro del nodo del sueño.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 157850000,
+  "ShowQuestList": [],
+  "QuestDesc": "Completa el desafío y derrota la Pesadilla oculta dentro del nodo del sueño.",
+  "Conditions": [
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 157850001
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 169850002
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 169850000
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 169850004
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "¿Me oyes, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "Acabamos de confirmar que la Disonancia Tácita de Pesadilla que apareció en Septimont fue eliminada. Sabía que habías sido tú. Buen trabajo.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 51,
+              "PlotLineKey": "Nada del otro mundo.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 52,
+              "PlotLineKey": "Solo era {Male=un turista curioso;Female=una turista curiosa} con ganas de ayudar.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "Pues ese pequeño favor nos trajo una gran sorpresa... Hemos encontrado algo inusual en las muestras de sueño de Septimont.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "No sabemos si fue pura coincidencia o cosa del destino. En cualquier caso, gracias por tu ayuda… como te decía, las muestras de Septimont tienen algo fuera de lo común.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "¿Recuerdas aquella invitación que recibiste para el festival de cine en la Somnolencia?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 53,
+              "PlotLineKey": "Sí, claro.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 54,
+              "PlotLineKey": "La verdad, no mucho.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "Bueno, si lo recuerdas, será más fácil explicarlo. Esa invitación nos ha tenido intrigados estos días. La zona de aguas profundas siempre ha sido un lugar difícil de rastrear.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "En las muestras de Septimont detectamos una frecuencia parecida. Quizá fue esa energía especial la que permitió a la invitación atravesar el bloqueo de aguas profundas y llegar hasta ti.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "No pasa nada si no lo recuerdas. En resumen, creemos haber descubierto por qué las profundidades de la Somnolencia se han vuelto tan activas.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "Pero aún no tenemos suficientes datos para confirmarlo. Si te es posible, ¿podrías encargarte de algunas Disonancias Tácitas de Pesadilla más?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "Te envié las ubicaciones. Una vez que las elimines, tendremos una recompensa esperándote. Gracias por tu esfuerzo, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "{PlayerName}, ya tenemos todas las muestras necesarias. Buen trabajo.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 67,
+              "PlotLineKey": "¿Y qué han revelado?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 68,
+              "PlotLineKey": "He venido a por mi recompensa.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Portero de marfil",
+          "PlotLineKey": "La verdad, {PlayerName}, no esperábamos que esto se complicara tanto, ¡miau! En las nuevas muestras encontramos rastros del cine de la última vez...",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Portero de marfil",
+          "PlotLineKey": "Tu recompensa llegará en breve, ¡miau! {PlayerName}, ¿sabes qué? ¡En esta tanda de muestras apareció de nuevo el cine de la vez pasada!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "¡No interrumpas! ¡El informe lo doy yo!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Portero de marfil",
+          "PlotLineKey": "...Miau.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "En resumen: las Disonancias Tácitas que aparecieron en Septimont emiten una frecuencia peculiar, muy parecida a la que permitió que se restableciera el enlace con la zona de aguas profundas y se enviara aquella invitación.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "Lo que sí sabemos con certeza es que esa frecuencia está relacionada con la desconexión de la Somnolencia en Rinascita.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "Aunque aún no tenemos claro de dónde proviene esa energía.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Portero de marfil",
+          "PlotLineKey": "¡Creemos que podría tener que ver con la llamada Marea Oscura, miau! ¡Algunas muestras oníricas muestran señales de Pesadillas relacionadas con ella!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "¡Te dije que el informe lo doy yo! ¡No sueltes teorías sin pruebas!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "En fin. Aún no tenemos información concreta sobre las aguas profundas, pero está claro que tanto la Somnolencia como Rinascita podrían seguir viéndose afectadas por esta frecuencia.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "Si piensas explorar otras zonas de Rinascita, {PlayerName}, por favor, mantente alerta ante cualquier Disonancia Tácita de Pesadilla.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

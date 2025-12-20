@@ -1,0 +1,2067 @@
+{
+  "Id": 100020,
+  "Name": "ダンゴでダンジョン",
+  "Description": "幕間",
+  "MaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_16a.png",
+  "FemaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_16b.png",
+  "AreaIcon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/UiArchive/Atlas/SP_ArchiveAreaDragon.png",
+  "ShowQuestList": [
+    173800000,
+    221800001,
+    221800002
+  ],
+  "QuestDesc": "「すごいものを作った」と、アンコから連絡がきた。一体どんなものなのか、確かめに行こう。\nアブ魔王城に乗り込み、アブ大王に捕まったダンゴの仲間たちを助け出そう！ アブ大王の陰謀を阻止して、お祭りを成功させるんだ！\nこれ以上アブ大王に好き勝手させないためには、引き続き魔王城を攻略する必要があります。",
+  "Unlock": [],
+  "Chapters": [
+    {
+      "Title": "今州を見て回る"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アンコ",
+          "PlotLineKey": "{Male=お兄ちゃん;Female=お姉ちゃん}！アンコね、先駆条約のお兄ちゃんやお姉ちゃんたちと、すごいものを作ったんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アンコ",
+          "PlotLineKey": "でも先駆条約のお姉ちゃんに、まだテストが必要だって言われたんだ。そしたらアンコ、{Male=お兄ちゃん;Female=お姉ちゃん}の顔がすぐに浮かんだの。{Male=お兄ちゃん;Female=お姉ちゃん}、アンコと一緒に遊んでみない？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アンコ",
+          "PlotLineKey": "本当に本当に、す～っごく楽しいよ。アンコ、待ってるからね！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "アンコのところに行く"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アンコ",
+          "PlotLineKey": "{Male=お兄ちゃん;Female=お姉ちゃん}！きっと来てくれると思ってたよ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "それで、「すごいもの」は？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アンコ",
+          "PlotLineKey": "焦らないで、{Male=お兄ちゃん;Female=お姉ちゃん}。今日は一歳をお祝いする日なんだけど……何の話か分かる？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "{Male=あのゲームだな！;Female=あのゲームでしょ！}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 26,
+              "PlotLineKey": "えーっと……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "アンコ",
+          "PlotLineKey": "そう、<te href=800003>第二ソラリス</te>だよ！今日で<te href=800003>第二ソラリス</te>はベータテスト一周年を迎えたの！一周年おめでとう！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 27,
+              "PlotLineKey": "おめでとう！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=でも、第二ソラリスは先駆条約が開発したはずだよな。どうしてアンコがここに？;Female=でも、第二ソラリスは先駆条約が開発したはずだよね。どうしてアンコがここに？}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アンコ",
+          "PlotLineKey": "ふふん。それはね、ショアキーパーお姉ちゃんがアンコに宿題を残したからだよ。アンコはテティスに合わせて、<te href=800003>第二ソラリス</te>で面白いものを作る手伝いをするの。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 28,
+              "PlotLineKey": "{Male=俺にも手伝ってほしいのか？;Female=私にも手伝ってほしいの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "アンコ",
+          "PlotLineKey": "うん！{Male=お兄ちゃん;Female=お姉ちゃん}、アンコを手伝ってくれる？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 29,
+              "PlotLineKey": "{Male=もちろんだ！;Female=もちろんだよ！}",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 30,
+              "PlotLineKey": "もう一回、アレをしてくれないかな？",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "アンコ",
+          "PlotLineKey": "いえい！{Male=お兄ちゃん;Female=お姉ちゃん}なら、きっと手伝ってくれると思ってたよ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 9,
+          "Speaker": "アンコ",
+          "PlotLineKey": "分かった！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "アンコ",
+          "PlotLineKey": "うぅぅ……{Male=お兄ちゃん……;Female=お姉ちゃん……}",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "こ、これは断れない！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "アンコ",
+          "PlotLineKey": "いえい！{Male=お兄ちゃん;Female=お姉ちゃん}なら、きっと手伝ってくれると思ってたよ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "アンコ",
+          "PlotLineKey": "それじゃあ、始めよう！まずは……チリンチリン、もしもしテティス？アンコ、準備できたよ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "アンコ",
+          "PlotLineKey": "{Male=お兄ちゃん;Female=お姉ちゃん}のアカウントを作るね。名前は何にする？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 32,
+              "PlotLineKey": "{PlayerName}{Male=でいいぞ。;Female=でいいよ。}",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 33,
+              "PlotLineKey": "今州を翔ける英雄！",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 34,
+              "PlotLineKey": "ブラックサンダー★エターナルダークネス！",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "アンコ",
+          "PlotLineKey": "いいと思う！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 20
+        },
+        {
+          "Id": 15,
+          "Speaker": "アンコ",
+          "PlotLineKey": "いいと思う！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "アンコ",
+          "PlotLineKey": "あれ、そのアカウント名は使われてるみたい。やっぱり{Male=お兄ちゃん;Female=お姉ちゃん}は、{PlayerName}でいいよね！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 20
+        },
+        {
+          "Id": 17,
+          "Speaker": "アンコ",
+          "PlotLineKey": "いいと思う！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "アンコ",
+          "PlotLineKey": "あれ、そのアカウント名は使われてるみたい。やっぱり{Male=お兄ちゃん;Female=お姉ちゃん}は、{PlayerName}でいいよね！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=こんな名前が使われてるのか！？;Female=こんな名前が使われてるの！？}",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 20
+        },
+        {
+          "Id": 20,
+          "Speaker": "アンコ",
+          "PlotLineKey": "キャラクターの作成完了！次はアンコの想像力を使って、うん……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "アンコ",
+          "PlotLineKey": "――できた！それじゃあ、しゅっぱーつ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 32,
+          "Speaker": "Narrator",
+          "PlotLineKey": "アンコが言っていたすごいものとは、ベータテストを開始してちょうど1年経った第二ソラリスのことだった。そしてアンコは、休みに出された宿題である、第二ソラリスへの不思議な新機能の追加を一緒にやってほしいと頼んできた。あざと…可愛いアンコの頼みを断れず、あなたはそれを承諾してしまう。アカウント作成して、いざ第二ソラリスへ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "団子リトルワールドに入る"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アンコ",
+          "PlotLineKey": "じゃじゃーん！{Male=お兄ちゃん;Female=お姉ちゃん}、<te href=800003>第二ソラリス</te>へようこそ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アンコ",
+          "PlotLineKey": "これはね、テティスが{Male=お兄ちゃん;Female=お姉ちゃん}をスキャンして作ったゲームワールドだよ。もちろん、アンコも手伝ったんだ。あそこの大きなケーキ、アンコがデザインしたの、すごいでしょ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 202,
+              "PlotLineKey": "{Male=なぜ俺はこんな姿に？;Female=どうして私はこんな姿に？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "アンコ",
+          "PlotLineKey": "アンコが{PlayerName}をお<te href=800004>団子</te>にしたからだよ。ショアキーパーお姉ちゃんに言われたの。<te href=800003>第二ソラリス</te>を作るために使えるテティスの演算能力は少しだけって。だから、しょうがなかったんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アブ",
+          "PlotLineKey": "うわっ、どうなってるんだ？頭がふらふらするぞ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アンコ",
+          "PlotLineKey": "出た、アブ<te href=800004>団子</te>だ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "{Male=アブ団子？本物のアブじゃないのか？;Female=アブ団子？本物のアブじゃないの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "アンコ",
+          "PlotLineKey": "ここにはアンコと{Male=お兄ちゃん;Female=お姉ちゃん}だけしかいないよ。ほかのみんなは全員、{Male=お兄ちゃん;Female=お姉ちゃん}から手に入れた情報で再現したの！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "アンコ",
+          "PlotLineKey": "それで約束通り、みんなと一緒に12個のお<te href=800004>団子</te>を作ったんだ！この近くにあるはずだけど……あれ？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "アンコ",
+          "PlotLineKey": "アンコが作ったケーキもない！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "？？？",
+          "PlotLineKey": "ふっふっふ、我が教えてやろう！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 204,
+              "PlotLineKey": "{Male=もう一人のアブ？これもアンコが作ったのか？;Female=もう一人のアブ？これもアンコが作ったの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "アンコ",
+          "PlotLineKey": "違うよ。アンコ、一つしか作ってないもん。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "アブ（悪堕ち）",
+          "PlotLineKey": "ふふっ、我は不純物を取り除いた完璧なアブ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "完璧な体に知的な瞳、そしてこの素晴らしい笑顔！いいか、我のことはアブ大王と讃えるのだ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 124,
+              "PlotLineKey": "{Male=すごく強そうだな！;Female=すごく強そうだね！}",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 125,
+              "PlotLineKey": "{Male=攻撃的には全然見えないが！;Female=攻撃的には全然見えないけど！}",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "なかなかいい目をしてるな。少し優しくしてあげてもいいぞ～？",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 17,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "お前、我をナメてるのか！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 18,
+          "Speaker": "アンコ",
+          "PlotLineKey": "アブ大王が<te href=800002>お祭りのケーキ</te>を隠したの？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "ふっふっふ。隠したわけじゃなくて、食べちゃったぞ。それと今は、<te href=800003>第二ソラリス</te>の全部が我の言うことを聞くようになったんだ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "まだ状況を飲み込めてないようだな……ふっふっふ、それじゃあ――ちょっと痛い目に遭わせてやろう！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 23,
+          "Speaker": "Narrator",
+          "PlotLineKey": "第二ソラリスに入ると、自分が団子になったことに驚いた！まだ状況も分からないうち、第二ソラリスのコアであるお祭りのケーキが、「アブ大王」と名乗る謎の団子に食べられてしまったのだ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "アンコと会話する"
+    },
+    {
+      "Title": "アンコと会話する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アブ",
+          "PlotLineKey": "{Male=さっきのアレは誰なんだ！？;Female=さっきのアレは誰！？}",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 813,
+              "PlotLineKey": "{Male=これはテストじゃないんだよな？;Female=これはテストじゃないよね？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "アンコ",
+          "PlotLineKey": "うん、{Male=お兄ちゃん;Female=お姉ちゃん}はアンコやお<te href=800004>団子</te>たちとちょっとおしゃべりしたら帰れるはずなのに……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "？？？",
+          "PlotLineKey": "アンコ、マズいヨ。第二ソラリス中がめちゃくちゃになってるヨ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "ブラックショアのロボットが駆けつけてきた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "？？？",
+          "PlotLineKey": "アンコ、アールトはドコ？また勝手に押したりしたんダロウ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "アンコ",
+          "PlotLineKey": "こんにちは、クハッピー！アールトならここにはいないよ。さっき、アンコがお<te href=800004>団子</te>を作ってたら、急におかしなアブ大王が現れて、<ano=コントロールコア><te href=800002>お祭りのケーキ</te></ano>を食べちゃったの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "ソウカ……だから今、第二ソラリスがアブ大王に乗っ取られてるわけダ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 814,
+              "PlotLineKey": "{Male=サーバーを再起動してみたらどうだ？;Female=サーバーを再起動してみるのはどう？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "<ano=コントロールコア>お祭りのケーキ</ano>が食べられたセイデ、データを保存できなくなってル。無理やり再起動すれば、大切なデータがたくさん失われてシマウ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "データの修復には、とても時間がかかるンダ。そんなことしたら、周年記念式典は時間通りに行えなくなるシ、みんなに文句を言われてシマウ、ウゥゥ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "アンコ",
+          "PlotLineKey": "大丈夫。大魔王が現れても、勇者メェと勇者ニャーが何とかしてくれるよ。ねっ、{Male=お兄ちゃん;Female=お姉ちゃん}？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 256,
+              "PlotLineKey": "{Male=そうだな。;Female=そうだね。}",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 257,
+              "PlotLineKey": "{Male=悪さをしてるのは「アブ」だからな。;Female=悪さをしてるのは「アブ」だからね。}",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "ウゥゥ、ありがトウ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "アブ",
+          "PlotLineKey": "あれは我じゃないぞ！テティスごときが、この我を解析できるはずないだろう。見てろ～、我の名前を勝手に名乗るなんて、{PlayerName}と一緒に捕まえてやる！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "システムのログを見るカギリ、テティスは<span style=\"color:#ffd12f;\" class=\"font-bold\">12</span>個の反響団子を生成したラシイ。でも、アブ大王の襲撃で、みんな行方不明になってル。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "<ano=コントロールコア>お祭りのケーキ</ano>を元に戻したケレバ、少なくとも、半分以上の団子を助けなければならないンダ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "アンコ、先駆条約の研究開発員と連絡を取ってホシイ。何かいい方法が見つかるかもしれナイ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "アンコ",
+          "PlotLineKey": "分かった。じゃあ、ここは{Male=お兄ちゃん;Female=お姉ちゃん}に任せるね。アンコ、信じてる！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "アンコが離れるタイミングを見計らっていたのか、アブ大王はあなたのよく知った人を何人か連れて戻ってきた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "ふっふっふ。油断させるために一度去って、また戻ってきたのだ！びっくりしただろう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "世界を救う勇者メェとあっさり別行動をとるとは、勇者ニャーは噂ほど賢くなさそうだな。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 258,
+              "PlotLineKey": "やっぱり、{PlayerName}{Male=と呼んでくれ……;Female=って呼んで……}",
+              "PlayVoice": false,
+              "JumpToId": 22
+            },
+            {
+              "TextId": 259,
+              "PlotLineKey": "{Male=あんたを倒すくらい、俺だけで充分だ！;Female=あんたを倒すくらい、私だけで充分！}",
+              "PlayVoice": false,
+              "JumpToId": 23
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "ふっふっふ。お前にはユーモアが足りないな。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 24
+        },
+        {
+          "Id": 23,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "よく言ったぞ、勇者ニャー！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 24
+        },
+        {
+          "Id": 24,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "さて、我と遊ぼうじゃないか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "未知なる地へ向かい、我の子分に挑戦し、これまでの仲間を救い、最後に我と大決戦を繰り広げる！これぞ最も王道なストーリーだ。面白いに違いない！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "ほら、最初の仲間として団子をいくつかやるぞ。弱い者いじめって言われたら、たまらないからな……ふっふっふ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "じゃあ、我は帰って待つとしよう。絶対に来るんだぞ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 32,
+          "Speaker": "Narrator",
+          "PlotLineKey": "コントロールコアを呑み込んだアブ大王は、事実上、第二ソラリスをコントロールしている。大王は団子たちを人質に取り、勇者の遊びに付き合うよう脅してきた。アブ大王とアブの間には何らかの繋がりがあると考え、あなたは遊ぶことにした。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アブ",
+          "PlotLineKey": "{Male=さっきのアレは誰なんだ！？;Female=さっきのアレは誰！？}",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 815,
+              "PlotLineKey": "{Male=これはテストじゃないんだよな？;Female=これはテストじゃないよね？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "アンコ",
+          "PlotLineKey": "うん、{Male=お兄ちゃん;Female=お姉ちゃん}はアンコやお<te href=800004>団子</te>たちとちょっとおしゃべりしたら帰れるはずなのに……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "？？？",
+          "PlotLineKey": "アンコ、マズいヨ。第二ソラリス中がめちゃくちゃになってるヨ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "ブラックショアのロボットが駆けつけてきた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "？？？",
+          "PlotLineKey": "アンコ、アールトはドコ？また勝手に押したりしたんダロウ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "アンコ",
+          "PlotLineKey": "こんにちは、クハッピー！アールトならここにはいないよ。さっき、アンコがお<te href=800004>団子</te>を作ってたら、急におかしなアブ大王が現れて、<ano=コントロールコア><te href=800002>お祭りのケーキ</te></ano>を食べちゃったの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "ソウカ……だから今、第二ソラリスがアブ大王に乗っ取られてるわけダ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 816,
+              "PlotLineKey": "{Male=サーバーを再起動してみたらどうだ？;Female=サーバーを再起動してみるのはどう？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "<ano=コントロールコア>お祭りのケーキ</ano>が食べられたセイデ、データを保存できなくなってル。無理やり再起動すれば、大切なデータがたくさん失われてシマウ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "データの修復には、とても時間がかかるンダ。そんなことしたら、周年記念式典は時間通りに行えなくなるシ、みんなに文句を言われてシマウ、ウゥゥ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "アンコ",
+          "PlotLineKey": "大丈夫。大魔王が現れても、勇者メェと勇者ニャーが何とかしてくれるよ。ねっ、{Male=お兄ちゃん;Female=お姉ちゃん}？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 365,
+              "PlotLineKey": "{Male=そうだな。;Female=そうだね。}",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 366,
+              "PlotLineKey": "{Male=悪さをしてるのは「アブ」だからな。;Female=悪さをしてるのは「アブ」だからね。}",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "ウゥゥ、ありがトウ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "アブ",
+          "PlotLineKey": "あれは我じゃないぞ！テティスごときが、この我を解析できるはずないだろう。見てろ～、我の名前を勝手に名乗るなんて、{PlayerName}と一緒に捕まえてやる！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "システムのログを見るカギリ、テティスは<span style=\"color:#ffd12f;\" class=\"font-bold\">12</span>個の反響団子を生成したラシイ。でも、アブ大王の襲撃で、みんな行方不明になってル。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "<ano=コントロールコア>お祭りのケーキ</ano>を元に戻したケレバ、少なくとも、半分以上の団子を助けなければならないンダ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "アンコ、先駆条約の研究開発員と連絡を取ってホシイ。何かいい方法が見つかるかもしれナイ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "アンコ",
+          "PlotLineKey": "分かった。じゃあ、ここは{Male=お兄ちゃん;Female=お姉ちゃん}に任せるね。アンコ、信じてる！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "アンコが離れるタイミングを見計らっていたのか、アブ大王はあなたのよく知った人を何人か連れて戻ってきた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "ふっふっふ。油断させるために一度去って、また戻ってきたのだ！びっくりしただろう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "世界を救う勇者メェとあっさり別行動をとるとは、勇者ニャーは噂ほど賢くなさそうだな。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 376,
+              "PlotLineKey": "やっぱり、{PlayerName}{Male=と呼んでくれ……;Female=って呼んで……}",
+              "PlayVoice": false,
+              "JumpToId": 22
+            },
+            {
+              "TextId": 377,
+              "PlotLineKey": "{Male=あんたを倒すくらい、俺だけで充分だ！;Female=あんたを倒すくらい、私だけで充分！}",
+              "PlayVoice": false,
+              "JumpToId": 23
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "ふっふっふ。お前にはユーモアが足りないな。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 24
+        },
+        {
+          "Id": 23,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "よく言ったぞ、勇者ニャー！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 24
+        },
+        {
+          "Id": 24,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "さて、我と遊ぼうじゃないか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "未知なる地へ向かい、我の子分に挑戦し、これまでの仲間を救い、最後に我と大決戦を繰り広げる！これぞ最も王道なストーリーだ。面白いに違いない！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "ほら、最初の仲間として団子をいくつかやるぞ。弱い者いじめって言われたら、たまらないからな……ふっふっふ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "じゃあ、我は帰って待つとしよう。絶対に来るんだぞ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 32,
+          "Speaker": "Narrator",
+          "PlotLineKey": "コントロールコアを呑み込んだアブ大王は、事実上、第二ソラリスをコントロールしている。大王は団子たちを人質に取り、勇者の遊びに付き合うよう脅してきた。アブ大王とアブの間には何らかの繋がりがあると考え、あなたは遊ぶことにした。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 6
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "ごめんなさい、また面倒なことに巻き込んでしまって。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 392,
+              "PlotLineKey": "{Male=自分一人で抱え込む必要はない。;Female=自分一人で抱え込む必要はないよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 393,
+              "PlotLineKey": "{Male=面倒事だとしても、一緒に解決すればいいんだ。;Female=面倒事だとしても、一緒に解決すればいいんだよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "ええ、分かっている……前にテティスシステムを修正した時と同じように、私たちで問題を解決しましょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "テティスが警告を発した時、私はすぐにこの第二ソラリスと呼ばれているソノラに接続を試みた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "でもおかしなことに、アブ大王と名乗る個体に<te href=800007>通路</te>を遮断された。反響団子ひとつ分のデータしか送り込めなかった。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 394,
+              "PlotLineKey": "{Male=つまり、あなたは本物のショアキーパーなのか？;Female=つまり、あなたは本物のショアキーパーなの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "いいえ、ほかの反響団子と同じように、私も本体から完全に独立した存在。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 395,
+              "PlotLineKey": "{Male=だったら、あのアブ大王も反響団子なのか？;Female=じゃあ、あのアブ大王も反響団子なの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "それについては、まだ何も言えない。アブには元々分からないことが多いから、生成されるまでの過程はより複雑になっている。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "でも、アブ大王に触れることができれば、もっと情報が得られるはず。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "勇者ニャー……いえ、{PlayerName}、トラブルにでも遭いましたか？何か手伝えることはないですか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 441,
+              "PlotLineKey": "（状況を簡単に説明する）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "なるほど。つまり、皆さんが現在閉じ込められているこの<ano=第二ソラリス><te href=800006>ソノラ</te></ano>は、アブから分化したアブ大王によって作られた、ということですか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "そして、ここを離れるには、散り散りになった団子の仲間たちを助け、アブ大王を倒し、皆で新しい<ano=コントロールコア>お祭りのケーキ</ano>を作らなければならない、と。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 442,
+              "PlotLineKey": "{Male=さすが今汐だ、飲み込みが早いな。;Female=さすが今汐、飲み込みが早いね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "{PlayerName}……散華や桃祈さん、それと忌炎将軍の居場所は分かりますか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "祭りの時期ですから、今は今州の仕事が立て込んでいます。もし重要な責任者が何人もここに閉じ込められているとしたら……場合によっては急いで対策を練る必要が出てきますから。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "前に今汐と会った季節に合わせて、反響団子は春のイメージでシミュレーションしている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "テティスのシミュレーションによるイメージのはずだが、本物の今汐とよく似ている……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=安心してくれ、外の人たちは影響を受けない。;Female=安心して、外の人たちは影響を受けない。}",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 443,
+              "PlotLineKey": "{Male=休暇中のちょっとしたトラブルみたいなものだ、今汐。;Female=休暇中のちょっとしたトラブルみたいなものだよ、今汐。}",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 444,
+              "PlotLineKey": "{Male=今度も頼りにしてるからな、今汐。;Female=今度も頼りにしてるからね、今汐。}",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "でしたら……いえ、今州の危機ではなかったとしても、ケーキの危機は差し迫っている状況でしたね。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "余こそ、頼りにしています。{PlayerName}は今州の客人でもあり、恩人でもありますから。恩返しのためにも、全力で協力しましょう。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "もし危機を解決したら、このソノラを一緒に見て回りませんか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "あなたにもきっと休息が必要だと、そう思うのです。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "ケーキの修復作業は余にお任せを。{PlayerName}はアブ大王に専念してください。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 719,
+              "PlotLineKey": "お疲れ様。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "当然のことをしたまでです。むしろ何かしていないと、心が落ち着きません。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "{PlayerName}……あなたこそ、今州を離れてから帰ってくるまでの間……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "ずっとこうして、誰かを救うために奔走していたのですか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 720,
+              "PlotLineKey": "さあ……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 721,
+              "PlotLineKey": "{Male=助けを必要としてる人がいるからな。;Female=助けを必要としてる人がいるからね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "そうですね。助けを必要としている人は、常にいますから。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "そういえば……あなたの<te href=800006>ソノラ</te>に存在するアブ大王ですが、悪事を働いたわけでも、人の心を惑わしたわけでもないようです。ただ皆さんを……いえ、あなたをここに閉じ込めたかっただけのような……いったい何のためでしょう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "……もしかすると、あなたを使命から解放し、ひとときの安らぎを与えたかったのではありませんか？",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 15
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "{PlayerName}、カルロッタさんから聞いた話ですが、ラグーナのカルネヴァーレでは、不思議な音骸のパレードや盛大な劇団の舞台に仮面舞踏会まであるようですね！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "これらのイベントに、{PlayerName}も参加したのですか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 747,
+              "PlotLineKey": "参加した。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 748,
+              "PlotLineKey": "確かに賑やかだった。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "そうでしたか……ラグーナのイベントを月追祭と融合させたら、今州の皆さんは喜んでくれるでしょうか。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "今汐（コンシ）",
+          "PlotLineKey": "{PlayerName}、その時は顧問として何かアドバイスを頂いてもよろしいですか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 749,
+              "PlotLineKey": "{Male=ああ、任せてくれ！;Female=ええ、任せて！}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ],
+      "State": 16
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "本当に不思議な場所ね。テティスの噂はかねがね聞いているけど、やはり百聞は一見に如かず。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 413,
+              "PlotLineKey": "{Male=ずいぶんと余裕そうだな。;Female=ずいぶんと余裕そうだね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "状況が状況だからね。妾がうろたえたところで、何も変わらない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "それに{PlayerName}、あなたの記憶の中でこんな経験ができる機会は滅多にないわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "コーヒーのほうが好きなのかしら？この広場に茶道具は置かれていないようね。今度、碁に誘う時は気をつけておかないと。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 414,
+              "PlotLineKey": "{Male=長離が用意してくれるなら、何でも嬉しい。;Female=長離が用意してくれるなら、何でも嬉しいよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 415,
+              "PlotLineKey": "{Male=客は主人に従うものだ。長離の好きなほうを選んでくれ。;Female=客は主人に従うものでしょ。長離の好きなほうを選んで。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "ふふ。そう言われたら、逆にとっておきのおもてなしをしないと、こちらの誠意が足りないと思われるわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "そういえば{PlayerName}、ここは第二ソラリスと呼ばれているのかしら？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "面白いわね。妾の知る限り、第二ソラリスはまだテスト中。こんな規模のものがあるだなんて……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "もし、これがあなたの記憶によって構築された世界だとしたら、妾たちの記憶の間には、何らかの時間差が存在しているでしょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "そうね、あなたが「未来」から来たのか、それとも妾が「過去」から来たのか……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 416,
+              "PlotLineKey": "{Male=コホン、そこまでだ、長離。;Female=コホン、そこまでよ、長離。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 417,
+              "PlotLineKey": "{Male=今回は何も考えずにいこう、長離。;Female=今回は何も考えずにいきましょ、長離。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "ふふっ。大丈夫、秘密にしてあげる。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 783,
+              "PlotLineKey": "{Male=長離……その左手の火傷、治ったのか？;Female=長離……その左手の火傷、治ったの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "え……？あぁ、本当ね。言われるまで気づかなかった。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 784,
+              "PlotLineKey": "それはいいことなのか、悪いことなのか……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "良いも悪いもないわ……幼い頃、離火を使った小さな代償よ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 785,
+              "PlotLineKey": "じゃあ、その傷は今……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "もう気にしてなどいないよ。これはもはや代償ですらないもの。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 786,
+              "PlotLineKey": "{Male=激辛料理はやめたほうがいいって、誰かが言ってたな。;Female=激辛料理はやめておいたほうがいいって、誰かが言ってたよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "ふふ、辛いのが好きなのも、離火を使った小さな代償のひとつ。ただ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "その言伝は、この<te href=800006>ソノラ</te>を出てから妾に言ってあげて。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "きっと、喜ぶはずよ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 17
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "アブ大王がゲーム内資産を利用シテ、迷宮を作り上げたみたいダ。グヌヌ……憎きアブ大王メ、第二ソラリスがメチャクチャになってるじゃないカ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "自分の「魔王城」だと宣言までシテル、ひどスギル！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 462,
+              "PlotLineKey": "{Male=そんなイタズラっ子には、お仕置きが必要だな。;Female=そんなイタズラっ子にはお仕置きが必要だね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 463,
+              "PlotLineKey": "{Male=俺に任せてくれ。;Female=私に任せて。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "とても頼もシイ。涙を流す機能がアレバ、ショートするまで泣いてるはずダ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "アブ大王がイタズラしているエリアを特定シタ、準備ができたら出発しようカ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "魔王城に向かう準備はできたノ？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 469,
+              "PlotLineKey": "行こう！",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 470,
+              "PlotLineKey": "少し待ってほしい。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "みんなと離れているところで、ツバキ団子が歌を口ずさんでいる。彼女は一人で過ごす時間を楽しんでいるようだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ツバキ",
+          "PlotLineKey": "あら～どうしたの？みんなのそばにいなくて大丈夫？ふふっ、それとも……ずっと私と一緒にいたいの？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 478,
+              "PlotLineKey": "（ツバキのそばにいる）",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 479,
+              "PlotLineKey": "（みんなのところに行く）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "ツバキ",
+          "PlotLineKey": "まだ用事があるんでしょ。分かってるから、早く行って。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ツバキ",
+          "PlotLineKey": "私はここで見守ってる。これからの遊びも、きっと楽しくなるだろうね～。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ツバキ",
+          "PlotLineKey": "ソラリスの救済は、とても長い旅路。せっかくもらえた休憩は、存分に楽しまないと。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ツバキ",
+          "PlotLineKey": "行ってらっしゃい、私のリーダー。ゆっくり休暇を楽しんできて。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "おお、ちょうどいいところに！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "この祭りに相応しい派手な演出を考えていたんだが、広場の後ろには何があったら面白いと思う？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "……なんと、大砲を見つけたんだ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 487,
+              "PlotLineKey": "それで……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "セーラーに大砲、何か思いつかないか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 488,
+              "PlotLineKey": "危ないアイデアが浮かんできた。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 489,
+              "PlotLineKey": "あれをやってくれる……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "ブラント",
+          "PlotLineKey": "はっはっは、楽しみにしててくれ！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "主座様を連れて行ったのは気に入らないが、我の縄張りを乗っ取ろうとした悪い奴も一緒だから許してやる！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "ふっふっふ。これで10層目は、もうすぐ我のものになる！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 811,
+              "PlotLineKey": "それはどうかな。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 812,
+              "PlotLineKey": "{Male=カルロッタのことを甘く見てるな。;Female=カルロッタのことを甘く見てるね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "ふん、お前は自分の心配をしたほうがいい。魔王として、我もちょっと本気を出してやろう！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "次は三人の幹部を出すぞ。みんなの特技に精々驚くんだな……ふっふっふ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "それじゃあ、早く挑戦に来い！……あっ、いけない、忘れるところだった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "ちゃんと楽しめたか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 568,
+              "PlotLineKey": "{Male=楽しかったぞ！;Female=楽しかったよ！}",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 569,
+              "PlotLineKey": "{Male=まあまあだな。;Female=まあまあだね。}",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 570,
+              "PlotLineKey": "楽しくなかった！",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "ふっふっふ、ならいい！それじゃあ、戻って待ってるぞ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "なに、まあまあだと！？そう言われたら、もっといいものを用意するしかないな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "たたた、楽しくなかったのか！？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "も、もうちょっと時間をくれ。我が今までの遊びを振り返ってみる！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "アブ大王",
+          "PlotLineKey": "いいか？ゆっくり来てくれ……でも、そこまで遅く来る必要はない！とにかく、絶対に来るんだぞ、待ってるからな！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ザンニー",
+          "PlotLineKey": "う……ふぅ……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 500,
+              "PlotLineKey": "ザンニー？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ザンニー",
+          "PlotLineKey": "あぁ、打刻を忘れていた……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 501,
+              "PlotLineKey": "{Male=ちゃんと寝られたのか？;Female=ちゃんと寝られたの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 502,
+              "PlotLineKey": "{Male=仕事をしてたのか……？;Female=仕事をしてたの……？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "アブ",
+          "PlotLineKey": "怖いぞ、夢でも仕事のことを考えてるなんて！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ザンニー",
+          "PlotLineKey": "はい……問題ありません。スケジュールは空いています……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アブ",
+          "PlotLineKey": "いい加減起きろ！もう仕事はしなくていい！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "アブ大王さんは、どうしているんでしょうか。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 541,
+              "PlotLineKey": "{Male=どうせ懺悔はしてないだろう。;Female=どうせ懺悔はしてないでしょう。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 542,
+              "PlotLineKey": "{Male=また何か悪巧みでも考えてるんじゃないのか？;Female=また何か悪巧みでも考えてるんじゃない？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "アブ大王さん、そんなに悪い子ではないと思います。イタズラは彼なりの生き方というか、使命というか……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "フィービー",
+          "PlotLineKey": "嫌われるよりも、忘れられてしまうほうが怖いのかもしれません。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 543,
+              "PlotLineKey": "{Male=じゃあ、アブ大王も誘ってこようか？;Female=じゃあ、アブ大王も誘ってこようかな？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "フィービー",
+          "PlotLineKey": "ええと、それはやめたおいたほうが良いと思いますが……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "フィービー",
+          "PlotLineKey": "アブ大王さんと交流する一番の方法は、この魔王と勇者のゲームに付き合ってあげることなんじゃないかと思います！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 544,
+              "PlotLineKey": "{Male=俺に任せてくれ。;Female=私に任せて。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 545,
+              "PlotLineKey": "{Male=それなら得意だ。;Female=それなら得意だよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あら、英雄様……また悪さをしてないか心配で、様子でも見に来たのかしら？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 514,
+              "PlotLineKey": "{Male=すっかり休暇モードだな。;Female=すっかり休暇モードだね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふふ、こんなチャンスは滅多にないもの。いつまでも、こうしていられたらいいわね。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 515,
+              "PlotLineKey": "{Male=ずっといてもかまわない。;Female=ずっといてもかまわないよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたこそどう思っているのかしら？大きい目標を達成して、また身を引くつもりね？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしの心を揺さぶるだけ揺さぶっておきながら、次の出会いを期待させてどこかへ行ってしまうなんて、薄情な人だわ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 516,
+              "PlotLineKey": "（どうやって言い返そう）",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 517,
+              "PlotLineKey": "（黙り込む）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふふ、冗談よ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "さあ、頭を悩ませずに、今は休暇を楽しみましょう。何せ、せっかくの休暇だもの。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "ようやく全ての団子を救い出せましたネ。お疲れ様デシタ、{PlayerName}！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "クハッピー",
+          "PlotLineKey": "それじゃあ、<ano=コントロールコア>お祭りのケーキ</ano>を起動シテ、お祭りを始めマスヨ。準備はできましたカ？",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 2
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カルテジア",
+          "PlotLineKey": "ふふっ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 529,
+              "PlotLineKey": "{Male=ずっと笑顔だな。;Female=ずっと笑顔だね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "カルテジア",
+          "PlotLineKey": "皆さんに楽しんでいただけて、とても嬉しいです！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カルテジア",
+          "PlotLineKey": "ありがとうございます！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 530,
+              "PlotLineKey": "{Male=当然だ。;Female=当然だよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "カルテジア",
+          "PlotLineKey": "ええ。お祭りの開催を通して、皆さんに気持ちを伝えることができました。今まで頑張った分、好きなだけ楽しんでもらいたいんです！これは毎日を一生懸命に生きている皆さんに、私からのご褒美です！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カルテジア",
+          "PlotLineKey": "皆さん、{PlayerName}様の努力を分かっていると思います。だから{PlayerName}様も、今日は思う存分楽しんでください！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

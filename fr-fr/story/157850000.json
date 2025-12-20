@@ -1,0 +1,238 @@
+{
+  "Id": 157850000,
+  "Name": "Rêve corrompu",
+  "Description": "Relever les défis du « Tour de rêve » et vaincre les cauchemars aux Nœuds oniriques.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 157850000,
+  "ShowQuestList": [],
+  "QuestDesc": "Relever les défis du « Tour de rêve » et vaincre les cauchemars aux Nœuds oniriques.",
+  "Conditions": [
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 157850001
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 169850002
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 169850000
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 169850004
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "{PlayerName}. Tu m'entends ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Je viens de recevoir la confirmation que la Discordance Taciturne de Cauchemar apparue à Septimont a été éliminée,  <br>et ce, grâce à ta lame. Beau travail.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 51,
+              "PlotLineKey": "C'était un plaisir.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 52,
+              "PlotLineKey": "Juste un touriste amical qui passait par là.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Cette marche que vous avez effectuée nous a certainement surpris. En fait, nous avons réussi à découvrir quelque chose d'unique dans l'échantillon du Septimont Dreamscape.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Que ce soit purement par hasard ou l'œuvre du destin, cela vaut la peine d'y réfléchir. En fait, nous avons réussi à découvrir quelque chose d'unique dans l'échantillon du Septimont Dreamscape.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Je suis sûr que vous avez encore des souvenirs de l'invitation que vous avez reçue pour le Festival du Film Somnoire, n'est-ce pas ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 53,
+              "PlotLineKey": "Oui.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 54,
+              "PlotLineKey": "Pas vraiment.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Eh bien, cela rendra l'explication beaucoup plus facile.  <br>Cela nous a préoccupés depuis que nous avons appris l'existence de l'invitation.  <br>Après tout, la Zone des Eaux Profondes a toujours été un domaine dont nous n'avons pas encore perçu les secrets.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Les échantillons de données collectés depuis Septimont révèlent une fréquence similaire. Nous pensons que c'est ainsi que l'invitation vous est parvenue après avoir traversé la Zone des Eaux Profondes en utilisant les signatures uniques de cette fréquence.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Ne vous inquiétez pas. En résumé, nous avons réussi à avoir une idée générale de la raison derrière l'augmentation soudaine de l'activité dans les profondeurs du Somnoire.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Cependant, il nous manque encore suffisamment d'échantillons pour vérifier notre hypothèse.  <br>Si cela ne vous dérange pas, nous aimerions que vous retiriez les Discordes taciturnes restantes du Cauchemar.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Leurs coordonnées ont été envoyées à votre Borne. Comme d'habitude, vous serez récompensé pour votre travail acharné. Nous apprécions votre aide, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Nous avons confirmé et rassemblé tous les échantillons de Paysage de Rêve, {PlayerName}. Bien joué.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 67,
+              "PlotLineKey": "Qu'as-tu trouvé ?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 68,
+              "PlotLineKey": "Je vais prendre mes récompenses.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Concierge blanc",
+          "PlotLineKey": "Désolé de te l'annoncer, {PlayerName}. Les choses sont plus compliquées que prévu. Miaou ! Nous avons même retrouvé le cinéma de la dernière fois dans ces échantillons.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Concierge blanc",
+          "PlotLineKey": "T'en fais pas, tu auras ta récompense. Promis. Miaou !  <br>Devine quoi, {PlayerName} ? On a retrouvé le cinéma de la dernière fois dans ces échantillons.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "N'interrompez pas. C'est moi qui fais le rapport !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Concierge blanc",
+          "PlotLineKey": "...Miaou.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Je vais faire court. Les Discordances taciturnes cauchemardesques de Septimont émettent une fréquence unique.  <br>Elle peut rétablir la connexion avec les Profondeurs, comme lors de l'envoi de l'invitation.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Une chose est certaine, la connexion coupée du Somnoire de Rinascita y est liée.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Cependant, jusqu'à présent, nous ne parvenons pas à identifier l'origine de la fréquence.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Concierge blanc",
+          "PlotLineKey": "Notre théorie est que la Marée Noire pourrait en être la cause ! Les échantillons de Cauchemar que nous avons collectés montrent des signes de Marée Noire partout !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Combien de fois faut-il que je te dise que c'est moi qui fais le rapport !  <br>Garde tes idées absurdes pour toi !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Très bien. La situation dans les Profondeurs reste floue,  <br>mais il ne fait aucun doute que la Somnoire et la Rinascita continueront de succomber à l'influence de cette fréquence.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Reste bien à l'affût des Discordances taciturnes cauchemardesques durant tes voyages à travers Rinascita, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

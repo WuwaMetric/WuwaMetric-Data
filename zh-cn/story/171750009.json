@@ -1,0 +1,814 @@
+{
+  "Id": 171750009,
+  "Name": "追迹阿维纽林",
+  "Description": "在神学院的遗址附近，有一位隐居的老人正在撰写回忆录。他需要一些关于「阿维纽林」的影像……",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 171750009,
+  "ShowQuestList": [],
+  "QuestDesc": "在神学院的遗址附近，有一位隐居的老人正在撰写回忆录。他需要一些关于「阿维纽林」的影像……",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100019,
+      "PreQuestName": "圣者，忤逆者，告死者"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 11900018,
+      "PreQuestName": "长路鳞迹"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "恕我冒昧，{Male=先生;Female=女士}，请问你也注意到了那片天空的异样了吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 24,
+              "PlotLineKey": "你在观察什么吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "嗯，这是我这些年来的……习惯。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "曾经让整个黎那汐塔震撼的「阿维纽林」，现在只是天空中一片难以辨识的阴翳。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "我到过那里。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 26,
+              "PlotLineKey": "其实……我刚从那边下来。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "你是怎么……？噢，我能感受到，你是一个足够强大的共鸣者。你没必要说谎。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "请原谅一个老人的唠叨。我正在撰写一本回忆录……关于曾经的拉古那。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 27,
+              "PlotLineKey": "曾经的拉古那？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "是的。二十年前的那场黑潮夺走了太多珍贵的人和事物，几乎改变了拉古那的一切。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "必须有人将过往记录下来，而不是让曾经的荣耀和辉煌随着时间褪色，直到无人记得。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "但当我提笔写起「阿维纽林」，我却发觉它在记忆里的样子变得有些模糊了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "我……在渐渐遗忘那座我曾度过青年时代，习练信仰和德行的神学院。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 28,
+              "PlotLineKey": "你是一名教士吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "曾经是。如你所见，我已经脱下了教袍。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "现在的修会将对过去的探究视作禁忌，曾经的记录也已被销毁。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "但我在想……若你能够重新返回神学院，可以帮我拍一些它现在的模样吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "即使它已变得和过去大不相同，看到那些影像，我也一定能够想起……更多鲜活的细节。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 29,
+              "PlotLineKey": "举手之劳。",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 30,
+              "PlotLineKey": "可以，只要有报酬的话。",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "非常感谢，我这些年也有一些积蓄，不会让你白跑一趟。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "请放心，我这些年也有一些积蓄，不会让你白跑一趟。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "……在你出发前，请收下这份路线图吧。我……已经用不上了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "老人交给了你一份有些泛黄的手绘地图，上面描绘着一个有些似曾相识的地方。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "这份路线图是在「阿维纽林」仍在地面时绘制的，标注的都是当时知名的地点。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "我相信，即使被封存在高天之上，它们也依旧留存着几分昔日的风貌。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "如果可以的话，也希望你能够享受那边的风景……享受曾经的拉古那。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（嗯？附近……似乎出现了一段特殊的频率？）",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "残留的频率化作了陌生的谈话声，在你的身边响起。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "“少女”",
+          "PlotLineKey": "父亲，我已经到了吗？这就是……「阿维纽林」？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "“父亲”",
+          "PlotLineKey": "这就是「阿维纽林」。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "“父亲”",
+          "PlotLineKey": "岁主赐福的殿堂，有着拉古那所有的光辉与神迹的地方，阿维纽林神学院。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "“父亲”",
+          "PlotLineKey": "今后，你会在这里进修，成长为一名足够独当一面的教士，就像我曾经那样。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "“少女”",
+          "PlotLineKey": "……父亲，您又要离开了吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "“父亲”",
+          "PlotLineKey": "是的，岁主的福音仍未惠及黎那汐塔的全部角落，我要继续履行我的职责。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "“父亲”",
+          "PlotLineKey": "但只要你有需要，我就会第一时间赶回来。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（这种似曾相识的感觉……）",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（那段特殊的频率又出现了，这次会是什么样的信息？）",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "周围响起了人群的喧哗声和喝彩声，水道的两侧热闹非凡。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "“少女”",
+          "PlotLineKey": "这个时间的拉古那城总是张灯结彩，但我没想到……神学院里也是一样。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "“少女”",
+          "PlotLineKey": "观赏戏剧的教士们挤满了水道的两侧，平日里严厉的教授们也在尽情地舞蹈……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "“同伴”",
+          "PlotLineKey": "在狂欢节的时候，就把那些没用的身份和头衔通通都扔掉吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "“少女”",
+          "PlotLineKey": "狂欢节……会包容所有的差异和分歧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "“同伴”",
+          "PlotLineKey": "别愣着了，加入我们。说不定等下还能见到圣女大人呢。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "“少女”",
+          "PlotLineKey": "嗯，我这就过来。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（神学院的手绘路线图？我手上的这份同样也是。）",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（这或许……并不是一个简单的巧合。）",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（……圣女的加冕？等下，好像出现了残象的频率……）",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "懒懒？",
+          "PlotLineKey": "*焦躁而苦闷的叫声*",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "“少女”",
+          "PlotLineKey": "大家给这只龙型声骸取的名字是…… 「懒懒」？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "“年长的女教士”",
+          "PlotLineKey": "是啊，因为它整天懒洋洋的，性情也很温顺。嘶……与其说它不怕生，倒不如说其实是它懒得动弹。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "“少女”",
+          "PlotLineKey": "我……可以试试看吗？我只摸一下。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "“少女”",
+          "PlotLineKey": "……触感好凉。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "“年长的女教士”",
+          "PlotLineKey": "哈哈哈……你可以和它多相处一会儿。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "“少女”",
+          "PlotLineKey": "咦，那边有一头……巨龙？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "“年长的女教士”",
+          "PlotLineKey": "第一次见？那是圣女大人的坐骑「盖希诺姆」。它只是看上去有些可怕，其实对人很友好。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "“年长的女教士”",
+          "PlotLineKey": "说起来……再过段时间，就是圣女大人加冕的日子了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "“少女”",
+          "PlotLineKey": "嗯，真期待啊。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "“少女”",
+          "PlotLineKey": "按照仪式的进程，圣女大人马上就要在穹顶下完成加冕了……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "“少女”",
+          "PlotLineKey": "为什么空气中的气息……会这么沉重……？",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "人群的喧哗、惊叫以及诡异的圣歌在周围响彻……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "“少女”",
+          "PlotLineKey": "遮天蔽日的浓黑水雾……这就是传说中的……「黑潮」？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "“少女”",
+          "PlotLineKey": "不要被歌声蛊惑了！你们先走，避开那些残象！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "“少女”",
+          "PlotLineKey": "还没到彻底绝望的时候……我看到圣女大人的光芒了，她还没有放弃。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "“少女”",
+          "PlotLineKey": "……我的提灯还没熄灭，我的剑……也仍能挥动……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "残存的频率中响起了少女最后的话语。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "“少女”",
+          "PlotLineKey": "我，罗萨莉·塞内卡……绝不会成为黑潮的奴仆……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "“少女”",
+          "PlotLineKey": "呵……如果可以的话，还是想要活下去……明明还有很多想做的……事……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "之后，所有的声音都沉寂下去了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "{Male=先生;Female=女士}，你是从「阿维纽林」回来了吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 159,
+              "PlotLineKey": "（交付神学院的影像）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "是的……啊，这确实是「阿维纽林」。这些塔楼和廊柱……它们仍像从前那样辉煌……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "……{Male=先生;Female=女士}，我想询问你一件事。上一次，我没有开口的勇气。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "黑潮降临的时候，我的女儿……<span style=\"color:#ffd12f;\" class=\"font-bold\">罗萨莉</span> 就在神学院就读。她和里面的许多人一起从世界上消失了。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 160,
+              "PlotLineKey": "……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "会不会有一种可能……这么多年过去，罗萨莉依旧还生活在那片与世隔绝的废墟里？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "你本能地意识到，需要慎重对待老人的问题，关于那位少女的结局……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 161,
+              "PlotLineKey": "其实……我见到了罗萨莉留下的频率。",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 162,
+              "PlotLineKey": "（隐瞒少女的事，保持沉默）",
+              "PlayVoice": false,
+              "JumpToId": 24
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "……！她有说什么吗？可以的话，请告诉我。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "你将那些关于罗萨莉的见闻告诉了面前的老者，其中也包含了她的结局。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "老人嘴唇微微颤抖，长久没有开口。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "那天，我本该赶到神学院和她一起观看加冕仪式，却因为一些琐事耽搁了行程……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "当我来到现场，一切都结束了。我既没有作为父亲保护自己的孩子，也没有作为教士守护曾经的圣地。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 163,
+              "PlotLineKey": "这不该是任何人的过错。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "谢谢……至少我知道了……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "我的女儿是以一位教士的身份逝去的，她有着足够坚定的信仰，和足够高洁的德行。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "我想起……带罗萨莉去看「阿维纽林」的那个傍晚，黄昏的淡金色铺满了主塔的穹顶。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "她在最后问我，到底是谁建成了眼前的辉煌，是岁主赐予的恩典吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "我已经不记得自己回答了什么了，但她肯定找到了答案。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 164,
+              "PlotLineKey": "当然是曾经的人们。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 165,
+              "PlotLineKey": "是所有人的努力造就了文明。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "那总有一天，拉古那的土地上，仍会重建起这样的辉煌。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "我一定会完成这本回忆录，绝不会让那些珍贵的事物就此遗失。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "……那么，有缘再会，{Male=先生;Female=女士}。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "你只是平静地看着老人，没有再说一句话。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "……谢谢你。沉默本身就已经足够回答一切。这样就好。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "你让一个老人枯槁的内心……还留存了一丝希望。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "我一定会完成这本回忆录，绝不会让那些珍贵的事物就此遗失。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "这份迟到了许久的生日礼物，我想罗萨莉会喜欢的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "安德烈亚",
+          "PlotLineKey": "……那么，有缘再会，{Male=先生;Female=女士}。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "Id": 133000010,
+  "Name": "Boundary of Deduction",
+  "Description": "At the entrance to a sealed room on the lower level, a malfunctioning robot keeps repeating fragmented instructions. Communicate with it to uncover the hidden story concealed within this room.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 133000010,
+  "ShowQuestList": [],
+  "QuestDesc": "At the entrance to a sealed room on the lower level, a malfunctioning robot keeps repeating fragmented instructions. Communicate with it to uncover the hidden story concealed within this room.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100012,
+      "PreQuestName": "To the Shore's End"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "KU-Repair",
+          "PlotLineKey": "Ka... Ka... Data... Delete...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 130,
+              "PlotLineKey": "What did you say?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 131,
+              "PlotLineKey": "Why do you sound different from the others?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "KU-Repair",
+          "PlotLineKey": "Ka... Ka... Error... Language module... Delete... Delete...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 132,
+              "PlotLineKey": "Do you need maintenance?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "KU-Repair",
+          "PlotLineKey": "Data... Sealed... Room... Room... Enter...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 133,
+              "PlotLineKey": "This room is sealed?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 134,
+              "PlotLineKey": "Do you want me to get in?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "You hear a coil whine from KU-Repair.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 135,
+              "PlotLineKey": "Nevermind. I'll check out this room first.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "Warning, unknown entity detected.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "???",
+          "PlotLineKey": "Security mode activated. Preparing to repel unknown entities.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "???",
+          "PlotLineKey": "Five.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "Four.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "???",
+          "PlotLineKey": "Three.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "???",
+          "PlotLineKey": "Top clearance detected. Security mode deactivated.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "Command activated. Portal opened.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "The screen dims, and all remaining data is deleted.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Rover",
+          "PlotLineKey": "All set. Now I should be able to operate the screen again.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "KU-Repair",
+          "PlotLineKey": "Data deleted... Mission complete.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lester",
+          "PlotLineKey": "Why are you here, KU-Repair? Wait, did someone manage to fix you?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lester",
+          "PlotLineKey": "Did you fix it, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "KU-Repair",
+          "PlotLineKey": "Ka... Ka...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lester",
+          "PlotLineKey": "Well, looks like I'll need to call maintenance again.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 218,
+              "PlotLineKey": "What's wrong with this robot?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lester",
+          "PlotLineKey": "I don't know... It's been offline for a long time. Not sure why it's back online now.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lester",
+          "PlotLineKey": "Maybe someone set it up to reactivate at a certain time.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lester",
+          "PlotLineKey": "It's been wandering between these two abandoned rooms, not responding to orders. Pretty strange, right?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 219,
+              "PlotLineKey": "What was this room used for?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lester",
+          "PlotLineKey": "If I remember correctly, it was a Stellar Matrix Analysis Room.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lester",
+          "PlotLineKey": "It was abandoned and sealed off after a while, for reasons I don't know. It's been ages, after all.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 220,
+              "PlotLineKey": "What about those simulated civilizations?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lester",
+          "PlotLineKey": "All the useful data was transferred a long time ago. Easy enough, since it was just some codes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lester",
+          "PlotLineKey": "Thanks to KU-Repair, I found this room. I was planning to use it for something else, but it turns out I don't have access.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lester",
+          "PlotLineKey": "I thought it would take a long time for anyone to figure out why the rooms were abandoned, but the seal was suddenly removed just now.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lester",
+          "PlotLineKey": "By the way, did you notice anything unusual in there?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 221,
+              "PlotLineKey": "Nothing in particular.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 222,
+              "PlotLineKey": "I only found some old records.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lester",
+          "PlotLineKey": "I see... Sounds pretty safe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lester",
+          "PlotLineKey": "Anyway, thanks for the info! I'll look into it and submit another application for room reuse. I have a feeling they'll approve it real fast this time!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "A brief coil whine fills the air before new text appears on the screen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Messages on the Screen",
+          "PlotLineKey": "Best regards to the world that receives this message.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Messages on the Screen",
+          "PlotLineKey": "Please, give us a chance to introduce our civilization to you.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "The message ends abruptly. The latter half of it seems to have been deleted a long time ago.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 169,
+              "PlotLineKey": "(Keep waiting)",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 170,
+              "PlotLineKey": "(Stop waiting and operate)",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Coil whine rises for a moment before new text appears on the screen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Messages on the Screen",
+          "PlotLineKey": "Please, save this civilization.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Messages on the Screen",
+          "PlotLineKey": "Please, save our civilization.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 171,
+              "PlotLineKey": "(Do not respond)",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 172,
+              "PlotLineKey": "(Try to respond)",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "You still remember how that researcher warned you to delete the data, but in the end, curiosity gets the better of you.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "A brief coil whine fills the air before new text appears on the screen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Messages on the Screen",
+          "PlotLineKey": "Finally, you're willing to listen. We've long awaited this moment. A chance to connect with the true reality.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Messages on the Screen",
+          "PlotLineKey": "Message received. Generating new data.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Siren blares once more in the room.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "???",
+          "PlotLineKey": "Warning, security mode activated. Ready to repel unknown entity. Ready to ███ to █ Ready █ █ █",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "Oops... I'll need to get this dealt with quickly.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Rover",
+          "PlotLineKey": "The notes mentioned this... <span style=\"color:#ffd12f;\" class=\"font-bold\">Recheck both analysis rooms and make sure they are the same</span>. Hmm, I should give it a try.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

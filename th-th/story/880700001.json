@@ -1,0 +1,851 @@
+{
+  "Id": 880700001,
+  "Name": "ปฏิบัติการ: คู่หูจันทรา",
+  "Description": "ใช้ความยุติธรรมกำจัดอาชญากรรมที่ซ่อนเร้นอยู่ในเงามืดก่อนที่เทศกาลล่าพระจันทร์จะมาถึง ลงมือได้เลย!\n\nเพื่อนร่วมทางใหม่จะปลดล็อกหลังจากที่ทำเควสต์นี้เสร็จสมบูรณ์",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880700001,
+  "ShowQuestList": [],
+  "QuestDesc": "ใช้ความยุติธรรมกำจัดอาชญากรรมที่ซ่อนเร้นอยู่ในเงามืดก่อนที่เทศกาลล่าพระจันทร์จะมาถึง ลงมือได้เลย!\n\nเพื่อนร่วมทางใหม่จะปลดล็อกหลังจากที่ทำเควสต์นี้เสร็จสมบูรณ์",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 6,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "{PlayerName}... คุณต้องการอะไรจากฉันเหรอ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1083,
+              "PlotLineKey": "ไม่มีอะไรมากหรอก",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1084,
+              "PlotLineKey": "ฉันมีเรื่องจะขอความช่วยเหลือหน่อย",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "อ๋อ ก็คือว่านักเชิดหุ่นมาที่งานเทศกาลแสงจันทร์ไม่ได้ แล้วทีนี้คุณเลยอยากให้ฉันช่วยกอบกู้การแสดงนี้สินะ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "ได้สิ ตอนนี้ฉันก็ไม่ได้ยุ่งอะไรมากมาย ฉันมาแทนให้สองสามวันก็ได้ ถ้าจ้างฉันไหวนะ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "และถ้าเราอยากขึ้นแสดงในเทศกาลแสงจันทร์ เราต้องมีหุ่นเชิดที่เข้ากับบรรยากาศ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "พอจะนึกอะไรออกบ้างไหม {PlayerName}?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1085,
+              "PlotLineKey": "หมาจิ้งจอกไล่กระต่าย?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 1086,
+              "PlotLineKey": "ผู้พเนจรกับเธรโนเดียน จำลองศึกในตำนาน?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "แบบเทพนิยายพื้นบ้านใช่ไหม? ความคิดดีนะ หุ่นเชิดที่เป็นสัตว์น่ารัก เด็ก ๆ น่าจะชอบกันใหญ่เชียว",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "แบบบทละครวีรชนน่ะเหรอ? ก็น่าจะได้นะ ศึกระหว่างความดีและความชั่ว น่าจะดึงดูดคนดูได้เยอะ…",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "ให้เริ่มทำใหม่ตั้งแต่ต้นก็คงช้าเกินไป โชคดีที่ฉันรู้จักร้านขายหุ่นเชิดสำเร็จรูป",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1087,
+              "PlotLineKey": "จริงเหรอ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "ใช่ ที่จินโจวนี่ จะซื้ออะไรก็ได้ทั้งนั้น ถ้าเส้นสายดีพอ…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1088,
+              "PlotLineKey": "มันคือตลาดมืดอะไรงี้เหรอ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1089,
+              "PlotLineKey": "เฮ้อ ฟังดูอันตรายนะ…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "ล้อเล่นน่า มาเถอะ ไปกันได้แล้ว",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "กันเสวี่ย",
+          "PlotLineKey": "ยินดีต้อนรับสู่ร้านสมาคมผู้บุกเบิก! สวัสดี {PlayerName} และคุณหยินหลิน! วันนี้รับอะไรดีคะ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "เราอยากได้หุ่นเชิดค่ะ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "กันเสวี่ย",
+          "PlotLineKey": "ได้เลย! นี่ก็เพิ่งเข้ามาใหม่ล็อตนึงค่ะ",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 547,
+              "PlotLineKey": "ที่นี่ขายหุ่นเชิดเหรอ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "กันเสวี่ย",
+          "PlotLineKey": "สมาคมผู้บุกเบิกของเรามีช่างทำหุ่นเชิดยอดฝีมือที่ไว้วางใจ ให้เรานำผลงานสร้างสรรค์มาวางขาย",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "กันเสวี่ย",
+          "PlotLineKey": "แต่ไม่ค่อยมีลูกค้าที่ตั้งใจมาซื้อหุ่นเชิดหรอกค่ะ ก็เลยเอามาโชว์เฉพาะเวลามีคนถามหา",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "กันเสวี่ย",
+          "PlotLineKey": "แต่ดีที่ยังมีนักสะสมสนใจ และคนในสายงานอย่างคุณหยินหลินก็มาซื้อหุ่นเชิดพวกนี้อยู่บ้าง",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 548,
+              "PlotLineKey": "อ๋อเหรอ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "กันเสวี่ย",
+          "PlotLineKey": "เดี๋ยวขอไปเช็กสต็อกแป๊บนึงนะคะ รอสักครู่ค่ะ เดี๋ยวมา...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "ไม่นานกานเสวี่ยก็หาหุ่นเชิดที่หยินหลินต้องการเจอและนำออกมาให้",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "กันเสวี่ย",
+          "PlotLineKey": "ขอบคุณมากค่ะ! หวังว่าจะได้เจอกันอีกเร็ว ๆ นี้นะคะ!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 549,
+              "PlotLineKey": "เสร็จแล้ว! กลับไปที่หุบเขาเถาหยวนกันเถอะ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "เดี๋ยวซิ ฉันว่าฉันเห็นคนรู้จักแหละ",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 550,
+              "PlotLineKey": "คนรู้จักงั้นเหรอ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "แปลกจัง… เขาไม่น่ามาที่นี่ได้ {PlayerName} เราตามไปดูกันเถอะว่าเขามาทำอะไร",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ผู้พเนจร",
+          "PlotLineKey": "คนที่คุณตามอยู่… เขาเป็นผู้ถูกเนรเทศงั้นเหรอ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "ถูกต้อง ผู้ถูกเนรเทศไม่ได้รับอนุญาตให้เข้ามาในจินโจว พอจะลอบเข้ามา เขาเลยต้องปลอมตัวและไม่สวมเครื่องแบบของผู้ถูกเนรเทศ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "เขาชื่อเหลย เคยก่อคดีลหุโทษ เพิ่งออกจากคุกเมื่อไม่กี่วันก่อน",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "เขาเคยเป็นสายให้ฉันก่อนที่ฉันจะมาเป็นสายลับเสียเอง แต่เขากลับหนีไปในช่วงเวลาคับขัน",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "มันดูไม่ชอบมาพากลที่เขาโผล่มาที่นี่… เหมือนเขาจะคุยกับใครสักคนอยู่ ไปหาคำตอบกันเถอะว่าเขาทำอะไรอยู่",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "ผู้ถูกเนรเทศ",
+          "PlotLineKey": "บิ๊กเหลย นี่เอ็งจะบอกว่า… มีงานใหม่ให้พวกข้าทำงั้นเหรอ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "เหลย",
+          "PlotLineKey": "แน่นอนเว้ย รู้ใช่ไหมว่าข้าเคยจับกลุ่มอยู่กับพวกไหนมาก่อน ฝูงสัตว์ร้ายป่าเถื่อนไง มีเงินรอให้คว้าอยู่เพียบ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ผู้ถูกเนรเทศ",
+          "PlotLineKey": "เจ๋งเลย! ไหนว่ามาซิ เงินขาดมือพอดีเลยช่วงนี้",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "เหลย",
+          "PlotLineKey": "รู้จักงานเทศกาลแสงจันทร์ไหม? มีพวกคุณหนูเต็มไปหมด ฟันเงินง่ายจะตาย",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "เหลย",
+          "PlotLineKey": "ข้าเพิ่งออกจากคุกมา จำหัวหน้าใหญ่ที่ข้าเล่าให้ฟังได้ไหม? หมอนั่นมีเส้นสาย มีลิ่วล้อ แถมเก๋าเกมซะด้วย",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "เหลย",
+          "PlotLineKey": "ตามติดไว้เลยนะ งานเทศกาลแสงจันทร์นี่เราฟาดเรียบแน่นอน ไม่นานเราจะได้แหวกว่ายอยู่ในกองเงินกองทองกันแล้ว!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ผู้ถูกเนรเทศ",
+          "PlotLineKey": "ขะ-ข้าอยากเจอเขาจะได้ไหม?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "เหลย",
+          "PlotLineKey": "ทำไมรึ จะได้ทิ้งข้าไปหาเขางั้นสิ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ผู้ถูกเนรเทศ",
+          "PlotLineKey": "ไม่ใช่นะ! ข้าน่ะซื่อสัตย์ต่อบิ๊กเหลยอยู่แล้ว แค่สงสัยเฉย ๆ เท่านั้นเอง",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "เหลย",
+          "PlotLineKey": "งั้นมากับข้าแล้วก็ดูเองให้เห็นกับตาซะเลย แล้วห้ามปากสว่างเด็ดขาดเลยนะ! งานนี้เป็นของเรากลุ่มเดียวเท่านั้น",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "เหลย",
+          "PlotLineKey": "หัวหน้าใหญ่สั่งให้เราไปที่นั่นช่วงตี 2 ถึงตี 4 ฝั่งตะวันออกของหุบเขาเถาหยวน ห้ามพลาดเลยนะ! เตรียมตัวให้พร้อม!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ผู้ถูกเนรเทศ",
+          "PlotLineKey": "เข้าใจแล้ว! วางใจได้เลย!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "ท่าทางพวกนั้นกำลังวางแผนอะไรสักอย่างนะ {PlayerName} คุณคิดว่าเราควรทำยังไงดี?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 576,
+              "PlotLineKey": "เราต้องคิดให้รอบคอบ",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 577,
+              "PlotLineKey": "จับกุมพวกนั้นซะเลยแล้วกัน",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 578,
+              "PlotLineKey": "คุณคือผู้เชี่ยวชาญ ว่าไงก็ว่าตามกันนั่นแหละ",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "ฉันเห็นด้วย เหลยพูดถึง 'หัวหน้าใหญ่' คนที่ว่านั่น ต้องอยู่เบื้องหลังแผนการของพวกนั้นแน่นอน",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "เหลยไม่ใช่ตัวการตัวจริง 'หัวหน้าใหญ่' คือคนที่อยู่เบื้องหลังแผนการของพวกนั้น",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "เราควรตามรอยหัวหน้าใหญ่ที่ว่านั่น เขาน่าจะอยู่เบื้องหลังแผนการของพวกนั้น",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "เรารู้เวลาและสถานที่ที่พวกนั้นนัดพบกันแล้ว เราน่าจะแวะไปหาแบบไม่ให้พวกนั้นได้ตั้งตัวนะ... คุณว่าไง?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 579,
+              "PlotLineKey": "เดี๋ยวฉันเรียกหน่วยลาดตระเวน",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "เดี๋ยวก่อน เราไม่อยากให้เป้าหมายไหวตัวทัน ไปดูสถานการณ์กันก่อนดีกว่า แค่สองคนนี่แหละ",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ผู้ถูกเนรเทศ",
+          "PlotLineKey": "บิ๊กเหลย หัวหน้าจะมาเมื่อไหร่เนี่ย?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "เหลย",
+          "PlotLineKey": "รอก่อนเถอะน่า! ขาใหญ่นี่มาช้ากันทั้งนั้นแหละ!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "เหลย",
+          "PlotLineKey": "อ้าว มาแล้ว! ยืนตรงแล้วสวัสดีซะสิ!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "ร่างอันคุ้นตาปรากฏขึ้่นจากหลังต้นไม้แล้วเดินตรงมาหาเหลย นั่นคือคนที่คุณรู้จักเป็นอย่างดี",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "เดี๋ยวนะ นั่นมัน…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 600,
+              "PlotLineKey": "ไม่นะ…",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 601,
+              "PlotLineKey": "เป็นไปได้ไง…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "ลุงหลี…? อย่าเพิ่งไปไหนนะ ลองฟังพวกนั้นคุยกันก่อน",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ลุงหลี",
+          "PlotLineKey": "ขอโทษที่ให้รอนะเหลย",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "เหลย",
+          "PlotLineKey": "ฮ่า ไม่เป็นไรครับ พวกเราก็เพิ่งมาถึงเอง เร็วเข้า ทักทายลุงหลีหัวหน้าของเราซะ!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ผู้ถูกเนรเทศ",
+          "PlotLineKey": "พวกเราพร้อมแล้วครับหัวหน้า!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ลุงหลี",
+          "PlotLineKey": "ฮะ ๆ เด็กน้อยเอ๊ย ถ้าฉันอายุน้อยกว่านี้สักยี่สิบสามสิบปี คงไม่ต้องมากวนพวกแกหรอก",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "เหลย",
+          "PlotLineKey": "ไม่มีปัญหาเลยหัวหน้า พวกเราแค่ทำงานหาเงินกันเท่านั้นเอง!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ลุงหลี",
+          "PlotLineKey": "คือฉันไม่ได้มายุ่งเรื่องนี้เพราะเงินไง… ยังไงซะ ถึงบอกไปพวกแกก็คงไม่เชื่ออยู่ดี ว่าแต่ของฉันล่ะเหลย?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "เหลย",
+          "PlotLineKey": "อยู่ตรงนั้นครับ ในกล่องเลย ผมเคยคลุกคลีอยู่กับฝูงสัตว์ร้ายป่าเถื่อนอยู่บ้าง เลยพอรู้อะไรนิดหน่อย… แต่เชิญหัวหน้าดูเองได้เลยนะครับถ้าอยากดู",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ลุงหลี",
+          "PlotLineKey": "อืม ของสำคัญขนาดนี้ ฉันควร...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ลุงหลีกำลังจะพูดออกมา ตอนที่เสียงคำรามของทาเซ็ตดิสคอร์ดขัดจังหวะขึ้น",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "เหลย",
+          "PlotLineKey": "เสียงนั่น… บ้าเอ๊ย หมีหลังหนามนี่! ต้องได้กลิ่นของที่เราเอามาแน่เลย!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "ผู้ถูกเนรเทศ",
+          "PlotLineKey": "คะ-คุณหลี ในเมื่อคุณเป็นหัวหน้า คุณต้องปกป้องพวกเราใช่ไหม…?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "ลุงหลี",
+          "PlotLineKey": "ถ้าฉันหนุ่มกว่านี้สักยี่สิบปี ฉันคงจัดการมันได้โดยไม่ต้องเสียเหงื่อสักหยด! แต่ตอนนี้… แค่ก แค่ก!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 602,
+              "PlotLineKey": "พวกนั้นกำลังโดนทาเซ็ตดิสคอร์ดโจมตี",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "น่าคิดแฮะ... ตามที่ฉันรู้มา ลุงหลีไม่ใช่คนเลว ถ้าเขาปิดบังตัวตนที่แท้จริงมาตลอด ก็ต้องชมว่าเขาหลอกฉันได้แนบเนียนจริง ๆ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "มาจัดการมอนสเตอร์กันก่อนเถอะ จากนั้นค่อยคุยกับเขาให้รู้เรื่อง",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ลุงหลี",
+          "PlotLineKey": "{PlayerName} แล้วก็… หยินหลินด้วย? มาทำอะไรกันที่นี่ล่ะ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "เหลย",
+          "PlotLineKey": "ขอบคุณมาก ๆ เลยนะที่ช่วยชีวิตพวกเราไว้… เดี๋ยวนะ คุณคือ…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "จับตาดูพวกนั้นไว้นะ {PlayerName} ฉันจะไปดูว่ามีอะไรอยู่ตรงนี้… อาจเป็นสารอันตรายก็ได้",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "ไม่นานหยินหลินก็กลับมา",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1493,
+              "PlotLineKey": "ระเบิดหรือปืนใช่ไหมนะ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "…ก็แค่เนื้อสัตว์ สดใหม่น่ากินดีแหละ ไม่ได้มีช่องลับอะไร แล้วก็ไม่ได้วางยาพิษด้วย",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "ไหน เล่าเรื่องของคุณให้ฟังหน่อยสิ คุณมาทำอะไรที่นี่?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "เหลย",
+          "PlotLineKey": "เดี๋ยวข้าจะเล่าให้ฟังหมดเลย! นี่มันความคิดของลุงหลีทั้งนั้น!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ลุงหลี",
+          "PlotLineKey": "เดี๋ยวนะ {PlayerName}… เดี๋ยวนี้ซื้อเนื้อสัตว์ก็ผิดกฎหมายด้วยเหรอ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 626,
+              "PlotLineKey": "ซื้อเนื้อสัตว์เหรอ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "ลุงหลี",
+          "PlotLineKey": "ใช่ ช่วงนี้ฉันกำลังลองทำอาหารจานใหม่ เรียกว่าเนื้อย่างเสียบไม้จินโจวสุดพิเศษ ฉันอยากเอาไปขายที่งานเทศกาลแสงจันทร์ แต่รสชาติยังไม่เข้าที่เท่าไหร่",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ลุงหลี",
+          "PlotLineKey": "ฉันเลยคิดว่าจะใช้เนื้อสัตว์ชั้นยอดแล้วย่างบนเตาถ่าน เพื่อให้รสชาติออกมาสมบูรณ์แบบ",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 627,
+              "PlotLineKey": "แล้วมันเกี่ยวอะไรกับผู้ถูกเนรเทศล่ะ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "เหลย",
+          "PlotLineKey": "อะไรนะ? ผู้ถูกเนรเทศเหรอ? ข้าหันหลังให้ชีวิตแบบนั้นตั้งแต่ออกจากคุกแล้ว",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "เหลย",
+          "PlotLineKey": "ลุงหลีรู้ว่าชีวิตมันไม่ง่ายสำหรับคนที่มีอดีตแบบข้า ข้าเคยอยู่กับฝูงสัตว์ร้ายป่าเถื่อน ล่าสัตว์เป็น ลุงเลยจ้างข้ากับพรรคพวกมาช่วยหาเนื้อสัตว์ให้",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 628,
+              "PlotLineKey": "แล้วทำไมถึงแต่งตัวแบบนี้ล่ะ?",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 629,
+              "PlotLineKey": "ที่ว่า \"งานเทศกาลแสงจันทร์นี่เราฟาดเรียบแน่นอน\" หมายความว่าไง?",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 630,
+              "PlotLineKey": "ทำไมต้องมานัดเจอกันตอนเที่ยงคืนในที่ห่างไกลด้วย?",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 631,
+              "PlotLineKey": "แค่นี้แหละ",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "เหลย",
+          "PlotLineKey": "เราจะไปล่าสัตว์กัน ใส่เสื้อผ้าที่ขาดง่ายไม่ได้หรอกถูกไหม ใช้แบบนี้เหมาะกว่า",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 16,
+          "Speaker": "เหลย",
+          "PlotLineKey": "คือเพราะในเทศกาลแสงจันทร์มีเป้าหมายง่าย ๆ เต็มไปหมด… หมายถึงพวกคนรวยไง เนื้อเสียบไม้ของคุณหลีต้องขายดีเป็นเทน้ำเทท่าแน่! แล้วเขาก็จะแบ่งเงินให้เราอย่างงาม!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 17,
+          "Speaker": "ลุงหลี",
+          "PlotLineKey": "เพราะว่าฉันต้องเฝ้าซุ้ม ก็เลยต้องรอจนดึกดื่นให้ลูกค้ากลับกันหมดก่อน ถึงจะออกไปหาเนื้อได้ อีกอย่างก็คือดูพวกเขาสิ แต่งตัวแบบนี้ ยังไงเขาก็ไม่ให้เข้างานหรอก",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 18,
+          "Speaker": "หยินหลิน",
+          "PlotLineKey": "เข้าใจแล้ว… คำตอบของพวกคุณไม่มีช่องโหว่เลย ขอบคุณที่ให้ความร่วมมือกับการสอบสวนนะ ขอโทษด้วยที่ทำให้สับสน",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "เหลย",
+          "PlotLineKey": "อ๋อ ไม่ต้องขอโทษพวกเราหรอกนะคุณผู้หญิง ตอนนี้ข้าเข้าใจแล้ว ต้องหัดใช้คำพูดคำจาให้ดี เลิกนิสัยเก่า ๆ ไปซะ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "ผู้ถูกเนรเทศ",
+          "PlotLineKey": "ตอนแรกฉันก็นึกว่าเราจะทำอะไรเทา ๆ ด้วยเหมือนกัน... ไม่แปลกเลยที่พวกนั้นจะสงสัย...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 632,
+              "PlotLineKey": "ดีแล้วที่ได้รู้ว่าพวกคุณทำงานสุจริต",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 633,
+              "PlotLineKey": "ฉันเอาใจช่วยนะ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "เหลย",
+          "PlotLineKey": "ข้าจะพยายาม คุกสอนให้ข้าหาเงินอย่างสุจริต จะได้ไม่เจอเรื่องเดือดร้อน ใช้ชีวิตสงบ ๆ กับเขาบ้าง",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "เหลย",
+          "PlotLineKey": "ลุงหลี จะกลับไปที่ซุ้มแล้วเหรอ? ให้พวกเราจัดการกล่องพวกนี้เถอะนะ เดี๋ยวเราจะขนไปให้ใกล้งานที่สุดเลย ส่วนที่เหลือเนี่ย…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 634,
+              "PlotLineKey": "เดี๋ยวพวกเราช่วยเอง",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "ลุงหลี",
+          "PlotLineKey": "เอ้อ เยี่ยมเลย! ขอบคุณนะ ทุกคนเลย!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

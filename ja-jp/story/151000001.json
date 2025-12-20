@@ -1,0 +1,119 @@
+{
+  "Id": 151000001,
+  "Name": "海風の中で失われた水色の残響・下",
+  "Description": "黒海岸の下層に向かって、クココと一緒に回遊魚を助ける",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 151000001,
+  "ShowQuestList": [],
+  "QuestDesc": "黒海岸の下層に向かって、クココと一緒に回遊魚を助ける",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 151000000,
+      "PreQuestName": "海風の中で失われた水色の残響・上"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "クココ",
+          "PlotLineKey": "{PlayerName}さん、準備ができたら行キマショウ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "クココ",
+          "PlotLineKey": "汚染データのある場所への道はちょっと入り組んでいるノデ、システムにショアキーパーの姉さんのポータルの臨時権限を申請しまシタ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "クココ",
+          "PlotLineKey": "直接ポータルで行キマショウ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 442,
+              "PlotLineKey": "{Male=そんな機能もあるのか？;Female=そんな機能もあるの？}",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 443,
+              "PlotLineKey": "{Male=俺もそんな機能欲しいかも。;Female=私もそんな機能欲しいかも。}",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "クココ",
+          "PlotLineKey": "ウクク、ワタシは{PlayerName}マスターのアシスタントなんですカラ、こんな機能ぐらいあって当然デス！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "クココ",
+          "PlotLineKey": "自分で使いたいというのナラ……まずは{PlayerName}さんの頭をテティスシステムに繋げて、それカラ……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 444,
+              "PlotLineKey": "やめとく……",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "クココ",
+          "PlotLineKey": "まあ、この前のネクロ・スター事件の時と同じように、装置を使えば、ポータルが使えるようになりますヨ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "クココ",
+          "PlotLineKey": "ウ……とにかくポータル開けますネ、急いデ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 16,
+          "Speaker": "クココ",
+          "PlotLineKey": "ウクク、実はさっき、<ano=ブラックショア>黒海岸</ano>上層でもうこっそり一枚撮ったンデス、合わせてプリントするから受け取っテクダサイネ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "クココ",
+          "PlotLineKey": "そういえば、さっきショアキーパーの姉さんがポータルで助けてくれませんデシタカ？{PlayerName}さん、お姉さんに会いに行ってみてはどうでショウカ？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "クココ",
+          "PlotLineKey": "あの<ano=かいゆう>回遊</ano>魚の群れ、お姉さんも久しぶりに見たのカナ……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

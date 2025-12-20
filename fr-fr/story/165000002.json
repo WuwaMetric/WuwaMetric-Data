@@ -1,0 +1,612 @@
+{
+  "Id": 165000002,
+  "Name": "La Masquée sur les îles",
+  "Description": "Une personne masquée apparaît sur les îles Riccioli, ses vêtements sont propres, mais ses pensées sont chaotiques...",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 165000002,
+  "ShowQuestList": [],
+  "QuestDesc": "Une personne masquée apparaît sur les îles Riccioli, ses vêtements sont propres, mais ses pensées sont chaotiques...",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "Le Vieil Homme et la Baleine"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fille étrange",
+          "PlotLineKey": "Tiens, {Male=mon frère;Female=ma sœur} ! Je l'ai enfin attrapé ! Regarde comme il est joli !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jeune pêcheur",
+          "PlotLineKey": "Mieux vaut garder tes distances, {Male=l'ami;Female=l'amie}. Il y a quelque chose qui ne tourne pas bien rond chez elle. Mieux vaut ne pas s'approcher de trop près.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Vieux Pêcheur",
+          "PlotLineKey": "Bizarre. Elle avait l'air bien quand je lui ai offert de la nourriture il n'y a pas si longtemps...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 141,
+              "PlotLineKey": "Qui est-elle ?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 142,
+              "PlotLineKey": "Que lui est-il arrivé ?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jeune pêcheur",
+          "PlotLineKey": "Je n'en ai pas la moindre idée. Elle ne semble pas venir des îles Riccioli à en juger par sa tenue. Peut-être que la promesse d'aventure l'a attirée hors de la ville.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jeune pêcheur",
+          "PlotLineKey": "Quelque chose a dû la secouer. Elle semble toute chamboulée.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jeune pêcheur",
+          "PlotLineKey": "Elle ne semble pas venir des îles Riccioli à en juger par sa tenue. Peut-être que la promesse d'aventure l'a attirée hors de la ville.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Vieux Pêcheur",
+          "PlotLineKey": "Des poissons peu communs se rassemblent dans ces eaux. Les citadins adorent venir ici dans l'espoir d'ajouter un autre trophée rare à leurs collections exotiques.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Vieux Pêcheur",
+          "PlotLineKey": "Mais ces eaux sont périlleuses. Ceux qui leur manquent de respect ne s'attireront que des problèmes. Chaque jour, des imbéciles partent et ne reviennent jamais ; et pourtant, l'appel de l'aventure continue d'attirer de nouveaux venus.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Vieux Pêcheur",
+          "PlotLineKey": "J'ai entendu dire qu'elle et {Male=son frère;Female=sa sœur} sont {Male=arrivés;Female=arrivées} il y a quelque temps en demandant des informations sur la pêche.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Vieux Pêcheur",
+          "PlotLineKey": "Je me demande pourquoi elle est seule maintenant...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jeune pêcheur",
+          "PlotLineKey": "Aucune idée de quelle famille elle pourrait venir, et je ne peux pas la convaincre de partir. Tu peux peut-être essayer de lui parler.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Dana",
+          "PlotLineKey": "J'ai hâte de voir la tête qu'ils feront quand je ramènerai ce joli petit poisson, {Male=mon frère;Female=ma sœur}.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Dana tend ses bras cicatrisés, révélant les morceaux brisés d'une bouteille de vin qu'elle tenait.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Dana",
+          "PlotLineKey": "Hein ? {Male=Mon frère;Female=Ma sœur}, tu es {Male=blessé;Female=blessée}.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Dana",
+          "PlotLineKey": "Comme c'est merveilleux ! Te souviens-tu qu'oncle Ronald nous parlait de certains poissons attirés par le sang ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Dana",
+          "PlotLineKey": "Personne n'en a jamais encore trouvé. Nous devons prendre la mer à la hâte afin d'en attraper un, même si cela nous coûte la vie ! J'imagine déjà la tête des gens en ville !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 150,
+              "PlotLineKey": "Promets-tu de retourner en ville une fois qu'on aura attrapé ce poisson ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Dana",
+          "PlotLineKey": "Absolument ! Je serai la première à l'exhiber, et alors personne ne pourra nier que je suis la plus grande collectionneuse qui soit !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 151,
+              "PlotLineKey": "À quoi ressemble-t-il ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Dana",
+          "PlotLineKey": "Tu ne te souviens pas ? Très bien. Je vais te le dessiner.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 152,
+              "PlotLineKey": "D'accord, j'ai compris. Je vais les trouver.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 0,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Dana",
+          "PlotLineKey": "Oncle Ronald, tu avais promis de m'aider. Mon poisson. Où est mon poisson ?!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Pêcheur passant",
+          "PlotLineKey": "Q-Qui es-tu donc ?! Éloigne-toi de moi !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Dana",
+          "PlotLineKey": "Ça fait mal... Mon visage me fait mal... S'il te plaît, ne mords pas mon visage... Sauve-moi, {Male=mon frère. Mon frère;Female=ma sœur. Ma sœur} ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 42,
+              "PlotLineKey": "Dana ? Que fais-tu encore sur cette île ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Dana",
+          "PlotLineKey": "(Sanglots) Mon poisson. Le poisson que tu m'as donné. Je ne le retrouve pas...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous remarquez le poisson que vous avez attrapé pour Dana pendouillant à sa ceinture, exhalant une odeur nauséabonde et pourrie.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Dana",
+          "PlotLineKey": "Je suis désolée ! Ne te mets pas en colère ! Je vais trouver ton poisson préféré pour me rattraper !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 43,
+              "PlotLineKey": "Mon poisson préféré ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Dana griffonne rapidement un dessin.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Dana",
+          "PlotLineKey": "Celui-ci ! Tu m'as dit que c'était ton poisson préféré quand nous étions enfants ! C'est toujours le cas, n'est-ce pas ? S'il te plaît, dis-moi que je ne me suis pas trompée.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 44,
+              "PlotLineKey": "Tu n'as pas besoin d'aller le chercher. Je l'ai déjà.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Dana",
+          "PlotLineKey": "Quoi ? Où ? Tu es {Male=allé;Female=allée} en mer sans moi ? Quels trésors as-tu trouvés ? Montre-le-moi !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 45,
+              "PlotLineKey": "Je les t'apporterai.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Dana",
+          "PlotLineKey": "Poisson... Ohé, petit poisson... Sors de ta cachette, où que tu sois. J'ai une petite friandise pour toi.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 68,
+              "PlotLineKey": "Encore là, hein ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Dana",
+          "PlotLineKey": "Pourquoi cette mine triste ? Il y a beaucoup de place dans cet aquarium, et regarde tous les jolis petits poissons qui te tiennent compagnie.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Dana",
+          "PlotLineKey": "Hé... Est-ce que tu as jeté {Male=ton propre frère;Female=ta propre sœur} à la mer... ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Dana",
+          "PlotLineKey": "Oh, ne pleure pas. Je vais t'aider à le retrouver. Je ferai tout pour {Male=mon cher frère;Female=ma chère sœur}... Oui, tout...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Tenter de la convaincre de partir ne mène nulle part. Je devrais trouver sa famille et voir s'ils peuvent la ramener chez elle.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 69,
+              "PlotLineKey": "Dana, où est {Male=ton frère;Female=ta sœur} ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Dana",
+          "PlotLineKey": "{Male=Il;Female=Elle} est toujours en mer. Il fait si froid là-bas... Je veux {Male=le;Female=la} retrouver.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 70,
+              "PlotLineKey": "En mer ? Tu veux dire {Male=qu'il;Female=qu'elle} est...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Dana",
+          "PlotLineKey": "Je ne peux pas rentrer seule ! Nous avons fait une promesse ! C'est à ça {Male=qu'il;Female=qu'elle} ressemble. Non, plutôt... à ça. Je dois {Male=le;Female=la} ramener.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Dana griffonne frénétiquement sur le sol, dessinant un poisson.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Soudain, Dana panique et se précipite vers la mer. Vous la rattrapez juste à temps.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Dana",
+          "PlotLineKey": "Lâche-moi ! Pour qui te prends-tu ?! Je suis une noble ! Une porteuse d'invitation ! Une véritable collectionneuse ! Lâche-moi immédiatement !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Dana",
+          "PlotLineKey": "Nous sommes ici pour apporter des cadeaux à M. Doria. Vite, {Male=mon frère;Female=ma sœur}. Montre-lui les cadeaux que nous avons préparés.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(S'il est possible qu'elle prenne ce poisson pour {Male=son frère;Female=sa sœur}, alors peut-être que le lui montrer la convaincra de partir ?)",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 71,
+              "PlotLineKey": "D'accord. Je vais aller le chercher.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Dana",
+          "PlotLineKey": "Pfff. Vous verrez bien, paysans !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Dana tient fermement le poisson, le tendant vers les pêcheurs qui reculent avec embarras.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Dana",
+          "PlotLineKey": "Regardez bien ce poisson, M. Doria. C'est une espèce que l'on pensait éteinte ! J'ai passé trois jours et nuits en mer à le chercher.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Dana",
+          "PlotLineKey": "Oh, Mme Claire, puis-je dorénavant rejoindre votre salon ? J'ai accompli toutes les tâches supplémentaires que vous m'avez fixées. Vous aviez promis...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 94,
+              "PlotLineKey": "...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Constructeur naval curieux",
+          "PlotLineKey": "Qu'est-ce qu'elle a dans les mains... ? C'est un poisson pourri... ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Pêcheur curieux",
+          "PlotLineKey": "Je ne comprends pas un mot de ce qu'elle dit. C'est juste un poisson comme un autre.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Dana",
+          "PlotLineKey": "Vous m'avez donné votre parole ! Pourquoi mentiriez-vous tous ?! POURQUOI ?! POURQUOI ?!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Constructeur naval curieux",
+          "PlotLineKey": "Ouah ! Tout doux ! Que quelqu'un trouve un moyen de la calmer !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 95,
+              "PlotLineKey": "Dana, c'est moi. Respire, s'il te plaît !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Lorsque Dana vous remarque, son énergie frénétique change. Des larmes commencent à couler sur son visage.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Dana",
+          "PlotLineKey": "{Male=Mon frère. Oh, mon frère...;Female=Ma sœur. Oh, ma sœur...} Je suis tellement désolée... {Male=Je t'ai laissé tomber...;Female=Je t'ai laissée tomber...} Je suis allée les chercher, mais...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Dana",
+          "PlotLineKey": "Ils... *Sanglot*... Ils changent sans cesse leurs promesses. Ils n'ont jamais eu l'intention de nous accepter dans la famille...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 96,
+              "PlotLineKey": "Ne pleure pas. On trouvera une solution.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Dana",
+          "PlotLineKey": "Tu penses vraiment qu'il y a de l'espoir ? Si on leur offre un autre poisson rare... nous accepteront-ils ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 97,
+              "PlotLineKey": "C'est sûr. Quel genre de poisson as-tu en tête ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Dana",
+          "PlotLineKey": "J-Je pensais à... Que dirais-tu de ceux-ci ? On ne les trouve qu'autour des îles Riccioli. Ils sont extrêmement rares.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Dana",
+          "PlotLineKey": "Si on attrape ce poisson, cela signifie-t-il que nous aurons le droit de porter ce nom de famille ? Imagine un peu, ils pourraient même venir nous chercher en calèche !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 98,
+              "PlotLineKey": "Exactement. Je vais chercher les poissons, et toi reste ici et attends-moi, d'accord ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Dana",
+          "PlotLineKey": "D'accord. Je vais être une gentille fille. {Male=Sois prudent, mon frère;Female=Sois prudente, ma sœur}.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Dana",
+          "PlotLineKey": "Oh, chère Mme Claire. Mais où êtes-vous ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Dana",
+          "PlotLineKey": "Vous ne... souhaitez pas me voir ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 118,
+              "PlotLineKey": "Ah... Mme Claire est partie pêcher, Dana.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Dana",
+          "PlotLineKey": "Oh... Comment est-ce possible ?!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Dana",
+          "PlotLineKey": "Une seconde. Serait-ce une note de Mme Claire ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "« Lettre de Claire »",
+          "PlotLineKey": "« Les gens de la ville deviennent de plus en plus étranges chaque jour... »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "« Lettre de Claire »",
+          "PlotLineKey": "« Pourquoi tu ne fabriquerais pas quelques spécimens à vendre, Ronald ? Cela pourrait rapporter gros. »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Dana",
+          "PlotLineKey": "Alors vous êtes allée voir Oncle Ronald, n'est-ce pas ? Mme Claire. J'arrive !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,759 @@
+{
+  "Id": 135000005,
+  "Name": "A True Arena Champion",
+  "Description": "You encountered an Exile attacked by Tacet Discords. After witnessing your capabilities, he seeks for you aid.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 135000005,
+  "ShowQuestList": [],
+  "QuestDesc": "You encountered an Exile attacked by Tacet Discords. After witnessing your capabilities, he seeks for you aid.",
+  "Conditions": [
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 135000024
+    },
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 1
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "A new face, huh? You skinny, twig-like figure understands the real deal about fighting?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "You didn't drag yourself all the way here to play babysitter for that outdated principle of the old fool, did ya?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "You still have the chance to back out, heehee! Don't come crying like a little baby in the pit.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Smiling Exile",
+          "PlotLineKey": "Hi there? Are you here to participate in the Seaside Arena too?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Smiling Exile",
+          "PlotLineKey": "One more competitor here, and my heart is just breaking with guilt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Smiling Exile",
+          "PlotLineKey": "I've never, ever lost, you know? Best of luck to you, though. You'll need it, trust me.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Here's your entry pass. Now you can come and leave the camp freely.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Did you find out any useful information?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 291,
+              "PlotLineKey": "They're not friendly.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 292,
+              "PlotLineKey": "They're aggressive.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Well, all the participants are elite members of their factions, and the competition only fuels their aggressiveness with each round.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "By the way, before the match kicks off, we need to contribute items to the prize pool.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Rover, do you have anything valuable?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 293,
+              "PlotLineKey": "I don't.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 294,
+              "PlotLineKey": "I'm flat broke.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "No worries! I'll throw in my stuff. I have faith in you!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "I've staked everything I own, even a 20th-anniversary limited-edition comic book with the author's autograph.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "It's the prized issue number 0001.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 295,
+              "PlotLineKey": "Are you serious?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Hey! Are you undervaluing them? They cost me a great sum!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "I'll hand them over to the organizer. You go register with the receptionist. I'll be your biggest cheerleader during the match!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Hello, are you here to register for the Seaside Arena?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "There's a new rule to follow. If you want to register for the match, you need to collect three badges first.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "What badges?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Participants in the Seaside Arena have always been the cream of the crop.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Due to the enticing rewards, many incompetents try to sneak in, wasting everyone's time. That's why we've set up this rule—to ensure only the truly powerful can participate.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "To earn these badges, you'll undergo three basic trials. Are you ready?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "Bring it on.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "The first trial tests your courage. A weapon is placed at the highest point in the camp.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "If you can retrieve it safely, you'll earn the first badge.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Excellent. Overcoming inner fears is the first step to climbing to the top.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "You've earned the badge of courage.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "The next badge represents speed. Wait a moment; someone is challenging it now.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Alright, your turn. See those shooting targets?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Your task is to hit those targets within two minutes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Only those who react fast and make swift decisions can pass.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "If you're the one we're expecting, I'm sure you can breeze through it. If you're ready, let's get started.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Efficient and clean. Come take your badge of speed.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "The final trial is the most challenging.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Rover, here you are! Seems like you're ready.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "You can find Exiles from various factions here. To maintain order, we're required to have an entry pass to prove our identity.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "I'll get an entry pass for you. For now, you can explore around the camps. Maybe you can find some information about the opponent.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Here you are. It's your second badge. As for the final badge…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "You'll undergo a comprehensive trial.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "However, the examiner's schedule is reversed from ours.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "You'll find her only at dusk.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "The food lately is getting worse and worse. What's up? Need something?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 325,
+              "PlotLineKey": "You're the final examiner?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 326,
+              "PlotLineKey": "I'm here to get the final badge.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "Another foolish challenger from a foolish faction, huh? If you don't want to lose everything you have, head back now.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "Regret is still an option. We can pretend we never saw you. Hurry up and leave!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "Want the last badge? Look at how weak and fragile you are. Just leave if you don't want to get your faction in trouble.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 327,
+              "PlotLineKey": "I promised someone I would win.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "My ears are tired of hearing such promises. Anyway, I've already given you a chance.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "The last badge represents strength, so you need to take me down to get it.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "Easy, right? Okay, give it a try, kid.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Congratulations on collecting all three badges. An Exile claiming to be your friend has already completed the registration form on your behalf.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Before entering the match, please familiarize yourself with the Seaside Arena rules.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Your friend forgot to provide Echo information for you. Unfortunately, once the registration form is submitted, no changes are allowed.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "According to the Seaside Arena rules, challengers who haven't registered Echo information will be provided with an assistance Echo in battle.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 355,
+              "PlotLineKey": "Is it strong?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Hahaha, unfortunately, it's Zig Zag, an ordinary Tacet Discord. To avoid affecting the match, we can only provide the basic Echo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Here are the rules.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "The Seaside Arena adopts a single-elimination system. Participants are allowed to use any fighting styles in battle. The winner automatically advances to the next round.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "When you win all three rounds, you qualify for challenging the previous champion.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Are you ready, Rover?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 356,
+              "PlotLineKey": "Let's get started.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 357,
+              "PlotLineKey": "Can't wait.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Receptionist",
+          "PlotLineKey": "Wish you good luck!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "The final's approaching. I'm still not sure how they manage to defeat their opponents.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "Rover, you'd better focus on your opponent's movements during the battle.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "I'll be watching. If anything goes wrong, I'll help you.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Hehe, you were amazing in the matches! That's the Rover I know!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "After this season, The Hyenas will slowly reclaim its status.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "I'm so excited to share this good news with the old leader!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "On my way here, I encountered several high-ranked factions that seemed ready to leave. They eyed me with disdain.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Now it's their turn to feel the pain I've endured!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Haha, don't give me that look. Can't you tell it's just a joke?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Here, Rover, is your payment. Hope to see you again soon.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "All the chaos has come to an end. Why the long face?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "Let me guess. You fear that the one you helped is actually a fierce and greedy wolf.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 471,
+              "PlotLineKey": "How do you know what I'm thinking?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "I can tell from your expression. You're not an Exile, huh?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "It doesn't matter if they're wolves or not. Think carefully about why you chose to lend them a hand.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "You helped them not to boost their status or gain more advantages but to restore the Seaside Arena to its intended purpose—a place where everyone can enjoy.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "You played a part in changing the twisted rules of this region.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "Your gave the weak a chance to survive, and that's commendable.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "This region is on the brink of a new wave of changes. Whether they're positive or negative depends on the response of the people here.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "It's no longer your concern, so don't dwell on what you did. Let's wait and see what answers they'll give.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 472,
+              "PlotLineKey": "I think I understand what you mean.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Training Exile",
+          "PlotLineKey": "I've been stuck here for so long. It's time to break free and stretch my stiff bones. See you, Rover.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "As promised, I've granted your requests. It won't be long before the Seaside Arena reverts to being an arena for participants to sharpen their skills.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "Can't wait to see the day when it's once again exploited as a negotiating table, hahaha!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 485,
+              "PlotLineKey": "What do you mean?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "Wolves in the forest always prey on sheep, even if they are aware hunters might shoot them. It's their nature, unchangeable.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "If there's nothing else, I'm taking my leave.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "Here are the spoils of your victories. All yours now.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

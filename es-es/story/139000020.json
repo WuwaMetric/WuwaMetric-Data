@@ -1,0 +1,937 @@
+{
+  "Id": 139000020,
+  "Name": "Entrenador de eco de pelo plateado - II",
+  "Description": "El abuelo Jingzhu ha ideado un nuevo método para entrenar Ecos. Ve y pregúntale sobre los detalles.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139000020,
+  "ShowQuestList": [],
+  "QuestDesc": "El abuelo Jingzhu ha ideado un nuevo método para entrenar Ecos. Ve y pregúntale sobre los detalles.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 139000017,
+      "PreQuestName": "Entrenador de eco de pelo plateado - I"
+    },
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 21
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "He oído rumores de que Yhan se ha convertido en un instructor bastante estricto. Será mejor que tengas cuidado.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Hay bastantes juniors allí que una vez fueron golpeados duramente por mí, ¡jaja! Así que, me abstendré de unirme a vosotros y estropear su ánimo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Aquí estamos. Adelante. ¡Te deseo buena suerte!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Ahora que todos estamos aquí, abuelo Jingzhu, ¿cuál es el plan?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Desde nuestra última despedida, he estado reflexionando sobre las palabras de Linghan, ¡y me han ofrecido una nueva perspectiva!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "\"Si tu objetivo es convertirte en un Maestro de Ecos, no puedes juzgar un Eco solo por su apariencia. Toma este Caparazón, por ejemplo. A pesar de sus imponentes guadañas, puede que no sea lo que parece\".",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Ella creía que las guadañas solo son imponentes en la superficie, pero carecen de practicidad y filo como armas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Estoy seguro de que si puedo afilar estas guadañas hasta que sean como cuchillas, Linghan aceptará gustosamente mi Menta nocturna.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 807,
+              "PlotLineKey": "¿De verdad?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 808,
+              "PlotLineKey": "¿Estás seguro esta vez?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Uno mejora con la práctica. Sabremos la respuesta una vez que lo intente.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Ejem, la vida está llena de incertidumbres. Si fallo esta vez, ¡siempre habrá otra oportunidad!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Bueno, entonces, ¡pongámonos a afilar estas enormes guadañas!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Eh... hablando de la zona de entrenamiento de Eco...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Chixia",
+          "PlotLineKey": "¡Ah, serían los campos de entrenamiento del Instructor Yhan! He estado allí antes para la Evaluación de Graduación de Patrullero. Honestamente, si puedo evitarlo, preferiría no ir a la segunda ronda.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Ejem, pero con {PlayerName} a nuestro lado hoy, no será tan estresante, ¿verdad?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Chixia",
+          "PlotLineKey": "¡Ser tímido no encaja con ser un Patrullero! Sígueme. ¡Vamos!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¿Ya de vuelta?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Yhan es una figura bastante formidable. Pasar a través de su entrenamiento es verdaderamente encomiable.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¡No tengo dudas de que el mundo pronto estará a tus pies, jóvenes!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Jaja, basta de charlas. Primero, ocupémonos de los asuntos. ¡Las guadañas del Guerrero de la Destrucción esperan nuestro afilado!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "De vuelta aquí, en este lugar familiar.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yingying",
+          "PlotLineKey": "Abuelo Jingzhu, ¿has venido a ver a la abuela, verdad?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yingying",
+          "PlotLineKey": "Dicen que estás... mmm, ¿cómo se dice? ¿Cortejando a la abuela?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¡Dios mío! Espera, Yingying. Eres demasiado joven para entender lo que eso significa.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yingying",
+          "PlotLineKey": "¡Incluso aprendí un nuevo término! ¡Amor en la vejez!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yingying",
+          "PlotLineKey": "De todos modos, abuelo, ¡deberías intentarlo! ¡Voy a decirle a la abuela que estás aquí!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yingying",
+          "PlotLineKey": "¡ABUELA!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yingying",
+          "PlotLineKey": "¡Abuelo Jingzhu ha vuelto con más Menta nocturna para ti, abuela!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Dios mío, los niños de estos días son algo más.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Linghan",
+          "PlotLineKey": "¿Menta nocturna?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Linghan",
+          "PlotLineKey": "Es extraño. Últimamente, unos diez caballeros me han traído Menta nocturna.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Son doce.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Y ahora soy el decimotercero... Espera, los de antes también eran todos yo...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¿Recuerdas lo que me dijiste la última vez? No se puede juzgar un Eco solo por su apariencia.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¡Eso tiene mucho sentido! ¡Así que he afilado estas guadañas aún más!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Linghan",
+          "PlotLineKey": "Puedes interpretarlo de esa manera.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¡Qué alivio escuchar eso! ¡Bien, permíteme presentarte lo que hemos logrado esta vez!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¿Qué te parece, Linghan?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Linghan",
+          "PlotLineKey": "Lo siento, ¿cuál era el motivo de tu visita de nuevo? Ah, ¿para mostrarme el Eco?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yingying",
+          "PlotLineKey": "¡NO! Abuela, él está aquí para darte Menta nocturna!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 932,
+              "PlotLineKey": "Oh, chica...",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 933,
+              "PlotLineKey": "¡Buen movimiento!",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Yingying parece estar bastante animada hoy, y eso me ayudó mucho.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Yingying está ciertamente rebosante de energía hoy, ¿no es así? Eso me ayudó mucho.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Supongo que debería aprovechar esta oportunidad. Sí, eso es correcto. Vine para traerte Menta nocturna. ¿Te gustaría pasar el resto de tu vida conmigo?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Linghan",
+          "PlotLineKey": "Oh, querida, esto es bastante dolor de cabeza. Gracias, pero actualmente no estoy interesada en buscar una pareja. Incluso si lo estuviera, preferiría a alguien similar a mi antiguo amante...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Linghan",
+          "PlotLineKey": "Era un soldado sabio y valiente, e incluso sus Ecos eran impresionantes. Comparado con él, todos los demás se quedan cortos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Linghan",
+          "PlotLineKey": "Así que, siéntete libre de preguntarme cualquier cosa relacionada con los Ecos, pero mantengamos todo lo demás fuera de la mesa.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Bueno, entonces... Siento molestarte. Me voy.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Parece que el abuelo Jingzhu fue rechazado de nuevo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Abuelo Jingzhu, ¿estás bien? Por favor, no estés triste... Haré todo lo que pueda para animarte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¿Hmm? ¿Triste? ¡Ni lo más mínimo! Incluso si lo estuviera, sería solo un acto.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¡Trece fracasos, pero no estoy a punto de tirar la toalla! Persistiré, ya sea la decimocuarta, decimoquinta, o más allá...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 953,
+              "PlotLineKey": "¿Por qué de repente estás tan animado?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¡Porque he decidido convertirme en el soldado sabio y valiente que se ajusta a los ideales de Linghan!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Siento haber hecho que tus esfuerzos sean en vano.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 954,
+              "PlotLineKey": "Está bien.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 955,
+              "PlotLineKey": "Siempre que no seas tacaño con el pago.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 956,
+              "PlotLineKey": "Fue bastante divertido ver cómo se desarrollaba todo esto.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Gracias. ¡Vosotros dos sois realmente bondadosos!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "No te preocupes. Me aseguraré de que recibas una compensación adecuada.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Bueno, esto es un poco embarazoso... Aún así, ser feliz es bueno para tu salud, ¿verdad? Al menos hice feliz a alguien. No es tan terrible.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Bueno, esto es un poco embarazoso... Aún así, ser feliz es bueno para tu salud, ¿verdad? Al menos hice feliz a alguien. No es tan terrible.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Trece rechazos consecutivos... Quizás es hora de una introspección sobre mi enfoque...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¿Quizás, Linghan no está acostumbrada a tales demostraciones directas y apasionadas de afecto?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Tiene sentido... La abuela Linghan parece bastante seria, ¿así que quizás es hora de cambiar de táctica?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Hmm... ¿Qué enfoque alternativo debería probar?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 957,
+              "PlotLineKey": "¿Hablar más sobre los Ecos?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Chixia",
+          "PlotLineKey": "¡Esa es una gran idea! Comienza por involucrarla en un tema que capte su atención, y podrías encontrarte acercándote a ella. ¡Entonces, pedirle que sea tu pareja podría suceder de forma natural!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "De hecho, parece que los Ecos son lo único que capta su interés.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Tendré que pensar cuidadosamente en cómo mejorar el Eco. De hecho, mi capitán me enseñó mucho en su día, pero la edad ha embotado mi memoria.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Bueno, terminemos por hoy. Necesito ir a casa y pensarlo. Aquí, este es tu pago por los esfuerzos de hoy.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yhan",
+          "PlotLineKey": "No está mal. Muy por encima de mis expectativas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yhan",
+          "PlotLineKey": "{PlayerName}, nunca dejas de impresionarme.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yhan",
+          "PlotLineKey": "No dudes en acudir a mí si necesitas ayuda. Estaré encantado de proporcionar entrenamiento a diferentes niveles para personas entusiastas como tú.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Jaja, eso suena un poco... intimidante, ¿no es así?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Chixia",
+          "PlotLineKey": "¡Nunca imaginé que pasaríamos por todo ese entrenamiento tan rápidamente! ¡Estás verdaderamente a la altura de tu nombre, {PlayerName}!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Chixia",
+          "PlotLineKey": "¡Vamos a darle las buenas noticias al abuelo Jingzhu!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "¡Vaya! ¡Es aún más impresionante ahora! Mira esas guadañas, ¡son verdaderamente intimidantes!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "A pesar de tu vigor juvenil, soportar el entrenamiento de Yhan de nuevo en un lapso tan breve puede ser un desafío. Tal vez, podemos...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Esta voz... Sabía que eras tú, Sr. Jingzhu.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Chixia",
+          "PlotLineKey": "¿In-Instructor Yhan?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Ah, aún reconoces esta vieja cara, Yhan.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Chixia",
+          "PlotLineKey": "¿Ustedes dos se conocen?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Sí, y desde hace mucho tiempo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yhan",
+          "PlotLineKey": "En los días de los Rangers de Medianoche, el Sr. Jingzhu tenía todo mi respeto.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Ha pasado un tiempo desde que nos vimos por última vez. Sr. Jingzhu. Aún te ves enérgico... aunque tus piernas no parecen tan ágiles?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Ejem, solo un pequeño accidente. Ya ves, estoy envejeciendo. Un pequeño resbalón mientras caminaba. ¡No hay de qué preocuparse!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "He estado descansando y debería recuperarme pronto.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Tus lesiones parecen haber sanado bien, pero no subestimes la importancia del descanso.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Eres tan hablador como siempre, muchacho. En mis tiempos, soportábamos mucho peor y aún así luchábamos valientemente en las batallas. ¿Recuerdas?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Pero te has retirado hace mucho tiempo...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Puede que esté retirado, pero el fuego aún arde en mí. Ha pasado bastante tiempo desde que me retiré, y las oportunidades de mezclarme con ustedes, los jóvenes, son raras en estos días.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Y aquí está el Jefe Instructor Yhan. ¿Has estado bien, supongo?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Solo estoy cumpliendo con mi deber. ¿Y cómo les va a tus viejos camaradas?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Excepto el Capitán y yo, todos... Ah, no importa. Enfoquémonos en temas más alegres durante esta rara reunión.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "El pasado es el pasado. ¡Cuando llegues a mi edad, te darás cuenta de que el momento presente es el más significativo en la vida!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Vive el momento y valora cada día que pasa. Así es como honramos los sacrificios de nuestros camaradas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Yhan",
+          "PlotLineKey": "En efecto, Sr. Jingzhu. El presente exige toda nuestra atención.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Exacto, entonces hablemos del presente. Sabes lo que necesito ahora. ¿Estás dispuesto a echar una mano?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Eres tan enérgico como siempre, Sr. Jingzhu.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Jaja, estoy realmente halagado.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Estos deberían ser suficientes para tus necesidades. Tómalos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Genial, gracias.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Chixia",
+          "PlotLineKey": "El Instructor Yhan no parece ser tan malo como los rumores lo pintan.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Todavía me sorprende la revelación de que el Abuelo Jingzhu fue una vez un Ranger de Medianoche.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Hmph, estoy acostumbrado a mantener un perfil bajo. Esperaré mi momento para impresionar a Linghan.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¡Hacerla enamorarse de mí con un solo golpe!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Con mi encanto natural y estas guadañas finamente afiladas, estoy seguro de que esta vez ganaré el corazón de Linghan y la haré aceptar mi Menta nocturna!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 902,
+              "PlotLineKey": "¿Estás seguro?",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 903,
+              "PlotLineKey": "¿De verdad?",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¡Ejem, absolutamente!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Chixia",
+          "PlotLineKey": "¿Qué hace que el abuelo Jingzhu esté tan seguro de que tener un poderoso Eco ganará el corazón de la abuela Linghan?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 12,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Estoy de acuerdo contigo en esta. ¿Qué hace que el abuelo Jingzhu esté tan seguro de que tener un poderoso Eco ganará el corazón de la abuela Linghan?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¡Por supuesto, no solo es el Eco que he preparado! Linghan una vez compartió sus criterios para un compañero ideal.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Dijo que su compañero ideal es un soldado sabio y valiente que empuña una guadaña guapa, acompañado de un majestuoso Eco, enfrentando a innumerables enemigos con una compostura inigualable.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¿Ves? Aparte del majestuoso Eco, todo lo demás me queda a la perfección!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 904,
+              "PlotLineKey": "...",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Chixia",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "¿Por qué esa mirada? ¿Te falta fe en mí? Es comprensible, dada la brecha generacional entre nosotros.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Pero cuando se trata de asuntos de amor, especialmente para nosotros, los mayores, confía en mí. ¡Lo tengo todo controlado!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Bien, todo listo y preparado. Vamos a visitar a Linghan.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,827 @@
+{
+  "Id": 139700002,
+  "Name": "难解谜题",
+  "Description": "先行公约为心狐摇彩准备了许多奖品，而长离竟然抽到了传说中的惊喜大奖，更夸张的是，这个大奖居然是一份关于稷廷宝藏的藏宝图……\n\n完成此任务后解锁新的经营伙伴。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700002,
+  "ShowQuestList": [],
+  "QuestDesc": "先行公约为心狐摇彩准备了许多奖品，而长离竟然抽到了传说中的惊喜大奖，更夸张的是，这个大奖居然是一份关于稷廷宝藏的藏宝图……\n\n完成此任务后解锁新的经营伙伴。",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 7,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "长离",
+          "PlotLineKey": "呵……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 500,
+              "PlotLineKey": "你在看什么，长离？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "长离",
+          "PlotLineKey": "是你啊，{PlayerName}。我在看他们摇彩。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 501,
+              "PlotLineKey": "你不玩一下吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "长离",
+          "PlotLineKey": "也不是不行，那我就试试吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "长离走到摊位前，随意地摇动了转盘。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "纤晨",
+          "PlotLineKey": "……嗯，又中了。长离大人。和去年，不，和之前你摇的每一次都一样呢。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 502,
+              "PlotLineKey": "这……难道也是谋略吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "长离",
+          "PlotLineKey": "不……应该只是单纯的运气好吧。摇彩的结果是运气使然，可是谋略所无法预测的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "纤晨",
+          "PlotLineKey": "等等，长离大人！我刚刚对照了一下清单，你好像中了今年宵月会仅有一份的超级惊喜大奖！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 503,
+              "PlotLineKey": "超级惊喜大奖……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 504,
+              "PlotLineKey": "仅有一份……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "纤晨",
+          "PlotLineKey": "是的，说是大奖，但其实应该算是……藏宝图？或者大奖的线索之类的？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "长离",
+          "PlotLineKey": "……哦？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "纤晨",
+          "PlotLineKey": "是这样的，先行公约的探险家前几天在今州附近发现了一个奇怪的平台。看起来它似乎有些年头了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "纤晨",
+          "PlotLineKey": "这个平台由机关封锁，看起来像是稷廷所为。探险家们用尽浑身解数，都没能解开其中的谜题。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "纤晨",
+          "PlotLineKey": "其中一名探险家开了个玩笑，说“这已经不是人力能解决的问题了，只能靠运气”。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 505,
+              "PlotLineKey": "所以，你们把这个玩笑当真了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "纤晨",
+          "PlotLineKey": "没错。所以我灵机一动，想到把这个大奖放在心狐摇彩的奖励里，只有运气最好的人才能抽到它。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "纤晨",
+          "PlotLineKey": "说不定，那个人误打误撞地就能靠运气解开平台的秘密了呢？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 506,
+              "PlotLineKey": "如果是长离的话……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 507,
+              "PlotLineKey": "长离，你有兴趣吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "长离",
+          "PlotLineKey": "这听起来倒是有点意思……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "长离",
+          "PlotLineKey": "{PlayerName}，你要和我一起去吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 508,
+              "PlotLineKey": "那还用说。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 509,
+              "PlotLineKey": "宝藏，平台里一定装满了宝藏！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "纤晨",
+          "PlotLineKey": "好的……我稍后会将我们发现的控制密钥和平台的位置上传到二位的终端上。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "纤晨",
+          "PlotLineKey": "祝二位顺利！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "长离",
+          "PlotLineKey": "……嗯，没错。是稷廷风格的机关。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "长离",
+          "PlotLineKey": "有趣，它们在结构上与通常的稷廷机关有所不同，是多层嵌套在一起的。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 519,
+              "PlotLineKey": "多层嵌套？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "长离",
+          "PlotLineKey": "它实际上是四个相互连结的机关，想要全部解开它，就必须按照特定的顺序，并在一定时间内完成解谜。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 520,
+              "PlotLineKey": "如果失败了呢？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "长离",
+          "PlotLineKey": "最坏的角度来看，这座平台可能会自毁，我们也会被卷入意外……？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "长离",
+          "PlotLineKey": "开玩笑的，先行公约的探险家们肯定试过很多次。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "长离",
+          "PlotLineKey": "如果无法确定这座平台的安全风险，他们是不可能把这里当成摇彩的奖品的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "长离",
+          "PlotLineKey": "我想，大概谜题会被重置到初始状态，仅此而已。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 521,
+              "PlotLineKey": "那就简单了，我们一个一个试。",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 522,
+              "PlotLineKey": "还是在旁边找找线索吧……",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "长离",
+          "PlotLineKey": "也好。不过，四个机关应该会有二十四种不同的排列方式……而且我们不知道，机关是和什么连结在一起的。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 10,
+          "Speaker": "长离",
+          "PlotLineKey": "嗯，我们在附近找一下吧。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "长离",
+          "PlotLineKey": "我们成功了，{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "长离",
+          "PlotLineKey": "看看这里有什么好东西吧。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "长离",
+          "PlotLineKey": "看来这里没有纤晨所说的宝藏。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 542,
+              "PlotLineKey": "是啊，没有宝藏，只有一本书。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "长离",
+          "PlotLineKey": "嗯……有意思，这应该就是日志里说的《谜题大师D的最新恐怖谜题》了吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "长离",
+          "PlotLineKey": "和我猜的一样……整本书都是以复杂的密码写成的，我只能通过插图，看出它是在描述一些机关术的制作方式。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 543,
+              "PlotLineKey": "谜题中还有谜题。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 544,
+              "PlotLineKey": "不愧是谜题大师。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "长离",
+          "PlotLineKey": "看起来，这里没有别的东西了。我们回去吧。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "纤晨",
+          "PlotLineKey": "{PlayerName}，你们回来了！找到宝藏了吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 639,
+              "PlotLineKey": "只找到一本书。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "纤晨",
+          "PlotLineKey": "书？等等……难道是……能让我看看吗，{PlayerName}！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "你把书交给了纤晨。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "纤晨",
+          "PlotLineKey": "果……果然，这是还没被发现的，谜题大师D的新著作！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "纤晨",
+          "PlotLineKey": "太、太厉害了，我只听说过关于这些书的传闻，从来没见过实物！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 640,
+              "PlotLineKey": "等等，“这些书”？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "纤晨",
+          "PlotLineKey": "没错，《谜题大师D的超酷魔术谜题》《谜题大师D的流行社交谜题》、《谜题大师D的终极烧脑谜题》……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "纤晨",
+          "PlotLineKey": "这些书记载了稷廷怪客谜题大师D所发明的顶级机关术，在先行公约里它们可是价值不菲的宝贝！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "纤晨",
+          "PlotLineKey": "无数先行公约的机关师都想要弄清楚它们的秘密，说不定，这些秘密能够帮助探险家们解开一些失传已久的陷阱。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "纤晨",
+          "PlotLineKey": "能把它们转让给先行公约吗？拜托了！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 641,
+              "PlotLineKey": "我倒是不介意。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "长离",
+          "PlotLineKey": "我也不介意，如果这对你们来说很重要，那就拿走吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "纤晨",
+          "PlotLineKey": "谢、谢谢你们，{PlayerName}！我们会准备一笔丰厚的报酬的！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "纤晨带着书，向你们鞠躬之后离开了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "长离",
+          "PlotLineKey": "嗯……从结果上来看，我们最终还是找到宝藏了呢。只是方式……有点不太一样。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 642,
+              "PlotLineKey": "你好像早就知道会是这个结果了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "长离",
+          "PlotLineKey": "……被你发现了吗？嗯，我之前在翻阅藏书的时候，见到过关于谜题大师D的记载。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "长离",
+          "PlotLineKey": "记载中说他留下了许多机关，和一些机关学的艰深著作。先行公约肩负着探索瑝珑的任务，想必他们对谜题大师D更为了解。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "长离",
+          "PlotLineKey": "不过，我本来也对所谓的宝藏没什么兴趣哦。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "长离",
+          "PlotLineKey": "对我来说，今天最大的收获并不是财宝，也不是谜题大师D的珍贵著作。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 643,
+              "PlotLineKey": "那是什么呢？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "长离",
+          "PlotLineKey": "对啊，{PlayerName}……是什么呢——",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "长离",
+          "PlotLineKey": "——嗯，这个谜题，还是留给你自己思考吧。下次见，{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "长离",
+          "PlotLineKey": "怎么了，{PlayerName}？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 578,
+              "PlotLineKey": "我想再看看谜题大师的提示。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 580,
+              "PlotLineKey": "直接告诉我答案吧。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 579,
+              "PlotLineKey": "我再试一次。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 581,
+              "PlotLineKey": "我放弃，交给你了。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "长离",
+          "PlotLineKey": "按照黄蓝紫红的顺序击败残象，应该就能解开这个谜题了。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 584,
+              "PlotLineKey": "原来如此。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "长离",
+          "PlotLineKey": "……嗯，交给我吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 587,
+              "PlotLineKey": "嗯！",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 586,
+              "PlotLineKey": "不，我还是再考虑一下吧。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "长离帮你解开了机关。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "长离",
+          "PlotLineKey": "看来顺序错了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "长离",
+          "PlotLineKey": "{PlayerName}，要再试试吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 590,
+              "PlotLineKey": "我想再看看谜题大师的提示。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 591,
+              "PlotLineKey": "直接告诉我答案吧。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 592,
+              "PlotLineKey": "我再试一次。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "长离",
+          "PlotLineKey": "解开机关的顺序，应该是黄蓝紫红。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 596,
+              "PlotLineKey": "明白了！",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "长离",
+          "PlotLineKey": "看来顺序错了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "长离",
+          "PlotLineKey": "{PlayerName}，要再试试吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 590,
+              "PlotLineKey": "我想再看看谜题大师的提示。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 591,
+              "PlotLineKey": "直接告诉我答案吧。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 592,
+              "PlotLineKey": "我再试一次。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "长离",
+          "PlotLineKey": "解开机关的顺序，应该是黄蓝紫红。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 596,
+              "PlotLineKey": "明白了！",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "长离",
+          "PlotLineKey": "看来顺序错了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "长离",
+          "PlotLineKey": "{PlayerName}，要再试试吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 590,
+              "PlotLineKey": "我想再看看谜题大师的提示。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 591,
+              "PlotLineKey": "直接告诉我答案吧。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 592,
+              "PlotLineKey": "我再试一次。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "长离",
+          "PlotLineKey": "解开机关的顺序，应该是黄蓝紫红。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 596,
+              "PlotLineKey": "明白了！",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

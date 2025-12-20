@@ -1,0 +1,312 @@
+{
+  "Id": 162700005,
+  "Name": "千の扉の奇想",
+  "Description": "夢の中から伝わってきた聞き覚えのあるその声は、「黒きゲートキーパー」と名乗っていた……彼が何をしようとしているのか、今はひとまず様子を見にいこう。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 162700005,
+  "ShowQuestList": [],
+  "QuestDesc": "夢の中から伝わってきた聞き覚えのあるその声は、「黒きゲートキーパー」と名乗っていた……彼が何をしようとしているのか、今はひとまず様子を見にいこう。",
+  "Conditions": [
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 30
+    },
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 114000027,
+        "ChildQuestId": 24
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 31000
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "{PlayerName}、聞こえるか？黒きゲートキーパーだ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 9,
+              "PlotLineKey": "{Male=誰だ？;Female=誰？}",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 10,
+              "PlotLineKey": "{Male=何か用？;Female=何か用？}",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 11,
+              "PlotLineKey": "{Male=どうも、俺は白きゲートキーパーだ。;Female=どうも、私は白きゲートキーパーだ。}",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "コホン……どうも、私は<ano=夢を保存する媒体>「心の集域」</ano>の管理者、黒きゲートキーパーだ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "ああ……「心の集域」について伝えておきたいことがあるんだ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "コホン……冗談はよすんだ、導き手。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "もう気付いているかもしれないが……リナシータの地にも「心の集域」へと続く「ゲート」が現れた。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "*不明瞭な声*",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 12,
+              "PlotLineKey": "もしもし？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 13,
+              "PlotLineKey": "{Male=電波が悪い？;Female=電波が悪い？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "夢の通信が妨害されているのか……？いや、回復したようだな……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "もしよければ、直接会って話がしたい。導き手、私はいつでも待っているぞ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "来たか、{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "……今はこんな姿だが……私が黒きゲートキーパーだ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "{Male=アンコの黒メェに入っているのか？;Female=アンコの黒メェに入っているの？}",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 32,
+              "PlotLineKey": "{Male=……そういえば前にもこんなことがあったよな。;Female=………そういえば前にもこんなことがあったよね。}",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "いや、アンコという者と関係はない。これは心の集域で複製された「記憶の結晶」。私は一時的にこの姿を借りているだけだ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "はあ……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "コホン……本題に移ろう……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 5,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "ま、前というと……？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 34,
+              "PlotLineKey": "音骸レプリカを使わせた時。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 35,
+              "PlotLineKey": "それと、「ドロシー」の時……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "ええと……それは……そうだな。確かに、あの時も私だった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "すまない、あの時は名を偽って、新種の「ゲート」のテストを依頼した。あなたのせいで頓挫したあの計画のために。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 36,
+              "PlotLineKey": "{Male=また何を企んでいるのか？;Female=また何を企んでいるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "違う。私を信じてほしい、導き手よ。今は何も隠し事などない。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "先日、一部の記憶ブロックにおけるデータ保存の最適化を行った。すべてが順調に進めば、心の集域は既存の大きさのまま、より多くの夢を安定して収容できるようになる……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "しかし、得体の知れない悪意がリナシータの夢を彷徨っている。ここのドリームノードが解放されるたびに、その悪意が夢を通じて心の集域に流れ込んできたのだ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "悪意？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "本来であれば人々の悪夢における負の感情。だが、背後に何か病のような精神への影響が潜んでいるようにも思える……まだ明確な答えはないが。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "ますます多くの記憶ブロックがその影響を受けている。このままでは、最適化作業が進まないだけでなく、心の集域自体も危機に陥るかもしれない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "導き手よ、あなたに悪意を処理する手助けをしてほしい。もちろん、これは私のためでなく、集域のためである。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "わかった。依頼には慣れている。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 39,
+              "PlotLineKey": "{Male=ただ働きはしない。;Female=ただ働きはしないよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "安心してほしい。夢の中には報酬が用意されている。それに、私もできる限り協力しよう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "先ほど、リナシータの「ゲート」を見たかと聞いたが……被害の拡大を防ぐため、私はそれらの悪意を「ゲート」の裏側の記憶ブロックに閉じ込めた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "私はこれからも<span class=\"font-bold\">定期的に各地に異なるゲートを開く。心の集域もあなたとかつて共に戦った仲間たちに力を貸してくれるだろう。</span>",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "「黒メェ」",
+          "PlotLineKey": "さあ、導き手よ、ゲートに向かうのだ。そして、悪意に侵された記憶ブロックを修復するのだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

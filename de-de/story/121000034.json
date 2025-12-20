@@ -1,0 +1,2223 @@
+{
+  "Id": 121000034,
+  "Name": "Tacet-Dissonanz-Jäger",
+  "Description": "Finde den Resonator, der sich einst als „Tacet-Dissonanz-Jäger“ bezeichnete, um das wertvolle TD-Material zu erhalten.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 121000034,
+  "ShowQuestList": [],
+  "QuestDesc": "Finde den Resonator, der sich einst als „Tacet-Dissonanz-Jäger“ bezeichnete, um das wertvolle TD-Material zu erhalten.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100005,
+      "PreQuestName": "Unheilvoller Stern"
+    },
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 8
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Besorgte Mutter",
+          "PlotLineKey": "Ich flehe Sie an. Frau Koko, Sie müssen irgendeinen Weg haben, meine Tochter zu retten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Koko",
+          "PlotLineKey": "Aber...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Besorgte Mutter",
+          "PlotLineKey": "Geht es um die Bezahlung? Ich gebe Ihnen all meine Ersparnisse, wenn es das braucht.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Koko",
+          "PlotLineKey": "Es geht nicht um das Geld!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Koko",
+          "PlotLineKey": "{PlayerName}, du bist hier. Aber tut mir leid, der Laden ist momentan geschlossen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "Frau Koko, brauchen Sie Hilfe?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Koko",
+          "PlotLineKey": "Mach dir keine Sorgen. Ich bin in Ordnung. Diese Dame hier ist keine Bedrohung.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Koko",
+          "PlotLineKey": "Ihre Tochter leidet an einer seltenen Krankheit - momentan nicht lebensbedrohlich, aber es könnte schlimmer werden.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 36,
+              "PlotLineKey": "Gibt es keine Heilung?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Besorgte Mutter",
+          "PlotLineKey": "Ärzte haben alles versucht, aber normale Medizin funktioniert nicht. Es gibt aber noch eine letzte Hoffnung.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Koko",
+          "PlotLineKey": "Ja, mein Lehrer hat schon einmal einen ähnlichen Fall behandelt, und ich habe noch das Rezept von damals.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Koko",
+          "PlotLineKey": "Das Problem ist, das entscheidende \"Leitmedikament\" ist schwer zu bekommen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "Was ist ein \"Leitmedikament\"?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Koko",
+          "PlotLineKey": "Das \"Leitmedikament\" ist die wichtigste Zutat im Rezept. Derzeit haben nur einige wohlhabende Leute das \"Leitmedikament\", das wir brauchen, und sie werden es wahrscheinlich nicht für Geld verkaufen, es sei denn...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "Es sei denn...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Koko",
+          "PlotLineKey": "Es sei denn, du kannst einige seltene Gegenstände finden, um sie damit zu tauschen. Übrigens, Rover, hast du schon einmal von etwas namens „Uhrgeist“ gehört?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 39,
+              "PlotLineKey": "Überhaupt nicht.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Koko",
+          "PlotLineKey": "Wenn wir diesen \"Uhrgeist\" hätten, könnten wir ihn gegen das \"Führungsmedikament\" eintauschen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Koko",
+          "PlotLineKey": "Es ist nicht einfach, ihn zu bekommen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Besorgte Mutter",
+          "PlotLineKey": "Frau Koko, wissen Sie, wie man ihn bekommt? Ich würde alles tun!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Koko",
+          "PlotLineKey": "„Uhrgeist“ kann man nur von einer Katastrophenklasse Tacet-Dissonanz namens \"Klingelnde Schildkröte\" bekommen. Haben Sie davon gehört?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 40,
+              "PlotLineKey": "Nein, noch nie davon gehört.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 41,
+              "PlotLineKey": "Ja, natürlich.",
+              "PlayVoice": false,
+              "JumpToId": 23
+            },
+            {
+              "TextId": 42,
+              "PlotLineKey": "Habe gegen eine gekämpft, aber keinen „Uhrgeist“ gefunden.",
+              "PlayVoice": false,
+              "JumpToId": 24
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Koko",
+          "PlotLineKey": "Selbst Rover hat noch nie davon gehört. Nicht wirklich überraschend, allerdings. Nur eine Handvoll Menschen haben die Chance, es zu sehen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Koko",
+          "PlotLineKey": "Es heißt, es hat einen Körper so groß wie ein Berg, kann einen gepanzerten Wagen mit nur einem Schritt zerquetschen und einen Fluss mit einem einzigen Atemzug einfrieren!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Koko",
+          "PlotLineKey": "Viele haben in der Vergangenheit versucht, es zu jagen, aber sie alle wurden zu Revenanten, die im Fluss eingefroren sind.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Koko",
+          "PlotLineKey": "Es verlässt jedoch normalerweise nicht sein Territorium, daher ist es noch seltener, dass Menschen es sehen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Koko",
+          "PlotLineKey": "Menschen mit Verstand würden nicht freiwillig mit ihm kämpfen, geschweige denn ihr Leben für ein Kraut riskieren.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 23,
+          "Speaker": "Koko",
+          "PlotLineKey": "Ja, du verstehst, wie furchterregend es ist. Niemand wagt es, es herauszufordern, geschweige denn ihr Leben für ein Kraut aufs Spiel zu setzen.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 24,
+          "Speaker": "Koko",
+          "PlotLineKey": "Echt jetzt? Du hast es erlegt? Du machst keine Witze, oder?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Koko",
+          "PlotLineKey": "Trotzdem hast du den „Uhrgeist“ nicht bekommen. Das ist schade.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 26,
+          "Speaker": "Besorgte Mutter",
+          "PlotLineKey": "Wie kann das sein? Gibt es wirklich keine Möglichkeit?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Koko",
+          "PlotLineKey": "Hmm…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 43,
+              "PlotLineKey": "Frau Koko, hast du eine Idee?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Koko",
+          "PlotLineKey": "Nun, es gibt jemanden, den ich kenne, der vielleicht noch etwas „Uhrgeist“ hat, aber das Problem ist, er ist etwas unzuverlässig.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 44,
+              "PlotLineKey": "Können wir ihm wirklich vertrauen?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 29,
+          "Speaker": "Koko",
+          "PlotLineKey": "Nicht sicher, aber er hat mir vorher viele seltene TD-Materialien verkauft. Es scheint, als hätte er ein paar Tricks auf Lager.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Besorgte Mutter",
+          "PlotLineKey": "Bitte sag mir, wie ich ihn finden kann. Egal wie gering die Hoffnung ist, ich werde es versuchen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 45,
+              "PlotLineKey": "Ich möchte helfen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 31,
+          "Speaker": "Koko",
+          "PlotLineKey": "Danke, Rover! Also, lass diese Dame hier bleiben, um mir bei der Vorbereitung anderer Kräuter zu helfen, und ich überlasse die Aufgabe, den \"Uhrgeist\" zu beschaffen, {PlayerName}? Klingt das gut?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 46,
+              "PlotLineKey": "Kein Problem. Überlasse es mir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 32,
+          "Speaker": "Koko",
+          "PlotLineKey": "Sein Name ist Lianfeng und er hängt die ganze Zeit im Theater herum. Du solltest ihn dort finden.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 47,
+              "PlotLineKey": "Wie werde ich wissen, wer er ist?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 33,
+          "Speaker": "Koko",
+          "PlotLineKey": "Er nennt sich „TD-Jäger“ und prahlt damit, mächtige TDs zu jagen, obwohl niemand ihn tatsächlich kämpfen gesehen hat.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Koko",
+          "PlotLineKey": "Wenn du jemanden siehst, der im Theater beim Tee laut und prahlerisch ist, das ist Lianfeng.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Koko",
+          "PlotLineKey": "Wenn du jemanden siehst, der im Theater laut und prahlerisch beim Tee ist, das ist Lianfeng.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Besorgte Mutter",
+          "PlotLineKey": "Rover, bitte hilf mir. Ich habe keine anderen Optionen.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Guan",
+          "PlotLineKey": "Hey, Lianfeng, du hast hier einen Gast.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Wer bist du? Ich kenne dich nicht.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 291,
+              "PlotLineKey": "Du bist Lianfeng? Ich habe dich endlich gefunden.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Suchst du mich? Wer hat dir gesagt, dass ich hier bin?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 292,
+              "PlotLineKey": "Frau Koko von der Apotheke Shifang.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Verdammt. Hat sie dich geschickt, um Schulden einzutreiben?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 293,
+              "PlotLineKey": "Was?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Nichts, vergiss es. Warum suchst du mich? Raus damit. Ich habe keine Zeit zu verschwenden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Komm schon! Du trinkst hier nur Tee mit uns. Oh! Schöner Tee.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Nur damit du es weißt, wenn du hier bist, um Geld zu leihen, dann kannst du dich umdrehen und gehen. Ich bin pleite. Total pleite.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Guan",
+          "PlotLineKey": "Du könntest diese KOSTBAREN Materialien, die du von den TDs erhalten hast, verkaufen, oder? Sie sollten dir eine große Summe einbringen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ich habe sie schon vor langer Zeit alle verkauft.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 294,
+              "PlotLineKey": "Alle? Was ist mit dem Material namens „Uhrgeist“?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ich habe keine. Apropos, ich habe mal einige von einem TD namens Klingelnde Schildkröte bekommen. Naja, vergiss es. Schließlich wirst du keine Chance haben, es zu sehen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Warum erzähle ich dir das alles? Du verschwendest nur meine Zeit. Verschwinde, verdirb mir nicht meine Teestunde.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 295,
+              "PlotLineKey": "Wo kann ich es sonst noch finden?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ich lüge nicht, aber ich bin der Einzige, der \"Uhrgeist\" bekommen kann.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Warum gehst du nicht noch mal zu diesem Klingelnden Ding?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Im Ernst? Ich gehe nicht! Ich habe es satt, mit Lakaien wie der Klingelnden Schildkröte zu tun zu haben. Wer immer gehen will, kann das selbst tun.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Wenn du so stark bist, warum hast du dann die Pioneer Association verlassen? Oder, wurdest du rausgeworfen?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Guan",
+          "PlotLineKey": "Ich habe von Frau Maqi gehört, dass du aufgehört hast. Also stimmt es, hm?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Unsinn. Ich habe aufgehört, weil ich keine Begleiter oder Hilfe brauche, um TDs zu besiegen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ich bin ein Einzelgänger. Ich verschwende keine Zeit damit, mich mit Leuten zu verstehen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Guan",
+          "PlotLineKey": "Hey, Freund, ich erinnere mich, du bist Rover, der gerade nach Jinzhou gekommen ist, oder? Warum willst du dieses Ding?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 296,
+              "PlotLineKey": "(Du erklärst die Situation mit der Mutter und ihrer kranken Tochter)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Das ist bedauerlich, aber na und? Warum sollte ich jemandem helfen, den ich kaum kenne? Such dir jemand anderen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Guan",
+          "PlotLineKey": "Hey, wie kannst du so grausam sein? Zeig ein bisschen Mitgefühl!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Oh mein Gott, zu arm. Ich kann Geschichten wie diese nicht ertragen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Was ist mit euch beiden los?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 297,
+              "PlotLineKey": "Herr Lianfeng, bitte helfen Sie uns.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ugh, aber...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "???",
+          "PlotLineKey": "Hahaha! Bitte erklären Sie uns diese Angelegenheit im Detail, Pioneer Association!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Truppführer der Pioneer Association",
+          "PlotLineKey": "Entschuldigung für den abrupten Eindringen! Wir hatten nicht vor, euer Gespräch zu belauschen. Es ist nur so, dass eure Stimmen ein bisschen laut waren.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tsk, sind alle Mitglieder der Pioneer Association so unhöflich?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Truppführer der Pioneer Association",
+          "PlotLineKey": "Tatsächlich sind wir die Entdecker der Pioneer Association, und ich bin der Kapitän dieses Teams. Bist du Rover? Schön, dich zu treffen!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 298,
+              "PlotLineKey": "Freut mich auch, dich zu treffen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 29,
+          "Speaker": "Guan",
+          "PlotLineKey": "Haha, Lianfeng, du wirst ignoriert!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Halt die Klappe. Hey, was willst du?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Truppführer der Pioneer Association",
+          "PlotLineKey": "Nun, wir sind auf dem Weg zur Geisterschlucht, um eine riesige Tacet-Dissonanz zu untersuchen, die dort gefunden wurde.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 299,
+              "PlotLineKey": "Klingelnde Schildkröte?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 32,
+          "Speaker": "Truppführer der Pioneer Association",
+          "PlotLineKey": "Ja. Unser Ziel ist es, die Klingelnde Schildkröte für weitere Forschungen zu besiegen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Truppführer der Pioneer Association",
+          "PlotLineKey": "Dann haben wir zufällig euer Gespräch gehört und dachten, wenn wir der unglücklichen Mutter und Tochter gleichzeitig helfen könnten, wäre das großartig.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Guan",
+          "PlotLineKey": "Das ist großartig! Bitte helft ihnen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Ihr seid solch gute Kerle, im Gegensatz zu Lianfeng.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Seid ihr verrückt?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 300,
+              "PlotLineKey": "Könnt ihr wirklich diesen riesigen Tacet-Dissonanz besiegen?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 37,
+          "Speaker": "Truppführer der Pioneer Association",
+          "PlotLineKey": "Keine Sorge. Wir haben die Klingelnde Schildkröte gründlich untersucht und unser Team besteht aus erfahrenen Resonatoren.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 38,
+          "Speaker": "Truppführer der Pioneer Association",
+          "PlotLineKey": "Aber wir haben noch nie zuvor von diesem „Uhrgeist“ gehört. Es scheint ein interessantes Forschungsthema zu sein. Ich bin sicher, die Redaktion wird begeistert sein.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 39,
+          "Speaker": "Truppführer der Pioneer Association",
+          "PlotLineKey": "Nun, Rover, warte einfach auf unsere guten Nachrichten! Tschüss!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Warte, das ist zu gefährlich! Ihr werdet alle sterben! Hey, halt!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "Guan",
+          "PlotLineKey": "Lass sie einfach ihre Arbeit machen, Lianfeng. Du bist lächerlich.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 42,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ich? Lächerlich? Ich möchte einfach nicht, dass sie ihr Leben so leichtfertig wegwerfen!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 301,
+              "PlotLineKey": "Machst du dir Sorgen um sie?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 43,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ich bin kein Mitglied der Pioneer Association mehr. Sie können machen, was sie wollen. Es ist mir egal.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 44,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Aber sie unterschätzen dieses TD. Mitglieder der Pioneer Association konzentrieren sich zu sehr auf Forschung und Untersuchung. Manchmal vergessen sie, dass sie es mit äußerst gefährlichen Kreaturen zu tun haben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 45,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Da du ein Mann der Stärke bist, warum nicht mitmachen und helfen? Wir werden dich als wahren Mann respektieren.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 302,
+              "PlotLineKey": "Herr Lianfeng, lass uns ihnen helfen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 46,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tsk, leicht gesagt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "Guan",
+          "PlotLineKey": "Sieh mal, er zieht sich zurück.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 48,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Unterschätzt du mich? Gut, ich gehe! Aber ich werde ihnen nicht helfen, die Klingelnde Schildkröte zu bekämpfen. Ich habe bereits gesagt, dass ich mit der Pioneer Association fertig bin!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 49,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ich werde {Male=ihm;Female=ihr} als {Male=sein;Female=ihr} \"Meister\" sagen, wie man die Klingelnde Schildkröte besiegt!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "Ich?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 50,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Sieht so aus, als wärst du geschickt genug. Mit meiner Anleitung wirst du in der Zukunft fähiger sein als diese Typen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 51,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Nun, solange du glücklich bist.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "Ich werde helfen.",
+              "PlayVoice": false,
+              "JumpToId": 52
+            },
+            {
+              "TextId": 305,
+              "PlotLineKey": "Ich brauche keinen Meister.",
+              "PlayVoice": false,
+              "JumpToId": 53
+            },
+            {
+              "TextId": 306,
+              "PlotLineKey": "Meister Lianfeng!",
+              "PlayVoice": false,
+              "JumpToId": 54
+            }
+          ]
+        },
+        {
+          "Id": 52,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Gut. Hoffentlich bleibst du auch so gelassen, wenn du auf diesen furchterregenden TD triffst.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 55
+        },
+        {
+          "Id": 53,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tsk. Wie auch immer, mit einem erfahrenen „TD-Jäger“ an deiner Seite, kann nichts schief gehen.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 55
+        },
+        {
+          "Id": 54,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Noch einmal!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 55
+        },
+        {
+          "Id": 55,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "In diesem Fall wirst du wissen, dass ich nicht geprahlt habe. Warte ab und sieh zu.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 56,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Rover, komm! Lass uns dort drüben ein privates Gespräch führen. Lass diese Narren nicht zuhören.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 57,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Als ob wir zuhören wollten. Wir haben genug Tee getrunken. Tschüss.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 58,
+          "Speaker": "Guan",
+          "PlotLineKey": "Chef, schreib es auf Lianfengs Rechnung!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 59,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Raus, raus, raus! Geht raus! Verschwendet nicht unsere Zeit.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "Was ist passiert?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hast du keine Angst, gegen TDs zu kämpfen?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ich meine, die Klingelnde Schildkröte ist ein sehr gefährlicher Gegner. Du könntest dich verletzen oder sogar dein Leben verlieren, wenn du gegen sie kämpfst.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Obwohl die Mutter und die Tochter ziemlich bemitleidenswert sind, bist du nicht verpflichtet, ihnen zu helfen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Selbst wenn du dich jetzt zurückziehst, kann dich niemand dafür verantwortlich machen, einschließlich der Mutter und der Tochter.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Behalte dieses Gespräch für dich. Ich werde versuchen, einen Weg zu finden, um den „Uhrgeist“ für dich zu bekommen, damit du dein Leben nicht riskieren musst.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Obwohl wir uns erst seit kurzer Zeit kennen, möchte ich nicht, dass du stirbst, während ich zusehe.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 174,
+              "PlotLineKey": "Du bist erfahren, also bin ich sicher, wenn du in der Nähe bist.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Du hast Mumm. Nun, nicht schlecht.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 175,
+              "PlotLineKey": "Es sei denn, du hast gelogen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hm, zweifelst du daran, dass ich noch nie dieses TD gejagt habe?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "Ja.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 177,
+              "PlotLineKey": "Noch nicht.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Das ist direkt.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Gut, auch wenn du das gesagt hast, kann ich an deinem Gesichtsausdruck erkennen, dass du nicht vollständig überzeugt bist.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Kann dir nicht die Schuld geben. Ehrlich gesagt, zweifle ich manchmal selbst daran, ob ich ein echter „TD-Jäger“ bin.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hast du schon mal von der Übertaktung eines Resonators gehört?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 178,
+              "PlotLineKey": "Ja.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 179,
+              "PlotLineKey": "Nein.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Du bist ziemlich bewandert. Hast du jemals einen Resonator nach der Übertaktung angetroffen?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Echt jetzt? Du hast noch nie davon gehört? Das ist überraschend, wenn man bedenkt, dass du ein Resonator bist. Overclocking ist ein negatives Phänomen, das bei Resonatoren auftritt. Verschiedene Resonatoren haben unterschiedliche Symptome.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Wenn es nicht kontrolliert wird, kann es zu schweren Nachwirkungen führen, sogar die Persönlichkeit eines Resonators komplett verändern.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Zum Beispiel, ich bin einer der unglücklichen Resonatoren, die das durchgemacht haben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Rover",
+          "PlotLineKey": "Du hast Overclocking schon mal erlebt?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Vielleicht, ich erinnere mich nicht wirklich, weil die Forscher an der Akademie bestätigt haben, dass ich die meisten meiner Erinnerungen nach dem Overclocking verloren habe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Einige Erinnerungen, wie das Kämpfen gegen diese TDs, bleiben bei mir - egal, wie sehr ich versucht habe, sie zu vergessen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Obwohl ich in diesen Erinnerungen sie immer alleine gejagt habe. Es ist immer dieses seltsame Gefühl der Unnatürlichkeit... Vergiss es. Du würdest es nicht verstehen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Wie dem auch sei, jetzt ist nicht der richtige Zeitpunkt, darüber zu sprechen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Los geht's. Ich werde zum Treffpunkt außerhalb von Jinzhou gehen und dort auf dich warten. Ich habe die Koordinaten bereits an dein Terminal gesendet.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Wenn du bereit bist, triff mich dort. Trödel nicht. Wir müssen sie einholen!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Husten…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 211,
+              "PlotLineKey": "Geht es dir gut?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Mir geht's gut. Ich war nur ein bisschen unvorsichtig und wurde von diesen Lakaien angegriffen. Keine große Sache. Ich habe sie mühelos verjagt.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 212,
+              "PlotLineKey": "Bist du dir sicher?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Was ist mit diesem Blick! Es scheint, es ist Zeit für deine erste Lektion als mein Lehrling.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Regel Nummer Eins für „TD-Jäger“ - „Unterschätze niemals Lakaien!“",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Selbst schwächere Feinde können unerwartete Probleme verursachen. Hast du das verstanden?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 213,
+              "PlotLineKey": "Aber du scheinst deine eigene Regel nicht zu befolgen.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 214,
+              "PlotLineKey": "Okay, okay, lass uns weitermachen.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 215,
+              "PlotLineKey": "Ja, Meister!",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ähem, ich habe mich absichtlich in Gefahr gebracht, um dir eine Lektion zu erteilen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 228,
+              "PlotLineKey": "",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Okay, es ist dein Verlust, nicht auf mich zu hören. Ich spreche aus Erfahrung.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 227,
+              "PlotLineKey": "",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Gut, merke dir meine Worte. Sie werden dir eines Tages nützlich sein.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 216,
+              "PlotLineKey": "Warum versammeln wir uns hier?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Die Klingelnde Schildkröte lebt in der Geisterschlucht, die die Quelle des hier durchfließenden Flusses Qing ist. Ich kann den Zustand eines TD durch die verbleibende Frequenz im Medium spüren.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 217,
+              "PlotLineKey": "Was hast du dann gefunden?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ich habe dir gesagt, dass nur ich den „Uhrgeist“ finden kann, oder? Das liegt daran, dass die Klingelnde Schildkröte zu bestimmten Zeiten eine spezielle Frequenz ausstrahlt, und nur wenn man sie in diesen Zeiten besiegt, kann man den „Uhrgeist“ bekommen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Egal wie oft du die Klingelnde Schildkröte besiegst, solange es nicht der richtige Zeitpunkt ist, kannst du den „Uhrgeist“ nicht bekommen, und nur meine Resonanzfähigkeit kann sagen, ob es der richtige Zeitpunkt ist.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 218,
+              "PlotLineKey": "Wie sieht es jetzt aus?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Wir haben ziemlich Glück. Es besteht eine hohe Chance, dass wir den „Uhrgeist“ bekommen, wenn wir jetzt die Klingelnde Schildkröte jagen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Außerdem scheint es, dass die Leute von der Pioneer Association planen, zur Geisterschlucht am Fluss zu gehen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 219,
+              "PlotLineKey": "Ich kann Anzeichen von jemandem sehen, der hier campiert.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Es scheint, dass sie gut vorbereitet sind. Die Pioneer Association ist wirklich an der Klingelnde Schildkröte interessiert.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 220,
+              "PlotLineKey": "Was ist so besonders an der Klingelnde Schildkröte?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Du willst es wissen? Neugier ist eine gute Eigenschaft! Je mehr du über deinen Feind vor einer Schlacht weißt, desto zuversichtlicher wirst du sein.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Beginnen wir mit der Frage \"Wie entstehen Tacet-Dissonanzen?\". Die meisten Leute glauben, dass sie aus dem Chaos entstehen, aber es gibt einige Ausnahmen - einige TDs scheinen aus Legenden oder sogar aus der realen Geschichte zu kommen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Die Legende besagt, dass die alte Armee in Huanglong in der Schlacht eine Bronzeglocke läutete, die die Soldaten inspirierte, tapfer zu kämpfen und den guten Wunsch einer siegreichen Rückkehr symbolisierte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Eines Tages rettete der Glockenläuter zufällig eine Schildkröte am Fluss Qing. Von da an wurde diese Schildkröte zu einem unverzichtbaren Teil der Soldaten und teilte ihre Freude und ihr Leid.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Bevor die heftige Schlacht zu Ende ging, starb der Glockenläuter. Die Glocke aber läutete weiter auf dem Schlachtfeld. Es wird gesagt, dass die Schildkröte die Glocke läutete.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 221,
+              "PlotLineKey": "Die Schildkröte übernahm die Pflicht des Glockenläuters.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ja, das ist die Geschichte. Später fand jemand eine verrostete alte Glocke in der Geisterschlucht, die dem Stil der Bronzeglocke, die die alte Armee benutzte, ähnlich war.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Unter dieser alten Glocke war eine riesige, schildkrötenförmige Tacet-Dissonanz. Sie war Zeuge des heftigen Krieges und verabschiedete den Glockenläuter und die Soldaten. Diese Erinnerungen banden die schwere alte Glocke auf ihren Rücken.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Aber das ist nur eine Geschichte. Schließlich weiß niemand, ob TDs Erinnerungen und Emotionen haben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Egal, was in der Vergangenheit passiert ist, ist dieses TD jetzt eine abscheuliche Kreatur, die Huanglong nichts anderes als Schmerz und Qualen bringt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Du musst kein Mitleid zeigen. Wenn es wirklich Emotionen hätte, würde es nicht wollen, eine Kreatur zu sein, die das Glück und den Frieden der Menschen in Huanglong zerstört.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Regel Nummer Zwei für den „TD-Jäger“ - „Zeige niemals Mitleid mit den Tacet-Dissonanzen!“",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 222,
+              "PlotLineKey": "Ich verstehe.",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 223,
+              "PlotLineKey": "Nochmal...",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 224,
+              "PlotLineKey": "Ja, Meister!",
+              "PlayVoice": false,
+              "JumpToId": 26
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Die Pioneer Association sollte nicht lange weg sein. Lass uns ihre Spuren verfolgen und schnell aufholen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hast du die Scan-Funktion am Terminal benutzt?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 225,
+              "PlotLineKey": "Natürlich.",
+              "PlayVoice": false,
+              "JumpToId": 28
+            },
+            {
+              "TextId": 226,
+              "PlotLineKey": "Noch nicht.",
+              "PlayVoice": false,
+              "JumpToId": 29
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Wunderbar. Lass uns dem auf dem Terminal angezeigten Pfad folgen und sie aufspüren.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hier kommt es gelegen, dass ich dein Meister bin. Ich kann dir alles beibringen, was du wissen möchtest.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Schalte dein Terminal ein und wähle die Scan-Funktion. Auf dem Bildschirm wird ein Pfad angezeigt, und alles, was du tun musst, ist ihm zu folgen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Verstanden? Großartig, lass uns dem auf dem Terminal angezeigten Pfad folgen und sie aufspüren.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Das sind die TDs, die mich gerade angegriffen haben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Sei vorsichtig. Sie scheinen aufgrund des Erwachens der Klingelnden Schildkröte extrem aggressiv zu werden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Selbst jemand so erfahren wie ich ist in einen harten Kampf geraten.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Dieses Geräusch...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 323,
+              "PlotLineKey": "Ich habe es auch gehört.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Es ist ein Signal, dass die Klingelnde Schildkröte aufwacht.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ugh... Mein Kopf...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 324,
+              "PlotLineKey": "Was ist passiert?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Nichts, nur ein bisschen Kopfschmerzen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(Verdammt, es passiert wieder. Es fühlt sich an, als ob etwas in meinen Erinnerungen aufwachen würde.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Das Problem ist, die Spuren, die die Mitglieder der Pioneer Association hinterlassen haben, scheinen hier zu verschwinden...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 434,
+              "PlotLineKey": "Wir können dem Klang der Glocke folgen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Richtig, sie müssen dort sein, wo der Glockenklang ist. Lass uns gehen.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hey! Wach auf! Kannst du mich hören!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 361,
+              "PlotLineKey": "Wir sind zu spät...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Truppführer der Pioneer Association",
+          "PlotLineKey": "Ugh, du bist... die Leute aus dem Teehaus?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Genug geredet. Ich werde deine Verletzungen mit meiner Kraft überprüfen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Keine größeren Organschäden, aber es gibt mehrere Knochenbrüche. Hast du gegen die Klingelnde Schildkröte gekämpft?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Truppführer der Pioneer Association",
+          "PlotLineKey": "Ha, das kann man kaum einen Kampf nennen. Wir wurden komplett vernichtet.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Truppführer der Pioneer Association",
+          "PlotLineKey": "Du solltest gehen. Obwohl es jetzt ruhig ist, weiß niemand, wann es wieder aufwachen wird.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Truppführer der Pioneer Association",
+          "PlotLineKey": "Es ist kein Gegner, mit dem ihr normalen Leute umgehen könnt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Normale Leute? Ihr habt uns falsch verstanden. Ich bin Lianfeng, ein professioneller „TD-Jäger“, und das ist mein bester Lehrling.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 362,
+              "PlotLineKey": "\"Bester Lehrling\"... Du hast nur einen Lehrling, okay?",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 363,
+              "PlotLineKey": "Ich bin nicht dein Lehrling.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 364,
+              "PlotLineKey": "Überlasst das nur mir und meinem Meister!",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ihr Leute bleibt hier und ruht euch aus. Überlasst den Rest uns.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "{PlayerName}, hör genau zu, was ich jetzt sage.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 365,
+              "PlotLineKey": "Alles klar.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Siehst du die große Glocke in der Mitte der \"Klingelnden Schlucht\"? Wenn du sie läutest, wird die Klingelnde Schildkröte aufwachen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Da sie riesig ist, bewegt sie sich langsam und dreht sich langsam, also sollten wir besser...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 366,
+              "PlotLineKey": "Halte dich von ihr fern.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 367,
+              "PlotLineKey": "Komm ihr nahe.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Sich von ihr fernzuhalten, wird uns nur in die Ecken mit ihrem massiven Körper zwingen. Sie kann auch eisigen Atem benutzen und Wasser in Eiskristalle für wahllose Angriffe kondensieren.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Obwohl es verrückt erscheinen mag, ist es tatsächlich sicherer, ihr so nahe wie möglich zu kommen.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ja, sich ihr zu nähern, ermöglicht es uns, ihre blinden Flecken während ihrer Drehungen und Angriffe zu nutzen. Kluger Zug.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ihre vier Beine, ihr Kopf und ihr Schwanz sind alle hoch offensive Waffen. Unterschätze sie nicht.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Außerdem ist seine Schwachstelle die große Glocke auf seinem Rücken, aber sie ist relativ hoch und unter normalen Umständen nicht leicht anzugreifen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 368,
+              "PlotLineKey": "Es sei denn, wir finden einen Weg, es zu Fall zu bringen...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Du denkst klar, nicht wahr?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Die Füße der Klingelnden Schildkröte sind mit hartem Eis bedeckt, das sie schützt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Es ist jedoch auch seine Schwachstelle. Sobald das Eis zerstört ist, verliert die Klingelnde Schildkröte das Gleichgewicht und fällt hin, was uns eine gute Gelegenheit gibt, ihren verletzlichsten Punkt anzugreifen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 369,
+              "PlotLineKey": "Aber es bewegt sich ständig.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ich werde seine Aufmerksamkeit auf mich ziehen, und du nutzt die Gelegenheit zum Angriff.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 370,
+              "PlotLineKey": "Bringt das nicht dich in Gefahr?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tsk, unterschätzt du einen \"TD-Meister\"? Sobald du sein Angriffsmuster herausgefunden hast, ist es leicht auszuweichen. So haben wir es zuvor besiegt.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 371,
+              "PlotLineKey": "Wir? Ich dachte, du hast es alleine besiegt?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Wir... Ich... Ugh, mein Kopf...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 372,
+              "PlotLineKey": "War da noch jemand, der mit dir gegen die Klingelnde Schildkröte gekämpft hat?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(In meiner Erinnerung gibt es eine Gruppe von Menschen, die an meiner Seite gekämpft haben.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(Wer waren sie?)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ugh... mein Kopf tut weh!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 373,
+              "PlotLineKey": "Überanstrenge dich nicht. Du solltest dich in deinem Zustand besser ausruhen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Es ist gefährlich, die Klingelnde Schildkröte alleine zu konfrontieren.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 374,
+              "PlotLineKey": "Es wird schon. Lass alles mir über.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Warte, {PlayerName}!!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Truppführer der Pioneer Association",
+          "PlotLineKey": "Du hast dieses Monster wirklich ganz alleine besiegt! Das ist erstaunlich!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Das ist mein Lehrling! Es sollte für {Male=ihn;Female=sie} ein Kinderspiel sein, mit so einem kleinen Fisch fertig zu werden.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 383,
+              "PlotLineKey": "Geht es dir gut?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ich weiß nicht, wie es ihnen geht, aber mir geht es perfekt.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 384,
+              "PlotLineKey": "Bist du dir sicher?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Worüber machst du dir Sorgen? Es ist nur ein kleines Problem. Zeig mir auf jeden Fall das Material, das du von der Klingelnden Schildkröte bekommen hast.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ja, das ist es - der \"Uhrgeist\". Es ist tatsächlich der Samen, der von der Pflanze auf der Klingelnden Schildkröte produziert wird.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Truppführer der Pioneer Association",
+          "PlotLineKey": "Haha? Wirklich? Gut zu wissen! Das muss ich mir notieren.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Oh mein Gott, kannst du nicht für eine Sekunde deine dumme Forschung vergessen?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Mach dir keine Sorgen. Vergiss sie. Du musst schnell zurück nach Jinzhou und das hier Koko geben. Ich werde die Pioneer Association kontaktieren, um ihnen medizinische Behandlung zu besorgen.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Koko",
+          "PlotLineKey": "Rover, du bist zurück!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Koko",
+          "PlotLineKey": "Ist alles in Ordnung? Hast du Lianfeng gefunden?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 414,
+              "PlotLineKey": "Ja.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Koko",
+          "PlotLineKey": "Hat er immer noch den „Uhrgeist“?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 415,
+              "PlotLineKey": "Es ist eine lange Geschichte. Hier, nimm das.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Koko",
+          "PlotLineKey": "„Uhrgeist“? Oh, ja, das ist es!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Besorgte Mutter",
+          "PlotLineKey": "Also kann meine Tochter gerettet werden?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Koko",
+          "PlotLineKey": "Ja, mit diesem kann deine Tochter geheilt werden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Koko",
+          "PlotLineKey": "Aber es sieht so frisch aus. Ich dachte, Lianfeng hätte es schon vor langer Zeit bekommen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "???",
+          "PlotLineKey": "Weil es frisch gepflückt ist.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Koko",
+          "PlotLineKey": "Onkel Lianfeng?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hey, zeig mir etwas Respekt. Es ist Bruder Lianfeng.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 416,
+              "PlotLineKey": "Wie fühlst du dich?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Nur eine kleine Nachwirkung des Overclocking. Siehst du, mir geht es total gut.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Koko",
+          "PlotLineKey": "Overclocking? Aber deine Symptome scheinen nicht danach. Die Nachwirkung des Overclocking sollte mit der Kraft eines Resonators verbunden sein.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Na und? Meine Kraft ist Frequenzwahrnehmung.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 417,
+              "PlotLineKey": "Aber dein Symptom ist Gedächtnisverlust.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hmm…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Koko",
+          "PlotLineKey": "Gibt es eine Möglichkeit, dass du nicht wirklich Overclocking durchgemacht hast und ein anderes Ereignis deinen Gedächtnisverlust verursacht hat?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 418,
+              "PlotLineKey": "Ich glaube, du hattest Teamkollegen, die mit dir gekämpft haben.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Auf keinen Fall. Ich hatte noch nie irgendwelche Begleiter oder Teamkollegen. Mein lieber Lehrling, du machst dir zu viele Sorgen. Ich kümmere mich um meine Angelegenheiten, und du um deine.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Koko",
+          "PlotLineKey": "Wie hast du dich verletzt?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 419,
+              "PlotLineKey": "Wieder eine lange Geschichte.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 420,
+              "PlotLineKey": "Er bestand darauf, mein Meister zu sein.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 421,
+              "PlotLineKey": "Meister Lianfeng!",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ich werde dir später die aufregende Schlacht zwischen Rover und der Klingelnden Schildkröte erzählen. Jetzt machen wir erstmal die Medizin, die die Tochter dieser Dame braucht.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Besorgte Mutter",
+          "PlotLineKey": "Danke, Herr Lianfeng.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Keine große Sache. Feinde auf diesem Niveau zu besiegen, ist für einen „TD-Jäger“ ein Spaziergang im Park.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Koko",
+          "PlotLineKey": "Onkel Lianfeng, was hältst du davon, weiterhin diese riesigen TDs zu jagen? Wenn du zufällig seltene Materialien findest, bin ich immer noch bereit, sie zu einem guten Preis zu kaufen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Nenn mich „Bruder„! Wie auch immer, ich bin bereits im Ruhestand. Ich überlasse den Titel „TD-Jäger“ meinem Hauptlehrling.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 422,
+              "PlotLineKey": "Ich?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Koko",
+          "PlotLineKey": "Wirklich? Das sind gute Nachrichten. Rover ist viel zuverlässiger als Onkel Lianfeng.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 423,
+              "PlotLineKey": "Kann ich?",
+              "PlayVoice": false,
+              "JumpToId": 24
+            },
+            {
+              "TextId": 424,
+              "PlotLineKey": "Ich bin nicht dein Lehrling.",
+              "PlayVoice": false,
+              "JumpToId": 25
+            },
+            {
+              "TextId": 425,
+              "PlotLineKey": "Überlasse es mir, Meister!",
+              "PlayVoice": false,
+              "JumpToId": 26
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Keine Sorge! Ich werde weiterhin unterrichten, hahaha!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 27
+        },
+        {
+          "Id": 25,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Okay, gut, aber kein TD-Jäger zu sein, ist sicherlich eine Verschwendung deiner Fähigkeiten.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 27
+        },
+        {
+          "Id": 26,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Super. Jetzt bist du der neue \"TD-Jäger\" und ich bin sicher, du machst das gut.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 27
+        },
+        {
+          "Id": 27,
+          "Speaker": "Koko",
+          "PlotLineKey": "Richtig, und natürlich wirst du für deine Arbeit fair bezahlt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(Vielleicht kann ich den wahren Grund für meinen Gedächtnisverlust in den Kämpfen gegen TDs herausfinden.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Nun, mein lieber Lehrling, wenn es Informationen über neue große TDs gibt, werde ich dich kontaktieren!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

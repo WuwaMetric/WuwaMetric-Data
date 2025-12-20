@@ -1,0 +1,312 @@
+{
+  "Id": 162700005,
+  "Name": "千道门扉的异想",
+  "Description": "梦境的频率里传来了似曾相识的声音，对面自称“黑色守门人”……总之，先去看看这家伙想做什么吧。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 162700005,
+  "ShowQuestList": [],
+  "QuestDesc": "梦境的频率里传来了似曾相识的声音，对面自称“黑色守门人”……总之，先去看看这家伙想做什么吧。",
+  "Conditions": [
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 30
+    },
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 114000027,
+        "ChildQuestId": 24
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 31000
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "{PlayerName}，不知道你能否听见……我是黑色守门人。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 9,
+              "PlotLineKey": "谁？",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 10,
+              "PlotLineKey": "为什么要联络我？",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 11,
+              "PlotLineKey": "你好，我是白色守门人。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "黑色守门人",
+          "PlotLineKey": "咳……你好，我是<ano=存储梦境的载体>「心之集域」</ano>的管理者，黑色守门人。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "黑色守门人",
+          "PlotLineKey": "这个……自然是为了「心之集域」的事。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "黑色守门人",
+          "PlotLineKey": "咳……请别开玩笑了，指引者。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "黑色守门人",
+          "PlotLineKey": "不知道你是否已经发现了，黎那汐塔的土地上也出现了……通往心之集域的「门」。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "黑色守门人",
+          "PlotLineKey": "*模糊不清的声音*",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 12,
+              "PlotLineKey": "喂？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 13,
+              "PlotLineKey": "信号不好吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "黑色守门人",
+          "PlotLineKey": "是梦境通讯被干扰了吗……？啊，恢复了……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "黑色守门人",
+          "PlotLineKey": "如果可以的话，请和我当面聊聊吧。我会一直等着你的，指引者。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "你来了，{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "呃，也许你会对我现在的模样感到困惑……我确实就是之前和你联络的黑色守门人。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "你在安可的黑咩玩偶里？",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 32,
+              "PlotLineKey": "……想起来了，原来上次就是你！",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "不，和安可小姐没关系。这是心之集域中所复制的「记忆体」，我只是临时借用了这个形象。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "行……吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "咳咳，接下来要说的事与这个无关。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 5,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "上、上一次……？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 34,
+              "PlotLineKey": "让我对残象使用仿制声骸的那一次。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 35,
+              "PlotLineKey": "还有“多萝西”出现的那一次……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "呃……这个……对，你说得没错，那时的确是我。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "抱歉，当时我用假身份委托你对新开启的「门」进行了测试，为了实现……那个已被你挫败的计划。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 36,
+              "PlotLineKey": "这一次，你又在盘算什么？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "不，请相信，现在的我对你毫无隐瞒，指引者。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "前段时间，我在对部分记忆区的存储逻辑进行优化。如果一切顺利，心之集域就能靠现有空间稳定地收容更多的梦……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "但有不明的恶念徘徊在黎那汐塔的梦里。当这里的梦境节点激活，那些恶念便借由梦境涌入了心之集域。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "那些恶念是什么？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "那已不止是人们梦魇中的负面情绪，背后隐含的是某种瘟疫一般的精神影响……我还不能给出明确的答案。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "越来越多的记忆区受到了它们的影响。再这样下去，不仅优化工作无法进行，心之集域本身也可能陷入危机。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "指引者，我想请你帮忙处理这些恶念。但这不是为了我，而是为了整个集域。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "好吧，似曾相识的委托。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 39,
+              "PlotLineKey": "我可不会免费帮你。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "请放心，梦境之中自然会有相应的报酬。我也会尽我所能地协助你。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "先前我曾问你是否见到了黎那汐塔地区的「门」……为了避免危害蔓延，我已将那些恶念禁锢在了「门」背后的记忆区里。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "接下来，我会继续<span class=\"font-bold\">定期在各地开启不同的门扉。心之集域也将为你和曾经并肩作战的伙伴们提供助力。</span>",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "“黑咩”",
+          "PlotLineKey": "请前往门扉，修复被恶念影响的记忆区吧，指引者。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

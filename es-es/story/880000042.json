@@ -1,0 +1,345 @@
+{
+  "Id": 880000042,
+  "Name": "Desafío: Descampangrejo de sabores",
+  "Description": "Cuando le quitas la campana al Campangrejo, ¿lo cueces al vapor, lo asas o haces algo especial?",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000042,
+  "ShowQuestList": [],
+  "QuestDesc": "Cuando le quitas la campana al Campangrejo, ¿lo cueces al vapor, lo asas o haces algo especial?",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 880000037,
+        "ChildQuestId": 23
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Sarah",
+          "PlotLineKey": "¡Hola, qué tal! ¿Ha probado alguna vez un «Descampangrejo de sabores»?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 84,
+              "PlotLineKey": "Pues la verdad es que sí.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 85,
+              "PlotLineKey": "¿Qué es eso?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Sarah",
+          "PlotLineKey": "¿Lo ha probado de verdad? ¡Vaya, eso le convierte en {Male=un verdadero héroe;Female=una verdadera heroína}!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Sarah",
+          "PlotLineKey": "¡Es un plato elaborado con Descampangrejos! ¡Cualquiera que sea lo suficientemente valiente para comerse uno es un verdadero héroe!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Eugene quiere ser un gran héroe, así que le dije que debía pasar la prueba del «Descampangrejo de sabores».",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Pero no sabemos cómo cocinarlo, así que Eugene no tiene ninguna oportunidad.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Eugene",
+          "PlotLineKey": "¡Hasta ahí llegó lo de convertirse en héroe!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Perdone, pero ¿sabe dónde podemos probar ese plato? ¡Tenemos dinero!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 86,
+              "PlotLineKey": "Yo os puedo conseguir uno.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Sarah",
+          "PlotLineKey": "¿En serio? Muchas gracias, {Male=caballero;Female=señorita}. ¡Le esperaremos aquí hasta que regrese!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Eugene",
+          "PlotLineKey": "¡Le estaremos esperando! Tómese su tiempo...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Sarah",
+          "PlotLineKey": "¿Cómo le fue, {Male=caballero;Female=señorita}? ¿Encontró el plato?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 110,
+              "PlotLineKey": "Aquí tenéis.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Sarah",
+          "PlotLineKey": "¡Vamos, Eugene! ¡Pruébalo!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Me pregunto a qué sabrá este «Descampangrejo de sabores»... Espero que no sepa como el Pezsol...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Podría tener sabor a Estrellalgón. ¡Adelante entonces!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 111,
+              "PlotLineKey": "Sabe a Pezsol.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 112,
+              "PlotLineKey": "Sabe a Estrellalgón.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 113,
+              "PlotLineKey": "Sabe a Descampangrejo.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Eugene",
+          "PlotLineKey": "¡¿Eh?! No me gusta cómo suena...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Uuuuh... Entonces igual está bueno y todo...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Eso realmente no responde a la pregunta...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Sarah",
+          "PlotLineKey": "¡Cómetelo ya, Eugene!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Yo... no puedo hacerlo. Ya no quiero ser un héroe.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Sarah",
+          "PlotLineKey": "¡Eres lo peor, Eugene! ¡Dijiste que querías ser un héroe!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Sarah",
+          "PlotLineKey": "*Pfff*, Eugene es un gallina. ¡Pero tengo una idea!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Vamos a probarlo primero. ¡Si ve que está bueno, querrá probarlo también!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 114,
+              "PlotLineKey": "Claro, me tomaré un bocado.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 115,
+              "PlotLineKey": "Paso. Pruébalo tú.",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Los niños te miran con expectación mientras das un bocado al «Descampangrejo de sabores».",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Paladeas los sabores del mar, frescos, salados y con un ligero regusto a pescado. En general es bastante disfrutable.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Sarah",
+          "PlotLineKey": "¿Qué tal? ¿A qué sabe?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 116,
+              "PlotLineKey": "Sabe a mar.",
+              "PlayVoice": false,
+              "JumpToId": 19
+            },
+            {
+              "TextId": 117,
+              "PlotLineKey": "Es delicioso.",
+              "PlayVoice": false,
+              "JumpToId": 19
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Vale, lo probaré.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Sarah duda por un momento antes de probar un buen trozo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Mmmh... No... está mal. Sabe a mar. ¡Delicioso!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 19,
+          "Speaker": "Eugene",
+          "PlotLineKey": "¿Seguro? Déjame probar un bocado...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Bien... Bien...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Sarah y tú observáis cómo Eugene hace muecas mientras mastica, pero al final traga su bocado. ¡Ya es un héroe!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Eugene",
+          "PlotLineKey": "¡Uf! Está delicioso. ¡Gracias, ahora soy un héroe!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 118,
+              "PlotLineKey": "Un verdadero héroe, sí señor.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 119,
+              "PlotLineKey": "Que no se te suba a la cabeza.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Sarah",
+          "PlotLineKey": "¡Muchas gracias, {Male=caballero;Female=señorita}! Tenga esto. ¡Ha hecho realidad los sueños de Eugene de convertirse en un héroe!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

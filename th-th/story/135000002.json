@@ -1,0 +1,868 @@
+{
+  "Id": 135000002,
+  "Name": "สำรวจคดีโจรขโมยเสบียงของค่าย",
+  "Description": "ค้นหาว่าเสบียงของค่ายอยู่ที่ไหน",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 135000002,
+  "ShowQuestList": [],
+  "QuestDesc": "ค้นหาว่าเสบียงของค่ายอยู่ที่ไหน",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100005,
+      "PreQuestName": "ดาราแห่งลางร้าย"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "ผู้พเนจรเหรอ ช่างน่าประหลาดใจจริง ๆ ยินดีที่ได้พบ ฉันได้ยินเรื่องของคุณมาเยอะเลย!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "ฉันชื่อเป่ยกู่ เป็นกัปตันของค่ายนี้ ตอนนี้กำลังติดพันอยู่กับการสืบสวนคดีลักขโมยคดีหนึ่ง",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 121,
+              "PlotLineKey": "มีอะไรให้ช่วยไหม",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "ลอลโล่ โลจิสติกส์ได้มาส่งเสบียงให้ที่ค่ายเป็นประจำ ซึ่งก็ครอบคลุมทุกความต้องการของเรา และตอนที่พวกเขาขนของลง ปริมาณก็ตรงกับที่เราสั่งไว้ทุกอย่าง",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "แต่ทว่า ระหว่างการตรวจนับสินค้าตอนกลางคืน สมาชิกในทีมที่รับผิดชอบการนับสังเกตเห็นว่ามีกล่องหนึ่งใบหายไป ถึงแม้ว่ามันจะไม่ใช่ของสำคัญอะไรก็ตามเถอะ",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 122,
+              "PlotLineKey": "แต่เราก็ยังต้องสืบให้ได้ว่ามันหายไปไหน",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "ใช่แล้ว ในกล่องนั้นเต็มไปด้วยอาหารบ้านเกิดที่ทุกคนโปรดปราน",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "ฉันแอบไปขอให้พานฮวาเตรียมอาหารปรุงสำเร็จชุดหนึ่งไว้เพื่อเลี้ยงทหารที่นี่",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 123,
+              "PlotLineKey": "เฮ้ หยุดนะ!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 124,
+              "PlotLineKey": "คุณทำให้ฉันรู้สึกหิว",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "ขออภัยด้วยนะ ฉันไม่ได้กลับไปเยือนจินโจวมาสักพักแล้ว ฉันคิดถึงอาหารบ้านเกิดมากเหลือเกิน",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "อย่างไรก็ตาม ฉันหวังว่าคุณจะเก็บเรื่องที่เราคุยกันไว้เป็นความลับนะ น่าเสียดายที่ฉันไม่สามารถดำเนินการสืบสวนด้วยตัวเองได้",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "สำหรับทหารที่นี่แล้ว ความไว้วางใจมักจะมีค่ามากกว่าชีวิตของพวกเขา มันถูกสร้างขึ้นจากประสบการณ์ร่วมและการก้าวข้ามอุปสรรคมาด้วยกัน ฉันไม่ต้องการให้เหตุการณ์นี้ก่อให้เกิดความสงสัยซึ่งกันและกัน แม้เพียงเล็กน้อย",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 125,
+              "PlotLineKey": "แสดงว่าคุณต้องการให้ฉันค้นหาความจริงให้สินะ",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 126,
+              "PlotLineKey": "มาเจรจาค่าแรงกันดีกว่า",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "ฉันจะเลี้ยงอาหารมื้อใหญ่ให้คุณที่ร้านอาหารของพานฮวาแทนคำขอบคุณ",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 127,
+              "PlotLineKey": "ตกลงตามนี้!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "เพื่อไม่ให้เป็นการเสียเวลา คุณสามารถเริ่มจากการตรวจสอบที่ป้อมยามเพื่อสืบสวนบันทึกการเข้าออกตั้งแต่เมื่อวานตอนบ่ายจนถึงตอนนี้",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ตู้หยิ่ง",
+          "PlotLineKey": "ว่าไง ผู้พเนจร! มีอะไรให้ฉันช่วยหรือเปล่า",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 135,
+              "PlotLineKey": "(แจ้งความต้องการของคุณ)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ตู้หยิ่ง",
+          "PlotLineKey": "โอ้ คุณอยากตรวจสอบบันทึกการเข้าออกหรือ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ตู้หยิ่ง",
+          "PlotLineKey": "ถึงแม้ว่าฉันจะเพิ่งมารับตำแหน่งที่นี่เมื่อเช้านี้ ฉันก็สามารถตรวจสอบบันทึกการปฏิบัติหน้าที่ให้คุณได้ ในนั้นมีบันทึกการเข้าออกของทุกคน ขอเวลาสักครู่",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ตู้หยิ่ง",
+          "PlotLineKey": "นอกจากพวกคนส่งของลอลโล่ โลจิสติกส์แล้ว ก็ไม่มีบันทึกการเข้าออกอื่น ๆ เลย",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 136,
+              "PlotLineKey": "ทำไมถึงช่วยฉันล่ะ",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 137,
+              "PlotLineKey": "คุณไม่สงสัยหรือว่าเหตุใดถึงมีการสืบสวนเกิดขึ้น",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "ตู้หยิ่ง",
+          "PlotLineKey": "ท่านนายพลจี้เหยียนได้สั่งให้สมาชิกหน่วยลาดตระเวนรัตติกาลทุกคนคอยให้ความช่วยเหลือคุณอย่างเต็มที่",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ตู้หยิ่ง",
+          "PlotLineKey": "ดังนั้น ไม่ว่าเจ้าจะมีเหตุผลอะไร ฉันยินดีที่ได้ช่วยคุณ",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 138,
+              "PlotLineKey": "ขอบคุณนะ",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 139,
+              "PlotLineKey": "คุณเป็นคนซื่อตรงมาก",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "อู๋จิง",
+          "PlotLineKey": "ใครเป็นคนทำเรื่องบ้า ๆ นี่กัน",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 164,
+              "PlotLineKey": "เกิดอะไรขึ้นเหรอ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "อู๋จิง",
+          "PlotLineKey": "มีคนทำอาหารหกเรี่ยราดตลอดทาง พวกนกนางนวลหัวเทาได้กลิ่นมันเข้าแล้วก็แห่กันมาเป็นฝูงเลย ฉันไล่พวกมันไปไม่ได้เลย!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "อู๋จิง",
+          "PlotLineKey": "ฉันเหนื่อยสายตัวแทบขาดกว่าจะทำความสะอาดที่นี่เสร็จ แล้วดูผลงานของเจ้านกพวกนี้สิ!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 165,
+              "PlotLineKey": "คุณเป็นผู้รับผิดชอบที่นี่เหรอ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "อู๋จิง",
+          "PlotLineKey": "อืม ถ้าอย่างนั้นคุณควรจะไปตามหาหมิงอี้ เธอเป็นผู้รับผิดชอบพื้นที่เก็บของในค่าย",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "อู๋จิง",
+          "PlotLineKey": "โดยปกติแล้ว หมิงอี้จะจัดการเรื่องการตรวจนับสินค้าคงคลังและจัดเก็บเสบียง ในขณะที่เทียนหลางกับอู่เหิงจะดูแลเรื่องการขนของขึ้นและลง",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "อู๋จิง",
+          "PlotLineKey": "โอ้ คุณช่วยเตือนฉันไว้พอดีเลย ฉันต้องไปถามหมิงอี้เสียหน่อย ต้องหาตัวคนที่ก่อเรื่องให้ได้!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "มิดไนต์เรนเจอร์",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "มิดไนต์เรนเจอร์",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "มิดไนต์เรนเจอร์",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "รอยเท้าดูหนัก ระยะก้าวสั้น ราวกับว่าเจ้าของรอยเท้ากำลังลากของหนักบางอย่าง",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "รอยส้นรองเท้ามีรอยแตกอยู่หลายแห่ง บ่งบอกว่าพื้นรองเท้าด้านหลังสึกไปมาก นี่อาจหมายความว่าเจ้าของรอยเท้าเดินในท่าที่โน้มตัวไปข้างหลัง",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 183,
+              "PlotLineKey": "ฉันมีบางอย่างที่อยากจะถามคุณ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "เทียนหลาง",
+          "PlotLineKey": "ขอโทษที แต่ฉันกำลังนับเครื่่องแบบภาคสนามที่เพิ่งมาถึงอยู่",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 184,
+              "PlotLineKey": "มันมาพร้อมกับเสบียงของเมื่อวานเหรอ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "เทียนหลาง",
+          "PlotLineKey": "ใช่แล้ว เครื่องแบบภาคสนามของทหารจะถูกเปลี่ยนเป็นประจำอยู่แล้ว เมื่อไม่นานมานี้ เราได้เก็บรวบรวมใบคำร้องขอชุดใหม่ และเหตุผลบางอย่างในใบคำร้องก็ฟังดู... ตลกมากเลย",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "เทียนหลาง",
+          "PlotLineKey": "มันจะมีเหตุผลอย่าง กางเกงขาดเพราะเขี้ยวของหมูเขี้ยวตัน หรือหมวกที่ถูกพวกฮูชีฟในป่าสลัวขโมยไป...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "เทียนหลาง",
+          "PlotLineKey": "ฉันวางแบบฟอร์มคำร้องทั้งหมดไว้บนโต๊ะที่มุมห้องนั่นแล้ว หากคุณสนใจ ก็ไปดูได้เลย",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 185,
+              "PlotLineKey": "เกิดอะไรขึ้นระหว่างการจัดเก็บของเหรอ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "เทียนหลาง",
+          "PlotLineKey": "หมิงอี้ออกไปทำธุระอื่นอยู่ครู่หนึ่ง และในช่วงเวลานั้น ฉันก็ช่วยนับสินค้าคงคลังอยู่",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "เทียนหลาง",
+          "PlotLineKey": "สมาชิกในทีมอีกคนคืออู่เหิง มีหน้าที่รับผิดชอบเรื่องการขนของขึ้นลงนอกคลังด้วยตัวคนเดียว ฉันไม่สังเกตเห็นอะไรผิดปกติในคลังนะ",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 186,
+              "PlotLineKey": "บางทีแบบฟอร์มคำร้องอาจจะเป็นกุญแจสำคัญในการไขคดีนี้",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 199,
+              "PlotLineKey": "...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "มิดไนต์เรนเจอร์วัยรุ่น",
+          "PlotLineKey": "มี... มีอะไรให้ฉันช่วยหรือ",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 200,
+              "PlotLineKey": "คราบน้ำมันบนเสื้อผ้าของคุณ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "มิดไนต์เรนเจอร์วัยรุ่น",
+          "PlotLineKey": "เอ่อ ฉันเพิ่งกลับไปที่จินโจวเมื่อไม่นานมานี้ แล้วเผลอทำน้ำมันกระเด็นใส่ตอนที่กำลังกินข้าวอยู่ที่ร้านอาหารของพานฮวา",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 201,
+              "PlotLineKey": "ไม่จำเป็นต้องถามอะไรอีกแล้ว",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "หมิงอี",
+          "PlotLineKey": "ผู้พเนจร กัปตันเป่ยว่างส่งคุณมารึเปล่า",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "หมิงอี",
+          "PlotLineKey": "ฉันเป็นคนรายงานเรื่องเสบียงที่หายไปเอง ฉันปลีกตัวออกไปครู่หนึ่งระหว่างการจัดเก็บของ แล้วก็เกิดเรื่องขึ้น",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "คุณปลีกตัวออกไปครู่หนึ่งอย่างนั้นเหรอ",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 174,
+              "PlotLineKey": "คุณไปที่ไหนมาน่ะ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "หมิงอี",
+          "PlotLineKey": "ฉันขอให้เทียนหลางมาดูแลแทนตอนที่ฉันปลีกตัวออกไป",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "หมิงอี",
+          "PlotLineKey": "เทียนหลางกับตู้อิงเป็นพยานให้ฉันได้! ฉันมีหลักฐานที่อยู่!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 175,
+              "PlotLineKey": "แล้วตู้อิงเกี่ยวข้องอย่างไร",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "หมิงอี",
+          "PlotLineKey": "คือว่ามีพัสดุสำหรับตู้อิงอยู่ในกองเสบียงน่ะ... ฉัน... ฉันก็เลยนำไปให้เขา",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "หมิงอี",
+          "PlotLineKey": "ฉันไม่มีเจตนาน่าสงสัยเลยนะ! ฉันสาบานได้!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "โอ้ วัยหนุ่มสาวช่างดีจริง ๆ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ฉันจะไปหาเทียนหลางเป็นคนต่อไป",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ทันทีที่กล่องเสบียงของลอลโล โลจิสติกส์เปิดออก กลิ่นหอมฉุนก็โชยออกมา แต่ก็น่าผิดหวังที่ในกล่องกลับว่างเปล่า",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ที่ก้นกล่อง ยังมีคราบน้ำมันจาง ๆ หลงเหลืออยู่ กลิ่นหอมยั่วน้ำลายนี่... ไม่ผิดแน่! มันคือไก่ต้มของร้านอาหารพานฮวา",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ยิ่งสูดกลิ่นเข้าไปมากเท่าไหร่ ก็ยิ่งรู้สึกหิวมากขึ้นเท่านั้น ข้าควรจะรีบออกจากที่นี่โดยเร็ว ลองไปคุยกับหน่วยลาดตระเวนรัตติกาลแถวนี้ดูดีกว่า บางทีพวกเขาอาจสังเกตจะเห็นอะไรบ้างก็ได้",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "หัวหน้าค่าย",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "หัวหน้าค่าย",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "หัวหน้าค่าย",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "ไม่มีผู้ใดเข้าหรือออกจากค่าย",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "บางทีฉันควรจะเตรียมใจสำหรับสถานการณ์ที่เลวร้ายที่สุด ถ้าเป็นเช่นนั้น คนร้ายก็ต้องเป็นใครสักคนที่อยู่ในค่ายแห่งนี้",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "ในระหว่างที่เจ้ากำลังตรวจสอบบันทึกการเข้าออก ฉันได้ดูภาพจากกล้องวงจรปิดตั้งแต่ตอนที่ขนเสบียงขึ้นและลง",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "หมิงอี้ เทียนหลาง และอู่เหิง อยู่ที่นั่นตลอดตั้งแต่การขนของขึ้น ขนของลง และจัดเก็บเสบียง คุณน่าจะไปเริ่มสอบถามพวกเขาเพื่อดูว่าจะมีเบาะแสที่เป็นประโยชน์หรือไม่",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "อ้อ จริงสิ พื้นที่ขนของลงเป็นจุดบอดของกล้องวงจรปิด ผู้พเนจร คุณอาจจะค้นพบเบาะแสบางอย่างที่ซ่อนอยู่ที่นั่นก็ได้ ฝากดูด้วยนะ!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ผู้ยื่นคำร้อง ตู้อิง<br>คำร้อง ขอเปลี่ยนเสื้อตัวนอก<br>เหตุผล เสื้อตัวนอกถูกกระสุนยิงทะลุ ในระหว่างการช่วยเหลือนักวิจัยที่ถูกลักพาตัวโดยพวกผู้ถูกเนรเทศ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ผู้ยื่นคำร้อง เคอหลิน<br>คำร้อง ขอเปลี่ยนหมวก<br>เหตุผล เผลอไปทำให้พวกนกนางนวลหัวเทาโกรธ พวกมันเลยทิ้งของขวัญจากฟากฟ้าลงมาใส่ตลอดเวลา",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ดูเหมือนว่าอู๋จิ้งก็คงจะต้องเจอกับความท้าทายอยู่บ้างเหมือนกัน...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ผู้ยื่นคำร้อง อู่เหิง<br>คำร้อง ขอเปลี่ยนรองเท้าบูต<br>เหตุผล การแบกของหนักทำให้ส้นรองเท้าสึกอย่างรุนแรง และเป็นเหตุให้หกล้มบ่อยครั้ง",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "คำอธิบายนี่ดูจะตรงกับลักษณะรอยรองเท้าใกล้กับกล่องเสบียง ฉันควรจะไปยืนยันกับบุคคลที่เกี่ยวข้องเพื่อความแน่ใจ",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 206,
+              "PlotLineKey": "(บอกข้อสันนิษฐานของคุณให้เป่ยกู่ฟัง)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "อืม ฉันเองก็มีข้อสันนิษฐานเบื้องต้นอยู่เหมือนกัน ผู้พเนจร คุณคิดว่าใครเป็นคนเอาเสบียงไป",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "หมิงอี้",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 208,
+              "PlotLineKey": "เทียนหลาง",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 209,
+              "PlotLineKey": "อู่เหิง",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "นี่ต่างจากที่ฉันคาดไว้เล็กน้อย บางทีอาจจะเป็นคนอื่น",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "นี่ต่างจากที่ฉันคาดไว้เล็กน้อย บางทีอาจจะเป็นคนอื่น",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "ดูเหมือนว่าเราจะคิดตรงกัน ไปคุยกับอู่เหิงกันเถอะ",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "มิดไนต์เรนเจอร์วัยรุ่น",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "มิดไนต์เรนเจอร์วัยรุ่น",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "มิดไนต์เรนเจอร์วัยรุ่น",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "มิดไนต์เรนเจอร์วัยรุ่น",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "มิดไนต์เรนเจอร์วัยรุ่น",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 212,
+              "PlotLineKey": "",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "ผู้พเนจร ขอบใจมากที่ช่วย",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 219,
+              "PlotLineKey": "ส่วนเรื่องของอู่เหิง...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "เธอจากบ้านเกิดมาตั้งแต่อายุยังน้อย และมาประจำการอยู่ที่ค่ายแห่งนี้เป็นเวลาหลายปี ไม่มีใครเคยสอนถึงวิธีรับมือกับความผิดพลาด นั่นคือเหตุผลที่เธอจัดการกับมันด้วยวิธีที่ซื่อเกินไป",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "ในฐานะทหาร เธอละทิ้งหน้าที่ของตนโดยพลการ พยายามจะแก้ไขปัญหาที่เกินความสามารถของตน เธอควรจะเชื่อใจในสหายร่วมรบของตัวเองให้มากกว่านี้ เธอยังคงมีเรื่องต้องเรียนรู้อีกมาก",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "ส่วนเรื่องอาหารที่หกไป ฉันจะให้อู่เหิงชดใช้ด้วยการทำอาหารให้พวกเรากิน",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "เป่ยกู้",
+          "PlotLineKey": "ผู้พเนจร ไว้กลับไปจินโจวแล้ว เราไปเจอกันอีกครั้งที่ร้านอาหารของพานฮวากันเถอะ!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

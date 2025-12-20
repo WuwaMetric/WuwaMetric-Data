@@ -1,0 +1,730 @@
+{
+  "Id": 186700000,
+  "Name": "Deep Sea Survey",
+  "Description": "The Fabricatorium of the Deep has stirred beneath the waves, its unrest quietly noted by the nobles and the Order. To prevent further disruption to the lives of the people of Ragunna and to avoid unnecessary panic, both sides held a rare private meeting. In an unprecedented move, they reached a consensus: a full re-survey of the facility must be conducted to inform joint discussions on the fate of the Fabricatorium and the Common Echoes it holds. As the only one to return from that place unscathed, you are undoubtedly the best person to lead this expedition.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 186700000,
+  "ShowQuestList": [],
+  "QuestDesc": "The Fabricatorium of the Deep has stirred beneath the waves, its unrest quietly noted by the nobles and the Order. To prevent further disruption to the lives of the people of Ragunna and to avoid unnecessary panic, both sides held a rare private meeting. In an unprecedented move, they reached a consensus: a full re-survey of the facility must be conducted to inform joint discussions on the fate of the Fabricatorium and the Common Echoes it holds. As the only one to return from that place unscathed, you are undoubtedly the best person to lead this expedition.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100023,
+      "PreQuestName": "Dreamcatchers in the Secret Gardens"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 11900018,
+      "PreQuestName": "Scale of Past"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Carlotta",
+          "PlotLineKey": "{PlayerName}, I've been informed of what happened at the Fabricatorium of the Deep.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Carlotta",
+          "PlotLineKey": "I'm afraid I have another favor to ask of you regarding this matter.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Carlotta",
+          "PlotLineKey": "Head to these coordinates if you've got time. A friend of mine there will fill you in on the details.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Carlotta",
+          "PlotLineKey": "On behalf of the Montellis... No. On behalf of the people of Ragunna, I thank you.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Carlotta's coordinates are outside of the Cathedral of Mercury.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "So the Montellis have already talked with the Order about this...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "Ah, Righteous One. You must be here for the deep, yes?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "Luther, at your service. I've been expecting you.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 42,
+              "PlotLineKey": "Does the Order know about the Fabricatorium?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Luther",
+          "PlotLineKey": "No need to worry, the events that occurred haven't been made public yet, and we've decided to keep it so after thorough discussion.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 43,
+              "PlotLineKey": "Discussion?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Luther",
+          "PlotLineKey": "Not long after you brought the news, a private meeting was held between the Order of the Deep and the Montelli and Fisalia families.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Luther",
+          "PlotLineKey": "So rarely do these parties find common ground, especially under such circumstances.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Luther",
+          "PlotLineKey": "An agreement was made to keep the incident under wraps for now, to prevent unnecessary confusion and fear among the citizens. Meanwhile, we'll need a thorough investigation.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Luther",
+          "PlotLineKey": "Common Echoes have become a vital part of Ragunna, and it would be unrealistic to remove them entirely. Thus, the fate of the Fabricatorium would be decided once we all fully understand it.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Luther",
+          "PlotLineKey": "The Fisalia's expertise in Echo control, combined with the Montelli's Terminal technologies will aid in the smooth transition of the Fabricatorium's operations.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Luther",
+          "PlotLineKey": "Once everyone is ready, the truth will be revealed to all of Ragunna.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 44,
+              "PlotLineKey": "You need me here because...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Luther",
+          "PlotLineKey": "You are the only person who's been to the Fabricatorium and returned unscathed. We couldn't think of anyone who can lead this investigation than yourself.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Luther",
+          "PlotLineKey": "I'll be responsible for documenting any findings. It'd be most helpful if you could be my guide and explain along the way so our investigation can be as detailed as possible.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 45,
+              "PlotLineKey": "Just the two of us?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Luther",
+          "PlotLineKey": "Yes. Since Acolytes mostly station the Fabricatorium, the Order and the families have decided that I am best suited for this task.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 46,
+              "PlotLineKey": "Alright, let's go.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 47,
+              "PlotLineKey": "I need some time to prepare.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Luther",
+          "PlotLineKey": "Your assistance is much appreciated.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 48,
+              "PlotLineKey": "Don't worry. Someone's already thanked me.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Luther",
+          "PlotLineKey": "Absolutely. We'll depart whenever you're ready.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "If not for seeing it with my own eyes, I would've never imagined such grandeur was hidden right beneath the land we've been walking on.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "The sea nourishes us. In ways we least expect.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "I noticed something in the files earlier. This is the area where Common Echoes are brought to be incubated, isn't it?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 97,
+              "PlotLineKey": "Yes, those devices you see still running are Echo Brooders.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "Hundreds, if not thousands, of Echoes are being incubated. That explains why there's heavy security and so many researchers.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 98,
+              "PlotLineKey": "The pipes transport frequency energy.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Luther",
+          "PlotLineKey": "The recycled Echoes from the Fallen Grave feed the creation of new ones...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Luther",
+          "PlotLineKey": "Pieced together from innumerable broken frequencies, these newborns bear no relation to the past.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 99,
+              "PlotLineKey": "How do you know?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Luther",
+          "PlotLineKey": "I used to be a researcher of frequency studies. One look at the readings is enough to know that every trace of the old data is erased...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 100,
+              "PlotLineKey": "You seem concerned.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Luther",
+          "PlotLineKey": "Years in the lab can numb one's mind. Eventually, you stop seeing the subjects as living individuals.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Luther",
+          "PlotLineKey": "I keep reminding myself not to go down that path. But here, it feels like everyone sees the Echoes as expendable tools, not living beings.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Luther",
+          "PlotLineKey": "Is this not a betrayal of our faith?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 101,
+              "PlotLineKey": "I've heard it phrased differently before.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Luther",
+          "PlotLineKey": "What is it?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Someone once told me, it's vibrancy in the ruin, an opus of eternal life.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Luther",
+          "PlotLineKey": "You mean, this cycle is the immortal, unbroken unity of life?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Luther",
+          "PlotLineKey": "No, that is a fallacy. Our \"unity\" must never be built upon the sacrifice of self-awareness.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 102,
+              "PlotLineKey": "Sacrifice of self-awareness?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Luther",
+          "PlotLineKey": "Like these poor Echoes...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "We need to document this place too, right? Let's take some pictures ahead.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "Yes, please.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "Is everything set? Shall we go to the next area?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 269,
+              "PlotLineKey": "Let's move.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 270,
+              "PlotLineKey": "Give me a moment.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "No problem, I'll be here waiting for you.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Guiding Acolyte",
+          "PlotLineKey": "My dear {Male=brothers;Female=brother and sister}, you who have come here will be the strength that shall save Rinascita.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "Oh? Thank you. I didn't expect to see so many...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Guiding Acolyte",
+          "PlotLineKey": "Let us join together to spread light to all, and face the Divine Ordeal in unity.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Luther",
+          "PlotLineKey": "Divine Ordeal...? I'm not sure I follow.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "They can't communicate with you normally.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Luther",
+          "PlotLineKey": "Why is that?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "To save Rinascita and withstand the inevitable \"Divine Ordeal\" is a road paved by many.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "They're victims of the Order's pursuit of salvation, willing martyrs in their attempt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Luther",
+          "PlotLineKey": "This is unheard of...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Might be because Fenrico is keeping the cost of failure in check.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "After countless failures, their minds are filled with chaos, unable to live a normal life.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "The ones who survived the darkness could only cling to their faith.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "This place has nothing to do with production or the experiments. It's just Fenrico's last refuge for them, where they can live peacefully away from the rest of the world.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Luther",
+          "PlotLineKey": "I understand. Then these people will remain under our care.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Luther",
+          "PlotLineKey": "But the chaos and darkness you mentioned earlier...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 177,
+              "PlotLineKey": "Let's keep moving. You'll soon see the truth for yourself.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "Is that... Primus Fenrico?!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 206,
+              "PlotLineKey": "He can't hear you.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "I beg of you, tell me everything that's happened.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "Do you know about the false Divinity?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Luther",
+          "PlotLineKey": "Yes. Soon after I was chosen for the Fabricatorium's investigation, I received a letter from the Fisalias revealing the truth about the Sentinel and the Threnodian.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Your place in the Order must be quite significant to be shown secrets like this.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Fenrico must have known about this earlier than we ever expected.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "But he forgot, or to be more precise, his thoughts were muddled after being eroded by the Dark Tide.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "With the Threnodian rooted in his mind, he had to record fragments of the truth with his last remaining sanity and keep them buried in the depths of the sea.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "He and other Acolytes once sought ways to save Ragunna, until he realized that only by attempting it himself could there be hope of success.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "But he forgot one important thing: he was the Harbinger of the Dark Tide.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "The Threnodian's residual energy almost slipped back into the Dark Tide. Fortunately, the lantern awakened him, and he gave everything to stop the spread of the Dark Tide.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Luther",
+          "PlotLineKey": "The Threnodian... that explains it.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 208,
+              "PlotLineKey": "Explain what?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Luther",
+          "PlotLineKey": "Many years ago, I had a few exchanges with the former Privy Councilor.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Luther",
+          "PlotLineKey": "He mentioned that back in the Seminary days, Fenrico was a different person before becoming Primus. Even as an old fellow classmate, he felt like a complete stranger.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Luther",
+          "PlotLineKey": "He never understood why, even when he was sent on the Pilgrim's Sail. I suppose what you've told me is the reason.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "Alright. I've gathered enough information. Shall we move on to the next area?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 259,
+              "PlotLineKey": "Let's go.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 260,
+              "PlotLineKey": "Give me a moment.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "No problem. I'll be here waiting.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "Shall we proceed to the next place?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 275,
+              "PlotLineKey": "Let's go.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 276,
+              "PlotLineKey": "Give me a moment.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "No worries. I'll be right here.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

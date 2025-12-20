@@ -1,0 +1,573 @@
+{
+  "Id": 133000008,
+  "Name": "잠행 조사",
+  "Description": "반딧불 바다 부근의 순찰관이 곤경에 처한 것 같습니다. 더 심각해지기 전에 상황을 확인해 보세요",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 133000008,
+  "ShowQuestList": [],
+  "QuestDesc": "반딧불 바다 부근의 순찰관이 곤경에 처한 것 같습니다. 더 심각해지기 전에 상황을 확인해 보세요",
+  "Conditions": [
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 1
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "천산",
+          "PlotLineKey": "어떡하지...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 84,
+              "PlotLineKey": "무슨 일이에요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "천산",
+          "PlotLineKey": "누구세요...?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 85,
+              "PlotLineKey": "전 방랑자라고 해요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 86,
+              "PlotLineKey": "{PlayerName}라고 해요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "천산",
+          "PlotLineKey": "잘 됐네요! 실력이 좋으시다고 들었어요. 혹시 저 좀 도와주실 수 있나요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 87,
+              "PlotLineKey": "무슨 일인데요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "천산",
+          "PlotLineKey": "저는 보안서의 순찰관 천산이라고 해요. 잠입 조사 임무를 수행하고 있었어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "천산",
+          "PlotLineKey": "저기 반딧불 바다의 중심에 있는 섬의 추방자 캠프를 보셨나요? 저들은 육합초당의 수하들이에요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "천산",
+          "PlotLineKey": "제가 방금 저곳에서 밀수품을 빼내온 뒤 물자 이전을 위해 지원을 기다리고 있었는데... 지금 문제가 뭐냐면...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "천산",
+          "PlotLineKey": "이 물자에서 새로운 정보를 발견했어요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 88,
+              "PlotLineKey": "육합초당이 뭐죠?",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 89,
+              "PlotLineKey": "어떤 새로운 정보요?",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "천산",
+          "PlotLineKey": "그들은 각 주 보안서의 골칫거리들이에요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "천산",
+          "PlotLineKey": "이 조직은 매우 교활한데다 위장을 잘 하는 치밀함을 가지고 있어요. 게다가 조직이 복잡하게 얽혀 있어 보안서조차 그들을 한 번에 소탕하지 못하고 있어요...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "천산",
+          "PlotLineKey": "저의 잠입 입무는 이 거점에서 출발하여 그들의 새로운 증거를 확보하는 것으로, 이를 통해 다른 주의 보안서와 협력하여 두 번째 타격 작전을 가할 예정이에요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "천산",
+          "PlotLineKey": "이 추방자들이 육합초당을 도와 밀거래된 흑석 무기들을 금주에서 운반할 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "천산",
+          "PlotLineKey": "저희는 그들의 행동 정보를 얻어야 해요. 하지만 보시다시피 지금 일손이 부족해요...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "천산",
+          "PlotLineKey": "만약 제가 다시 돌아간다면, 저들이 절 의심할거고, 그럼 압수한 물자의 운송에도 영향을 미칠 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "천산",
+          "PlotLineKey": "혹시, 절 도와서 저들의 무기 운송에 대한 정보를 조사해 줄 수 있나요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 90,
+              "PlotLineKey": "저한테 맡겨주세요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "천산",
+          "PlotLineKey": "정말요? 정말, 고마워요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "천산",
+          "PlotLineKey": "저들의 행동 정보를 얻으려면 적 내부에 깊숙이 들어가야 해요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "천산",
+          "PlotLineKey": "얼굴을 가리지 않은 채 무작정 뛰어들면 저들이 바로 알아차리고 기록을 파기할 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "천산",
+          "PlotLineKey": "그러니, 변장부터 해야 해요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "천산",
+          "PlotLineKey": "먼저 추방자의 옷을 훔치러 가요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 91,
+              "PlotLineKey": "도둑질을 하자는 말인가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "천산",
+          "PlotLineKey": "아... 이건, 어쩔 수 없어요. 제가 전에 입었던 옷은 이미 망가져서...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "천산",
+          "PlotLineKey": "벌써 다 챙긴 건가요?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "천산",
+          "PlotLineKey": "제가 한 번 볼게요. 아직 다 챙기지는 못한 것 같은데... 다시 찾아봐요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "천산",
+          "PlotLineKey": "좋아요. 효율이 엄청 높네요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "천산",
+          "PlotLineKey": "어디 보자... 맞아요, 다 가져왔어요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 217,
+              "PlotLineKey": "그럼 출발하죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "천산",
+          "PlotLineKey": "조급해 하지 마세요. 추방자는 보기보다 멍청하지만, 모두가 바보는 아니에요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "천산",
+          "PlotLineKey": "최근에 캠프에서 스파이를 검거해냈어요. 지금 이렇게 가면 의심을 사기 쉬워요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "천산",
+          "PlotLineKey": "방랑자를 위해 가짜 신분과 이 캠프에 있는 인원 정보를 준비했어요. 전부 다 기억하는 게 좋을 거예요. 그렇지 않으면, 무슨 말을 해도 다 들통이 날 거예요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 218,
+              "PlotLineKey": "엄청 많네요",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 219,
+              "PlotLineKey": "알겠어요. 모두 외워볼게요",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "천산",
+          "PlotLineKey": "할 수 있겠어요? ...이건 이미 제가 선별한 정보에요. 원본 서류를 외우는데 3일 밤낮이 걸렸어요!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "천산",
+          "PlotLineKey": "이곳의 위험도는 다른 추방자 캠프와는 차원이 달라요. 두목은 음흉하고 잔인하며, 그 구성원들은 모두 의심이 많아요...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "천산",
+          "PlotLineKey": "이번 작전은 방랑자 혼자서 그들 사이에서 움직여야 해요. 이 정보들은 중요한 순간에 방랑자의 생명을 구해줄 거예요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 220,
+              "PlotLineKey": "이걸 다 천산이 정리한 건가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "천산",
+          "PlotLineKey": "아니요, 이건 제 전 잠입 파트너인 심해가 정리한 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "천산",
+          "PlotLineKey": "빨리 외우세요. 제가 잠시 후에 검사할테니",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "천산",
+          "PlotLineKey": "방랑자! 괜찮아요? 다친 곳은 없죠?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 145,
+              "PlotLineKey": "모든 정보는 여기에 있어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "천산",
+          "PlotLineKey": "잘 됐네요. 다음 임무는 저희에게 맡겨주세요. 이번엔 저들도 육합초당도 도망치지 못할 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "천산",
+          "PlotLineKey": "도와주셔서 감사해요. 여기 사례금이에요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "천산",
+          "PlotLineKey": "어때요, 다 기억하셨나요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "천산",
+          "PlotLineKey": "이미 다 기억하셨다면 제가 간단한 몇 가지 질문 테스트를 할게요. 바로 진행할까요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 238,
+              "PlotLineKey": "다시 한번 볼게요",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 239,
+              "PlotLineKey": "네, 다 외웠어요",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "천산",
+          "PlotLineKey": "알겠어요. 시간을 좀 더 드릴게요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "천산",
+          "PlotLineKey": "자, 첫 번째 질문, 교승, 교양 어머니의 직업은 무엇인가요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 240,
+              "PlotLineKey": "교사",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 241,
+              "PlotLineKey": "의사",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 242,
+              "PlotLineKey": "추방자",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "천산",
+          "PlotLineKey": "맞혔어요. 빨리 외우셨네요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "천산",
+          "PlotLineKey": "틀렸어요. 두 사람의 어머니 직업은 교사에요! 꼭 기억하세요!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "천산",
+          "PlotLineKey": "틀렸어요. 두 사람의 어머니 직업은 교사에요! 꼭 기억하세요!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "천산",
+          "PlotLineKey": "두 번째 질문, 교승의 오른쪽 다리 부상은 무슨 일 때문에 다친 거죠?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 243,
+              "PlotLineKey": "절도 미수",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 244,
+              "PlotLineKey": "임무 실패",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 245,
+              "PlotLineKey": "넘어졌어요",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "천산",
+          "PlotLineKey": "정답이에요! 역시 믿음직스럽네요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 10,
+          "Speaker": "천산",
+          "PlotLineKey": "아니에요. 다리 부상은 그가 9살 때 절도 미수로 다친 거예요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "천산",
+          "PlotLineKey": "아니에요. 다리 부상은 그가 9살 때 절도 미수로 다친 거예요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "천산",
+          "PlotLineKey": "세 번째 질문, 교승의 캠프에 있는 친구 괴뢰는 무엇을 하는 걸 좋아하나요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 246,
+              "PlotLineKey": "기술 연구",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 247,
+              "PlotLineKey": "고기 먹기",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 248,
+              "PlotLineKey": "싸움",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "천산",
+          "PlotLineKey": "정답이에요! 자료를 꼼꼼히 보셨네요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 14,
+          "Speaker": "천산",
+          "PlotLineKey": "아니요, 고기를 좋아하는 사람은 대가에요. 괴뢰는 기술을 연구하는 걸 좋아해요. 절대 다른 사람이랑 헷갈리면 안 돼요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "천산",
+          "PlotLineKey": "아니에요! 싸움을 좋아하는 사람은 대길이고, 괴뢰는 기술 연구를 하는 걸 좋아해요. 절대 다른 사람이랑 헷갈리면 안 돼요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "천산",
+          "PlotLineKey": "저희에겐 아직 시간이 좀 있어요. 이전에 알아본 정보에 따르면, 오늘 그들이 화물을 점검할 거예요. 이 때는 잠입하기가 어려워요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "천산",
+          "PlotLineKey": "우리 내일 저녁부터 행동을 시작해요. 그동안은 계속 자료를 외우세요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

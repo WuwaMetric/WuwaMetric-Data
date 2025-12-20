@@ -1,0 +1,759 @@
+{
+  "Id": 135000005,
+  "Name": "격투사의 본색",
+  "Description": "길에서 잔상들에게 포위된 추방자를 만났는데, 방랑자의 능력을 알게 된 후 당신의 도움이 필요한 것 같습니다",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 135000005,
+  "ShowQuestList": [],
+  "QuestDesc": "길에서 잔상들에게 포위된 추방자를 만났는데, 방랑자의 능력을 알게 된 후 당신의 도움이 필요한 것 같습니다",
+  "Conditions": [
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 135000024
+    },
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 1
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "격투 챔피언",
+          "PlotLineKey": "새로운 얼굴이군, 허, 이런 마른 몸으로 감당할 수 있겠나?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "격투 챔피언",
+          "PlotLineKey": "설마 무슨 영광을 지키기 위해 바보같이 달려온 건 아니겠지?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "격투 챔피언",
+          "PlotLineKey": "지금 나가서 좌회전해도 늦지 않으니, 잘 생각하게! 격투장에 가서 후회하며 울지 말고 말일세",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "웃는 추방자",
+          "PlotLineKey": "반갑네, 자네도 해변 격투에 참가하러 왔나?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "웃는 추방자",
+          "PlotLineKey": "경쟁자가 한 명 더 늘어난 것 같군. 거기에 미안한 마음도 한층 더해진다고나 할까?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "웃는 추방자",
+          "PlotLineKey": "왜냐고? 난 한 번도 진 적이 없거든! 행운을 빌겠네",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "택원",
+          "PlotLineKey": "출입증 작성이 완료됐어요. 앞으로 자유롭게 캠프를 출입할 수 있을 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "택원",
+          "PlotLineKey": "어때요? 캠프에서 무슨 소식이라도 들었나요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 291,
+              "PlotLineKey": "의도가 선하지 않은 것 같아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 292,
+              "PlotLineKey": "다들 좀 공격적이네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "택원",
+          "PlotLineKey": "해변 격투에 참가한 사람들은 모두 각 파벌의 엘리트들로 오랜 격투로 성격까지 포악하게 변했어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "택원",
+          "PlotLineKey": "그건 그렇고, 격투에 참가하기 전에, 상품으로 걸 물품을 준비해야 해요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "택원",
+          "PlotLineKey": "방랑자, 혹시 값진 물건 가진 거 있나요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 293,
+              "PlotLineKey": "없는 것 같아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 294,
+              "PlotLineKey": "저는 거지예요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "택원",
+          "PlotLineKey": "...아, 네... 그럼 상품을 대신 내어줄 테니, 꼭 이기셔야 해요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "택원",
+          "PlotLineKey": "저는 전 재산을 걸었어요. 20주년 기념으로 발행된 금주 특급 만화책인데 작가의 친필 서명도 있는 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "택원",
+          "PlotLineKey": "소장품 번호는 0001이에요...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 295,
+              "PlotLineKey": "이 물건들로 충분할까요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "택원",
+          "PlotLineKey": "제 물건의 가치를 얕보지 마세요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "택원",
+          "PlotLineKey": "전 가서 상품을 준비할 테니, 방랑자는 접대원을 찾아서 격투 신청을 하세요. 옆에서 응원할게요!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "접대원",
+          "PlotLineKey": "반갑네. 해변 격투에 참가 신청을 하러 온 건가?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "접대원",
+          "PlotLineKey": "현재 격투장에는 새로운 규칙이 하나 추가되었네. 등록을 하려면 배지 3개를 획득해야 하네",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "무슨 배지를 말하는 거죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "접대원",
+          "PlotLineKey": "격투장에 들어갈 수 있는 사람들은 추방자들 중 최고의 실력을 가지고 있네. 그동안 주제도 모르는 놈들 때문에 격투의 질이 떨어졌네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "접대원",
+          "PlotLineKey": "그들로 인해 모두의 시간을 낭비되는 걸 방지하기 위해 만든 규칙이네. 본선에 참가하는 선수들은 모두 실력을 증명해야 하지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "접대원",
+          "PlotLineKey": "이 세 개의 배지는 세 번의 기본 테스트를 통과하면 받을 수 있지. 어떤가? 테스트를 받을 의향이 있는가?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "네, 테스트에 도전할게요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "접대원",
+          "PlotLineKey": "이 첫 번째 배지는 용기를 시험하기 위함으로 캠프 내 가장 높은 곳에 무기를 배치했네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "접대원",
+          "PlotLineKey": "만약 자네가 안전하게 그것을 제거할 수 있다면, 이 첫 번째 배지는 자네의 것이네",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "접대원",
+          "PlotLineKey": "나쁘지 않군. 내면의 두려움을 뛰어넘어야 정상으로 올라갈 수 있지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "접대원",
+          "PlotLineKey": "용기를 나타내는 이 배지는 자네의 것이네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "접대원",
+          "PlotLineKey": "다음 배지는 속도를 의미하지. 먼저 가서 장소를 세팅할 테니 잠시만 기다리게",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "접대원",
+          "PlotLineKey": "자, 장소 준비가 다 되었네. 보다시피, 난 캠프 여러 곳에 사격 표적을 배치해놨네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "접대원",
+          "PlotLineKey": "자네가 2분 이내에 사격으로 모두 명중시키면 시험에 통과하는 것이네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "접대원",
+          "PlotLineKey": "속도가 빠르다는 것은 손의 움직임뿐만 아니라 목표를 대하는 판단력까지 보유했다는 걸 의미하지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "접대원",
+          "PlotLineKey": "만약 빠르게 기술을 익힐 수 있다면 자네는 이 시련을 쉽게 끝낼 수 있을 거네. 준비가 되면 시작하도록 하게",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "접대원",
+          "PlotLineKey": "좋군. 동작이 깔끔해! 속도를 나타내는 배지를 받으러 오게",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "접대원",
+          "PlotLineKey": "다음은 마지막 시험이자 가장 난이도가 높은 시험이네",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "택원",
+          "PlotLineKey": "방랑자, 왔군요. 준비가 다 되었나 보네요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "택원",
+          "PlotLineKey": "격투 캠프에는 각 패거리의 추방자들이 모이기 때문에 질서유지를 위해 캠프에서는 출입 통행증 발급을 의무화했어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "택원",
+          "PlotLineKey": "제가 대신 출입증을 발급해 드릴게요. 상대방의 정보를 알아볼 겸 캠프 주변을 둘러보세요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "접대원",
+          "PlotLineKey": "받게, 이게 두 번째 배지일세",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "접대원",
+          "PlotLineKey": "마지막 배지의 테스트는 전방위적인 실전이지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "접대원",
+          "PlotLineKey": "그러나 시험관의 낮밤은 일반인의 낮밤과는 정반대지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "접대원",
+          "PlotLineKey": "황혼이 되어야만 그를 찾을 수 있네",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "요즘 배달되는 음식은 정말 맛이 없군... 누구지? 나한테 볼일이라도 있나?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 325,
+              "PlotLineKey": "당신이 마지막 시험관인가요?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 326,
+              "PlotLineKey": "마지막 배지를 가지러 왔어요",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "설마 또 그 멍청한 패거리에서 온 바보 도전자는 아니겠지? 깨끗이 지고 싶지 않으면 돌아가게",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "지금 후회해도 늦지 않네. 못 본척할 테니 그냥 가게",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "또 새로운 멍청이인가? 자네의 그 나약한 모습을 보게. 자네의 패거리에게 꼬투리 잡히고 싶지 않으니 돌아가게",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 327,
+              "PlotLineKey": "반드시 이기겠다고 약속했어요",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "그런 말은 이미 귀에 못이 박힐 정도로 들었지. 난 이미 자네에게 도망갈 기회를 줬네. 나중 가서 후회하지 말게",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "마지막 배지는 힘을 의미하네. 말 그대로 날 이겨야만 시험에 통과할 수 있네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "간단하지? 알고 있는 것 같으니 바로 시작하지",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "접대원",
+          "PlotLineKey": "배지 세 개를 모두 획득했군. 방금 자네의 파트너라고 소개한 추방자가 자네의 정보를 모두 기입하여 제출했네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "접대원",
+          "PlotLineKey": "이제 해변 격투 수칙만 읽으면 경기에 들어갈 수 있네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "접대원",
+          "PlotLineKey": "참, 자네 파트너가 지원서에 있는 에코 정보는 기입하는 걸 잊어버린 것 같군. 하지만 이미 제출되어 수정은 할 수 없네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "접대원",
+          "PlotLineKey": "해변 격투 규정에 따라 에코 정보를 등록하지 않은 도전자는 캠프에서 지원한 에코로 싸워야 하네",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 355,
+              "PlotLineKey": "강한 에코인가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "접대원",
+          "PlotLineKey": "하하하. 흔히 볼 수 있는 「아즈즈」라네. 격투 경기에 지장을 주지 않기 위해 최소한의 지원 밖에는 할 수가 없네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "접대원",
+          "PlotLineKey": "도전의 규칙은 다음과 같네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "접대원",
+          "PlotLineKey": "격투장은 싱글 토너먼트 방식으로 진행되며, 전투 방식에는 제한이 없으며, 승자는 자동으로 다음 라운드에 진출하지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "접대원",
+          "PlotLineKey": "3라운드 전승을 거두면 우승 도전 자격이 주어지며 지난 대회 우승자와 일대일로 대결하게 되지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "접대원",
+          "PlotLineKey": "자, 방랑자, 준비는 다 되었나?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 356,
+              "PlotLineKey": "네, 준비됐어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 357,
+              "PlotLineKey": "바로 진행하죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "접대원",
+          "PlotLineKey": "그럼 행운을 비네!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "이제 곧 마지막 결투가 다가오겠군. 난 그들이 어떤 수단으로 상대를 이겼는지 모르네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "결투에서 싸울 때 항상 상대의 동작 변화를 주시하는 게 좋을 거네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "나 역시 경기를 관람하며 만약에 발생할 상황에 주시하겠네",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "택원",
+          "PlotLineKey": "헤헤, 격투장에서 방랑자의 모습은 정말 멋졌어요. 역시 방랑자예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "택원",
+          "PlotLineKey": "이번 해변 격투를 끝으로 야생갈기파의 지위도 서서히 회복될 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "택원",
+          "PlotLineKey": "돌아가서 빨리 이 소식을 두목께 전하고 싶네요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "택원",
+          "PlotLineKey": "방금 길에서 막 떠나려는 고위 패거리들을 만났는데... 아직도 경멸의 눈빛을 띠고 있었어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "택원",
+          "PlotLineKey": "다음은 제가 겪었던 아픔을 느낄 차례겠죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "택원",
+          "PlotLineKey": "하하, 당연히 농담이에요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "택원",
+          "PlotLineKey": "받으세요. 이건 방랑자가 받아 마땅한 사례금이에요. 나중에 다시 만날 수 있으면 좋겠네요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "해변 격투의 일은 일단락된 셈이군. 자네 정신이 딴 곳에 있는 것처럼 보이는군",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "자신이 도운 사람이 사실은 비열하고 탐욕스러운 악한 늑대일까 걱정되나?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 471,
+              "PlotLineKey": "어떻게 아셨어요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "표정만 봐도 알 수 있지, 자네는... 추방자가 아니겠지? 그들이 악한 늑대인지는 중요하지 않네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "자네가 그들을 도운 건, 야생갈기파의 지위를 높이기 위해서이지 이익을 얻기 위해서가 아니니까",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "이번의 일은 과거의 왜곡된 싸움의 의미와 다른 패거리들의 잘못된 행태를 바로잡기 위해서였네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "자네가 바로잡은 건 그들이 아니라 이 지역의 병적인 생존 법칙이네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "이것이야말로 자네의 첫 출발점이지. 난 다른 사람들이 자네를 부정할 수 없을 거라고 생각하네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "모든 일을 자신의 어깨에 짊어지지 말게. 우리는 전지적인 신이 아니네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "직관도 추측도 진실인지 확신할 수 없고, 답이란 것은 검증할 시간이 필요하네",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 472,
+              "PlotLineKey": "무슨 말인지 알겠어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "시험관 추방자",
+          "PlotLineKey": "나도 오랫동안 갇혀 지내다 보니 몸이 뻐근하군. 나가서 몸을 좀 움직여야겠네. 잘 있게, 방랑자",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "격투 챔피언",
+          "PlotLineKey": "약속대로 난 이미 자네들의 조건을 모두 행했네. 머지않아 야생갈기파는 원래의 위치로 돌아갈 거네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "격투 챔피언",
+          "PlotLineKey": "이번에는 얼마나 더 버틸 수 있을지 모르겠군",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 485,
+              "PlotLineKey": "무슨 뜻이죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "격투 챔피언",
+          "PlotLineKey": "숲속의 늑대는 항상 양을 잡아먹지. 이건 사냥꾼의 총알 한 방으로 절대 바뀌지 않지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "격투 챔피언",
+          "PlotLineKey": "다른 일이 없다면 나도 짐을 챙겨서 캠프를 떠나야겠네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "격투 챔피언",
+          "PlotLineKey": "자네가 승자이니 뒤에 있는 이 재물은 내가 가져갈 자격이 없겠군. 저것은 자네의 몫이네",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "Id": 157750000,
+  "Name": "Traum der Aschenflut",
+  "Description": "schließe alle Herausforderungen des Traums der Aschenflut im Ödland ab.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 157750000,
+  "ShowQuestList": [],
+  "QuestDesc": "schließe alle Herausforderungen des Traums der Aschenflut im Ödland ab.",
+  "Conditions": [
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 157750005
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 157750014
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 157750018
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "{PlayerName}, ich habe gerade gespürt, dass ein Knoten des Traumlandes auf den Sanguis-Plateaus wiederhergestellt wurde. Und ehrlich gesagt – es überrascht mich kein bisschen, dass du dahintersteckst.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_50161",
+          "PlotLineKey": "Du beschreibst, was mit dem Ebenholz-Torwächter geschehen ist.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Ein dunkles Schwert, das in Flammen steht. Und bei Berührung treten Albträume mit Frequenzen der Dunklen Flut hervor? Könnte es sein …",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "Es hat die Tacet-Dissonanzen des Albtraums unterdrückt.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 11,
+              "PlotLineKey": "Hat es den Knoten des Traumlandes bewacht?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Allerdings … es sieht ganz so aus. Die Frage ist nur, wer hat das Schwert dort hinterlassen?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Mit Sicherheit kann ich es nicht sagen. Vielleicht wurde es wirklich nur dort platziert, um die Tacet-Dissonanzen zu bannen. Aber … von wem nur?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "War es ein einzigartiger Resonator, der die Traumlande sieht, oder könnte diese Kraft vom Somnoire selbst stammen?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Als das Schwert verschwand, spürte ich eine warme Frequenz im Wind.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Wie außergewöhnlich … Wenn es dir nicht zu viele Umstände macht, könntest du die anderen Knoten wiederherstellen, {PlayerName}? Ich markiere ihre Standorte für dich.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Wenn ich richtig liege, findet sich die Antwort zum Ursprung des Schwertes in den restlichen Knoten.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "{PlayerName} … Vor vielen Jahren wurde mir eine Gedichtzeile offenbart … in einem Traum, von jemandem aus Huanglong.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Sie lautete … „Ihre Hüllen fielen, die Seelen waren befreit. Einmal gestorben, zu Helden sie wurden geweiht.“",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Klingt so, als wüsstest du über diese Schwerter Bescheid.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Ja. Und offenbar ist mir ein Denkfehler unterlaufen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Sie stammen weder von einem Resonator noch einem Somnoire … Sie müssen nichts „Einzigartiges“ sein. Sie stellen nur die Träume der Gefallenen von Septimont dar, die das Somnoire nicht erreicht haben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Nur Träume?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Ganz genau. Träume. So viele sie auch verbrannten, die Krieger vermochten es nicht, die Albträume zu tilgen. Alles, was ihnen blieb, war, sie zu bannen – und auf die Ankunft {Male=eines „Helden“;Female=einer „Heldin“} zu hoffen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Und so verklangen schließlich die Frequenzen dieser Schwerter – auf dem Weg zurück nach Septimont …",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Sie sehnten sich nach ihrem Zuhause. Die Krieger Septimonts zogen ihre Heimat selbst dem ewigen Frieden der Traumlande vor.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Ach, ja. Ich habe am letzten Knoten der Sanguis-Plateaus einen interessanten Fund gemacht.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Als {Male=ihr lang ersehnter Held;Female=ihre lang ersehnte Heldin} solltest du es an dich nehmen.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

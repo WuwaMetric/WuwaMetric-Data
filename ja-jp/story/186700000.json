@@ -1,0 +1,730 @@
+{
+  "Id": 186700000,
+  "Name": "暗き深海への潜入調査",
+  "Description": "隠海実験場の件は、ファミリーと教団の間で密かに広まった。ラグーナ人の暮らしに更なる影響が及び、不必要な混乱や恐慌を招くのを避けるため、各勢力が水面下で会談を重ね、そして珍しく意見を合致した：改めて全面の調査を行った上で、実験場と公共音骸の今後について協議するというのだ。\nかの地を訪れ、生還した唯一の人として、今回の調査を指揮する者は、あなたしかいない。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 186700000,
+  "ShowQuestList": [],
+  "QuestDesc": "隠海実験場の件は、ファミリーと教団の間で密かに広まった。ラグーナ人の暮らしに更なる影響が及び、不必要な混乱や恐慌を招くのを避けるため、各勢力が水面下で会談を重ね、そして珍しく意見を合致した：改めて全面の調査を行った上で、実験場と公共音骸の今後について協議するというのだ。\nかの地を訪れ、生還した唯一の人として、今回の調査を指揮する者は、あなたしかいない。",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100023,
+      "PreQuestName": "秘密の花園にて、夢を追う"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 11900018,
+      "PreQuestName": "鱗の跡"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カルロッタ",
+          "PlotLineKey": "漂泊者さん、隠海実験場の件は……すでに把握しております。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カルロッタ",
+          "PlotLineKey": "この件、少しだけお力をお借りできればと思いまして。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カルロッタ",
+          "PlotLineKey": "もしお時間が許すようでしたら、わたくしが残した座標へ向かっていただけますか。現地で友人が、詳しい話をしてくれるはずです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カルロッタ",
+          "PlotLineKey": "モンテリ……いえ、今回はラグーナのために、お礼を言わせてください。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "座標って、マーキュリー礼拝堂の近くに……？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "ファミリーと教団の間で、話はついてるのか……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ルド",
+          "PlotLineKey": "義人様がここに現れたということは……深海の件ですね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ルド",
+          "PlotLineKey": "はじめまして。ルドと申します。長らくお待ちしておりました。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 42,
+              "PlotLineKey": "{Male=実験場のこと、教団のみんなは知ってるのか？;Female=実験場のこと、教団のみんなは知ってるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "ルド",
+          "PlotLineKey": "いいえ、ご安心ください。まだ公にはしておりません。話し合いの末、そう結論が出ました。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 43,
+              "PlotLineKey": "話し合いって……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ルド",
+          "PlotLineKey": "あなたが情報を持ち帰ってくださった直後、隠海教団はモンテリファミリー、フィサリアファミリーの代表と密かに会談を行いました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ルド",
+          "PlotLineKey": "滅多にない顔ぶれでしたが、不思議なほど意見はすぐにまとまりました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ルド",
+          "PlotLineKey": "今は情報を伏せ、混乱や恐怖からラグーナ人の暮らしを守る。その間に、私たちは徹底的に調査を進めます。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ルド",
+          "PlotLineKey": "公共音骸はラグーナにとって不可欠な存在です。完全に切り離すのは非現実的。だからこそ、まずは全貌を把握し、その上で、実験場の未来を皆で決定します。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ルド",
+          "PlotLineKey": "フィサリアファミリーの音骸制御技術、モンテリファミリーのデバイス技術……そのすべてが、実験場の円滑な移行を支えてくれるでしょう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ルド",
+          "PlotLineKey": "皆が真実を受け入れる準備が整ったとき、この件のすべてをラグーナ人に明らかにするつもりです。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 44,
+              "PlotLineKey": "{Male=俺を呼んだ目的は……？;Female=私を呼んだ目的は……？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "ルド",
+          "PlotLineKey": "あの場所に足を踏み入れ、生きて戻ったのは、あなただけです。この調査を先導できるのは、義人様をおいて他におりません。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ルド",
+          "PlotLineKey": "私が記録を担当します。あなたには現地の案内と説明をお願いできればと。それで、この調査はより確かなものとなります。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 45,
+              "PlotLineKey": "{Male=二人だけで行くのか？;Female=二人だけで行くの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "ルド",
+          "PlotLineKey": "はい、実験場には侍祭や教団の方が多いこともあり、ファミリーと話し合った結果、私が行くのが一番適任だと判断しました。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 46,
+              "PlotLineKey": "行こう。",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 47,
+              "PlotLineKey": "もう少し準備する。",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "ルド",
+          "PlotLineKey": "ご協力に、心より感謝申し上げます。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 48,
+              "PlotLineKey": "{Male=いいよ、もう礼は言われてる。;Female=大丈夫、もうお礼は言われてるから。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "ルド",
+          "PlotLineKey": "では、準備が整い次第、出発いたしましょう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ルド",
+          "PlotLineKey": "……この目で見るまでは、信じられませんでした。私たちの足元に、これほどまでに壮麗な光景が広がっていたとは。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ルド",
+          "PlotLineKey": "海は、ずっと私たちを育んできましたが……まさか、このような姿で……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ルド",
+          "PlotLineKey": "先ほど通ったエリアの資料には、ここは公共音骸の育成区域とありましたが……？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 97,
+              "PlotLineKey": "{Male=ああ、回転しているのが培養ポッドだ。;Female=ええ、回転しているのが培養ポッドよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ルド",
+          "PlotLineKey": "ここでは、まだ生まれていない音骸が、何百、何千と育てられてるんですね。厳重な警備や、多くの研究スタッフが配置されているのも頷けます。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 98,
+              "PlotLineKey": "{Male=パイプで運ばれてるのは、周波数エナジーだ。;Female=パイプで運ばれてるのは、周波数エナジー。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "ルド",
+          "PlotLineKey": "骸の島で回収された音骸が、循環の果てに新たな音骸の養分へと変わる……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ルド",
+          "PlotLineKey": "無数の音骸の減衰した周波数から生まれた小さな存在……そこに、過去とのつながりなど、何一つ残されてはいない。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 99,
+              "PlotLineKey": "どうしてそれを？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "ルド",
+          "PlotLineKey": "私はかつて周波数関連の研究に携わっておりましたので、機器の数値を見ればわかります。過去の情報は、すべて消去されていました。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 100,
+              "PlotLineKey": "{Male=随分、気にかけているんだな。;Female=……随分、気にかけているみたいだね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "ルド",
+          "PlotLineKey": "長く研究室にいると……人は次第に感覚が麻痺してしまうのです。実験対象を、一つの命として見られなくなっていく。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ルド",
+          "PlotLineKey": "私は、そうなりたくなかった。だから、常に自分に言い聞かせていました。しかし……ここにいる人たちはもう、音骸を命ではなく、ただの使い捨ての道具として見ているようです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ルド",
+          "PlotLineKey": "……これは、私たちの信仰に背く行いではないのでしょうか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 101,
+              "PlotLineKey": "{Male=こんな話を聞いたことがある。;Female=こんな話を聞いたことがあるの。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "ルド",
+          "PlotLineKey": "どんな話でしょう？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "かつて、ある人が教えてくれた……これは腐朽の中から芽吹く生気であり、不滅の生命を讃える軽やかな唄であると。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ルド",
+          "PlotLineKey": "つまり、この循環は「繋ぎ」であり、命を絶やさぬための仕組みということでしょうか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ルド",
+          "PlotLineKey": "それはおかしい。「繋ぎ」とは本来、個の意識を犠牲にして成すものではないはずです。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 102,
+              "PlotLineKey": "個の意識を犠牲にするって？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "ルド",
+          "PlotLineKey": "あの存在のように……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "たしかここも記録する必要があったはず。先に前へ行って撮影しよう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ルド",
+          "PlotLineKey": "わかりました。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ルド",
+          "PlotLineKey": "準備はよろしいですか？そろそろ次の場所へ行きましょう。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 269,
+              "PlotLineKey": "行こう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 270,
+              "PlotLineKey": "{Male=もう少し待ってくれ。;Female=もう少し待って。}",
+              "PlayVoice": false,
+              "JumpToId": 2
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ルド",
+          "PlotLineKey": "わかりました。ここでお待ちしております。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "案内役の侍祭",
+          "PlotLineKey": "ここに来てくださった兄弟姉妹の皆さんは、リナシータを救うために欠かせない存在となるでしょう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ルド",
+          "PlotLineKey": "えっ？あ、ありがとうございます。まさか、深海にこれほど多くの方々が……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "案内役の侍祭",
+          "PlotLineKey": "一丸となり、より多くの人々に光をもたらすのです。そして、この「繋ぎ」が生んだ力で、いずれ訪れる「定められし天災」を乗り越えましょう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ルド",
+          "PlotLineKey": "「定められし天災」……？それは一体……？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "彼らとは……もう普通に話すことはできない。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "ルド",
+          "PlotLineKey": "なぜ……？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=リナシータを救い、「定められし天災」に立ち向かう道は、多くの犠牲の上に築かれた。;Female=リナシータを救い、「定められし天災」に立ち向かう道は、多くの犠牲の上に築かれたの。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=彼らは、救いを求める教団の実験に身を捧げた殉教者たちだ。;Female=彼らは、救いを求める教団の実験に身を捧げた殉教者たちよ。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ルド",
+          "PlotLineKey": "……そんな話は初耳です……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=フェンリコが失敗の代償を制御していたからだと思うんだ。;Female=フェンリコが失敗の代償を制御しているからじゃないかな。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=何度も失敗しているうちに、意識が壊れ、もう普通の暮らしはできなくなっていた。;Female=何度も失敗しているうちに、意識が壊れ、もう普通の暮らしはできなくなる……}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "闇の中で生き延びた結果……この信仰だけが、彼らに残された。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=ここは生産や実験とは無関係だ。フェンリコが、せめてもと彼らに与えた場所だ。人目を避けて、静かに暮らせるように。;Female=ここは生産や実験とは関係ない。フェンリコが、せめてもと彼らに与えた場所なの。人目を避けて、静かに暮らせるように。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ルド",
+          "PlotLineKey": "わかりました。彼らのことは、今後は私たちがしっかりと見守っていきます。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ルド",
+          "PlotLineKey": "ただ……先ほどおっしゃっていた「意識が壊れる」や「闇」とは、具体的にはどういったものなのですか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 177,
+              "PlotLineKey": "{Male=……行こう。すぐに、全部わかる。;Female=……行こう。すぐに、全部わかるよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ルド",
+          "PlotLineKey": "あれは……フェンリコ主座！？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 206,
+              "PlotLineKey": "もう、あなたに言葉を返すことはない。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ルド",
+          "PlotLineKey": "……どうか、本当のことをすべて教えてください。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "神が入れ替わった話を聞いたことは？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "ルド",
+          "PlotLineKey": "ええ、知っています。実験場に向かうと決まった直後、フィサリアから届いた手紙に、「<ano=さいしゅ>歳主</ano>」と「<ano=めいしき>鳴式</ano>」の真実が記されていました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=そんな機密を知ってるなんて……やはり、教団内での立場は相当なものだ。;Female=そんな機密を知ってるなんて……やはり、教団で相当な立場にいるんだ。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=フェンリコは、俺たちが思っていたよりずっと早く気づいていた。;Female=フェンリコは、私たちが思っていたよりずっと早く気づいていたの。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "……でも、彼は忘れてしまっていた。いや、黒潮に蝕まれ、思考が歪められていたんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "<ano=めいしき>鳴式</ano>の干渉で、彼の思考は常に揺らいでいた。だから、彼は真実の断片を手帳に記し、それを深海に隠すしかなかった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "彼はかつて、海底の侍祭たちとともにラグーナを救う道を探していた。そして最後には、自分自身が試すしかないと気づいたんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "けど……彼は、もっとも大切なことを書き記すのを忘れていた。自分自身が黒潮の代行者だったということを。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "そのせいで、<ano=めいしき>鳴式</ano>の残存する力が危うく黒潮へ戻りかけたが、ランタンが彼を呼び覚まし、彼は力の限り黒潮の拡大をここで封じたんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ルド",
+          "PlotLineKey": "<ano=めいしき>鳴式</ano>の影響だったのですね……それなら、あの時の彼の言葉にも納得がいきます。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 208,
+              "PlotLineKey": "納得がいったというと？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "ルド",
+          "PlotLineKey": "以前、何度か先代の枢密とお話したことがあります。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ルド",
+          "PlotLineKey": "神学校時代のフェンリコと、主座になった彼はまるで別人のようだったと……かつての仲間たちでさえ、違和感を覚えていたそうです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ルド",
+          "PlotLineKey": "巡礼船に乗るまでは、彼自身も理由に気づけていなかったのでしょう。ですが、今のお話を聞いて、私も理解できました。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ルド",
+          "PlotLineKey": "ここでの情報収集は完了しました。そろそろ次の場所へ行きますか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 259,
+              "PlotLineKey": "行こう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 260,
+              "PlotLineKey": "{Male=もう少し待ってくれ。;Female=もう少し待って。}",
+              "PlayVoice": false,
+              "JumpToId": 2
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ルド",
+          "PlotLineKey": "わかりました。ここでお待ちしております。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ルド",
+          "PlotLineKey": "次の場所へ向いますか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 275,
+              "PlotLineKey": "行こう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 276,
+              "PlotLineKey": "{Male=もう少し待ってくれ。;Female=もう少し待って。}",
+              "PlayVoice": false,
+              "JumpToId": 2
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ルド",
+          "PlotLineKey": "わかりました。ここでお待ちしております。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

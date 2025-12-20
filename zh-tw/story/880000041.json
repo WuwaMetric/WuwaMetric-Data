@@ -1,0 +1,295 @@
+{
+  "Id": 880000041,
+  "Name": "整點魚條",
+  "Description": "是時候去海裡整點魚條了！",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000041,
+  "ShowQuestList": [],
+  "QuestDesc": "是時候去海裡整點魚條了！",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "老人魚海"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "{PlayerName}，你看，這是于連！一隻經常出沒於碼頭的好貓。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "每次我拿著魚條和他討論貓生志向，他都一直喵喵叫。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "于連",
+          "PlotLineKey": "喵喵！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "他的貓生志向是什麼？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 55,
+              "PlotLineKey": "他為什麼一直喵喵叫？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "他一定是想要成為一隻能夠拿鼠破魚掄蟲的貓。對不對，于連？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "于連",
+          "PlotLineKey": "喵……喵！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "聽起來他非常認同。",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "聽起來他並不認同。",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "當然！畢竟只要成為一隻能拿鼠破魚掄蟲的貓，就能吃到好多魚條！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "怎麼會呢……他肯定想成為一隻能拿鼠破魚掄蟲的貓，這樣就能吃到好多魚條！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "聽到「魚條」兩個字，于連突然瘋狂喵喵起來。你這下清楚了于連的貓生志向。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "他只是想找你要點魚條。",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "他只是想去碼頭整點魚條。",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 60,
+              "PlotLineKey": "他只是想要魚條向他俯首。",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "什麼？！我還以為他是覺得我是個好人……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 10,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "怎麼會！我們討論的可是貓生志向，怎麼會只是魚條這麼簡單……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "有道理，畢竟魚條是貓之榮耀……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "于連啊于連，你真的只想要魚條嗎？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "于連",
+          "PlotLineKey": "喵喵！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 61,
+              "PlotLineKey": "拿魚條給他試試就好了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "是個辦法……但我今天一天都沒釣上一條魚啊！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 62,
+              "PlotLineKey": "我有魚。",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 63,
+              "PlotLineKey": "我沒有魚。",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "真的嗎？那可以給我，啊不是，給于連一條魚嗎？",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 16,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "這樣……那你要是什麼時候有魚了，可以給于連一條嗎？",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "于連會付錢的！雖然是我來付……",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "怎麼樣？你帶來魚條了嗎？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "給你魚。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "謝謝你，我這就試試看！于連于連，乖于連，你的魚條來啦。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "于連",
+          "PlotLineKey": "喵！！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "你看到于連開心地接過魚條，很快吃得乾乾淨淨。而後，于連過來蹭蹭你的手表示感謝。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "天吶……他吃得好開心！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 73,
+              "PlotLineKey": "畢竟是魚條。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 74,
+              "PlotLineKey": "畢竟是貓之榮耀。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "是的，是的！謝謝你，你讓我知道了于連的貓生志向！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "馬爾科",
+          "PlotLineKey": "給，這些是你的報酬！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "于連",
+          "PlotLineKey": "喵喵！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

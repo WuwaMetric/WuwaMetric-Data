@@ -1,0 +1,4572 @@
+{
+  "Id": 101010,
+  "Name": "Partons, Capitaine !",
+  "Description": "Brant",
+  "MaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveRole/T_ArchiveRole_22.png",
+  "FemaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveRole/T_ArchiveRole_22.png",
+  "AreaIcon": "",
+  "ShowQuestList": [
+    155000000
+  ],
+  "QuestDesc": "Vous vous retrouvez pris dans un pari entre Brant et l'équipage, et avant que vous ne puissiez protester, le titre de capitaine d'un jour de la Troupe des Fous vous est imposé. Êtes-vous {Male=prêt;Female=prête}, Capitaine ? L'aventure vous attend !",
+  "Unlock": [],
+  "Chapters": [
+    {
+      "Title": "Parler à Brant au Paradis des Fous"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Seulement un pack ? Ce n'est pas ton genre, Battier !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Battier",
+          "PlotLineKey": "Tsk, ce n'est pas n'importe quelle boisson. J'ai apporté la meilleure<br>bière d'Egla ! Ça m'a coûté une jolie somme, vous savez",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Hymer",
+          "PlotLineKey": "Ouais ! Battier, mon cher ami, tu peux ajouter un pack de six de plus. Ce soir, on va se déchaîner sur le pont !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 119,
+              "PlotLineKey": "Que faites-vous ici ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ah ! Regardez qui a décidé de se joindre à nous. Tu arrive au bon moment, {PlayerName}. Nous allons faire un pari très, très important.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 120,
+              "PlotLineKey": "Quel genre de pari ?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 121,
+              "PlotLineKey": "Tu sais pourtant que la chance, ce n'est pas ton truc, hein ?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Budd",
+          "PlotLineKey": "Ils parient sur qui attrapera le premier poisson.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Brant",
+          "PlotLineKey": "Hé oh, un peu de respect pour le capitaine ! Je travaille dur pour que tout le monde puisse picoler !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Brant",
+          "PlotLineKey": "Battier se prend pour mon rival, alors il mise son précieux stock de bière blanche.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Brant",
+          "PlotLineKey": "Je t'assure ce truc qu'ils font à Egla est un pur délice. Doux, sucré... J'en ai déjà l'eau à la bouche.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Battier",
+          "PlotLineKey": "Confiant, hein ? Augmentons les paris. Je vais ajouter une bouteille de Force de troupe. Tout le monde va se régaler ce soir !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ha ! Tu as de l'audace, Battier ! Je tiens le pari, que veux-tu que je mise ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Battier",
+          "PlotLineKey": "Oh non, capitaine, on ne va pas parier que des boissons aujourd'hui. Pas avec {PlayerName} comme {Male=invité;Female=invitée} !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Battier",
+          "PlotLineKey": "Que diriez-vous de ceci ? Si je gagne, vous donnez un jour de congé à l'équipage. Nous voulons tous traîner à nouveau avec {Male=le Lauréat;Female=la Lauréate} du Carnaval !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Battier",
+          "PlotLineKey": "Et c'est vous, capitaine, qui vous occuperez de toutes les corvées. La cuisine, le nettoyage, le cirage du pont... La totale !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Tandis que Brant et Battier débattent des enjeux, vous remarquez la canne à pêche frémir, la ligne se tendre...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 122,
+              "PlotLineKey": "La canne ! Tire dessus !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Brant comme Battier ne vous prêtent aucune attention, absorbés par leur pari. Leur concentration est telle que le Primus lui-même devrait attendre que les détails du pari soient réglés.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Brant",
+          "PlotLineKey": "Marché conclu ! Ça fait trop longtemps que je n'ai pas cuisiné pour l'équipage. Si je perds, je vous montrerai ce que ce capitaine sait faire derrière les fourneaux !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 123,
+              "PlotLineKey": "(Tire la canne à pêche.)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "La prise tire lourdement, ce n'est pas du menu fretin. Elle doit être assez grande pour décider de l'issue du pari d'un seul coup. Vous la remontez...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Et le voilà ! Un poisson colossal, se débattant dans les airs avec un regard de pure incrédulité. Eh bien, mon ami poisson, dis adieu à l'eau et bonjour à la terre ferme !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Sithos",
+          "PlotLineKey": "Par la Sentinelle, regardez la taille de cette bête !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Budd",
+          "PlotLineKey": "Est-ce qu'on a une marmite assez grande pour le cuire ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Hymer",
+          "PlotLineKey": "Attends une minute... C'est la canne de Battier, non ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Battier",
+          "PlotLineKey": "…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Brant",
+          "PlotLineKey": "…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Brant",
+          "PlotLineKey": "Eh bien, je ne l'avais pas vu venir ! Mais j'adore les rebondissements.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Battier",
+          "PlotLineKey": "Qu'est-ce que c'est que ça, le Roi des Poissons lui-même ? Bien joué, mon {Male=ami;Female=amie} ! Et félicitations, capitaine ; vous venez de gagner une journée de corvées, ha ha !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Brant",
+          "PlotLineKey": "Très bien, un pari est un pari. On dirait que je serai un humble marin aujourd'hui.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Hymer",
+          "PlotLineKey": "Si vous jouez au marin, alors qui sera notre capitaine ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Battier",
+          "PlotLineKey": "Qui crois-tu donc ?!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Battier",
+          "PlotLineKey": "Admirez le grand poisson qu'{Male=il;Female=elle} a attrapé ! Je dirais que notre {Male=Lauréat;Female=Lauréate} est plus que {Male=qualifié;Female=qualifiée} pour nous diriger !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 124,
+              "PlotLineKey": "Moi ? Capitaine ? Vous plaisantez.",
+              "PlayVoice": false,
+              "JumpToId": 30
+            },
+            {
+              "TextId": 125,
+              "PlotLineKey": "Je serai ce que vous voulez, à condition que j'y gagne quelque chose.",
+              "PlayVoice": false,
+              "JumpToId": 31
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "Brant",
+          "PlotLineKey": "Je n'ai aucun doute sur le fait que tu feras {Male=un excellent;Female=une excellente} capitaine.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 32
+        },
+        {
+          "Id": 31,
+          "Speaker": "Brant",
+          "PlotLineKey": "Absolument, mon {Male=ami;Female=amie}. Nous larguons les amarres à ton commandement !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 32
+        },
+        {
+          "Id": 32,
+          "Speaker": "Brant",
+          "PlotLineKey": "Mais pas de pression, hein. C'est à toi de décider si tu souhaites prendre les commandes.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ceci étant dit, pourquoi ne pas nous joindre pour le dîner ? Ça va être un banquet, surtout avec tout l'alcool que tu nous as fait gagner.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Brant",
+          "PlotLineKey": "Permets-nous de te remercier correctement pour toute l'aide que tu as apporté. Alors, qu'en dis-tu ? Nous feras-tu l'honneur de ta présence ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "Battier",
+          "PlotLineKey": "Ce serait génial ! Et avec cet énorme poisson, le festin de ce soir sera inoubliable. Tu dois rempolir la panse, tu ne mérites rien de moins !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "Battier",
+          "PlotLineKey": "Très bien, je vais prévenir les cuistots de ce qui les attend et chercher mon meilleur alcool pour l'occasion !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 37,
+          "Speaker": "Brant",
+          "PlotLineKey": "Et vous m'excuserez, « {Male=M. le Capitaine;Female=Mme. la Capitaine} » ! Il est temps de récurer les ponts jusqu'à ce qu'ils brillent comme de l'or.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 38,
+          "Speaker": "Brant",
+          "PlotLineKey": "Oh, et si vous vous retrouvez les bras croisés, n'hésitez pas à faire un petit tour. Vous êtes sur ce navire comme chez vous ! Ciao !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 46,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Vous vous retrouvez à trébucher dans le pari de Brant et Battier.<br>Alors qu'ils commencent un débat animé, vous parvenez à attraper le Roi des poissons gagnant.<br>Maintenant, vous devenez Capitaine du Jour pour la troupe.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Battier",
+          "PlotLineKey": "Alors, capitaine, qu'en dites-vous ? Vous voulez parier sur qui attrapera le premier poisson ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Un pari pour commencer la journée ? Battier, tu sais comment parler à un homme, toi.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Qu'est-ce qu'on parie ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "C'est Brant... ? Que font-ils, ces deux-là ? Allons voir ça de plus près.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Il reste du temps avant le dîner ! Tout le monde a le sourire, pourquoi ne pas se promener et en profiter un peu ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "À propos de cette histoire de capitaine...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Battier a dit que le gagnant serait le capitaine, mais le choix t'appartient au final. Alors, tu veux prendre la barre ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 208,
+              "PlotLineKey": "En quoi ça consiste vraiment, être capitaine ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "En gros, il faut tracer la route et dirgier le navire. L'équipage sera prêt à naviguer sur ton ordre à tout moment.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Cela peut sembler facile, mais être capitaine de la Troupe des Fous, c'est plus que ça.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ces mers sont pleines de quêtes palpitantes et de trésors scintillants.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est là que les vrais capitaines se démarquent ! Ils guident leur équipage pour découvrir des légendes perdues, acclamés partout où ils passent, ils naviguent sans peur à travers la Mer des Tempêtes en quête de gloire.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 209,
+              "PlotLineKey": "Ça, ça me motive.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 210,
+              "PlotLineKey": "C'est plus facile à dire qu'à faire.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 211,
+              "PlotLineKey": "J'ai l'impression qu'il y a des moyens plus simples d'atteindre la gloire...",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est vrai. Mais tu sais, les plus grandes légendes se forgent au milieu des plus violentes tempêtes.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est vrai, mais chaque goutte de sueur apporte des rires, et chaque aventure mène à un coffre rempli de trésors.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "Brant",
+          "PlotLineKey": "Mais rien de tout cela n'est possible sans un capitaine, et il en va de même pour chaque membre de la troupe.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Brant",
+          "PlotLineKey": "Prenons Battier, par exemple, c'est notre meilleur pêcheur. Tina ? Elle connaît chaque recoin de la carte. Et les histoires de Lavito nous tiendraient éveillés pendant des mois.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Brant",
+          "PlotLineKey": "Les talents uniques de chacun font de cette troupe ce qu'elle est. Chaque âme joue un rôle important.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ah, mais le devoir m'appelle, capitaine. Il est temps de récurer les ponts avant le dîner, comme promis.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Brant",
+          "PlotLineKey": "Le dîner est à six heures. Bien... j'ai encore le temps. À plus tard !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Hmm... Que fait {Male=le capitaine;Female=la capitaine} de la Troupe des Fous de sa journée, d'ailleurs ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Il reste encore un peu de temps avant le dîner. Autant voir ce que font les membres de l'équipage.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Roccia",
+          "PlotLineKey": "Laissons la paperasse à Brant. Ça fait partie de ses responsabilités.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Levito",
+          "PlotLineKey": "Le Revenant naviguait à travers des flammes ardentes, revenant sur la lumière éclatante de la scène... « Hissez le foc et mettez les voiles », cria-t-il. « Nous allons dompter la mer déchaînée... »",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Pan Cake",
+          "PlotLineKey": "Six heures, c'est le dîner ! Six heures, tout le monde à table !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Il reste du temps avant le dîner. Une petite promenade ne me fera pas de mal.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Prendre le dîner avec la troupe (18h à 23h)"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Roccia",
+          "PlotLineKey": "Bonjour, {PlayerName}. On dit que c'est vous {Male=le;Female=la} capitaine aujourd'hui. N'oubliez pas de terminer la paperasse sur votre bureau !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 178,
+              "PlotLineKey": "Je pensais contrôler un navire, pas un livre de comptes !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 179,
+              "PlotLineKey": "Je suis {Male=venu;Female=venue} pour l'air du large, pas pour rester derrière un bureau !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Roccia",
+          "PlotLineKey": "Ha ha, ne vous inquiétez pas, c'était une blague. J'espère que vous vous amusez bien aujourd'hui.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Roccia",
+          "PlotLineKey": "Laissez la paperasse à Brant. Pero veillera à ce qu'il ait terminé d'ici demain.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Roccia",
+          "PlotLineKey": "Brant a peut-être l'air d'un capitaine atypique, mais il fait bien son boulot.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 180,
+              "PlotLineKey": "Il est étonnamment fiable.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 181,
+              "PlotLineKey": "Il fait les choses à sa manière.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Roccia",
+          "PlotLineKey": "Hé hé, tout ça fait partie du travail d'un chef, pas vrai ?",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Tina",
+          "PlotLineKey": "Capitaine {PlayerName}, quelle est notre destination ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Tina",
+          "PlotLineKey": "Normalement, le capitaine Brant donne les ordres, mais puisque vous êtes à la barre, je suis tout ouïe !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 166,
+              "PlotLineKey": "Enfin ! Ça ressemble à un boulot de capitaine.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 167,
+              "PlotLineKey": "Je laisse ça au second.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Tina",
+          "PlotLineKey": "Les Fous sont toujours impatients de savoir où nous nous dirigeons. Un capitaine doit montrer la voie !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Tina",
+          "PlotLineKey": "L'opinion du second compte, bien sûr, mais c'est au capitaine de fixer le cap.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Tina",
+          "PlotLineKey": "Un guide est essentiel pour ceux d'entre nous qui ont laissé leur passé derrière eux. Je ne sais pas ce que la troupe ferait sans son capitaine.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Je vois. Je ferai de mon mieux pour être à la hauteur ! Alors, nous allons…)",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 168,
+              "PlotLineKey": "Explorer l'intégralité de Rinascita !",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 169,
+              "PlotLineKey": "Rentrer à Huanglong !",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 170,
+              "PlotLineKey": "Visiter le Littoral noir !",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Tina",
+          "PlotLineKey": "Splendide ! Brant nous a emmenés à Septimont une fois, donc nous connaissons bien cette route.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 8,
+          "Speaker": "Tina",
+          "PlotLineKey": "Ça pourrait être un compliqué. Nous ne sommes jamais allés aussi loin auparavant, mais j'ai entendu parler des célèbres Comédies héroïques de Huanglong. Peut-être qu'on en verra une !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 9,
+          "Speaker": "Tina",
+          "PlotLineKey": "Le Littoral noir... ? Je n'ai jamais entendu parler de cet endroit. À quoi ça ressemble ? J'ai hâte de le voir par moi-même !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 10,
+          "Speaker": "Tina",
+          "PlotLineKey": "Maintenant que j'ai le plan en tête, je vais aller le dire aux autres et préparer le départ.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 171,
+              "PlotLineKey": "Pas de cris de surprise ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 172,
+              "PlotLineKey": "Une journée de plus dans la Troupe des Fous !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Tina",
+          "PlotLineKey": "Ha ha ! Nous avons bravé vents et marées ensemble ! Nous sommes des marins chevronnés, {PlayerName} !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Tina",
+          "PlotLineKey": "Le capitaine Brant est parfois fantasque, mais quand il le faut, c'est le phare qui nous mène à bon port.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Tina",
+          "PlotLineKey": "Les surprises font partie de notre vie, donc nous nous sommes habitués à cette manière « improvisée » de naviguer.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Tina",
+          "PlotLineKey": "D'ailleurs, les pirates font des leurres ces derniers temps, à s'immiscer sur les routes commerciales. Nous avons été occupés avec des missions d'escorte, donc nous devons rester vigilants, capitaine.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Tina",
+          "PlotLineKey": "Après le spectacle d'aujourd'hui, je vérifierai à nouveau les conditions en mer.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Hymer",
+          "PlotLineKey": "Tina ! T'es où ? La répétition va commencer !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Tina",
+          "PlotLineKey": "J'arrive !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Tina",
+          "PlotLineKey": "Eh bien, capitaine, le devoir m'appelle ! J'espère que vous trouvez vos marques ici. À bientôt !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Pan Cake",
+          "PlotLineKey": "Six heures, c'est le dîner ! Six heures, tout le monde à table !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Pan Cake",
+          "PlotLineKey": "Bienvenue ! Le capitaine Brant te transmet ses salutations !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 190,
+              "PlotLineKey": "Brant a perdu son pari.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 191,
+              "PlotLineKey": "Je suis {Male=le capitaine;Female=la capitaine}. maintenant.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Pan Cake",
+          "PlotLineKey": "Ô, capitaine, {Male=mon capitaine;Female=ma capitaine} !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Pan Cake",
+          "PlotLineKey": "Brant a encore perdu ! Quelle surprise.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 192,
+              "PlotLineKey": "Ça arrive souvent, n'est-ce pas ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 193,
+              "PlotLineKey": "A-t-il déjà gagné ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Pan Cake",
+          "PlotLineKey": "Il ne gagne jamais ! Jamais !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Pan Cake",
+          "PlotLineKey": "Bon Capitaine, Pan Cake à votre service ! À votre service !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Levito",
+          "PlotLineKey": "Le Revenant naviguait à travers des flammes ardentes, revenant sur la lumière éclatante de la scène... « Hissez le foc et mettez les voiles », cria-t-il. « Nous allons dompter la mer déchaînée... »",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 143,
+              "PlotLineKey": "Qu'est-ce que tu chantes ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Levito",
+          "PlotLineKey": "Oh, juste une petite chanson qui est sur toutes les lèvres ces derniers temps.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Levito",
+          "PlotLineKey": "On dit qu'un pirate rôde la Mer des Tempêtes, un immortel qui peut marcher à travers le feu sans une égratignure. Personne ne l'a jamais attrapé.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 144,
+              "PlotLineKey": "Il a un nom ?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 145,
+              "PlotLineKey": "On dirait un vrai mystère.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Levito",
+          "PlotLineKey": "Ah, le nom n'est pas important. C'est juste une histoire, après tout.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "Levito",
+          "PlotLineKey": "Bah, on sait les histoires ont tendance à prendre un peu de couleur supplémentaire en circulant.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Levito",
+          "PlotLineKey": "Néanmoins, les enfants adorent ce genre de choses. Histoires et chansons, toutes tissées ensemble.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Levito",
+          "PlotLineKey": "Ils demandent toujours au capitaine Brant de chanter avec eux. Il se prend au jeu aussi, parfois il improvise une scène toute entière.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 146,
+              "PlotLineKey": "Ça fait partie des devoirs  {Male=du capitaine;Female=de la capitaine} ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Levito",
+          "PlotLineKey": "Pas vraiment. Juste Brant qui se fait plaisir.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Levito",
+          "PlotLineKey": "Quoi qu'il en soit, je ferais mieux de retourner à la composition. Je veux avoir cette nouvelle chanson prête pour ces jeunes flibustiers d'ici le dîner.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Battier",
+          "PlotLineKey": "Une bouteille de Force de troupe, rien que pour vous ! Par ici, ce truc vaut de l'or.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Battier",
+          "PlotLineKey": "Oh, et regardez ce que j'ai trouvé en vidant le poisson !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 250,
+              "PlotLineKey": "Voyons voir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Elle est... coupée en deux ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Battier",
+          "PlotLineKey": "Bizarre, non ? Je l'ai trouvée comme ça. Cela pourrait même être une relique des anciens temps.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Hmm ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Regardes, il y a quelque chose là…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Brant",
+          "PlotLineKey": "Je peux y jeter un œil ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "On dirait une lettre. Ça vous dit quelque chose ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Brant",
+          "PlotLineKey": "Hmm, sur ces mers, il n'y a qu'une seule légende à propos de « D ».",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Brant",
+          "PlotLineKey": "L'histoire de Drake, le Capitaine Doré.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Tina",
+          "PlotLineKey": "Le capitaine Drake ! L'aventurier dont tout le monde parle ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Levito",
+          "PlotLineKey": "Je croyais que c'était une histoire montée de toutes pièces...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 251,
+              "PlotLineKey": "Qui est le capitaine Drake ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 252,
+              "PlotLineKey": "Que disent-ils de lui ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Brant",
+          "PlotLineKey": "Le capitaine Drake, le célèbre héros de Rinascita. La légende dit qu'il a formé un équipage avec une seule pièce et amassé d'immenses richesses auprès des hommes les plus fortunés.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Brant",
+          "PlotLineKey": "Il s'est ensuite lancé dans une quête pour tracer un passage sûr à travers la Mer des Tempêtes. Un exploit digne de rester dans toutes les mémoires !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Brant",
+          "PlotLineKey": "Mais tout cela avait un prix. Un seul membre de l'équipage est revenu, et il avait perdu la raison. Ce qui s'est passé là-bas reste un mystère.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 253,
+              "PlotLineKey": "Il semble que tu connaisses bien cette histoire.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ce sont les histoires qu'on me racontait avant de dormir.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Brant",
+          "PlotLineKey": "Lorsque je venais juste d'embarquer sur la Traversée du pèlerin, tout seul et hanté de cauchemars capables de réveiller les morts, Toscanini me racontait des histoires pour me réconforter.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Brant",
+          "PlotLineKey": "À l'époque, j'ai juré que si je devenais capitaine, chaque membre de l'équipage reviendrait sain et sauf. Sans exception.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Bardolino",
+          "PlotLineKey": "Toscanini le Veilleur de Nuit. Tu es l'un des rares à te souvenir de lui.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Bardolino",
+          "PlotLineKey": "On ne t'a jamais raconté la suite ? Ce marin fou qui délirait à propos de la pièce de son capitaine, disant qu'elle menait à des trésors inestimables.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Bardolino",
+          "PlotLineKey": "Peut-être que c'est la pièce que notre capitaine saisonnier tient dans la main.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Battier",
+          "PlotLineKey": "Des trésors insoupçonnés, hein ? Eh bien, on en a de la chance. Si on avait l'autre moitié, imagine les richesses que nous pourrions trouver...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 254,
+              "PlotLineKey": "Ces trésors existent-ils vraiment ?",
+              "PlayVoice": false,
+              "JumpToId": 23
+            },
+            {
+              "TextId": 255,
+              "PlotLineKey": "Une idée de l'endroit où pourrait se cacher l'autre moitié de la pièce ?",
+              "PlayVoice": false,
+              "JumpToId": 24
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Bardolino",
+          "PlotLineKey": "Oh, c'est sûr et certain. Le Capitaine Doré a conquis toutes les mers connues de l'homme. Les richesses qu'il a amassées pourraient nous donner à tous des vies de loisir et de luxe.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 25
+        },
+        {
+          "Id": 24,
+          "Speaker": "Bardolino",
+          "PlotLineKey": "Vous marquez un point... Où est l'autre moitié...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 25
+        },
+        {
+          "Id": 25,
+          "Speaker": "Hymer",
+          "PlotLineKey": "Une demi-pièce... Des trésors... Nom d'un chien !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Brant",
+          "PlotLineKey": "Un problème, Hymer ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Hymer",
+          "PlotLineKey": "Maintenant que j'y pense... J'ai perdu une demi-pièce comme celle-ci il n'y a pas longtemps.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 256,
+              "PlotLineKey": "Vraiment ? Une comme celle-ci ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Hymer",
+          "PlotLineKey": "Oui, presque identique ! Il y avait un homme qui en faisait des tonnes sur sa valeur. Je pensais qu'il bluffait.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Hymer",
+          "PlotLineKey": "Je ne l'ai pas pris au sérieux... puis je l'ai perdue face à Bella.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Brant",
+          "PlotLineKey": "Bella... une Montelli, pas vrai ? Depuis que les pirates causent des problèmes autour de Ragunna, elle nous engage pour protéger les navires de sa famille.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Hymer",
+          "PlotLineKey": "Oui ! C'est une habituée de la Trattoria Margherita. Elle adore leurs pizzas. Je la croise tout le temps !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "Brant",
+          "PlotLineKey": "Bon, on sait ce qu'il nous reste à faire. La chance nous sourit, {Male=M. le;Female=Mme la} Capitaine. On va tenter notre chance au restaurant ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Brant",
+          "PlotLineKey": "Alors, qu'en dites-vous ? On va voir ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 257,
+              "PlotLineKey": "Pas besoin de me le demander deux fois.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 258,
+              "PlotLineKey": "Marin Brant, montre-nous le chemin.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 34,
+          "Speaker": "Brant",
+          "PlotLineKey": "À vos ordres ! Notre cap est donné ! Prêts à lever les voiles et à laisser le vent nous porter !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 44,
+          "Speaker": "Narrator",
+          "PlotLineKey": "En dînant, Battier vous tend la moitié d'une pièce porte-bonheur.<br>Brant reconnaît qu'elle appartient au légendaire aventurier, le Capitaine Drake, ce qui pourrait mener à des trésors inimaginables.<br>Un membre de la troupe, Hymer, partage des informations sur l'emplacement de l'autre moitié. Vous et Brant partez à sa recherche.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Aller à « Trattoria Margherita » pour trouver Bella"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "La voilà. C'est rare de la voir boire seule... Allons lui parler.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Parler à Bella"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Bella, mon amie ! Pourquoi cette tête ? Ce n'est pas ton genre de boire seule.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Bella",
+          "PlotLineKey": "Ah... épargne-moi les plaisanteries. La chance m'a abandonné. Rien ne semble aller dans mon sens.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Bella",
+          "PlotLineKey": "Les pirates piègent nos routes maritimes, et si cela ne suffisait pas... regarde cette pizza ! Sans olives !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Bella",
+          "PlotLineKey": "Margherita dit qu'ils sont en rupture de stock pour quelques jours. C'est quand même incroyable, non ? Même les plus petits plaisirs sont contre moi !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Bella",
+          "PlotLineKey": "Et cette pièce porte-bonheur que j'ai obtenue à la sueur de mon front ? Volée ! Un misérable malandrin s'en est emparée. Je suis maudite depuis.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Bella",
+          "PlotLineKey": "Pas comme toi, Brant. Tu peux disparaître dans le brouillard et en ressortir brillant comme un diamant. Si seulement j'avais ne serait-ce qu'une once de ta chance...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Brant",
+          "PlotLineKey": "Je suis navré de l'entendre, Bella, mais j'ai une nouvelle pour toi, je ne suis pas le capitaine aujourd'hui. Si c'est de la chance dont tu as besoin, il va falloir lui demander.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 297,
+              "PlotLineKey": "Vous pourriez être surprise d'apprendre que Brant a perdu un pari.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 298,
+              "PlotLineKey": "Toutes mes excuses, mais je suis capitaine aujourd'hui.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Brant",
+          "PlotLineKey": "Oui, j'ai perdu un pari, de manière équitable. Maintenant, je ne suis qu'un humble marin.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "Brant",
+          "PlotLineKey": "On ne sait jamais ce qu'apporte la marée, pas vrai ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Brant",
+          "PlotLineKey": "Margherita, deux verres de vin de nectar s'il te plaît, et remplis celui de Bella. Sur mon ardoise.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Margherita",
+          "PlotLineKey": "Tout de suite !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Brant",
+          "PlotLineKey": "Aucun porte-bonheur ne vaut un bon verre de « Gocce di Divino ». Santé ! Que la guigne nous foute la paix !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 299,
+              "PlotLineKey": "Santé !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Bella",
+          "PlotLineKey": "Santé...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous levez vos verres à l'unisson et buvez. Au diable la malchance et à une grande nuit mémorable !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ah, c'est du bon vin. Au fait, Bella, où exactement ta pièce a-t-elle été volée ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Bella",
+          "PlotLineKey": "Juste ici, au restaurant. Il y a quelques jours, je l'ai posée sur la table pendant que je discutais. Et une seconde plus tard, pouf, envolée.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Margherita",
+          "PlotLineKey": "Beaucoup de clients ont perdu des affaires dernièrement... Je ne peux pas dire qui est derrière, mais cela semble se produire de plus en plus souvent...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 300,
+              "PlotLineKey": "On dirait un voleur ordinaire.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 301,
+              "PlotLineKey": "On dirait qu'ils ont jeté leur dévolu sur cet endroit.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Brant",
+          "PlotLineKey": "Hmm, un voleur ordinaire... Capitaine, j'ai un plan, mais cette fois, j'aurai besoin que vous dirigiez le navire.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "...Vraiment ? Je viens tout juste de commencer la mienne !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Brant",
+          "PlotLineKey": "(Soupirs)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Brant",
+          "PlotLineKey": "VOTRE ATTENTION, TOUT LE MONDE ! Moi, Brant de la Troupe des Fous, j'ai une grande annonce à faire !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Voix de la Femme surprise",
+          "PlotLineKey": "Qu'est-ce qui se passe ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Voix de l'homme surprise",
+          "PlotLineKey": "C'est censé faire partie de leur spectacle ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Brant",
+          "PlotLineKey": "Les amis, approchez-vous ! Avez-vous déjà entendu parler de la légende de la pièce porte-bonheur ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Brant",
+          "PlotLineKey": "Une pièce censée guider son propriétaire vers des richesses insoupçonnées et des trésors cachés dans les profondeurs de la Mer des Tempêtes !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Brant",
+          "PlotLineKey": "Mon {Male=ami;Female=amie} a la chance d'avoir la moitié de cette pièce, nous sommes donc partis à la recherche de l'autre moitié.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Brant",
+          "PlotLineKey": "Le brouillard a tenté de nous égarer et les marées déchaînées ont bien cherché à nous retenir, mais nous avons tenu bon ! La magie de la pièce nous a conduits ici, et maintenant nous cherchons à la réunir avec sa partie manquante !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Brant",
+          "PlotLineKey": "Alors, mesdames et messieurs ! Si l'un d'entre vous possède un indice sur l'emplacement de l'autre moitié de cette pièce, faites un pas en avant !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Brant",
+          "PlotLineKey": "Partagez ce secret avec nous, et la fortune sera partagée en retour !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 35,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Vous croisez Bella et lui demandez des informations sur la pièce.<br>La femme obsédée par les porte-bonheurs, révèle à contrecœur une triste vérité : la pièce a été volée.<br>Brant, connu pour son côté théâtral, applique sa manière de répondre à la situation.<br>Par son approche unique, il attire l'attention de tous et raconte l'histoire de la pièce porte-bonheur !<br>Il est temps de rejoindre Brant et de découvrir qui est cette personne chanceuse.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Trouver la personne suspecte"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Homme hésitant",
+          "PlotLineKey": "Je leur dis ou non... ? Je ne cracherais pas sur une part du trésor, mais...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 341,
+              "PlotLineKey": "Bonjour. Vous savez quelque chose sur cette pièce, par hasard ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Homme hésitant",
+          "PlotLineKey": "Hein ? Moi ? Non, non... Je ne sais rien du tout.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 342,
+              "PlotLineKey": "Quel dommage. Vous perdez l'opportunité te mettre la main sur ces trésors.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Homme hésitant",
+          "PlotLineKey": "D'accord, d'accord... Peut-être que je sais un truc ou deux...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 343,
+              "PlotLineKey": "Un simple oui ou non suffira.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Homme hésitant",
+          "PlotLineKey": "Bon sang ! Bon, d'accord ! Je sais où est l'autre moitié, mais vous allez devoir payer d'abord.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Comment je peux m'assurer que vous ne mentez pas juste pour empocher la récompense ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Homme hésitant",
+          "PlotLineKey": "Je ne mens pas ! Si ce satané pirate ne me l'avait pas volée, j'aurais encore la pièce sur moi !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 344,
+              "PlotLineKey": "Donc c'est bien vous qui l'avez volée.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 345,
+              "PlotLineKey": "(Attrapez-le.)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Homme hésitant",
+          "PlotLineKey": "A-Attendez ?!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Avant qu'il ne puisse réagir, vous vous élancez et le maîtrisez.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Ah... Brant joue avec la foule. C'est habile.)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Tous les regards sont tournés vers lui, c'est l'opportunité idéale de repérer tout comportement suspect.)",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Bella",
+          "PlotLineKey": "Capitaine, je ne sais pas quoi penser...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 321,
+              "PlotLineKey": "Qui d'autre était dans les parages quand vous avez perdu la pièce ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Bella",
+          "PlotLineKey": "Margherita, Constantine, et...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Bella",
+          "PlotLineKey": "Oh ! Il y avait ce monsieur qui m'a demandé son chemin.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 322,
+              "PlotLineKey": "Vous souvenez-vous de son apparence ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Bella",
+          "PlotLineKey": "Non... C'était le chaos à ce moment-là. Je n'y prêtais pas vraiment attention. Argh, c'est frustrant...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Et c'est alors que {Male=mon ami;Female=mon amie} a planté son harpon dans le poisson, la ligne s'est tendue, nous tirant vers le bas, ce qui nous a presque fait passer par-dessus bord. Juste à ce moment-là, nous avons entendu le chant envoûtant des sirènes à travers l'épais brouillard...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Femme surprise",
+          "PlotLineKey": "O-oh, par la Sentinelle ! Que s'est-il passé ensuite ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ni le brouillard dangereux ni ces mélodies étranges n'ont pas pu ébranler la détermination de mon ami ! Qui plus est, {Male=il;Female=elle} a sauté sur le dos de ce monstrueux poisson et nous a tirés hors de danger, avec l'audace d'un lion.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'était comme si la Sentinelle, impressionnée par notre courage, nous donnait comme récompense cette demi-pièce, nichée au fond du ventre de ce poisson.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Il est vraiment dans son élément. Je devrais penser à le présenter à Encore…)",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Margherita",
+          "PlotLineKey": "Qu-Qu'est-ce qui lui prend ?! Il est ivre ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 312,
+              "PlotLineKey": "Pas de problème, ça fait partie du spectacle.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 313,
+              "PlotLineKey": "Quelqu'un a un peu trop levé le coude.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Margherita",
+          "PlotLineKey": "Ha ha ! Quel acteur ! Eh bien, si c'est pour rigoler !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Margherita",
+          "PlotLineKey": "Au moins, il aime suffisamment notre alcool pour en faire tout un spectacle !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Margherita",
+          "PlotLineKey": "Et alors, c'est quoi cette « pièce porte-bonheur » dont il parle ? Est-elle vraiment spéciale ? J'ai du mal à croire que quelque chose d'aussi précieux puisse être quelque part dans mon petit restaurant !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 314,
+              "PlotLineKey": "Vous avez remarqué quelqu'un avec un comportement étrange récemment ?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 315,
+              "PlotLineKey": "Avez-vous déjà vu une pièce comme ça ?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Margherita",
+          "PlotLineKey": "Hmm... maintenant que vous le dites, il y a un habitué qui fait une drôle de ronde dans le bar avant de s'asseoir.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Margherita",
+          "PlotLineKey": "Pardon, ça ne me dit rien. Mais j'ai un habitué qui a pris l'habitude de faire une drôle de ronde dans le bar avant de s'asseoir.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Margherita",
+          "PlotLineKey": "Il s'assoit généralement dans le coin... Il saura peut-être quelque chose ?",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Qu'avez-vous pensé de mon improvisation, capitaine ? Pas d'applaudissements pour votre humble barde ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 372,
+              "PlotLineKey": "Bravo ! Magnifique !",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 373,
+              "PlotLineKey": "Je croyais que tu étais ivre.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Bravo ! Magnifique !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Margherita",
+          "PlotLineKey": "Quelle superbe performance !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Pour être honnête, je n'étais pas loin de ma limite...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Margherita",
+          "PlotLineKey": "Attention aux excès la prochaine fois. Nous n'avons pas de service de raccompagnement à domicile pour humains, sachez-le.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Brant",
+          "PlotLineKey": "Bon, il semble qu'on ait mis la main sur un petit veinard.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Brant",
+          "PlotLineKey": "Que diriez-vous de vous présenter d'abord, puis de nous dire où se trouve cette pièce ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Swiper",
+          "PlotLineKey": "Je m'appelle Swiper. Allez-y, marrez-vous.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Swiper",
+          "PlotLineKey": "J'ai juste joué de malchance, sans ça, vous ne m'auriez jamais attrapé.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Swiper",
+          "PlotLineKey": "Mais je n'ai plus la pièce que vous cherchez depuis longtemps. Je venais à peine de la chourer quand je me suis fait coincer par des pirates.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Brant",
+          "PlotLineKey": "Des pirates ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Swiper",
+          "PlotLineKey": "Oui, par leur capitaine, un certain Aldric. Il a jeté un coup d'œil à cette maudite pièce et a commencé à marmonner quelque chose à propos d'un rendez-vous de minuit à Egla. Quoi qu'ils manigancent, ça ne me dit rien qui vaille.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Brant",
+          "PlotLineKey": "Aldric… c'est donc bien lui.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Swiper",
+          "PlotLineKey": "C'est tout ce que je sais ! Si vous voulez la pièce, allez la chercher vous-même. Maintenant, laissez-moi partir ! Je suis innocent !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Bella",
+          "PlotLineKey": "Innocent ? Vous m'avez volé cette pièce, et vous osez prétendre être innocent ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Margherita",
+          "PlotLineKey": "C'est méprisable ! Après tout ce que vous avez fait à mes clients, vous n'avez aucun remords. Direction le Tribunal de l'Ordre pour un jugement !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Swiper",
+          "PlotLineKey": "Le Tribunal de l'Ordre… ? Hé, vous ne pouvez pas me faire ça ! Je vous ai dit où se trouvait la pièce ! Vous m'êtes redevables pour cette info !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Brant",
+          "PlotLineKey": "Bien sûr ! Et le paiement sera un aller simple pour le Tribunal de l'Ordre. J'espère que vous y commencerez un nouveau chapitre de votre vie, mon ami.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Bella",
+          "PlotLineKey": "Avancez ! Je vous emmène au Tribunal. Vous allez rendre tout ce que vous avez volé, et plus encore !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 374,
+              "PlotLineKey": "J'ai l'impression que tu sais qui est cet Aldric.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "Brant",
+          "PlotLineKey": "Un vieil ami à moi, pour ainsi dire. Nous avons été bannis sur la Traversée de pèlerin ensemble. Je me souviens même qu'il avait un surnom : Aldric le Rapide.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Brant",
+          "PlotLineKey": "Mais il a toujours eu du mal à adhérer à nos idéaux, donc il a rapidement quitté la troupe.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Brant",
+          "PlotLineKey": "Quand nous sommes retombés sur lui, il était déjà devenu pirate.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 375,
+              "PlotLineKey": "Donc il faisait autrefois partie de la Troupe des Fous.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 376,
+              "PlotLineKey": "Difficile de croire qu'il a choisi de s'opposer à la Troupe des Fous.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Brant",
+          "PlotLineKey": "Il cherche probablement aussi les trésors de Drake, ce qui explique pourquoi il a pris la pièce à Filou.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "C'est logique. Mais qu'est-ce qui le pousse à se rendre à Egla au milieu de la nuit ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Brant",
+          "PlotLineKey": "Eh bien, c'est une énigme que nous devons résoudre par nous-mêmes.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 377,
+              "PlotLineKey": "Alors notre cap est à nouveau fixé.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 378,
+              "PlotLineKey": "Allons voir par nous-mêmes.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "Brant",
+          "PlotLineKey": "On dirait qu'on va bosser jusque tard ce soir. Une fois arrivés, on ferait mieux de garder ces peluches à l'œil.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 34,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Vous éliminez rapidement le voleur et le maîtrisez. D'après cette personne chanceuse, la pièce a été prise par un pirate nommé Aldric.<br>Vous apprenez aussi que ce pirate prévoit quelque chose de gros à la ville d'Egla ce soir à minuit.  <br>Cela ne semble pas bon ! Mieux vaut découvrir ce qu'il prépare rapidement, Capitaine !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Se rendre à la Ville d'Egla"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Capitaine, regardez là-bas...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "On dirait qu'ils se préparent pour une grande réunion.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Bien que j'aimerais y aller et leur montrer mon sens du spectacle...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ces pirates sont en état d'alerte maximale. Si notre approche est maladroite, autant crier « Bonjour ! On est venus gâcher la fête ! »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "D'accord. Nous devons recueillir des informations sans être repérés. Trouvons un moyen de nous faufiler.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Brant",
+          "PlotLineKey": "Exactement ce que je pensais. Vous voyez ces Échos là-bas ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 392,
+              "PlotLineKey": "Tu as un plan ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 393,
+              "PlotLineKey": "Pourquoi est-ce que j'ai l'impression que tu vas faire quelque chose de stupide…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Brant",
+          "PlotLineKey": "Comme dit le proverbe, « En mer, respecte les vagues ; sur terre, respecte la terre. »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est un rassemblement de <ano=Échos>peluches</ano>, alors on ferait mieux de s'adapter à leurs coutumes !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Brant",
+          "PlotLineKey": "Allez, capitaine ! La nuit est courte, et il est temps pour les peluches de danser.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Brant",
+          "PlotLineKey": "Accueillons les superstars du rassemblement de peluches de ce soir, Nounours géant et Lottie la muette !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 394,
+              "PlotLineKey": "Salut, je suis Nounours géant.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 395,
+              "PlotLineKey": "Une minute, pourquoi c'est toi Lottie la muette ?",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Brant",
+          "PlotLineKey": "Et je suis Lottie la muette.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 12,
+          "Speaker": "Brant",
+          "PlotLineKey": "Parce qu'une troupe ne peut avoir qu'un seul Nounours géant.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "Brant",
+          "PlotLineKey": "D'accord, allons faire une surprise à Aldric qu'il n'oubliera pas de sitôt !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 18,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Vous et Brant vous retrouvez au milieu d'un grand rassemblement en plein centre de la ville d'Egla.<br>Autant vous aimeriez attiser quelques flammes, il vaut mieux rester discret et éviter d'attirer l'attention des pirates.<br>Mais ne vous inquiétez pas, Brant a eu une idée géniale en vous mettant quelque chose sur vous. Et en un instant, vous vous transformez en les superstars de la soirée, Nounours géant et Lottie la muette !<br>Attention, Aldric, une surprise s'annonce pour vous.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Vaincre les Échos des pirates"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Pirate bégayant",
+          "PlotLineKey": "Ca-Capitaine, p-pourquoi vous restez planqué derrière ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Aldric",
+          "PlotLineKey": "C'est pour ça que tu es là, non ? À l'attaque, allez ! Une fois le trésor à nous, nous festoierons et boirons comme de vrais nobles !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Pirate bégayant",
+          "PlotLineKey": "F-Flamme !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Flamme ? Quelle flamme ? Arrête de radoter et tiens le choc ! Cette fichue pièce est aussi utile qu'une théière en chocolat…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Brant",
+          "PlotLineKey": "Flamme, tu dis ? Laisse-moi transformer ça en feu de joie !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Vaincre les Échos des pirates"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Aldric",
+          "PlotLineKey": "TUEZ-LES !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Pirates",
+          "PlotLineKey": "Là-bas !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Elle est à toi, capitaine !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Pfff, Aldric a fui la queue entre les jambes. Toujours fidèle à son ancien surnom, Aldric le Rapide.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 506,
+              "PlotLineKey": "J'aurais aimé l'attraper.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 507,
+              "PlotLineKey": "Au moins, nous avons sauvé ces Échos innocents.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Pas d'inquiétude, capitaine. J'ai le sentiment que nos chemins se recroiseront bientôt.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "En effet, et nous avons récupéré cette demi-pièce. La prochaine fois que nous serons à Ragunna, nous la rendrons à Bella.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "J'ai le sentiment que nous recroiserons bientôt Aldric.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lottie la muette contente",
+          "PlotLineKey": "Lottie... Muette...!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 508,
+              "PlotLineKey": "Je la remarque plus heureuse maintenant.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 509,
+              "PlotLineKey": "Elle dit « Bravo ! »",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Brant",
+          "PlotLineKey": "Eh bien, ça pour une surprise. Capitaine, je ne savais pas que vous parliez couramment l'Écho !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Brant",
+          "PlotLineKey": "Mademoiselle, comme promis, toi et vos amis pouvez maintenant danser au clair de lune à votre guise. Allez, profitez-en !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ha... Il semble qu'Aldric ait passé trop de temps en mer et ait oublié la règle fondamentale de ce métier : le compromis.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Brant",
+          "PlotLineKey": "Si l'on cherche les récompenses de la mer, il faut donner quelque chose en retour. Tout comme être capitaine n'apporte pas seulement des droits, mais aussi des devoirs.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Brant",
+          "PlotLineKey": "Chaque récompense a son prix, et tromper ses hommes pour qu'ils le paient à son profit est absolument impardonnable.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Brant",
+          "PlotLineKey": "Quoi qu'il en soit, regardez ça.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Brant",
+          "PlotLineKey": "Cette carte marque trois îles. Je parie que Drake y a caché ses trésors.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 510,
+              "PlotLineKey": "Tu as des désirs à exaucer ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 511,
+              "PlotLineKey": "Tu cherche aussi des trésors de Drake ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ha ha, eh bien, qui pourrait résister à l'appel des richesses légendaires de Drake ? C'est tentant, sans aucun doute.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Brant",
+          "PlotLineKey": "Mais pour être honnête, ce ne sont pas les trésors eux-mêmes qui m'attirent. Ce sont les histoires, la légende de Drake lui-même.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Brant",
+          "PlotLineKey": "Qu'a-t-il affronté ? Quels mystères a-t-il laissés derrière lui ? Il n'y a pas de performance plus grandiose que ça, capitaine.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Brant",
+          "PlotLineKey": "Avec tout le chemin qu'on a déjà parcouru, je le regretterais pour toujours si je faisais demi-tour maintenant. Alors oui, je veux visiter ces îles, et peut-être qu'on pourra découvrir la vérité sur les trésors de Drake.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 512,
+              "PlotLineKey": "Mais nous aurons besoin d'un navire.",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 513,
+              "PlotLineKey": "Si on tombait sur d'autres pirates ?",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ha, c'est exactement ce à quoi je pensais.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 18,
+          "Speaker": "Brant",
+          "PlotLineKey": "Des pirates ? Pas de problème. On s'en occupera comme d'habitude.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 19,
+          "Speaker": "Brant",
+          "PlotLineKey": "Coup de bol, l'une des gondoles de notre troupe est amarrée depuis le Carnaval. On dirait qu'elle nous sera utile au final.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 514,
+              "PlotLineKey": "Le temps presse. Allons-y.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 515,
+              "PlotLineKey": "Je suis {Male=prêt;Female=prête} à prendre la barre cette fois.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est parti ! Je monterai le chemin.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 31,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Ayant perdu la pièce contre vous, Aldric s'enfuit au milieu du chaos. <br>Vous avez enfin la carte. En route vers le trésor !<br>La Gondole de la troupe est amarrée au port des passagers. Il est temps de prendre la barre !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Se rendre au port"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Nous y voilà, capitaine, le port. Tu vois cette gondole là-bas ? C'est la nôtre.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Nous installons parfois une scène temporaire dessus pour des performances improvisées. Ça donne de l'animation.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "J'ai envoyé les coordonnées de la première île.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Maintenant, tout ce que nous devons faire, c'est naviguer à toute vitesse vers notre destination !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Nous approchons du quai. Allons-y.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Continuer à enquêter"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est si calme... comme un entracte.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Quand c'est aussi tranquille, je ne peux m'empêcher d'anticiper le prochain acte et les surprises qu'il pourrait contenir.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Pirate passionné",
+          "PlotLineKey": "Le capitaine avait raison ! Ils sont là ! Chopez-les !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 526,
+              "PlotLineKey": "C'est ça la « surprise ».",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 527,
+              "PlotLineKey": "Préparez-vous à la bagarre.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Title": "Vaincre les ennemis"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Pirate passionné",
+          "PlotLineKey": "Argh ! Ils sont trop forts ! Fichez le camp, tout le monde !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "J'ai déjà vu plus de combativité dans une troupe de théâtre pour enfants. Quoi qu'il en soit, on dirait qu'ils creusaient par là-bas. Allons voir.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Commencer la recherche sur l'île"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Voilà",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "On dirait un morceau d'ambre, il a une belle couleur.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Souvenez-vous de la clé d'ambre qu'Aldric a mentionnée ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ça doit être ça. Prenons-la et dirigeons-nous vers l'île suivante.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Hmm... quelque chose cloche.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Attention !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ha, en voilà une bonne surprise. On a de la chance, hein ?",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Il n'y a rien d'autre dans ce trou.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Bien sûr que si, ma petite pelle et un grand trou d'air.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "D'accord, d'accord. J'arrête les blagues et je continue à creuser, {Male=Mon;Female=Ma} Capitaine !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Prendre la Gondole"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "J'ai hâte de découvrir les surprises que la deuxième île nous réserve.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Se rendre à la deuxième île avec une Gondole"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Magnifique, messieurs ! J'ai enfin trouvé la clé ! Euh... Bien sûr, votre aide a été inestimable.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Vous voyez ces navires naufragés ? Et avec ce brouillard épais... Cet endroit est l'incarnation du danger.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Cependant, en tant que capitaine, je suis prêt à me sacrifier et braver tous les dangers pour notre grande cause !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Restez ici et attendez mon retour. Et si quelqu'un ose se mettre en travers de notre chemin, faites-lui regretter d'être né !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Pirate bégayant",
+          "PlotLineKey": "Oui, mon capitaine !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est la voix d'Aldric...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "On dirait que le brouillard se lève.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Pas d'inquiétude. Ça arrive souvent quand en mer. Faites confiance à la barre... et à moi.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Suivons leurs lumières, capitaine, et nous atteindrons notre destination en toute sécurité.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Brant fredonnait comme s'il tentait de donner un peu de confort à ce voyage.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Regardez ces épaves, capitaine.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Ce sont... les navires de Drake ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Oui. On dit que la flotte de Drake a traversé toute la Mer des Tempêtes. Difficile de croire qu'une figure aussi légendaire puisse se perdre...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Mais si ces épaves sont là, ça signifie que nous approchons de notre but !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Aller à terre"
+    },
+    {
+      "Title": "Se rapprocher d'Aldric"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "Hé, vous deux ! Plus un geste !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 577,
+              "PlotLineKey": "C'est à nous que vous parlez ?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 578,
+              "PlotLineKey": "Nous ne faisons que passer.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "Ouais ! Vous deux.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "Et puis quoi encore ! Ce n'est pas un parc d'attraction ici !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "Les ordres du capitaine sont clairs : personne ne peut interférer avec nos objectifs. Personne ne m'empêchera de me baigner dans le vin et lui de se payer une dentition en or !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Pirate bégayant",
+          "PlotLineKey": "C-C'est vrai ! S-Si vous saviez combien mes dents me font mal… Aïe…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "Allez, je vais vous montrer de quel bois se chauffent les vrais pirates !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 10,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Vous tombez sur les sbires d'Aldric, mais ils n'ont pas l'air d'humeur à discuter. Tout ce qui les intéresse, c'est de vous montrer de quoi sont faits les pirates.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Vaincre les Échos des pirates"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Pirate bégayant",
+          "PlotLineKey": "A-Attends ! On est dans la m-mouise… C'est le R-Re…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Pirate bégayant",
+          "PlotLineKey": "Le Revenant flamboyant !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "Quoi !? Pourquoi tu ne l'as pas dit plus tôt ?! On se rend ! Drapeau blanc !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Pirate modeste",
+          "PlotLineKey": "D'accord, on s'avoue vaincus.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Pirate modeste",
+          "PlotLineKey": "Je ne m'attendais pas à ce que vous soyez <span class=\"italic\">le</span> Revenant flamboyant ; le pirate légendaire qui ne peut pas mourir… On avait aucune chance.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 589,
+              "PlotLineKey": "Qu'est-ce que c'est, un nouveau mélodrame ?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 590,
+              "PlotLineKey": "Alors ton identité secrète était celle d'un pirate malfamé ?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 591,
+              "PlotLineKey": "Combien de titres absurdes as-tu comme ça ?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Exactement ! Ajouter des rebondissements aléatoires comme ça ne fera qu'embrouiller le public.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ha ha, c'est donc ça mon identité cachée !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ouais ça m'intéresse aussi. Avec un peu de chance, ce sera une accroche pour ma prochaine performance sur scène.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Pirate modeste",
+          "PlotLineKey": "Arrêtez de faire le pitre ! Vous savez bien de quoi je parle ! Tous les marins ont entendu cette histoire !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 10,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Après avoir découvert que Brant est le Revenant de la scène enflammée, les pirates se rendent immédiatement.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "Personne ne sait quand il est apparu...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "ni quand il a disparu…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "Il a été pourchassé à maintes reprises.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "Mais il a toujours échappé à la corde.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "On dit qu'il est immortel, car aucune tempête...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Character_Brant_52_32",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1033,
+              "PlotLineKey": "Character_Brant_52_22",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1034,
+              "PlotLineKey": "Character_Brant_52_23",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Character_Brant_52_33",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1035,
+              "PlotLineKey": "Character_Brant_52_25",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1036,
+              "PlotLineKey": "Character_Brant_52_26",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "ni aucune vague déchaînée...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Brant",
+          "PlotLineKey": "Regardez-moi !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "ni même la lame la plus tranchante ne peut le tuer !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Tu as une identité secrète très intéressante.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Brant",
+          "PlotLineKey": "Haha… Voyons comment elle se poursuit...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "Il était fort comme une montagne.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Character_Brant_52_34",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1037,
+              "PlotLineKey": "Character_Brant_52_28",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1038,
+              "PlotLineKey": "Character_Brant_52_29",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "Il avait le courage de piller la Traversée de pèlerin encore et encore.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Brant",
+          "PlotLineKey": "Missions de sauvetage !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "Bref,",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "il a toujours ruiné nos plans !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "À chaque fois qu'on voulait piller ces navires marchands,",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Pirate arrogant",
+          "PlotLineKey": "ce scélérat flamboyant surgissait dans un tourbillon de flammes !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Pirate bégayant",
+          "PlotLineKey": "A-Absolument scandaleux !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Pirate modeste",
+          "PlotLineKey": "Vous savez pourquoi on a préféré se rendre...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Oh, c'est vrai. Je suis le Revenant flamboyant, le fléau immortel des mers. Faites-moi offense, et le crépitement des flammes vous hantera chaque nuit !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Pirate modeste",
+          "PlotLineKey": "Par tous les trésors, pitié ! Je vais tout vous dire !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Pirate bégayant",
+          "PlotLineKey": "M-Mais, ce serait… trahir notre capitaine ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Pirate modeste",
+          "PlotLineKey": "Imbécile ! Tu n'as pas entendu le capitaine ? « Si quelqu'un ose se mettre en travers de notre chemin, faites-lui regretter d'être né ! »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Pirate modeste",
+          "PlotLineKey": "Si on ne leur donne pas ce qu'ils veulent, on sera hantés pour toujours par les cauchemars de cette menace, même avec nos trésors !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Pirate modeste",
+          "PlotLineKey": "De plus, le capitaine est déjà parti avec la clé qu'on a trouvée. Il a promis de partager le butin avec nous, et bientôt je nagerai dans des barils de vin !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Pirate bégayant",
+          "PlotLineKey": "E-Et je pourrais avoir une dent en or...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Brant",
+          "PlotLineKey": "Oh, quel généreux capitaine vous avez là… Un pur altruiste.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Brant",
+          "PlotLineKey": "Et curieusement, ce sont ces deux ploucs qu'ils ont laissés pour nous arrêter ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Brant",
+          "PlotLineKey": "Bon, direction la dernière île.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 14,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Les pirates vous révèlent la prochaine destination d'Aldric.<br>Il est temps de lui rendre visite.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Prendre la Gondole"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ah, nous y sommes presque.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Je ne tiens plus en place. Il y a quelque chose de magique à la fin d'un voyage, n'est-ce pas ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est là que le vrai frisson se fait sentir, juste avant le dernier lever de rideau.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Alors, Capitaine... En avant pour la suite ?",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Aller à terre"
+    },
+    {
+      "Title": "Parler à Aldric"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "C'est Aldric. Il est bien là, comme nous le pensions.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Brant. Je ne pensais pas que tu arriverais si vite.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Et je ne pensais pas que tu serais encore là.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Hmm… Et donc, il est où ce trésor ? Ton équipage trépide d'impatience pour le grand retour de leur charitable et héroïque capitaine Aldric.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Quelle bande de larves... Ils n'ont même pas pu vous ralentir.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Très bien, vous voulez la clé, c'est ça ? Je pourrais vous la donner, mais...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ah, je sais ! Tu veux un duel honorable contre notre capitaine ? Un vrai duel de chevalier des mers, plein de bravoure et...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Non, mais non ! Pourquoi il faut toujours recourir à la violence avec toi ? Vous voyez ça ? Il faut deux clés pour le déverrouiller !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Vous en avez une, et j'ai l'autre.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Nous voulons tous les trésors, n'est-ce pas ? Alors que diriez-vous de ceci : je vous donne ma clé, mais nous partageons le trésor. Soixante-quarante… Non, attendez, je vais être généreux. Vous prenez soixante, et je me contente de quarante.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Vous avez vu mon équipage. Ces pauvres âmes… Je le fais pour eux, pour leur offrir la vie qu'ils méritent. Une vie heureuse et paisible.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Alors, qu'en dites-vous, capitaine de la Troupe des Fous ? Un marché honnête, n'est-ce pas ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Il a l'air sincère, mais puis-je vraiment lui faire confiance ?)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Quoi qu'il en soit, accepter son marché pour obtenir l'autre clé est dans mon intérêt. Même si c'est un piège, nous pourrons nous en occuper. Dans ce cas...)",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 651,
+              "PlotLineKey": "(Accepter sa proposition.)",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 652,
+              "PlotLineKey": "(Y réfléchir un peu plus longtemps.)",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 653,
+              "PlotLineKey": "(Regarder Brant.)",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Marché conclu. Remettez-nous la clé.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 15,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Allez, nous n'avons pas toute la journée ! Prenez une décision, sinon personne n'aura le trésor !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Marché conclu. Remettez-nous la clé.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 17,
+          "Speaker": "Brant",
+          "PlotLineKey": "D'accord, nous acceptons. Remets-nous la clé.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 18,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Tenez. La porte est juste là-bas.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Il est temps de réclamer nos trésors... Attendez ! Qu'est-ce que c'est !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Aaah ! Vous, euh, restez ici et défendez notre grande cause ! Montrez-lui la vraie puissance de la Troupe des Fous. ADIEU !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 24,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Aldric propose une trêve et un partenariat, où il vous remettra la clé sous un partage 60/40 en votre faveur une fois le trésor trouvé.<br>Vous acceptez ce partenariat tout en restant vigilant à son égard. Vous êtes bien préparés quand il revient sur sa parole et passe à l'action.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Eh bien, la porte est fermée. On dirait que notre <span class=\"italic\">ami</span> nous a laissés avec ces deux Hache Hache pour compagnie.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Exactement ce à quoi on peut s'attendre d'un pirate.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Il y a une ouverture là-bas. Allons voir.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Trouver un autre chemin"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ha ! Je savais bien qu'on trouverait un chemin.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Continuons d'avancer.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Continuer à explorer"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Est-ce que c'est une image ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est très érodé. Regardons de plus près.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous découvrez des gravures distinctes, bien que le temps en ait effacé une grande partie.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "« Laissez-moi sortir… C'est pour ça que je veux partir… »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Oh... Quelqu'un a été piégé ici autrefois.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous trouvez d'autres gravures, mais la plupart sont illisibles.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "« Aucun espoir. Je prie pour que cela se termine… Ghh… »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Laissés par des marins perdus, sans aucun doute. Probablement pris dans le brouillard et incapables de retrouver leur chemin, pauvres garçons.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "On dirait... qu'il est capitaine.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Il a une balance dans une main et... attends, cette pièce dans son autre main ; elle ressemble exactement à celle que nous avons trouvée.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Un côté détient un trésor, et l'autre… un cœur brisé. Qu'est-ce que ça signifie, capitaine ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 805,
+              "PlotLineKey": "Ça donne un indice sur comment obtenir le trésor.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 806,
+              "PlotLineKey": "C'est un avertissement pour faire preuve de prudence.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 807,
+              "PlotLineKey": "L'art n'est pas vraiment mon point fort.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Hmm… Cela signifie donc que nous devons échanger quelque chose de précieux, comme notre cœur, contre le trésor ?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 5,
+          "Speaker": "Brant",
+          "PlotLineKey": "Possible. Dans des histoires comme celles-ci, il y a toujours un piège. Les pilleurs de trésors adorent tendre des pièges pour tout voleur potentiel.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Brant",
+          "PlotLineKey": "Pas de soucis. Nous pourrions trouver plus d'indices plus loin qui nous donneront un meilleur panorama.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Brant",
+          "PlotLineKey": "Sachons qu'on raconte des histoires sur un endroit au bord de l'océan, une nation où les gens utilisent des balances pour tout mesurer.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Brant",
+          "PlotLineKey": "Les âmes, la richesse... rien n'échappe à l'équilibre. Peut-être que cette peinture fait référence à ça, tout a un prix. Un classique du donnant-donnant.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Brant",
+          "PlotLineKey": "Fascinant, n'est-ce pas ? Peut-être même que Drake avait un sens de l'équité quand il s'agissait de trésors. Quoi qu'il en soit, continuons d'avancer, capitaine. J'ai le pressentiment que nous en saurons davantage.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ça dit…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "« Ô mer, maudis tous ceux qui oseront voler le trésor ! »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "« Souvenez-vous de la loi du donnant-donnant. Souvenez-vous de la loi du donnant-donnant… »",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 695,
+              "PlotLineKey": "« Maudis tous ceux qui volent le trésor ? »",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 696,
+              "PlotLineKey": "« Souvenez-vous de la loi du donnant-donnant ? »",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "On dirait que pour s'emparer du trésor de Drake, il faut payer un prix égal à sa valeur. Peut-être que c'est pourquoi personne n'a réussi.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Brant",
+          "PlotLineKey": "Le trésor exige quelque chose en retour.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 697,
+              "PlotLineKey": "La règle d'or…",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 698,
+              "PlotLineKey": "Chaque récompense a un prix.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Brant",
+          "PlotLineKey": "Exactement. Si nous voulons quelque chose de la mer, nous devons offrir quelque chose en retour.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ceux qui ignorent cette règle seront engloutis par la cupidité, avec nos vies en plat principal.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Brant",
+          "PlotLineKey": "Capitaine, je sais ce que nous devons faire. Vous me faites confiance ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 699,
+              "PlotLineKey": "Faites ce que tu as à faire.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 700,
+              "PlotLineKey": "Ton capitaine restera à tes côtés.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est tout ce que j'avais besoin d'entendre. Bon, allons chercher le trésor !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous trouvez d'autres gravures. Elles sont difficiles à lire, mais vous pouvez distinguer quelques phrases.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "« Des malédictions nous attendent… »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "« Ils ont perdu la tête devant les trésors et se sont battus comme des damnés. C'était terrifiant... »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Des malédictions, hein ? Je suppose que c'est pour ça que personne n'a jamais réussi à ramener les trésors de Drake.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Qu-Qu'est-ce qui se passe ?!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Malédiction… <span class=\"italic\">C'est</span> la malédiction ! Mon or… Mon or bouge !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Non Aldric, c'est le prix de ta cupidité.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Tu as oublié ? « La loi du donnant-donnant. »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Tu parles de cette fichue demi-pièce ?!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 20
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous lancez un crédit coquille en l'air, non sans une certaine lueur d'espoir.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Aucune réponse ne vous parvient, seulement le bruit des vagues s'écrasant sur les rivages.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 16
+    },
+    {
+      "Title": "Explorer plus loin"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Ah, mes chers amis ! Quel bonheur de vous voir tous les deux en un seul morceau !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Aldric",
+          "PlotLineKey": "J'ai complètement vacillé là-bas. Rien que de penser à ce monstre… Ça me donne encore des frissons !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Quand j'ai enfin repris mes esprits, je me suis retrouvé ici, tout seul. Assez déconcertant, je dois dire.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Mais dites donc ! Vous n'avez fait qu'une bouchée de cette misérable bête !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 723,
+              "PlotLineKey": "Toujours à plancher sur cette soi-disant « grande cause » ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Grande… ? Ah, oui ! Ma grande cause ! Je suis proche du but, voyez-vous. Regardez ! Le trésor de Drake est juste là, si brillant, éblouissant…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Mais en tant qu'homme de principe, je ne pourrais jamais garder une telle richesse pour moi tout seul.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Alors, dans un esprit d'équité, j'aimerais que vous ayez l'honneur de l'ouvrir en premier. Allez-y, choisissez d'abord !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 724,
+              "PlotLineKey": "Vous pouvez arrêter le bluff.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 725,
+              "PlotLineKey": "Vous avez peur de la malédiction, c'est ça ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Aldric",
+          "PlotLineKey": "M-Malédiction ? Ha ha ha ! J'ai l'air d'un homme qui craint de vulgaires légendes ? Non, non, mon offre vient tout droit du cœur.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est normal.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Brant",
+          "PlotLineKey": "Conformément à la loi de la mer...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ce n'est qu'une toute petite malédiction. Rien de plus, rien de moins.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Tu... Tu as l'air d'aller bien…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Ha ha ha ha ! Malédiction ? Tout ça, ce n'était que du vent !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Je me suis inquiété pour rien ! Tout le trésor est maintenant à MOI !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 726,
+              "PlotLineKey": "Et votre grande cause ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 727,
+              "PlotLineKey": "Et votre équipage ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Grande cause ? Mon équipage ? Oh, c'est vrai…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Je donnerai une petite bourse à chacun de mes loyaux matelots, et le reste ne sera RIEN QU'À MOI !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Lorsque j'ai quitté la Traversée de pèlerin, je n'avais qu'une seule chose en tête : poursuivre mes désirs sans mes chaînes.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Et après toutes ces années, j'ai enfin percé le secret… L'argent ! C'est ma véritable vocation. Ha ha ha !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Brant",
+          "PlotLineKey": "Mais tout a un prix, Aldric.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Brant",
+          "PlotLineKey": "Et maintenant, il est temps de payer le tien.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Qu-Quoi ?!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Brant",
+          "PlotLineKey": "Attention, capitaine !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 28,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Vous atteignez l'emplacement du trésor et rencontrez Aldric à nouveau.<br>Aldric joue son vieux tour, essayant de vous tromper pour que vous fassiez tout le travail afin d'obtenir le trésor.<br>Juste au moment où Brant utilise la pièce pour obtenir la carte, Aldric saisit le coffre, déclarant qu'il veut tout le trésor pour lui.<br>Bien sûr, il est libre de revendiquer le trésor pour lui, mais une telle liberté a toujours un prix.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Vaincre les ennemis"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Aldric",
+          "PlotLineKey": "L'or... Mon or...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Aldric",
+          "PlotLineKey": "Mon trésor... Ma grande cause... Non...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Nous avons réussi à nous échapper.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Je… je n'aurais jamais cru qu'il choisirait ces trésors plutôt que sa propre vie…",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 767,
+              "PlotLineKey": "Tu tiens le coup ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "À l'époque… Quand Toscanini nous a raconté l'histoire de Drake, j'ai dit que je voulais être un capitaine qui mènerait son équipage vers le triomphe pour que chacun puisse tracer sa propre destinée.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Aldric s'est marré, disant que c'était de la folie. « Imbécile ! Avec le trésor de Drake, tu peux écraser n'importe qui et améliorer la vie de tout le monde par la force ! »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Brant",
+          "PlotLineKey": "Mais je n'y ai jamais cru. Pour moi, il ne s'agit pas de richesses ou de pouvoir. Il s'agit de liberté, la liberté de naviguer à sa guise.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est pourquoi nous nous sommes séparés. Il a quitté la Troupe des Fous et est devenu pirate.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 768,
+              "PlotLineKey": "Vous êtes devenus des capitaines très différents.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Malgré toutes vos excentricités, tu restes toujours fidèle à ton code.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Brant",
+          "PlotLineKey": "En tant que capitaine, tu es tout aussi {Male=différent;Female=différente}.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Brant",
+          "PlotLineKey": "Le genre de capitaine que je serais fier de suivre.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Brant",
+          "PlotLineKey": "Tu accept ton équipage tel qu'il est, en comprenant et respectant ses choix.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Brant",
+          "PlotLineKey": "J'ai eu ma dose d'aventures, mais je dois admettre que celle-ci à tes côtés a été une bouffée d'air frais.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Brant",
+          "PlotLineKey": "Au fait, regardons ça.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 769,
+              "PlotLineKey": "C'est... le trésor de Drake ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 770,
+              "PlotLineKey": "Et ? Ça ressemble à un parchemin ordinaire.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est la carte de Drake, le capitaine Doré, le témoignage d'une vie.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Brant",
+          "PlotLineKey": "Si l'on s'y fie, lui et son équipage ont effectivement bravé la traîtresse Mer des Tempêtes et sont revenus avec une immense richesse, mais en le payant très cher.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Brant",
+          "PlotLineKey": "Brouillard épais, maladie, complètement perdus... chaque tribulation aurait pu couler toute une flotte. Quand ils sont enfin revenus sur l'île, seuls quelques-uns avaient survécu.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Brant",
+          "PlotLineKey": "La plupart d'entre eux n'ont jamais quitté l'île. Au final, seul un marin a gardé cette pièce.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Brant",
+          "PlotLineKey": "Tu te souviens de ce que disait la note ? « Souvenez-vous de la loi du donnant-donnant. »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Brant",
+          "PlotLineKey": "Je crois que cela signifie que si l'on veut le trésor de Drake, il faut offrir quelque chose en retour. Le prix que j'ai payé pour ce parchemin était cette pièce.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 771,
+              "PlotLineKey": "Alors, tu as donné la pièce…",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 772,
+              "PlotLineKey": "Pour obtenir ce parchemin en retour ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Brant",
+          "PlotLineKey": "Oui, et c'est fascinant, n'est-ce pas ? Une seule pièce peut mener à la fois à d'horribles malédictions et à des trésors inestimables.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Brant",
+          "PlotLineKey": "Qui aurait deviné que le trésor le plus précieux de Drake serait une carte de la valeur d'une pièce ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Brant",
+          "PlotLineKey": "Honnêtement, quand j'ai fait l'échange, je n'étais pas sûr de ce que j'obtiendrais.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 773,
+              "PlotLineKey": "Tu n'étais sûr de rien ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 774,
+              "PlotLineKey": "C'était un sacré pari.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ha ha ! J'avais confiance en mon {Male=ami;Female=amie}, et en l'esprit d'aventure.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Brant",
+          "PlotLineKey": "Cette histoire est bien plus captivante que la saga du Revenant flamboyant, n'est-ce pas ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 775,
+              "PlotLineKey": "Je ne m'attendais pas à ce que ce titre ressorte à nouveau…",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 776,
+              "PlotLineKey": "Dites-moi de quoi il s'agit vraiment.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ah, tu te souviens de ces pirates qui disaient que j'étais toujours en fuite ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Brant",
+          "PlotLineKey": "Chaque fois qu'une prime était placée sur ma tête, on suivait un plan avec mon équipage. Ils me livraient pour la récompense, et je m'occupais de m'évader.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Brant",
+          "PlotLineKey": "Les rumeurs se sont répandues plus vite que je ne l'avais prévu. Ha ha ha…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Brant",
+          "PlotLineKey": "Quoi qu'il en soit, si ça t'intéresse, le voyage du retour est assez long pour que je raconte tout en détail.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Brant",
+          "PlotLineKey": "Alors, capitaine, l'aventure touche à sa fin. {Male=Prêt;Female=Prête} à rentrer chez nous ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 777,
+              "PlotLineKey": "Allons-y !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Type": "Outline",
+          "Id": 40,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Après être enfin revenu sur le navire, Brant partage avec vous des histoires du passé, du présent et de la carte.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Parler à Brant"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ah, quel voyage. Ça fait du bien d'être de retour.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 787,
+              "PlotLineKey": "On dirait que mon rôle de capitaine touche à sa fin...",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 788,
+              "PlotLineKey": "Je te laisse te occuper de la paperasse.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Le temps passe vraiment vite.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Quelle paperasse ? On ne m'a rien dit à moi !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ha ha, blagues à part, tu peux compter sur moi pour ça !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Brant",
+          "PlotLineKey": "Bref, ça c'est pour toi.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "C'est... le parchemin de Drake ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Brant",
+          "PlotLineKey": "Exactement ! J'ai pensé que ce ferait un bon souvenir de notre aventure.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Brant",
+          "PlotLineKey": "Oh, et en raison de ta performance exceptionnelle, je te nomme officiellement « Capitaine Honoraire » de notre troupe, comme en témoigne cette carte !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 789,
+              "PlotLineKey": "Quand reprenons-nous la mer ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Brant",
+          "PlotLineKey": "Tout dépend de notre prochaine aventure ! Je serai prêt à te rejoindre et tu n'as qu'à me faire signe.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 14,
+          "Speaker": "Narrator",
+          "PlotLineKey": "À la fin de l'aventure, la troupe vous accorde le titre de Capitaine honoraire.<br>Brant vous remet la carte de Drake, insistant pour que, si vous croisez de nouvelles aventures à l'avenir, vous pensiez à l'inclure dans l'action.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Je suis fier d'annoncer que tu es désormais Capitaine Honoraire de notre troupe.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Compte sur moi lors de la prochaine aventure. Je serai prêt !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2223 @@
+{
+  "Id": 121000034,
+  "Name": "Chasseur du Tacet Discord",
+  "Description": "Trouvez le Résonateur qui s'est autrefois proclamé « Chasseur de Tacet Discord » afin d'obtenir le précieux matériau d'un Tacet Discord puissant.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 121000034,
+  "ShowQuestList": [],
+  "QuestDesc": "Trouvez le Résonateur qui s'est autrefois proclamé « Chasseur de Tacet Discord » afin d'obtenir le précieux matériau d'un Tacet Discord puissant.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100005,
+      "PreQuestName": "Les étoiles sinistres"
+    },
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 8
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Mère inquiète",
+          "PlotLineKey": "Mme Coco, je vous prie ! S'il vous plaît !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Koko",
+          "PlotLineKey": "Eh...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mère inquiète",
+          "PlotLineKey": "C'est une question d'argent !? Je vous donnerai tout ! ... Et si ce n'est pas suffisant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Koko",
+          "PlotLineKey": "Non... Non ! Ce n'est pas une question d'argent !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Koko",
+          "PlotLineKey": "Ah, {PlayerName}. Pardon, mais c'est la boutique est fermée pour le moment.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "N'hésitez pas à me dire si tu as des ennuis.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Koko",
+          "PlotLineKey": "Hélas, ce n'est pas le cas… Cette dame n'a pas fait d'histoires.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Koko",
+          "PlotLineKey": "Sa fille est malade. Sa vie n'est pas en danger pour le moment, mais si une crise survient... ce sera une catastrophe.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 36,
+              "PlotLineKey": "Il n'y a pas de solution ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Mère inquiète",
+          "PlotLineKey": "Les médecins ont tout essayé, mais aucun des médicaments disponibles n'a fonctionné... mais il y a un dernier espoir !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Koko",
+          "PlotLineKey": "Mon maître a déjà guéri un patient avec des symptômes similaires. Nous avons toujours la prescription de ce moment, mais...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Koko",
+          "PlotLineKey": "Mais on n'a plus de « clé », celle du médicament.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "La clé du médicament ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Koko",
+          "PlotLineKey": "On utilise ce terme pour décrire l'ingrédient le plus important. Maintenant, les riches le considèrent comme une sorte de trésor et je me demande s'il est possible de l'obtenir… Mais...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "Mais ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Koko",
+          "PlotLineKey": "... Si nous avons quelque chose d'intéressant pour eux, nous pouvons essayer de conclure un marché avec eux. Avez-vous entendu parler de l'Esprit de cloche ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 39,
+              "PlotLineKey": "Non, pas du tout.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Koko",
+          "PlotLineKey": "D'accord... En tout cas, si l'on a cet « Esprit de cloche », je peux essayer de faire quelque chose pour obtenir cette « clé ».",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Koko",
+          "PlotLineKey": "Je suppose que ce n'est pas si facile à obtenir.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Mère inquiète",
+          "PlotLineKey": "Mme Coco, n'y a-t-il vraiment rien que vous pouvez faire... ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Koko",
+          "PlotLineKey": "Cet « Esprit de cloche » ne peut être obtenu d'un Tacet Discord qui s'appelle « Tortue clochant ». As-tu une idée, Nomade ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 40,
+              "PlotLineKey": "Non... pas du tout.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 41,
+              "PlotLineKey": "Un peu.",
+              "PlayVoice": false,
+              "JumpToId": 23
+            },
+            {
+              "TextId": 42,
+              "PlotLineKey": "Je l'ai déjà battu mais je ne connais pas ce truc « Esprit de cloche ».",
+              "PlayVoice": false,
+              "JumpToId": 24
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Koko",
+          "PlotLineKey": "Hmm... ce n'est connu que d'un petit nombre de personnes. Il devrait y avoir encore moins de témoins.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Koko",
+          "PlotLineKey": "On dit que ce Tacet Discord est grand comme une montagne, que ses pas écrasent les chariots, que son souffle gèle les rivières.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Koko",
+          "PlotLineKey": "... Et que tous ceux qui sont allés le combattre ne sont jamais revenus...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Koko",
+          "PlotLineKey": "Pourtant, il ne quitte pas facilement son territoire, donc ce n'est pas une priorité pour l'armée.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Koko",
+          "PlotLineKey": "Les gens ne le défient pas pour n'importe quoi, et c'est pourquoi l'Esprit de cloche est rare.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 23,
+          "Speaker": "Koko",
+          "PlotLineKey": "D'accord, c'est bon. Tu connais donc sa puissance terrifiante. C'est pourquoi les gens ne le défient pas et l'Esprit de cloche est rare.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 24,
+          "Speaker": "Koko",
+          "PlotLineKey": "Tu l'as déjà battu !? Tu plaisantes... n'est-ce pas ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Koko",
+          "PlotLineKey": "Ah... mais tu n'as pas pu obtenir l'Esprit de cloche, n'est-ce pas... ? Quel dommage !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 26,
+          "Speaker": "Mère inquiète",
+          "PlotLineKey": "C'est vraiment la fin des solutions possibles... ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Koko",
+          "PlotLineKey": "Hmm...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 43,
+              "PlotLineKey": "Une idée ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Koko",
+          "PlotLineKey": "Je connais quelqu'un qui pourrait l'avoir... Mais ne vous attendez pas trop...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 44,
+              "PlotLineKey": "Une personne pas très fiable ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 29,
+          "Speaker": "Koko",
+          "PlotLineKey": "Je ne sais pas. Il a toujours des matériaux rares et il semble que ce soit, la plupart de temps, légal.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Mère inquiète",
+          "PlotLineKey": "Même si les chances sont minces, je veux essayer.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 45,
+              "PlotLineKey": "Puis-je vous aider ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 31,
+          "Speaker": "Koko",
+          "PlotLineKey": "D'accord, {PlayerName}, tu cherches l'Esprit de cloche et, Madame, vous préparez d'autres choses avec moi, ça marche ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 46,
+              "PlotLineKey": "C'est bon, pas de problème. Je m'en occupe.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 32,
+          "Speaker": "Koko",
+          "PlotLineKey": "Cherchez quelqu'un appelé Lianfeng. Il erre toujours autour du théâtre, vous devriez le trouver là-bas.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 47,
+              "PlotLineKey": "Mais comment ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 33,
+          "Speaker": "Koko",
+          "PlotLineKey": "C'est quelqu'un qui se fait appeler le « Chasseur des Tacets Discords ». Il déclare qu'il a vaincu de nombreux Tacets Discords puissants. Bah, on ne sait pas si c'est vrai...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Koko",
+          "PlotLineKey": "Cherchez quelqu'un qui se vante de ses exploits à voix haute en buvant du thé.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Koko",
+          "PlotLineKey": "Cherchez quelqu'un qui se vante de ses exploits à voix haute en buvant du thé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mère inquiète",
+          "PlotLineKey": "Je vous en prie ! Je n'ai pas d'autre choix...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Guan",
+          "PlotLineKey": "Hé, Lianfeng, cette personne te cherche.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Qui es-tu ? Je ne te reconnais pas.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 291,
+              "PlotLineKey": "Tu es Lianfeng ? Enfin, je te trouve.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Qui t'a parlé de moi ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 292,
+              "PlotLineKey": "C'est Coco de la pharmacie.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Zut... Elle a engagé un collecteur de dettes ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 293,
+              "PlotLineKey": "... Quoi ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "... Hem ! Non, rien. Tu ne ressembles pas à un collecteur de dettes. Alors, que veux-tu ? Je suis occupé !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Hé, tu ne fais que boire du thé avec nous, non ? Franchement, tu es libre. Oh ! Ce thé est délicieux !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Je te préviens, je ne prête pas d'argent. Je suis fauché.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Guan",
+          "PlotLineKey": "Tu as plein de matériaux précieux, non ? Tu pourrais les vendre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tais-toi, je les ai déjà vendus.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 294,
+              "PlotLineKey": "Tu as vendu l'Esprit de cloche aussi ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "On n'a plus. L'Esprit de cloche ne peut être obtenu que de la Tortue clochante. C'est hors de portée pour les gens ordinaires parce que...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Je n'ai pas besoin de te l'expliquer. De toute façon, il n'y en a plus. Si tu as compris, rentre. Tu gâches mon thé.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 295,
+              "PlotLineKey": "Il n'y a pas d'autre moyen de l'obtenir ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Je ne suis pas prétentieux, mais il est impossible de l'obtenir sans moi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Alors, il faut battre la tortue clochante encore une fois ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Non, non. Je suis lassé de ce faible. Pas du tout intéressant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Si tu es si fort, tu n'aurais pas besoin de quitter l'Association pionnière, n'est-ce pas ? Ou est-ce que tu as été expulsé...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Guan",
+          "PlotLineKey": "Mme Maqi dit que tu as quitté, c'est vrai ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Zut. Je n'ai pas besoin d'amis ou de soutien. C'est pour ça que je n'ai pas besoin d'être dans une organisation.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Pour un maître en Solo comme moi, rester seul me convient.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Guan",
+          "PlotLineKey": "Attends... Tu es Nomade qui arrive à Jinzhou récemment, n'est-ce pas ? Pourquoi as-tu besoin de ce matériel ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 296,
+              "PlotLineKey": "(Parler de la mère qui cherche le médicament pour son enfant)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Je vois... C'est difficile. Mais cela n'a rien à voir avec moi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Guan",
+          "PlotLineKey": "Quelle réaction froide... Tu n'as pas de cœur !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Je n'aime pas ce genre de conversation... ! C'est triste !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Quoi ? Quelle est cette réaction !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 297,
+              "PlotLineKey": "M. Lianfeng, s'il vous plaît.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Non... mais...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "???",
+          "PlotLineKey": "Hahaha ! Alors, je vais dire à l'Association pionnière !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Chef d'équipe de l'Association pionnière",
+          "PlotLineKey": "Je vous interromps. Pardon. Vos voix étaient fortes et j'ai tout entendu.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Quelle bande impolie.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Chef d'équipe de l'Association pionnière",
+          "PlotLineKey": "Oh, j'ai oublié de me présenter. Je suis le chef d'une équipe de l'Association pionnière. Tu es Nomade, n'est-ce pas ? Enchanté.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 298,
+              "PlotLineKey": "Ciao, enchanté.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 29,
+          "Speaker": "Guan",
+          "PlotLineKey": "Hé, il ne te répond même pas !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tais-toi ! Qu'est-ce que tu veux ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Chef d'équipe de l'Association pionnière",
+          "PlotLineKey": "Je suis sur le point d'aller à Yunling-la-Vallée pour enquêter le grand Tacet Discord.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 299,
+              "PlotLineKey": "La Tortue clochante ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 32,
+          "Speaker": "Chef d'équipe de l'Association pionnière",
+          "PlotLineKey": "Oui. Nous décidons de chasser ce Tacet Discord est analyser les données.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Chef d'équipe de l'Association pionnière",
+          "PlotLineKey": "C'est cette histoire que j'ai entendue tout à l'heure. Si nous pouvons aider cette famille, ce serait une pierre deux coups !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Guan",
+          "PlotLineKey": "S'il te plaît, aidez-les !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Vous êtes vertueux, contrairement à ce Lianfeng.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hé ! Vous êtes fous !?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 300,
+              "PlotLineKey": "Vous pouvez vraiment chasser ce grand monstre ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 37,
+          "Speaker": "Chef d'équipe de l'Association pionnière",
+          "PlotLineKey": "Pas de soucis. Nous avons bien préparé. De plus, notre équipe n'est pas composée de novices. Nous sommes tous des combattants expérimentés.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 38,
+          "Speaker": "Chef d'équipe de l'Association pionnière",
+          "PlotLineKey": "Mais c'est la première fois que j'entends parler de l'Esprit de cloche. Cela pourrait être un sujet de recherche intéressant. Les éditeurs seront sûrement ravis !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 39,
+          "Speaker": "Chef d'équipe de l'Association pionnière",
+          "PlotLineKey": "Alors, Nomade, tu attends ici de bonnes nouvelles.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hé, attends... C'est dangereux !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "Guan",
+          "PlotLineKey": "Tu... Ne te mêle pas des affaires des autres.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 42,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tu ne sais rien ! Ils sont morts !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 301,
+              "PlotLineKey": "Tu es {Male=inquiet;Female=inquiète}, n'est-ce pas ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 43,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tch... Je n'ai plus rien à voir avec l'association, ils font ce qu'ils veulent.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 44,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Mais ne sous-estime pas ce Tacet Discord. Ils ne pensent qu'à la recherche et à l'investigation et ils oublient que c'est dangereux.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 45,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Alors, pourquoi ne pas y aller toi-même ? Tu n'es pas le légendaire Chasseur ? Prouve-le.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 302,
+              "PlotLineKey": "Allons-y, M. Lianfeng.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 46,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tch... Tu dis n'importe quoi !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "Guan",
+          "PlotLineKey": "Oh ? Tu as peur ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 48,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ne me sous-estime pas... Je vais y aller ! Mais je n'interviendrai pas. Je ne veux plus rien avoir à faire avec l'Association pionnière.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 49,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "En tant que « maître », je vais simplement guider {Male=ce jeune homme;Female=cette jeune dame} et le faire vaincre la Tortue clochante !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "Moi ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 50,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Oui. Tu as l'air d'avoir du potentiel et tu deviendras plus fiable que les gens d'assocation.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 51,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Ouais...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "D'accord. Je vais aider.",
+              "PlayVoice": false,
+              "JumpToId": 52
+            },
+            {
+              "TextId": 305,
+              "PlotLineKey": "Je n'ai pas besoin d'un maître.",
+              "PlayVoice": false,
+              "JumpToId": 53
+            },
+            {
+              "TextId": 306,
+              "PlotLineKey": "Maître Lianfeng !",
+              "PlayVoice": false,
+              "JumpToId": 54
+            }
+          ]
+        },
+        {
+          "Id": 52,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Bonne réponse. J'espère que tu garderas ce ton lorsque tu rencontreras les Tacets Discords.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 55
+        },
+        {
+          "Id": 53,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tu n'as pas besoin de m'appeler « maître ». Considère cela comme un service spécial du « Chasseur des Tacets Discords ».",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 55
+        },
+        {
+          "Id": 54,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ça sonne bien. J'aime ça !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 55
+        },
+        {
+          "Id": 55,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Cela devrait prouver que je suis un vrai professionnel. Regardez bien !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 56,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Disciple ! Allez, il faut que ces secrètes restent entre nous.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 57,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Eh bien, c'est impressionnant. Bon, j'ai pris mon thé, à plus tard.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 58,
+          "Speaker": "Guan",
+          "PlotLineKey": "L'addition, s'il vous plaît. C'est à Lianfeng !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 59,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Dégage vite ! Ne me dérange pas.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "Qu'est-ce qui se passe ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Eh bien, tu ne te soucies pas de te battre contre les TDs ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Je vais dire que la Tortue clochante est extrêmement dangereuse. Tu seras gravement blessé... non, dans le pire des cas, tu mourras.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "C'est triste pour cette famille, mais personne n'est obligé de les aider à ce point.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Même si tu ne le fais pas, personne ne te blâmera. Pas même cette famille.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Alors, oublie ce que j'ai dit plus tôt. Je vais faire quelque chose pour trouver l'Esprit de cloche.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Même si je viens de te connaître, je ne peux pas te laisser mourir.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 174,
+              "PlotLineKey": "Si je suis avec vous, qui avez de l'expérience, ce sera bien.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tu n'as vraiment pas peur de rien. C'est bien, d'une certaine façon.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 175,
+              "PlotLineKey": "Mais si vous mentez, c'est une autre histoire.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hmph... tu doutes de ce que je dis, c'est ça ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "Oui.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 177,
+              "PlotLineKey": "Pas encore.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hélas, tu me blesses.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ce visage... c'est toi qui mens.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Je suppose que c'est inévitable. Parfois, je ne suis pas sûr si je suis vraiment un « Chasseur ».",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tu as déjà entendu parler de l'« overclocking » ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 178,
+              "PlotLineKey": "Oui.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 179,
+              "PlotLineKey": "Non.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Je vois. Tu en sais beaucoup. Alors, as-tu déjà vu une personne overclocking de tes propres yeux ?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Je vois, tu ne te soucies de rien, non ? L'overclocking est un mauvais phénomène qui n'arrive qu'aux gens comme toi, les résonateurs et résonatrices. Les symptômes varient d'une personne à l'autre.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Si on le laisse, on peut avoir des conséquences. Il n'est pas étrange que la personnalité change complètement.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Je suis... l'un de ceux qui n'ont pas de chance.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Nomade",
+          "PlotLineKey": "...Tu as vécu ça ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Peut-être. ... Je me souviens de rien. Mais le diagnostic de l'institut dit que je souffre de l'amnésie à cause de l'overclocking.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Mais il y a des choses que je me souviens vaguement. Ce n'est que des connaissances sur le combat contre les Tacets Discords.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Je me souviens d'avoir toujours été seul quand je me battais. Mais il y a quelque chose d'étrange dans ce souvenir.... Non, il est inutile de te parler de ça.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ce n'est plus le problème pour le moment.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Allez. J'ai envoyé les coordonnées et je vous attendrai là-bas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Si tu es prêt, nous nous rencontrons là-bas. Soyons rapide.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ha, ha... kof, kof... *tousser*",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 211,
+              "PlotLineKey": "Tout va bien ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Arrête tes bêtises. J'ai juste été attaqué par des sous-fifres par négligence. Ce n'est rien.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 212,
+              "PlotLineKey": "Tu es sûr que ça va ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tais-toi, je dois te donner une leçon !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "« Leçon n°1 : Ne sous-estime jamais les sous-fifres ! »",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Certain ennemi semble faible, mais ne le sous-estime jamais ! Sinon, tu le paieras cher. Tu as compris ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 213,
+              "PlotLineKey": "Et tu as été attaqué parce que tu n'as pas suivi cette règle...",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 214,
+              "PlotLineKey": "Si tu vas bien, on peut parti...",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 215,
+              "PlotLineKey": "Oui, maître !",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hum, c'est une leçon que tu dois bien retenir.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 228,
+              "PlotLineKey": "",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Si tu n'écoutes pas mes leçons, tu le regretteras. Ce sont des paroles précieuses que l'argent ne peut pas acheter.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 227,
+              "PlotLineKey": "",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Très bien. Cela sera utile à l'avenir.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 216,
+              "PlotLineKey": "Pourquoi avons-nous choisi ce lieu pour nous rassembler ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "La Tortue clochante se trouve à Yunling-la-Vallée, à la source de la Rivière Bleue qui coule ici. Je peux détecter l'état du Tacet Discord à travers la fréquence résiduelle.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 217,
+              "PlotLineKey": "Tu as découvert quelque chose ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Comme je l'ai déjà dit, je suis le seul à pouvoir trouver l'Esprit de cloche. En fait, la Tortue clochante ne peut produire une fréquence spéciale qu'à une certaine période. C'est à ce moment-là qu'il faut la vaincre pour obtenir l'Esprit de cloche.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Bien que le Tacet Discord se régénère constamment, seul mon pouvoir peut détecter la fréquence de l'Esprit de cloche.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 218,
+              "PlotLineKey": "Et maintenant ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Oui, nous avons beaucoup de chance. Si nous vainquons la Tortue clochante maintenant, nous avons de grandes chances d'obtenir l'Esprit de cloche.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Et, il semble que les gens de l'Association Pionnière essaient d'entrer dans la vallée par cette route.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 219,
+              "PlotLineKey": "Il y a des traces de leur camp.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ils se préparent sérieusement. Ils semblent très déterminés.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 220,
+              "PlotLineKey": "Pourquoi la Tortue clochante est-elle si spéciale ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Quoi, tu es aussi {Male=intéressé;Female=intéressée} ? D'accord, je vais tout t'expliquer. Cela pourrait t'être utile au combat.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Commençons par la naissance des Tacets Discords. On peut penser qu'il n'existe aucune règle à découvrir, mais ce n'est pas toujours le cas. Les Tacets Discords liés aux légendes et à l'histoire sont l'exception.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Dans le passé, l'armée de Huanglong sonnait des cloches sur le champ de bataille. C'était pour encourager les soldats et déclarer leur victoire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Un jour, un sonneur de cloche a sauvé une tortue près de cette Rivière Bleue. La tortue a commencé à vivre avec eux. On l'aime bien comme si elle était une camarade.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Mais lors d'une bataille terrible, le soldat sonneur de cloche est tombé avant de sonner la cloche. Pourtant, le son de la cloche a résonné sur le champ de bataille. On dit que c'était la tortue qui l'a fait.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 221,
+              "PlotLineKey": "La tortue a repris la mission et la volonté de ce soldat.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Oui. Plus tard, une vieille cloche rouillée a été trouvée à Yunling-la-Vallée. C'était la même cloche qui avait été utilisée sur le champ de bataille.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "La cloche était portée par une énorme tortue. On dirait que les pensées des morts et les émotions des vivants ont attaché la cloche sur le dos de la tortue.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Eh bien, lire des sentiments dans des Tacets Discords est une autre histoire...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Peu importe son passé, il ne répand maintenant que douleur et désastre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Pas besoin de retenir tes coups. Si la tortue avait des sentiments, elle ne blesserait pas les habitants de la ville.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "« Leçon n°2 : ne pas sympathiser avec les Tacets Discords ! »",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 222,
+              "PlotLineKey": "Compris.",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 223,
+              "PlotLineKey": "Encore une fois...",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 224,
+              "PlotLineKey": "Oui, maître !",
+              "PlayVoice": false,
+              "JumpToId": 26
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Les gens de l'association viennent de partir. On les poursuit.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "As-tu déjà utilisé le Senseur de l'appareil ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 225,
+              "PlotLineKey": "Bien sûr.",
+              "PlayVoice": false,
+              "JumpToId": 28
+            },
+            {
+              "TextId": 226,
+              "PlotLineKey": "Pas encore.",
+              "PlayVoice": false,
+              "JumpToId": 29
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Bien. Alors, suivons les traces.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "C'est mon tour. N'hésite pas à poser des questions.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ouvrer l'appareil et sélectionne le Senseur, il indiquera l'itinéraire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Compris ? Alors, passons à la pratique !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "C'est le Tacet Discord qui m'a attaqué tout à l'heure...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Sois prudent. Il est devenu agressif à cause de la Tortue clochante.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Même moi, j'ai eu du mal.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hé, ce son... !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 323,
+              "PlotLineKey": "J'ai entendu aussi.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "C'est le son de la cloche... la Tortue clochante se réveille !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ugh... agh...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 324,
+              "PlotLineKey": "Qu'est-ce qui se passe ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ça va, j'ai juste un peu mal à la tête.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(Merde, pas encore. Ce frémissement de mémoire dans ma tête...)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Les traces de l'Association pçionnière semblent s'arrêter ici.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 434,
+              "PlotLineKey": "Cherchons en suivant le son de la cloche.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Oui. Suivons le son de la cloche, il est très probable qu'ils soient là.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hé, si tu m'entends, réponds! Hé !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 361,
+              "PlotLineKey": "Un pas en retard...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Chef d'équipe de l'Association pionnière",
+          "PlotLineKey": "Euh, vous êtes... vous étiez au salon de thé... ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Bien, tu es conscient. Je vais examiner tes blessures avec ma compétence, restez tranquille.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Il n'y a pas de blessures graves aux organes... mais de nombreuses fractures. Tu as combattu la Tortue clochante ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Chef d'équipe de l'Association pionnière",
+          "PlotLineKey": "Ce n'était pas... un combat. J'ai juste été écrasé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Chef d'équipe de l'Association pionnière",
+          "PlotLineKey": "Vous devriez vous retirer aussi. Il s'est endormi pour l'instant, mais on ne sait pas quand il se réveillera.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Chef d'équipe de l'Association pionnière",
+          "PlotLineKey": "Ce n'est pas un adversaire pour un novice...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Un novice ? Je suis Lianfeng, le « chasseur de Tacet Discord », et voici {Male=mon meilleur disciple;Female=ma meilleure disciple}.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 362,
+              "PlotLineKey": "{Male=Meilleur;Female=Meilleure}... alors qu'il n'y en a qu'{Male=un;Female=une}.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 363,
+              "PlotLineKey": "Disciple ?",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 364,
+              "PlotLineKey": "Laissez ça à nous ! Moi et mon maître !",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Vous devriez vous reposer ici. Nous nous en occuperons.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "{PlayerName}, écoutez bien.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 365,
+              "PlotLineKey": "Oui.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tu as vu la grande cloche au centre de l'Etang de la clochette ? Si tu la sonnes, tu peux réveiller la Tortue clochante.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Elle est grande, mais son mouvement est lent à cause de son grand corps. Donc, il faut...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 366,
+              "PlotLineKey": "S'éloigner.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 367,
+              "PlotLineKey": "Se rapprocher.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ce n'est pas ça. Tu connais la « vitesse angulaire » ? Si tu t'éloignes, tu deviens une cible facile. De plus, elle peut attaquer à distance avec son souffle.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Cela peut sembler illogique, mais il faut se rapprocher.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "C'est vrai. Si tu te rapproches, tu peux mieux exploiter son mouvement lent. Tu as le sens de la stratégie.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Cependant, il attaque avec ses quatre pattes, sa tête, sa queue... alors ne te relâche pas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Et sa plus grande faiblesse est la cloche. Mais elle est en hauteur, donc difficile à atteindre.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 368,
+              "PlotLineKey": "Faut-il le faire tomber ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "C'est ça. Tu as une bonne réflexion.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Elle recouvre ses pattes de glace pour se protéger.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Si tu brises cela, la tortue perd son équilibre et tombe. Ensuite, tu attaques son point faible.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 369,
+              "PlotLineKey": "C'est plus facile à dire qu'à faire...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Je serai l'appât. Tu attaques au bon moment.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 370,
+              "PlotLineKey": "N'est-il pas dangereux ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tu te soucies vraiment trop. Si tu observes bien ses attaques, tu peux facilement les éviter. Nous l'avons déjà fait.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 371,
+              "PlotLineKey": "Nous... ? Tu te battais {Male=seul;Female=seule}, non ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Nous... moi... non, pourquoi...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 372,
+              "PlotLineKey": "Tu étais avec quelqu'un pour combattre contre la Tortue clochante ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(Il y avait quelqu'un à mes côtés...)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(Mais avec qui... ?)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ma tête... J'ai mal.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 373,
+              "PlotLineKey": "Essaie de ne pas trop en faire pour l'instant.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tu ne peux pas le faire {Male=seul;Female=seule}... C'est trop dangereux...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 374,
+              "PlotLineKey": "Ne t'inquiète pas. Je m'en occupe !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hé, {PlayerName} !!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chef d'équipe de l'Association pionnière",
+          "PlotLineKey": "Tu as vraiment vaincu ce monstre tout seul... !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Bien sûr, parce que c'est {Male=le disciple;Female=la disciple} du chasseur !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 383,
+              "PlotLineKey": "Tout va bien ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Je ne sais pas pour les autres, mais moi, ça va.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 384,
+              "PlotLineKey": "Vraiment ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ce qui s'est passé... c'était juste un petit imprévu. Mais ce qui compte, c'est le matériau. Montre-moi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ah, c'est bien l'Esprit de cloche. La graine de la plante qui recouvre la Tortue.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Chef d'équipe de l'Association pionnière",
+          "PlotLineKey": "Ah ah ah ! Vraiment ! C'est une grande découverte ! Je vais noter.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hélas...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Peu importe. Laissez-les. Revenez à la ville et cherchez Coco. Elle t'attend.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Koko",
+          "PlotLineKey": "Nomade ! Bienvenue !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Koko",
+          "PlotLineKey": "Ça a été long... As-tu trouvé Lianfeng ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 414,
+              "PlotLineKey": "Oui.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Koko",
+          "PlotLineKey": "Il avait l'Esprit de cloche ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 415,
+              "PlotLineKey": "Ça va être long. Je vais te donner celui-ci d'abord.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Koko",
+          "PlotLineKey": "Tu l'as vraiment trouvé !?... Wow, c'est bien l'Esprit de cloche.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Mère inquiète",
+          "PlotLineKey": "Ma fille va être sauvée... ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Koko",
+          "PlotLineKey": "Oui. Avec ça, la maladie de votre fille sera guérie.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Koko",
+          "PlotLineKey": "Mais cet Esprit de cloche... Il a l'air tout frais... ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "???",
+          "PlotLineKey": "Il est vraiment tout frais.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Koko",
+          "PlotLineKey": "M. Lianfeng ... ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hélas, pas de « Monsieur », c'est horrible.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 416,
+              "PlotLineKey": "Comment te sens-tu ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Juste les séquelles de l'overclocking. Je vais très bien maintenant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Koko",
+          "PlotLineKey": "Overclocking ? Ça ne se voit pas... Les symptômes des séquelles devraient affecter les compétences résonatrices.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Non, ma compétence est bel et bien détecter les fréquences... Non ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 417,
+              "PlotLineKey": "Pourtant, les séquelles de l'overclocking sont l'amnésie.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hmm...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Koko",
+          "PlotLineKey": "Y a-t-il d'autres causes d'amnésie que l'overclocking ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 418,
+              "PlotLineKey": "Peut-être. L'histoire de mon camarade de guerre n'est pas encore résolue.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "C'est impossible. Je n'ai jamais eu de camarade ou quoi. Tu t'inquiètes trop, disciple.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Koko",
+          "PlotLineKey": "Disciple ? Qu'est-ce qui s'est passé ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 419,
+              "PlotLineKey": "C'est… une longue histoire.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 420,
+              "PlotLineKey": "En deux mots, cet homme se prend pour un maître.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 421,
+              "PlotLineKey": "Maître Lianfeng !",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Nous raconterons notre épopée plus tard. Maintenant, préparer le médicament pour la fille de cette femme.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Mère inquiète",
+          "PlotLineKey": "Merci... M. Lianfeng !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ce n'est pas grand-chose. Eliminer un ennemi de ce niveau, pour un « Chasseur des Tacets Discords », c'est un jeu d'enfant !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Koko",
+          "PlotLineKey": "Alors, prends soin des autres Tacets Discords ! J'achèterai les matériaux que tu obtiendras !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Non... Je préfère refuser. Je suis à la retraite. Le titre de « Chasseur des Tacets Discords » sera repris par {Male=mon meilleur disciple;Female=ma meilleure disciple} !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 422,
+              "PlotLineKey": "Moi ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Koko",
+          "PlotLineKey": "Vraiment ? C'est vrai que tu es plus fiable que Lianfeng !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 423,
+              "PlotLineKey": "Je peux ?",
+              "PlayVoice": false,
+              "JumpToId": 24
+            },
+            {
+              "TextId": 424,
+              "PlotLineKey": "Disciple ?",
+              "PlayVoice": false,
+              "JumpToId": 25
+            },
+            {
+              "TextId": 425,
+              "PlotLineKey": "Je ferai de mon mieux pour ne pas déshonorer le nom de mon maître !",
+              "PlayVoice": false,
+              "JumpToId": 26
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Je continuerai à te guider, ne t'inquiète pas, ah ah ah !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 27
+        },
+        {
+          "Id": 25,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ce n'est pas grave si tu n'es pas mon disciple. Il faut que tu utilises tes compétences.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 27
+        },
+        {
+          "Id": 26,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Oui ! Tu peux le faire et tu vas honorer ce nom.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 27
+        },
+        {
+          "Id": 27,
+          "Speaker": "Koko",
+          "PlotLineKey": "Oui, oui, on te donne des récompenses.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(La cause de ma perte de mémoire... Je la trouverai peut-être un jour dans le combat.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Alors, à plus, {Male=mon meilleur disciple;Female=ma meilleure disciple}. Je te contacterai dès que j'aurai des informations sur les Tacets Discords exceptionnels. J'attends de tes nouvelles !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

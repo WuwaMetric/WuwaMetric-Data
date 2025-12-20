@@ -1,0 +1,4065 @@
+{
+  "Id": 100004,
+  "Name": "Echoing Marche",
+  "Description": "Chapter I Act II",
+  "MaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_3.png",
+  "FemaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_3.png",
+  "AreaIcon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/UiArchive/Atlas/SP_ArchiveAreaDragon.png",
+  "ShowQuestList": [
+    139000029
+  ],
+  "QuestDesc": "As the tides of danger retreat, Jinzhou appears tranquil and vibrant. But beyond its borders lies a fierce and desperate battleground.",
+  "Unlock": [
+    {
+      "Id": 109000000,
+      "Name": "The Past is the Future: Introduction",
+      "Type": 2
+    },
+    {
+      "Id": 100005,
+      "Name": "Ominous Star",
+      "Type": 1
+    },
+    {
+      "Id": 109000006,
+      "Name": "A Free Meal?",
+      "Type": 2
+    }
+  ],
+  "Chapters": [
+    {
+      "Title": "Rest until the next morning (7:00 - 10:00)"
+    },
+    {
+      "Title": "Meet Chixia at Panhua's Restaurant"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Mrs. Panhua, g'morning! Three bowls of extra spicy noodles, please!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "What did I tell ya? Nothing beats a bowl of spicy noodles in the morning!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "What do you say, Rover?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 3333,
+              "PlotLineKey": "I haven't had my first bite yet.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 3334,
+              "PlotLineKey": "It's way too spicy.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 3335,
+              "PlotLineKey": "I love it. It's just the way I like!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Looks like Baizhi's locked herself in the lab again, hasn't left since yesterday. Bet we won't see her til she's done with her research.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Chixia",
+          "PlotLineKey": "No, wait. Since you're the subject of that research, we could use you as bait to lure her out. We can tie you up at the Academy's entrance...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Chixia",
+          "PlotLineKey": "And with just a few tugs of the rope, I bet every researcher will come running at you, with Baizhi leading the pack. Hook, line, and sinker!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 3336,
+              "PlotLineKey": "We could give it a try.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 3337,
+              "PlotLineKey": "Hahaha.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 3338,
+              "PlotLineKey": "That sounds dangerous.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 3339,
+              "PlotLineKey": "Let's not try that.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Chixia",
+          "PlotLineKey": "In case of an emergency! Rover, roll out!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Oops. I got carried away. My bad!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Chixia",
+          "PlotLineKey": "By the way. Now that we've figured out the sugar pearl and the sundial, all that's left is that weird leaf and run-of-the-mill mangosteen, right?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Chixia",
+          "PlotLineKey": "So it only took us one trip to the Academy to solve half of our problems. Either Rover's really smart, or Madam Magistrate was gonna make it easy for us to begin with.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "What's our next plan of action, Rover?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 3340,
+              "PlotLineKey": "Look into the mangosteen first.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 3341,
+              "PlotLineKey": "Look into the strange leaf first.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 3342,
+              "PlotLineKey": "We've got two more days. Might as well just wait.",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 3343,
+              "PlotLineKey": "I have other plans.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Chixia",
+          "PlotLineKey": "As for the mangosteen, we've got people selling these at the market nearby. Might find some clues there.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Mangosteens are not from Jinzhou. These fruits are usually brought in by boat. Should we start from the harbor?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 3345,
+              "PlotLineKey": "Let's leave the city.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Do you think the token is guiding us outside the city?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 15,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Baizhi said the leaf bears the frequencies of Tacet Discords, so it must be from a tree near a Tacet Field.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Then we must leave the city to pursue this lead.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 17,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Yes, that may work too. Any plans for the next two days, Rover?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 18,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 3346,
+              "PlotLineKey": "(Tell them about the dream you had.)",
+              "PlayVoice": false,
+              "JumpToId": 19
+            },
+            {
+              "TextId": 3347,
+              "PlotLineKey": "Madam Magistrate gave me the Access Pass for that.",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 3348,
+              "PlotLineKey": "My body aches for battle!",
+              "PlayVoice": false,
+              "JumpToId": 29
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "An ocean of stars... A dark-haired girl... An inverted Etheric Sea... And the Resonance Cord flowing from your Tacet Mark...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "And you said it was flowing in a certain direction. The nearest places are the Gorges of Spirits and the Norfall Barrens...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "You've never mentioned this before.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 3349,
+              "PlotLineKey": "I couldn't find the right moment.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 3350,
+              "PlotLineKey": "I thought it was just a dream.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "The Etheric Sea and Resonance Cords in your dreams are real, possibly leading to the Gorges of Spirits and Norfall Barrens.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Perhaps... It was more than just a dream.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "That girl might be the key to recovering your memories. Madam Magistrate's information aside, it seems to me your dream points toward the Norfall Barrens.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "It's the site of the Threnodian War and the source of all TD Outbreaks. The Midnight Rangers' frontlines base is stationed there as well.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 35
+        },
+        {
+          "Id": 26,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "The Access Pass may be another hint...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "There are usually no checkpoints set up in the city besides the City Hall. A pass isn't required unless you have to leave the city borders.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Now why didn't I think of that? Gotta hand it to ya, Yangyang!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 35
+        },
+        {
+          "Id": 29,
+          "Speaker": "Chixia",
+          "PlotLineKey": "That's the spirit! Been beating my brain up until now, it's time to get these joints cracking for a change!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 3351,
+              "PlotLineKey": "I don't know who I am.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 31,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 3352,
+              "PlotLineKey": "I don't know why I'm here.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 32,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 3353,
+              "PlotLineKey": "All I know is I must kill!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 33,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Whoooah! {Male=He;Female=She}'s fast! {Male=He;Female=She}'s furious! {Male=He;Female=She}'s a TD killing machine!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "...Please stop it, you two.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 35
+        },
+        {
+          "Id": 35,
+          "Speaker": "Chixia",
+          "PlotLineKey": "It's a no-go for me if you're leaving the city, my shift's coming up. Protect Rover well and shoot me a message if you need anything, alright Yangyang?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 3354,
+              "PlotLineKey": "I'm sure you meant the other way around.",
+              "PlayVoice": false,
+              "JumpToId": 37
+            },
+            {
+              "TextId": 3355,
+              "PlotLineKey": "I'm really strong, you know.",
+              "PlayVoice": false,
+              "JumpToId": 37
+            },
+            {
+              "TextId": 3356,
+              "PlotLineKey": "You can just wait for the good news.",
+              "PlayVoice": false,
+              "JumpToId": 37
+            },
+            {
+              "TextId": 3357,
+              "PlotLineKey": "Yangyang is safe with me.",
+              "PlayVoice": false,
+              "JumpToId": 36
+            }
+          ]
+        },
+        {
+          "Id": 36,
+          "Speaker": "Chixia",
+          "PlotLineKey": "I believe in ya!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 37
+        },
+        {
+          "Id": 37,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Without a doubt.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 59,
+          "Speaker": "Narrator",
+          "PlotLineKey": "You, Chixia, and Yangyang gather at Panhua's restaurant, where you continue the discussion about the tokens. The group reasons that clues may lie outside the city limits, so you and Yangyang decide to go and take a look.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Get ready to leave the city"
+    },
+    {
+      "Title": "Get ready to leave the city"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "We Resonators can boost our combat abilities with special items. Our Echoes can use them too.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "If you feel like it, head to Instructor Yhan at the training camp for extra practice and to get these enhancement items.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Get ready to leave the city"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Yangyang, did you hear that? I-Is that someone crying and wailing?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "That should be the Midnight Rangers training camp... Let's not worry about it, Chixia.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Instructor Yhan is in charge of training new recruits. I heard he's pretty tough, but I think Rover can handle anything he throws at {Male=him;Female=her}.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(Optional) Clear Simulation: Resonance Potion"
+    },
+    {
+      "Title": "Arrive at city gate"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Defense at the city gate has been strengthened.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "It wasn't like this when we came back...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Arrive at city gate"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Guarding Soldier",
+          "PlotLineKey": "Access Pass is required if you're heading to the Norfall Barrens. That place is now off-limits.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shifting Soldier",
+          "PlotLineKey": "...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Shifting Soldier",
+          "PlotLineKey": "What is your business, young lady? It's my third shift and you're still here.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "??",
+          "PlotLineKey": "Oh, you must be the soldier on duty at noon yesterday. Nice to see you again.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "??",
+          "PlotLineKey": "I'm a Resonator and a trained martial artist. I can handle myself. Please, I need to go look for someone.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "??",
+          "PlotLineKey": "I've promised the missing man's grandfather to bring him back. Would you let me through?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Guarding Soldier",
+          "PlotLineKey": "Be that as it may, I cannot let you given the current circumstances. My apologies.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "??",
+          "PlotLineKey": "Well, everything seems fine in the city. Are things really that bad on the frontlines?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Shifting Soldier",
+          "PlotLineKey": "That's why we must stay vigilant, so people in the city can go on peacefully with their lives.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Guarding Soldier",
+          "PlotLineKey": "Besides, General Jiyan is currently there at the Norfall Barrens base. Dangerous as it is, he will keep an eye on every soldier, including the one you're looking for.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Shifting Soldier",
+          "PlotLineKey": "We have already sent a report on your case. You could just go home and wait for the good news. What's the point of staying here?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "??",
+          "PlotLineKey": "Thank you, but I have already asked the Patrol Station for help and tried every method I could think of. Please, let me through. I promised him, so I gotta give it my all.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "??",
+          "PlotLineKey": "I understand your concern.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "??",
+          "PlotLineKey": "I don't want to be a bother. Would it help if I hid my presence and stayed somewhere further away? How about five miles? Or maybe a hundred? A thousand might be too far though, I wouldn't be able to see you clearly...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Shifting Soldier",
+          "PlotLineKey": "Listen. Nobody knows when the soldiers will return, and even if they do, you might not find the one you seek.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Shifting Soldier",
+          "PlotLineKey": "It's a dangerous road ahead if you want to reach the frontlines, and you don't even have an Access Pass...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Shifting Soldier",
+          "PlotLineKey": "...Ahem. Your Access Pass has been verified.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Guarding Soldier",
+          "PlotLineKey": "Just you two?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1491,
+              "PlotLineKey": "Yes.",
+              "PlayVoice": false,
+              "JumpToId": 19
+            },
+            {
+              "TextId": 1492,
+              "PlotLineKey": "The monk over there is coming with us.",
+              "PlayVoice": false,
+              "JumpToId": 25
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "??",
+          "PlotLineKey": "Greetings. I'm Jianxin. Could you please do me a favor?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I want to go look for someone outside the city, but I don't have an Access Pass, so... May I tag along?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1493,
+              "PlotLineKey": "Okay.",
+              "PlayVoice": false,
+              "JumpToId": 21
+            },
+            {
+              "TextId": 1494,
+              "PlotLineKey": "What can you do for us?",
+              "PlayVoice": false,
+              "JumpToId": 22
+            },
+            {
+              "TextId": 1495,
+              "PlotLineKey": "What do I get out of this?",
+              "PlayVoice": false,
+              "JumpToId": 23
+            },
+            {
+              "TextId": 1496,
+              "PlotLineKey": "You'll have to ask the guards about that.",
+              "PlayVoice": false,
+              "JumpToId": 24
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Thank you for your kindness!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 22,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I'm a jack-of-all-trades: Tai Chi, cooking, tea-making, mining, foraging, errand-running, fixing utilities, and caring for animals. Got something else in mind? I'm always up for learning new skills.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1497,
+              "PlotLineKey": "Alright then.",
+              "PlayVoice": false,
+              "JumpToId": 26
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I see. I've got three Guokui Flatbreads, 34 Shell Credits, and the Mirrors of Clarity. They're all yours.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1498,
+              "PlotLineKey": "You seem to live a humble life.",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 1499,
+              "PlotLineKey": "You can keep them.",
+              "PlayVoice": false,
+              "JumpToId": 26
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "You're right. I should be open about my request. I don't want to lie and cause further trouble for the soldiers.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 25,
+          "Speaker": "??",
+          "PlotLineKey": "Thank you for your help! I really appreciate it!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 26,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I intend to leave the city with them, and they have agreed. Will it be an issue for you?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Shifting Soldier",
+          "PlotLineKey": "I, uh...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1500,
+              "PlotLineKey": "Is it allowed?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1501,
+              "PlotLineKey": "Please.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Guarding Soldier",
+          "PlotLineKey": "Well, it says you have the highest level of access, so no procedural issues here.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Shifting Soldier",
+          "PlotLineKey": "(Honestly, {Male=he;Female=she} could lead an entire troop out of the city with that Access Pass and no one would question it...)",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1502,
+              "PlotLineKey": "Let's go.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1503,
+              "PlotLineKey": "Master Jianxin?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Sure!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 45,
+          "Speaker": "Narrator",
+          "PlotLineKey": "At the city gate, you encounter Jianxin, a Taoist who is being denied passage. After learning she is searching for a missing person, you use your authority to help her leave the city.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Jianxin explains why she wants to leave the city. She tells you about the person she is looking for.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "So you're looking for the relative of a veteran, and you believe he's in the Midnight Rangers camp in Desorock Highland?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Exactly.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1583,
+              "PlotLineKey": "What's your relationship with the person you're looking for?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 1584,
+              "PlotLineKey": "Why is it so important for you to find him?",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 1585,
+              "PlotLineKey": "Do you know anything about the mangosteen?",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 1586,
+              "PlotLineKey": "Where are you from?",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 1587,
+              "PlotLineKey": "Got it.",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "His name is Zhiyuan. I don't know him in person. On my way down the mountain, I ran into his grandfather, who was looking for his grandson on his own but ended up lost.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I couldn't just leave an elderly person like him out there. So I thought I'd escort him to the nearest city and make further plans once we're safe.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "You're willing to go to such lengths for someone you don't know...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "You have a kind soul, Master Jianxin.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "It's all thanks to many kind-hearted people. Without them, Mr. Zongye and I wouldn't have made it to Jinzhou.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 20
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Mr. Zongye seemed confused. He's gone through a lot searching for his enlisted grandson. Lending a helping hand was the least I could do.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I reported his situation to the Patrol Station, but with the chaos on the frontline, Mr. Zongye has been extremely worried about his grandson's safety... He'd sneak out to look for his grandson the moment no one was watching. I'm really worried about him.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 20
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "This mangosteen?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "It's got some fresh-looking leaves, soft springy skin, and eight fleshy segments fully ripened inside. It looks like a nice fruit.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1011,
+              "PlotLineKey": "Good to know.",
+              "PlayVoice": false,
+              "JumpToId": 20
+            },
+            {
+              "TextId": 1012,
+              "PlotLineKey": "Well... thanks for the tip on how to pick out the good ones.",
+              "PlayVoice": false,
+              "JumpToId": 20
+            },
+            {
+              "TextId": 1013,
+              "PlotLineKey": "How do you know that?",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 1014,
+              "PlotLineKey": "Nothing else?",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Oh, one more thing I forgot to mention. There's a bruise at the bottom. If you don't eat that part soon, it'll spoil.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 20
+        },
+        {
+          "Id": 14,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I grew up in my sect on a mountain. Spent most of my time training with my masters.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "One day, I was told training in seclusion was not enough. I must engage with the world to further my skills.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "So I started my self-cultivating journey. I've been to various cities and gained valuable lessons, but there is still so much more to learn.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 20
+        },
+        {
+          "Id": 17,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "...According to what I've gathered, Mr. Zongye's grandson is very likely in the Desorock Highland.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Thanks to your help, I can finally leave the city to find him.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1015,
+              "PlotLineKey": "That's where we are heading too.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1016,
+              "PlotLineKey": "Let's go together.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1017,
+              "PlotLineKey": "Master Jianxin, please keep us safe.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Of course.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 32,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Jianxin explains she is searching for a boy named Zhiyuan. He vanished after leaving the city, and his grandfather tasked her to find him. Sadly, she has no information about the tokens you are investigating.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Go to the Rearguard Base"
+    },
+    {
+      "Title": "Ask the soldiers about Zhiyuan"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Passing Midnight Ranger",
+          "PlotLineKey": "You don't look like soldiers. Why are you here? The frontlines are right up ahead.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "I am Yangyang, an Outrider of the Midnight Rangers.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Yangyang showed her Midnight Rangers badge and Jianxin asked him about Zhiyuan.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Passing Midnight Ranger",
+          "PlotLineKey": "A missing person... Zhiyuan...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Passing Midnight Ranger",
+          "PlotLineKey": "The one you're looking for. Is he an average person? Not a Resonator, I suppose?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Yes, have you seen him? Is he alright?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Passing Midnight Ranger",
+          "PlotLineKey": "I met him once. He's not officially enlisted, but he seemed determined to join us. He's been secretly following our troops since last year.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Passing Midnight Ranger",
+          "PlotLineKey": "I think a quartermaster of the Rearguards escorted him away, so if he's not in the city...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Passing Midnight Ranger",
+          "PlotLineKey": "He must be in the Rearguards camp. He can't be anywhere else; the actual frontlines are right up ahead, and we the Midnight Rangers would never allow non-servicemen to approach and risk getting killed.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1226,
+              "PlotLineKey": "I see.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1227,
+              "PlotLineKey": "Master Jianxin.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Thank you!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Passing Midnight Ranger",
+          "PlotLineKey": "Now if you're heading that way, I have a request for you, my Outrider comrade.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Passing Midnight Ranger",
+          "PlotLineKey": "On your way there, you should run into two Detection Beacons. They just went offline. Could you go check on them?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Sure, we will.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Passing Midnight Ranger",
+          "PlotLineKey": "Great. I'll send the coordinates to your Terminal.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 18,
+          "Speaker": "Narrator",
+          "PlotLineKey": "A Midnight Ranger reveals details about Zhiyuan's disappearance, and you agree to check on the Detection Beacons that have been disconnected.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Use the Sensor to reveal the patrol route"
+    },
+    {
+      "Title": "Follow the patrol route to find the Detection Beacon"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Is that the Beacon? Why are there so many people?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "They don't look like soldiers...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Follow the patrol route to find the Detection Beacon"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Greetings. What might interest you here? It's dangerous.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Strange Civilian?",
+          "PlotLineKey": "Oh. We, uh... Nothing, really. You see, we're just on our way south, to the city.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1239,
+              "PlotLineKey": "Stop lying. I saw it.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Excuse me, about this Detection Beacon...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Strange Civilian?",
+          "PlotLineKey": "Run, everyone!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1240,
+              "PlotLineKey": "Something's fishy about them.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1241,
+              "PlotLineKey": "Don't let them run off.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Type": "Outline",
+          "Id": 8,
+          "Speaker": "Narrator",
+          "PlotLineKey": "As you near the first Detection Beacon, you stumble upon some shifty-looking \"civilians.\" You move to confront them.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Timid Civilian?",
+          "PlotLineKey": "I-I can't move... So hungry...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Flustered Civilian?",
+          "PlotLineKey": "P-please don't arrest us! We really had no choice!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "What happened? Do you need help?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Timid Civilian?",
+          "PlotLineKey": "The battles are getting real bad up north, and we couldn't live there anymore. Figured we have to go back to the city.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Timid Civilian?",
+          "PlotLineKey": "We ain't eaten in ages, and we're broke. Some of us can barely move 'cause we're so damn hungry.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Timid Civilian?",
+          "PlotLineKey": "Then we found some expensive looking stuff here. Now that the military's out there fighting and nobody's really using these thingies, we thought it might get us a few pennies.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "A damaged Detection Beacon might result in a sudden TD invasion from the direction it covers.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Our frontline troops would face attacks from both sides. Have you thought about the consequences?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Flustered Civilian?",
+          "PlotLineKey": "We ain't got the time for that! If we don't steal, we'd starve to death before the Tacet Discords kill us.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "You shouldn't be stealing public property. Please return the parts.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "There's still some distance from here to Jinzhou city. Here, you can have my flatbreads.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "And here's some money. This should be enough for you to reach the city.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Timid Civilian?",
+          "PlotLineKey": "You're giving us... all of these? Thank you. Thank you!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Flustered Civilian?",
+          "PlotLineKey": "Hey! You! Come over and say thank you before you eat!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "It was nothing. Master once told me, \"The sage takes care of all men, and abandons none.\"",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Rover",
+          "PlotLineKey": "Watch out!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 17,
+          "Speaker": "Narrator",
+          "PlotLineKey": "You offer assistance to the \"civilians\" responsible for damaging the Detection Beacon, but they repay your kindness with violence. You have no choice but to teach them a lesson.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Timid Civilian?",
+          "PlotLineKey": "I-I can't move... So hungry...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Flustered Civilian?",
+          "PlotLineKey": "P-please don't arrest us! We really had no choice!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "What happened? Do you need help?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Timid Civilian?",
+          "PlotLineKey": "The battles are getting real bad up north, and we couldn't live there anymore. Figured we have to go back to the city.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Timid Civilian?",
+          "PlotLineKey": "We ain't eaten in ages, and we're broke. Some of us can barely move 'cause we're so damn hungry.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Timid Civilian?",
+          "PlotLineKey": "Then we found some expensive looking stuff here. Now that the military's out there fighting and nobody's really using these thingies, we thought it might get us a few pennies.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "A damaged Detection Beacon might result in a sudden TD invasion from the direction it covers.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Our frontline troops would face attacks from both sides. Have you thought about the consequences?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Flustered Civilian?",
+          "PlotLineKey": "We ain't got the time for that! If we don't steal, we'd starve to death before the Tacet Discords kill us.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "You shouldn't be stealing public property. Please return the parts.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "There's still some distance from here to Jinzhou city. Here, you can have my flatbreads.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "And here's some money. This should be enough for you to reach the city.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Timid Civilian?",
+          "PlotLineKey": "You're giving us... all of these? Thank you. Thank you!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Flustered Civilian?",
+          "PlotLineKey": "Hey! You! Come over and say thank you before you eat!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "It was nothing. Master once told me, \"The sage takes care of all men, and abandons none.\"",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Rover",
+          "PlotLineKey": "Watch out!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 17,
+          "Speaker": "Narrator",
+          "PlotLineKey": "You offer assistance to the \"civilians\" responsible for damaging the Detection Beacon, but they repay your kindness with violence. You have no choice but to teach them a lesson.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 5
+    },
+    {
+      "Title": "Defeat the Exiles"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Strange Civilian?",
+          "PlotLineKey": "Hmph, a tough nut, aren't you?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I just helped you. Why did you attack us?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Strange Civilian?",
+          "PlotLineKey": "You're not feedin' all of us with ya bread and pennies.  Hand over your goods and grub or face the consequences.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Strange Civilian?",
+          "PlotLineKey": "We ain't messin' with no kids, but don't test our patience. Just do as you're told!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Strange Civilian?",
+          "PlotLineKey": "Don't make it tough on yourselves. Or you'll be lucky to leave in one piece.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I will not bend to injustice.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Rover, Yangyang, please step back as I handle them.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Strange Civilian?",
+          "PlotLineKey": "Fine! You asked for this!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Flustered Civilian?",
+          "PlotLineKey": "We're beggin' ya, stop! We surrender. Take us in!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Why did you attack us when I already gave you food and funds?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Do you have other mouths to feed, aside from what we see here?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "They seem trained... These are not ordinary people.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1532,
+              "PlotLineKey": "Who are you?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "O-of course we are ordinary people! We just... we just joined the Exiles recently.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "We done some wrongs. Tried to run from them Patrollers and left the city, but dang, didn't know the battles up north were so crazy. Our new boss ran outta food before we could even figure out the camp. Figured we'd be better off just go back to the city and get locked up...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Timid Exile",
+          "PlotLineKey": "Then we ran outta food and cash halfway. So we turned to thieving.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Timid Exile",
+          "PlotLineKey": "We ain't got the balls to rob the army, but with stuff just sitting around, why not?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Timid Exile",
+          "PlotLineKey": "Hey, since you're being so generous, how about you throw a little extra cash our way? There's a bunch of us, some injured too. Your first amount ain't gonna cut it for us to survive.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1533,
+              "PlotLineKey": "We have some spare supplies.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 1534,
+              "PlotLineKey": "We shouldn't give them more.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Wait. What I gave them was more than enough for them to make it to Jinzhou.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Wait. What I gave them was enough for them to make it to Jinzhou, even when they are so many.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I used to travel alone when I left my Master. I know how much it takes for someone to survive.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "Hey! What's wrong with you, girlie? It won't hurt to give us more!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Pain comes with coveting. He who knows he has enough is rich. It was only meant to sustain you long enough for you to reach the city.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Timid Exile",
+          "PlotLineKey": "You don't understand, girl. You don't make money very easily in a time like this. If we can't find jobs in the city, we gonna starve again.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I came from a seclusive place, learning the ways of the world from scratch. It's been a hard time, but even I have managed to make a living with my own hands.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "If you really can't find any job in the city, come to Liuxian Teahouse and ask for Jianxin. I'll gladly help you search for jobs and work alongside you.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "Tsk... Fine! Fine! We'll go.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "Hurry, move! Let's get outta here. I'm not listening to this lecture anymore.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I wasn't trying to... Wait, please put that down.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "Ugh, quite the sharp eye you got. Fine! Here you go!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Is this the only Detection Beacon you messed with?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "Heck yeah! Just the first one we were trying to steal and you bumped right into it.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Really? Then why does that one over there seem broken too?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "That ain't got nothing to do with us! It has been that way for ages. Plus, we ain't ever reaching it with all those thorns.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "I see. You may leave now.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "The military's base is not far from here. Shall we fix the Beacons before going?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1535,
+              "PlotLineKey": "Okay.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Type": "Outline",
+          "Id": 41,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Upon subduing the Exiles masquerading as civilians, you reclaim the stolen components and head for the next Detection Beacon.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 0,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Is it... fixed?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Yes. Let's go and check on the next one.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 7
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Awesome, we've got the second Beacon fixed.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 8
+    },
+    {
+      "Title": "Repair the Detection Beacon"
+    },
+    {
+      "Title": "Check the other Detection Beacon"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Use Levitator to burn off the thorns with Explosive Charge"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "The thorns are blocking our path. Weird. We'll have to clear them before we can reach the Beacon.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Please be careful, they look sharp. Maybe we can find something nearby to help us deal with them?",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Repair the Detection Beacon"
+    },
+    {
+      "Title": "Arrive at the Rearguard Camp"
+    },
+    {
+      "Title": "Quest_139000029_ChildQuestTip_0_69"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Master Jianxin, are you alright?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "This is my first time on a battlefield. It feels so different here...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Ask the staff about the current situation"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "I know another shipment of supplies has just arrived. I've confirmed it, but it's not nearly enough. We must reach out to the city again and demand more supplies immediately.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Logistics Specialist",
+          "PlotLineKey": "But the approval process is going to...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "Tell them it's an emergency. We are working around the clock here. Any delay could mean the end of our defense. Do they not comprehend? Here's the list of what we need.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "I'll talk to them if you can't make them listen! Now go go go!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "Move, move! What is it? Why are we still not done distributing these?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1123,
+              "PlotLineKey": "Hello.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "You new here? Are you backups too?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "Wait, you don't look like one of us...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "I am Yangyang, an Outrider of the Midnight Rangers. And they are...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Yangyang showed her Midnight Rangers badge.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "Excuse me. One moment, please.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "Careful! This chest holds vital medical supplies. If the wounded return and find no medicine, it's on you. Handle with care and precision!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "An Outrider? So you are part of the backup force, right? Now, I've got wounded soldiers coming soon, and you're just in time to help.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "Sorry. Have to answer this.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "Yes. What is it?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "An Overclocked Resonator? Understood. I'll be there immediately.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "I'm sorry... Erm, could you do me a favor?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "The wounded soldiers are being sent back from the frontlines. We need someone to escort them to the medics, but I've got to deal with the Overclocked Resonator now. Could you please take care of them?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "What exactly do you need us to do?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "Just make sure they are safe. The medics will take care of their wounds.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1124,
+              "PlotLineKey": "Sure. Leave it to us.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Xiulan",
+          "PlotLineKey": "Thank you.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "It's so busy here... Looks like they don't even have the time to catch their breath.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Supplies, medical care, equipment maintenance, personnel management, and logistics... They must carefully manage these matters to provide vital support for our fighters.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "So this is what a real war looks like. I had no idea it could get this bad.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Most people would never have the chance to witness any of this. It's natural for you not to know.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "I think this is exactly what our military strives for—to ensure peace and safety for our citizens. It's a sacrifice made so others don't have to live in fear.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1125,
+              "PlotLineKey": "The wounded soldiers are here. Let's go check on them.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Type": "Outline",
+          "Id": 30,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Upon arriving at the Rearguard Camp, you are greeted by a scene of chaos, revealing the grim state of the ongoing conflict. There, you meet logistic coordinator Xiulan and agree to help tend to the wounded.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Look after the insisting wounded soldier"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Suihe",
+          "PlotLineKey": "Like I said, it's not a big deal! No need to fix me up! Let me go!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Please calm down. Your wound is still bleeding.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Suihe",
+          "PlotLineKey": "That's barely a scratch! You can't stop me!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1551,
+              "PlotLineKey": "Now is not the time for bravado.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Suihe",
+          "PlotLineKey": "That's not bravado! My wounds can close on their own. It's my Resonance ability. The medics should go take care of other people in need!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Medical Personnel",
+          "PlotLineKey": "Stop squirming, will you? We're here because you need our help. Calm down and stay where you are!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Medical Personnel",
+          "PlotLineKey": "Please hold him still for me.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Sure...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "After some chaos, you helped medics in treating the wounded.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 10,
+          "Speaker": "Narrator",
+          "PlotLineKey": "A severely wounded soldier begs to return to battle, insisting that resources should be reserved for those in greater need. You treat him, despite his loud protests.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Look after the weak wounded soldier"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xinyu",
+          "PlotLineKey": "Hah... hah...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Are you alright?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xinyu",
+          "PlotLineKey": "I'm okay... just... a little... out of breath...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1542,
+              "PlotLineKey": "You don't seem okay.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xinyu",
+          "PlotLineKey": "It's okay... I'm fine...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I'll go find a medic.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "You brought the medic over to take care of Xinyu.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 8,
+          "Speaker": "Narrator",
+          "PlotLineKey": "A wounded soldier is in distress. You summon a medic to his side.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Talk to the medics"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Medical Personnel",
+          "PlotLineKey": "Thank you for your assistance. You must be tired. Please take some rest.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "They look badly injured...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Medical Personnel",
+          "PlotLineKey": "Don't worry. They've received proper treatment now. They will recover in time. Thanks to General Jiyan, we've seen a significant drop in the number of casualties.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Medical Personnel",
+          "PlotLineKey": "I've heard from veterans that our soldiers used to be ordinary people, not Resonators. The battles were even brutal back then, with the stench of blood lingering through the rain.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Medical Personnel",
+          "PlotLineKey": "But things have improved.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Medical Personnel",
+          "PlotLineKey": "Each injury represents countless Tacet Discords eliminated by our brave soldiers.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Medical Personnel",
+          "PlotLineKey": "Resonators in the Midnight Rangers are incredible warriors. Those who have to retreat from injury must have already taken out hundreds of enemies.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1257,
+              "PlotLineKey": "They are our heroes.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "They are the ones keeping our people safe. What I've been doing is not worth mentioning compared to them.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Medical Personnel",
+          "PlotLineKey": "Please don't put it like that. Without your help. we couldn't have helped so many wounded soldiers in such a short time.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Medical Personnel",
+          "PlotLineKey": "Now that they are all safe, you should go and take care of your own issues.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Thank you. May I ask where the quartermaster is?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Medical Personnel",
+          "PlotLineKey": "The quartermaster isn't here. He's on the floor above, directing munitions distribution. Just take that lift and you should find him there.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Rover, where are we going next?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1258,
+              "PlotLineKey": "Let's follow Master Jianxin.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1259,
+              "PlotLineKey": "I want to talk to the quartermaster, too.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Here are some recipes for dietary supplements from my sect. They might help the wounded recover sooner.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Medical Personnel",
+          "PlotLineKey": "Oh? Great. You have my thanks.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 19,
+          "Speaker": "Narrator",
+          "PlotLineKey": "With the soldiers tended to, you start looking for the quartermaster as advised.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Take the elevator to reach the upper level"
+    },
+    {
+      "Title": "Operate"
+    },
+    {
+      "Title": "Wait for the elevator"
+    },
+    {
+      "Title": "Take the elevator to reach the upper level"
+    },
+    {
+      "Title": "Reach the upper level"
+    },
+    {
+      "Title": "Ask the quartermaster about the situation"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "Have you confirmed the inventory? What about the spare list? Sort out the consumables as soon as possible. Check our communication lines while you're at it...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "Yue, deliver this list to Ase. Oh, you're not Yue. Where is she? What do you need?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Excuse me. I'm an Outrider of the Midnight Rangers. This is Rover, and this is Master Jianxin who came here to look for someone.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1588,
+              "PlotLineKey": "You seem very busy.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 1589,
+              "PlotLineKey": "Do you need our help?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 1590,
+              "PlotLineKey": "(Tell him about the person Jianxin's looking for.)",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 1591,
+              "PlotLineKey": "Master Jianxin, do you want to go look for Zhiyuan first?",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "Jinzhou is the gateway to Huanglong, and the Desorock Highland is the gateway to Jinzhou. A single breach could have dire consequences. Our defense must hold at all costs.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "The Tacet Discords are not humans. They don't do truces or ceasefires. For as long as they exist, this war will rage on endlessly.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "Supply is the lifeblood of our army, and I am tasked with keeping it flowing. But now, we are facing a shortage.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 7,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "I saw you help arrange the wounded there. Xiulan would need your help more than I do.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "Thank you, but I must remain to oversee vital military supplies.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Jianxin asked the quartermaster about Zhiyuan's whereabouts.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "Zhiyuan...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "So he never sent a letter home? Not even once?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "The Midnight Rangers are no longer recruiting non-Resonators lately, but Zhiyuan was a stubborn boy. Last year when the battles hadn't gotten so intense, he would trail us Rearguards, eager to join the frontline.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "We sent him back to the city, time and time again, and he just kept finding ways to come back. Eventually I caved and took him in to help us here at the base.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "With the battle escalating, it's getting increasingly dangerous out here. I shouldn't keep him here any longer. I was just thinking about having the logistics team bring him back to the city when you guys showed up.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "Oh, now I remember. He should be currently on the floor above.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 16,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Sure. Please excuse me. I'll join you later.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1289,
+              "PlotLineKey": "We'll be meeting up with you.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1290,
+              "PlotLineKey": "We'll be there soon.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Jianxin did a brief salute and left.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1291,
+              "PlotLineKey": "(Take out the mangosteen.)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "What... what are you doing!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1292,
+              "PlotLineKey": "What's going on?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1293,
+              "PlotLineKey": "(Hold your hands up.)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "Oh... Please excuse me. Thought that was a grenade... Is this... a mangosteen?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1592,
+              "PlotLineKey": "A grenade?",
+              "PlayVoice": false,
+              "JumpToId": 20
+            },
+            {
+              "TextId": 1593,
+              "PlotLineKey": "What do you know about the mangosteen?",
+              "PlayVoice": false,
+              "JumpToId": 23
+            },
+            {
+              "TextId": 1594,
+              "PlotLineKey": "Thank you.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "It's a type of old-fashioned explosive. The Lament caused a global technological regression and shortage of resources.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "While Tacetite Weapons were being developed, most people had limited knowledge of Tacetite as an energy source. As a result, primitive products combining old and new technology emerged.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "The hand grenade was one of them. With the rapid growth of Tacetite Weapons, these crude explosives were eventually phased out in favor of more advanced weaponry.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 27
+        },
+        {
+          "Id": 23,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "Well... it's not a local fruit, so we can only get it through imports. But, with the recent Tacet Discord outbreaks, we've had to prioritize bringing in the essentials. We'll get back to importing more of these after General Jiyan makes his triumphant return.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "Currently, there's only one waterway open, from Port Gunchao in the <span style=\"color:#ffd12f;\" class=\"font-bold\">south</span> of the city. The Rearguards would regularly go there to escort goods.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Rearguard Battalion Camp Officer",
+          "PlotLineKey": "Hmm... What more do I know... The military rarely buys this fruit for rations due to its short shelf life. Plus, it looks too much like a grenade, and that could cause some issues.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 27
+        },
+        {
+          "Type": "Outline",
+          "Id": 39,
+          "Speaker": "Narrator",
+          "PlotLineKey": "The quartermaster reveals Zhiyuan's likely whereabouts. Jianxin leaves to continue her search for Zhiyuan. You show the quartermaster the mangosteen, which he mistakes for a grenade. After the misunderstanding is resolved, he tells you about the dire situation in the Norfall Barrens.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 0,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "Are you also Midnight Rangers? Can you tell me about the battles on the front line?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 365,
+              "PlotLineKey": "You fought really well.",
+              "PlayVoice": false,
+              "JumpToId": 1
+            },
+            {
+              "TextId": 366,
+              "PlotLineKey": "You lost.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 367,
+              "PlotLineKey": "I came to arrest you.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 1,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "Really? I knew it! What about the other soldiers? Have they all come back?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "Why do I only see a few of you?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 368,
+              "PlotLineKey": "I came here specifically to find you.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "Are you kidding me? How is it possible that there is no movement at all? Aren't you Midnight Rangers?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 369,
+              "PlotLineKey": "I came here specifically to find you.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "...Ah? What, what did I do! I just secretly sneaked into the army, that's all?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 370,
+              "PlotLineKey": "But...",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 371,
+              "PlotLineKey": "Your grandfather is very worried.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "Scary, are you guys hired by my grandpa to bring me back home!?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "It's not because there is no other way. After I arrived in Jinzhou, I inquired around and heard that the front line was in a fierce battle. I thought it was a good opportunity for me to contribute...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "I have always heard that everyone in Jinzhou is a soldier, and I thought that as long as I was a volunteer, I could go to the front line and contribute. Who knew that the organization of the Midnight Rangers has changed...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "Since you're already here, you shouldn't just come for nothing, right? This is where my grandfather served when he was young. It would be nice to take a look, even if just for a moment! As for joining the army, let's think of a way. There are always more solutions than difficulties!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 372,
+              "PlotLineKey": "Good, he's in good spirits.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 373,
+              "PlotLineKey": "You really came here for a vacation, huh?",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 374,
+              "PlotLineKey": "I just heard them say they will take you to a military court.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "Thank you, I will continue to work hard!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Rover, now is not the time to encourage him!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 11,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "Of course not... not entirely... I made up my mind to reach Jinzhou, but I didn't expect the journey to be so difficult...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "Look, this monument was erected by my grandfather here back then. I never thought I would be able to see it after so many years. It's like a dream come true...",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 13,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "Is it true? No, please don't! My grandfather's glorious achievements will be tarnished because of me!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Rover, don't scare him...",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Zhiyuan, just like you, your grandfather came to Jinzhou alone from your hometown to find your whereabouts.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "What?! My grandfather is in Jinzhou now? Is he okay? Is he injured? Does my family know?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "This old man, he can't take care of himself no matter what. My mom must be so worried!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 375,
+              "PlotLineKey": "...You and your grandfather really look alike.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Don't worry, Grandpa Zhiyuan is safe. I came down from the mountain and accompanied him all the way to Jinzhou.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Grandpa is now in the Patrol Station in Jinzhou, and he is being taken care of.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "Thank you so much for your help. I really appreciate it!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "I'm really sorry for the trouble. I'm so useless, I made a mess of things... I'm sorry, I just want to be alone for a while...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 16
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Rover, I'm afraid I won't be able to escort Zhiyuan back to the city.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 653,
+              "PlotLineKey": "Why should you?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I want to stay.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 654,
+              "PlotLineKey": "Stay here?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 655,
+              "PlotLineKey": "Is it because of Mister Zongye and Zhiyuan?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Yes.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "This is part of the reason.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Actually, up to now, we have found Zhiyuan and seen that he is safe and sound, which is a good result that Mister Zongye has been concerned about.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "On this journey, I have seen a world different from before.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "The unity of the people of Jinzhou, the remembrance and longing on the square, the reliability of the Tian Gong defense, the strictness and responsibility of the officers, the destitution and wrong path of the wanderers...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "And the busyness here, and the beliefs and courage of the people that Zhiyuan has shown me, whether in the past or now...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I haven't seen what the battlefield is like, but I seem to have some understanding of war.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "At this moment, the front not far away should be much more difficult and intense than what we have seen along the way.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Countless lives have been lost in this war...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Master Rongfu once told me, \"The best sages gain enlightenment in the military, the mediocre sages gain enlightenment in the bustling cities, and the worst sages gain enlightenment in seclusion.\"",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I used to practice in the city, helping the poor, helping the weak, and punishing the evil, all with my own strength, helping with the small things I saw in life.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "This journey has made me start to understand the meaning of the first sentence in Master's words.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "So, I want to stay. This is what I want to do for Jinzhou now, and it is also an opportunity for me to continue to pursue and gain insight.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 656,
+              "PlotLineKey": "Alright, I respect your decision.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "You don't have to worry about me anymore, I have made up my mind!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 657,
+              "PlotLineKey": "What have you decided?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "I have decided to return to Jinzhou City and contribute to the war there!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 658,
+              "PlotLineKey": "Why did you suddenly have a change of heart?",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 659,
+              "PlotLineKey": "You're not tricking me, are you?",
+              "PlayVoice": false,
+              "JumpToId": 19
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "Hehe, actually, the words of Master Jianxin inspired me. The things she used to help others with, I think I can do them too.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 21
+        },
+        {
+          "Id": 19,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "It's true! These are all my heartfelt words!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "The words of Master Jianxin inspired me. The things she used to help others with, I think I can do them too.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 21
+        },
+        {
+          "Id": 21,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "And coming here, I have also seen the true face of the front line.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "I can't compare to the Resonators, and continuing to stay here might indeed be a burden, but after returning to the city, there are many things I can do!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "So why shouldn't I go back to a place that suits me better? That way, I might be able to help more people, just like Master Jianxin, and also gain more recognition.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 660,
+              "PlotLineKey": "It seems you have really come to your senses.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "That goes without saying, don't underestimate me.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "As for you, don't worry about me anymore. I feel bad enough for making you go through all this trouble.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "I'll wait here. If the rear troops return to the city, I'll go back with them. I won't cause any more trouble for the people here.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "After I go back, I'll take care of Grandpa first, and then I'll go help. You can rest assured.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 661,
+              "PlotLineKey": "I trust you.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "It seems we all have made new decisions.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 662,
+              "PlotLineKey": "I support your decision.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 663,
+              "PlotLineKey": "But I can't stay here for too long.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 29,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I understand. Since that's the case, why don't we part ways here?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 664,
+              "PlotLineKey": "Alright. Take care of yourselves.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "Zhiyuan",
+          "PlotLineKey": "Goodbye, Rover.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Have a safe journey and hope to see you again.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 18
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Us running into Master Jianxin was a one-off incident. If the mangosteen indicates something about war, what is Madam Magistrate trying to convey?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1605,
+              "PlotLineKey": "That civilizations are born from war and suffer from war.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1606,
+              "PlotLineKey": "Perhaps she wants me to meet someone.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1607,
+              "PlotLineKey": "Perhaps the moment hasn't arrived yet.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1608,
+              "PlotLineKey": "She's just giving me a chance to do a certain thing.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Have you thought of something, Rover?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Rover",
+          "PlotLineKey": "I think...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1609,
+              "PlotLineKey": "(Mention the Tacet Discord outbreak.)",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 1610,
+              "PlotLineKey": "(Mention the mangosteen's route of transportation.)",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 1611,
+              "PlotLineKey": "(Mention the general you saw.)",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "So Madam Magistrate wants to tell us about the TD outbreak?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "If those Tacet Discords break through our defenses, it would be a disaster for not just Huanglong, but for all of humanity...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "So Madam Magistrate wants to tell us something about the mangosteen's route of transportation?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "That quartermaster said the mangosteens are transported by boat from the <span style=\"color:#ffd12f;\" class=\"font-bold\">South</span>.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "So Madam Magistrate wants to tell us about General Jiyan, or about the war against Tacet Discords?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "We haven't reached the frontlines yet, but I can already smell the iron in the air... I sense tension and unease. Our soldiers stationed at the borders... I hope they are okay...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Food...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 18,
+          "Speaker": "Narrator",
+          "PlotLineKey": "You now know the mangosteen has something to do with the war. But in what way? What is Jinhsi trying to tell you? As you ponder these questions, vivid images flood your mind.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 19
+    },
+    {
+      "Title": "Ask Jianxin about how it went for her"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Master Jianxin, have you found the person you're looking for?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Yes, I've found Zhiyuan. We will return to the city with the logistics team. We will go find Mr. Zongye to let him know he is safe.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1316,
+              "PlotLineKey": "I heard Zhiyuan didn't want to leave?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 1317,
+              "PlotLineKey": "I see. Farewell, Master Jianxin.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Zhiyuan is a man full of courage. Influenced by his veteran grandpa's tales, he longs to join the military and aid in humanity's battle against Tacet Discords.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "The journey with you has exposed me to immense suffering, but the battles on the frontline must be even more brutal than what I've witnessed.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Countless lives have been lost in this war...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Master Rongfu once told me, \"The best sages gain enlightenment in the military, the mediocre sages gain enlightenment in the bustling cities, and the worst sages gain enlightenment in seclusion.\"",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I do share some of Zhiyuan's feelings.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "However, Zhiyuan disagreed with the intense training and tests required to join the military. He saw no distinction between ordinary people and Resonators, and believed he could contribute on the battlefield, however small that contribution might be.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1318,
+              "PlotLineKey": "I agree with him.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1319,
+              "PlotLineKey": "Everyone has a part to play.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1320,
+              "PlotLineKey": "He's only causing trouble by staying on the battlefield.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1321,
+              "PlotLineKey": "He can contribute better without fighting on the frontlines.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I, too, found what Zhiyuan said was reasonable to an extent, and I couldn't change his mind with words. So I tried to imagine what my masters would do. They'd set up a spar in this case. And if I won, they'd let me do what I wanted.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1322,
+              "PlotLineKey": "So you beat him up?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1323,
+              "PlotLineKey": "Anything that works for you, I guess.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I didn't mean to beat him up for nothing. My masters taught me valuable lessons through sparring, and I gained important insights from those fights. Now, who do you think won that fight?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1324,
+              "PlotLineKey": "You pretended to lose.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 1325,
+              "PlotLineKey": "You won.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "\"The shape changes, but not the forms; the more it moves, the more it yields. Less thinking, more knowing. Simplify for clarity.”",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Yes, I pretended to lose, but Zhiyuan saw it through.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "After our fight, Zhiyuan admitted he saw the gap between Resonators and ordinary people. He seemed to realize how he was still far from being able to fight the Tacet Discords.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "He realized how he was just trying to convince himself that he could make a difference, not wanting to acknowledge his own limitations. Fighting on the battlefield requires physical and mental strength, and he was not yet prepared for that.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 15,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "\"All tangles untied, all glare tempered, all dust smoothed. It is like a deep pool that never dries. ” How true! I've come to understand this line more.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I promised not to use my Forte in the battle, but Zhiyuan still couldn't take a single blow from me.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "After his defeat, Zhiyuan seemed to realize his weakness. Talking about confronting the Tacet Discords on the battlefield would be mere lip service, he said. He was just trying to convince himself that he could make a difference, not wanting to acknowledge his own limitations.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 18,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "I heard you two still have other matters to attend to. When you have the time, let's catch up at Liuxian Teahouse.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "It's my great pleasure to have met you.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1326,
+              "PlotLineKey": "Farewell.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1327,
+              "PlotLineKey": "See you.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Type": "Outline",
+          "Id": 32,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Reuniting with Jianxin, you learn she has successfully found Zhiyuan and convinced him to return to Jinzhou. This journey has been enlightening for her, and she looks forward to seeing you and Yangyang again.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Discuss your plans with Yangyang"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Us running into Master Jianxin was a one-off incident. If the mangosteen indicates something about war, what is Madam Magistrate trying to convey?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1338,
+              "PlotLineKey": "That civilizations are born from war and suffer from war.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1339,
+              "PlotLineKey": "Perhaps she wants me to meet someone.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1340,
+              "PlotLineKey": "Perhaps the moment hasn't arrived yet.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1341,
+              "PlotLineKey": "She's just giving me a chance to do a certain thing.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Have you thought of something, Rover?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Rover",
+          "PlotLineKey": "I think...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1342,
+              "PlotLineKey": "(Mention the Tacet Discord outbreak.)",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 1343,
+              "PlotLineKey": "(Mention the mangosteen's route of transportation.)",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 1344,
+              "PlotLineKey": "(Mention the general you saw.)",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "So Madam Magistrate wants to tell us about the TD outbreak?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "If those Tacet Discords break through our defenses, it would be a disaster for not just Huanglong, but for all of humanity...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "So Madam Magistrate wants to tell us something about the mangosteen's route of transportation?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "That quartermaster said the mangosteens are transported by boat from the <span style=\"color:#ffd12f;\" class=\"font-bold\">South</span>.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "So Madam Magistrate wants to tell us about General Jiyan, or about the war against Tacet Discords?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "We haven't reached the frontlines yet, but I can already smell the iron in the air... I sense tension and unease. Our soldiers stationed at the borders... I hope they are okay...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 18,
+          "Speaker": "Narrator",
+          "PlotLineKey": "You now know the mangosteen has something to do with the war. But in what way? What is Jinhsi trying to tell you? As you ponder these questions, vivid images flood your mind.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Rover?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Rover",
+          "PlotLineKey": "According to Baizhi, the leaf showed residual fluctuations of Tacet Discords.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Rover",
+          "PlotLineKey": "Those fluctuations pointed to a certain set of coordinates.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "And that is... Qichi Village, in the Central Plains.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 5,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Inspired by Yangyang's words, you close your eyes and tap into your intuition, pinpointing the last token's location: Qichi Village in the Central Plains.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 27
+    },
+    {
+      "Title": "Stand your ground. Defeat all Tacet Discords"
+    },
+    {
+      "Title": "Stand your ground. Defeat all Tacet Discords"
+    },
+    {
+      "Title": "Stand your ground. Defeat all Tacet Discords"
+    },
+    {
+      "Title": "Stand your ground. Defeat all Tacet Discords"
+    },
+    {
+      "Title": "Quest_139000029_ChildQuestTip_0_86"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "What's the matter? Are you alright?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1150,
+              "PlotLineKey": "I... I had a vision.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1151,
+              "PlotLineKey": "I may have resonated with a Tacet Discord.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "I was worried... You just stood there and gazed into the distance. You were unresponsive when I tried talking to you. What did you see?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Rover",
+          "PlotLineKey": "It felt as if I was seeing through the eyes of a Tacet Discord. I think... I saw what was happening in the Norfall Barrens.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1152,
+              "PlotLineKey": "(Describe the general in teal first.)",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 1153,
+              "PlotLineKey": "(Describe the woman in red first.)",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "An imposing warrior wielding the power of a <ano=teal dragon>Qingloong</ano>...  The Qingloong is the Midnight Rangers' emblem. It's also the symbol of General Jiyan, the leader of all Midnight Rangers.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "The front lines are not far from here. General Jiyan must be there, fighting alongside our soldiers to keep the Tacet Discords away.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1154,
+              "PlotLineKey": "But I've never met him.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "It doesn't seem like a coincidence. We arrived near the battlefield right when General Jiyan was leading an attack against the Tacet Discords...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "A woman in red who can control the Tacet Discords...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Could it be... One of the Fractsidus...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Your vision... It might be what was happening on the battlefield not far away...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1155,
+              "PlotLineKey": "It's real.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1156,
+              "PlotLineKey": "Something's not right.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "The battle itself is a clear sign of an anomaly.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "The Streams from the Norfall Barrens feel more suffocating than ever.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Rover... something on that battlefield must be connected to you, though we have no idea what it is.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1157,
+              "PlotLineKey": "There's something inside me.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 1158,
+              "PlotLineKey": "There's always been a voice.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Resonate with Tacet Discords...?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 0
+        },
+        {
+          "Id": 14,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "But I didn't hear anything... or sense any frequencies.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 0
+        },
+        {
+          "Id": 0,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1659,
+              "PlotLineKey": "Whatever it is.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1661,
+              "PlotLineKey": "Maybe I can...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Type": "Outline",
+          "Id": 31,
+          "Speaker": "Narrator",
+          "PlotLineKey": "You recount the visions to Yangyang. She can't explain it but senses a connection between you and something on that battlefield.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Rover?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Rover",
+          "PlotLineKey": "According to Baizhi, the leaf showed residual fluctuations of Tacet Discords.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Rover",
+          "PlotLineKey": "Those fluctuations pointed to a certain set of coordinates.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "And that is... Qichi Village, in the Central Plains.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 5,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Inspired by Yangyang's words, you close your eyes and tap into your intuition, pinpointing the last token's location: Qichi Village in the Central Plains.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 3,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "As I make myself reflect on my goals and plans, those voices in the Streams become clearer and everything starts to make more sense.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Rover, perhaps you can give it a try?",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

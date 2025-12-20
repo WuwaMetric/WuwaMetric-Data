@@ -1,0 +1,119 @@
+{
+  "Id": 151000001,
+  "Name": "海风中失落的湛蓝回声·下",
+  "Description": "前往黑海岸下层，与库可可一起帮助被困的洄游鱼",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 151000001,
+  "ShowQuestList": [],
+  "QuestDesc": "前往黑海岸下层，与库可可一起帮助被困的洄游鱼",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 151000000,
+      "PreQuestName": "海风中失落的湛蓝回声·上"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "库可可",
+          "PlotLineKey": "{PlayerName}，准备好了我们就立刻出发吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "库可可",
+          "PlotLineKey": "前往污染位置的路有点复杂，时间有限，我刚刚和系统申请了守岸人姐姐的传送门临时权限。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "库可可",
+          "PlotLineKey": "我们直接开门过去吧！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 442,
+              "PlotLineKey": "你居然还有这种功能？",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 443,
+              "PlotLineKey": "什么时候我也能学这个？",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "库可可",
+          "PlotLineKey": "库库库，我可是{PlayerName}大师的助手，掌握的技能不够丰富怎么行！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "库可可",
+          "PlotLineKey": "如果要主动使用的话……{PlayerName}你需要先让自己的大脑和泰缇斯系统相连，然后再……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 444,
+              "PlotLineKey": "还是算了吧……",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "库可可",
+          "PlotLineKey": "其实，就和上次噬亡星事件时一样，你也可以通过装置授权来激活传送门。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "库可可",
+          "PlotLineKey": "唔，总之这次我先把门打开了，我们快点赶过去吧！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 16,
+          "Speaker": "库可可",
+          "PlotLineKey": "库库库，其实刚刚在黑海岸上层已经偷偷拍了一张了，我将它们冲印出来一并作为谢礼送给你！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "库可可",
+          "PlotLineKey": "说起来，刚刚守岸人姐姐有开门帮助过我们呀……{PlayerName}要不要去见见她呢。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "库可可",
+          "PlotLineKey": "那些洄游鱼，她是不是也很久没有见到了呢……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

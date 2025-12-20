@@ -1,0 +1,608 @@
+{
+  "Id": 880000019,
+  "Name": "Dem Ruhm des Mondes nachjagen",
+  "Description": "Nicht weit von Yumyum Haven triffst du auf Zhezhi, die Probleme hat, Inspiration für ihre Gemälde zu finden. Frage sie danach.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000019,
+  "ShowQuestList": [],
+  "QuestDesc": "Nicht weit von Yumyum Haven triffst du auf Zhezhi, die Probleme hat, Inspiration für ihre Gemälde zu finden. Frage sie danach.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 880700004,
+      "PreQuestName": "Auf der Mondjagd"
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 323,
+              "PlotLineKey": "(Sie steht hier schon seit dem Nachmittag ...)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Hmm … „Fang die Stände und den Wunschbaum zusammen ein, um die festliche Atmosphäre zu zeigen … idealerweise mit dem Mond im Hintergrund.“ Ugh … sollte ich einen anderen Ort zum Malen finden?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 324,
+              "PlotLineKey": "Was machst du hier?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Mit diesen Anforderungen … die Komposition … stimmt auch nicht …",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Oh … Entschuldigung, hast du mit mir gesprochen?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 325,
+              "PlotLineKey": "Ja.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 326,
+              "PlotLineKey": "Ich dachte, ich rede mit der Hand, die hinter dir schwebt.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Was!? Was ist hinter mir?!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 327,
+              "PlotLineKey": "Nur Spaß, entspann dich.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Bitte erschreck mich nicht so …",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Sorry … Ich habe dich gerade nicht bemerkt …",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 328,
+              "PlotLineKey": "Ich erinnere mich, dein Name ist …",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Also erinnert {PlayerName} sich an mich? Aber habe ich {Male=ihm;Female=ihr} meinen Namen gesagt? Wir haben uns nur einmal getroffen, also ist es normal, wenn {Male=er;Female=sie} sich nicht an mich erinnern kann …",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(Soll ich mich noch einmal vorstellen …? Ich sollte etwas tun, damit es nicht peinlich wird, oder? Ugh, was soll ich tun …)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Ich …",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 329,
+              "PlotLineKey": "Zhezhi. Das ist dein Name, oder?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "J-ja! Ich bin Zhezhi. Du hast meinen Namen richtig erraten.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(Oh Gott sei Dank, {Male=er;Female=sie} hat mich nicht vergessen …)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Ich erinnere mich auch an dich! Du hast gesagt, du nennst dich {PlayerName}.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 330,
+              "PlotLineKey": "Das Festival ist vorbei. Gehst du nicht nach Hause?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Nein, die <span class=\"italic\">Schriften von Huanglong</span> haben um ein Gemälde für das Mondjagdfestival gebeten, und ich suche immer noch nach Inspiration … Es ist ein bisschen schwierig, aber ich gehe zurück, sobald es fertig ist.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 331,
+              "PlotLineKey": "Es wird schon ziemlich spät.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Nun ja, es ist nicht das … Moment, ist es wirklich schon so spät?!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 332,
+              "PlotLineKey": "Alle anderen sind gegangen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Das ist … das ist in Ordnung. Ich ziehe ruhige Orte vor … Außerdem wohne ich gleich hier in Jinzhou, nicht weit weg …",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Rover",
+          "PlotLineKey": "(Sie hier alleine zu lassen … fühlt sich nicht richtig an.)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 333,
+              "PlotLineKey": "Hast du schon zu Abend gegessen?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Ich? Ich bin nicht wirklich so hungrig …",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Uh …",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 334,
+              "PlotLineKey": "Lass mich etwas für dich kochen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Du leihst den Ofen im Yumyum Haven, um mit den Zutaten, die du hast, etwas zu kochen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 335,
+              "PlotLineKey": "Ich habe den Herd von Onkel Li ausgeliehen. Komm schon, probier es aus.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Wirklich? Danke … Aber ich habe mein Gemälde noch nicht fertig …",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 336,
+              "PlotLineKey": "Auf nüchternem Magen kann man nicht arbeiten.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 337,
+              "PlotLineKey": "Du kannst essen und gleichzeitig nach Inspiration suchen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Du hast recht … na gut, dann lasse ich es mir schmecken!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Es ist so lecker! Es schmeckt fast so gut wie bei Onkel Li … Nein, mit diesen zusätzlichen Gewürzen schmeckt es sogar noch besser.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 338,
+              "PlotLineKey": "Danke.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 339,
+              "PlotLineKey": "Übrigens, wie war dein Mondjagdfestival?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 31,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Oh, ähm … es war okay, denke ich. Nichts Besonderes, wirklich … Hehe.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 340,
+              "PlotLineKey": "…?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 32,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(Sollte ich ehrlich sein? Nein, nein, ich will {Male=ihm;Female=ihr} keine Sorgen machen. Ein kleiner Schwindel tut nicht weh, oder?)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Eigentlich …",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Ich hatte nicht viel Spaß. Ich hatte in letzter Zeit viel zu tun und musste Fräulein Xiao an ihrem Fächerstand helfen.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Es war anstrengend, dort zu sitzen. Eine Stunde dort und ich würde einen Tag zur Erholung brauchen.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Außerdem konnte ich niemanden finden, der mit mir zum Festival geht. Ich habe das Gefühl, ich kann in überfüllten Orten nicht atmen, aber alleine hingehen war auch irgendwie unangenehm …",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 37,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(Ach, habe ich gerade alles rausgeplappert?! Ist es normal, jemandem, den ich kaum kenne, mein Herz auszuschütten? Komisch … Ich bin nicht mal nervös … bin ich immer so unbeholfen?! Oje …)",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 341,
+              "PlotLineKey": "Verstehe ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 38,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(Denkt {Male=er;Female=sie}, dass ich mich beschwere? Komme ich zu nervig rüber?)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 39,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Ich, äh, ich will nicht sagen, dass ich keine gute Zeit hatte! Dank des Festivals hatte ich viel Arbeit und wurde für die Standbetreuung bezahlt. Ich habe genug verdient, um drei oder vier Monate Schulden abzubezahlen!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(WAS SAGE ICH! Das klingt einfach nur elend!)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 342,
+              "PlotLineKey": "Na ja, wir genießen das Festival jetzt zusammen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 42,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 343,
+              "PlotLineKey": "Auch wenn es nur wir beide sind.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 43,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(… Wir beide? Bedeutet das, dass wir … Nein, nein, ich sollte hier aufhören. Was denke ich überhaupt!?)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 44,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Es ist gut … nur wir beide. Eigentlich fühlt es sich … richtig an.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 45,
+          "Speaker": "Rover",
+          "PlotLineKey": "Die meisten Stände sind geschlossen …",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 46,
+          "Speaker": "Rover",
+          "PlotLineKey": "Aber wir können immer noch Wünsche machen.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Das ist ...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 344,
+              "PlotLineKey": "Hast du jemals einen Wunsch gemacht?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 48,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Noch nicht, aber …",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 345,
+              "PlotLineKey": "Warum nutzt du jetzt nicht die Gelegenheit, um einen Wunsch zu machen?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 49,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Ich …",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 50,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Bevor ich einen Wunsch mache, Rover, kann ich dich um einen Gefallen bitten …?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 51,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Kann-kann ich dich in mein Gemälde aufnehmen? Du müsstest nur für zehn Minuten dort stehen … oder vielleicht fünf … oder drei, versprochen!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 346,
+              "PlotLineKey": "Warum?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 347,
+              "PlotLineKey": "Das ist … eine plötzliche Bitte.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 52,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "I-Ich weiß nicht! Ich habe einfach diesen überwältigenden Drang … Ich möchte dich in dieses Gemälde einbeziehen. Ich habe das Gefühl, ich muss … Nein, ich will es!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 53,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 348,
+              "PlotLineKey": "Ist das für das Magazin?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 54,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 349,
+              "PlotLineKey": "Wäre es nicht etwas unangemessen, mich einzuschließen?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 55,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Nein, ich spreche nicht von dem Gemälde, für das ich bezahlt werde …",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 56,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Dieses Gemälde möchte ich … nur für mich selbst haben.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

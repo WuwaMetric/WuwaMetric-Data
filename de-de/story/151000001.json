@@ -1,0 +1,119 @@
+{
+  "Id": 151000001,
+  "Name": "Das verlorene Azure Echo in der Meeresbrise: Teil II",
+  "Description": "Gehe zur unteren Ebene und rette den gefangenen Aetherfin mit KU-Key",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 151000001,
+  "ShowQuestList": [],
+  "QuestDesc": "Gehe zur unteren Ebene und rette den gefangenen Aetherfin mit KU-Key",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 151000000,
+      "PreQuestName": "Das verlorene Azure Echo in der Meeresbrise: Teil I"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Los, gehen wir, wenn du bereit bist, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Es würde ziemlich lange dauern, dorthin zu laufen, also habe ich vorübergehenden Zugang zu Portalen der Küstenwächterin beantragt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Damit kommen wir viel schneller voran.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 442,
+              "PlotLineKey": "Das geht?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 443,
+              "PlotLineKey": "Wann kann ich das lernen?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Natürlich! Als dein Spitzenassistent muss ich diese Dinge ja wissen.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Wenn du es lernen willst … müsstest du deinen Geist mit dem Tethys-System verbinden und dann …",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 444,
+              "PlotLineKey": "Ich gebe auf.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Du kannst die Portale auch mit deiner besonderen Berechtigung aktivieren, genau wie beim letzten Mal.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Jedenfalls habe ich das Portal für dich geöffnet. Auf geht’s!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 16,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Gern geschehen! Ehrlich gesagt habe ich auch schon eines gemacht, als wir im oberen Gebiet waren! Das drucke ich auch gleich aus!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Übrigens hat uns der Küstenwächterin gerade geholfen. Es wäre schön, wenn wir uns persönlich bei ihr bedanken könnten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Es muss schon eine ganze Weile her sein, seit sie die Aetherfine gesehen hat.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

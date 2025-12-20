@@ -1,0 +1,551 @@
+{
+  "Id": 139700000,
+  "Name": "シューター究極チャレンジ！",
+  "Description": "宵月会には「月壺打ち」という挑戦があるらしい。面白そうだから、熾霞と一緒に参加するしかないよね？\n\nクリア後、新しい「経営仲間」を解放。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700000,
+  "ShowQuestList": [],
+  "QuestDesc": "宵月会には「月壺打ち」という挑戦があるらしい。面白そうだから、熾霞と一緒に参加するしかないよね？\n\nクリア後、新しい「経営仲間」を解放。",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 10,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "おっ、{PlayerName}！あんたもやりに来たの？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 244,
+              "PlotLineKey": "やるって、何を？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "決まってるじゃん、この<ano=つきつぼうち>月壺打ち</ano>だよ。あたしさ、<ano=セイケイ>清渓</ano>に頼まれて、的に試し打ちしてたら、なんか自己記録更新しちゃった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "といっても……<ano=げっついさい>月追祭</ano>の最高記録にはまだまだ及ばないけど。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "何しろうわさでは、その記録保持者は一発でいくつもの的を射抜いたとか……いったいどうやってやったのかしら。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 245,
+              "PlotLineKey": "<ano=シカ>熾霞</ano>だってもう十分すごい。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 246,
+              "PlotLineKey": "目にも止まらぬ早技だ……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "ふふっ、先を見越しておいてよかった。プロ並みのプレイヤーたちのために、挑戦しがいのある<ano=つきつぼうち>月壺打ち</ano>を用意してあるわ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "ただ、<ano=よいづきかい>宵月会</ano>の露店には置き切れないから……<ano=つきつぼうち>月壺打ち</ano>はこの近くの安全エリアに置いてあるの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "<ano=つきつぼうち>月壺打ち</ano>は露店の子どもだましの射撃とは違って、すごく、すごく、すごーく、難しいわよ。うそじゃないわ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "ほ、ほんと？やってみてもいい？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "もちろんよ。ついでに難易度もチェックしてもらえると助かる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "じゃあ、善は急げだ。{PlayerName}、さっそく行ってみよう！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "ここにあるよ、{PlayerName}！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "ふふーん……ほんとに、挑戦しがいがあるといいんだけど……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "……こんなもんなの？難易度は露店のやつより高いと言ってもちょっとだけじゃん！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "そうだ、そうだ！",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 73,
+              "PlotLineKey": "これでも普通の人には十分難しいんだよ……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "<ano=セイケイ>清渓</ano>が究極チャレンジを用意してくれてることに期待するしかないみたいだね。きっとまだ奥の手を隠してるんだと思うよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "彼女ってああ見えて切れ者なんだよ。でなきゃ、あの鬼教官だって新兵の訓練を任せたりしないでしょ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 74,
+              "PlotLineKey": "考えすぎじゃないかな……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 75,
+              "PlotLineKey": "それなら願ったり叶ったりなんじゃ？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "とにかく、<ano=セイケイ>清渓</ano>のおかげで闘志に完全に火がついた！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "彼女が他にどんなすごいものを用意してあるか確かめよう！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "……あった、{PlayerName}！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "この最終チャレンジに挑戦してみよう！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "すごかったな、射撃してて汗かいたの久しぶりだ。ふふっ、<ano=セイケイ>清渓</ano>、ほんとにすごいの仕込んでたんだね……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 85,
+              "PlotLineKey": "もう娯楽ってレベルの代物じゃないね。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 86,
+              "PlotLineKey": "ヒヤヒヤした。まだ手が震えてる。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "最後のチャレンジ、難しかったけど、なんとかクリアできたね、{PlayerName}！ハイタッチしよう、イェーイ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "<ano=シカ>熾霞</ano>はうれしそうに手を伸ばし、あなたとハイタッチした。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "へへっ、あたしと{PlayerName}のコンビは、天下無敵だ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 87,
+              "PlotLineKey": "無敵だ！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "じゃあ、<ano=セイケイ>清渓</ano>のところに戻ろう！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "おかえり。すべてのチャレンジをクリアしたようね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "もちろん！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "難易度はどうだった？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 115,
+              "PlotLineKey": "ちょうどよかった。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 116,
+              "PlotLineKey": "ちょっと簡単すぎた。",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 117,
+              "PlotLineKey": "すごく難しかった！",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "あらそう……{PlayerName}がそう言ってくれるなら、<ano=つきつぼうち>月壺打ち</ano>チャレンジは一般にも開放して大丈夫そうね。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 5,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "やっぱり簡単だった？そうかぁ……もう少し難易度を上げたほうがよさそうね。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "あらら、{PlayerName}でも難しいのね。わかったわ。じゃあ、もう少し難易度を下げないといけないわね……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "ちょっと、<ano=セイケイ>清渓</ano>、なんであたしには聞いてくれないの？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "聞くだけ無駄でしょ。こう答えるに決まってるんだから――",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "「あたしの手にかかればちょろいもんだ」ってね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "えっ、なんでわかったの！？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 118,
+              "PlotLineKey": "……<ano=シカ>熾霞</ano>はわかりやすいから。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 119,
+              "PlotLineKey": "負けず嫌いって長所だよ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "そうだ！<ano=シカ>熾霞</ano>、射撃の腕を上げる秘訣を教えてくれない？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "可能なら、それを<ano=よき>夜帰</ano>軍じゅうに広めましょうよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "秘訣？そりゃ、「一にも二にも努力！」でしょ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "それだけなの……それは秘訣として広められないわね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "ええと、他には……「ヒーローたらんとする気持ち」だね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "すばやく銃を抜いて正確に撃ち抜く技術がないと、人を守ることも、悪事を止めることもできないでしょ。ヒーローたらんとするには、自分の弱点をがんばってなくさないと！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 120,
+              "PlotLineKey": "いかにも<ano=シカ>熾霞</ano>らしい答えだね。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 121,
+              "PlotLineKey": "そうだね、ヒーローは無敵じゃないと！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "そうかぁ……確かにそうね。いちばん大事なのは、訓練ではなく、人を守りたいという強い気持ちなのね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "清渓（セイケイ）",
+          "PlotLineKey": "ありがとう、<ano=シカ>熾霞</ano>。あなたが教えてくれたこと、教官に伝えるわ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "どういたしまして。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "あっ、そうだ。{PlayerName}、<ano=よいづきかい>宵月会</ano>って何かおいしいものあったっけ？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "<ano=つきつぼうち>月壺打ち</ano>に夢中になりすぎて、すっかり忘れてた。<ano=よいづきかい>宵月会</ano>に来たのは、おいしいものを探すためだったんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "緊張がとけたら、急にお腹がすいてきてさ……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 122,
+              "PlotLineKey": "食べ物の露店、いろいろあるよ。",
+              "PlayVoice": false,
+              "JumpToId": 23
+            },
+            {
+              "TextId": 123,
+              "PlotLineKey": "「激辛あんかけ魚団子」がオススメ！",
+              "PlayVoice": false,
+              "JumpToId": 24
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "よし……グルメハンター<ano=シカ>熾霞</ano>、見参！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 25
+        },
+        {
+          "Id": 24,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "激辛あんかけ魚団子……聞いただけでもうよだれが出そう！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 25
+        },
+        {
+          "Id": 25,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "{PlayerName}、一緒に行かない？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 124,
+              "PlotLineKey": "いいよ。",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 125,
+              "PlotLineKey": "また今度。",
+              "PlayVoice": false,
+              "JumpToId": 27
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "イェーイ！では、出発！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "オッケー。じゃあ、<ano=よいづきかい>宵月会</ano>楽しんでね！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "Id": 165000001,
+  "Name": "セーラーの遺産",
+  "Description": "海に宝を残す人が必ずしも海賊とは限らない。ただのセーラー……もしくはどこかのキャプテンかもしれない。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 165000001,
+  "ShowQuestList": [],
+  "QuestDesc": "海に宝を残す人が必ずしも海賊とは限らない。ただのセーラー……もしくはどこかのキャプテンかもしれない。",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "老人と魚と海"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "トレット",
+          "PlotLineKey": "侍祭ちゃんじゃないか。どうしてまたここに？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "トレットさん、「セーラーの宝物」についてもう少し詳しく教えてくれませんか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "トレット",
+          "PlotLineKey": "教団の人ってそんなに宝物に興味があるのかい？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "フィービー",
+          "PlotLineKey": "あ、えっと、そうではなくて……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "トレット",
+          "PlotLineKey": "いや、悪く言うつもりはないんだ。宝探しに来る人はたくさんいる。まあ、お前達が見つけられるかは分からないけどな。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "それはどうかな？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "トレット",
+          "PlotLineKey": "自信があるようだな。だが、<ano=サウザンドアイランド>千島の国</ano>時代は遠い昔の話。語り継がれる物語以外に、伝説を裏付ける手がかりはほとんど残っていない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "トレット",
+          "PlotLineKey": "だから、みんな群島を手当たり次第に探しているんだけど、宝物はまだ見つかっていないんだ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 26,
+              "PlotLineKey": "そのセーラーの他の話はある？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "トレット",
+          "PlotLineKey": "他の話？そうだなぁ……彷徨うゴンドラとか、フィッシュキングの主とか……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 27,
+              "PlotLineKey": "彷徨うゴンドラについて知りたい。",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 28,
+              "PlotLineKey": "フィッシュキングの主について知りたい。",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 29,
+              "PlotLineKey": "もう聞きたいことはない。",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "トレット",
+          "PlotLineKey": "あのセーラーはゴンドラに乗ってここへ来たそうだ。その船は彼が消えた後も群島の間を彷徨い続け、持ち主の帰りを待っているという。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 10,
+          "Speaker": "トレット",
+          "PlotLineKey": "フィッシュキングとは、誰にも釣ることができないと言われている魚のことだ。だが、伝説によるとあのセーラーはこの海域でフィッシュキングを釣り上げたことがあるらしい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "トレット",
+          "PlotLineKey": "フィッシュキングを釣り上げた者は彼の他いない。だから、島には「あのセーラーと同格の者だけが、フィッシュキングの応えを得られる」という言い伝えが残っているんだ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 12,
+          "Speaker": "トレット",
+          "PlotLineKey": "大体こんなものだな。さ、宝探しに挑戦してみてくれ。見つけられるかどうか、楽しみだな、ハッハッハ！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 0,
+          "Speaker": "フィービー",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "フィービーは<ano=おんがい>音骸</ano>と交流を試み、伝えられた情報を理解しようとしている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "何か知っているみたいです。頑張って私たちに方向を示してくれています。ゴンドラが指し示した場所に行ってみましょうか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "行ってみよう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アハブ",
+          "PlotLineKey": "また会ったな。む、それは何だ？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "フィービーは宝探しの件をアハブに話し、読めなかった文章を見せた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アハブ",
+          "PlotLineKey": "これがあの伝説のセーラーが残したものなのか！？はやく、はやく見せてくれ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アハブ",
+          "PlotLineKey": "ふむ……箱の中のこの文章、メッキが邪魔で字が見えんな……よし、わしに任せろ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "アハブは特殊な植物から、汁を絞り出し、それを箱に塗った。すると、箱の中の文章がはっきりと見えるようになった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アハブ",
+          "PlotLineKey": "こいつはこの地特有の文字を暗号化する方法だ。ほれ、これで文章が読めるようになったぞ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "アハブ",
+          "PlotLineKey": "「すぐに成就できる偉業はない。秘められた真実のパズルは少しずつ嵌めていかなければならない」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "フィービー",
+          "PlotLineKey": "つまり……本当の宝物を見つけるには、他の欠片を集めて宝の地図を完成させないといけない、ということですか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "フィービー",
+          "PlotLineKey": "{PlayerName}さん、もっと注意深く探さないといけないみたいですね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "アハブ",
+          "PlotLineKey": "伝説のセーラーが最後に残したものは……膨大な財宝？それとも古代の秘宝？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "フィービー",
+          "PlotLineKey": "もしかしたら、フィッシュキング……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "アハブ",
+          "PlotLineKey": "……ハッハッハ、まさか教団の者がそんな面白いことを言うとはな。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 53,
+              "PlotLineKey": "ありがとう。宝を見つけたら、あなたにも見せるよ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "アハブ",
+          "PlotLineKey": "気持ちだけ受け取っておこう。だが、わしは現況に満足しておる。何も欲しいものはない。見つけたものは、自分たちで持ってくといい！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 0,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "まさか本当に何か見つかるとは……どれどれ……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "宝の地図だ。でも、一部欠けている。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "箱の中に何か言葉があるみたいですね。うーん、見たことのない文字……読めません。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 39,
+              "PlotLineKey": "地元の人に聞いてみよう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "{PlayerName}さん、ここで面白い話を聞きました。興味はありませんか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "どんな話？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "この島の漁師に代々語り継がれている言い伝え、<ano=サウザンドアイランド>千島の国</ano>時代のかつてのリナシータのお話。リジョリ群島はここに亡命してきたとあるセーラーによって支配されていたんだそうです。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "フィービー",
+          "PlotLineKey": "そのセーラーは尽きることのない富を持っていました。ですが、誰もその富の出所は知らなかったとか……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "フィービー",
+          "PlotLineKey": "彼は水のように流れる黄金で堅固な城を築き、この地の人々に豊かで平和な暮らしをもたらしました。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "フィービー",
+          "PlotLineKey": "しかし、人々が彼を称える祠を建てようとした矢先、彼は突然姿を消してしまったのです。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "フィービー",
+          "PlotLineKey": "彼は海に出て自分の暗い過去に復讐するために旅立った、と言われています。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "フィービー",
+          "PlotLineKey": "復讐の道を辿った彼が戻ることは二度となく……貴重な宝物をここリジョリ群島に残しました。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "フィービー",
+          "PlotLineKey": "そんなすごい人物が残した宝物……一体どんなものなのでしょうか？彼にとってとても大切なものとか……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 11,
+              "PlotLineKey": "探しに行こう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 12,
+              "PlotLineKey": "{Male=お宝が俺を待っている！;Female=お宝が私を待っている！}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "フィービー",
+          "PlotLineKey": "ふふっ、漂泊者さんなら食いついてくれると思っていましたよ。この伝説について詳しい人に話を聞いてみましょう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アハブの記録",
+          "PlotLineKey": "「きっともう、誰かが伝説のセーラーが残した宝を見つけているだろう」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アハブの記録",
+          "PlotLineKey": "「だが、見つけられないのなら、海藻を絞り出し、液を上に垂らすのだ」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アハブの記録",
+          "PlotLineKey": "「海藻の種類は何かって？どんな海藻でも構わん。セーラーは、一つの海藻を探し出す暇なんて持っておらんからな」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アハブの記録",
+          "PlotLineKey": "「すぐに成就できる偉業はない。秘められた真実のパズルは少しずつ嵌めていかなければならない」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アハブの記録",
+          "PlotLineKey": "「さあ……探せ。そして宝の地図を繋ぎ合わせるといい。お主らは何を見つけるのか、楽しみだな」",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

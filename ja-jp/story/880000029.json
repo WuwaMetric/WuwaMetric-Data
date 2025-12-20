@@ -1,0 +1,993 @@
+{
+  "Id": 880000029,
+  "Name": "秘伝の占術",
+  "Description": "董さんがとある先輩が残した、「問月占い」の商売繁盛に役立つ宝物を発見したらしい。\n\nクリア後、新しい「経営仲間」を解放。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000029,
+  "ShowQuestList": [],
+  "QuestDesc": "董さんがとある先輩が残した、「問月占い」の商売繁盛に役立つ宝物を発見したらしい。\n\nクリア後、新しい「経営仲間」を解放。",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 1,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "——すまない、道士のはしくれとはいえ、<ano=ふうすい>風水</ano> や <ano=さんめいがく>算命学</ano>のたぐいには詳しくないんだ……そもそも、いうほど得意分野じゃない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "こういうものは、運命には逆らわず、成り行きに任せるべきだろう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "そうか……ふむ、それなら仕方あるまい。別の方法を考えるかの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "それでもいいと思う。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 780,
+              "PlotLineKey": "{Male=何かあったのか？;Female=何かあったの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "なんだ、{PlayerName}殿じゃないか。別に、<ano=トウ>董</ano>さんにおみくじの説明をしてあげていただけさ。でも……<ano=せんじゅつ>占術</ano>は、本当に得意じゃないんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "話せば長くなるが……わしも多少は<ano=せんじゅつ>占術</ano> や <ano=にんそうがく>人相学</ano>を心得ているとはいえ、中途半端な腕前なんじゃ。もっとすごい力を借りなきゃならんと思っての。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 781,
+              "PlotLineKey": "{Male=もっとすごい力？;Female=もっとすごい力？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "うむ。何年か前、<ano=こんしゅう>今州</ano>に流浪の<ano=さんめいがく>算命学</ano>の師がやってきての。<ano=さんめい>算命</ano>で天命を知ることができると評判で、訪れる人々が後を絶たなかったそうじゃ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "中でも、<ano=とうげつ>問月</ano>占いが神がかっていて……っと、{PlayerName}は知らんじゃろうな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "<ano=とうげつ>問月</ano>占いというのは、特殊な焼き方をした陶器のお椀に半分の水をいれ、<ano=ほうけつ>法訣</ano>を念じ、満月を水面に映して吉凶を占うんじゃ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "あの<ano=さんめいがく>算命学</ano>の師が<ano=とうげつ>問月</ano>占いをする時は、お椀の水が金色の光を放ち、中の月は仙境のようにはるか彼方に映るそうじゃよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "残念なことに今は消息不明じゃが、<ano=こんしゅう>今州</ano>を離れる時に、手紙とおみくじを残していったそうじゃ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "手紙には、<ano=こんしゅう>今州</ano>で異人に会い、{Male=彼;Female=彼女}と交流してから自分の能力不足に気づき、それからは<ano=せんじゅつ>占術</ano>の本を見ても面白くなくなった、と書かれていた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "<ano=とうげつ>問月</ano>占いはやめることにしたが、流浪の半生をともにしてきたお椀を捨てるのは惜しい。そこで、彼は<ano=こんしゅう>今州</ano>のとある場所にお椀を隠すことにしたそうじゃよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "おみくじを手がかりにして、いつか誰かがそれを見つけることを祈っての。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 782,
+              "PlotLineKey": "じゃあ、<ano=カンシン>鑑心</ano>に解読を依頼していたおみくじは……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "その通り、<ano=さんめいがく>算命学</ano>の師が残したものじゃ。そのお椀とやらを使えば、未来のことが何でも分かって、露店に置いたら商売繁盛の効果があると思っての。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "その<ano=さんめいがく>算命学</ano>の師の話を聞いたのは初めてだが、<ano=トウ>董</ano>さんの話にも一理ある。この業界では、確かに商売繁盛の効果がどうとかいう言い方があるから。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "そのお方はきっと、自分が残していった宝物で<ano=げっついさい>月追祭</ano>が再び異彩を放つのを願っておられるのだろう。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 783,
+              "PlotLineKey": "{Male=それで、おみくじの内容は？;Female=それで、おみくじの内容は？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "おお、ほっほっ、話に夢中になって忘れるところじゃった……おみくじの内容は、「己を知りたくば、長台にて湖を眺めん。心赤子に還り、万事順調なり」。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "おみくじの内容は、<ano=さんめいがく>算命学</ano> や <ano=せんじゅつ>占術</ano>とは関係なさそうだから……まったく糸口がつかめないんだ。{PlayerName}はどう思う？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 784,
+              "PlotLineKey": "{Male=どこかの場所について触れている気がする。;Female=どこかの場所について触れている気がする。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "湖の景色が見られる長台か……？<ano=こんしゅう>今州</ano>にそんな場所、あったっけな？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "……そういえば、わしも前に似たような場所を探してみたことがあるが、見つからなかった。当時は、ご縁がなかったのかもしれん。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "ともかく、手がかりさえあればいいんだ！そのお椀探し手伝うよ、<ano=トウ>董</ano>さん！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 785,
+              "PlotLineKey": "{Male=ああ、俺たちに任せてくれ。;Female=うん、私たちに任せて。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "それはありがたい！見つかったら、改めて礼をさせてもらうぞい。<ano=カンシン>鑑心</ano>、{PlayerName}、無事に見つかることを願っておるぞ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "{Male=「長台にて湖を眺めん」……ここのことかな。;Female=「長台にて湖を眺めん」……ここのことかな。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "{Male=それから……「心赤子に還り、万事順調なり」。この辺りで、子供を見つけないといけないのかもな。;Female=それから……「心赤子に還り、万事順調なり」。この辺りで、子供を見つけないといけないのかも。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "確かに。辺りに、おみくじの手がかりが隠されているかもしれない。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "湖畔の女の子",
+          "PlotLineKey": "るんるるん～",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "こんにちは、お嬢ちゃん。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "湖畔の女の子",
+          "PlotLineKey": "あれ？ひょうたんを背負ったお姉ちゃんに、{Male=お兄ちゃん;Female=もう1人のお姉ちゃん}……わたしに何か用？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 803,
+              "PlotLineKey": "{Male=この辺りで、不思議なものを見かけなかった？;Female=この辺りで、不思議なものを見かけなかった？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "湖畔の女の子",
+          "PlotLineKey": "不思議なもの……？ここの湖にはたまにしか来ないから、不思議なものっていえば……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "湖畔の女の子",
+          "PlotLineKey": "……あ！思い出した、猫ちゃん！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "猫……？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "湖畔の女の子",
+          "PlotLineKey": "うん！この近くに、いつも猫ちゃんがじっとして集まってる場所があるの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "湖畔の女の子",
+          "PlotLineKey": "湖へ来るたびに、決まって見かけるの。ママは猫ちゃんがお魚さんを取りたいだけだって言うんだけど、不思議だなって……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "うーん、猫？{PlayerName}はどう思う？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 804,
+              "PlotLineKey": "{Male=関係あると思うな。;Female=関係あると思うよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 805,
+              "PlotLineKey": "おかしな点があるなら、いっそのこと見に行ってみよう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "湖畔の女の子",
+          "PlotLineKey": "あの……{Male=お兄ちゃん;Female=もう1人のお姉ちゃん}は、<ano=じゅんい>巡尉</ano>なの？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 806,
+              "PlotLineKey": "{Male=違うよ。;Female=違うよ。}",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 807,
+              "PlotLineKey": "{Male=お宝探しに来たんだ。;Female=お宝探しに来たの。}",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "湖畔の女の子",
+          "PlotLineKey": "じ、じゃあ……悪い人じゃないよね……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "あはは、もちろん。ずっと昔になくなった宝物を探しに来たんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "湖畔の女の子",
+          "PlotLineKey": "た……宝探し！？なんだかすごそう！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "湖畔の女の子",
+          "PlotLineKey": "た……宝探し！？なんだかすごそう！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "湖畔の女の子",
+          "PlotLineKey": "でも、こういう危険なことはママが許してくれないから……応援してるね、頑張って！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "分かった。お嬢ちゃんも応援してくれるなら、必ず宝物を見つけ出してみせるよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "湖畔の女の子",
+          "PlotLineKey": "うん！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "「塵にまみれし<ano=しゃろ>車輅</ano>……」ここのことだったのか。確かに、ここには古い乗り物がある。もう何年も修理していなさそうだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "よし、探してみるよ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "見つけたぞ、{PlayerName}！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "また木箱か、でも重さが違うみたいだ……中にあるのは、紙切れじゃなさそう。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 834,
+              "PlotLineKey": "{Male=そうかもな。;Female=そうかも。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 835,
+              "PlotLineKey": "{Male=算命学の師って、悪趣味なヤツだな。;Female=算命学の師って、悪趣味なヤツ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "またか……「真の己を知らんと欲し、<ano=あまね>遍</ano>く世間を渡らん。利を求めし<ano=あずまや>東屋</ano>は、押し並べて無に帰すなり。」これは、おそらく次の手がかりだろう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "利を求めし<ano=あずまや>東屋</ano>……思うに、これは商業区域のことか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 836,
+              "PlotLineKey": "<ano=カンシン>鑑心</ano>、お見事！",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 837,
+              "PlotLineKey": "{Male=鑑心もコツをつかんだみたいだな！;Female=鑑心もコツをつかんだみたいだね！}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "はは……まあ、適当に言ってみただけだからさ。合ってるかどうかも分からないし……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 838,
+              "PlotLineKey": "{Male=探してみれば分かるさ。;Female=探してみれば分かるよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "そうだね！答えは、もうすぐそこだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "商業区域の店、たくさんあるな……仕方ない、しらみつぶしに探すか。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "{Male=待ってくれ、鑑心。東屋なら、そこまで大きくない店のはずだ。;Female=待って、鑑心。東屋なら、そこまで大きくない店のはず。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "それもそうだな。つまり、小規模の店を探せばいいってことか。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "{PlayerName}の予想通りだ。おみくじが言っていた場所は、ここのことだな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "あれ……木箱が重いぞ？おそらく、お椀はこの中だろう。{PlayerName}、開けてみるか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 850,
+              "PlotLineKey": "{Male=開けてみよう。;Female=開けてみよう。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "<ano=さんめいがく>算命学</ano>の師が残した宝物……ちょっと緊張してきたな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "<ano=カンシン>鑑心</ano>とともに木箱を開けると、中に入っていたのはごく普通の黒いお椀だった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "これが宝物か？見たところ……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 851,
+              "PlotLineKey": "……普通のお椀？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "分かったぞ。これが、いわゆる「<ano=たいおん>大音</ano>は声<ano=な>希</ano>く、<ano=たいしょう>大象</ano>は形無し」ってやつか。貴重な宝物だからこそ、何の変哲もない見た目をしているのかもしれない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "もしかすると、<ano=せんじゅつ>占術</ano>の時だけにその素晴らしさを発揮するのかも。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 852,
+              "PlotLineKey": "{Male=そうかもな。;Female=そうかも。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 853,
+              "PlotLineKey": "{Male=そうなのか……？;Female=そうなの……？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "とにかく、これを持って<ano=トウ>董</ano>さんのところへ戻ろう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "うん、どうやらこれで一件落着みたいだ。ありがとう、{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "金の光を放って占い百発百中の伝説の宝物が、まさかどこにでもあるお椀だったなんてね。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1443,
+              "PlotLineKey": "ちょっと落ち込んでる？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "少しだけ。でも、<ano=トウ>董</ano>さんはすごく嬉しそうだったな。彼にとって、あのお椀は本当の宝物なのかも。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "けど、落ち込んでる原因はそれじゃないんだ。なんというか……申し訳なくて。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "これだけ時間をかけて一緒に謎解きをして、手がかりまで探し回ってもらったのに、こんな結果に終わってしまって……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1444,
+              "PlotLineKey": "{Male=大丈夫。;Female=大丈夫。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1445,
+              "PlotLineKey": "{Male=気にしなくていいよ。;Female=気にしなくていいよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "そういうわけにはいかない。{PlayerName}はいろいろ手伝ってくれたんだ、ちゃんとお礼をしないと。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "お礼……そうだな、お礼、えっと……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "あっ、そうだ！最近茶屋の給料が入ったから、ご飯をごちそうするよ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1446,
+              "PlotLineKey": "{Male=オッケー！やってみる。;Female=オッケー！やってみるね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1447,
+              "PlotLineKey": "{Male=じゃあ、お腹いっぱいいただくよ！;Female=じゃあ、お腹いっぱいいただくね！}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "ああ、どれだけオーダーしてもかまわないから！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "――おお、帰ってきたのかね！どうじゃ、お椀は見つかったか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 872,
+              "PlotLineKey": "{Male=まあ、一応は。;Female=まあ、一応は。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 873,
+              "PlotLineKey": "{Male=宝物っぽくないけどな。;Female=宝物っぽくないけどね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "ふむふむ……かまわんぞい。記録によれば、中に清らかな水を入れ、<ano=とうげつ>問月</ano>占いの呪文を念じればいいそうじゃ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "そうして、月が水面に映ったその時、人知を超えた現象が自ずと起こる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "やっぱり宝物って別格なんだ。じゃあやってみてよ、<ano=トウ>董</ano>さん！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "<ano=トウ>董</ano>さんはお椀に水を半分注ぎ、呪文を念じたが――何も起こらなかった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "待ってよ、金色の光は……？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 874,
+              "PlotLineKey": "{Male=月の光だけだな。;Female=月の光だけだね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 875,
+              "PlotLineKey": "{Male=確かに、金色の光は？;Female=確かに、金色の光は？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "……うむ、あんたらが見つけてきてくれたお椀は、確かにあの師が残したものじゃろ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "しかし、どう見ても、これは<ano=せんじゅつ>占術</ano>に使う普通のお椀じゃな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "そんな……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "巷の噂じゃからの、基本的に話に尾ひれがついておる。あの<ano=さんめいがく>算命学</ano>の師は、確かに特別なお方じゃったかもしれんが……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "あれから長いこと経っているからの、話も大げさになったのかもしれん。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "わしは観劇が趣味なんじゃが、劇に出てくる<ano=さんめんろっぴ>三面六臂</ano>の英雄も、片手で<ano=かなえ>鼎</ano>を軽々と持ち上げる勇者も、大概は後世の人間が付け加えた作り話じゃろうな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "じゃあ、あのお椀は役に立たないってこと？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "何を言う、それは大間違いじゃ！このお椀が、商売繁盛に役立つ宝物であることに変わりはないぞい。宝物の価値は、神秘的な力を秘めているかどうかだけで判断するもんではないからの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "物語も、じゃ。良い物語というのは、紆余曲折があり、人の心を動かすものよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "そ、そうなのか。勉強になったよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "何はともあれ、{PlayerName}と<ano=カンシン>鑑心</ano>に感謝するぞい。わしのために、このお椀を探し出してくれてありがとう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "董（トウ）",
+          "PlotLineKey": "この宝物があれば、わしの<ano=せんじゅつ>占術</ano>の商売も安泰じゃよ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "あった、木箱だ……ん？これは何の匂い？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 818,
+              "PlotLineKey": "薬っぽい匂いがする。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "……猫は、おおかた木箱の中身に吸い寄せられたんだろう。そして、長く保管できる薬材だろうね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "さすがは<ano=さんめい>算命</ano>の大家、しかし分からないな……もしや、この世に神通力なるものが存在して、子供が謎解きする未来を予知していたということか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 819,
+              "PlotLineKey": "{Male=子供は好奇心旺盛だからかもな。;Female=子供は好奇心旺盛だからかもね。}",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 820,
+              "PlotLineKey": "{Male=本当に予知してたのかもしれないな。;Female=本当に予知してたのかもしれないね。}",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "確かに、子供の心は純粋で<ano=せぞく>世俗</ano>にまみれていない。これまでじっくり見てきた限りでは、大人より敏感なのだとも感じる。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "<ano=せんじゅつ>占術</ano>の道は必ずしもまやかしではない、という師匠の言葉は本当だったのかもしれない……自身がきちんと理解できていないのが悔やまれるが。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "木箱を開けてみよう。もしかしたら、あのお椀が中にあるかもしれない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "あなたと<ano=カンシン>鑑心</ano>は木箱を開けた。しかし木箱の中には、錦の袋に入った薬材の他に、1枚の黄ばんだ紙切れが入っているだけだった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "「……己を知らんと欲するは、あぜ道を往くが如し。塵にまみれし<ano=しゃろ>車輅</ano>よ、己が道を如何に歩まん」見たところ、あのおみくじの言葉に似てるな。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 821,
+              "PlotLineKey": "新しい手がかりだ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "……ダ、ダメだ、まったく分からない。{PlayerName}、見当はついたか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 822,
+              "PlotLineKey": "一応？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "鑑心（カンシン）",
+          "PlotLineKey": "さすがは{PlayerName}だ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

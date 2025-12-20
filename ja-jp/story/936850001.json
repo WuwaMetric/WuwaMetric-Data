@@ -1,0 +1,1084 @@
+{
+  "Id": 936850001,
+  "Name": "戦塚を辿る旅",
+  "Description": "戦士の雄叫びを記す空漂う雲、戦士の決意ある歩みを刻む果てしない野原、戦士の熱き血を乗せて迸る奔流……この地に息づく生きとし生けるものすべてが、栄光の歴史を物語っている。そして、セブン・ヒルズ人が自らの手で築き上げた高城、尖塔、聳え立つ城壁こそが、彼らの不屈の精神と尚武の心の証である。 \nあなたは港で口論中の親子と出会った。そこから、思いも寄らぬセブン・ヒルズの歴史を辿る旅が始まる......",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 936850001,
+  "ShowQuestList": [],
+  "QuestDesc": "戦士の雄叫びを記す空漂う雲、戦士の決意ある歩みを刻む果てしない野原、戦士の熱き血を乗せて迸る奔流……この地に息づく生きとし生けるものすべてが、栄光の歴史を物語っている。そして、セブン・ヒルズ人が自らの手で築き上げた高城、尖塔、聳え立つ城壁こそが、彼らの不屈の精神と尚武の心の証である。 \nあなたは港で口論中の親子と出会った。そこから、思いも寄らぬセブン・ヒルズの歴史を辿る旅が始まる......",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100021,
+      "PreQuestName": "影を落とす栄光"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 11900018,
+      "PreQuestName": "鱗の跡"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "{PlayerName}......ルパ選手と共にチャンピオンの座についたグラディエーターか！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 238,
+              "PlotLineKey": "いかにも。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 239,
+              "PlotLineKey": "{Male=どうして揉めてるんだ？;Female=どうして揉めてるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ニクス",
+          "PlotLineKey": "はじめまして、俺はニクスだ。いきなりで悪いんだが、ちょうどいい時に来てくれた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ニクス",
+          "PlotLineKey": "チャンピオンである君なら、グラディエーターの意義をよく理解していると思うんだ。そこで、この子を説得するのを手伝ってほしい。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ニクス",
+          "PlotLineKey": "見ての通り、俺もかつてはグラディエーターの一人。引退した後は、娘のポストイナにこの栄光ある伝統を受け継いでほしいと思っていたんだが——",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "誰が説得しに来たって無駄！グラディエーターにはならない！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "ポストイナは父にベロを出して見せると、人ごみに消えていった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ニクス",
+          "PlotLineKey": "みっともないところをお見せして申し訳ない。この話をすると、決まって不機嫌になるんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ニクス",
+          "PlotLineKey": "けれど、君の話ならあの子も聞いてくれるだろう。チャンピオンの名は全てのセブン・ヒルズ人にとって特別だ。ポストイナも受け入れてくれるはずだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ニクス",
+          "PlotLineKey": "あの子は喧嘩をした後には必ず<span style=\"color:#ffd12f;\" class=\"font-bold\">タイタンボーン・エクスパンス</span>に行っていじけていることが多い。君にも座標を送っておこう。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 240,
+              "PlotLineKey": "{Male=自分で行かなくていいのか？;Female=自分で行かなくていいの？}",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 241,
+              "PlotLineKey": "{Male=娘が心配じゃないのか？;Female=娘が心配じゃないの？}",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "ニクス",
+          "PlotLineKey": "恥ずかしい話、あの子とはよくグラディエーターの意義を巡って言い争うんだ。ああやってどこかへ行ってしまうのも、いつものことだよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ニクス",
+          "PlotLineKey": "たとえあの子を見つけたとしても、すぐに話しかけない方がいい。却って火に油を注ぐことになるだけだからね。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 12,
+          "Speaker": "ニクス",
+          "PlotLineKey": "あんなに嫌がってはいるが、ポストイナのグラディエーターとしての才能は確かだ。だから、尚更もったいないと思っている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ニクス",
+          "PlotLineKey": "全身全霊でグラディエーターの訓練に取り組めば、きっと実績を出せるはずなのに……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 14,
+          "Speaker": "ニクス",
+          "PlotLineKey": "チャンピオンである君のことだ。見返りなんて求めていないかもしれないが、できる限り報酬を用意しよう。頼む、ポストイナに目を覚まさせてやってくれ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 242,
+              "PlotLineKey": "もし彼女がグラディエーターになりたくないと言ったら？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "ニクス",
+          "PlotLineKey": "その時はまた別の方法を探すしかないが、それでも彼女には、グラディエーターの意義を理解して、この栄光を継いでほしいんだ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 243,
+              "PlotLineKey": "{Male=強引なやり方はしない。;Female=強引なやり方はしないよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 244,
+              "PlotLineKey": "{Male=まずは彼女の考えを知りたい。;Female=まずは彼女の考えを知りたい。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "ニクス",
+          "PlotLineKey": "わかっている。だが結果がどうであれ、セブン・ヒルズのチャンピオンである君の言葉なら、必ずあの子の心に響くはずだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "漂泊者さん......ごめんなさい。先ほどはつい頭に血が上ってしまって。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "でも、誤解しないでほしいんです。自分がなりたくないだけで、グラディエーターのことは凄く尊敬しているんです。特にみんなが憧れているチャンピオンには！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "改めまして、私はポストイナ。セブン・ヒルズの未来の史官です！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 192,
+              "PlotLineKey": "史官？",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 193,
+              "PlotLineKey": "{Male=グラディエーターは嫌か？;Female=グラディエーターは嫌なの？}",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "はい、セブン・ヒルズの歴史を記録して、後世に残すことが夢です。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "私を説得するようにって、お父さんに頼まれたのですか？もう、自分のことを人に押し付けるなんて。ご迷惑をおかけして申し訳ありません。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "最初は適当にグラディエーターの訓練に参加して、好きじゃないって直接言えばいいと思ってたんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "でも、お父さんの行動がどんどんエスカレートしていって、意地でもグラディエーターの道を歩ませようと……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 194,
+              "PlotLineKey": "{Male=才能があったんだな。;Female=才能があったんだね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "わかっていました。でも、さきほどお話しした通り、私はグラディエーターを尊敬していますが、なりたいとは思っていないんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "子供の頃、セブン・ヒルズの波乱に満ちた歴史を知って、深く心を打たれました。この地を訪れるすべての人に、困難でありながら、戦いと栄光、そしてセブン・ヒルズ人の不屈の精神に満ちた歴史を知ってもらいたいです！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "お父さんもそれを理解してくれれば——",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "あっ、そうだ！セブン・ヒルズ各地の史跡を記録しに行きましょう！それをお父さんに見せれば、きっと私の考えに賛同してくれるはず！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "見てください。この<span style=\"color:#ffd12f;\" class=\"font-bold\">タイタンボーン・エクスパンス</span>がいい例ですよ。ここは私たちの先祖がセブン・ヒルズに辿り着いた最初の場所です。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "石柱が並び立ち、硬く、重厚な石の傘や石の台が大地に点在しています。先祖たちは、この荒野の雄々しい景観こそが、私たちの品性にふさわしいと感じていたんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "だから落ち込んだ時、いつもここへ来てこの景色を眺めます。先祖たちが流浪の時代を終え、この地に足を踏み入れたときに感じた喜びを想像してみると、過去に背中を押される気持ちになるんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "いかがですか？我々のチャンピオンである漂泊者さんなら、セブン・ヒルズの景色を一緒に記録してくれますよね？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（ニクスと同じことを言っている。さすがは親子......）",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "『黒き潮は山を飲み込み、巨竜は悲鳴を上げる。大地は白に染まり、枯れ朽ちてゆく』。以前の本の中で見た、先祖が石竜の寝床を見た時に残した詩です。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "チャンピオンさんも知っているかと思いますが、セブン・ヒルズ人はよく力と戦争を語ります。それらは、古代から現在に至るまで、私たちの歴史に通ずる価値観ですからね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "あの刃のような形をしたモンテ・デリミトに巨竜たちは棲んでいました。巨竜が翼を広げれば空は覆われ、巨竜が吠えればその声は島中に響き渡った……そんな生き物の力を疑う人などいませんでした。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "しかし、黒潮が押し寄せたのです。今では、巨竜たちの悲惨な残骸だけが残されています……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 259,
+              "PlotLineKey": "セブン・ヒルズはあのようにはならない。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "もちろん！目の前のこの山だってそうです。黒潮がセブン・ヒルズを丸ごと飲み込もうとする勢いで大地に蔓延り、モンテ・デリミトを襲いました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "しかし、モンテ・デリミトはその身をもって黒潮を食い止め、セブン・ヒルズの火種を守ってくれたのです。それによって、山はやがて痛ましい真っ白な姿に侵蝕されてしまったのですが。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "チャンピオンさん、感じますよね？危機が迫る時、戦いのため、そして守るためであれば、人々だけでなく大地さえも身を挺する……それがセブン・ヒルズなのです。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 260,
+              "PlotLineKey": "{Male=セブン・ヒルズの一番の宝物だ。;Female=セブン・ヒルズの一番の宝物だね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "えへへ、異邦人のチャンピオンさんに褒められました。何だか照れちゃいますね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "黒潮との闘いで犠牲になった英雄たちを記念するため、グローリアヴェイルは建造されました。私たちは決して、黒潮によって消滅した巨竜たちのことを忘れません。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "彼らも私たちと同じ大地、同じ空を共有しています。彼らを記憶に刻むことは一種の戒めであり、かつて強い力を持った巨竜への敬意を払うということです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "話はここまでにしましょうか。モンテ・デリミトの献身の証を記録しようと思います。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "次は……そうだ、チャンピオンさん、<span style=\"color:#ffd12f;\" class=\"font-bold\">モーンフェル・キャニオン</span>に行きましょう。ちょっと危ないかもしれませんが、私たちなら何ともないですよね！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "子供の頃、お父さんに連れられて、この巨大彫像を見にきたことがあります。その時のお父さん、この「英雄王」がどれだけ強かったかとか、戦う姿がどれほど立派だったかとか、そんなことばっかりで……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "もしかしたら、私にもっとグラディエーターの訓練を頑張ってほしい、という思いがあったのかもしれません。でも、あの時の私は別のことで胸がいっぱいで……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "「英雄王」ファビウスは歳主インペラトルと共に、黒き潮に対抗した。本に書かれたこの話に強く心を動かされました。この彫像は、英雄王の偉業の何よりの証です。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "後世の記憶に残す、これこそ歴史伝承の意義。でも、勇ましい戦士、偉大なるファビウスと比べたら私は......",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ソルベーグ",
+          "PlotLineKey": "お嬢さんだって立派なグラディエーターですよ！どうも、僕はソルベーグ。ブラックショアからモンテ・デリミトの黒潮観測塔に派遣された者です。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 541,
+              "PlotLineKey": "{Male=いたのか！;Female=いたのね！}",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 542,
+              "PlotLineKey": "{Male=モンテ・デリミトからここまでサボりに？;Female=モンテ・デリミトからここまでサボりに？}",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "ソルベーグ",
+          "PlotLineKey": "こちらのお嬢さんが感傷に耽っていましたので。邪魔するわけにはいかないでしょう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ソルベーグ",
+          "PlotLineKey": "それに、ここの歴史に興味があるので。僕はセブン・ヒルズの文化が大好きなんです。ここに派遣されると聞いた時は、それは喜びましたよ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 8,
+          "Speaker": "ソルベーグ",
+          "PlotLineKey": "あはは、息抜きも必要ですからね。それに、僕はセブン・ヒルズの文化が大好きなんです。ここに派遣されると聞いた時は、それは喜びましたよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ソルベーグ",
+          "PlotLineKey": "今では、暇さえあればあちこちを回っています。次の休みには闘技大会を観に行こうかな、なんて計画しているんですよ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 10,
+          "Speaker": "ソルベーグ",
+          "PlotLineKey": "黒潮観測塔での研究も順調に進んでいて、僕のセブン・ヒルズに対する愛情も日に日に増しています。ですがそれと同時に、黒潮の恐ろしさをより実感するようになりました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ソルベーグ",
+          "PlotLineKey": "だからこそ、かつて黒潮と真正面から対峙したセブン・ヒルズはすごいんです。それに、ポストイナさんのような立派なグラディエーターが、今のセブン・ヒルズには数多くいますしね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ソルベーグ",
+          "PlotLineKey": "僕たちも負けてはいられません。黒潮の研究で必ず成果を出してみせます。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "でも私......はい、頑張ります！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "それではチャンピオンさん、セブン・ヒルズを見守り続けている「英雄王」、ファビウスの姿を記録しましょう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "次の目的地はセブン・ヒルズの心臓、<span style=\"color:#ffd12f;\" class=\"font-bold\">カンピドーノの丘</span>です。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "いかがですか？一緒に<span style=\"color:#ffd12f;\" class=\"font-bold\">カンピドーノの丘</span>に行きますか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 376,
+              "PlotLineKey": "一緒に行こう。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 377,
+              "PlotLineKey": "まだ準備が必要。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "はい、<span style=\"color:#ffd12f;\" class=\"font-bold\">カンピドーノの丘</span>の絶景が私たちを待っていますよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "わかりました。では、いつもの場所で待ち合わせましょう！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "セブン・ヒルズ城、カンピドーノの丘、あるいはグリフォンの岩城。まるでセブン・ヒルズ人が持つ多様な性格のように、この地にも多くの名が付けられています。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "セブン・ヒルズのことをよく知らない外の者にとって私たちは、傲慢で生意気、遠くに見えるセブン・ヒルズ城のように厳しい存在でしょう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "でも、交流を深めていけばきっと分かってくれるはずです。私たちの太陽のように燃え盛る情熱と、眩いばかりの誇りを。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "セブン・ヒルズの街に足を踏み入れれば、にぎわいと活気が一気に押し寄せてきます。セブン・ヒルズは、世界各地から訪れる人を歓迎しているのです。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 565,
+              "PlotLineKey": "わかる。",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 566,
+              "PlotLineKey": "{Male=俺ももうセブン・ヒルズの一員だ。;Female=私ももうセブン・ヒルズの一員だよ。}",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "あなたはただの理解者ではないはずです。だって、チャンピオンさんはセブン・ヒルズの一員で、セブン・ヒルズを代表する一人ですから。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "チャンピオンさんはセブン・ヒルズの一員で、セブン・ヒルズを代表する一人ですからね。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "私たちはセブン・ヒルズの苦難に満ちた過去を見てきました。目の前に広がるこの雄大な城は、セブン・ヒルズの輝かしい未来を象徴しています。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "その「未来」を私が記録していけば、いつか後世の人が憧れる「過去」になるでしょう。それが、私が史官を目指す意義です。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "でも……不安もあります。もし新たな危機が「未来」に迫って来たら、セブン・ヒルズにもっと多くの戦士が必要になったら……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "その時私は、自分の才能を無駄にしたことを後悔するんじゃないでしょうか。お父さんが言った通りに。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 567,
+              "PlotLineKey": "{Male=君が全てを背負うことはない。;Female=あなたが全てを背負うことはない。}",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 568,
+              "PlotLineKey": "{Male=やりたいようにやればいい。;Female=やりたいようにやればいい。}",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "お気遣いありがとうございます、チャンピオンさん。でもお父さんが——",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 12,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "お気遣いありがとうございます、チャンピオンさん。でも、私迷っているんです。グラディエーターだろうと、史官だろうと、私——",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "あれ？聞こえますか？何か変な音が……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 569,
+              "PlotLineKey": "大きな耳をパタパタさせているような音だ。",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 570,
+              "PlotLineKey": "{Male=こんな音まで聞こえるなんて、耳がいいんだな。;Female=こんな音まで聞こえるなんて、耳がいいんだね。}",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "さすがチャンピオンさん、よくパタの音だとすぐわかりましたね。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "グラディエーターは常に周りを観察しないといけませんから。特に音骸の動きには敏感なんです。これはパタが翼を羽ばたかせる音ですね。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "迷子かもしれません。パタは賑やかな場所に慣れていますから、周りに誰もいないと不安なはずです。探しに行きましょう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ニクス",
+          "PlotLineKey": "やあ、チャンピオン。この子と一緒にセブン・ヒルズを回ってくれて、本当にありがとう。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 476,
+              "PlotLineKey": "ソアーでセブン・ヒルズをひとっとび！",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 477,
+              "PlotLineKey": "{Male=俺もこの旅で色々と勉強できた。;Female=私もこの旅で色々と勉強できた。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ニクス",
+          "PlotLineKey": "それでも、君にはちゃんとお礼を言わないといけない。特に君が撮った写真とポストイナの話から、これまで感じたことのないセブン・ヒルズの歴史の重みを実感した。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ニクス",
+          "PlotLineKey": "もちろん、あの苦難の時代を知らないセブン・ヒルズ人はいない。だが、ポストイナが言った「『未来』を記録すれば、それが後世の憧れる『過去』になる」という言葉が心に響いた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ニクス",
+          "PlotLineKey": "この子の才能は、グラディエーターだけにとどまらない。もし史官になることがこの子にとっての幸せで、向いている仕事なのであれば、全力で応援したい。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "お父さん......私も勘違いしてたよ。お父さんが私に求めてるのは、グラディエーターになることだけじゃなくて、グラディエーターの精神を継承することだったんだね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "それに今回の旅で、セブン・ヒルズの人々がグラディエーターに対してとても大きな期待を抱いていることを実感した。だから、この道を簡単に諦めるわけにはいかない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ニクス",
+          "PlotLineKey": "そうか......チャンピオン、俺もポストイナも君のおかげで変わることができた。この子は史官になるべきか、グラディエーターになるへきか、君はどう思う？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 478,
+              "PlotLineKey": "グラディエーターは自由だ。",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 479,
+              "PlotLineKey": "必ずしも「グラディエーター」である必要はない",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "自由......その通りです。グラディエーターも私も、自由なんです！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "言っている意味が……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "あ！わかりました、グラディエーターという身分に、縛られてはならないということですね！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "グラディエーターになるかどうかは私次第……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "じゃあ、私は史官を目指すグラディエーターを目指す！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ニクス",
+          "PlotLineKey": "つまり、ポストイナ......グラディエーターの修行を続けてくれるんだな？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "うん、どっちにも才能があるなら、利用しないともったいないじゃん。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "厳しい道でも、私たちセブン・ヒルズ人は挑戦から逃げない。そうですよね？チャンピオンさん。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 480,
+              "PlotLineKey": "文武両道のグラディエーター、いいね！",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 481,
+              "PlotLineKey": "{Male=もう一人前のグラディエーターだな。;Female=もう一人前のグラディエーターだね。}",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "えへへっ、そうですよね。もしかしたら、セブン・ヒルズで話題になっちゃうかもしれません。もし私が闘技大会に出たら、観に来てくださいね！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 17,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "わ、そんな風に言われたら照れちゃいますね。でもその言葉、覚えておいてくださいね。私が闘技大会に出たら、絶対観に来てもらいますから！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 18,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "最後にもう一度お礼を言わせてください、チャンピオンさん。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "私の行きたい場所に一緒に行ってくれて、私の未来を一緒に考えてくれて、本当にありがとうございました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "最後にコロッセオの写真を撮りましょう。その栄光と、響き渡る雄叫びが、あなたと共にありますように。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "くっ......まずい。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "持ち堪えて！助けに来ました！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ニクス",
+          "PlotLineKey": "ご苦労さま、チャンピオン。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 608,
+              "PlotLineKey": "ニクスだと思った。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ニクス",
+          "PlotLineKey": "やはりバレていたか。どうしても心配でついてきたんだが、まさかあの子が君をあちこち連れまわした挙句、歴史の授業までするとは……すまなかったな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ニクス",
+          "PlotLineKey": "だが、君もポストイナの才能が分かっただろう？あの子が闘技場に立たないなんてもったいない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ニクス",
+          "PlotLineKey": "それに、この土地をあれほど愛しているんだ。あの子ならセブン・ヒルズの歴史に名を刻むグラディエーターになれるに違いない。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 609,
+              "PlotLineKey": "{Male=セブン・ヒルズを案内してもらった人は俺だけじゃないはず。;Female=セブン・ヒルズを案内してもらった人は私だけじゃないはず。}",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 610,
+              "PlotLineKey": "{Male=彼女の意志が分からなかったのか？;Female=彼女の意志が分からなかったの？}",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "ニクス",
+          "PlotLineKey": "君だけじゃないだと？他に誰が——いやまさか、俺が後をつけていたのが、あの子にバレていたのか？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "ニクス",
+          "PlotLineKey": "あの子の意志？それなら史官になりたいって——待て、まさか、俺が後をつけていたのが、あの子にバレているのか？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 611,
+              "PlotLineKey": "{Male=全部ニクスに聞いてもらいたかった話だ。;Female=全部ニクスに聞いてもらいたかった話だよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "ニクス",
+          "PlotLineKey": "その……セブン・ヒルズに関する話が？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ニクス",
+          "PlotLineKey": "ああ......わかった。チャンピオン、もうしばらくポストイナに付き合ってやってはくれないか？それと、俺と話したことは内緒で頼む。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ニクス",
+          "PlotLineKey": "少し考える時間がほしい。君たちと一緒にこの旅を最後まで続けたいしな。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ポストイナ",
+          "PlotLineKey": "<span style=\"color:#ffd12f;\" class=\"font-bold\">ファビウス英雄像</span>のところへ行くには、この海を渡らなければなりません。少し距離がありますし、一緒に行きませんか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 615,
+              "PlotLineKey": "一緒に行こう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 616,
+              "PlotLineKey": "まだ準備が必要。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

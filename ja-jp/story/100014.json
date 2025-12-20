@@ -1,0 +1,2480 @@
+{
+  "Id": 100014,
+  "Name": "大洋を渡る小舟の如く",
+  "Description": "第二章・序幕",
+  "MaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_10.png",
+  "FemaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_10.png",
+  "AreaIcon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/UiArchive/Atlas/SP_ArchiveAreaLinaxita.png",
+  "ShowQuestList": [
+    114000026
+  ],
+  "QuestDesc": "アブの周波数異常について、ショアキーパーは手がかりを見つけたらしい。ひとまずブラックショアに戻って聞いてみよう。",
+  "Unlock": [
+    {
+      "Id": 100015,
+      "Name": "神聖なるそよ風は常に吹き込む",
+      "Type": 1
+    },
+    {
+      "Id": 123900001,
+      "Name": "Quest_123900001_QuestName_123_1",
+      "Type": 2
+    },
+    {
+      "Id": 123900002,
+      "Name": "Quest_123900002_QuestName_123_2",
+      "Type": 2
+    },
+    {
+      "Id": 123900003,
+      "Name": "Quest_123900003_QuestName_123_2",
+      "Type": 2
+    },
+    {
+      "Id": 123900004,
+      "Name": "Quest_123900004_QuestName_123_2",
+      "Type": 2
+    },
+    {
+      "Id": 123900005,
+      "Name": "Quest_123900005_QuestName_123_2",
+      "Type": 2
+    },
+    {
+      "Id": 123900006,
+      "Name": "Quest_123900006_QuestName_123_2",
+      "Type": 2
+    },
+    {
+      "Id": 123900007,
+      "Name": "Quest_123900007_QuestName_123_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900003,
+      "Name": "Quest_157900003_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900004,
+      "Name": "Quest_157900004_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 148900000,
+      "Name": "Quest_148900000_QuestName_148_1",
+      "Type": 7
+    },
+    {
+      "Id": 157900013,
+      "Name": "Quest_157900013_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900014,
+      "Name": "Quest_157900014_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900015,
+      "Name": "Quest_157900015_QuestName_157_3",
+      "Type": 2
+    },
+    {
+      "Id": 157900016,
+      "Name": "Quest_157900016_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900017,
+      "Name": "Quest_157900017_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900018,
+      "Name": "Quest_157900018_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900019,
+      "Name": "Quest_157900019_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900020,
+      "Name": "Quest_157900020_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 100030,
+      "Name": "時の凍りついた街",
+      "Type": 1
+    }
+  ],
+  "Chapters": [
+    {
+      "Title": "ブラックショアに向かう"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "久しぶり……元気にしてた？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "アブについて……新たな情報を見つけた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "一度戻ってきて。ブラックショアで待ってる。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ショアキーパーに会う"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "……おかえりなさい。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 943,
+              "PlotLineKey": "うん、ただいま。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 944,
+              "PlotLineKey": "{Male=どうして一人でピアノを弾いてるんだ？;Female=どうして一人でピアノを弾くの？}",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "この岸はあなたのもの。だから、いつでもあなたを歓迎する。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "自分の意思を音に乗せて伝える……これはあなたから教わったこと。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "今回あなたを呼び出したのは、前に伝えたアブの異変について話すため……以前観測したアブの「飢え」と「眠気」に変化はある？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 945,
+              "PlotLineKey": "前より増えている。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "やっぱり……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "この前、あなたの体に感じた周波数の異常……あれは紛れもなくアブが原因。そして、その周波数の異常波動はより顕著になっている。その程度は想定できないほど微小だけれど……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "……アブの周波数は緩やかながらも、確実に衰退している。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "前回アブと会った時、自分の周波数の衰退があなたに影響していないか心配していた。それで、私に解決策を求めてきた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "……守りたい人が自分のせいで、危険に晒される。アブが感じたその気持ち……私は知ってるから。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "私は実現可能な解決策を探り……そして、見つけた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "でも、説明に入る前に……テティスの底に、過去の記録が残されている。それをあなたに確かめてほしい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "もしかして、いくつかの疑問に対する答えになるかもしれない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "……手を、握って。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 18,
+          "Speaker": "Narrator",
+          "PlotLineKey": "アブの周波数衰退は治せるかもしれないとショアキーパーから連絡が来た。<br>ただ、解決策についての説明の前に、まずはブラックショアで、テティスの底に封じられたデータ記録を確かめてほしいとあなたに話した。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ショアキーパーに会う"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "アブに関する情報を探していたら、この記録を見つけた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "でも、テティスシステムの基盤にあるエラーが修復されるまで、この記録はずっと検索不可能な状態にあった。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1069,
+              "PlotLineKey": "つまり、これは偶然ではない……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（この記録は……自分のための道標。）",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1070,
+              "PlotLineKey": "「インペラトル」って誰？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "インペラトルは、リナシータの<ano=さいしゅ>歳主</ano>。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "テティスが提示した解決策——それはリナシータ文明の導き手。インペラトルはアブに起こっている周波数の衰退を止める方法を持っているかもしれない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "リナシータは、<ano=おんがい>音骸</ano>にまつわる技術で世界に名を轟かせる「音骸の国」。そこにはアブのように実体を維持し続けられる音骸がたくさんいる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（ということは……リナシータでアブに関する情報を手に入れられるかもしれない……）",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "今はちょうど……リナシータに行くのに絶好なタイミング。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "これを持っていって。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "香りの付いた招待状",
+          "PlotLineKey": "親愛なるビジネスパートナーへ",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "香りの付いた招待状",
+          "PlotLineKey": "謹啓。リナシータでは、佳節カルネヴァーレを迎えようとしております。そこで、主催者である我々モンテリファミリーは、あなた様を客人としてラグーナへお招きしたいと存じます。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "香りの付いた招待状",
+          "PlotLineKey": "モンテリファミリーからの誠意として、カルネヴァーレの参加資金をご用意いたしました。そちらはアヴェラルド銀行に預けております。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "香りの付いた招待状",
+          "PlotLineKey": "あなた様が黒い花を金の天秤に置く意志があるのなら、モンテリファミリーはあなた様を最も大事な客人とし、永遠の友情を誓いましょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "香りの付いた招待状",
+          "PlotLineKey": "心よりお待ちしております。謹白。モンテリ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1071,
+              "PlotLineKey": "モンテリファミリー？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "リナシータの都市国家——ラグーナで最も勢力が大きいファミリーの一つ。ブラックショアは彼らの船団と商売をしたことがあるから、「カルネヴァーレ」への招待状をもらった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "「カルネヴァーレ」はリナシータの最も重要で盛大な祭り。その開催期間中、ラグーナの港は入港制限を緩くして、多くの観光客を迎え入れる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "「<ano=さいしゅ>歳主</ano>に最たる宴を！」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "「美食、美酒、目をくらませる花火に仮面舞踏会、そして圧巻の<ano=おんがいげき>音骸劇</ano>！」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "「身分、立場、地位を問わず、ぜひご参加ください！あなたの笑顔もこの盛会を盛り上げる燃料となる！」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1072,
+              "PlotLineKey": "賑やかだ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "ええ。純粋に観光地としても悪くない場所。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "ただ、ブラックショアにとって、リナシータは少し特別。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "今州に現れた<ano=めいしき>鳴式</ano>蘇生の兆しに影響され、他の地域の鳴式もそれに反応を示した。でも、リナシータだけは……鳴式に関わる動きを一切観測できなかった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "その真相を探るため、リナシータのいくつかの都市国家に花持ちを向かわせたけど、向こうはどうやらブラックショアの介入を拒んでいるらしい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "でも、今、ブラックショアはモンテリファミリーに客人として招待されている。これは紛れもなく好機。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1073,
+              "PlotLineKey": "善は急げ。今すぐ出発だ。",
+              "PlayVoice": false,
+              "JumpToId": 27
+            },
+            {
+              "TextId": 1074,
+              "PlotLineKey": "{Male=リナシータって、どうやって行ける？;Female=リナシータって、どうやって行くの？}",
+              "PlayVoice": false,
+              "JumpToId": 28
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "……今すぐに行くの？",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 29
+        },
+        {
+          "Id": 28,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "待って……空間を繋ぐトンネルを開けるから……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 29
+        },
+        {
+          "Id": 29,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1075,
+              "PlotLineKey": "待って！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "あっ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "トンネルを開けたらあなたの負担が大きくなる……こんなことより……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1076,
+              "PlotLineKey": "ブラックショアの稼働に使ってほしい。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1077,
+              "PlotLineKey": "それに、できれば目立たないように済ませたい。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 32,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "……ん、わかった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "あなたがそう望むなら……アールトにリナシータ行きの船を用意させる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 43,
+          "Speaker": "Narrator",
+          "PlotLineKey": "ショアキーパーは、インペラトルがリナシータの歳主であることを教えてくれた。アブの周波数衰退の解決策については、インペラトルに相談すべきだとテティスシステムが示唆したのだ。<br>リナシータは音骸技術で知られた「音骸の国」であり、そこにはアブのように実体を維持し続けられる音骸が数多く存在している。そこへ行けば、アブの生い立ちに関する手がかりが見つかるかもしれない。<br>ショアキーパーはモンテリファミリーからの招待状をあなたに渡した。リナシータのカルネヴァーレが近づいているため、南部の港街ラグーナで入港制限が緩和される予定だという。ファミリーの客として入港すれば、多くの手間は省けるとのこと。<br>出発前にショアキーパーはもう一つの情報を提供してくれた。各国の鳴式は、今州の鳴式復活の兆しに影響を受けているが、リナシータだけは周波数の動きが全く観測されていないらしい。この旅が平穏でないかもしれないと、あなたは薄々感じていた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 767,
+              "PlotLineKey": "{Male=ごめん。帰ってきたばかりなのにまた遠くまで出かけるなんて。;Female=ごめん。帰ってきたばかりなのにまた遠くまで出かけるなんて。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "大丈夫。どうかご無事で。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ショアキーパー",
+          "PlotLineKey": "私はずっとここで、あなたが築いたこのブラックショアを守りながら、あなたの帰りを待っている。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "港でアールトを探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "クーモニ",
+          "PlotLineKey": "ク！みんな下がってマスナ……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "クーモニ",
+          "PlotLineKey": "買うタイミングカナ？それとも投げ売りカナ？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "{Male=そんなことも分かるのか？;Female=そんなことも分かるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "クーモニ",
+          "PlotLineKey": "黒海岸から流出したシェルコインには最大の価値を発揮させないといけマセン！ワタシは黒海岸のみんなのためにお金を稼いでいるのデスヨ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "クーモニ",
+          "PlotLineKey": "リナシータの各企業からホワイトナイトになるよう頼まれマシタ。ネオユニオンの時間外取引の時、敵対的買収されたヨウデ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 11,
+              "PlotLineKey": "{Male=まだ不正を働いているのか？;Female=まだ不正を働いているの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "クーモニ",
+          "PlotLineKey": "ち、違いマス！ワタシはただ、みんなのためにお金を稼いでいるだけデス。決して<ano=ブラックショア>黒海岸</ano>のルールには違反してマセンヨ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "クーモニ",
+          "PlotLineKey": "お金……お金があればこそ、やりたいことがやれるノデス。世界を救うには、現実も見なくテハ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "クーモニ",
+          "PlotLineKey": "ク……もう終わりマシタナ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "クーモニ",
+          "PlotLineKey": "夜になると、シェルコインの音も弱まってきマスネ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 17,
+              "PlotLineKey": "（財布を揺らす）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "クーモニ",
+          "PlotLineKey": "この音ハ！なんダ、アナタでしたカ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "クーモニ",
+          "PlotLineKey": "分かりましたヨ。しかし、まだ結構持ってるじゃないデスカ、足りなくなったらワタシのところに来てクダサイナ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 3
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "クーモニ",
+          "PlotLineKey": "ククク……黒海岸へヨウコソ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 4
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "クーモニ",
+          "PlotLineKey": "ク、また来てクダサイナ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 6
+    },
+    {
+      "Title": "港でアールトを探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アールト",
+          "PlotLineKey": "どうだい？これが俺が手配した船だ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アールト",
+          "PlotLineKey": "リナシータに行くってなら、本当は大型船がいいんだけど……今は各地域で<ano=めいしき>鳴式</ano>の調査をしてる他のメンバーに貸し出し中なんだってさ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アールト",
+          "PlotLineKey": "でも、こいつはこのアールトのとっておきなんだ。どう？「目立たないように済ませたい」というご要望にピッタリでしょ？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 627,
+              "PlotLineKey": "なんか特別な仕掛けとかありそう。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 628,
+              "PlotLineKey": "小さいから隠れやすそう。",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 629,
+              "PlotLineKey": "{Male=これしか用意できないのか？;Female=これしか用意できないの？}",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "アールト",
+          "PlotLineKey": "そうそう、なかなか見る目があるね！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 5,
+          "Speaker": "アールト",
+          "PlotLineKey": "まあ、小さいけど、各種機能はちゃんと備えてるよ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "アールト",
+          "PlotLineKey": "いやいや、外見こそ悪目立ちしてるけど、中身はばっちり問題なし！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "アールト",
+          "PlotLineKey": "これでも、ネオユニオンの<ano=ばんこくはくらんかい>万国博覧会</ano>にも出展されていた新商品だから、値下げ交渉には結構苦労したんだ。こいつは、まとめ買いしてブラックショアへの導入も検討したほど素晴らしい船だよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "アールト",
+          "PlotLineKey": "ラグーナ人は<ano=さいしゅ>歳主</ano>を神として崇める。だから、歳主への冒涜なんて許さないし、歳主を拝むための聖堂なんてのもある。郷に入ったら、ちゃんと郷に従うように。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "アールト",
+          "PlotLineKey": "俺は行かないけど、ナビゲーターの調整はこっちで済ませておくから、後は決められた航路に沿って進んでくれ。そうすればすぐラグーナに着くんじゃないかな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "アールト",
+          "PlotLineKey": "それじゃ、準備できたら、声かけてくれよ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 630,
+              "PlotLineKey": "準備できた。",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 631,
+              "PlotLineKey": "もう少し準備する。",
+              "PlayVoice": false,
+              "JumpToId": 13
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "アールト",
+          "PlotLineKey": "それでは、出発しよう。目指すは——",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 632,
+              "PlotLineKey": "ラグーナ！",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 633,
+              "PlotLineKey": "星の海！",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 634,
+              "PlotLineKey": "何事もなければいいんだけど……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "アールト",
+          "PlotLineKey": "さあ行くぞ——ギアチェンジ、3速、ローンチコントロール！あ、シートベルトの着用は忘れずに！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "アールト",
+          "PlotLineKey": "そうか。じゃ、ここで待ってるよ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 22,
+          "Speaker": "Narrator",
+          "PlotLineKey": "岸辺に着くと、アールトは既に船を用意していた。<br>ラグーナ人は、歳主を神として祟め、決して冒涜を許さないため、地元のしきたりにはきちんと従うよう忠告を受けた。<br>準備が整ったら、リナシータの港街——ラグーナへ出航だ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アールト",
+          "PlotLineKey": "どう？準備はできた？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 639,
+              "PlotLineKey": "準備できた。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 640,
+              "PlotLineKey": "もう少し準備する。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "アールト",
+          "PlotLineKey": "それでは、出発しよう。目指すは——",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 641,
+              "PlotLineKey": "ラグーナ！",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 642,
+              "PlotLineKey": "星の海！",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 643,
+              "PlotLineKey": "何事もなければいいんだけど……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "アールト",
+          "PlotLineKey": "さあ行くぞ——ギアチェンジ、3速、ローンチコントロール！あ、シートベルトの着用は忘れずに！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アールト",
+          "PlotLineKey": "じゃ、ここで待ってるよ！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 2
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アブ",
+          "PlotLineKey": "この霧、気味が悪いな……なんか嫌な予感がする……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アブ",
+          "PlotLineKey": "……しかも、海の中に大きな影が……？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=俺にも見えた。こっちに近づいてる。;Female=私にも見えた。こっちに近づいてる。}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アブ",
+          "PlotLineKey": "危ない！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "——高波と危機の出会い……これぞまさに冒険譚の幕開けに相応しい展開。そうだろう？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1158,
+              "PlotLineKey": "助けてくれてありがとう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "？？？",
+          "PlotLineKey": "礼には及ばんさ。霧の濃いこの航路は、静かな時の方が稀なんだ。その様子じゃ、航海は初めてかい？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "？？？",
+          "PlotLineKey": "この海には謎まみれのデカい水生<ano=ざんぞう>残像</ano>がいっぱいいる。さっきのあの「海獣」なんかは、みんなから「<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>」と呼ばれているんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "？？？",
+          "PlotLineKey": "でも、あいつは本来温厚な性格で、さっきみたいに陸地に近い海域には来ないし、人を攻撃するなんてことはしない……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1159,
+              "PlotLineKey": "確かに何かおかしかった。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "？？？",
+          "PlotLineKey": "それに、なにやら妙なデバイスを付けられていた。もしかして、それが原因か？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アブ",
+          "PlotLineKey": "あのデカいやつの周波数から……悲しみと怒りの匂いがする……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "？？？",
+          "PlotLineKey": "おお！この丸いちびっ子は<ano=おんがい>音骸</ano>か？しかも喋れるのか！賢いんだな！名前はなんて言うんだい？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "アブ",
+          "PlotLineKey": "まず、我を「ちびっ子」呼ばわりするな！次に、我のどこが丸いんだ！そして、人に名前を聞く時は、自分から名乗るのが礼儀だろ？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "？？？",
+          "PlotLineKey": "おっと……これは失礼。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ブラント、この船のキャプテンだ。そして、我々は自由を求め「<ano=じゅんかいげきだん>巡回劇団</ano>」をやっている「<ano=ぐしゃ>愚者</ano>」。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ブラント",
+          "PlotLineKey": "どうか非礼を詫びさせてくれ。遥々やって来たお二人さん、名前を伺ってもよろしいかな？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1160,
+              "PlotLineKey": "{Male=俺;Female=私}は{PlayerName}で、この子はアブ。",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 1161,
+              "PlotLineKey": "{Male=俺は「漂くん」で、この子は「漂ちゃん」。;Female=私は「漂子」で、この子は「漂ちゃん」。}",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 1162,
+              "PlotLineKey": "我は万物の声を聞き届けるもの、光と闇の権能を統べるものなり……",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "アブ",
+          "PlotLineKey": "ふふーん、その通り！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 13,
+          "Speaker": "アブ",
+          "PlotLineKey": "何だよ、無茶苦茶じゃねえか……！我はアブで、こいつは{PlayerName}だ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "アブ",
+          "PlotLineKey": "無茶苦茶なこと言うんじゃない！我はアブで、こいつは{PlayerName}だ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "ブラント",
+          "PlotLineKey": "{PlayerName}とアブ……承知した！「船に招かれる者は皆客であり、名前を交わした者は皆友となる！」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "ブラント",
+          "PlotLineKey": "皆の衆、新たな友達に挨拶しようじゃないか！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "ブラント",
+          "PlotLineKey": "——「<ano=ぐしゃ>愚者</ano>の<ano=げきだん>劇団</ano>」へようこそ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "巨躯をする謎の音骸",
+          "PlotLineKey": "*喜びの鳴き声*",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "アブ",
+          "PlotLineKey": "これ……みんな<ano=おんがい>音骸</ano>なのか？賑やかだな……こんなの初めて……コホン、特別さなら、我の6割、いや、7割ってところだな！ヒック！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "アブ",
+          "PlotLineKey": "ん……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "ブラント",
+          "PlotLineKey": "はっはっはっは、なかなか面白いお友達じゃないか……この時期にリナシータに行くのは、もちろんカルネヴァーレに参加するのが目的だろう？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1163,
+              "PlotLineKey": "賑やかなお祭りだと聞いてる。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "ブラント",
+          "PlotLineKey": "そうだとも！リナシータ最大の行事には連日にわたる仮面舞踏会や美酒美食に溢れる宴、それらを包む音楽が響き渡る……疲れも忘れる歓喜の中で、すべての苦悩と束縛は霧散するだろう！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "ブラント",
+          "PlotLineKey": "そして……カルネヴァーレのクライマックスでは、<ano=さいしゅ>歳主</ano>「インペラトル」が奇跡を起こす。最も優れた役者に、「<ano=げっけいかん>月桂冠</ano>」が与えられるんだ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1164,
+              "PlotLineKey": "その「<ano=げっけいかん>月桂冠</ano>」を手に入れたら、<ano=さいしゅ>歳主</ano>に会える？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "ブラント",
+          "PlotLineKey": "はっはっは、そう簡単にはいかないさ。何と言っても尊い神様だからな。人間に会ってくれるなんて話は聞いたことないが……<ano=げっけいかん>月桂冠</ano>を授かった者には、<ano=さいしゅ>歳主</ano>の声を聞くチャンスが与えられるそうだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "ブラント",
+          "PlotLineKey": "実は、うちの劇団にも冠を授かった者がいるんだが……あいにく、今日は来てなくてな。あの輝かしい栄誉について語ってあげたかったのだが……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "アブ",
+          "PlotLineKey": "なるほど……「<ano=げっけいかん>月桂冠</ano>」を手に入れれば、<ano=さいしゅ>歳主</ano>と話せるってことか。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1165,
+              "PlotLineKey": "{Male=ブラントたちも、カルネヴァーレに参加するのか？;Female=ブラントたちも、カルネヴァーレに参加するの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ああ、もちろんさ！十年ぶりの盛会。劇団が見逃すわけないだろう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "ブラント",
+          "PlotLineKey": "例え神がいなくとも、例え冠を得られなくとも……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "ブラント",
+          "PlotLineKey": "「<ano=ぐしゃ>愚者</ano>の<ano=げきだん>劇団</ano>」は——あの街に歓喜に溢れた自由の風を吹き込む。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "ブラント",
+          "PlotLineKey": "……ん？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "ブラント",
+          "PlotLineKey": "……霧が来る。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "アブ",
+          "PlotLineKey": "霧？ん……海から匂うな……なんか嫌な感じだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "ブラント",
+          "PlotLineKey": "友よ、気をつけたまえ。これは<ano=おんがい>音骸</ano>に害をなす霧。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "ブラント",
+          "PlotLineKey": "自然発生する天気ではなく、この海を徘徊する<ano=かいしょく>海蝕</ano>現象なんだ。たくさんの<ano=ざんぞう>残像</ano>が霧によって出現し、通りかかる船を誘い呑み込むだろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "ブラント",
+          "PlotLineKey": "でも、心配はいらない！こんな所で「<ano=ぐしゃ>愚者</ano>の<ano=げきだん>劇団</ano>」の花船は沈まない！経験豊富なキャプテンがいる限り！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "ブラント",
+          "PlotLineKey": "さあ！皆の衆、気合の見せ所だ！ロープを締め、ストームセイルを広げろ！舵は俺が取る！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 37,
+          "Speaker": "ブラント",
+          "PlotLineKey": "舞台の幕が下りるにはまだ早い！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 47,
+          "Speaker": "Narrator",
+          "PlotLineKey": "海に出たあなたは回遊の鯨に襲われるも、危機一髪のところで巡回劇団の団長ブラントに助けられ、劇団の花船に乗せてもらうことに。<br>巡回劇団も、久しぶりに開催されるカルネヴァーレのためにやって来たのだ。あなたはブラントと話し、歳主インペラトルが、長い間姿を見せていないことを知る。<br>ブラントの話では、歳主インペラトルは、カルネヴァーレが最高潮を迎えた時に姿を現し、最も優れた役者に「月桂冠」の称号を授け、言葉を賜うのだという。<br>彼と話している途中、突然船が海霧に包まれる。海霧はリナシータ海域でよく見られる海蝕現象で、大量の残像が霧の中から隙を伺い、通りかかる船を攻撃してくるという。<br>海霧から抜け出すために、あなたは劇団のメンバーとともに戦いを始めた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "巨躯をする謎の音骸",
+          "PlotLineKey": "*苦痛の鳴き声*",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ラリオ、あと少しの辛抱だ……もうすぐこの霧から抜け出せる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "暴れるがいい、虚勢を張る嵐よ！我々はこの航路から1ミリたりとも引かん！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "存分に戦え、仲間たちよ！足場は俺が確保する！我々の船は雨に揺られることはなく、我々の角笛は耳を劈く風をも凌駕する！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ブラントと会話する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ありがとう！我が友よ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "これで安心してラグーナへの航行を続けられる。どうか船でゆっくり休んでくれたまえ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "もちろん船内は好きに見てくれて構わない！遠慮は無用だぞ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 4,
+          "Speaker": "Narrator",
+          "PlotLineKey": "戦いに勝利したあなたたちは、無事に海霧を抜け出した。<br>ラグーナに到着するまでまだ時間があるため、あなたはラグーナについて情報を得るため、劇団のメンバーたちに話しかけた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "変わったスーツケース",
+          "PlotLineKey": "（睡眠時の呼吸音）くぅ……くぅ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1117,
+              "PlotLineKey": "……もしもし？",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 1118,
+              "PlotLineKey": "このスーツケースも<ano=おんがい>音骸</ano>？",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 1119,
+              "PlotLineKey": "こんなところにも秘蔵が！",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "アブ",
+          "PlotLineKey": "しーっ、寝てるかもしれないぞ！でも、なんだか<ano=おんがい>音骸</ano>っぽくない周波数だ……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "アブ",
+          "PlotLineKey": "クンクン……いや違う。これ、なんだか<ano=おんがい>音骸</ano>っぽくない周波数だ……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "アブ",
+          "PlotLineKey": "どっからどう見たら秘蔵に見えるんだよ。でも、なんか変わった周波数の匂いがするな……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "ブラント",
+          "PlotLineKey": "このスーツケースは副キャプテンの休憩室だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ロココ、チャオ？新しい友達が来たよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "変わったスーツケース",
+          "PlotLineKey": "……こんにちは。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ブラント",
+          "PlotLineKey": "うちの副キャプテンは人見知りで、やや変わっているけど、これは友好を示すサインだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ブラント",
+          "PlotLineKey": "このコイン……これは彼女のお気に入りのコレクションの一つでね。会えて嬉しいって伝えているんじゃないかな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "変わったスーツケース",
+          "PlotLineKey": "ふむ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ブラント",
+          "PlotLineKey": "はっはっは、もしかして、君とアブの関係性に親しみを感じているのかい？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 16,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたは謎のスーツケースに興味を引かれた。<br>ブラントによると、それは副キャプテンの休憩室だという。人見知りの副キャプテンだが、彼女は勇気を振り絞り、貴重なビンテージコインをあなたに渡し友好を示してくれた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ミステリアスな雰囲気を纏う巨大な<ano=おんがい>音骸</ano>があなたに向けてのびやかに唸った。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アブ",
+          "PlotLineKey": "こんにちは。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アブ",
+          "PlotLineKey": "こいつ、挨拶してるぞ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 795,
+              "PlotLineKey": "*友好を示す鳴き声*",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 796,
+              "PlotLineKey": "どうも。",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ラリオ",
+          "PlotLineKey": "*困惑の鳴き声*",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アブ",
+          "PlotLineKey": "……なぜフライドポテトはカモメが苦手なのかはわからないって……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アブ",
+          "PlotLineKey": "なに言ってんだ、お前。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "ラリオ",
+          "PlotLineKey": "*喜びの鳴き声*",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ラリオが人懐っこそうに頭を振った。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 11,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Main_Linaxita_2_0_9_11",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "ほほん！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "奇妙な大きい<ano=おんがい>音骸</ano>に抱きつかれた。とても情熱溢れる、ふわふわとした感触。どこか友好的な意思が伝わってくる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 3,
+          "Speaker": "Narrator",
+          "PlotLineKey": "謎の大きなぬいぐるみにぎゅっと抱きしめられた。情熱に溢れたハグで、力が湧いてきた……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "我が友よ！あれこそ……ラグーナへの到着を告げる「明けの灯台」だ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "さあ着いたぞ！ここがラグーナ城の船着き場だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ラグーナ城内へ行くのなら、この先へ行って<ano=おんがい>音骸</ano>のシャトル船に乗り換えるといい。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1255,
+              "PlotLineKey": "{Male=ブラントたちは一緒に来ないのか？;Female=ブラントたちは一緒に来ないの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ああ。まだカルネヴァーレが始まる時期じゃないからな。俺たちはただ、道すがら友達をここまで送っただけさ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ブラント",
+          "PlotLineKey": "それに、こんな目立たない登場では、我々「<ano=ぐしゃ>愚者</ano>の<ano=げきだん>劇団</ano>」に相応しくないからな。花船が入城する際には、最高の演出と最大の歓声が伴う必要がある。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ブラント",
+          "PlotLineKey": "その時に備え、紙吹雪を多めに用意しとけよ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1256,
+              "PlotLineKey": "送ってくれてありがとう。",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 1257,
+              "PlotLineKey": "アブ、さよならして。",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "ブラント",
+          "PlotLineKey": "礼には及ばんさ！そう言えば、君と一緒にいたあのちびっ子は？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1258,
+              "PlotLineKey": "アブ？聞こえる？",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "ブラント",
+          "PlotLineKey": "寝ているのかな？もしかしたら、さっきの霧の影響を受けているのかもしれない。なに、心配はいらない。しばらくしたら自然と良くなるだろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ブラント",
+          "PlotLineKey": "では、我々の再会を信じて……あ、そうだ。機会があれば、ぜひ「<ano=果実酒>ネクターワイン</ano>」を飲んでみてくれ！あれは「<ano=神の雫>ゴッチェ・ディ・ディヴィーノ</ano>」とも呼ばれる極上の代物。1滴飲めば、歳主と夢の世界で出会えるとも言われているんだ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ブラント",
+          "PlotLineKey": "<ano=さいしゅ>歳主</ano>に会いたいのであれば、こっちの方が手っ取り早いかもしれないな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ブラント",
+          "PlotLineKey": "——<ano=良い旅を>ボンヴィアッジオ</ano>！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "アブ",
+          "PlotLineKey": "んにゃ……ふぁ……ん？もう上陸した？ブラントたちは？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1259,
+              "PlotLineKey": "{Male=もう行っちゃった。;Female=もう行っちゃったよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1260,
+              "PlotLineKey": "さっき、呼んでも返事がなかった。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "アブ",
+          "PlotLineKey": "そうか。全然気づかなかった……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "アブ",
+          "PlotLineKey": "うわぁ～ここがラグーナ？どうやって城内に入るんだ？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1261,
+              "PlotLineKey": "まずこのあたりを回ってみよう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "教団助祭",
+          "PlotLineKey": "<ano=じゅんれいしゃ>巡礼者</ano>たちよ、旅立つ時が来た。<ano=さいしゅ>歳主</ano>よ、帰港する船を導くように方向を示すよう、かの者を導きたまえ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "教団助祭",
+          "PlotLineKey": "進むがよい、アンドレア、いや……「<ano=ぐしゃ>愚者</ano>」よ。慈悲深き<ano=しゅざ>主座</ano>は、あなたに<ano=じゅんれいしゃ>巡礼者</ano>の栄光を授けた。あなたは遠航の試練で己の進むべき道を見つけるのだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "アンドレア",
+          "PlotLineKey": "ふん、敬虔なあなたがたの方が、旅立つべきなんじゃないのか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "教団助祭",
+          "PlotLineKey": "我々が旅立てば、誰が迷いし者を導く。私はとても悲しい。なぜならば、我が兄弟、あなたが目の前にある真実を見ていないからだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "アンドレア",
+          "PlotLineKey": "はは……真実か……笑わせるな……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "教団助祭",
+          "PlotLineKey": "……神聖なる「<ano=じゅんれいせん>巡礼船</ano>」の前だ。あなたの無礼を許そう。さあ、船に乗りなさい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "？？？",
+          "PlotLineKey": "遠方からのお客様……疑問に思うかもしれませんが、彼らの巡礼への手出しはやめてください。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "？？？",
+          "PlotLineKey": "「沈黙」、それが今のあなたが取るべき最善の選択です。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1262,
+              "PlotLineKey": "あなたは……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "失礼、自己紹介が遅れました。私はクリストフォロ。ただの取るに足りない劇作家で、この度は新作の取材のためにここへ参りました。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1263,
+              "PlotLineKey": "{Male=俺;Female=私}は{PlayerName}。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "現在、「多くの困難に満ちた船路を乗り越え、ついに<ano=さいしゅ>歳主</ano>との約束の地に向かう巡礼者」を題材に脚本を執筆中なのですが……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "ちょうど<ano=じゅんれいせん>巡礼船</ano>が出航するという話を聞けました。もしかしたら、何かインスピレーションを得られるやもしれません。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1264,
+              "PlotLineKey": "「<ano=じゅんれいせん>巡礼船</ano>」って、さっきの船？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "はい。遠い昔、ラグーナ人の先祖はこの土地に初めて足を踏み入れた時から、<ano=さいしゅ>歳主</ano>を敬っていました。そして、かの者たちは歳主への敬意を示し、歳主との交流の儀式として、カルネヴァーレを始めたのです。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "ですが、<ano=さいしゅ>歳主</ano>「インペラトル」が民衆の前に姿を現すことはありません。きっと人知を超えた権威で民を屈服させることを好まないのでしょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "それでも、<ano=さいしゅ>歳主</ano>は奇跡を起こし、カルネヴァーレを包む歓声と音楽によって人々の心を繋いでくれるのです。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "それと「<ano=じゅんれいせん>巡礼船</ano>」の由来ですが、<ano=さいしゅ>歳主</ano>の恩恵に感謝すべく深い霧と荒波を越え、歳主に謁見して行った1人の信徒が関わっています。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "もし興味がありましたら、紹介させていただきますよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 43,
+          "Speaker": "Narrator",
+          "PlotLineKey": "ついにラグーナ城の船着き場に到着した。巡回劇団は、カルネヴァーレが開幕した後に最高の歓声の中で入城しなければならないと言い、ここであなたと別れた。<br>あなたとアブが城への入口を探している最中、教団の助祭たちが巡礼のために「愚者」を押送する光景を目にした。<br>その時、謎の劇作家クリストフォロがあなたの困惑に気づき、「巡礼」の由来について教えてくれた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "花船が航行を続け、やがて陸地の輪郭が見えてきた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "港に向かう"
+    },
+    {
+      "Title": "「ゴンドラ」でラグーナに向かう"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "船夫",
+          "PlotLineKey": "ここは城内へ向かう「ゴンドラ」乗り場です。城内へ向かわれますか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 795,
+              "PlotLineKey": "この船も……<ano=おんがい>音骸</ano>？",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 796,
+              "PlotLineKey": "はい。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "船夫",
+          "PlotLineKey": "ええ！ラグーナの船はすべて音骸船です。でも、ご安心ください。彼らは神から授かった贈り物、とても頼りになるこの子たちなんですよ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "船夫",
+          "PlotLineKey": "我々ラグーナ人は人生の三分の一を「ゴンドラ」で過ごします。もう彼らなしでは生きていけませんよ。あははっ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "船夫",
+          "PlotLineKey": "それでは船へどうぞ！この子たちが安全に送り届けてくれますよ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 7,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたは船着き場にある音骸船「ゴンドラ」に乗り、城に入ろうとする。<br>もしかすると、ラグーナにはそこら中にアブがいるんじゃないかと、ふと思った。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "クリストフォロと会話する（任意）"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "やはりあなたは好奇心と素直な心の持ち主ですね。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 781,
+              "PlotLineKey": "（<ano=じゅんれいせん>巡礼船</ano>について聞く。）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "ご覧いただいた通りですよ。偉大なる神の代弁者フェンリコこと現「<ano=しゅざ>主座</ano>」が見つけた天へと至る道であり、民と<ano=さいしゅ>歳主</ano>の間を繋ぐ架け橋。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "彼の許可を得た<ano=じゅんれいせん>巡礼船</ano>のみが、敬虔な<ano=じゅんれいしゃ>巡礼者</ano>と溢れ出る希望を乗せて、アンセムを奏でながら約束の地へと出航できるのです。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 782,
+              "PlotLineKey": "……溢れ出る希望？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 783,
+              "PlotLineKey": "そんな風には見えなかったような……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "疑問に感じているようですね。確かに、あの者たちはいささか抵抗的にも見えましたが……ラグーナにとって彼らは「義人」ではなく「愚者」……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "愚かなまま迷い死に果てるより、義を貫き希望と共に困難を迎える方が良いでしょう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "船に乗った<ano=じゅんれいしゃ>巡礼者</ano>たちが、たくさんの困難を乗り越え、ようやく<ano=さいしゅ>歳主</ano>が待つ約束の地に辿り着く……今、そんな脚本を考えています。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "しかし、魅力的な物語を作るためには予想外の展開が必要です。例えば、最後に彼らを迎えたのは<ano=さいしゅ>歳主</ano>ではなく……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 784,
+              "PlotLineKey": "ではなく？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "ありったけの金銀財宝か、あるいは霧に潜む名状し難い獣か……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "はたまた、何もない忘れ去られた砂浜か。まあ、これらはまだアイディアの域を出ません。仕上げるには、まだまだ時間が必要ですね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "そうだ。物語の展開について、一つアドバイスをいただけませんか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "罪を背負う「愚者」が絶望の中で最期を迎える話と、苦難に見舞われながらも「義人」が救いを得る話……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "……歌劇として、より観客の心を掴むことができるのは、どちらだと思いますか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 785,
+              "PlotLineKey": "愚者。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 786,
+              "PlotLineKey": "義人。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 787,
+              "PlotLineKey": "どちらも好みではない。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "なるほど……わかりました、アドバイスありがとうございます。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "クリストフォロ",
+          "PlotLineKey": "では遠方からのお客様、またカルネヴァーレでお会いしましょう。ラグーナの歌劇もぜひお楽しみください。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "クリストフォロが軽く会釈すると、踵を返して去って行った。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "アブ",
+          "PlotLineKey": "……わかんなくなってきた。あいつが言ってたのは本当のことなのか？それとも物語の話？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "アブ",
+          "PlotLineKey": "あいつ、なんか謎めいた雰囲気を持ってるな……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 788,
+              "PlotLineKey": "{Male=俺もそう思う。;Female=私もそう思う。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 789,
+              "PlotLineKey": "いわゆる「芸術家気質」ってやつかな？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 790,
+              "PlotLineKey": "話し方が回りくどかった。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "アブ",
+          "PlotLineKey": "でも、カルネヴァーレが楽しいってことはわかった！なんかワクワクしてきたな！お祭りを楽しみながら<ano=さいしゅ>歳主</ano>に会えるなんて、まさに……「ウィン・ウィン」？だな！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "遠く眺める住人",
+          "PlotLineKey": "なんか最近、やたら霧が多いような……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "不安そうな住人",
+          "PlotLineKey": "そうね。よりにもよって、カルネヴァーレを控えたこの時期に……ちょっと不安ね……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "遠く眺める住人",
+          "PlotLineKey": "……やめたやめた。明日のことを心配するなんてラグーナ人らしくない。そうだ、子供たちのための花火はどうする？カルネヴァーレ当日だと高くつくかもしれないし……",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "マッテオ",
+          "PlotLineKey": "ああ、アンドレア……船を……船を止めるんだ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "シモーネ",
+          "PlotLineKey": "……しーっ！正気かお前！<ano=じゅんれいせん>巡礼船</ano>を止めでもしたら、あっという間に教団に捕まるぞ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "マッテオ",
+          "PlotLineKey": "あ、あんたは何もわかっちゃいない！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "船で城内に入る"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アブ",
+          "PlotLineKey": "「<ano=ぐしゃ>愚者</ano>の<ano=げきだん>劇団</ano>」の花船を見てすごいって思ったけど、まさかラグーナの船がすべて<ano=おんがい>音骸</ano>だなんて……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アブ",
+          "PlotLineKey": "城内には一体どんな<ano=おんがい>音骸</ano>がいるのかな？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "もしかしたら……群れを成すアブとか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アブ",
+          "PlotLineKey": "それは嫌だ……我は<ano=おんがい>音骸</ano>の国でも一番特別な音骸でいたい！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アブ",
+          "PlotLineKey": "ヒック。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "厳しい顔の侍祭",
+          "PlotLineKey": "……はい、大丈夫です。リナシータへようこそ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "厳しい顔の侍祭",
+          "PlotLineKey": "リナシータに訪れたお客様には、検査にご協力いただいております。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "厳しい顔の侍祭",
+          "PlotLineKey": "これは……個人用デバイス？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "厳しい顔の侍祭",
+          "PlotLineKey": "リナシータへ個人用デバイスを持ち込むには事前申告が必要です。申告書類の提出をお願いいたします。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 823,
+              "PlotLineKey": "……そんなの聞いてない。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 824,
+              "PlotLineKey": "申告はしてない。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "厳しい顔の侍祭",
+          "PlotLineKey": "規定ですので、ご理解ください。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "年寄りの侍祭",
+          "PlotLineKey": "申し訳ございません……ですが、これも他のお客様の安全のため。どうか教団の規則に従ってください……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "年寄りの侍祭",
+          "PlotLineKey": "……もしくは、どなたかの招待はございますか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 825,
+              "PlotLineKey": "（招待状を見せる。）",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 826,
+              "PlotLineKey": "確かに招待は受けている。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "厳しい顔の侍祭",
+          "PlotLineKey": "……なるほど、モンテリファミリーが招待したお客様でしたか。それでは、城の出入りおよび個人用デバイスの持ち込みを許可します。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "厳しい顔の侍祭",
+          "PlotLineKey": "無礼をお許しください……<ano=おんがい>音骸</ano>とは即ち神の使者。「教団」の洗礼を浴びた個体であれば、個人用デバイスに収まる音骸も等しく「インペラトル」のご加護を得られるでしょう。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 827,
+              "PlotLineKey": "これで<ano=さいしゅ>歳主</ano>に会える？",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 828,
+              "PlotLineKey": "今のところ宗教を信じるつもりはないけど……",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "年寄りの侍祭",
+          "PlotLineKey": "もちろんです——！神の手によって我々は「結ばれ」、「離れる」ことはありません。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "年寄りの侍祭",
+          "PlotLineKey": "己の内からも、他人からも、「<ano=さいしゅ>歳主</ano>」の存在を感じられるでしょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "年寄りの侍祭",
+          "PlotLineKey": "神は何時だって皆を見捨てず、心の内にいます……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 20
+        },
+        {
+          "Id": 18,
+          "Speaker": "年寄りの侍祭",
+          "PlotLineKey": "それは早計なご判断かと。なぜなら、「<ano=さいしゅ>歳主</ano>」は平和、公正、謙遜、慈悲の象徴。信じ讃えるものは皆救われます！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "年寄りの侍祭",
+          "PlotLineKey": "神は何時だって皆を見捨てず、心の内におります……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 20
+        },
+        {
+          "Id": 20,
+          "Speaker": "？？？",
+          "PlotLineKey": "福音を伝える者には、他者を思いやる気持ちと強い忍耐力が求められます。一方的な宣言など、ただ相手の心に疑念を生み出すだけですよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "厳しい顔の侍祭",
+          "PlotLineKey": "フィービー様。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "フィービー",
+          "PlotLineKey": "後は任せてください。高貴なるお客様、ご機嫌よう。私はフィービー、「教団」の侍祭です。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "フィービー",
+          "PlotLineKey": "ラグーナへようこそ。今はカルネヴァーレの開催が近いため、「教団」が入城管理を厳しくしています。ですが、これは皆さんに安全にお祭りを楽しんでいただくためのもの。どうかご理解ください。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "フィービー",
+          "PlotLineKey": "先ほどは我々の対応に非があったかと思います。ご不快な思いをさせてしまい大変申し訳ございません。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 829,
+              "PlotLineKey": "大丈夫。気持ちは理解できる。",
+              "PlayVoice": false,
+              "JumpToId": 25
+            },
+            {
+              "TextId": 830,
+              "PlotLineKey": "{Male=もう城内に行っていいか？;Female=もう城内に行っていい？}",
+              "PlayVoice": false,
+              "JumpToId": 26
+            }
+          ]
+        },
+        {
+          "Id": 25,
+          "Speaker": "フィービー",
+          "PlotLineKey": "お気遣いありがとうございます。では早速、城内へ案内させていただきます。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "フィービー",
+          "PlotLineKey": "もちろんです。では早速、城内へ案内させていただきます。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 35,
+          "Speaker": "Narrator",
+          "PlotLineKey": "入城前に、教団の入国検査を受けた。個人用デバイスの持ち込みに関しては事前に申告する必要があったが、幸いモンテリファミリーの招待状のおかげで、持ち込みが許可された。<br>教団員の意味深な言葉に頭が混乱し始めた時、侍祭を務めるフィービーという女性が現れ、あなたの質問に一つ一つ丁寧に答えてくれた。<br>侍祭の案内で、あなたはついに「音骸の城」に入ることができた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

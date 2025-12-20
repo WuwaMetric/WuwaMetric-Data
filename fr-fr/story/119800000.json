@@ -1,0 +1,1482 @@
+{
+  "Id": 119800000,
+  "Name": "Voeu du Mime",
+  "Description": "Vous avez sauvé un Mime Aria de la banlieue de Septimont et il vous a confié quatre boîtes musicales. Chacune d'elles renferme une mélodie unique, mais quelle histoire racontent-elles ?",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 119800000,
+  "ShowQuestList": [],
+  "QuestDesc": "Vous avez sauvé un Mime Aria de la banlieue de Septimont et il vous a confié quatre boîtes musicales. Chacune d'elles renferme une mélodie unique, mais quelle histoire racontent-elles ?",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100028,
+      "PreQuestName": "L'aube perce les marées obscures"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Tertia",
+          "PlotLineKey": "Bonjour, {Male=monsieur;Female=madame} ! C'est vous {Male=le champion;Female=la championne} du Grand Agôn ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 781,
+              "PlotLineKey": "Oui.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 782,
+              "PlotLineKey": "Devine.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Tertia",
+          "PlotLineKey": "Youpi ! Avec {Male=un champion;Female=une championne} comme vous, tout va s'arranger, c'est sûr !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Tertia",
+          "PlotLineKey": "Alors… voyons voir… Ouaip, ça ne fait pas un pli, c'est vous, {Male=le champion;Female=la championne}. Tout le monde à Septimont connaît votre visage !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Tertia",
+          "PlotLineKey": "J'ai vu une bande de Tacets Discords qui martyrisaient un pauvre Mime Aria devant les portes de la ville !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Tertia",
+          "PlotLineKey": "Pouvez-vous l'aider, s'il vous plaît ? Je vous paierai !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 783,
+              "PlotLineKey": "D'accord.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 784,
+              "PlotLineKey": "Tu proposes combien ?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Tertia",
+          "PlotLineKey": "Hmm… Je vous donne mon argent de poche ! Et ce bon pour un jus de fruit ! Je… Je sais aussi faire des animaux en herbe…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 785,
+              "PlotLineKey": "Je vais t'aider, mais tu peux garder tout ça.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Tertia",
+          "PlotLineKey": "Vraiment ? Merci tout plein ! J'irai aux portes pour vous encourager !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Abby",
+          "PlotLineKey": "Je le vois ! Juste là !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Le Mime Aria que vous avez sauvé est plutôt mal en point, mais il parvient à esquisser un geste pour vous saluer.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Qu'est-ce que tu faisais là tout seul ? Où est ton maître ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mime Aria",
+          "PlotLineKey": "…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "J'ai besoin de ton aide, Abby.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Abby",
+          "PlotLineKey": "Ça roule. Pourquoi t'es là tout seul ? Il est où, ton maître ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Abby",
+          "PlotLineKey": "Hmm… Je vois. Il dit qu'il s'occupait d'une livraison pour le Repaire du Chasseur.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Abby",
+          "PlotLineKey": "Sa fréquence était faible, et les Tacets Discords qui l'ont attaqué n'ont fait qu'empirer les choses… mais il reste déterminé à livrer ces boîtes musicales avant de retourner au Nexus.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Abby",
+          "PlotLineKey": "C'est sa dernière volonté… On lui donne un coup de main, {PlayerName} ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 795,
+              "PlotLineKey": "Bien sûr.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Abby",
+          "PlotLineKey": "Génial. On restera avec toi jusqu'au bout, ne t'en fais pas !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Bonjour… Qu'est-ce que je peux faire pour vous ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Oh mais… vous êtes {Male=le champion;Female=la championne} du Grand Agôn, non ? Je suis trop fan !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "C'est vraiment moi que vous venez voir ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Le Mime Aria donne une boîte musicale au garçon triste et joue une chanson.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Je ne l'avais jamais entendue auparavant... La mélodie est agréable, et les percussions sont puissantes... Ça me plaît beaucoup.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Cette boîte musicale est destinée à la personne qui vit ici.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "La personne… qui vit ici ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Oh… c'est peut-être pour mon frère.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Il a perdu la vie dans la dernière Marée montante. Toute son équipe a été durement frappée. Ils n'ont même pas retrouvé son arme.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 541,
+              "PlotLineKey": "Toutes mes condoléances.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Oh, ne vous en faites pas… Je… Je ne suis pas si triste que ça, en fait !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Mon frère… C'était un grand homme. Il est devenu gladiateur très jeune, et j'ai toujours été fier de lui.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "(Snif)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous réconfortez le jeune garçon. Il met du temps à se calmer.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Merci pour cette chanson.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Au fait… Vous savez qui l'a composée ? J'aimerais lui dire merci.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "La chanson a été écrite par la personne à qui appartient ce Mime Aria, mais nous ignorons de qui il s'agit. Tout ce que nous savons, c'est que cet Écho vient du Repaire du Chasseur.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Hmm… On ne voit pas beaucoup de Mimes Aria à Septimont. Seuls les Ragunnesi en possèdent. Les gladiateurs ne se baladent pas avec des Échos qui ne savent pas se battre, surtout pas au Repaire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Maintenant que j'y pense… j'ai fait la connaissance d'une bardesse qui avait un Mime Aria il y a quelques années, à l'époque où mon frère s'apprêtait à aller au Repaire du Chasseur.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Elle a chanté plusieurs chansons. Il y avait une berceuse qui était pas mal, et le reste… disons que…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "C'était vraiment nul. J'aurais pu faire mieux en soufflant sur une feuille.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Tu crois qu'elle aurait pu composer une chanson comme celle-ci ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Ça m'étonnerait. Sa musique était si mauvaise qu’elle était inoubliable.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Je vois. Merci.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Non, c'est moi qui vous dis merci… et à ce compositeur ou compositrice inconnue, aussi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Grâce à toi, je sais maintenant que je ne suis pas le seul à me souvenir de mon frère.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Quand je serai grand, je deviendrai un vaillant gladiateur, comme lui, et je protégerai Septimont !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Abby",
+          "PlotLineKey": "C'est l'esprit. Tu vas certainement réussir !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Hein ? Un Écho qui parle ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Quoi ?! Arrête de plaisanter, tu ne peux pas être {Male=sérieux;Female=sérieuse}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Eh bien ! Je pensais que tu marmonnais {Male=seul;Female=seule}. Tu as un Écho parlant avec toi. Pas étonnant que tu aies accepté cette requête de Mime Aria.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Pourquoi tu es si surpris ? Je pensais que les Échos étaient respectés à Rinascita.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Eh bien, pour moi, les Échos sont comme des appareils ménagers offerts par la Sentinelle... Tu ne comprendrais pas vraiment ce qu'ils disent, même s'ils ont leur propre volonté, n'est-ce pas ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Abby",
+          "PlotLineKey": "Je ne suis pas un appareil électroménager. Prépare-toi à mon SUPER SMASH !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Non, s'il te plaît, sois indulgente avec moi...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "Garçon triste",
+          "PlotLineKey": "Héhé... grâce à toi, je me sens mieux maintenant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=Heureux;Female=Heureuse} de l'entendre. À bientôt.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "Vous êtes… {Male=le champion;Female=la championne} ? Vous cherchez ma mère ? Elle est morte il n'y a pas longtemps.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 510,
+              "PlotLineKey": "...Toutes mes condoléances.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "Ce n'est rien… Je ne suis même pas triste…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "Qu'est-ce que… Cet Écho m'a caressé la tête ! Quel malpoli !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Pardon. On l'aide à livrer une chanson à quelqu'un qui vit ici.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "Une chanson ? Bizarre… Enfin, vu qu'il n'y a plus que moi dans la famille, je vais l'écouter.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Le Mime Aria donne la boîte musicale à la jeune fille têtue, qui reste silencieuse même après la fin de la chanson.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "C'est ma mère qui vous a demandé d'apporter ça ici ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Votre mère est-elle la maîtresse de ce Mime Aria ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "Non. Je ne l'ai jamais vue avec un Écho.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "Mais alors, la chanson devait être pour elle. Il y avait de l'accordéon. Ma mère adorait jouer de l'accordéon.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 511,
+              "PlotLineKey": "Tu vas bien ?",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 512,
+              "PlotLineKey": "Étais-tu en désaccord avec ta mère ?",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "Je… Je ne sais pas.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 12,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "Brouillées ? Non, c'était pire que ça. On s'est disputées avant son départ pour le Repaire.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "Elle rentrait rarement à la maison, et les rares fois où elle le faisait, elle me criait dessus parce que je ne vivais pas comme elle le voulait et que je n'essayais même pas de reprendre le flambeau en devenant gladiatrice.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "Mais cette chanson… parfois, elle me jouait des trucs comme ça. Des chansons qui m'ont donné envie de devenir musicien.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 513,
+              "PlotLineKey": "Tu n'as rien fait de mal en t'accrochant à tes propres rêves.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "Je sais. C'est juste que…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "J'aurais aimé qu'on ne se dispute pas ce jour-là… Je… J'aurais dû lui souhaiter une bonne chasse…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 514,
+              "PlotLineKey": "Tu peux pleurer.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "Je ne pleure pas ! Je veux juste savoir qui a écrit cette chanson.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Tu aurais un indice ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "Il y a beaucoup de gladiateurs qui aiment la musique, mais aucun qui se promènerait avec un Mime Aria.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "Mais… ma mère m'avait dit qu'elle s'était fait une amie musicienne au Repaire du Chasseur. Elle pourrait être la personne que vous recherchez.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "D'accord.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Fille têtue",
+          "PlotLineKey": "Merci de m'avoir apporté cette chanson. Je… Je la chérirai à jamais.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Je perçois à peine la fréquence du Mime Aria… Il faut qu'on trouve ce Cratus, et vite.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Un instant… Il y a quelqu'un au milieu de ce groupe de Tacets Discords ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Tacet Discord",
+          "PlotLineKey": "<span class=\"font-bold\">Grooaaarrrr !</span>",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gladiateur battu",
+          "PlotLineKey": "Ah… Merci de m'avoir sauvé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gladiateur battu",
+          "PlotLineKey": "Oh ! Tu es {Male=le champion;Female=la championne} !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Gladiateur battu",
+          "PlotLineKey": "Puisses-tu recevoir une ovation ! Je m'appelle Cratus. Toi aussi, tu chasses les Tacets Discords ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 879,
+              "PlotLineKey": "(Lui dire ce qu'il s'est passé.)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Le Mime Aria donne la boîte musicale à Cratus et joue une chanson.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Cratus",
+          "PlotLineKey": "La mélodie est audacieuse. Le trombone est éclatant. Ce doit être une chanson pour mon frère.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Cratus",
+          "PlotLineKey": "Il était comme le trombone de cette chanson : sincère, honnête et admiré de tous.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Cratus",
+          "PlotLineKey": "Merci de m'avoir apporté cette belle chanson. C'est toi qui l'as composée ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Je rends simplement service à quelqu'un.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Jusqu'ici, tous les destinataires étaient des membres de l'équipe de ton frère…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Cratus",
+          "PlotLineKey": "Serait-ce Pulkara ? Elle adorait jouer de l'accordéon.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "D'après les informations dont nous disposons, la compositrice est probablement une Ragunnesi qui aime chanter et qui a un Mime Aria…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "De plus, elle a envoyé un morceau à Pulkara.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Cratus",
+          "PlotLineKey": "Dans une de ses lettres, mon frère m'avait dit qu'il y avait dans son équipe une personne originaire de Ragunna qui adorait chanter et danser.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Ha ! Voilà un indice qui change tout ! Est-ce que vous connaissez son nom ? C'était une femme ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Cratus",
+          "PlotLineKey": "Oui, c'était une femme, mais mon frère ne m'a jamais dit son nom.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Cratus",
+          "PlotLineKey": "En dehors de mon frère, un autre membre de l'équipe a survécu. Il s'appelle Aleus.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Cratus",
+          "PlotLineKey": "Il sait peut-être quelque chose à son sujet.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Aleus ? Hmm, il se trouve que c'est la personne suivante sur notre liste.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Merci. On dirait que nous nous rapprochons de la solution de cette énigme.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Cratus",
+          "PlotLineKey": "De rien, {Male=champion;Female=championne} ! J'ai encore beaucoup à apprendre, mais on se retrouvera dans l'arène, un de ces quatre !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Tu es... Grisoni ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Alors comme ça… tu t'en es sorti.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Hé hé… À part notre capitaine qui n'a toujours pas repris connaissance, il ne reste que toi et moi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Tu es là pour me réprimander ? Je n'ai pas pu sauver Strozzia. Si tu veux me frapper, vas-y, fais-toi plaisir. Je l'ai mérité.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Strozzia ? C'est un nom Ragunnesi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "On dirait qu'on a trouvé notre réponse, {PlayerName} !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 931,
+              "PlotLineKey": "Dis-nous ce qui s'est passé, Aleus.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Je faisais partie de l'équipe de Galba. On était stationnés près du Repaire du Chasseur. Notre mission était de nous occuper des Tacets Discords pendant la Marée montante.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Après une partie de chasse réussie, on a organisé un petit festin au camp.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Mais il y avait quelque chose qui tracassait notre capitaine. Après le festin, il nous a ordonné de patrouiller dans la zone. J'avais un peu trop bu, alors je suis resté au camp.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Quand j'ai entendu l'alarme, je me suis précipité, et j'ai vu un véritable raz-de-marée de monstres qui se dirigeait vers le camp…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Aleus",
+          "PlotLineKey": "J'ai couru aussi vite que j'ai pu pour rejoindre mon équipe... Je n'ai trouvé que Strozzia, qui était gravement blessée et qui protégeait le capitaine avec son corps.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Elle a dit qu'elle ne s'en sortirait pas et qu'il fallait que je tire le capitaine de là.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Ah… Pourquoi j'ai tant picolé ce jour-là ? J'aurais dû être là-bas, pour partager ce dernier instant de gloire avec eux…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 932,
+              "PlotLineKey": "Dans ce cas, Galba n'aurait pas survécu.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Mais si j’étais parti avec eux… peut-être qu’ils seraient tous encore là.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Attends une minute, on dirait que Strozzia n'était qu'une civile... Que faisait-elle dans ton équipe ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Elle était là en soutien. Le capitaine en personne avait approuvé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Elle venait de Ragunna. Elle n'avait pas réussi à se faire un nom là-bas, alors elle était venue à Septimont pour trouver de l'inspiration et écrire des chansons comme on n'en avait jamais entendu chez elle.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Quand elle est arrivée ici, elle n'était même pas capable d'aligner trois notes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Pour être honnête, au début, j'ai cru qu'elle voulait juste s'inventer une belle histoire de sacrifice. Les Ragunnesi adorent ce genre de trucs.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Hé, attention à ce que tu… Euh, non, rien. Continue.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Gattuso, le joyeux drille de l'équipe, s'est pris d'affection pour elle. Il lui a tout appris sur Septimont, l'a invitée chez lui après le travail et n'a pas arrêté de parler de son petit frère.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Pulkara était réticente au départ, mais elle a fini par l'apprécier. Je les voyais souvent jouer de l'accordéon ensemble, avec Grisoni qui les accompagnait.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Aleus",
+          "PlotLineKey": "La musique de Strozzia s'est transformée. On voyait bien qu'elle aimait vraiment Septimont.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Alors, quand elle a demandé à intégrer notre équipe en tant qu'unité de soutien, j'ai voté pour. Elle l'avait mérité.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Je lui ai appris à tenir une épée et à se défendre. Elle a dit qu'elle voulait écrire une chanson pour chacun d'entre nous. Pas pour devenir célèbre, mais pour commémorer les instants qu'on avait passés ensemble.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Ce jour-là, elle avait dû suivre le capitaine hors du camp pour trouver de l'inspiration.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Si je ne lui avais pas appris à tenir une épée, elle n'aurait peut-être pas pu sauver Galba.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Aleus",
+          "PlotLineKey": "C'est celle qu'elle a écrite pour moi ? Cette clarinette… La mélodie est si claire, si élégante…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Est-ce vraiment comme ça qu'elle me voyait ? J'ai vraiment été comme ça, moi ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Tu sais, mon ami, se morfondre dans ses regrets, ça ne fait jamais de bien à personne.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Je…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 933,
+              "PlotLineKey": "Il n'est pas trop tard pour agir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 934,
+              "PlotLineKey": "Ne laisse pas la chanson de Strozzia résonner dans le vide.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 32,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Tu as raison. J'ai des choses à faire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Je dois récupérer les armes de mes camarades. Moi seul peux les reconnaître.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Aleus",
+          "PlotLineKey": "Merci à vous tous. Et surtout à toi, Grisoni. Cette chanson restera à jamais gravée dans mon cœur, me rappelant qui je suis censé être.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Julio",
+          "PlotLineKey": "Ah, {Male=le Lauréat;Female=la Lauréate} ! Quel honneur de recevoir ta visite chez moi !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Julio",
+          "PlotLineKey": "Puis-je faire quelque chose pour toi ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 739,
+              "PlotLineKey": "(Lui dire ce qui est arrivé à Strozzia.)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Julio",
+          "PlotLineKey": "…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Julio",
+          "PlotLineKey": "Ça fait cinq ou six ans que je n'ai pas vu ma sœur. Je pensais qu'elle finirait par renoncer à ce rêve absurde de devenir musicienne et qu'elle reviendrait pour reprendre l'affaire familiale.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Julio",
+          "PlotLineKey": "Il faut croire que j'avais sous-estimé sa détermination. Peut-être que quand elle m'a laissé cette lettre, elle n'était déjà plus la petite sœur qui se cachait derrière moi quand nos parents nous grondaient.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Julio",
+          "PlotLineKey": "Non, c'était peut-être même avant ça, quand elle a refusé d'aller dans la même école que moi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Julio",
+          "PlotLineKey": "Si je lui avais parlé plus tôt, si je l'avais soutenue, elle ne serait peut-être pas partie toute seule à Septimont… J'aurais dû la contacter, lui demander comment ça se passait…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Julio",
+          "PlotLineKey": "Ah… Je n'imagine même pas à quel point elle devait me détester…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Julio s'affaisse et se met à pleurer. Le Mime Aria entonne alors une chanson.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Cette chanson… C'est une berceuse de Ragunna. Elle était très populaire il y a une vingtaine d'années.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Julio",
+          "PlotLineKey": "Ah… c'est… C'est celle que je lui chantais.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Julio",
+          "PlotLineKey": "J'ai dix ans de plus qu'elle, et je l'ai plus ou moins élevée en même temps que nos parents. Même quand elle était au collège, elle venait se cacher dans ma chambre quand il y avait de l'orage.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Julio",
+          "PlotLineKey": "Mais… comment Grisoni peut-il connaître cette chanson ? Il ne faisait pas partie de la famille, à l'époque.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 740,
+              "PlotLineKey": "Strozzia la jouait en permanence.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 741,
+              "PlotLineKey": "C'était la chanson préférée de Strozzia.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Julio",
+          "PlotLineKey": "Alors… elle la jouait souvent…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "On ne joue pas tout le temps une chanson qui nous rappelle quelqu'un qu'on déteste… Ta sœur ne t'a jamais détesté. Elle voulait seulement avoir sa propre vie.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Sa coéquipière Pulkara a une fille qui veut devenir musicienne parce que sa mère aimait l'accordéon.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Grisoni a tout risqué pour revenir à Ragunna et te dire que sa maîtresse était devenue musicienne grâce à l'amour qu'elle portait à son grand frère.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Même dans ces derniers instants, elle a pensé à te dire qu'elle t'aimait.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Julio",
+          "PlotLineKey": "C'est vrai, Grisoni ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Grisoni prend Julio dans ses bras, et une belle mélodie s'échappe de sa poitrine.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Julio",
+          "PlotLineKey": "Je vois... Je continuerai à vivre, en gardant toujours l'amour de ma sœur dans mon cœur.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Julio",
+          "PlotLineKey": "Si elle ne m'a jamais détestée, c'est une raison de plus pour essayer d'être heureux…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Julio",
+          "PlotLineKey": "Peut-être qu'un jour, quelque part, nos âmes se retrouveront…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Face au sourire larmoyant de Julio, le corps de Grisoni se dissout dans une pluie d'étincelles lumineuses, semblables à une rivière d'étoiles coulant vers le Nexus.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Tertia",
+          "PlotLineKey": "Oh, vous êtes {Male=revenu;Female=revenue} !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Tertia",
+          "PlotLineKey": "Il est où, le Mime Aria ? Pourquoi il n'est pas avec vous ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Raconter à Tertia l'histoire de Grisoni et Strozzia.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Tertia",
+          "PlotLineKey": "Oh, alors Grisoni a tout fait pour réaliser son vœu et celui de Strozzia, jusqu'au bout…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Tertia",
+          "PlotLineKey": "Tu crois qu'il fera de beaux rêves dans le Nexus ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 771,
+              "PlotLineKey": "Je crois, oui.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 772,
+              "PlotLineKey": "Les Échos qui retournent au Nexus sont reconvertis en nouvelles entités.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Tertia",
+          "PlotLineKey": "J'espère qu'il retrouvera sa maîtresse dans son rêve !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 7,
+          "Speaker": "Tertia",
+          "PlotLineKey": "Ma mère m'a raconté qu'ils oublient tout et qu'ils repartent de zéro…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Tertia",
+          "PlotLineKey": "C'est drôlement triste, je trouve.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "Tertia",
+          "PlotLineKey": "Merci de m'avoir raconté cette histoire. Je la raconterai à mon petit dragon quand je serai rentrée.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Tu as un dragon ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Tertia",
+          "PlotLineKey": "Oui ! Ils sont trop chouettes ! Quand je serai gladiatrice, je l'emmènerai avec moi et il deviendra un énorme dragon !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Tertia",
+          "PlotLineKey": "Ah, j'ai failli oublier… Tenez, prenez ça ! Ma mère m'a dit qu'il faut toujours remercier les gens qui nous aident.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Tertia",
+          "PlotLineKey": "Au revoir, {Male=monsieur;Female=madame} !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Bonjour. Galba est là ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Medecin",
+          "PlotLineKey": "Oh… Vous venez le voir ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Oui. C'est un vieil ami, je passais lui rendre visite.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Medecin",
+          "PlotLineKey": "J'imagine que vous avez entendu parler de la dernière Marée montante. Son équipe a été attaquée par des Tacets Discords.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Medecin",
+          "PlotLineKey": "Galba a été grièvement blessé et a failli mourir. Il est actuellement dans le coma…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "C'est affreux… Que la Sentinelle le b… Hum, que la fortune le favorise et le ramène parmi nous.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Et qu'en est-il de sa famille ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Medecin",
+          "PlotLineKey": "M. Cratus, vous voulez dire ? Il est probablement en train de chasser les Tacets Discords dans la banlieue.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Pierrot",
+          "PlotLineKey": "Merci. Nous allons aller là-bas, dans ce cas.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Les Mimes Aria ne sont pas faits pour se battre… Mieux vite le trouver.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Dis-moi si tu repères quelque chose, Abby.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

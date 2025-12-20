@@ -1,0 +1,295 @@
+{
+  "Id": 880000041,
+  "Name": "Chasser les poissons",
+  "Description": "Il est temps de chasser les poissons !",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000041,
+  "ShowQuestList": [],
+  "QuestDesc": "Il est temps de chasser les poissons !",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "Le Vieil Homme et la Baleine"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Marco",
+          "PlotLineKey": "Salut, {PlayerName} ! Venez que je vous présente Julien. C'est un chat qui adore par-dessus tout la vie portuaire.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Marco",
+          "PlotLineKey": "Chaque fois que je lui donne un poisson et que j'essaie de parler de ses grandes aspirations félines, il me répond en miaulant.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Julien",
+          "PlotLineKey": "Miaou !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "Quelles sont ses aspirations félines ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 55,
+              "PlotLineKey": "Pourquoi miaule-t-il exactement ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Marco",
+          "PlotLineKey": "Il a fait la promesse d'atteindre le sommet de la grandeur féline : attraper toutes les bestioles ! Pas vrai, Julien ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Julien",
+          "PlotLineKey": "Miaou... Miaou !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "On dirait qu'il est d'accord.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "On dirait qu'il n'est pas d'accord avec toi.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Marco",
+          "PlotLineKey": "Et comment ! S'il accomplit son droit de naissance, il aura tous les poissons qu'il désire !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Marco",
+          "PlotLineKey": "Impossible... Je suis sûr qu'il vise à accomplir son droit de naissance. Il aura alors tous les poissons qu'il désire !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "En entendant le mot « poisson », Julien miaule d'excitation. Ses véritables aspirations félines deviennent soudainement claires.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "Il ne miaule que pour que tu lui donnes du poisson.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "Il traîne seulement autour du port à la recherche de poisson.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 60,
+              "PlotLineKey": "Il cherche la domination totale sur tous les poissons.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Marco",
+          "PlotLineKey": "C'est scandaleux ! Je pensais qu'il voyait quelque chose en moi...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 10,
+          "Speaker": "Marco",
+          "PlotLineKey": "Comment est-ce possible ?! Ce sont les rêves du chat dont nous parlons. Ça ne peut pas être juste sur les poissons !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "Marco",
+          "PlotLineKey": "Il y a une part de vérité là-dedans. Les poissons sont le joyau de la vie d'un chat !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "Marco",
+          "PlotLineKey": "Oh, Julien, dis-moi que ce n'est pas vrai ! Est-ce vraiment juste à propos des poissons ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Julien",
+          "PlotLineKey": "Miaou, miaou !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 61,
+              "PlotLineKey": "Vas-y. Donne-lui un poisson et tu verras.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Marco",
+          "PlotLineKey": "Bonne idée... Mais je n'ai pas réussi à en attraper un seul aujourd'hui !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 62,
+              "PlotLineKey": "J'ai du poisson sur moi.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 63,
+              "PlotLineKey": "Je n'en ai pas non plus sur moi.",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Marco",
+          "PlotLineKey": "Oh, vraiment ? Peut-tu me donner... euh non, en donner à Julien ?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 16,
+          "Speaker": "Marco",
+          "PlotLineKey": "Je vois... Eh bien, si tu trouves du poisson, peux-tu en partager avec Julien ?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "Marco",
+          "PlotLineKey": "Julien te paiera, bien sûr ! Enfin, c'est moi qui paierai, mais tu m'as compris...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Marco",
+          "PlotLineKey": "Alors ? Ça a mordu ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "Voilà.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Marco",
+          "PlotLineKey": "Oh, merci, je vais essayer tout de suite ! Julien. Viens ici, Julien. Viens chercher ton petit poisson.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Julien",
+          "PlotLineKey": "Miaou !!!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Julien prend joyeusement le poisson et le dévore en quelques secondes, ne laissant que les arêtes. Il se frotte ensuite contre votre main pour vous montrer sa gratitude.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Marco",
+          "PlotLineKey": "Ouah, tu as vu comment il s'est enfilé ce truc ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 73,
+              "PlotLineKey": "Impossible de résister à un en-cas.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 74,
+              "PlotLineKey": "C'est le joyau de leur vie, après tout.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Marco",
+          "PlotLineKey": "Oh que oui ! Merci beaucoup. Tu m'as aidé à me rendre compte de la véritable aspiration féline de Julien !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Marco",
+          "PlotLineKey": "Voilà, tu les as bien mérités !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Julien",
+          "PlotLineKey": "Miaou, miaou !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

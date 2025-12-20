@@ -1,0 +1,518 @@
+{
+  "Id": 880000011,
+  "Name": "百味のスープ",
+  "Description": "まだ食事の約束が果たされていないので、そろそろそれを叶える時だ。今州城に戻ってみないか？",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000011,
+  "ShowQuestList": [],
+  "QuestDesc": "まだ食事の約束が果たされていないので、そろそろそれを叶える時だ。今州城に戻ってみないか？",
+  "Conditions": [
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 8
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 140000000,
+      "PreQuestName": "名誉料理長・思い出の味"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "馬和（マーフー）",
+          "PlotLineKey": "おお、熾霞ちゃんじゃないか。また宅配かい？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "ち、違うって！それ、あたしの本業じゃないし！今日はおじさんに、このレシピの事を聞きに来たの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "馬和（マーフー）",
+          "PlotLineKey": "俺は褒めたつもりで言ったんだがな……熾霞ちゃんのおかげで足の悪い人たちも、満足に買い物ができている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "馬和（マーフー）",
+          "PlotLineKey": "でも、仕事熱心な熾霞ちゃんのことだし……そのレシピも誰かに頼まれたのかい？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "げっ、図星だ……でもこのレシピは、攀花さんに教えてもらったんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "馬和（マーフー）",
+          "PlotLineKey": "なっ！彼女が何か困り事か？それを早く見せるんだ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "話を聞きながら、馬和はレシピを注意深く見た。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 726,
+              "PlotLineKey": "この人……攀花さんと何か関係が……？",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 727,
+              "PlotLineKey": "馬和さん……何かわかった？",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "ちょっと複雑な事情があってね。ヒーローショーに例えると……彼女は彼の事を未だ気にしている。彼も、また然り。しかし、そんな事は誰も口に出さない……って感じ？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 728,
+              "PlotLineKey": "二人とも感情を隠している。",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 729,
+              "PlotLineKey": "そんな回りくどい言い方じゃわからない……",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 730,
+              "PlotLineKey": "{Male=熾霞って意外と物知りだな。;Female=熾霞って意外と物知りだね。}",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "そうそう、そういう感じ。あんた案外わかるね。普段からけっこう劇場に入り浸ってるとか？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 10,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "わからないのはあたしも同じだよ。大人の繊細で複雑な感情なんて知らないし！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "あったり前じゃん？人呼んで「今州通」ってのはあたしの事だ！それぞれの生き方と悩みがあるからこそ、この世界は面白い。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "馬和（マーフー）",
+          "PlotLineKey": "……このレシピ自体随分古いものだ。材料の名前も一般名じゃなく、別称が使われているから読みにくくなっている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "馬和（マーフー）",
+          "PlotLineKey": "確か……赤粒は龍銜珠（ヤブヘビイチゴ）で、甘根は白花菱（オニビシ）か。後は葛根（かっこん）と凌冬（りょうとう）だな……取ってくるよ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 731,
+              "PlotLineKey": "何でも揃ってるんだね。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "もっちろん。馬和さんは有名な雑貨屋さん。食材はもちろん、変な物もたっくさんあるんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "何か欲しいものがある時はここに来るといいよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "馬和（マーフー）",
+          "PlotLineKey": "あはは、さすがに熾霞ちゃんは大げさだけどね。結局は客のニーズ次第……でも、何か買いたいって時は来てくれよ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 732,
+              "PlotLineKey": "わかった。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 733,
+              "PlotLineKey": "馬和さんありがとう！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "馬和（マーフー）",
+          "PlotLineKey": "しかし、このレシピには「羅漢水」を使うとも書いてあった。それと、特製の金匙も必要らしい……こればっかりは流石にお手上げだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "馬和（マーフー）",
+          "PlotLineKey": "食材の別称なら一応知ってるが……この二つはどうもね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "馬和（マーフー）",
+          "PlotLineKey": "料理の事はあまり知らないが、このレシピに書いてあった材料の量や種類を考えると……もしかしたら、薬膳や雑炊のような物かもしれないな。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 734,
+              "PlotLineKey": "もう作れないってこと？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "いや、待てよ。薬膳なら、薬局でココに話を聞いてみよう！彼女は薬膳を研究してるから、何かわかるかも！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "それじゃ、ありがとう、馬和さん！これ全部でいくら？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "馬和（マーフー）",
+          "PlotLineKey": "お代はいいよ。普段から助けられっぱなしだからな。それと、攀花に……いや！攀花の作る料理には大いに興味がある。完成したら、俺の分も取っておいてくれないか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "もっちろん！任せてよ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "偉じい",
+          "PlotLineKey": "これなら、幾分マシに見える。大事に使えよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "偉じい",
+          "PlotLineKey": "それと、また新しい武器が欲しくなったら、素材の<span style=\"color:#ffd12f;\" class=\"font-bold\">鉱石と鋳型</span>を持って、俺を訪ねるといい。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 827,
+              "PlotLineKey": "ありがとうございます。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "偉じい",
+          "PlotLineKey": "そう畏まらんでいい。俺も所詮、ただの武器屋だ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "偉じい",
+          "PlotLineKey": "さっきあげた鉱石も珍しいものじゃない。より良いものが欲しいのなら、合成マシンの所に行くんだな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "ああ、あれね！研究院の新作！すぐ入口のとこにあるよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "偉じい",
+          "PlotLineKey": "熾霞、案内してやれ。素材なら俺が……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "偉じいさんはもう十分助けてくれたよ！素材なら前あたしが補充したのを使うよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "合成マシンを使ったら、攀花さんのとこに戻ろう。真珠翡翠湯の完成をお楽しみに！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "どう？簡単でしょ？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "技術がどんどん進化して……ここでの生活も随分楽になったよね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "でも……例え生活が変わったとしても、皆でスープを作れたらいいな。皆が入れる一番大事な食材も気になるしね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "って、もうこんな時間！攀花さんとこに戻らないと。料理一つのために、まさかこんな走り回ることになるなんて……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "食堂に戻り、レシピと真珠翡翠湯にまつわる話を攀花に教えた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "攀花（パンファ）",
+          "PlotLineKey": "そうだったのね……真珠翡翠湯は皆が食材を分かち合って作った物。道理で「最高の食材を集めて」って書いてあったわけだ……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "攀花（パンファ）",
+          "PlotLineKey": "でも、今伝わってる評判が味に対するものじゃないんだったら、このレシピは使えないのかもね……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "攀花さん。あたしと{PlayerName}も一緒に作るよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "味はメニューに載せるほどじゃないかもしれない……でも、あれだけ苦労したんだし、ちゃんと味わってみないと気が済まないよ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 850,
+              "PlotLineKey": "{Male=実は俺も同意見。;Female=実は私も同意見。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 851,
+              "PlotLineKey": "作ってみなきゃ味もわからない。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "攀花（パンファ）",
+          "PlotLineKey": "そうね。せっかく食材を揃えてくれたんだし……やんなきゃ損、だよね！皆で作って、皆で食べようか！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "しばらくして、真珠翡翠湯が完成した。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "熾霞、攀花と一緒に、真珠翡翠湯を味わった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "薬剤の苦さと食材の旨みが絡み合い、何とも言えない味が口の中に広がる。二人の表情を少し伺ってみたが、やはり彼女たちの顔にも同じ表情が浮かんでいた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "攀花（パンファ）",
+          "PlotLineKey": "うん……どうだろうね、この味。悪くはないが……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "美味くもない……店の料理の方が全然美味い……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "えー！？ここまで来たのに！？こういうのって普通「歴史に埋もれた美味を見つけた」ってオチじゃないの！？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1225,
+              "PlotLineKey": "そんなヒーローショーあったっけ……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1226,
+              "PlotLineKey": "普通とは……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "攀花（パンファ）",
+          "PlotLineKey": "にしても漂泊者、料理のセンスあるんじゃない？初めてにしては中々手際が良かったよ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1227,
+              "PlotLineKey": "夢中で作ってた。",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 1228,
+              "PlotLineKey": "{Male=昔の俺は名料理人だったかもしれない。;Female=昔の私は名料理人だったかもしれない。}",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "熾霞（シカ）",
+          "PlotLineKey": "こりゃあ、あたしも見習わなきゃな！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 9,
+          "Speaker": "攀花（パンファ）",
+          "PlotLineKey": "お世辞なんかじゃないよ。ずっとあんたの動きを見ていたんだもの。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 10,
+          "Speaker": "攀花（パンファ）",
+          "PlotLineKey": "よしっ！それじゃこれで一件落着だね！そろそろ休もうか！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "攀花（パンファ）",
+          "PlotLineKey": "はいこれ、約束した報酬よ。食堂の無料券三枚！あたしの料理を食べたくなったら、いつでも来な。一枚につき一食、それも上限なし！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

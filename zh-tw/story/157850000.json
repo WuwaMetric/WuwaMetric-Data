@@ -1,0 +1,238 @@
+{
+  "Id": 157850000,
+  "Name": "染穢之夢",
+  "Description": "完成挑戰，擊敗隱藏在夢境節點後的夢魘。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 157850000,
+  "ShowQuestList": [],
+  "QuestDesc": "完成挑戰，擊敗隱藏在夢境節點後的夢魘。",
+  "Conditions": [
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 157850001
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 169850002
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 169850000
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 169850004
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "{PlayerName}，聽得到嗎？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "我們剛剛確認到出現在七丘地區的夢魘殘象被消滅了，果然是你又出手了，辛苦了。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 51,
+              "PlotLineKey": "舉手之勞罷了。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 52,
+              "PlotLineKey": "只是路過的熱心遊客。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "你的舉手之勞倒是送了我們一個驚喜……事實上，我們在七丘的夢境樣本中發現了一些特別的東西。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "該說是意外還是命運呢，總之，非常感謝你的協助……事實上，我們在七丘的夢境樣本中發現了一些特別的東西。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "你還記得上一次那張來自心之集域的電影節邀請函嗎？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 53,
+              "PlotLineKey": "記得。",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 54,
+              "PlotLineKey": "沒什麼印象了。",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "嗯，如果你還記得就方便解釋了。那封邀請函的事這些天一直困擾著我們，畢竟，深水區是我們一直以來都無法探知的獨特夢境。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "我們在七丘的數據樣本中找到了一種相似的頻率，也許，當時那封邀請函正是由於這種頻率的特殊力量，才能穿越深水區的封鎖來到你手中的。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "不記得也沒關係，簡單來說，就是我們大概猜到了心之集域中的深層夢境突然變得活躍的原因。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "不過目前樣本的數量還不足以驗證我們的猜測，如果方便的話，請你再幫忙解決掉其他幾個夢魘殘象吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "我將它們的位置發送給你了，事成之後，我們也會準備相應的獎勵。辛苦你了，{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "{PlayerName}，這邊已經確認到全部的夢境樣本了。辛苦你了。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 67,
+              "PlotLineKey": "結果如何？",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 68,
+              "PlotLineKey": "我的獎勵呢？",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "白色守門人",
+          "PlotLineKey": "{PlayerName}，實不相瞞，只是沒想到情況要比想像中還要複雜得多喵！我們在這一期的新樣本中發現了之前出現在電影院——",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "白色守門人",
+          "PlotLineKey": "獎勵稍後就會發給你的喵，我們絕不食言！{PlayerName}你知道嗎，我們在這一期的新樣本中發現了之前出現在電影院的——",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "你別插話，匯報工作的人是我！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "白色守門人",
+          "PlotLineKey": "……喵。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "長話短說，七丘地區的夢魘殘象身上帶有著一種獨特的頻率，這種頻率與之前深水層恢復連接，寄出邀請函時的那一刻有相似之處。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "目前可以確定的是，黎那汐塔的心之集域一直以來無法連接的原因就和這種頻率相關。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "但，這種力量究竟從何而來目前仍無法確定。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "白色守門人",
+          "PlotLineKey": "我們推測這和那個名為黑潮的災害有關喵！收集的夢魘的樣本中就有提到了黑潮的噩夢！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "都說了現在是我在匯報工作！沒有根據的猜測不要亂講！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "總之，雖然我們還不知道集域深水層的情況，但是毫無疑問，集域和黎那汐塔都有可能會受到這種頻率的進一步影響。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "黑色守門人",
+          "PlotLineKey": "如果{PlayerName}要前往黎那汐塔的其他地區，也請務必留心其中的夢魘殘象。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

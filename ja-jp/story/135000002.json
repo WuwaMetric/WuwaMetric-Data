@@ -1,0 +1,868 @@
+{
+  "Id": 135000002,
+  "Name": "駐屯地物資盗難の件について調べる",
+  "Description": "駐屯地物資の行方を探し出す",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 135000002,
+  "ShowQuestList": [],
+  "QuestDesc": "駐屯地物資の行方を探し出す",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100005,
+      "PreQuestName": "策を奔らせて残星を候ふ"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "漂泊者！？珍しいですね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "この駐屯地の隊長、北固と申します。今、ここで窃盗事件が起きていて……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 121,
+              "PlotLineKey": "手伝おうか？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "この駐屯地はブブ物流に補給を運んでもらっていて、荷下ろしをする時に毎回数の確認をするのですが……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "夜になって、再度確認したところ、一箱無くなっていたのです。ま、まあ、たった一箱なので大した事じゃない……はず……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 122,
+              "PlotLineKey": "……本当に？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "確かに、城内の暖かいご飯を求めている人たちにとっては……価値がありますよね……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "実は、駐屯地の隊員たちを労うため、攀花さんにお惣菜を用意してもらったんです。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 123,
+              "PlotLineKey": "鶏のソース煮込み、今州シチュー、小龍包、黄金チャーハン、牛きのこ鍋……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 124,
+              "PlotLineKey": "聞いただけでよだれが……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "あはは、ごめんなさい。もう長いこと城内に帰れていないので、つい懐かしくなってしまい……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "とにかく、このことは内密にしてください。でも、俺が自ら調査するのも難しい……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "我々のような前線の戦士にとって、信頼関係というのは重要なもの……変な噂が立つとマズイのですよ……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 125,
+              "PlotLineKey": "{Male=それで、俺にお願いしたい？;Female=それで、私にお願いしたい？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 126,
+              "PlotLineKey": "もちろん、タダ働きはさせません。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "お礼として、攀花食堂でたらふく奢りましょう！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 127,
+              "PlotLineKey": "{Male=約束だぞ！;Female=約束だよ！}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "というわけで、見張り塔の当番に聞き込みをしてみましょう。昨日の人の出入りがわかるはずです。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "渡影",
+          "PlotLineKey": "漂泊者！何かお手伝いできることはありますか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 135,
+              "PlotLineKey": "（来た意図を説明）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "渡影",
+          "PlotLineKey": "昨日の人の出入り……ですか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "渡影",
+          "PlotLineKey": "実は俺、昨日は非番だったんです……でも、記録ならすぐ調べられますよ！ちょっと待っててください！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "渡影",
+          "PlotLineKey": "ブブ物流の配達員しか、来ていなかったようですね。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 136,
+              "PlotLineKey": "そんなあっさり教えていいの？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 137,
+              "PlotLineKey": "どうしてこんなこと聞くのか、気にならない？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "渡影",
+          "PlotLineKey": "忌炎将軍が言ってました。どんな時でも夜帰は漂泊者の力になるべきだって。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "渡影",
+          "PlotLineKey": "だから、理由は聞きません。ただ、お役に立てれば幸いです。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 138,
+              "PlotLineKey": "ありがとう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 139,
+              "PlotLineKey": "正直者だね。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "蕪菁（ブセイ）",
+          "PlotLineKey": "誰だ！あんなひどいことをしたのは！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 164,
+              "PlotLineKey": "何かあった？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "蕪菁（ブセイ）",
+          "PlotLineKey": "誰かが食べ物をこぼしたせいで、灰冠が寄って来たんだ。それもたくさん！追い払ってもキリがないくらい！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "蕪菁（ブセイ）",
+          "PlotLineKey": "掃除するの大変だったよ……身体中、突かれて痛い……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 165,
+              "PlotLineKey": "ここの責任者なの？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "蕪菁（ブセイ）",
+          "PlotLineKey": "違うよ。ここは保管エリアだからね。責任者は茗伊。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "蕪菁（ブセイ）",
+          "PlotLineKey": "普段は茗伊が倉庫内の物資の点検、天琅と蕪衡は荷下ろしを担当してるんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "蕪菁（ブセイ）",
+          "PlotLineKey": "そうだ。こんなことした犯人が誰なのか、後で茗伊に聞いてみよう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "夜帰隊員",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "夜帰隊員",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "夜帰隊員",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "引きずったような足跡……何か重いものを運んでいたのだろうか……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "歩く時に重心を後ろに置いているせいか、、靴のかかとの損傷が激しいようだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 183,
+              "PlotLineKey": "何してるの？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "天琅（テンロウ）",
+          "PlotLineKey": "漂泊者？今は新しく届いた制服を点検しているところです。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 184,
+              "PlotLineKey": "昨日届いた荷物の中にそれが？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "天琅（テンロウ）",
+          "PlotLineKey": "はい。兵士たちの制服は定期的に新調されます。ついこの間もいくつか新しい制服の申請がありました……大抵ひどい申請理由でしたが……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "天琅（テンロウ）",
+          "PlotLineKey": "……任務中、砕牙猪にズボンを破られたとか……光なき森で遊び猿に帽子を盗まれたとか……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "天琅（テンロウ）",
+          "PlotLineKey": "申請書はその角を曲がったテーブルの上に置いてあります。もし興味があれば、自由に読んでいただいて構いません。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 185,
+              "PlotLineKey": "倉庫に物資を入れる時、何かあった？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "天琅（テンロウ）",
+          "PlotLineKey": "茗伊の代わりに、俺が荷物の点検をやりました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "天琅（テンロウ）",
+          "PlotLineKey": "もう一人の蕪衡は、倉庫の外で荷物を下ろしていましたが……特に変なことはしていなかったと思います。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 186,
+              "PlotLineKey": "……ということは、申請書に手がかりがあるかもしれない。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 199,
+              "PlotLineKey": "……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "若い夜帰",
+          "PlotLineKey": "な……何の用ですか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 200,
+              "PlotLineKey": "服に油が……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "若い夜帰",
+          "PlotLineKey": "そ、それは……城内に戻って、攀花食堂で食べてきたから……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 201,
+              "PlotLineKey": "もう聞く必要はなさそうだ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "茗伊（メイイ）",
+          "PlotLineKey": "ひょ……漂泊者？もしかして、北固隊長に手伝うよう頼まれたのですか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "茗伊（メイイ）",
+          "PlotLineKey": "補給が紛失した件は、私が報告しました。まさか、少し持ち場を離れただけで、こんなことが起きるなんて……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "離れた？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 174,
+              "PlotLineKey": "どこに行ったの？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "茗伊（メイイ）",
+          "PlotLineKey": "あ、えっと……わ、私……ちゃんと、天琅に代わるようお願いしました！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "茗伊（メイイ）",
+          "PlotLineKey": "天琅と渡影も、私にはアリバイがあると証明できるはずです！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 175,
+              "PlotLineKey": "渡影も関わってる？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "茗伊（メイイ）",
+          "PlotLineKey": "に……荷物に渡影宛てのものがありましたから、ついでに渡してあげたんです！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "茗伊（メイイ）",
+          "PlotLineKey": "他の意味なんてありません。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "若いっていいね……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "次は天琅のところへ行こう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ブブ物流の配達箱。開けた瞬間、食欲をそそる匂いが溢れ出したが、中は空っぽだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "箱の底にオイルの光沢が……この香り……間違いない！攀花食堂の鶏のソース煮込みだ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "嗅げば嗅ぐほど腹が減ってくる……これ以上、長居はできない……近くの隊員に気づいたことがないか聞いてみよう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "駐屯地隊長",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "駐屯地隊長",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "駐屯地隊長",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "出入り記録がない……ですか……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "こうなると、内部の人が犯人かもしれません……あまり考えたくはないですが……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "先ほど、監視映像を調べてきました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "茗伊、天琅、蕪衡……この三名が荷下ろしを手伝っていました。この三人を調べれば、何か手がかりが出るかもしれません。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "そういえば……倉庫の辺りに監視カメラの死角があるんです。そこも調べた方が良さそうですね。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "申請者：渡影<br>申請内容：上着の取替え<br>理由：追放者の人質になった研究員の救出任務中、流れ弾に当たり、破損した。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "申請者：克凜<br>申請内容：帽子の取替え<br>理由：うっかり灰冠を怒らせ、空からの贈り物を頂いた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "さっき灰冠と戦ってた蕪菁も大変なことになってそう……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "申請者：蕪衡<br>申請内容：靴の取替え<br>理由：重たい荷物の運搬のせいで、 靴のかかとの摩耗が激しい。よく転んでしまう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "物流箱の近くにあった足跡の特徴と同じだ。でも、まだ確信できない。念のため本人に確認してみよう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 206,
+              "PlotLineKey": "（北固に自分の予測を教える）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "はい、俺も目星は付いてます。漂泊者、荷物を盗んだ人は誰だと思いますか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "茗伊。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 208,
+              "PlotLineKey": "天琅。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 209,
+              "PlotLineKey": "蕪衡。",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "うーん……もしかしたら違う人かもしれませんね……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "うーん……もしかしたら違う人かもしれませんね……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "俺も同じことを考えていました。蕪衡に話を聞いてみましょう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "若い夜帰",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "若い夜帰",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "若い夜帰",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "若い夜帰",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "若い夜帰",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 212,
+              "PlotLineKey": "",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "ご協力感謝します、漂泊者。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 219,
+              "PlotLineKey": "蕪衡は……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "幼い頃に故郷を離れ、何年も駐屯地に頑張っていて、考え方も真っ直ぐで、トラブルは黙って自分で解決しようする奴です……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "しかし、駐留している兵士が持ち場を離れてはいけない……背を預ける仲間と誠実に向き合う必要があるからです。彼もまだまだですね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "足りないお惣菜は、蕪衡に作ってもらうとしましょう！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "北固（ホクコ）",
+          "PlotLineKey": "それと、俺が城内に戻ったら、攀花食堂でパーッとやりましょうね！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

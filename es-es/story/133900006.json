@@ -1,0 +1,222 @@
+{
+  "Id": 133900006,
+  "Name": "Reconstruir la Villa Peluchona II",
+  "Description": "Gracias a tu arduo trabajo, se han logrado cambios significativos en la Villa Peluchona. Mientras tanto, el pueblo recibe a un nuevo visitante.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 133900006,
+  "ShowQuestList": [],
+  "QuestDesc": "Gracias a tu arduo trabajo, se han logrado cambios significativos en la Villa Peluchona. Mientras tanto, el pueblo recibe a un nuevo visitante.",
+  "Conditions": [
+    {
+      "Type": "Item",
+      "Items": [
+        {
+          "ItemId": 71220005,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900005,
+      "PreQuestName": "Reconstruir la Villa Peluchona I"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Hola, ¿Hornoviejo trabajó en esta panadería?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Aprendiz",
+          "PlotLineKey": "Sí. ¿Sabes dónde está?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Se está recuperando en un lugar seguro. ¿Lo rompisteis vosotros?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Aprendiz",
+          "PlotLineKey": "No, eso no es culpa nuestra. El panadero original usaba a Hornoviejo de malas trazas durante los últimos 60 años, y ya estaba un poco roto cuando trabajamos con él.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Aprendiz",
+          "PlotLineKey": "Aunque queríamos utilizar un horno mejor, nos preocupaba herir sus sentimientos, así que nos las arreglamos como pudimos. Pero luego la válvula de Hornoviejo se rompió y se escapó.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "¿Se puede saber qué te trae por aquí?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Aprendiz",
+          "PlotLineKey": "Estoy tratando de encontrar una forma de arreglar a Hornoviejo. Crecí comiendo el Pan de Bastón que horneaba, aunque lo que hacía ahora se parecía más a un bastón de verdad que a un pan...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Aprendiz",
+          "PlotLineKey": "Ahora que lo pienso, si está recuperándose en algún lugar, ¿podrías enviárnoslo de vuelta cuando esté arreglado?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Aprendiz",
+          "PlotLineKey": "Ha estado trabajando un montón de años para acabar solo y roto, y no quiero dejarle de lado. Creo que no está bien...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1282,
+              "PlotLineKey": "Bueno, tampoco puedes pedirle peras al olmo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1283,
+              "PlotLineKey": "¿Pero realmente necesitas a Hornoviejo?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Aprendiz",
+          "PlotLineKey": "Ya veo. Pero... Bueno, primero les contaré a mis compañeros de la panadería lo que pasó. Por favor, cuida bien de Hornoviejo.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "¡Mi {Male=querido;Female=querida} {PlayerName}! ¡Llegas en el momento perfecto! ¡Mira allí!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Miras hacia donde apunta Fulmine. Algunos peluches juegan a ser caballeros, usando el pan duro y seco en forma de bastón que Hornoviejo hacía como si de espadas se tratase.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "¿Quién lo hubiera pensado? Una hogaza de pan superseca todavía puede ser útil.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "¡Creo que Villa Peluchona es ahora el mejor hogar para Hornoviejo!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1146,
+              "PlotLineKey": "Como un buen abuelo jugando con los nietos.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1147,
+              "PlotLineKey": "Un herrero forjando espadas para unos caballeros de peluche.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "¡Ja, ja! ¡No hay mejor manera de decirlo!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Todo es gracias a ti. Nunca podría haber conseguido tantos Ataúdes en toda mi vida.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1148,
+              "PlotLineKey": "Es satisfactorio ver que todo ha salido bien.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 1149,
+              "PlotLineKey": "¡Es satisfactorio obtener recompensas!",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Sí, te entiendo. Aunque no sean humanos, compartimos los mismos sentimientos.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Hablando de eso, la Esfera Sonora de la pintura aún está lejos del tamaño que aparece en el registro. ¡Seguro que hay más recompensas esperándote!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "¡Sigamos trabajando juntos!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "La Villa Peluchona ha experimentado algunos cambios. Parece que ha llegado un Eco de horno.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

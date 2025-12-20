@@ -1,0 +1,458 @@
+{
+  "Id": 135000009,
+  "Name": "Lost History",
+  "Description": "Locate five lighthouses in Huanglong, collect information, and help the historian to uncover the truth",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 135000009,
+  "ShowQuestList": [],
+  "QuestDesc": "Locate five lighthouses in Huanglong, collect information, and help the historian to uncover the truth",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 135000007,
+      "PreQuestName": "Repair the Lighthouse at the Wuming Bay"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 135000008,
+      "PreQuestName": "Repair the lighthouse in Desorock Highland"
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 135000054
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 135000046
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 135000038
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historian",
+          "PlotLineKey": "Hello, hello! You must be the one who solved the mysteries of the lighthouses.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 262,
+              "PlotLineKey": "That's me.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Historian",
+          "PlotLineKey": "Please, describe to me your findings within the consoles. I am truly intrigued.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "You tell the historian about what you found inside the consoles.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historian",
+          "PlotLineKey": "Hmm... I didn't expect such stories to have occurred.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Historian",
+          "PlotLineKey": "What was the final destination of the \"Stingray\"? A question that would truly arouse one's interest... It feels that this would make a wonderful research topic.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Historian",
+          "PlotLineKey": "Having studied the historical records, I have learned that there are five of these identical lighthouses within Jinzhou in total.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Historian",
+          "PlotLineKey": "Obtaining the records from all of the lighthouses' consoles may just reveal the whereabouts of the \"Stingray.\"",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Historian",
+          "PlotLineKey": "Can you ask you to find the records of the remaining lighthouses? I'll prepare gifts in return for your troubles!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 263,
+              "PlotLineKey": "Not a problem, leave it to me.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 264,
+              "PlotLineKey": "Doesn't matter. I'm just here for the history part.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Historian",
+          "PlotLineKey": "Haha. Then I shall entrust the task to you!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historian",
+          "PlotLineKey": "Hello, hello! You must be the one who solved the mysteries of the lighthouses.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 281,
+              "PlotLineKey": "Yes.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Historian",
+          "PlotLineKey": "Please, describe to me your findings within the consoles. I am truly intrigued.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "You tell the historian what you found inside the consoles.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historian",
+          "PlotLineKey": "How could this be?! You managed to find information from all five lighthouse consoles you say...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Historian",
+          "PlotLineKey": "Your passion for history is much greater than that of my own pupils. This brings tears to my eyes.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 282,
+              "PlotLineKey": "Are we now able to find the location of the Stingray?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Historian",
+          "PlotLineKey": "Of course, this information is more than adequate for me to calculate the Stingray's whereabouts. But there is something strange about this...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 283,
+              "PlotLineKey": "What is it? You can't find it?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Historian",
+          "PlotLineKey": "No. It's just that it is not worth searching for it anymore.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Historian",
+          "PlotLineKey": "According to those coordinates, I can say with confidence that this Stingray is the same ship that we salvaged near the harbor of the Whining Aix's Mire a few years prior.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Historian",
+          "PlotLineKey": "Inside the wreckage, we found some of the crew's logs, although broken into pieces, we still managed to link them with the stories found in the consoles.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 284,
+              "PlotLineKey": "So were Moak and his crew all safe?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Historian",
+          "PlotLineKey": "Unfortunately, we also discovered six bodies inside... Based on the information we have, they belong to Moak and his crew members.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 285,
+              "PlotLineKey": "How could this be?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Historian",
+          "PlotLineKey": "Further investigations found that the deaths of the other five members date back even further than the time when Moak made his first recording in the lighthouse.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Historian",
+          "PlotLineKey": "In other words, Moak had been sailing on the sea alone all this time, and his crew members had long since fallen victim to the TDs...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Historian",
+          "PlotLineKey": "Experiencing such losses, Moak refused to accept such an ending. So he fell into a fantasy, that he and his crew members all found the lighthouses one by one, found their own homes, and left the Stingray safely.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Historian",
+          "PlotLineKey": "In the end, only he himself completed the voyage and forever laid in that seabed with the Stingray.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 286,
+              "PlotLineKey": "Are you sure this is what truly happened...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Historian",
+          "PlotLineKey": "I cannot make any guarantees, as these are just my own speculations. Yet, unfolding forgotten stories, is what makes history fascinating.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Historian",
+          "PlotLineKey": "Regardless, I'm really grateful for letting me see the whole story. Your passion for history truly deserves these rewards.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historian",
+          "PlotLineKey": "Greetings, Rover. Did you find the remaining lighthouses?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "You tell the historian what you found inside the consoles.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Historian",
+          "PlotLineKey": "Is that so? You managed to find information from all five lighthouse consoles you say...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historian",
+          "PlotLineKey": "Your passion for history is much greater than that of my own pupils. This brings tears to my eyes.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 302,
+              "PlotLineKey": "Are we now able to find the location of the Stingray?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Historian",
+          "PlotLineKey": "Of course, this information is more than adequate for me to calculate the Stingray's whereabouts. But there is something strange about this...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "What is it? You can't find it?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Historian",
+          "PlotLineKey": "No. It's just that it is not worth searching for it anymore.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Historian",
+          "PlotLineKey": "According to those coordinates, I can say with confidence that this Stingray is the same ship that we salvaged near the harbor of the Whining Aix's Mire a few years prior.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Historian",
+          "PlotLineKey": "Inside the wreckage, we found some of the crew's logs, although broken into pieces, we still managed to link them with the stories found in the consoles.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "So were Moak and his crew all safe?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Historian",
+          "PlotLineKey": "Unfortunately, we also discovered six bodies inside... Based on the information we have, they belong to Moak and his crew members.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 305,
+              "PlotLineKey": "How could this be?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Historian",
+          "PlotLineKey": "Further investigations found that the deaths of the other five members date back even further than the time when Moak made his first recording in the lighthouse.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Historian",
+          "PlotLineKey": "In other words, Moak had been sailing on the sea alone all this time, and his crew members had long since fallen victim to the TDs...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Historian",
+          "PlotLineKey": "Experiencing such losses, Moak refused to accept such an ending. So he fell into a fantasy, that he and his crew members all found the lighthouses one by one, found their own homes, and left the Stingray safely.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Historian",
+          "PlotLineKey": "In the end, only he himself completed the voyage and forever laid in that seabed with the Stingray.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 306,
+              "PlotLineKey": "Are you sure this is what truly happened...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Historian",
+          "PlotLineKey": "I cannot make any guarantees, as these are just my own speculations. Yet, unfolding forgotten stories, is what makes history fascinating.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Historian",
+          "PlotLineKey": "Regardless, I'm really grateful for letting me see the whole story. Your passion for history truly deserves these rewards.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historian",
+          "PlotLineKey": "Hello Rover, do you still remember me? I'm a historian from the Imperial Academy.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Historian",
+          "PlotLineKey": "It appears you have activated all five lighthouses. I'm sure you must have learned a great deal about the Stingray.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Historian",
+          "PlotLineKey": "Please, come back to the city and tell me all about them when you have the time to spare.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historian",
+          "PlotLineKey": "Maybe this time, we can finally solve this unknown piece of history!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

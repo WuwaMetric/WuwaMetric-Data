@@ -1,0 +1,1840 @@
+{
+  "Id": 109000006,
+  "Name": "Un repas gratuit ?",
+  "Description": "Vaincre les Tacets Discords pour des récompenses ? On dirait un vrai festin gratuit ! Rejoignez le patrouilleur Minghu, postulez et assurez votre place !",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 109000006,
+  "ShowQuestList": [],
+  "QuestDesc": "Vaincre les Tacets Discords pour des récompenses ? On dirait un vrai festin gratuit ! Rejoignez le patrouilleur Minghu, postulez et assurez votre place !",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100004,
+      "PreQuestName": "La marche échoante"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Patrouilleur jovial",
+          "PlotLineKey": "Alors, {Male=monsieur;Female=madame}, tu veux essayer ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Patrouilleur jovial",
+          "PlotLineKey": "Bon, c'est peut-être un peu risqué, mais comme on dit, la chance sourit aux audacieux !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 245,
+              "PlotLineKey": "Pourquoi tu n'essaies pas ?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 246,
+              "PlotLineKey": "D'accord.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Honnêtement, je viens de quitter le secteur de la logistique, donc je ne m'y connais pas beaucoup... Au fait, je m'appelle Minghu.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Je n'ai donc pas d'autre choix que de demander de l'aide. De toute façon, du moment que j'y arrive, peu importe que ce soit moi qui le fasse.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "Minghu",
+          "PlotLineKey": "J'admire ton dévouement.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Tu vois ces émulateurs sonores ? Ils ont été endommagés par les Tacets Discords lors de la dernière offensive.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Il faut d'abord réparer ces trois émulateurs sonores, puis les activer pour éliminer les Tacets Discords qui se sont rassemblés.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Malheureusement, ça fait longtemps que je n'ai pas fait ça. Il y aura beaucoup de Tacet Discord à éliminer... mais je suis sûr que tu en es capable.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 247,
+              "PlotLineKey": "D'accord.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Super ! Donne-moi ton nom, numéro et les détails de ton arme pour que je puisse faire un enregistrement.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 248,
+              "PlotLineKey": "(Lui donner tes informations)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Minghu",
+          "PlotLineKey": "{PlayerName}, hein ? C'est un bon nom. Unique et impressionnant !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Tu as aussi une bonne arme. Ça devrait suffire...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Minghu",
+          "PlotLineKey": "D'accord ! Commençons tout de suite !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Oh ! Je ne me suis pas trompé. Tu es génial !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "En fait, d'autres personnes ont déjà essayé, mais sans succès. Je me demandais donc si c'était difficile...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Tiens, prends ton paiement. Grâce à toi, je peux enfin terminer ce travail sans problème !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Je compte sur toi !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Ce n'est pas grave ! Nous ne sommes pas dieux et c'est difficile d'y arriver du premier coup.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Tu n'es peut-être pas au mieux de ta forme aujourd'hui. Ça arrive à tout le monde.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Je crois toujours en toi. Quand tu iras mieux, tu devrais réessayer !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Je t'attends ici.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "De retour ! Prêt à réparer ces émulateurs sonores de son et à s'attaquer aux Tacets Discords ? Génial !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "C'est prêt ? Je commencerai si tu es {Male=prêt;Female=prête}.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 272,
+              "PlotLineKey": "Je suis {Male=prêt;Female=prête}.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 273,
+              "PlotLineKey": "Pas encore.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Minghu",
+          "PlotLineKey": "D'accord, commençons.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Pas de souci. Prends ton temps.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Cet émulateur sonore doit être réparé en reliant les circuits...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Les circuits sont tellement tordus que ça me donne le vertige et la chair de poule...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Hmm... Il suffit de connecter les circuits de la même couleur, non ?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "C'est fait ! La réparation est maintenant terminée !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Activer l'émulateur sonore !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Lorsque l'appareil est activé, les Tacets Discords apparaissent, attention !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Le prochain se trouve du côté sud-est...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Le capteur a-t-il été déplacé ? Cherchons-le par ici.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Si tu en trouves, tu peux l'intégrer.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "D'accord, tout est rétabli ! Malgré les apparences, tu es {Male=méticuleux;Female=méticuleuse} et tu trouves facilement les choses !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "L'émulateur est activé !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "La dernière se trouve sur le côté sud-ouest...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Il suffit d'enfoncer ces blocs suspendus dans les bases correspondantes, et ça devrait fonctionner.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Oh ! Terminé !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "L'émulateur est activé ! Il est temps de détruire les Tacets Discords !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Allô, c'est {PlayerName} ? C'est urgent, aide-moi vite !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Je ne sais pas comment, mais j'ai repéré un grand nombre des Tacets Discords dans la région !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Je ne peux pas gérer ça tout seul, je ne peux que compter sur toi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Pardon. Je t'appelle si soudainement ! Mais c'est urgent...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Je te paierai le double d'hier !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Dès le jour où je suis devenu patrouilleur, j'ai décidé que même si je devais y laisser ma vie, je ne quitterais pas mon poste !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Ainsi, lorsqu'une situation dépasse mes compétences, je n'ai d'autre choix que de faire appel à quelqu'un d'autre. Je dois assumer mes responsabilités !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Bref, viens au plus vite ! J'ai envoyé les coordonnées à ton terminal !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Mon dieu ! Tu es {Male=venu;Female=venue} !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Allons-y vite. Monte dans la voiture ! On y va.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "C'est ma voiture ! Allez !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Au moment où vous allez entrer dans la voiture, une douleur sourde et soudaine vous a frappé à l'arrière de la tête. Votre conscience s'est peu à peu évanouie et vous avez perdu connaissance.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Hmm, cette tenue me va bien.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Bien, maintenant, je peux te dire la vérité. Permets-moi de me présenter à nouveau, je suis Xiaojue, un Exilé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Au départ, c'était pour retrouver mes amis disparus, mais j'ai été appâté par une récompense... et puis j'ai été kidnappé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Mais comment pourrais-je gagner autant d'argent en battant quelques Tacets Discords ! Hélas, j'étais aveuglé par l'argent !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Puis je me suis fait choper par les gars en rouge, et ils m'ont pris tout l'argent que j'avais gagné... Ils m'ont tout dépouillé !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Mais ce n'est pas si mal. À mon arrivée ici, je suis tombé sur les armes que portaient mes amis.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Tu sais, nous autres Exilés, nous gardons toujours nos armes à portée de main, sauf imprévu. Alors, dès que j'ai aperçu les armes de mes amis, j'ai su qu'elles étaient là. Pour les sauver, j'ai dû…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 356,
+              "PlotLineKey": "Tu es donc devenu leur complice ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 357,
+              "PlotLineKey": "Ce n'est pas une décision judicieuse.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Du calme, du calme. Si je n'avais pas fait ça, je n'aurais pas gagné leur confiance et je n'aurais pas pu sauver mes amis.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Je me suis donc joint à eux, en essayant de gagner leur confiance. Heureusement, je suis plutôt doué pour ça et, grâce à ma connaissance du secteur, on me confiait généralement des missions.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Il leur a fallu beaucoup de temps avant de me faire entièrement confiance. Alors maintenant, ils ont commencé à me confier la tâche d'enlever des gens.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Tant que je pouvais kidnapper quelqu'un, j'aurais une excuse pour venir à la prison.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 358,
+              "PlotLineKey": "Donc, tu m'as choisi par hasard ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Ce n'est pas vraiment par hasard. Minghu m'a dit de trouver quelqu'un de fort et intelligent, cela augmenterait nos chances de nous échapper.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "C'est pourquoi il m'a prêté ces vêtements et m'a expliqué comment utiliser ces appareils.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Et puis... je suis tombée sur toi. Tu es vraiment {Male=fort et intelligent;Female=forte et intelligente}.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 359,
+              "PlotLineKey": "...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Je suis désolé de t'avoir impliqué dans cette affaire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Désolé. Désolé ! Je sais où ces gens cachent leur argent, c'est au même endroit où ils mettent les armes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Je t'y emmènerai pour récupérer tes armes. Oh ! Et accepte mon argent en guise de dédommagement. Je suis désolé de t'avoir mêlé à cette histoire.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Nous sommes là, nous sommes là ! Il ne devrait y avoir personne ici à cette heure de la journée.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Vas-y. Prends tes armes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Oh non ! Comment se fait-il qu'il y ait des gardes en patrouille à cette heure-ci ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Non, non, non. Ils ont dû découvrir que quelqu'un s'était évadé de prison !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Pas de panique. On a des armes. Nous n'avons plus à les craindre.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 366,
+              "PlotLineKey": "Oui, c'est ça.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Incroyable ! Comme prévu ! Avec vous deux, j'ai l'impression qu'on peut éliminer tous ces gens en rouges !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "La voie est libre, {PlayerName}, allez-y.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 379,
+              "PlotLineKey": "Et toi ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Certains de mes amis m'attendent encore ! C'est pour ça que Minghu est venu. Il faut qu'on les aide.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Oui. Des habitants de ma ville ont disparu, et les personnes chargées d'enquêter sur ces affaires ont également disparu.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Alors j'ai fait semblant d'être dupe, et nous voilà.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 380,
+              "PlotLineKey": "Tu t'es donc fait prendre intentionnellement ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Qui ne risque rien n'a rien.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Minghu, allez. Ils nous attendent.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 381,
+              "PlotLineKey": "Vous allez bien tous les deux ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Honnêtement, ce sera un peu difficile, mais on peut le faire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Par ailleurs, nous ne souhaitons pas t'importuner davantage avec cette affaire. Tu as malheureusement été {Male=impliqué;Female=impliquée} dans ce problème.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Mais... Plus de personnes, plus de chances de gagner, non? Je ne veux pas perdre mes amis......",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 382,
+              "PlotLineKey": "Je viens aussi.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Oh, merci ...... ! Il y a des trésors cachés ! Je te dirai où ils se trouvent !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Merci pour le coup de main !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Eh bien, comparé à ces gens en rouge... ces patrouilleurs, ils ne sont pas du tout effrayants !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Oh, non, non, non. Avant, on disait toujours que les patrouilleurs étaient des gens malfaisants, des méchants de toutes sortes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Mais après avoir séjourné quelque temps chez Minghu, j'ai réalisé qu'ils m'avaient menti !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Minghu ne m'a pas maltraité parce que j'étais exilé… Il m'a même conseillé sur la façon de gagner la confiance de ces gens, sur les endroits à explorer en priorité…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Maintenant, avec {PlayerName} à nos côtés, tout se passe encore mieux ! Nous devrions pouvoir sauver tout le monde très bientôt !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fengbai",
+          "PlotLineKey": "Minghu, le patrouilleur ?! Que fais-tu ici ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Je suis venu pour vous sauver, bien sûr.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jia'ming",
+          "PlotLineKey": "Le patrouilleur ! C'est le patrouilleur ! Nous sommes sauvés !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "Xiao Jue !!!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Maosan, ça va ? Comment ça va ? Et Gousi ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "Je vais bien, mais Gousi a été emmené par ces hommes en rouge, et on n'a toujours aucune nouvelle...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "N'ayez pas peur, Minghu et {PlayerName} sont très forts ! On peut sauver tout le monde !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Xiao Jue sortit la clé de tout à l’heure et essaya d'ouvrir la porte, mais sans succès.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Cette clé de merde !! Ces gens ne m'auraient pas donné une fausse, n'est-ce pas ?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fengbai",
+          "PlotLineKey": "Jeune homme, tu ne sais pas. Ici, la clé de la porte de la prison est toujours détenue par le petit chef.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Concernant ce petit chef, Feng Bai, as-tu mené une enquête ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Fengbai",
+          "PlotLineKey": "D'après mes observations de ces derniers jours, à cette heure-ci, le petit patron devrait se trouver dans la pièce voisine.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Parfait, nous reviendrons bientôt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Et aussi ce truc ! On la trouve partout.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Peut-être cachent-ils quelque chose d'important plus loin...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Ouf, j'ai enfin la clé. C'est flippant d'être ici, allons-y.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Attendez, il y a quelque chose ici.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Minghu",
+          "PlotLineKey": "C'est suprenant...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Ces gorilles ont donc reçu une injection ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Oui, je crains qu'on leur ait injecté l'extrait de spores, ce qui peut contrôler leur comportement et les rendre agressifs.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Et maintenant, ils allaient l'utiliser sur des êtres humains...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "C'est ...... ! Oh, non, nous devons sauver tout le monde rapidement !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jia'ming",
+          "PlotLineKey": "Merci ! Merci infiniment de m'avoir sauvé la vie !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Nianqiu",
+          "PlotLineKey": "Merci. Je pensais finir dans cette sombre prison...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "Où se trouve Gousi... ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fengbai",
+          "PlotLineKey": "J'ai vu un homme en costume rouge avec lui dans les rangs, il doit être là-haut.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "D'accord, allons-y et sauvons-le !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fengbai",
+          "PlotLineKey": "Monsieur Minghu, je m'occupe de tout. Veuillez monter et sauver Gousi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fengbai",
+          "PlotLineKey": "Si ces gens vêtus de rouge reviennent, je les protégerai.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Très bien, je vous laisse faire. Conduisez tout le monde en lieu sûr près de l'entrée, et nous vous rejoindrons après avoir secouru Gousi.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gousi",
+          "PlotLineKey": "Non... non !! Au secours !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gousi",
+          "PlotLineKey": "Je ne veux pas devenir un zombie ou quoi que ce soit de ce genre !!!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Gousi, ça va ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gousi",
+          "PlotLineKey": "Dieu merci que vous tombez à pic ! C'est… il s'en est fallu de peu. J'ai failli devenir comme ces gorilles !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Cet endroit n'est pas sûr. Partons d'ici.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "Gousi ! Tu as enfin réussi à t'échapper ! Ça va ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Allons-nous-en d'ici tout de suite, et nous pourrons parler plus tard.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Homme en rouge en embuscade",
+          "PlotLineKey": "Ce n'est pas un endroit où l'on peut aller et venir à sa guise.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "Vous, les escrocs, avez kidnappé mes amis, et je ne vous laisserai pas vous en tirer comme ça !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Gousi",
+          "PlotLineKey": "Je ne vous laisserai pas faire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Homme en rouge en embuscade",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Nous sommes en sécurité pour le moment. Partons vite.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "J'ai déjà pris des photos d'éléments de preuve cruciaux, et le poste de patrouille enverra des personnes pour s'en occuper.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jia'ming",
+          "PlotLineKey": "Grâce à vous tous, je suis encore en vie. Désormais, je ne croirai plus à ces arnaques du débile...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jia'ming",
+          "PlotLineKey": "Et je vais dit cela à toute ma famille !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Nianqiu",
+          "PlotLineKey": "Merci, Monsieur Patroller et {PlayerName}. Je suis sûre que je trouverai mon prince charmant un jour.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Nianqiu",
+          "PlotLineKey": "Cependant, je me souviendrai que toute cette histoire de prince charmant n'était qu'une arnaque !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fengbai",
+          "PlotLineKey": "Même si vous en trouvez un, ne vous fiez pas trop facilement à ces belles paroles ! Nous menons régulièrement des campagnes de lutte contre la fraude. N'hésitez pas à participer !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Nianqiu",
+          "PlotLineKey": "D’accord, comptez sur moi !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "À mon retour, je parlerai au chef et veillerai à ce que les autres compagnons soient au courant de ces conseils.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "Si nous n'avions pas eu besoin d'argent pour réparer le camp récemment, nous n'aurions pas été victimes de cette arnaque...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Gousi",
+          "PlotLineKey": "Hé, tu ne trouves pas que cet endroit est bien ? Il y a une grotte naturelle. En plus, les gens en rouge sont partis. On pourrait utiliser cette grotte. Qu'en penses-tu ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Tu as raison. On en parlera au chef à notre retour. Ça pourrait nous faire économiser de l'argent.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "Nous avons échappé de justesse à la mort grâce à {PlayerName}. À notre retour, nous en informerons notre chef afin que les frères sur la route respectent notre {Male=bienfaiteur;Female=bienfaitrice}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Merci, {PlayerName}. Merci d'avoir éliminé ces méchants et de nous avoir sauvés. J'ai envoyé les coordonnées des trésors à votre terminal. N'hésitez pas à les récupérer !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Peut-être que lorsque nous serons riches, nous ne nous laisserons plus aussi facilement berner par ces combines...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "C'est ma voiture ! Allez !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Au moment où vous allez entrer dans la voiture, une douleur sourde et soudaine vous a frappé à l'arrière de la tête. Votre conscience s'est peu à peu évanouie et vous avez perdu connaissance.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Eh bien, comparé à ces gens en rouge... ces patrouilleurs, ils ne sont pas du tout effrayants !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Oh, non, non, non. Avant, on disait toujours que les patrouilleurs étaient des gens malfaisants, des méchants de toutes sortes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Mais après avoir séjourné quelque temps chez Minghu, j'ai réalisé qu'ils m'avaient menti !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Minghu ne m'a pas maltraité parce que j'étais exilé… Il m'a même conseillé sur la façon de gagner la confiance de ces gens, sur les endroits à explorer en priorité…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Maintenant, avec {PlayerName} à nos côtés, tout se passe encore mieux ! Nous devrions pouvoir sauver tout le monde très bientôt !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fengbai",
+          "PlotLineKey": "Minghu, le patrouilleur ?! Que fais-tu ici ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Je suis venu pour vous sauver, bien sûr.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jia'ming",
+          "PlotLineKey": "Le patrouilleur ! C'est le patrouilleur ! Nous sommes sauvés !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "Xiao Jue !!!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Maosan, ça va ? Comment ça va ? Et Gousi ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "Je vais bien, mais Gousi a été emmené par ces hommes en rouge, et on n'a toujours aucune nouvelle...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "N'ayez pas peur, Minghu et {PlayerName} sont très forts ! On peut sauver tout le monde !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Xiao Jue sortit la clé de tout à l’heure et essaya d'ouvrir la porte, mais sans succès.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Cette clé de merde !! Ces gens ne m'auraient pas donné une fausse, n'est-ce pas ?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fengbai",
+          "PlotLineKey": "Jeune homme, tu ne sais pas. Ici, la clé de la porte de la prison est toujours détenue par le petit chef.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Concernant ce petit chef, Feng Bai, as-tu mené une enquête ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Fengbai",
+          "PlotLineKey": "D'après mes observations de ces derniers jours, à cette heure-ci, le petit patron devrait se trouver dans la pièce voisine.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Parfait, nous reviendrons bientôt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Et aussi ce truc ! On la trouve partout.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Peut-être cachent-ils quelque chose d'important plus loin...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Ouf, j'ai enfin la clé. C'est flippant d'être ici, allons-y.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Attendez, il y a quelque chose ici.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Minghu",
+          "PlotLineKey": "C'est suprenant...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Ces gorilles ont donc reçu une injection ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Oui, je crains qu'on leur ait injecté l'extrait de spores, ce qui peut contrôler leur comportement et les rendre agressifs.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Et maintenant, ils allaient l'utiliser sur des êtres humains...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "C'est ...... ! Oh, non, nous devons sauver tout le monde rapidement !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jia'ming",
+          "PlotLineKey": "Merci ! Merci infiniment de m'avoir sauvé la vie !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Nianqiu",
+          "PlotLineKey": "Merci. Je pensais finir dans cette sombre prison...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "Où se trouve Gousi... ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fengbai",
+          "PlotLineKey": "J'ai vu un homme en costume rouge avec lui dans les rangs, il doit être là-haut.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "D'accord, allons-y et sauvons-le !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fengbai",
+          "PlotLineKey": "Monsieur Minghu, je m'occupe de tout. Veuillez monter et sauver Gousi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fengbai",
+          "PlotLineKey": "Si ces gens vêtus de rouge reviennent, je les protégerai.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Très bien, je vous laisse faire. Conduisez tout le monde en lieu sûr près de l'entrée, et nous vous rejoindrons après avoir secouru Gousi.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gousi",
+          "PlotLineKey": "Non... non !! Au secours !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gousi",
+          "PlotLineKey": "Je ne veux pas devenir un zombie ou quoi que ce soit de ce genre !!!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Gousi, ça va ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gousi",
+          "PlotLineKey": "Dieu merci que vous tombez à pic ! C'est… il s'en est fallu de peu. J'ai failli devenir comme ces gorilles !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Cet endroit n'est pas sûr. Partons d'ici.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "Gousi ! Tu as enfin réussi à t'échapper ! Ça va ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Allons-nous-en d'ici tout de suite, et nous pourrons parler plus tard.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Homme en rouge en embuscade",
+          "PlotLineKey": "Ce n'est pas un endroit où l'on peut aller et venir à sa guise.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "Vous, les escrocs, avez kidnappé mes amis, et je ne vous laisserai pas vous en tirer comme ça !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Gousi",
+          "PlotLineKey": "Je ne vous laisserai pas faire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Homme en rouge en embuscade",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Nous sommes en sécurité pour le moment. Partons vite.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "J'ai déjà pris des photos d'éléments de preuve cruciaux, et le poste de patrouille enverra des personnes pour s'en occuper.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jia'ming",
+          "PlotLineKey": "Grâce à vous tous, je suis encore en vie. Désormais, je ne croirai plus à ces arnaques du débile...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jia'ming",
+          "PlotLineKey": "Et je vais dit cela à toute ma famille !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Nianqiu",
+          "PlotLineKey": "Merci, Monsieur Patroller et {PlayerName}. Je suis sûre que je trouverai mon prince charmant un jour.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Nianqiu",
+          "PlotLineKey": "Cependant, je me souviendrai que toute cette histoire de prince charmant n'était qu'une arnaque !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fengbai",
+          "PlotLineKey": "Même si vous en trouvez un, ne vous fiez pas trop facilement à ces belles paroles ! Nous menons régulièrement des campagnes de lutte contre la fraude. N'hésitez pas à participer !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Nianqiu",
+          "PlotLineKey": "D’accord, comptez sur moi !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "À mon retour, je parlerai au chef et veillerai à ce que les autres compagnons soient au courant de ces conseils.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "Si nous n'avions pas eu besoin d'argent pour réparer le camp récemment, nous n'aurions pas été victimes de cette arnaque...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Gousi",
+          "PlotLineKey": "Hé, tu ne trouves pas que cet endroit est bien ? Il y a une grotte naturelle. En plus, les gens en rouge sont partis. On pourrait utiliser cette grotte. Qu'en penses-tu ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Tu as raison. On en parlera au chef à notre retour. Ça pourrait nous faire économiser de l'argent.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Chat trois",
+          "PlotLineKey": "Nous avons échappé de justesse à la mort grâce à {PlayerName}. À notre retour, nous en informerons notre chef afin que les frères sur la route respectent notre {Male=bienfaiteur;Female=bienfaitrice}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Merci, {PlayerName}. Merci d'avoir éliminé ces méchants et de nous avoir sauvés. J'ai envoyé les coordonnées des trésors à votre terminal. N'hésitez pas à les récupérer !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Peut-être que lorsque nous serons riches, nous ne nous laisserons plus aussi facilement berner par ces combines...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Pourquoi ces gens sont ici ? De quoi parlent-ils ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Ils n'ont pas nous trouvé ? Alors, éliminons-les !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xiaojue",
+          "PlotLineKey": "Pourquoi ces gens sont ici ? De quoi parlent-ils ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Minghu",
+          "PlotLineKey": "Ils n'ont pas nous trouvé ? Alors, éliminons-les !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

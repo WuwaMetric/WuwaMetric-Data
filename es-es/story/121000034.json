@@ -1,0 +1,2223 @@
+{
+  "Id": 121000034,
+  "Name": "Cazador de Disonancia Tácita",
+  "Description": "Encuentra al Resonador que una vez se proclamó \"Cazador de la Disonancia Tácita\" para obtener el precioso Material de DT.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 121000034,
+  "ShowQuestList": [],
+  "QuestDesc": "Encuentra al Resonador que una vez se proclamó \"Cazador de la Disonancia Tácita\" para obtener el precioso Material de DT.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100005,
+      "PreQuestName": "Verdad eterna"
+    },
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 8
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Madre preocupada",
+          "PlotLineKey": "Te lo suplico. Señorita Koko, debes tener alguna forma de salvar a mi hija.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Koko",
+          "PlotLineKey": "Pero...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Madre preocupada",
+          "PlotLineKey": "¿Es por el pago? Te daré todos mis ahorros si eso es lo que se necesita.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Koko",
+          "PlotLineKey": "¡No es por el dinero!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Koko",
+          "PlotLineKey": "{PlayerName}, estás aquí. Pero lo siento, la tienda está cerrada por ahora.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "Señorita Koko, ¿necesitas alguna ayuda?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Koko",
+          "PlotLineKey": "No te preocupes. Estoy bien. Esta señora aquí no es una amenaza.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Koko",
+          "PlotLineKey": "Su hija está lidiando con una enfermedad rara, no es mortal por ahora, pero podría empeorar.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 36,
+              "PlotLineKey": "¿No hay cura?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Madre preocupada",
+          "PlotLineKey": "Los médicos lo han intentado todo, pero la medicina regular no está funcionando. Sin embargo, hay una última esperanza.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Koko",
+          "PlotLineKey": "Sí, mi maestro manejó un caso similar antes, y todavía tengo la receta de aquel entonces.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Koko",
+          "PlotLineKey": "El problema es que el \"medicamento guía\" crucial es difícil de conseguir.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "¿Qué es un \"medicamento guía\"?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Koko",
+          "PlotLineKey": "El \"medicamento guía\" es el ingrediente más crítico en la receta. Actualmente, solo algunas personas adineradas tienen el \"medicamento guía\" que necesitamos, y probablemente no lo venderán por dinero a menos que...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "¿A menos que...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Koko",
+          "PlotLineKey": "A menos que puedas encontrar algunos objetos raros para intercambiar con ellos. Ah, por cierto, ¿Errante, alguna vez has oído hablar de algo llamado \"Espiritón de campana\"?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 39,
+              "PlotLineKey": "Para nada.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Koko",
+          "PlotLineKey": "Si tuviéramos ese \"Espiritón de campana\", podríamos usarlo para intercambiarlo por la \"droga guía\".",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Koko",
+          "PlotLineKey": "No es algo fácil de obtener.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Madre preocupada",
+          "PlotLineKey": "Señorita Koko, ¿sabes cómo conseguirlo? ¡Haré cualquier cosa!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Koko",
+          "PlotLineKey": "Solo puedes encontrar \"Espiritón de campana\" de una Disonancia Tácita de Clase Calamidad llamada Geochelone Portacampana. ¿Has oído hablar de ella?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 40,
+              "PlotLineKey": "No, nunca he oído hablar de ella.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 41,
+              "PlotLineKey": "Sí, por supuesto.",
+              "PlayVoice": false,
+              "JumpToId": 23
+            },
+            {
+              "TextId": 42,
+              "PlotLineKey": "Luché contra una, pero no encontré ningún \"Espiritón de campana\".",
+              "PlayVoice": false,
+              "JumpToId": 24
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Koko",
+          "PlotLineKey": "Incluso Errante no ha oído hablar de ella. Aunque no es sorprendente. Solo un puñado de personas tienen la oportunidad de verla.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Koko",
+          "PlotLineKey": "Se dice que tiene un cuerpo tan grande como una montaña, puede aplastar un coche blindado con un solo paso, ¡y congelar un río con un solo aliento!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Koko",
+          "PlotLineKey": "Muchos intentaron cazarla en el pasado, pero todos se convirtieron en revenants congelados en el río.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Koko",
+          "PlotLineKey": "Sin embargo, no suele abandonar su territorio, por lo que es aún más raro que la gente la vea.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Koko",
+          "PlotLineKey": "Las personas con cordura no se enfrentarán voluntariamente a ella, y mucho menos arriesgarán sus vidas por una hierba.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 23,
+          "Speaker": "Koko",
+          "PlotLineKey": "Sí, entiendes lo formidable que es. Nadie se atreve a desafiarla, y mucho menos a arriesgar sus vidas por una hierba.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 24,
+          "Speaker": "Koko",
+          "PlotLineKey": "¿En serio? ¿La derribaste? No me estás tomando el pelo, ¿verdad?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Koko",
+          "PlotLineKey": "Incluso así, no conseguiste el \"Espiritón de campana\". Es una lástima.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 26,
+          "Speaker": "Madre preocupada",
+          "PlotLineKey": "¿Cómo puede ser esto? ¿Realmente no hay manera?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Koko",
+          "PlotLineKey": "Hmm…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 43,
+              "PlotLineKey": "Señorita Koko, ¿alguna idea?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Koko",
+          "PlotLineKey": "Bueno, conozco a alguien que podría tener aún algo de \"Espiritón de campana\", pero el problema es que es un poco poco fiable.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 44,
+              "PlotLineKey": "¿Podemos confiar realmente en él?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 29,
+          "Speaker": "Koko",
+          "PlotLineKey": "No estoy segura, pero él me vendió un montón de materiales de DT raros antes. Parece que tiene un par de trucos bajo la manga.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Madre preocupada",
+          "PlotLineKey": "Por favor, dime cómo puedo encontrarlo. No importa cuán escasa sea la esperanza, lo intentaré.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 45,
+              "PlotLineKey": "Quiero ayudar.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 31,
+          "Speaker": "Koko",
+          "PlotLineKey": "¡Gracias, Errante! Entonces, ¿dejamos que esta señora se quede a ayudarme a preparar otras hierbas, y dejo la tarea de obtener el \"Espiritón de campana\" a {PlayerName}? ¿Suena bien?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 46,
+              "PlotLineKey": "No hay problema. Déjalo en mis manos.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 32,
+          "Speaker": "Koko",
+          "PlotLineKey": "Su nombre es Lianfeng, y siempre se la pasa en el teatro. Deberías encontrarlo allí.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 47,
+              "PlotLineKey": "¿Cómo sabré quién es él?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 33,
+          "Speaker": "Koko",
+          "PlotLineKey": "Se hace llamar \"Cazador de DT\" y habla a lo grande sobre la caza de DT formidables, aunque nadie lo ha visto realmente pelear.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Koko",
+          "PlotLineKey": "Si ves a alguien hablando en voz alta y presumiendo sobre el té en el teatro, ese es Lianfeng.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Koko",
+          "PlotLineKey": "Si ves a alguien alardeando y haciendo alarde con el té en el teatro, ese es Lianfeng.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Madre preocupada",
+          "PlotLineKey": "Errante, por favor ayúdame. No tengo otras opciones.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Guan",
+          "PlotLineKey": "Oye, Lianfeng, tienes un invitado aquí.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Quién eres? No te conozco.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 291,
+              "PlotLineKey": "¿Eres Lianfeng? Finalmente te encontré.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Estás buscando por mí? ¿Quién te dijo que estoy aquí?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 292,
+              "PlotLineKey": "La señorita Koko de la Farmacia Shifang.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Rayos. ¿Ella te envió a cobrar deudas?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 293,
+              "PlotLineKey": "¿Qué?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Nada, olvídalo. De todos modos, ¿por qué me buscas? Dilo. No tengo tiempo que perder.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "¡Vamos! Solo estás aquí tomando té con nosotros. ¡Oh! Buen té.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Solo para que lo sepas, si estás aquí para pedir dinero prestado, entonces puedes darte la vuelta y marcharte. Estoy en la ruina. Totalmente en la ruina.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Guan",
+          "PlotLineKey": "¿Podrías vender esos MATERIALES PRECIOSOS que has obtenido de las DT, eh? Deberían darte una buena suma.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Los vendí todos hace mucho tiempo.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 294,
+              "PlotLineKey": "¿Todos? ¿Qué pasa con el material llamado \"Espiritón de campana\"?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "No tengo ninguno. Hablando de eso, una vez obtuve algunos de una DT llamada Geochelone Portacampana. Bueno, olvídalo. Después de todo, no tendrás la oportunidad de verlo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Por qué te estoy contando todo esto? Solo estás desperdiciando mi tiempo. Lárgate de aquí; no arruines mi momento bebiendo este delicioso té.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 295,
+              "PlotLineKey": "¿Dónde más puedo encontrarlo?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "No estoy mintiendo, pero soy el único que puede obtener el \"Espiritón de campana\".",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "¿Entonces por qué no vuelves a derribar a esa cosa de la Campana?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿En serio? ¡No voy a ir! Estoy cansado de lidiar con esbirros como la Geochelone Portacampana. Quien quiera ir puede ir por sí mismo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Si eres tan fuerte, ¿por qué abandonaste la Asociación de Pioneros? ¿O, te echaron?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Guan",
+          "PlotLineKey": "Escuché de la señorita Maqi que te fuiste. Así que es cierto, ¿eh?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tonterías. Me fui porque no necesito compañeros ni ayuda para derribar a las DT.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Soy un lobo solitario. No pierdo el tiempo llevándome bien con la gente.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Guan",
+          "PlotLineKey": "Oye, {Male=amigo;Female=amiga}, recuerdo que eres {Male=el;Female=la} Errante que acaba de llegar a Jinzhou, ¿verdad? ¿Por qué quieres esto?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 296,
+              "PlotLineKey": "(Explicas la situación de esa madre y su hija enferma)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Eso es desafortunado, ¿pero qué? ¿Por qué debería ayudar a alguien que apenas conozco? Ve a buscar a alguien más.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Guan",
+          "PlotLineKey": "Oye, ¿cómo puedes ser tan cruel? ¡Ten un poco de compasión!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Ay, qué pobre. No puedo soportar historias como esta.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Qué les pasa a ustedes dos?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 297,
+              "PlotLineKey": "Señor Lianfeng, por favor, échenos una mano.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ugh, pero…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "¿?",
+          "PlotLineKey": "¡Jajaja! ¡Por favor, explíquenle este asunto con detalle a la Asociación de Pioneros!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Líder del escuadrón de la Asociación de Pioneros",
+          "PlotLineKey": "¡Lo siento por la intrusión abrupta! No teníamos la intención de escuchar su conversación. Es solo que sus voces eran un poco fuertes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tch, ¿todos los miembros de la Asociación de Pioneros son tan groseros?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Líder del escuadrón de la Asociación de Pioneros",
+          "PlotLineKey": "De hecho, somos los Exploradores de la Asociación de Pioneros, y yo soy el capitán de este escuadrón. ¿Eres Errante? ¡Encantado de conocerte!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 298,
+              "PlotLineKey": "Encantado de conocerte también.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 29,
+          "Speaker": "Guan",
+          "PlotLineKey": "¡Jaja, Lianfeng, te ignoran!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Cállate. Oye, ¿qué quieres?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Líder del escuadrón de la Asociación de Pioneros",
+          "PlotLineKey": "Bueno, nos dirigimos al Valle de Almas para investigar una gigantesca Disonancia Tácita encontrada allí.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 299,
+              "PlotLineKey": "¿Geochelone Portacampana?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 32,
+          "Speaker": "Líder del escuadrón de la Asociación de Pioneros",
+          "PlotLineKey": "Sí. Nuestro objetivo es derribar a Geochelone Portacampana para investigar más a fondo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Líder del escuadrón de la Asociación de Pioneros",
+          "PlotLineKey": "Entonces, casualmente escuchamos tu conversación y pensamos que si pudiéramos ayudar a la desafortunada madre e hija al mismo tiempo, sería genial.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Guan",
+          "PlotLineKey": "¡Eso es genial! ¡Por favor, ayúdenlas!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Son tan buenos, a diferencia de Lianfeng.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Estás loco?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 300,
+              "PlotLineKey": "¿Realmente pueden derrotar a esa gigantesca Disonancia Tácita?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 37,
+          "Speaker": "Líder del escuadrón de la Asociación de Pioneros",
+          "PlotLineKey": "No te preocupes. Hemos investigado a fondo a Geochelone Portacampana, y nuestro escuadrón está compuesto por Resonadores experimentados.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 38,
+          "Speaker": "Líder del escuadrón de la Asociación de Pioneros",
+          "PlotLineKey": "Pero nunca hemos oído hablar de este \"Espiritón de campana\" antes. Parece un interesante tema de investigación. Estoy seguro de que el Departamento de Redacción estará emocionado.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 39,
+          "Speaker": "Líder del escuadrón de la Asociación de Pioneros",
+          "PlotLineKey": "Bueno, Errante, ¡solo espera nuestras buenas noticias! ¡Adiós!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¡Espera, eso es demasiado peligroso! ¡Todos van a morir! ¡Oye, para!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "Guan",
+          "PlotLineKey": "Deja que hagan su trabajo, Lianfeng. Estás siendo ridículo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 42,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Yo? ¿Ridículo? ¡Solo no quiero verlos arrojar sus vidas tan imprudentemente!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 301,
+              "PlotLineKey": "¿Estás preocupado por ellos?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 43,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ya no soy miembro de la Asociación de Pioneros. Pueden hacer lo que quieran. No me importa.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 44,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Pero están subestimando a esa DT. Los miembros de la Asociación de Pioneros están demasiado centrados en la investigación y la investigación. A veces, olvidan que están lidiando con criaturas extremadamente formidables.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 45,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Ya que eres un hombre de fuerza, ¿por qué no te unes y ayudas? Te respetaremos como un verdadero hombre.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 302,
+              "PlotLineKey": "Señor Lianfeng, vamos a ayudarles.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 46,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tch, fácil decirlo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "Guan",
+          "PlotLineKey": "Mira, se está echando atrás.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 48,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Me estás subestimando? ¡Bien, iré! Pero no les ayudaré a luchar contra la Geochelone Portacampana. ¡Ya dije que he terminado con la Asociación de Pioneros!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 49,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Le diré cómo derribar a la Geochelone Portacampana como su \"Maestro\"!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "¿Yo?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 50,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Parece que eres lo suficientemente hábil. Con mi guía, serás más capaz que esos chicos en el futuro.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 51,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Bueno, mientras estés contento.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "Ayudaré.",
+              "PlayVoice": false,
+              "JumpToId": 52
+            },
+            {
+              "TextId": 305,
+              "PlotLineKey": "No necesito un maestro.",
+              "PlayVoice": false,
+              "JumpToId": 53
+            },
+            {
+              "TextId": 306,
+              "PlotLineKey": "¡Maestro Lianfeng!",
+              "PlayVoice": false,
+              "JumpToId": 54
+            }
+          ]
+        },
+        {
+          "Id": 52,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Bien. Espero que estés tan compuesto enfrentando a esa formidable DT.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 55
+        },
+        {
+          "Id": 53,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tch. De todos modos, con un experimentado \"cazador de DT\" a tu lado, nada podría salir mal.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 55
+        },
+        {
+          "Id": 54,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¡Una vez más!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 55
+        },
+        {
+          "Id": 55,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "En ese caso, sabrás que no estaba alardeando. Espera y verás.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 56,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¡Errante, ven! Vamos a tener una charla privada allí. No dejes que estos tontos escuchen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 57,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Como si quisiéramos escuchar. Ya hemos tenido suficiente de té. Adiós.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 58,
+          "Speaker": "Guan",
+          "PlotLineKey": "Jefe, póngalo en la cuenta de Lianfeng!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 59,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¡Fuera, fuera, fuera! ¡Sal! No pierdas nuestro tiempo.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "¿Qué pasó?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿No tienes miedo de luchar contra las DT?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Quiero decir, la Geochelone Portacampana es un oponente muy peligroso. Podrías salir {Male=herido;Female=herida} o incluso perder la vida luchando contra ella.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Aunque esa madre y su hija son bastante lamentables, no tienes la obligación de ayudarlas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Incluso si te retiras ahora, nadie puede culparte, incluyendo a esa madre y su hija.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Mantén esta conversación entre nosotros. Intentaré encontrar una manera de conseguirte el \"Espiritón de campana\", así no tendrás que arriesgar tu vida.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Aunque solo nos conocemos desde hace poco tiempo, no quiero verte morir en mi guardia.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 174,
+              "PlotLineKey": "Eres experimentado, así que me siento {Male=seguro;Female=segura} contigo alrededor.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tienes agallas. Bueno, no está mal.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 175,
+              "PlotLineKey": "A menos que hayas mentido.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Hmph. Estás dudando de que nunca he cazado esa DT?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "Sí.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 177,
+              "PlotLineKey": "Aún no.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Eso es sencillo.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Bien, aunque dijiste eso, puedo decir por tu expresión que no estás completamente convencido.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "No puedo culparte. Honestamente, a veces dudo si soy un verdadero \"Cazador de DT\" yo mismo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Has oído hablar de la Sobrecarga de un Resonador?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 178,
+              "PlotLineKey": "Sí.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 179,
+              "PlotLineKey": "No.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Eres bastante conocedor. ¿Has encontrado alguna vez un Resonador después de la Sobrecarga?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿En serio? ¿Nunca has oído hablar de eso? Dado el hecho de que eres un Resonador, eso es una sorpresa. La Sobrecarga es un fenómeno negativo que ocurre en los Resonadores. Diferentes Resonadores tienen diferentes síntomas.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Si no se controla, puede llevar a graves secuelas, incluso alterar completamente la personalidad de un Resonador.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Por ejemplo, yo soy uno de los desafortunados Resonadores que lo experimentó.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Errante",
+          "PlotLineKey": "¿Has experimentado la Sobrecarga antes?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Quizás, no lo recuerdo realmente porque los investigadores de la Academia confirmaron que perdí la mayoría de mis recuerdos después de la Sobrecarga.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Algunos recuerdos, como cómo luchar contra esas DT, se quedan conmigo, no importa cuánto he intentado olvidarlos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Aunque en esos recuerdos, siempre los cazaba solo. Siempre hay esta extraña sensación de antinaturalidad... Olvídalo. No lo entenderás.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "De todos modos, no es el momento adecuado para hablar de esto ahora.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Vamos. Me dirigiré al punto de encuentro fuera de Jinzhou y te esperaré allí. Ya envié las coordenadas a tu Terminal.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Si estás {Male=listo;Female=lista}, nos vemos allí. No te demores. ¡Necesitamos alcanzarlos!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tos…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 211,
+              "PlotLineKey": "¿Estás bien?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Estoy bien. Solo un poco descuidado al ser atacado por esos esbirros. No es gran cosa. Los asusté sin esfuerzo.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 212,
+              "PlotLineKey": "¿Estás seguro?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¡¿Qué es esa mirada?! Parece que es hora de tu primera lección como mi aprendiz.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Regla número uno para el \"Cazador de DT\"—\"¡Nunca subestimes a los esbirros!\"",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Incluso los enemigos más débiles pueden causar problemas inesperados. ¿Entendido?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 213,
+              "PlotLineKey": "Pero parece que tú no sigues tu propia regla.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 214,
+              "PlotLineKey": "Está bien, está bien, sigamos adelante.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 215,
+              "PlotLineKey": "¡Sí, Maestro!",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ejem, me puse en peligro a propósito para enseñarte una lección.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 228,
+              "PlotLineKey": "",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Está bien, es tu pérdida no escucharme. Hablo por experiencia.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 227,
+              "PlotLineKey": "",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Bien, recuerda mis palabras. Te serán útiles algún día.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 216,
+              "PlotLineKey": "¿Por qué nos estamos reuniendo aquí?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "La Geochelone Portacampana vive en el Valle de Almas, que es la fuente del Río Qing que fluye por aquí. Puedo sentir el estado de una DT a través de la frecuencia restante en el medio.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 217,
+              "PlotLineKey": "¿Qué encontraste entonces?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Te dije que solo yo puedo encontrar el \"Espiritón de campana\", ¿verdad? Es porque la Geochelone Portacampana emite una frecuencia especial durante períodos específicos, y solo al derrotarlo durante estos períodos uno puede obtener el \"Espiritón de campana\".",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "No importa cuántas veces derrotes a las Geochelones portadoras de Campana, mientras no sea el momento adecuado, no puedes obtener el \"Espiritón de campana\", y solo mi Habilidad de Resonancia puede decir si es el momento adecuado.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 218,
+              "PlotLineKey": "¿Y ahora?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Somos bastante afortunados. Hay una alta probabilidad de que obtengamos el \"Espiritón de campana\" si cazamos a una Geochelone portadora de Campana ahora.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Además, parece que los de la Asociación de Pioneros planean ir al Valle de Almas a lo largo del río.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 219,
+              "PlotLineKey": "Puedo ver señales de que alguien acampó aquí.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Parece que están bien preparados. La Asociación de Pioneros está realmente interesada en la Geochelone portadora de Campana.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 220,
+              "PlotLineKey": "¿Qué tiene de especial la Geochelone portadora de Campana?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Quieres saber? ¡La curiosidad es una buena cualidad! Cuanto más sepas sobre tu enemigo antes de una batalla, más confiado estarás.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Comencemos con la pregunta \"¿cómo se forman las Disonancias Tácitas?\". La mayoría de las personas creen que nacen del caos, pero hay algunas excepciones, algunas DT parecen provenir de leyendas o incluso de la historia real.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "La leyenda cuenta que el antiguo ejército en Huanglong solía hacer sonar una campana de bronce en la batalla, inspirando a los soldados a luchar valientemente y simbolizando el buen deseo de un regreso triunfante.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Un día, el campanero salvó a una tortuga en el Río Qing por accidente. Desde entonces, esa tortuga se convirtió en una parte indispensable de los soldados, compartiendo su felicidad y tristeza.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Antes de que terminara la feroz batalla, el campanero murió. Sin embargo, el sonido de la campana aún resonaba en el campo de batalla. Se dice que la tortuga fue la que sonó la campana.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 221,
+              "PlotLineKey": "La tortuga continuó con el deber de ese campanero.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Sí, esa es la historia. Más tarde, alguien encontró una antigua campana oxidada en el Valle de Almas, similar en estilo a la campana de bronce que el antiguo ejército usaba.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Bajo esa antigua campana había una gigantesca Disonancia Tácita en forma de tortuga. Fue testigo de la feroz guerra y se despidió del campanero y los soldados. Estos recuerdos ataron la pesada campana antigua a su espalda.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Pero es solo una historia. Después de todo, nadie sabe si las DT tienen recuerdos y emociones.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "No importa lo que sucedió en el pasado, esta DT es ahora una criatura horrenda que solo trae dolor y tortura a Huanglong.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "No necesitas mostrar ninguna piedad. Si realmente tuviera emociones, no querría ser una criatura que destruye la felicidad y la paz de la gente en Huanglong.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Regla número dos para el \"Cazador de DT\": \"¡Nunca muestres piedad a las Disonancias Tácitas!\"",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 222,
+              "PlotLineKey": "Entiendo.",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 223,
+              "PlotLineKey": "Otra vez...",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 224,
+              "PlotLineKey": "¡Sí, Maestro!",
+              "PlayVoice": false,
+              "JumpToId": 26
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "La Asociación de Pioneros debería haberse ido hace poco. ¡Sigamos sus huellas y alcancémoslos rápidamente!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Has usado la función de escaneo en la Terminal?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 225,
+              "PlotLineKey": "Por supuesto.",
+              "PlayVoice": false,
+              "JumpToId": 28
+            },
+            {
+              "TextId": 226,
+              "PlotLineKey": "Todavía no.",
+              "PlayVoice": false,
+              "JumpToId": 29
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Maravilloso. Sigamos el camino que se muestra en la Terminal y los rastreamos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Aquí es donde ser tu maestro es útil. Puedo enseñarte todo lo que quieras saber.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Enciende tu Terminal y selecciona la función de escaneo. Verás un camino que se muestra en la pantalla, ¡y todo lo que necesitas hacer es seguirlo!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Entiendes? Genial, sigamos el camino que se muestra en la Terminal y los rastreamos.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Estas son las DT que acaban de atacarme.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ten cuidado. Parecen volverse extremadamente agresivas debido al despertar de la Geochelone Portacampana.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Incluso alguien tan experimentado como yo se vio envuelto en una dura batalla.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ese sonido…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 323,
+              "PlotLineKey": "Lo escuché también.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Es una señal de que la Geochelone Portacampana está despertando.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ugh… Mi cabeza…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 324,
+              "PlotLineKey": "¿Qué pasó?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Nada, solo un poco de dolor de cabeza.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(Maldición, está pasando de nuevo. Siento que algo en mis recuerdos está a punto de despertar.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "El problema es que las huellas dejadas por los miembros de la Asociación de Pioneros parecen desaparecer aquí…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 434,
+              "PlotLineKey": "Podemos seguir el sonido de la campana.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Correcto, deben estar donde suena la campana. Vamos.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¡Eh! ¡Despierta! ¡¿Puedes oírme?!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 361,
+              "PlotLineKey": "Llegamos tarde…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Líder del escuadrón de la Asociación de Pioneros",
+          "PlotLineKey": "Ugh, ¿sois… las personas en la casa de té?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Basta de hablar. Revisaré tus heridas con mi Forte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "No hay daño en los órganos principales, pero hay múltiples fracturas. ¿Luchaste contra la Geochelone Portacampana?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Líder del escuadrón de la Asociación de Pioneros",
+          "PlotLineKey": "Ja, no se puede llamar a eso una pelea. Estamos completamente aplastados.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Líder del escuadrón de la Asociación de Pioneros",
+          "PlotLineKey": "Deberías irte. Aunque está tranquilo ahora, nadie sabe cuándo despertará de nuevo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Líder del escuadrón de la Asociación de Pioneros",
+          "PlotLineKey": "No es un oponente con el que la gente común pueda lidiar.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Gente común? Nos has malinterpretado. Soy Lianfeng, un \"Cazador de DT\" profesional, y este es mi mejor aprendiz.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 362,
+              "PlotLineKey": "\"Mejor aprendiz\"… Solo tienes un aprendiz, ¿vale?",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 363,
+              "PlotLineKey": "No soy tu aprendiz.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 364,
+              "PlotLineKey": "¡Solo déjalo en mis manos y en las de mi maestro!",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ustedes quédense aquí y descansen. Dejen el resto en nuestras manos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "{PlayerName}, escucha atentamente lo que voy a decir.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 365,
+              "PlotLineKey": "De acuerdo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Ves la gran campana en el centro del \"Barranco de la Campana\"? Al sonarla despertarás a la Geochelone Portacampana.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Dado que es gigante, se mueve y gira lentamente, así que es mejor que…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 366,
+              "PlotLineKey": "Nos mantengamos alejados de ella.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 367,
+              "PlotLineKey": "Nos acerquemos a ella.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Mantenernos alejados de ella solo nos obligará a acorralarnos con su enorme cuerpo. También puede usar su aliento helado y condensar el agua en cristales de hielo para ataques indiscriminados.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Aunque pueda parecer una locura, en realidad es más seguro acercarnos lo más posible a ella.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Sí, acercarnos nos permite aprovechar sus puntos ciegos durante sus giros y ataques. Buena estrategia.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Sus cuatro patas, cabeza y cola son todas armas ofensivas de gran alcance. No las subestimes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Además, su debilidad es la gran campana en su espalda, pero está relativamente alta y no es fácil de atacar en circunstancias normales.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 368,
+              "PlotLineKey": "A menos que podamos encontrar una forma de hacerla caer…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Tienes la cabeza en su sitio, eh?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Los pies de la Geochelone Portacampana están cubiertos de hielo duro, lo que los protege de lo duro.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Sin embargo, también es su debilidad. Una vez que el hielo se rompe, la Geochelone Portacampana perderá el equilibrio y caerá, lo que nos da una buena oportunidad para atacar su punto más vulnerable.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 369,
+              "PlotLineKey": "Pero sigue moviéndose.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Yo llamaré su atención, y tú aprovecha la oportunidad para atacar.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 370,
+              "PlotLineKey": "¿No te pondrá eso en peligro?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tch, ¿estás subestimando a un \"Cazador de DT\"? Una vez que descubres su patrón de ataque, esquivar es fácil. Así es como lo derrotamos antes.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 371,
+              "PlotLineKey": "¿Nosotros? ¿Pensé que lo derrotaste tú solo?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Nosotros... Yo... Ugh, mi cabeza...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 372,
+              "PlotLineKey": "¿Había alguien más que luchó contra la Geochelone Portacampana contigo?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(En mi memoria, hay un grupo de personas luchando a mi lado.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(¿Quiénes eran?)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ugh... ¡me duele la cabeza!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 373,
+              "PlotLineKey": "No te esfuerces demasiado. Sería mejor que descanses en tu estado.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Es peligroso enfrentar a la Geochelone Portacampana por tu cuenta.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 374,
+              "PlotLineKey": "Estará bien. Déjalo todo en mis manos.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Espera, ¡{PlayerName}!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Líder del escuadrón de la Asociación de Pioneros",
+          "PlotLineKey": "¡Realmente derrotaste a ese monstruo tú solo! ¡Eso es asombroso!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¡Eso es mi aprendiz! Debería ser pan comido para {Male=él;Female=ella} lidiar con un pez tan pequeño.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 383,
+              "PlotLineKey": "¿Estás bien?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "No sé de ellos, pero yo estoy perfectamente bien.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 384,
+              "PlotLineKey": "¿Estás seguro?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿De qué te preocupas? Es solo un pequeño contratiempo. De todos modos, déjame ver el material que obtuviste de la Geochelone de Campana.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Sí, eso es, el \"Espiritón de campana\". En realidad, es la semilla producida por la planta en la Geochelone de Campana.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Líder del escuadrón de la Asociación de Pioneros",
+          "PlotLineKey": "¿Haha? ¿De verdad? ¡Bueno saberlo! Necesito anotarlo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ay, ¿no puedes olvidarte de tu estúpida investigación por un segundo?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "No importa. Olvídate de ellos. Necesitas apresurarte de regreso a Jinzhou y dárselo a Koko. Contactaré a la Asociación de Pioneros para que les den tratamiento médico.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Koko",
+          "PlotLineKey": "¡Errante, estás de vuelta!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Koko",
+          "PlotLineKey": "¿Está todo bien? ¿Encontraste a Lianfeng?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 414,
+              "PlotLineKey": "Sí.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Koko",
+          "PlotLineKey": "¿Todavía tenía el \"Espiritón de campana\"?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 415,
+              "PlotLineKey": "Es una larga historia. Aquí, tómalo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Koko",
+          "PlotLineKey": "¿\"Espiritón de campana\"? ¡Oh, sí, esto es!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Madre preocupada",
+          "PlotLineKey": "¿Entonces mi hija puede ser salvada?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Koko",
+          "PlotLineKey": "Sí, con esto, tu hija puede ser curada.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Koko",
+          "PlotLineKey": "Pero se ve tan fresco. Pensé que Lianfeng lo obtuvo hace mucho tiempo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "¿?",
+          "PlotLineKey": "Porque es recién recogido.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Koko",
+          "PlotLineKey": "¿Tío Lianfeng?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hola, muéstrame algo de respeto. Es el Hermano Lianfeng.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 416,
+              "PlotLineKey": "¿Cómo te sientes?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Solo un pequeño efecto secundario de Overclock. Mira, estoy totalmente bien.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Koko",
+          "PlotLineKey": "¿Overclock? Pero tus síntomas no parecen de eso. Se supone que el efecto secundario de Overclock está asociado con el Forte de un Resonador.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¿Y qué? Mi Forte es la percepción de la frecuencia.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 417,
+              "PlotLineKey": "Pero tu síntoma es la pérdida de memoria.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hmm…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Koko",
+          "PlotLineKey": "¿Existe la posibilidad de que no hayas pasado realmente por Overclock, y algún otro incidente causó tu pérdida de memoria?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 418,
+              "PlotLineKey": "Creo que tenías compañeros de equipo luchando contigo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "De ninguna manera. Nunca he tenido compañeros o compañeros de equipo. Mi querido aprendiz, te preocupas demasiado. Yo manejo mis asuntos, y tú manejas los tuyos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Koko",
+          "PlotLineKey": "¿Cómo te lesionaste?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 419,
+              "PlotLineKey": "Otra larga historia.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 420,
+              "PlotLineKey": "Insistió en ser mi maestro.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 421,
+              "PlotLineKey": "¡Maestro Lianfeng!",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Compartiré contigo la emocionante batalla entre Errante y la Geochelone Portacampana más tarde. Por ahora, hagamos la medicina que necesita la hija de esta señora.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Madre preocupada",
+          "PlotLineKey": "Gracias, señor Lianfeng.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "No es gran cosa. Derribar enemigos de este nivel es solo un paseo por el parque para un \"Cazador de DT\".",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Koko",
+          "PlotLineKey": "Tío Lianfeng, ¿qué te parece seguir cazando esas gigantes DT? ¡Si te encuentras con algún material raro, todavía estoy dispuesta a comprarlo a un buen precio!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¡Llámame \"Hermano\"! De todos modos, ya me he retirado. Dejaré el título de \"Cazador de DT\" a mi aprendiz principal.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 422,
+              "PlotLineKey": "¿Yo?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Koko",
+          "PlotLineKey": "¿En serio? Eso es una buena noticia. Errante es mucho más confiable que el tío Lianfeng.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 423,
+              "PlotLineKey": "¿Puedo?",
+              "PlayVoice": false,
+              "JumpToId": 24
+            },
+            {
+              "TextId": 424,
+              "PlotLineKey": "No soy tu aprendiz.",
+              "PlayVoice": false,
+              "JumpToId": 25
+            },
+            {
+              "TextId": 425,
+              "PlotLineKey": "¡Déjamelo a mí, Maestro!",
+              "PlayVoice": false,
+              "JumpToId": 26
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "¡No te preocupes! Seguiré enseñándote, ¡jajaja!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 27
+        },
+        {
+          "Id": 25,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Está bien, pero no ser un \"Cazador de DT\" es seguramente un desperdicio de tus habilidades.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 27
+        },
+        {
+          "Id": 26,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Genial. Ahora eres el nuevo \"Cazador de DT\", y estoy seguro de que puedes hacerlo bien.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 27
+        },
+        {
+          "Id": 27,
+          "Speaker": "Koko",
+          "PlotLineKey": "Correcto, y por supuesto, recibirás un salario justo por tu trabajo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(Tal vez, puedo descubrir la verdadera razón de mi pérdida de memoria en las batallas contra las DT.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Bueno, mi querido aprendiz, si hay información sobre nuevas DT grandes, ¡te contactaré!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

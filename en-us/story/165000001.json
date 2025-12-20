@@ -1,0 +1,442 @@
+{
+  "Id": 165000001,
+  "Name": "The Sailor's Treasure",
+  "Description": "Not all treasure of the sea is left behind by pirates, some could have been left by ordinary sailors... or a captain.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 165000001,
+  "ShowQuestList": [],
+  "QuestDesc": "Not all treasure of the sea is left behind by pirates, some could have been left by ordinary sailors... or a captain.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "Old Man and the Whale"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Toretto",
+          "PlotLineKey": "The Acolyte? Back again so soon?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Mr. Toretto, we're here to learn more about the \"Sailor's Treasure.\"",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Since when did the Order start caring about treasure?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Err. No, actually...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Ah, spare me the details! Treasure hunters come and go, you lot are a dime a dozen. You'll end up empty-handed like the rest of 'em anyway.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "Maybe we'll find it. You never know.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Awfully sure of yourself, aren't ya? You know how long ago the Age of a Thousand Islands was. Besides that old legend, there's not a sliver of evidence proving any of it is true.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Without real clues, it's just a wild goose chase. The islands have already been turned upside down by those treasure hunters, and not a single coin has been found.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 26,
+              "PlotLineKey": "Are there any other stories about the sailor?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Other stories, you ask? Lemme see... There's the Wandering Gondola. Or there's the Master of the Fish King...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 27,
+              "PlotLineKey": "Tell us about the Wandering Gondola.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 28,
+              "PlotLineKey": "Tell us about the Master of the Fish King.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 29,
+              "PlotLineKey": "I don't have any more to ask.",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Legend has it a sailor arrived here in a Gondola. Even after he disappeared, it still drifts among these islands waiting for his return.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 10,
+          "Speaker": "Toretto",
+          "PlotLineKey": "The Fish King is a notorious foe for any fisherman. Legend claims that once a sailor caught one in these very waters.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Toretto",
+          "PlotLineKey": "No one has caught one since. They say a Fish King only heeds the call of someone as great as that sailor.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 12,
+          "Speaker": "Toretto",
+          "PlotLineKey": "All right, you already know what you need to know. Off you go, then. I'll be watching to see if you can find that treasure, ha!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 0,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Phoebe attempts to communicate with the Echo and decipher what it's saying.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "They seems to know something! It may be trying to guide us in a certain direction... Shall we go take a look?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "Onwards!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ah, well met, friends! What's this ye've got there?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Phoebe shares the story of your treasure hunt with Ahab and shows him the chest with the inscriptions.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ahab",
+          "PlotLineKey": "So, ye're telling me this here chest is from that legendary sailor?! Let me have a look.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Hmm... there's a seal coverin' up these inscriptions. Can't get a good look at 'em. Heh, but watch me!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Ahab searches the surrounding area and returns with a unique plant. He squeezes it to extract its sap and applies it to the chest. Almost immediately, the inscriptions become clear.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ahab",
+          "PlotLineKey": "See that? It's an old trick we used to write hidden messages. Now we can read what it says.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ahab",
+          "PlotLineKey": "\"No victory is instant. The truth must be pieced together bit by bit.\"",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "It seems like... we need to gather the rest of this map to find the treasure.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Let's keep our eyes peeled from now on, {PlayerName}.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Ahab",
+          "PlotLineKey": "I wonder what that sailor left behind. Endless riches? Ancient relics?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Or perhaps... a Fish King?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Huh? Hahaha. Never thought I'd hear that from an Acolyte!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 53,
+              "PlotLineKey": "Thanks, Ahab. We'll make sure to share the treasure with you once we find it.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Ahab",
+          "PlotLineKey": "That's mighty generous, but I'm content with me lot in life. Whatever you find, keep it for yerselves!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 0,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "I never expected to actually find something... This appears to be...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "Looks like a treasure map. A piece of one at least.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "There looks to be something inscribed inside the chest. Hmm... It's hard to make out. The script is unfamiliar to me.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 39,
+              "PlotLineKey": "Let's ask a reliable local for advice.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "I heard a fascinating tale while we've been here, {PlayerName}. Would you care to listen?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "What sort of tale?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "It's a fishermen's legend passed down for generations on this island. It speaks of Rinascita during the ancient Age of a Thousand Islands, when the Riccioli Islands were ruled by a sailor driven from his homeland.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "This sailor possessed untold riches, yet no one knew the source of his fortune.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "He used his vast wealth to build a citadel that brought peace and prosperity to the people of the land.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Just when they prepared to build a monument to honor him, he vanished without a trace.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Whispers claimed he sailed away to seek revenge for a dark past.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Before he departed, he left behind his most cherished treasures on these islands and set forth on a path of revenge, never to return.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "I'm curious what kind of treasure a man like that would leave behind. It must've held great significance to him.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 11,
+              "PlotLineKey": "Shall we set out to uncover it?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 12,
+              "PlotLineKey": "I can hear the treasure calling to me!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "I knew you'd be intrigued! Perhaps we could seek out someone well-versed in these legends? They may hold the key to our quest.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ahab's Note",
+          "PlotLineKey": "\"Someone has surely found that legendary sailor's treasure by now.\"",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ahab's Note",
+          "PlotLineKey": "\"If you can't see it, just try squeezing some waterweed juice onto it.\"",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ahab's Note",
+          "PlotLineKey": "\"What? Any waterweed will do. Do you think a sailor has time to be choosy?\"",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ahab's Note",
+          "PlotLineKey": "\"No victory is instant. The truth must be pieced together bit by bit.\"",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ahab's Note",
+          "PlotLineKey": "\"Search for all the scraps of that treasure map. Piece it together, and who knows what you might discover?\"",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

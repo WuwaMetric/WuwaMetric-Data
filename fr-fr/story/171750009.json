@@ -1,0 +1,814 @@
+{
+  "Id": 171750009,
+  "Name": "Sur les traces d'Avinoleum",
+  "Description": "Près des ruines de séminaire, un vieux ermite est en train d'écrire ses mémoires... Il a besoin des photos d'Avinoleum.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 171750009,
+  "ShowQuestList": [],
+  "QuestDesc": "Près des ruines de séminaire, un vieux ermite est en train d'écrire ses mémoires... Il a besoin des photos d'Avinoleum.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100019,
+      "PreQuestName": "La Demoiselle, La Défiante et Le Cri de la Mort"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 11900018,
+      "PreQuestName": "Traces des écailles"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Excuse-moi, {Male=mon garçon;Female=mademoiselle}, as-tu remarqué quelque chose d'inhabituel dans ce ciel ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 24,
+              "PlotLineKey": "Tu observes le ciel ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Oui, juste une vieille habitude que j'ai.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Autrefois, Avinoleum était une merveille admirée dans tout Rinascita. Mais maintenant, ce n'est plus qu'une étendue d'ombres, suspendue dans le ciel.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "J'y suis déjà allé.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 26,
+              "PlotLineKey": "En fait, je viens d'en revenir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Quoi ? Mais comment.. ? Ah, je sens que tu es {Male=un puissant Résonateur;Female=une puissante Résonatrice}. Il n'y a aucune raison que tu mentes sur une telle chose.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Pardonne les divagations de ce vieil homme. J'ai écrit un mémoire… un récit du passé de Ragunna.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 27,
+              "PlotLineKey": "Le passé de Ragunna ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Oui. Il y a vingt ans, la Marée noire a déferlé et a tout changé. Elle a emporté trop de choses et de personnes qui nous étaient chères.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Quelqu'un doit l'écrire, de peur que la gloire et les triomphes de notre passé ne s'estompent dans le néant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Mais quand je suis arrivé à la partie sur Avinoleum, j'ai réalisé que je pouvais à peine me souvenir de ce à quoi il ressemblait.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Je… Mes souvenirs du séminaire s'estompent. L'endroit où j'ai passé ma jeunesse, où j'ai renforcé ma foi et me suis consacré à l'autodiscipline… tout s'efface.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 28,
+              "PlotLineKey": "Es-tu un acolyte ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Je l'étais. Mais comme tu peux le voir, je ne porte plus la robe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Andreas",
+          "PlotLineKey": "L'Ordre actuel juge l'étude du passé interdite, effaçant tous les anciens dossiers.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Mais maintenant j'ai une idée... Si tu peux atteindre le séminaire, pourrais-tu prendre quelques photos pour moi ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Même s'il a beaucoup changé, le revoir pourrait m'aider à me souvenir de quelque chose... Peu importe ce que c'est.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 29,
+              "PlotLineKey": "D'accord.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 30,
+              "PlotLineKey": "D'accord, si c'est bien payé.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Merci. J'ai réussi à économiser un peu au fil des ans. Tu ne feras pas cela pour rien.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Absolument. J'ai réussi à économiser un peu au fil des ans. Tu ne feras pas cela pour rien.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Prends cette carte avec toi. Je... n'en ai plus besoin.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Le vieil homme te donne une carte légèrement jaunie. Tu y trouves des endroits familiers représentés.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Elle a été dessinée à l'époque où Avinoleum était encore au sol. Elle marque les lieux renommés de cette époque.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Même maintenant, haut dans les cieux, je crois que certaines traces de sa beauté passée subsistent.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Si tu le peux... prends le temps d'apprécier la vue et de profiter du Ragunna d'autrefois.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Hmm ? Une fréquence spéciale est-elle apparue à proximité ?)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "La fréquence persistante se transforme en voix inconnues autour de toi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Père… sommes-nous arrivés ? Est-ce Avinoleum ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "« Père »",
+          "PlotLineKey": "Oui, ma chérie. Nous sommes ici à Avinoleum.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "« Père »",
+          "PlotLineKey": "Un lieu béni par la Sentinelle, où la gloire divine converge, le Séminaire théologique d'Avinoleum.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "« Père »",
+          "PlotLineKey": "À partir de ce jour, tu étudieras ici et tu deviendras une acolyte assez forte pour porter le fardeau, tout comme je l'ai fait autrefois.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Mais père, tu pars encore ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "« Père »",
+          "PlotLineKey": "Je suis désolé, ma chérie. Il y a encore des coins reculés que les bénédictions de la Sentinelle n'ont pas encore atteint. Ma tâche n'est pas terminée.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "« Père »",
+          "PlotLineKey": "Mais sache ceci, je reviendrai vers toi chaque fois que tu auras besoin de moi.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Ça semble familier...)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Ça doit être cette fréquence spéciale. Quel message portera-t-elle cette fois ? )",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Le bruit et les acclamations de la foule remplissent l'air. Les deux côtés du cours d'eau sont animés.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Les acclamations et la joie explosent toujours dans la ville de Ragunna à un tel moment, mais je n'aurais jamais imaginé voir le même esprit même ici au séminaire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Les acolytes qui regardent la pièce se pressent sur les côtés du cours d'eau, et même nos sévères professeurs dansent sans retenue...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "« Compagnon »",
+          "PlotLineKey": "C'est le Carnaval ! Oublions tous les titres et les rangs aujourd'hui !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Tu as raison. Le Carnaval embrasse toutes les différences et les disputes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "« Compagnon »",
+          "PlotLineKey": "Hé, ne reste pas là ! Viens nous rejoindre ! On pourrait même apercevoir la Sainte Demoiselle en personne !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "J'arrive tout de suite.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Une carte dessinée à la main du séminaire ? Comme celle que je porte.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Peut-être que ce n'est pas juste une coïncidence.)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Le couronnement de la Sainte Demoiselle ? Attends, je sens des fréquences de Tacets Discords.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ramollo ?",
+          "PlotLineKey": "*Cri inquiet et déprimé*",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Tu dis que cet Écho de dragon est... « Ramollo » ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Religieuse aînée",
+          "PlotLineKey": "En effet. Il est connue pour son caractère doux et docile, à flâner toute la journée. Ce n'est pas qu'il est timide. Il est simplement trop paresseux pour bouger.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Puis-je m'approcher ? Je veux juste le caresser.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Oh, c'est si froid.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Religieuse aînée",
+          "PlotLineKey": "Ha ha ha, prends autant de temps que tu veux avec lui.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Et qu'en est-il de ce dragon géant là-bas ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Religieuse aînée",
+          "PlotLineKey": "C'est la première fois que tu le vois ? C'est la monture de la Sainte Demoiselle, Gehinnom. Il peut sembler intimidant, mais son âme est douce.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Religieuse aînée",
+          "PlotLineKey": "D'ailleurs, le couronnement de la Sainte Demoiselle approche.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Oui, j'ai hâte.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Selon le calendrier, la Sainte Demoiselle sera bientôt couronnée sous le dôme...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Mais pourquoi l'air semble-t-il si lourd ?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Le vacarme de la foule, leurs cris paniqués, et un hymne étrange résonnent partout...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Le brouillard sombre et étouffant qui engloutit le ciel... Serait-ce la Marée noire ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Ne te laisse pas tenter par les chants ! Cours ! Méfie-toi des Tacets Discords !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Ce n'est pas le moment d'abandonner. Je vois toujours la lumière de la Sainte Demoiselle percer. Elle n'a pas encore abandonné !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Ma lampe brille toujours, et mon sabre reste assez aiguisé pour abattre tout mal qui ose approcher !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Les derniers mots de la fille résonnent dans la fréquence persistante.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Moi, Rosalie Seneca, ne succomberai jamais à la Marée noire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "« Jeune fille »",
+          "PlotLineKey": "Ha, mais si la chance peut m'épargner une dernière fois, je veux vivre... J'ai tant de rêves à réaliser...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Et puis, le silence retombe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Andreas",
+          "PlotLineKey": "{Male=Mon garçon;Female=Mademoiselle}, tu reviens juste d'Avinoleum ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 159,
+              "PlotLineKey": "(Lui tendre les photos du séminaire)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Andreas",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Andreas",
+          "PlotLineKey": "C'est bien Avinoleum. Ces tours, ces colonnes... Elles brillent encore de l'éclat d'autrefois.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Andreas",
+          "PlotLineKey": "… {Male=Mon garçon;Female=Mademoiselle}, il y a quelque chose que je dois demander, quelque chose que je n'étais pas prêt à demander avant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Quand la Marée noire a déferlé, ma fille, <span style=\"color:#ffd12f;\" class=\"font-bold\">Rosalie</span>, étudiait au séminaire. Comme tant d'autres là-bas, elle a disparu de ce monde.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 160,
+              "PlotLineKey": "...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Pensez-vous qu'il soit possible qu'après toutes ces années, Rosalie survive encore dans ces ruines, isolée de notre monde ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Tu es instinctivement conscient du poids de cette question. À propos du destin de cette fille...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 161,
+              "PlotLineKey": "En fait, j'ai rencontré ses fréquences persistantes.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 162,
+              "PlotLineKey": "(Ne pas révéler la vérité et rester silencieux)",
+              "PlayVoice": false,
+              "JumpToId": 24
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Andreas",
+          "PlotLineKey": "...! A-t-elle dit quelque chose ? S'il te plaît, dis-moi tout ce que tu as vu et entendu.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Tu racontes en détail ce que tu as vu et entendu à l'homme âgé devant toi, y compris sa mort.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Les lèvres de l'homme âgé tremblèrent légèrement. Pendant un long moment de silence, il ne dit pas un mot.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Je devais assister à la cérémonie de couronnement avec elle ce jour-là, mais les circonstances m'ont retardé...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Quand je suis arrivé, il était trop tard. Je n'ai pas pu protéger mon propre enfant en tant que père, ni sauvegarder la terre sacrée en tant qu'acolyte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 163,
+              "PlotLineKey": "Ce n'était pas de ta faute.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Merci... de me l'avoir dit.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Au moins maintenant je sais que ma fille est morte en vraie acolyte, sa foi inébranlable, son âme vertueuse.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Je me souviens du crépuscule où j'ai emmené Rosalie à Avinoleum. La lumière dorée du soleil couchant baignait le dôme de la tour principale.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Et elle m'a demandé qui avait construit un endroit si glorieux ou si c'était une bénédiction de la Sentinelle.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Andreas",
+          "PlotLineKey": "J'ai oublié ce que j'ai répondu, mais je crois qu'elle a trouvé sa propre réponse.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 164,
+              "PlotLineKey": "C'était l'œuvre de ceux qui nous ont précédés...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 165,
+              "PlotLineKey": "Et ce sont les efforts de chacun qui ont construit cette civilisation.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Un jour, sur la terre de Ragunna, une telle splendeur renaîtra.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Je promets de finir ce mémoire afin que tout ce qui est précieux ne se perde pas dans les méandres du temps.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Andreas",
+          "PlotLineKey": "... Je te dis à bientôt, {Male=mon garçon;Female=mademoiselle}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "(Tu médites, fixant ton regard calme sur l'homme âgé.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Andreas",
+          "PlotLineKey": "… Merci. Je crois que je connais déjà ta réponse. C'est suffisant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Tu as laissé une étincelle d'espoir persister dans ce vieux cœur flétri.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Je promets de finir ce mémoire afin que tout ce qui est précieux ne se perde pas dans les méandres du temps.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Ce cadeau d'anniversaire tant attendu... Je sais que Rosalie l'aurait chéri.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Andreas",
+          "PlotLineKey": "... Je te dis à bientôt, {Male=mon garçon;Female=mademoiselle}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

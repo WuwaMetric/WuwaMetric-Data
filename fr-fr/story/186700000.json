@@ -1,0 +1,730 @@
+{
+  "Id": 186700000,
+  "Name": "Exploration des fonds marins",
+  "Description": "L'histoire du Fabricatorium des Profondeurs s'est agitée sous les vagues, son trouble se propageant discrètement entre les nobles et l'Ordre. Pour éviter de perturber davantage la vie des habitants de Ragunna et prévenir toute panique inutile, les deux camps ont tenu une rare réunion privée. Dans une démarche sans précédent, ils ont trouvé un consensus : une réinspection complète de l'installation sera menée, suivie de discussions conjointes sur le sort du Fabricatorium et des Échos communs qu'il abrite.\nEn tant que {Male=seul à être revenu;Female=seule à être revenue} indemne de cet endroit, vous êtes sans aucun doute la personne idéale pour diriger cette expédition.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 186700000,
+  "ShowQuestList": [],
+  "QuestDesc": "L'histoire du Fabricatorium des Profondeurs s'est agitée sous les vagues, son trouble se propageant discrètement entre les nobles et l'Ordre. Pour éviter de perturber davantage la vie des habitants de Ragunna et prévenir toute panique inutile, les deux camps ont tenu une rare réunion privée. Dans une démarche sans précédent, ils ont trouvé un consensus : une réinspection complète de l'installation sera menée, suivie de discussions conjointes sur le sort du Fabricatorium et des Échos communs qu'il abrite.\nEn tant que {Male=seul à être revenu;Female=seule à être revenue} indemne de cet endroit, vous êtes sans aucun doute la personne idéale pour diriger cette expédition.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100023,
+      "PreQuestName": "Capteurs de rêves dans les jardins secrets"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 11900018,
+      "PreQuestName": "Traces des écailles"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Carlotta",
+          "PlotLineKey": "{PlayerName}, on m'a informée de ce qui s'était passé au Fabricatorium des Profondeurs.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Carlotta",
+          "PlotLineKey": "Je crains d'avoir encore besoin de ton aide.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Carlotta",
+          "PlotLineKey": "Si tu as le temps, rends-toi aux coordonnées que je t'ai données. Un de mes amis t'y attendra pour tout t'expliquer.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Carlotta",
+          "PlotLineKey": "En tant que Montelli... Non, en tant que citoyenne de Ragunna, je te remercie.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Les coordonnées de Carlotta mènent à l'extérieur de la Cathédrale du Mercure ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "La famille a donc parlé à l'Ordre...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "Vous devez être {Male=le Vertueux;Female=la Vertueuse} dont on m'a parlé. C'est pour les Profondeurs ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "Luther, à votre service. Je vous attendais.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 42,
+              "PlotLineKey": "L'Ordre est au courant ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Luther",
+          "PlotLineKey": "Ne vous en faites pas. Après discussion, nous avons choisi de ne pas rendre cette affaire publique.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 43,
+              "PlotLineKey": "Discussion ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Luther",
+          "PlotLineKey": "Peu après que vous nous avez rapporté la nouvelle, l'Ordre s'est entretenu secrètement avec les familles Montelli et Fisalia.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Luther",
+          "PlotLineKey": "On a trouvé un terrain d'entente lors de cette réunion, ce qui est plutôt rare.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Luther",
+          "PlotLineKey": "Nous avons décidé de garder le silence pour éviter de semer la panique et la peur parmi la population. Mais une enquête approfondie est encore nécessaire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Luther",
+          "PlotLineKey": "On ne peut pas juste se débarrasser des Échos communs, Ragunna en a besoin. On décidera de l'avenir du Fabricatorium ensemble une fois qu'on aura tout compris.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Luther",
+          "PlotLineKey": "L'expertise des Fisalia en matière de contrôle des Échos ainsi que la technologie des bornes des Montelli faciliteront la transition des activités du Fabricatorium.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Luther",
+          "PlotLineKey": "Quand tout le monde sera prêt, on révélera la vérité.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 44,
+              "PlotLineKey": "Pourquoi moi ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Luther",
+          "PlotLineKey": "Vous êtes {Male=le seul revenu vivant;Female=la seule revenue vivante} de là-bas. Nous ne connaissons personne de plus {Male=qualifié;Female=qualifiée} que vous pour mener cette enquête.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Luther",
+          "PlotLineKey": "Je m'occuperai de la documentation. Durant votre investigation, merci de m'expliquer vos actions en détail afin de rendre notre rapport aussi complet que possible.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 45,
+              "PlotLineKey": "Vous et moi ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Luther",
+          "PlotLineKey": "Oui. Le Fabricatorium étant essentiellement dirigé par des acolytes, l'Ordre et les familles ont décidé que j'étais le mieux placé pour cette tâche.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 46,
+              "PlotLineKey": "D'accord, on y va.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 47,
+              "PlotLineKey": "J'ai besoin de me préparer d'abord.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Luther",
+          "PlotLineKey": "Je vous remercie pour votre aide.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 48,
+              "PlotLineKey": "Ce n'est rien. On m'a déjà {Male=remercié;Female=remerciée} pour ça.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Luther",
+          "PlotLineKey": "On part quand vous voulez.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "Incroyable... Je n'aurais jamais imaginé une telle splendeur sous nos pieds sans l'avoir vue.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "La mer nous nourrit de manière inattendue.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "J'ai remarqué quelque chose dans les archives tout à l'heure. C'est l'incubation d'Échos ici ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 97,
+              "PlotLineKey": "Oui. Ce sont des couveuses d'Échos.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "Des milliers d'Échos sont incubés, ce qui explique la sécurité renforcée et tous ces chercheurs qui supervisent le tout.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 98,
+              "PlotLineKey": "Les tuyaux transportent l'énergie des fréquences.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Luther",
+          "PlotLineKey": "Les Échos recyclés du Tombeau déchu permettent d'en faire naître de nouveaux...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Luther",
+          "PlotLineKey": "Reconstitués à partir d'innombrables fréquences décomposées, ces nouveau-nés n'ont plus aucun lien avec leur passé.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 99,
+              "PlotLineKey": "Comment le savez-vous ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Luther",
+          "PlotLineKey": "J'étais autrefois chercheur en fréquences. Un simple coup d'œil aux relevés permet d'affirmer que toute trace des anciennes données a été effacée...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 100,
+              "PlotLineKey": "Vous avez l'air préoccupé.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Luther",
+          "PlotLineKey": "Les années passées dans un laboratoire peuvent engourdir l'esprit. On finit par voir les sujets comme des objets.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Luther",
+          "PlotLineKey": "Je me force à pas tomber là-dedans, mais ici, tout le monde traite les Échos comme des outils jetables.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Luther",
+          "PlotLineKey": "N'est-ce pas trahir notre foi ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 101,
+              "PlotLineKey": "On m'en a donné une autre interprétation.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Luther",
+          "PlotLineKey": "Laquelle ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Quelqu'un m'a dit que c’était une touche de vivacité tissée dans la ruine, une mélodie impérissable de la vie.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Luther",
+          "PlotLineKey": "Selon vous, ce cycle représente l'unité immortelle de la vie ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Luther",
+          "PlotLineKey": "Non, c'est faux. Notre « unité » ne doit jamais être bâtie sur le sacrifice de la conscience de soi.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 102,
+              "PlotLineKey": "Le sacrifice de la conscience de soi ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Luther",
+          "PlotLineKey": "Comme ces pauvres Échos...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "On doit aussi documenter cet endroit, non ? Prenons quelques photos d'avance.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "Oui, s'il te plaît.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "Tout est prêt ? On passe à la zone suivante ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 269,
+              "PlotLineKey": "Allons-y.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 270,
+              "PlotLineKey": "J'ai besoin d'un moment.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "D'accord. Je t'attendrai ici.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Acolyte de l'Ordre",
+          "PlotLineKey": "Mes chers {Male=frères;Female=frère et sœur}, vous qui êtes venus ici serez la force qui sauvera Rinascita.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "Oh ? Merci. Je ne m'attendais pas à voir tant de monde...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Acolyte de l'Ordre",
+          "PlotLineKey": "Unissons-nous pour répandre la lumière et affrontons l'épreuve divine dans l'unité.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Luther",
+          "PlotLineKey": "L'épreuve divine... ? De quoi s'agit-il ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "Ils ne peuvent plus communiquer normalement.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Luther",
+          "PlotLineKey": "Pourquoi ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Sauver Rinascita et survivre à l'inévitable « épreuve divine » est un chemin pavé par de nombreuses personnes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Ces personnes ont tout donné pour l'Ordre et sont devenues des martyrs volontaires.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Luther",
+          "PlotLineKey": "Je... l'ignorais...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "C'est peut-être parce que Fenrico minimise les conséquences de l'échec.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "À force d'innombrables échecs, leur esprit s'est troublé. Ils sont à présent incapables de mener une vie normale.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Les survivants ne pouvaient que se raccrocher à leur foi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Ce lieu n'abrite ni production ni expériences. C'est le refuge que Fenrico leur a offert pour vivre à l'écart du monde.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Luther",
+          "PlotLineKey": "Je comprends. Ils resteront sous notre protection.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Luther",
+          "PlotLineKey": "Mais le chaos et les ténèbres que vous mentionniez...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 177,
+              "PlotLineKey": "Continuons. Vous découvrirez bientôt la vérité par vous-même.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "Est-ce... Primus Fenrico ?!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 206,
+              "PlotLineKey": "Il ne peut plus vous répondre.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "Expliquez-moi tout, je vous en prie.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "Avez-vous entendu parler de la fausse divinité ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Luther",
+          "PlotLineKey": "Oui. Après avoir confirmé ma visite au Fabricatorium, une lettre des Fisalia a révélé la vérité sur la Sentinelle et le Réprimantum.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Vous devez avoir une position très importante dans l'Ordre pour connaître un tel secret.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Fenrico a dû l'apprendre plus tôt que nous ne l'avions anticipé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Mais il l'a oublié. Ou, plus précisément, la Marée noire a érodé son esprit.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Avec le Réprimantum dans son esprit, il a enfoui des fragments de vérité dans les profondeurs marines dans ses derniers moments lucides.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Il cherchait avec d'autres acolytes à sauver Ragunna jusqu'à comprendre que seule son intervention directe pourrait réussir.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Mais il a oublié le détail le plus important, il était l'annonciateur de la Marée noire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Les vestiges du Réprimantum ont failli retomber dans la Marée noire. Heureusement, la lanterne l'a réveillé, puis il a utilisé ses dernières forces pour arrêter sa propagation.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Luther",
+          "PlotLineKey": "Le Réprimantum... Voilà qui explique tout.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 208,
+              "PlotLineKey": "Comment ça ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Luther",
+          "PlotLineKey": "Il y a des années, j'ai eu plusieurs conversations avec l'ancien Conseiller.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Luther",
+          "PlotLineKey": "Il a mentionné qu'à l'époque du Séminaire, Fenrico était différent de l'homme qui est devenu Primus. Même son ancien camarade de classe lui semblait étranger.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Luther",
+          "PlotLineKey": "Il n'a jamais compris pourquoi, même quand il a été envoyé faire la Traversée de pèlerin. Je suppose que c'est à cause de ce que vous m'avez dit.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "D'accord. J'ai assez d'infos. On passe à la zone suivante ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 259,
+              "PlotLineKey": "Allons-y.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 260,
+              "PlotLineKey": "J'ai besoin d'un moment.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "D'accord. Je t'attendrai ici.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "On passe à l'endroit suivant ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 275,
+              "PlotLineKey": "Allons-y.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 276,
+              "PlotLineKey": "Un moment.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "D'accord. Je t'attendrai ici.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

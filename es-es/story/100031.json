@@ -1,0 +1,686 @@
+{
+  "Id": 100031,
+  "Name": "Mirada de luz estrellada",
+  "Description": "Interludio",
+  "MaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_27.png",
+  "FemaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_27.png",
+  "AreaIcon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/UiArchive/Atlas/SP_ArchiveAreaLinaxita.png",
+  "ShowQuestList": [
+    165000004
+  ],
+  "QuestDesc": "Tras escapar de la ciudad de Honami, Chisa, quien había estado al borde del overclock en más de una ocasión, recibió tratamiento en Costa Negra. Desde entonces, no os habéis vuelto a ver. Ahora ha llegado el momento de visitarla de nuevo. Para {Male=ambos;Female=ambas}, será un nuevo comienzo.",
+  "Unlock": [
+    {
+      "Id": 165850000,
+      "Name": "Olas susurrantes",
+      "Type": 2
+    },
+    {
+      "Id": 318850001,
+      "Name": "Continúa explorando la ciudad de Honami.",
+      "Type": 7
+    }
+  ],
+  "Chapters": [
+    {
+      "Title": "Espera a que Chisa termine su tratamiento."
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ria",
+          "PlotLineKey": "{Male=Bienvenido;Female=Bienvenida} de nuevo, {PlayerName}. ¿Vienes a ver cómo está Chisa?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 5524,
+              "PlotLineKey": "¿Qué tal lo lleva?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 5525,
+              "PlotLineKey": "Solo estaba de paso.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ria",
+          "PlotLineKey": "Hemos trasladado a Chisa a una cámara de tratamiento sellada. Está bajo estrecha observación y recibe apoyo terapéutico por fases.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ria",
+          "PlotLineKey": "Su cuerpo ha estado funcionando bajo una tensión casi de overclock durante bastante tiempo, así que algunos de sus signos vitales son preocupantes. Resistió todo lo que pudo, pero su cuerpo claramente no da más de sí.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ria",
+          "PlotLineKey": "Dicho eso, hemos comenzado a identificar algunos tratamientos prometedores. La respuesta temprana se ve bien. No recuperará sus fuerzas de la noche a la mañana, pero sí debería mejorar de manera constante. Nada crítico en este punto.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ria",
+          "PlotLineKey": "¡Entonces me vuelvo a analizar sus lecturas! En general, el proceso avanza en la dirección correcta. Solo danos un poco más de tiempo y estará bien.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Una vez finalizado el tratamiento de Chisa, vuelves al Archipiélago de Costa Negra...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Ah, {PlayerName}. Has venido en el momento perfecto. Hay algo que debes saber.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Desde que nos hicimos cargo de la Esfera Sonora de Honami, hemos apreciado ciertos cambios en su interior.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Valentina",
+          "PlotLineKey": "La conexión entre Honami y el mundo real se está estabilizando, y el flujo temporal de la ciudad casi está sincronizado.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Según el Sistema Tetis, gran parte de los últimos intercambios de frecuencia no pasaron por esta fisura.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 2392,
+              "PlotLineKey": "¿Qué quieres decir?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Podría tratarse de un error por superposición de datos... O podría haberse abierto un punto de acceso nuevo a la Esfera Sonora de Honami.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Además de eso, la ciudad está llena de fenómenos desconocidos y zonas peligrosas sin explorar. Por ahora, pretendemos continuar vigilando el terreno.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 2393,
+              "PlotLineKey": "Por cierto, ¿cómo está Chisa?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Acaba de completar su tratamiento. Todo bien... Su curva de Rabelle está dentro de lo normal y no presenta síntomas significativos de overclock, tampoco secuelas.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Aun así, recomendaría evitar episodios como el de Honami. Soportar ese nivel de tensión de resonancia es inviable.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Ah, perdona.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Sí. Ajá. Entendido. Está conmigo ahora mismo.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Acabo de recibir una llamada de que Chisa ha pedido el alta y se ha marchado sola a Honami.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 2394,
+              "PlotLineKey": "¿Por qué querría volver?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Valentina",
+          "PlotLineKey": "No dijo nada al respecto, solo decía: «Quiero volver».",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Puedes encontrar a su guía KU-Roro en el Refugio de Brotes. Tal vez sepa algo.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Lo comprobaré. Chisa no suele actuar sin un plan.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 18,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Pasado un tiempo, vuelves a Costa Negra para visitar a Chisa. Valentina te informa de que la conexión entre la Sonora de Honami y el mundo real se está estabilizando. Chisa ha terminado su tratamiento y no muestra síntomas graves o persistentes de Overclock. Pero, por razones desconocidas, ha decidido regresar sola a Honami recientemente. Su guía, KU-Shosho, podría saber más.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 3,
+          "Speaker": "Valentina",
+          "PlotLineKey": "¿Te gustaría saber algo más? Si entra dentro de mis competencias, te responderé sin dudarlo.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 2439,
+              "PlotLineKey": "Sobre el flujo temporal de Honami...",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 2440,
+              "PlotLineKey": "Sobre la estancia de Chisa en Costa Negra...",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 2441,
+              "PlotLineKey": "Sobre la Portadora de Flor Sumika...",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 2442,
+              "PlotLineKey": "Por ahora, eso es todo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Después de que Honami fuera devastada, la energía del Lamento confinó toda la ciudad en una Esfera Sonora única, como ámbar solidificado. Comparado con el resto del mundo, su flujo temporal se ralentizó.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Un caso similar sería Monte Firmamento. Un día en su interior son hasta cien días del exterior.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Pero no es permanente. Al tiempo que la conexión de Honami con la realidad se fortalece, el flujo del tiempo va volviendo a la normalidad.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Que accedieras a Honami a través de esa fisura tiene a Guardacostas muy preocupada, y desde entonces está supervisando todo lo que pasa allí.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Lo bueno es que el flujo temporal de Honami era más lento que el de aquí, así que para nosotros, solo estuviste ausente poco rato.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 3
+        },
+        {
+          "Id": 9,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Mientras se recuperaba, Chisa solicitó acceso parcial a la base de datos de Costa Negra para aprender algo de cultura general y la situación actual.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Valentina",
+          "PlotLineKey": "También la vimos por el área residencial y, de vez en cuando, echaba un vistazo a las instalaciones, como hacen muchas «Nuevas Ramas» cuando llegan por primera vez.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Valentina",
+          "PlotLineKey": "La Terminal Tetis encargado de sus cuidados puede darte más detalles.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 3
+        },
+        {
+          "Id": 12,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Sumika es una miembro de Costa Negra que desapareció hace muchos años. Enviamos un equipo de búsqueda y rescate, pero no la encontramos.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Valentina",
+          "PlotLineKey": "El informe que Chisa nos presentó detalla las operaciones de Sumika en Honami.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Era una de las investigadoras más destacadas de la Celda de Error, y una Portadora de Flor de élite que enorgulleció a Costa Negra.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Valentina",
+          "PlotLineKey": "La Matriz Estelar recordará para siempre su honorable búsqueda de la verdad.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 3
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 3,
+          "Speaker": "Valentina",
+          "PlotLineKey": "¿Te gustaría saber algo más? Si entra dentro de mis competencias, te responderé sin dudarlo.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 2461,
+              "PlotLineKey": "Sobre el flujo temporal de Honami...",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 2462,
+              "PlotLineKey": "Sobre la estancia de Chisa en Costa Negra...",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 2463,
+              "PlotLineKey": "Sobre la Portadora de Flor Sumika...",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 2464,
+              "PlotLineKey": "Por ahora, eso es todo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Después de que Honami fuera devastada, la energía del Lamento confinó toda la ciudad en una Esfera Sonora única, como ámbar solidificado. Comparado con el resto del mundo, su flujo temporal se ralentizó.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Un caso similar sería Monte Firmamento. Un día en su interior son hasta cien días del exterior.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Pero no es permanente. Al tiempo que la conexión de Honami con la realidad se fortalece, el flujo del tiempo va volviendo a la normalidad.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Que accedieras a Honami a través de esa fisura tiene a Guardacostas muy preocupada, y desde entonces está supervisando todo lo que pasa allí.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Lo bueno es que el flujo temporal de Honami era más lento que el de aquí, así que para nosotros, solo estuviste ausente poco rato.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 3
+        },
+        {
+          "Id": 9,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Mientras se recuperaba, Chisa solicitó acceso parcial a la base de datos de Costa Negra para aprender algo de cultura general y la situación actual.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Valentina",
+          "PlotLineKey": "También la vimos por el área residencial y, de vez en cuando, echaba un vistazo a las instalaciones, como hacen muchas «Nuevas Ramas» cuando llegan por primera vez.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Valentina",
+          "PlotLineKey": "La Terminal Tetis encargado de sus cuidados puede darte más detalles.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 3
+        },
+        {
+          "Id": 12,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Sumika es una miembro de Costa Negra que desapareció hace muchos años. Enviamos un equipo de búsqueda y rescate, pero no la encontramos.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Valentina",
+          "PlotLineKey": "El informe que Chisa nos presentó detalla las operaciones de Sumika en Honami.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Valentina",
+          "PlotLineKey": "Era una de las investigadoras más destacadas de la Celda de Error, y una Portadora de Flor de élite que enorgulleció a Costa Negra.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Valentina",
+          "PlotLineKey": "La Matriz Estelar recordará para siempre su honorable búsqueda de la verdad.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 3
+        }
+      ],
+      "State": 10
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Actor N.º 1",
+          "PlotLineKey": "Ahora creo que ya puedo ir a recargarme...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 4
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "KU-Shosho",
+          "PlotLineKey": "Kuku, ¿por qué se fue con tanta prisa? ¿Tengo que limpiar esto?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "KU-Shosho",
+          "PlotLineKey": "Ah, {Male=Portador;Female=Portadora} de Flor. La señorita Chisa lleva tiempo sin aparecer por aquí.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1027,
+              "PlotLineKey": "¿Notaste algo extraño cuando se fue?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "KU-Shosho",
+          "PlotLineKey": "Solo estaba visitando las instalaciones, como normalmente hace. También es cierto que los datos de sus indicadores emocionales eran algo más bajos de lo habitual.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "KU-Shosho",
+          "PlotLineKey": "Solía disfrutar leyendo archivos, pero durante los últimos días solía quedarse ensimismada, o haciendo kirigamis con sus tijeras.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1028,
+              "PlotLineKey": "¿Kirigamis?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "KU-Shosho",
+          "PlotLineKey": "Ah, sí. Figuritas que se hacen cortando papel. Aún quedan algunas en esta mesa. Normalmente limpiaba después, pero esta vez...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Estos parecen restos de recortar papel. Y esto de aquí es una torre a medio terminar... Me resulta familiar).",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "KU-Shosho",
+          "PlotLineKey": "Tras pedir el alta, le pregunté si quería que alguien la acompañara, pero se negó.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1029,
+              "PlotLineKey": "Entiendo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1030,
+              "PlotLineKey": "Iré a buscar a Chisa.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "KU-Shosho",
+          "PlotLineKey": "Por favor, cuida de la señorita Chisa.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 13,
+          "Speaker": "Narrator",
+          "PlotLineKey": "KU-Shosho te cuenta que Chisa suele descansar en el Refugio de Brotes, pero últimamente ha estado desanimada. Se marchó con prisa y ni siquiera recogió sus figuritas de kirigami de la mesa. Esta actitud tan extraña te lleva a buscarla en Honami.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Dirígete a la ciudad de Honami."
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "El Eterfín te muestra una reconstrucción holográfica del evento ocurrido aquí.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Ves a una chica mirando al horizonte, con su mirada perdida en el cielo azul. ¿En qué pensará?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Dirígete al Café Shashou."
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chisa",
+          "PlotLineKey": "¿Pasa algo, {PlayerName}? ¿Qué te ha hecho girarte?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 2506,
+              "PlotLineKey": "Acabo de escuchar una voz en la radio.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 2507,
+              "PlotLineKey": "Escuché a alguien nombrarme.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Chisa",
+          "PlotLineKey": "¿Una voz de la radio? ¿Pero no estaba rota?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Chisa",
+          "PlotLineKey": "¿Sí? Pero si estoy justo a tu lado y no he escuchado nada...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 2508,
+              "PlotLineKey": "¿Seguro que no has oído nada raro?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Chisa",
+          "PlotLineKey": "...Sí. Debes estar {Male=agotado;Female=agotada}. ¿Volvemos al Café?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 2509,
+              "PlotLineKey": "Supongo que un descaso me vendrá bien.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 2510,
+              "PlotLineKey": "No hace falta. Estoy bien.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(No creo que me haya imaginado... esa voz).",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 11,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Curiosamente, Chisa, que está a tu lado, no la escucha. Pero sabes que no fue tu imaginación.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

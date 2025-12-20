@@ -1,0 +1,655 @@
+{
+  "Id": 126000006,
+  "Name": "今州刊物·創刊號",
+  "Description": "似乎有兩個人正在爭論期刊編纂的問題，去了解一下情況吧。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 126000006,
+  "ShowQuestList": [],
+  "QuestDesc": "似乎有兩個人正在爭論期刊編纂的問題，去了解一下情況吧。",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100005,
+      "PreQuestName": "奔策候殘星"
+    },
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 12
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "女孩",
+          "PlotLineKey": "教材已經夠枯燥了姐姐，課外刊物可以有趣點嗎？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "女孩",
+          "PlotLineKey": "實在不行，咱去劇場請個說書先生來潤色一下？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "女性教員",
+          "PlotLineKey": "都跟你說過了，編寫刊物是很嚴肅的事情，哪怕是課外刊物。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "女孩",
+          "PlotLineKey": "可是刊物沒有意思的話，就很難在學生之間流行起來……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "女孩",
+          "PlotLineKey": "那就背離了姐姐創刊的初衷了吧！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "女性教員",
+          "PlotLineKey": "也是，大眾讀物的文風肯定不同於學術期刊，更需要和讀者換位思考。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "女性教員",
+          "PlotLineKey": "還好你點醒了我，不然我又要鑽牛角尖了！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "女孩",
+          "PlotLineKey": "畢竟我也算是這本刊物的潛在受眾嘛！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "女性教員",
+          "PlotLineKey": "潛在受眾……？有道理，我應該多聽聽大家的想法！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "女孩",
+          "PlotLineKey": "嘿嘿，這才對嘛！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "女孩",
+          "PlotLineKey": "這位路過的朋友，請等一下，我的名字是杏竺，你呢？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 204,
+              "PlotLineKey": "我叫{PlayerName}。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "杏竺",
+          "PlotLineKey": "我聽說過你的名字，是位了不起的漂泊者呢。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "杏竺",
+          "PlotLineKey": "你這麼厲害，能不能拜託你幫我們一個忙呀？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "杏竺",
+          "PlotLineKey": "放心，絕對不麻煩，真的就是一個小忙，拜託啦！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "女性教員",
+          "PlotLineKey": "咳咳，你好，{PlayerName}，請允許我自我介紹一下！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "女性教員",
+          "PlotLineKey": "我叫英竺，在今州書院的教材部工作，目前負責一份課外刊物的編寫。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "英竺",
+          "PlotLineKey": "它叫《看今州》，目的是增加學生知識面，啟發他們的求知欲。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "英竺",
+          "PlotLineKey": "但我妹妹試讀過初稿之後，覺得內容的傳播面還是太窄。如果無法成為大眾讀物，也就與「科普刊物」的初衷背道而馳了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "英竺",
+          "PlotLineKey": "{PlayerName}，你願意配合我們做個小測試嗎？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "英竺",
+          "PlotLineKey": "只是簡單的問答而已，無論答對還是答錯都沒關係的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "英竺",
+          "PlotLineKey": "我需要確認一下，這些知識點是不是真有那麼生僻難懂。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 205,
+              "PlotLineKey": "這方面我還是挺有自信的。",
+              "PlayVoice": false,
+              "JumpToId": 22
+            },
+            {
+              "TextId": 206,
+              "PlotLineKey": "要暴露我匱乏的知識儲備了。",
+              "PlayVoice": false,
+              "JumpToId": 24
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "英竺",
+          "PlotLineKey": "非常感謝！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "杏竺",
+          "PlotLineKey": "我很期待你的表現喔。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "杏竺",
+          "PlotLineKey": "當做是一次閒聊就好，我也好奇漂泊者在今州的見聞！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "英竺",
+          "PlotLineKey": "測試結果我會嚴格保密，只作為後續編寫的修改參考。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "英竺",
+          "PlotLineKey": "還請你不要太有顧慮，{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "英竺",
+          "PlotLineKey": "第一題，是關於今州的歲主，也是基礎中的基礎！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "英竺",
+          "PlotLineKey": "請問，今州有與歲主協同對抗鳴式，歲主被稱作？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 122,
+              "PlotLineKey": "龍",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 123,
+              "PlotLineKey": "角",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 124,
+              "PlotLineKey": "光",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 0,
+          "Speaker": "英竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "英竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "英竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "杏竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "英竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "英竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "杏竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "杏竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "英竺",
+          "PlotLineKey": "第二題是關於一專案前被廣泛應用的科學技術，黑石武器。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "英竺",
+          "PlotLineKey": "請問，黑石武器研發是華胥研究院中哪個科室的職責？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 143,
+              "PlotLineKey": "安全科",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 144,
+              "PlotLineKey": "理論科",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 145,
+              "PlotLineKey": "資源科",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 0,
+          "Speaker": "英竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "英竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "杏竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "杏竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "杏竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "英竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "杏竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "杏竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "英竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "杏竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "英竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "杏竺",
+          "PlotLineKey": "這道題是關於一道今州特色涼菜的喔。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "杏竺",
+          "PlotLineKey": "遠近聞名的紅油手撕雞，以下哪種材料不是它的原料呢？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 159,
+              "PlotLineKey": "禽肉",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 160,
+              "PlotLineKey": "辣椒",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 161,
+              "PlotLineKey": "菱果",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 0,
+          "Speaker": "杏竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "杏竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "英竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "英竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "杏竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "杏竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "杏竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "杏竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "英竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "英竺",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "英竺",
+          "PlotLineKey": "有了這些問答作為參考，我對《看今州》的編纂有了新的想法。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "英竺",
+          "PlotLineKey": "看來之前一直閉門造車，還是忽略了很多東西……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "英竺",
+          "PlotLineKey": "請你收下這些報酬，這是你應得的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "杏竺",
+          "PlotLineKey": "{PlayerName}的作答很有啟發喔！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "杏竺",
+          "PlotLineKey": "之後還能再拜託你來幫姐姐嗎？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "英竺",
+          "PlotLineKey": "這、這怎麼好意思呢？這次就已經添了不少麻煩了……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 186,
+              "PlotLineKey": "並不算什麼麻煩。",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 187,
+              "PlotLineKey": "有報酬就算等價交換。",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "英竺",
+          "PlotLineKey": "等《看今州》正式定稿，我一定把你的名字放在題獻頁！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "英竺",
+          "PlotLineKey": "那麼，希望我們今後合作愉快。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "杏竺",
+          "PlotLineKey": "下次再見也要做好被我提問的心理準備哦。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "英竺",
+          "PlotLineKey": "那是當然，無論我個人還是今州書院，都不會讓你白白付出。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "英竺",
+          "PlotLineKey": "作為感謝，我還會把你的名字放在題獻頁。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "杏竺",
+          "PlotLineKey": "嗯！ {PlayerName}的幫助值得被記住！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "杏竺",
+          "PlotLineKey": "{PlayerName}，下次我也會準備一些題目，肯定比姐姐的那些更有趣。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "杏竺",
+          "PlotLineKey": "希望咱們之後合作愉快啦。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

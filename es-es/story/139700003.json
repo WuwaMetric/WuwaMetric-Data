@@ -1,0 +1,666 @@
+{
+  "Id": 139700003,
+  "Name": "Adivinanza y Reunión",
+  "Description": "En el desafío de Adivinanza se ha añadido un premio especial y exclusivo por tiempo limitado. ¡Únete rápidamente a Yangyang para participar en el desafío!\n\nCompleta esta misión para desbloquear un nuevo compañero.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700003,
+  "ShowQuestList": [],
+  "QuestDesc": "En el desafío de Adivinanza se ha añadido un premio especial y exclusivo por tiempo limitado. ¡Únete rápidamente a Yangyang para participar en el desafío!\n\nCompleta esta misión para desbloquear un nuevo compañero.",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 9,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Las adivinanzas de los faroles parecen divertidas. ¿Quieres probar?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¿Qué me dices, {PlayerName}? ¿Estás preparad{Male=o;Female=a} para el desafío?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Tengo unas adivinanzas muy difíciles recién salidas de la imprenta. Si resuelves tres te llevarás el bote. ¡Confía en mí, es un objeto de coleccionista!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Adivinanzas muy difíciles...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 369,
+              "PlotLineKey": "Yangyang, ¿quieres unirte?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 370,
+              "PlotLineKey": "¡Creo que me va a hacer falta un poco de ayuda!",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "¿{Male=Los dos;Female=Las dos}? ¿No va contra las reglas?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Bueno, si las reglas lo permiten... Quiero aceptar este desafío junto con {PlayerName}.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Pues claro, después de todo, es un festival. ¿Hay algo más importante que divertirse? Yangyang, parecías totalmente interesada en las adivinanzas. ¡Apuesto a que te gustaría resolverlas tú misma!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¡Además, mis adivinanzas son de las difíciles, y no me gustaría dejar a {PlayerName} en evidencia delante de todo el mundo!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 371,
+              "PlotLineKey": "Yo no lo tengo tan claro.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 372,
+              "PlotLineKey": "¡Ponme a prueba!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¡Está bien! ¿Qué tal si empezamos abriendo boca con un aperitivo? Adivinanza número 1: Es redondo como la luna y tiene la panza igual de blanca. En el aire puede brincar, y en el agua se puede arrastrar.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¡Decidme de qué Disonancia Tácita se trata!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Es redondo, tiene la barriga blanca y puede nadar... ¿Puede que sea...?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 373,
+              "PlotLineKey": "... ¿Una Escartuga?",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 374,
+              "PlotLineKey": "... ¿Un Burbujín?",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 375,
+              "PlotLineKey": "... ¿Un Tic Tac?",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 376,
+              "PlotLineKey": "... ¿Un Clang Bang?",
+              "PlayVoice": false,
+              "JumpToId": 13
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "No exactamente. Prueba otra vez.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 13,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "No exactamente. Prueba otra vez.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "No exactamente. Prueba otra vez.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¡Exacto, es un Burbujín!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Los Burbujines recuerdan a la luna cuando saltan en el aire, ¿verdad?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Recuerdo que cuando era pequeña... me encantaba el Festival de la Caza de la Luna. Hacíamos Pasteles de Reunión con todo tipo de formas, especialmente de animales adorables y redonditos...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "A todos nos encantaban los Pasteles de Reunión de Burbujines.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Jaja, es todo un favorito entre los niños... ¡Bueno, pasemos a la siguiente adivinanza! ¡Esta puede que sea más difícil!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Te dan una jaula llena de gallinas y conejos que en total suman 14 cabezas y 38 patas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Pregunta... ¿Cuántas gallinas y conejos hay en total? La cuenta atrás de cinco minutos empieza... ¡ahora!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 377,
+              "PlotLineKey": "... ¿A eso se le puede considerar una adivinanza?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Yo opino lo mismo... Más bien parece un problema de matemáticas...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Ejem... Es una pregunta con una respuesta determinada, y dado que está colgada de una linterna, se le puede considerar una adivinanza.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "... Si tú lo dices. Aunque se me sigue haciendo un poco raro...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Recuerdo que en clase aprendí el «método de la media pierna» para solucionar problemas así...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 378,
+              "PlotLineKey": "Este te lo sabes, ¿verdad, Yangyang?",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 379,
+              "PlotLineKey": "(Dar la respuesta.)",
+              "PlayVoice": false,
+              "JumpToId": 28
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Veré lo que puedo hacer...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "¡Hecho! La respuesta es... ¡5 conejos y 9 gallinas!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 30
+        },
+        {
+          "Id": 28,
+          "Speaker": "Errante",
+          "PlotLineKey": "(Primero suponemos que todo son gallinas, y luego calculamos la diferencia entre el número de piernas y obtenemos la cantidad de conejos... Ya veo.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Errante",
+          "PlotLineKey": "Hay 5 conejos y 9 gallinas.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 30
+        },
+        {
+          "Id": 30,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¡Correcto! Lo has averiguado incluso más rápido que el señor Bosong. Estoy impresionado.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¿Qué tal si probamos una un poco distinta para la última adivinanza? Podéis elegir cualquier linterna.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "(Xieyang señala una fila de linternas que hay arriba adornadas con adivinanzas que se mecen al viento.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Mmm... No veo ninguna adivinanza...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Oh, las adivinanzas están escritas con una tinta especial. Para poder verlas tienes que ponerlas cerca de una linterna.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 380,
+              "PlotLineKey": "Así que vamos a ciegas...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 35,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Pues claro. ¡Cuanto más suspense, mejor! Resolver las adivinanzas de las linternas es un viaje de descubrimiento. ¡Tendréis que confiar en vuestro instinto!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Ya veo... Es verdad que lo hace más emocionante.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 381,
+              "PlotLineKey": "Lo dejo en tus manos, Yangyang.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 37,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "¿Eh? ¿En mis manos? Bueno... Elijo este.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 38,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¡Fantástico! Vamos a ver... ¡La adivinanza se ha revelado!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 39,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Puedo estar formado por uno, o formado por cien. Hago que la gente se reúna y se lo pase muy bien. ¿Qué soy?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¿A qué se refiere esta frase?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Puedo estar formado por uno, o formado por cien...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 382,
+              "PlotLineKey": "¿Es... el Festival de la Caza de la Luna?",
+              "PlayVoice": false,
+              "JumpToId": 42
+            },
+            {
+              "TextId": 383,
+              "PlotLineKey": "¿Es... la familia?",
+              "PlayVoice": false,
+              "JumpToId": 44
+            }
+          ]
+        },
+        {
+          "Id": 42,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Ohh... ¡La respuesta está muy cerca!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 43,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "... Ya lo sé. Es la familia, ¿verdad?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 44
+        },
+        {
+          "Id": 44,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¡Correcto!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 45,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¡Bravo! Habéis completado las 3 adivinanzas. ¡El premio especial es vuestro!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 46,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Xieyang saca una linterna muy bonita adornada con dibujos del cuento del zorro y la luna.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "¡Es preciosa...!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 384,
+              "PlotLineKey": "¿Acaso no es más que una linterna?",
+              "PlayVoice": false,
+              "JumpToId": 48
+            },
+            {
+              "TextId": 385,
+              "PlotLineKey": "Yangyang, parece que te gusta mucho.",
+              "PlayVoice": false,
+              "JumpToId": 49
+            }
+          ]
+        },
+        {
+          "Id": 48,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Bueno, no es una linterna cualquiera.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 50
+        },
+        {
+          "Id": 49,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Todavía era muy pequeña cuando me dieron una linterna como esta por última vez... Echo mucho de menos aquellos tiempos.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 50
+        },
+        {
+          "Id": 50,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Tuvimos la suerte de conseguir esta linterna de manos de un famoso coleccionista para nuestra ocasión especial.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 51,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Dicen que el Centinela Hsin la creó a mano y escondió muchas más en los bosques, lo que la convierte en una posesión muy preciada. Encontrar una equivale a conseguir todas las bendiciones de un año.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 52,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¿Qué os parece como recuerdo? ¡Enhorabuena! ¡Que la fortuna ilimitada os acompañe!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "{PlayerName}, ¿tienes un momento?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "¿Podemos... ir a dar un paseo junt{Male=os;Female=as}?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Recuerdo que de pequeña siempre estaba deseando que llegara el Festival de la Caza de la Luna.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Los fuegos artificiales iluminan el firmamento nocturno, las linternas decoran cada esquina de las calles, y nos atiborramos de Pasteles de Reunión caseros. Todas las caras rebosan de felicidad...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "... Esas memorias ahora son borrosas, pero aún recuerdo las sonrisas sinceras de mis seres queridos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Me uní a los Rangers de Medianoche para proteger sus sonrisas de felicidad... Haré todo lo que pueda, aunque solo con mi fuerza no pueda lograr mucho.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 616,
+              "PlotLineKey": "¿Ves? Todos se lo están pasando muy bien.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 617,
+              "PlotLineKey": "... ¿Echas de menos tu casa?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "¡Sí! Por eso me gusta tanto Jinzhou. Me encanta lo que hemos luchado por proteger.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Puede que un poco... Pero no pasa nada.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Aunque hoy no pueda estar con mi familia, las sonrisas son más que suficiente para alegrarme.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Cuando miro la luna brillante, sé que están pasándoselo muy bien en algún lugar.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Gracias, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Me siento muy feliz por este momento y por todo lo que has hecho.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Has hecho que el Festival de la Caza de la Luna de este año... sea muy especial para mí.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 618,
+              "PlotLineKey": "Aún queda mucha Feria de la Luna por disfrutar.",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 619,
+              "PlotLineKey": "Seguro que los próximos festivales serán aún mejores.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "¡Y que lo digas! {PlayerName}, ¿te gustaría visitar algún otro sitio?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Vamos a tomarnos un descanso antes de ir a otros sitios.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Gracias, {PlayerName}. Espero que... podamos celebrar junt{Male=os;Female=as} cada uno de los festivales, igual que ahora.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

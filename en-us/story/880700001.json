@@ -1,0 +1,851 @@
+{
+  "Id": 880700001,
+  "Name": "Operation: Lunar Duo",
+  "Description": "Enforce justice and cleanse the crimes lurking in the shadow before the Moon-Chasing Festival is around, now!\n\nUnlock a new Companion after completing this quest.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880700001,
+  "ShowQuestList": [],
+  "QuestDesc": "Enforce justice and cleanse the crimes lurking in the shadow before the Moon-Chasing Festival is around, now!\n\nUnlock a new Companion after completing this quest.",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 6,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "{PlayerName}... What do you need from me?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1083,
+              "PlotLineKey": "No big deal.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1084,
+              "PlotLineKey": "I have a favor to ask.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "I see. So the puppet show performer couldn't make it to the Moonlit Fair, and now you need me to save the show.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Sure, I don't have much on my plate right now, so I can fill in for a few days—If you can afford my fees, that is.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "And if we want to perform at the Moonlit Fair, we'll need some puppets that match the vibe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Any ideas, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1085,
+              "PlotLineKey": "A fox chasing after a rabbit?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 1086,
+              "PlotLineKey": "Rover and the Threnodian, recreating the legendary battle?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Like that traditional fairy tale? Good idea. Cute animal puppets should be popular with the kids.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Like those Hero Plays? That could work. The battle between good and evil might be a big hit…",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Starting from scratch is probably too late. Fortunately, I know a place that sells ready-made puppets.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1087,
+              "PlotLineKey": "Really?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Yes. In Jinzhou, you can buy ANYTHING with the right connections...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1088,
+              "PlotLineKey": "Is it a black market or something?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1089,
+              "PlotLineKey": "Ugh, that sounds dangerous…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Just kidding. Come, let's get going.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ganxue",
+          "PlotLineKey": "Welcome to the Pioneer Association Store! Hey there, {PlayerName} and Ms. Yinlin! What can get for you today?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "We'd like some puppets.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ganxue",
+          "PlotLineKey": "Absolutely! We just received a fresh batch of new arrivals.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 547,
+              "PlotLineKey": "You sell puppets here?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ganxue",
+          "PlotLineKey": "Our Pioneer Association has highly skilled puppet makers who trust us to sell their creations.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ganxue",
+          "PlotLineKey": "But not many customers come to us looking to buy their own puppets, so we only display them when requested.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ganxue",
+          "PlotLineKey": "But thankfully, there's still interest from collectors and professionals like Ms. Yinlin here who purchase these puppets.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 548,
+              "PlotLineKey": "I see.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ganxue",
+          "PlotLineKey": "I'll go check our stock real quick. One moment please, I'll be right back…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "In no time, Ganxue locates the puppets Yinlin needs and brings them to you.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Ganxue",
+          "PlotLineKey": "Thanks a bunch! Hope to see you both again soon!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 549,
+              "PlotLineKey": "Done! Let's go back to Taoyuan Vale.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Hold on. I think I just saw someone I know.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 550,
+              "PlotLineKey": "Someone you know?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Interesting… He shouldn't be here. Let's follow him and see what he's up to, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Rover",
+          "PlotLineKey": "The person you're after... Is he an Exile?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Exactly. Exiles aren't allowed in Jinzhou. To sneak in, he disguised himself and didn't wear the Exiles' uniform.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "His name is Lei. He used to involve in petty crimes and just got out of prison a few days ago.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Used to be my informant before I became an undercover agent myself, but he fled at a critical moment.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Something feels off about him being here... It seems he's talking to someone. Let's find out what he's up to.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Exile",
+          "PlotLineKey": "Big Lei, are you saying… You got a new hustle for us?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lei",
+          "PlotLineKey": "Hell yeah. You know who I used to , right? The Savage Beasts. Lots of cash for you.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Exile",
+          "PlotLineKey": "Sweet! I'm listening. Money's been shit lately.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lei",
+          "PlotLineKey": "You know the Moonlit Fair? Lots of snobs, easy cash for the taking.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lei",
+          "PlotLineKey": "Just got outta the slammer, remember that big boss I was talkin' about? He's got the connections, loyalty, and street smarts.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lei",
+          "PlotLineKey": "Stick with him, we'll clean up at the Moonlit Fair. Soon we'll be swimming in cash!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Exile",
+          "PlotLineKey": "C-can I meet him?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lei",
+          "PlotLineKey": "What, so you can ditch me for him?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Exile",
+          "PlotLineKey": "No joke! I'm a loyal guy. Just curious, that's all.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lei",
+          "PlotLineKey": "Then come with me and see for yourself. And keep your mouth shut! This deal's ours alone.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lei",
+          "PlotLineKey": "Big boss wants us there, 2-4 AM, east side of Taoyuan Vale. Don't mess it up! Get ready!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Exile",
+          "PlotLineKey": "Got it! You can count on me!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Looks like they're planning something. {PlayerName}, what do you think we should do?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 576,
+              "PlotLineKey": "We need to think carefully.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 577,
+              "PlotLineKey": "Let's arrest them directly.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 578,
+              "PlotLineKey": "You're the expert. I'll follow your lead.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "I agree. Lei mentioned a 'Big Boss'. That man must be the mastermind behind their scheme.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Lei isn't the true culprit. The so-called Big Boss must the mastermind behind their scheme.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "We should track down that Big Boss. He must be the mastermind behind their scheme.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "We know when and where they're meeting. Maybe we can pay them a surprise visit... What do you say?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 579,
+              "PlotLineKey": "I'll call the Patrollers.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Hold on. We don't want to tip off our target. Let's scope it out first, just the two of us.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Exile",
+          "PlotLineKey": "Big Lei, when is he gonna showing up?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lei",
+          "PlotLineKey": "Just wait! Big shots always show up late!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lei",
+          "PlotLineKey": "Oh, he's here! Straighten up and say hello!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "A familiar figure emerges from behind the tree and approaches Lei. It's someone you know all too well.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Wait. Is that…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 600,
+              "PlotLineKey": "No way…",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 601,
+              "PlotLineKey": "How could it be…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Uncle Li…? Stay put. Let's listen in first.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Uncle Li",
+          "PlotLineKey": "Sorry I kept you waiting, Lei.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lei",
+          "PlotLineKey": "Ha, no way. We just got here. Hurry up, greet our boss, Uncle Li!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Exile",
+          "PlotLineKey": "We're ready, boss!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Uncle Li",
+          "PlotLineKey": "Hehe, youth. If I were a few decades younger, I wouldn't have needed to bother you lot.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lei",
+          "PlotLineKey": "No problem, boss. We're just hustling for cash!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Uncle Li",
+          "PlotLineKey": "Well, I'm not in this for the money… anyway, you wouldn't believe me if I told you. Where's my stuff, Lei?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lei",
+          "PlotLineKey": "Over there in the box. I once ran with the Savage Beasts for a spell, so I know a thing or two... But feel free to take a look yourself, if you want.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Uncle Li",
+          "PlotLineKey": "Yeah. Given how important this is, I'd better—",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Uncle Li is about to speak when the roars of Tacet Discords interrupt him.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lei",
+          "PlotLineKey": "That sound... Damn, it's a Spearback! Must've smelled our goods!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Exile",
+          "PlotLineKey": "M-mr. Li, since you're the boss, you need to protect us, right…?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Uncle Li",
+          "PlotLineKey": "If I could be twenty years younger, I wouldn't break a sweat dealing with it! But now… Cough cough!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 602,
+              "PlotLineKey": "They're being attacked by Tacet Discords.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Interesting… From what I know, Uncle Li isn't a bad person. If he was actually hiding his true nature this whole time, I have to give him some credit for fooling me.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Let's take care of the monsters first. Then we can have a proper chat with him.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Uncle Li",
+          "PlotLineKey": "{PlayerName}, and… Yinlin? What brings you here?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lei",
+          "PlotLineKey": "Thank you, thank you for saving our lives... Wait, you are...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Keep an eye on them, {PlayerName}. I'll go see what they have here… Might be dangerous substance.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Shortly after, Yinlin returns.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1493,
+              "PlotLineKey": "Bombs or guns?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "...Just some meat, fresh and nice. No hidden compartments, and it's not poisoned.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Alright, tell me your story. What are you doing here?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lei",
+          "PlotLineKey": "I'll spill everything! It was all Uncle Li's idea!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Uncle Li",
+          "PlotLineKey": "Hold on, {PlayerName}… Is buying meat illegal now?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 626,
+              "PlotLineKey": "Buying meat…?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Uncle Li",
+          "PlotLineKey": "Yeah, I've been working on a new dish—Special Jinzhou Skewers. I'm trying to sell it at the Moonlit Fair, but the taste wasn't quite right.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Uncle Li",
+          "PlotLineKey": "So, I thought about using top-quality meat and grilling it over charcoal for that perfect flavor.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 627,
+              "PlotLineKey": "But what does it have to do with the Exiles?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lei",
+          "PlotLineKey": "What? Exiles? I left that life behind when I got out of jail.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lei",
+          "PlotLineKey": "Uncle Li knows life ain't easy for a man with a past like mine. Used to run with the Savage Beasts, know how to hunt, so he hired me and my crew to fetch meat for him.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 628,
+              "PlotLineKey": "Then why are you dressed up like this?",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 629,
+              "PlotLineKey": "What do you mean by \"we'll clean up at the Moonlit Fair\"?",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 630,
+              "PlotLineKey": "Why are you meeting up here at midnight in a remote place?",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 631,
+              "PlotLineKey": "I'm done.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lei",
+          "PlotLineKey": "We were goin' huntin'. Can't wear clothes that tear easy, right? These are better for the job.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lei",
+          "PlotLineKey": "Well, because the Moonlit Fair's got easy targets everywhere... I mean, rich folks. Mr. Li's skewers are gonna sell like crazy! And he gives us a generous cut!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 17,
+          "Speaker": "Uncle Li",
+          "PlotLineKey": "Since I have a stall to attend to, I have to wait till the wee hours when all the customers are gone to get my supplies. Besides, look at them? They won't be allowed into the venue dressed like that.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 18,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "I see… There are no holes in your answers. Thank you for cooperating with the investigation. I apologize for the confusion.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Lei",
+          "PlotLineKey": "Uh, no need to apologize to us, ma'am. I know what's up now. Gotta work on my language, drop those old habits.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Exile",
+          "PlotLineKey": "I totally thought we were gonna break some laws too... No wonder they'd grow suspicious...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 632,
+              "PlotLineKey": "Good to know you're doing legit work.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 633,
+              "PlotLineKey": "I'm rooting for you.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "Lei",
+          "PlotLineKey": "I will. Jail taught me, gotta make honest cash to stay outta trouble and find some damn peace in my life.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lei",
+          "PlotLineKey": "Uncle Li, heading back to the stall already? Let us handle the boxes. We'll get 'em close to the venue, but the rest...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 634,
+              "PlotLineKey": "We'll help him.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Uncle Li",
+          "PlotLineKey": "Oh, great! Thank you, all of you!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

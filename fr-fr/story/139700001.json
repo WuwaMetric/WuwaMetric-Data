@@ -1,0 +1,705 @@
+{
+  "Id": 139700001,
+  "Name": "L'Aventure d'Encore !",
+  "Description": "Xisha vous demande de lui fabriquer les feux d'artifice légendaires. Il semble que ce soit un jeu d'enfant, mais...\n\nCompléter cette quête pour débloquer un nouveau partenaire.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700001,
+  "ShowQuestList": [],
+  "QuestDesc": "Xisha vous demande de lui fabriquer les feux d'artifice légendaires. Il semble que ce soit un jeu d'enfant, mais...\n\nCompléter cette quête pour débloquer un nouveau partenaire.",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 4,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "M. Li, qu'est-ce que c'est ? Ça a l'air trop bon !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Oncle Li",
+          "PlotLineKey": "C'est un Gâteau potelé. Un dessert traditionnel que l'on transmet de génération en génération à Jinzhou depuis des milliers d'années. Essaie, tu vas l'adorer.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Encore",
+          "PlotLineKey": "Des milliers d'années... Alors il doit y avoir des histoires cool, n'est-ce pas ? M. Li, tu en connais ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Oncle Li",
+          "PlotLineKey": "Hmm... Oui en effet. Voyons voir...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Oncle Li",
+          "PlotLineKey": "C'est une histoire qui date du temps des deux Sentinelles de Huanglong...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xisha",
+          "PlotLineKey": "...Bonjour, {PlayerName}. Cette petite fille me fait penser à ma fille... Elle ne peut pas s'arrêter de parler quand il s'agit d'histoires et de je ne sais quoi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Ces derniers temps, ma fille s'intéresse de nouveau aux feux d'artifices et elle me demande sans arrêt d'en voir.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Heureusement, son père est doué pour ce genre de truc. Alors je lui ai fait un kiosque ici pour la fête.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "Ça doit être difficile d'être papa...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Héhé, je ne te le fais pas dire... Mais ce grand sourire sur son visage quand elle regarde les feux d'artifice... C'est une belle récompense.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Elle a dit qu'elle voulait qu'ils soient les plus grands et les plus beaux.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xisha",
+          "PlotLineKey": "C'est pour ça que ça fait plusieurs jours que j'essaie, mais aucune de mes expériences ne l'impressionne. Tu vois les échecs derrière moi ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 32,
+              "PlotLineKey": "{Male=Je suis sûr que tu peux le faire !;Female=Je suis sûre que tu peux le faire !}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Évidemment. Tu sais quoi ? Je crois avoir réussi récemment à mettre la main sur une ancienne formule de feux d'artifice.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Les ingrédients sont un peu étranges, mais comme dit l'adage : « Plus c'est bizarre, plus c'est cool. »",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "Je n'ai jamais entendu cet adage...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 34,
+              "PlotLineKey": "Peut-être.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Mm-hmm... C'est pour ça que je pense que celui-là a du potentiel ! Pourtant, je suis toujours incertain… Selon mes expériences, cette formule m'a l'air plus adaptée pour créer des pétards que des feux d'artifice.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Il me reste de la Pompyrite, mais les autres matériaux sont difficiles à obtenir. Pourrais-tu m'aider à les trouver ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "Je vais m'en occuper.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 36,
+              "PlotLineKey": "Je peux trouver un moment dans mon emploi du temps.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Vraiment ? Je... Merci !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Encore apparaît soudain à côté de vous. N'était-elle pas en train d'écouter l'histoire de M. Li ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Encore",
+          "PlotLineKey": "Tu pars à l'aventure, {PlayerName} ? Encore a tout entendu ! Allez, on y va ensemble !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Ma petite, là où va {PlayerName}, ça va être assez mouvementé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Encore",
+          "PlotLineKey": "Pas d'inquiétude ! Encore est super forte ! Encore {Male=le;Female=la} protégera !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "J'ai confiance en les capacités d'Encore.",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 38,
+              "PlotLineKey": "Merci, Encore.",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Encore",
+          "PlotLineKey": "Eh ouais ! Ce qu'a dit {PlayerName} !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 17,
+          "Speaker": "Encore",
+          "PlotLineKey": "De rien, {PlayerName}. C'est fait pour ça, les amis !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 18,
+          "Speaker": "Encore",
+          "PlotLineKey": "Une grande aventure pour trouver des feux d'artifice secrets... Ça ferait une super histoire !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Eh bien alors, j'attends ta bonne nouvelle, Encore.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Encore",
+          "PlotLineKey": "Tu peux compter sur nous !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "D'abord, la Poudre flamboyante ! Ça dit qu'on doit en trouver par ici.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "Mais ce truc... J'en ai jamais entendu parler avant. Ça m'a l'air un peu dangereux.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "Du charbon. Hmm... Peut-être qu'on pourrait en trouver autour du feu de camp.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "Allons-y, {PlayerName} !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "Alors c'est ça la Poudre flamboyante... Pas beaucoup de différence avec la boue ordinaire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "T'es {Male=sûr;Female=sûre} qu'on peut en faire des feux d'artifice ?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "Ça doit être le Charbon basse fréquence... Alleeeeez, dans le sac d'Encore !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "Voilà, on les a tous ! Allons trouver M. Xisha !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Eh bien, ça a été vite fait. Vous avez tout ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "Oui ! Mission accomplie !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Ha... Ne t'en vas pas tout de suite. Attendez un moment. Je prépare les feux d'artifice, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Après un certain temps, Xisha revient et vous tend précautionneusement les nouveaux feux d'artifice.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Hmm... Ils sont différents de mes feux d'artifice habituels et ils ne ressemblent pas à des pétards non plus.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Je dois peut-être vous demander d'aller en tester un ou deux là où il n'y a pas trop de monde autour, {PlayerName}…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Fais bien attention, d'accord ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 189,
+              "PlotLineKey": "D'accord.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Encore",
+          "PlotLineKey": "Youpi ! C'est l'heure des feux d'artifice !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "Hmm... Essayons ici, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "Alors, on pose ça par terre, on allume ceci... et ta-da ! Un spectacle de feux d'artifice !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Nomade",
+          "PlotLineKey": "Quelque chose ne va pas... Encore, jette cette chose !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "*tousse*... Est-ce... Ça va, {PlayerName} ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 201,
+              "PlotLineKey": "C'était... une explosion bien trop énorme.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 202,
+              "PlotLineKey": "Ça va. Et toi ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "Encore va bien. Pas une égratignure. Même pas eu peur.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Encore",
+          "PlotLineKey": "Mais... Est-ce que les feux d'artifice sont censés être comme ça ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "Pas vraiment... Ce sont des pétards très puissants.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "Je suis quasiment {Male=sûr;Female=sûre} qu'il y a eu un problème.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Encore",
+          "PlotLineKey": "Hmm, je vois... Je suppose que sa fille sera déçue cette année.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Encore",
+          "PlotLineKey": "...Entends-tu quelque chose, {PlayerName} ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "Des TDs. C'est l'explosion qui a dû les attirer.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 208,
+              "PlotLineKey": "Des TDs. Et ils sont plutôt nombreux en plus.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Encore",
+          "PlotLineKey": "Hé, Encore a une idée. Et si on utilisait le reste des pétards sur eux, {PlayerName} ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 209,
+              "PlotLineKey": "Tu veux dire... ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Encore",
+          "PlotLineKey": "Ouais, essayer de nouveaux trucs, c'est important quand on s'aventure !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "...Ouf. C'est la plupart des pétards. Ces TDs n'avaient aucune chance !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "Retournons, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xisha",
+          "PlotLineKey": "{PlayerName}, Encore ! Comment ça s'est passé ? Est-ce que les feux d'artifice ont fait leur effet ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 227,
+              "PlotLineKey": "C'était un effet très bruyant...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 228,
+              "PlotLineKey": "Ce n'était PAS de feux d'artifice...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Hein ? Qu'est-ce que tu veux dire... ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Raconte à Xisha ce qui est arrivé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Bon sang...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Désolé, {PlayerName}. Est-ce que ça va ? J'espère tout va bien pour vous.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Encore",
+          "PlotLineKey": "Pas une égratignure ! {PlayerName} m'a bien protégée !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xisha",
+          "PlotLineKey": "*soupir* Content de l'entendre. Je devrais me débarrasser de cette formule.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 229,
+              "PlotLineKey": "Mais enfin... On pourrait peut-être s'en servir pour autre chose.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Attends... Tu dis qu'on pourrait s'en servir contre les TDs ? Ça pourrait fonctionner, en effet...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Je vais parler aux gens de Loulou Logistique et voir s'ils veulent bien essayer... Merci beaucoup pour toute votre aide !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Encore",
+          "PlotLineKey": "Avec plaisir, M. Xisha ! Encore a une super histoire à raconter grâce à ça !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Encore",
+          "PlotLineKey": "{PlayerName} et les Moutons ont vaincu tous les monstres dans la forêt. Bien qu'elle n'ait pas trouvé ses fleurs, la princesse a rétabli la paix dans la forêt !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xisha",
+          "PlotLineKey": "...Tu comprends de quoi elle parle, {PlayerName} ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 230,
+              "PlotLineKey": "Peut-être.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 231,
+              "PlotLineKey": "Je n'en ai pas la moindre idée.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Pfiou, si seulement je le pouvais... Je pourrais peut-être comprendre d'où ma fille tire toutes ces idées saugrenues.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Ha... Ma fille est comme ça aussi. Tu ne peux jamais imaginer ce qui se passe dans la tête des enfants d'aujourd'hui, .",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "Xisha",
+          "PlotLineKey": "En parlant de ma fille. J'ai cru que j'avais trouvé la bonne formule  - évidemment, ç'a pas marché. Mais je ne peux pas abandonner encore, il faut continuer à essayer.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Encore",
+          "PlotLineKey": "Courage ! Tu vas y arriver, M. Xisha ! Je crois en toi !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Merci, Encore !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

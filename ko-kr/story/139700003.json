@@ -1,0 +1,666 @@
+{
+  "Id": 139700003,
+  "Name": "다 같이 모일 시",
+  "Description": "「초롱 수수께끼」 도전에 한시적으로 특별한 한정 상품이 추가되었으니 양양과 함께 도전해 보세요.\n\n해당 임무를 완료 후, 새로운 경영 파트너가 해제됩니다",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700003,
+  "ShowQuestList": [],
+  "QuestDesc": "「초롱 수수께끼」 도전에 한시적으로 특별한 한정 상품이 추가되었으니 양양과 함께 도전해 보세요.\n\n해당 임무를 완료 후, 새로운 경영 파트너가 해제됩니다",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 9,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "양양",
+          "PlotLineKey": "초롱 수수께끼가 꽤 재밌네요. 같이 풀어볼래요, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "일월",
+          "PlotLineKey": "어때요? {PlayerName}? 한번 도전해 보실래요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "일월",
+          "PlotLineKey": "난이도 높은 수수께끼를 드리죠. 3개 모두 맞히면 오늘의 1등 경품을 받아 가실 수 있답니다. 여기에 특별 경품도 얹어 드리죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "양양",
+          "PlotLineKey": "난이도가 높다고요...?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 369,
+              "PlotLineKey": "양양도 같이 풀어 볼래요?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 370,
+              "PlotLineKey": "그렇게 어렵다면 둘이 같이 풀게요!",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "양양",
+          "PlotLineKey": "같이요? 그래도 되나요?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "양양",
+          "PlotLineKey": "음... 그래도 된다면, 저랑 {PlayerName}이(가) 같이 해도 될까요?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "일월",
+          "PlotLineKey": "그럼요, 되고말고요. 축제니까 즐거우면 됐죠! 양양도 엄청 진지하게 보고 있던데 이런 걸 좋아하나 보군요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "일월",
+          "PlotLineKey": "이렇게 어려운 문제를 {PlayerName}, 혼자서 풀게 한다면 조금 억울할 수도 있겠네요. 안 그래요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 371,
+              "PlotLineKey": "그렇게 자신 있나 보죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 372,
+              "PlotLineKey": "어서 문제 내 보세요!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "일월",
+          "PlotLineKey": "좋아요! 그럼 제가 몸풀기로 쉬운 문제를 하나 드리죠. 첫 번째 문제, 둥근 보름달, 새하얀 뱃가죽. 이따금 하늘 위로 뛰어오르기도 하고 물속을 자유자재로 헤엄치기도 해요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "일월",
+          "PlotLineKey": "잔상의 일종이에요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "양양",
+          "PlotLineKey": "둥그런 외모에다가 배가 하얗고, 물속을 헤엄친다면... 설마...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 373,
+              "PlotLineKey": "...서릿땅거북인가요?",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 374,
+              "PlotLineKey": "...꾹꾹복어인가요?",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 375,
+              "PlotLineKey": "...우카카인가요?",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 376,
+              "PlotLineKey": "...딩동동인가요?",
+              "PlayVoice": false,
+              "JumpToId": 13
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "일월",
+          "PlotLineKey": "땡, 다시 생각해 보세요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 13,
+          "Speaker": "일월",
+          "PlotLineKey": "땡, 다시 생각해 보세요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 14,
+          "Speaker": "일월",
+          "PlotLineKey": "땡, 다시 생각해 보세요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "일월",
+          "PlotLineKey": "딩동댕~ 맞았어요, 꾹꾹복어가 정답이랍니다!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "일월",
+          "PlotLineKey": "보세요, 꾹꾹복어가 뛰어오를 때 멀리서 보면 하늘 위에 떠 있는 둥근 달 같지 않나요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "양양",
+          "PlotLineKey": "어렸을 때 달맞이 축제 때마다 가족들이 단란 과자로 다양한 모양을 만들었었는데 대부분 동글동글한 동물이었어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "양양",
+          "PlotLineKey": "그땐 다들 꾹꾹복어 모양의 단란 과자를 만들고 싶어 했죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "일월",
+          "PlotLineKey": "하하, 아이들은 그런 걸 엄청 좋아하나 보군요. 그럼 다음 문제! 이제부터 난이도를 높여볼게요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "일월",
+          "PlotLineKey": "——닭과 토끼가 같은 우리에 있어요. 모두 합쳐서 머리는 14개, 다리는 38개...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "일월",
+          "PlotLineKey": "...그렇다면 닭과 토끼는 각각 몇 마리일까요! 제한 시간 5분!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 377,
+              "PlotLineKey": "...이게 초롱 수수께끼인가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "양양",
+          "PlotLineKey": "흐음... 초롱 수수께끼라기보다는 아카데미에서 자주 볼 수 있는 수학 문제 같네요...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "일월",
+          "PlotLineKey": "흠... 수수께끼가 뭐 따로 정해져 있나요? 게다가 꽃등 아래서 문제를 풀고 있으니 이게 초롱 수수께끼가 아니면 뭐겠어요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "양양",
+          "PlotLineKey": "...그것도 일리가 있긴 한데 아무래도 좀...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "양양",
+          "PlotLineKey": "수학책에 이 문제의 풀이법이 나온 적 있어요... 이를테면 \"양 다리 계산법\" 같은...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 378,
+              "PlotLineKey": "그럼 이 문제는 양양에게 맡길게요!",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 379,
+              "PlotLineKey": "(답을 이야기한다)",
+              "PlayVoice": false,
+              "JumpToId": 28
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "양양",
+          "PlotLineKey": "네, 좋아요, 제가 풀어보죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "양양",
+          "PlotLineKey": "계산했어요! 정답은... 토끼는 5마리고, 닭은 9마리예요!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 30
+        },
+        {
+          "Id": 28,
+          "Speaker": "방랑자",
+          "PlotLineKey": "(일단 모두 닭이라고 가정한 뒤에 다리의 차이를 계산하고 토끼의 마릿수를 더하면... 그래, 알았어)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "방랑자",
+          "PlotLineKey": "토끼는 5마리고, 닭은 9마리예요!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 30
+        },
+        {
+          "Id": 30,
+          "Speaker": "일월",
+          "PlotLineKey": "딩동댕! 두뇌 회전이 송백 선생님보다 훨씬 빠른데요, 정말 대단해요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "일월",
+          "PlotLineKey": "그렇다면 세 번째 문제는 좀 다르게 풀어볼까요? 여러분이 직접 수수께끼를 골라볼래요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "일월은 나란히 걸려있는 꽃등을 바라봤다. 꽃등 아래 달린 화첩이 꽃등에 매달린 채로 가볍게 날리고 있었다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "양양",
+          "PlotLineKey": "어... 위에 적힌 수수께끼가 안 보여요...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "일월",
+          "PlotLineKey": "아, 특별한 먹물을 쓴 거라 꽃등에 가까이 가져다 대야 보일 거예요...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 380,
+              "PlotLineKey": "아무거나 골라야겠네요...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 35,
+          "Speaker": "일월",
+          "PlotLineKey": "그래야 재밌죠. 초롱 수수께끼를 푸는 건 영감을 찾는 것처럼 인연이 중요하죠!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "양양",
+          "PlotLineKey": "그렇군요... 그것도 꽤 재밌네요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 381,
+              "PlotLineKey": "그럼 양양이 골라봐요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 37,
+          "Speaker": "양양",
+          "PlotLineKey": "아, 제가 고르는 건가요? 음... 그럼, 이걸로 할게요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 38,
+          "Speaker": "일월",
+          "PlotLineKey": "좋아요! 어디 보자... 수수께끼가 나왔네요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 39,
+          "Speaker": "일월",
+          "PlotLineKey": "——밝은 달이 둥근 벽을 비추고, 화려한 등이 금주성을 둘러싸네. 온 가족이 둘러앉아 웃으며, 머리를 맞댄 채 재회를 축하하네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "일월",
+          "PlotLineKey": "정답은 한 단어입니다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "양양",
+          "PlotLineKey": "밝은 달, 온 가족...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 382,
+              "PlotLineKey": "혹시... 달맞이 축제 아닌가요?",
+              "PlayVoice": false,
+              "JumpToId": 42
+            },
+            {
+              "TextId": 383,
+              "PlotLineKey": "혹시... \"모두\" 아닌가요?",
+              "PlayVoice": false,
+              "JumpToId": 44
+            }
+          ]
+        },
+        {
+          "Id": 42,
+          "Speaker": "일월",
+          "PlotLineKey": "앗, 아주 비슷해요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 43,
+          "Speaker": "양양",
+          "PlotLineKey": "...저 알 것 같아요, \"모두\" 맞죠?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 44
+        },
+        {
+          "Id": 44,
+          "Speaker": "일월",
+          "PlotLineKey": "정답입니다!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 45,
+          "Speaker": "일월",
+          "PlotLineKey": "두 분이 같이 수수께끼를 풀었으니 특별 상품도 두 분께 드리죠!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 46,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "일월은 반짝반짝 빛나는 꽃등을 꺼냈다. 꽃등 위에는 여우 달맞이의 문양이 그려져 있었다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "양양",
+          "PlotLineKey": "너무 예뻐요...!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 384,
+              "PlotLineKey": "이건 꽃등이네요?",
+              "PlayVoice": false,
+              "JumpToId": 48
+            },
+            {
+              "TextId": 385,
+              "PlotLineKey": "양양이 마음에 드나 보네요",
+              "PlayVoice": false,
+              "JumpToId": 49
+            }
+          ]
+        },
+        {
+          "Id": 48,
+          "Speaker": "일월",
+          "PlotLineKey": "잘 모르나 본데...",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 50
+        },
+        {
+          "Id": 49,
+          "Speaker": "양양",
+          "PlotLineKey": "네... 전에 달맞이 축제에서 꽃등을 받은 적이 있었어요. 워낙 어렸을 때의 일인데... 정말 그립네요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 50
+        },
+        {
+          "Id": 50,
+          "Speaker": "일월",
+          "PlotLineKey": "꽃등이라고 무시하면 안 돼요. 이건 유명한 수집가가 달맞이 축제를 위해 특별히 보내온 거니까요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 51,
+          "Speaker": "일월",
+          "PlotLineKey": "수호신 「여우의 별자리」가 직접 만든 꽃등인데 숲속에 수많은 꽃등을 숨겨놨다고 해요. 그걸 찾은 사람은 일 년 내내 축복을 받을 수 있다고 해요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 52,
+          "Speaker": "일월",
+          "PlotLineKey": "보세요, 정말 근사하죠? 두 분 다시 한번 축하드려요! 축복이 언제나 함께하길 빌게요!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "양양",
+          "PlotLineKey": "{PlayerName}, 시간 괜찮나요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "양양",
+          "PlotLineKey": "당신과... 같이 좀 걷고 싶어요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "양양",
+          "PlotLineKey": "어렸을 땐 항상 달맞이 축제를 기다렸어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "양양",
+          "PlotLineKey": "화려한 불꽃놀이도 보고, 꽃등을 든 채 거리를 누비며 가족들이 직접 만든 단란 과자를 먹곤 했죠. 거리 곳곳에는 행복한 미소를 띤 사람들로 가득했어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "양양",
+          "PlotLineKey": "...기억이 많이 흐려지긴 했지만 가족들과 친구들이 진심으로 지었던 미소는 여전히 기억하고 있어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "양양",
+          "PlotLineKey": "제가 야귀군 행정부대에 들어가려던 또 다른 이유는... 모두에게 미소를 되찾아주고 싶어서였어요. 제 혼자 힘만으로는 부족하다고 해도...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 616,
+              "PlotLineKey": "저기 봐요. 모두들 즐거워하고 있어요",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 617,
+              "PlotLineKey": "...가족들이 그립나요?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "양양",
+          "PlotLineKey": "네! 그래서... 저는 지금의 금주가 좋아요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "양양",
+          "PlotLineKey": "네... 하지만 괜찮아요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "양양",
+          "PlotLineKey": "지금은 가족들과 만날 수 없다고 해도 바람을 타고 전해져 오는 웃음소리와 기쁨만으로도... 전 이미 아주 행복하니까요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "양양",
+          "PlotLineKey": "밝게 빛나는 둥근 달을 바라보며 사람들이 평안하고 즐겁기만을 바라고 있어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "양양",
+          "PlotLineKey": "고마워요, {PlayerName}. 정말 즐거웠어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "양양",
+          "PlotLineKey": "지금뿐만 아니라 당신이 금주를 위해서 해 주신 모든 일이 다 고마워요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "양양",
+          "PlotLineKey": "이번 달맞이 축제는... 제게는 남다른 의미로 다가왔어요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 618,
+              "PlotLineKey": "달맞이 야시장은 아직 끝나지 않았어요",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 619,
+              "PlotLineKey": "앞으로는 더 즐거운 시간을 보낼 수 있을 거예요",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "양양",
+          "PlotLineKey": "네! 그런 의미에서... {PlayerName}이(가) 좀 더 가보고 싶은 곳이 있나요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "양양",
+          "PlotLineKey": "여기서 잠깐 쉬다가 같이 또 둘러보죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "양양",
+          "PlotLineKey": "{PlayerName}의 말처럼, 그리고... 앞으로의 기념일에도 둘이 함께 보낼 수 있다면 그보다 더 좋은 건 없을 거예요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

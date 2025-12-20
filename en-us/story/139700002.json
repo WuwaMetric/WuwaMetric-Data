@@ -1,0 +1,827 @@
+{
+  "Id": 139700002,
+  "Name": "Puzzle of Puzzles",
+  "Description": "The Pioneer Association is offering generous prizes for \"Hsin's Fortuity\", among them is the surprise jackpot, and Changli manages to draw it. To make things more dramatic, the prize is a treasure map about a Court of Savantae legacy...\n\nUnlock a new Companion after completing this quest.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700002,
+  "ShowQuestList": [],
+  "QuestDesc": "The Pioneer Association is offering generous prizes for \"Hsin's Fortuity\", among them is the surprise jackpot, and Changli manages to draw it. To make things more dramatic, the prize is a treasure map about a Court of Savantae legacy...\n\nUnlock a new Companion after completing this quest.",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 7,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "Hmm...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 500,
+              "PlotLineKey": "What are you watching, Changli?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "Oh, it's you, {PlayerName}. I'm watching these people try their luck in the lucky draw.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 501,
+              "PlotLineKey": "Aren't you going to give it a go?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Changli",
+          "PlotLineKey": "I guess it wouldn't hurt to give it a try.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Changli walks over to the stall and casually spins the wheel.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "...And there it is. Lady Changli wins again. Just like last year, no, just like those every other time you participated in the draw.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 502,
+              "PlotLineKey": "Did you achieve that with strategy?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Changli",
+          "PlotLineKey": "Not really... It's probably just luck. This draw's results are solely based on chance, making it impossible for even the most attentive strategy to predict.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "Wait, Lady Changli! I just checked the list. Looks like you've won the one and only surprise grand prize of this year's Moonlit Fair!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 503,
+              "PlotLineKey": "Surprise grand prize...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 504,
+              "PlotLineKey": "One and only...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "That's right. Well, I'd say... it's more of a treasure map? Or clues to the actual prize?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Changli",
+          "PlotLineKey": "...Is that so?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "Just some context: our Pioneer Association team found this mysterious platform near Jinzhou.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "It was sealed with intricate puzzles, probably the work of the elusive Court of Savantae. We tried everything, but not even one puzzle budged.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "Then, someone joked about relying on luck to solve it.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 505,
+              "PlotLineKey": "So you took that joke seriously.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "Yup. I realized this was the perfect candidate for Hsin's Fortuity grand prize. Only someone with ridiculous luck could win it.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "And who knows? Maybe they'd use that luck to uncover its hidden secrets.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 506,
+              "PlotLineKey": "Well, Changli might actually be able to...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 507,
+              "PlotLineKey": "Are you interested, Changli?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Changli",
+          "PlotLineKey": "That sounds interesting.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Changli",
+          "PlotLineKey": "Would you join me, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 508,
+              "PlotLineKey": "I'd love to.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 509,
+              "PlotLineKey": "Cool treasures, here I come!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "Nice. I'll upload the keycode we found and the coordinates of that platform to your Terminals.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "I wish you two the best of luck!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "...Hmm, these mechanisms remind me of the Court of Savantae's technique.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "Interesting. They used overlapping layers instead of their usual designs.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 519,
+              "PlotLineKey": "Overlapping layers?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Changli",
+          "PlotLineKey": "It has four mechanisms that need to be solved in the right order within time limit.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 520,
+              "PlotLineKey": "And if we fail?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Changli",
+          "PlotLineKey": "In the worst case, this platform could trigger its self-destruct mechanism and things might not look so good for us...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Changli",
+          "PlotLineKey": "Just kidding. I bet the Pioneer Association have attempted to solve this puzzle numerous times.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Changli",
+          "PlotLineKey": "If they knew there was a fail-safe, they wouldn't have made finding this place a prize.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Changli",
+          "PlotLineKey": "I guess it will just revert to its initial state.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 521,
+              "PlotLineKey": "Well, that makes things easier. Let's test the combinations one by one.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 522,
+              "PlotLineKey": "We should look around for clues...",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Changli",
+          "PlotLineKey": "A viable approach. I estimate a total of 24 combinations... If you don't mind, {PlayerName}, we certainly can test them out one at a time.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 10,
+          "Speaker": "Changli",
+          "PlotLineKey": "Indeed we should.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "Well done, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "I wonder what it has in store for us.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "It appears there are no treasures here.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 542,
+              "PlotLineKey": "Yeah. No treasure, just a book.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "Hmm... interesting. This must be the \"Riddle Master D's Latest Horror Riddles - Ultimate Collection\" mentioned in that memoir.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Changli",
+          "PlotLineKey": "As I guessed... The book is full of codes and diagrams on Automata Mechanics. It's complex, but it seems to be a guide for creating machines.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 543,
+              "PlotLineKey": "Riddles within riddles.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 544,
+              "PlotLineKey": "The Riddle Master's not making it easy for us.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Changli",
+          "PlotLineKey": "Nothing else to see here. Let's make our return.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "{PlayerName}. You're back! So? Did you find the treasure?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 639,
+              "PlotLineKey": "Just a book.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "A book? Wait... Could it be... Can I have a look, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "You hand the book to Xianchen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "I... I knew it, this is the yet-to-be-discovered latest work of Riddle Master D!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "Th-This is wild! I thought these books only existed in legends!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 640,
+              "PlotLineKey": "These books?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "\"Riddle Master D's Super-Cool Magic Riddles\", \"Riddle Master D's Popular Hangout Riddles\", \"Riddle Master D's Ultimate Brainstorming Riddles\"...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "These books are our treasures, filled with masterpieces from the Court of Savantae's Riddle Master D.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "Our engineers dream of deciphering his works. It could aid explorers in navigating ancient traps.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "Do you mind putting this book under the Pioneer Association's care? Please!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 641,
+              "PlotLineKey": "Not at all.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Changli",
+          "PlotLineKey": "You can have them, since they obviously mean a lot to you.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Xianchen",
+          "PlotLineKey": "Oh, thank you! Thank you so much! We'll make sure to pay you handsomely for your help!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Xiancheng bows to you and Changli before leaving with the book.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Changli",
+          "PlotLineKey": "Hmm... Judging from the end results alone, we did manage to find the treasure, did we not? Only... in a slightly different way.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 642,
+              "PlotLineKey": "Something tells me you saw that coming.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Changli",
+          "PlotLineKey": "...So you've noticed? Yes, I've encountered this Riddle Master D in the archives before.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Changli",
+          "PlotLineKey": "The records mention his numerous creations and literary works. The Pioneer Association should be well-informed on him, since they frequently explore the wilderness.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Changli",
+          "PlotLineKey": "Though, I wasn't really interested in the so-called treasure to begin with.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Changli",
+          "PlotLineKey": "For me, the biggest gain today is not the treasure, nor the precious works of Riddle Master D.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 643,
+              "PlotLineKey": "What is it, then?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Changli",
+          "PlotLineKey": "Oh well... I wonder what it could be...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Changli",
+          "PlotLineKey": "I'll let you figure it out, {PlayerName}. Hehe... Until we meet again, then.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "What is it, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 578,
+              "PlotLineKey": "I'd like another look at the hints.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 580,
+              "PlotLineKey": "Just tell me the answer.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 579,
+              "PlotLineKey": "I'll try again.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 581,
+              "PlotLineKey": "I give up. Help me, Changli.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "Defeat the Tacet Discords in the order of Yellow, Blue, Purple, then Red. That should solve the puzzle.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 584,
+              "PlotLineKey": "I see.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Changli",
+          "PlotLineKey": "Hmm. Would you like me to solve it for you?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 587,
+              "PlotLineKey": "Yes please!",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 586,
+              "PlotLineKey": "Maybe I'll try it again.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Changli solves the puzzle for you.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "Changli",
+          "PlotLineKey": "Wrong order.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "Let's try again, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 590,
+              "PlotLineKey": "I'd like another look at the hints.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 591,
+              "PlotLineKey": "Just tell me the answer.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 592,
+              "PlotLineKey": "I'll try again.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "The correct order should be: Yellow, Blue, Purple, and finally, Red.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 596,
+              "PlotLineKey": "I see!",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "Changli",
+          "PlotLineKey": "Wrong order.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "Let's try again, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 590,
+              "PlotLineKey": "I'd like another look at the hints.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 591,
+              "PlotLineKey": "Just tell me the answer.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 592,
+              "PlotLineKey": "I'll try again.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "The correct order should be: Yellow, Blue, Purple, and finally, Red.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 596,
+              "PlotLineKey": "I see!",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "Changli",
+          "PlotLineKey": "Wrong order.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "Let's try again, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 590,
+              "PlotLineKey": "I'd like another look at the hints.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 591,
+              "PlotLineKey": "Just tell me the answer.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 592,
+              "PlotLineKey": "I'll try again.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "The correct order should be: Yellow, Blue, Purple, and finally, Red.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 596,
+              "PlotLineKey": "I see!",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

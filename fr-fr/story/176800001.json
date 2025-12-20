@@ -1,0 +1,196 @@
+{
+  "Id": 176800001,
+  "Name": "Souvenirs de voyage",
+  "Description": "KU-Lolo du Littoral noir cherche à collecter vos précieux souvenirs pour créer de nouveaux souvenirs encore plus intéressants avec tout le monde sous forme de cube !\nMaintenant <color=HighlightB>parlez avec le Cube Jinhsi à proximité de l'Hôtel de ville pour commencer ce voyage cubique !</color>",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 176800001,
+  "ShowQuestList": [],
+  "QuestDesc": "KU-Lolo du Littoral noir cherche à collecter vos précieux souvenirs pour créer de nouveaux souvenirs encore plus intéressants avec tout le monde sous forme de cube !\nMaintenant <color=HighlightB>parlez avec le Cube Jinhsi à proximité de l'Hôtel de ville pour commencer ce voyage cubique !</color>",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 11900018,
+      "PreQuestName": "Traces des écailles"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "Salut, {PlayerName}.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "Je suis ici parce que j'ai une faveur à te demander. Est-ce qu'Encore t'a parlé du « Sol-2 » ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 13,
+              "PlotLineKey": "Non…",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 14,
+              "PlotLineKey": "Bien sûr.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "Bah, en tout cas, le « Sol-2 » est un monde virtuel généré par le système Tethys basé sur ta mémoire.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "...J'ai senti que quelque chose manquait pendant la construction. Il s'avère que j'ai oublié de créer une vidéo commémorative de l'équipe, KU !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "Comme le Sol-2 est important pour toi et tout le monde, alors je me suis dit, pourquoi ne pas y préserver tes précieux souvenirs afin qu'ils deviennent son plus grand trésor ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "Quant à la façon d'enregistrer ces souvenirs... Ku ku ku, j'ai déjà un plan !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "Tadaa ! Voici le Simulateur du Sol-2 !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "Comment c'était ? Est-ce que ma prestation ressemble à ce que le Cube Roccia m'a appris ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 15,
+              "PlotLineKey": "Oui.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 16,
+              "PlotLineKey": "D'où sors-tu ça ?",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "Ku ku ku, merci.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 10,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "D'une poche magique reliée au Sol-2... Hé hé, je plaisante.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "Ce Simulateur peut recréer tes souvenirs les plus précieux avec tes amis pour les stocker dans Le Sol-2. Pratique, non ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "Allez, sans plus attendre, essayons !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "On dirait que le programme fonctionne parfaitement. Il a recréé exactement le moment que je voulais voir.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Pourquoi me j'ai la forme d'un cube ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "Ku ku ku, j'ai fait ça exprès.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "Après tout, Tethys ne m'a donné que peu de ressources, nous devons donc économiser autant de puissance de calcul que possible.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "Et puis, je pensais que ce serait bien plus amusant de voir les Cubes revivre ce moment !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Cette dernière phrase se rapproche plus de la réalité.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "Eh bien, la vérité est ce que tu imagines. Ku ku ku.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "KU-Lolo",
+          "PlotLineKey": "Bref, je compte sur toi pour revivre ces moments. Et si tu me rapportes ces photos, tu peux t'attendre à de généreuses récompenses !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

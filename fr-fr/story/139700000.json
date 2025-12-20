@@ -1,0 +1,551 @@
+{
+  "Id": 139700000,
+  "Name": "La Pistolera Suprême !",
+  "Description": "Un défi appelé Tir lunaire est connu au Marché de la lune. Des défis intéressants comme celui-ci sont destinés à Chixia... et vous !\n\nCompléter cette quête pour débloquer un nouveau partenaire.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700000,
+  "ShowQuestList": [],
+  "QuestDesc": "Un défi appelé Tir lunaire est connu au Marché de la lune. Des défis intéressants comme celui-ci sont destinés à Chixia... et vous !\n\nCompléter cette quête pour débloquer un nouveau partenaire.",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 10,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Oh, Nomade ! Tu veux essayer ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 244,
+              "PlotLineKey": "De quoi... ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Eh bien, c'est ce que tu vois - le « Tir lunaire ». J'aide Qingxi à tester les nouvelles cibles.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Je viens de battre mon record, mais.. Je suis encore très loin du record absolu.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "Je veux dire, la personne qui détient ce record a touché plusieurs cibles avec un seul tir, c'est pas possible de battre ça. C'est dingue qu'elle a réussi.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 245,
+              "PlotLineKey": "Tu es déjà très douée pour ça.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 246,
+              "PlotLineKey": "Ces cibles bougent très rapidement...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "Tu es prête pour les choses sérieuses, Chixia ? J'ai préparé des défis de Tir lunaire intenses rien que pour les pros.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "Mais je n'ai plus de place au marché... Alors j'ai déplacé tout ça dans un endroit sûr à proximité.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "Ils n'ont rien à voir avec ce que tu as essayé à mon kiosque, fais moi confiance ! Ça va être le défi le plus dingue de ta vie !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Vraiment ! Il faut que j'essaie !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "Vas-y, fais-toi plaisir. Tu peux même m'aider à avoir une idée de la difficulté tant que tu y es.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Qu'est-ce qu'on attend, {PlayerName} ? Allons-y !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Par ici, {PlayerName} !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Héhé... J'espère que Qingxi ne nous décevra pas.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "...C'est tout ? Eh bien, Qingxi avait raison. Ils sont plus difficiles que ceux du kiosque. Mais pas beaucoup plus.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "T'as vu ça ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 73,
+              "PlotLineKey": "C'est déjà assez dur pour la plupart des gens.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Je suppose qu'on va devoir attendre le défi ultime de Qingxi. Elle réserve toujours le meilleur pour la fin.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Je suis sûre qu'elle a des défis plus difficiles pour nous. Sinon, l'Instructeur Yhan ne lui aurait pas demandé d'entraîner les novices.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 74,
+              "PlotLineKey": "Vraiment ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 75,
+              "PlotLineKey": "Et c'est exactement ce que tu veux, n'est-ce pas ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Très bien. Je suis à bloc maintenant !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Vas-y, Qingxi. Je suis prête, tu peux me balancer ce que tu veux !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "...Le voilà, Nomade !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Il est temps de relever ce défi ultime !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Super. Ça faisait longtemps que je n'avais pas autant transpiré pendant une séance de tir. Ha. Pas mal, Qingxi. Pas mal du tout...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 85,
+              "PlotLineKey": "C'est…impitoyable, pour un jeu de divertissement.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 86,
+              "PlotLineKey": "C'était tellement intense que mes mains tremblaient.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Ce dernier défi, c'était vraiment quelque chose, hein ? Mais on a quand même réussi ! Donne m'en cinq, Nomade. Ouais !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Chixia lève la main avec enthousiasme et tope Nomade.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Haha. En équipe, nous sommes imbattables !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 87,
+              "PlotLineKey": "Ouais ! On est imbattable !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Allez ! On retourne vers Qingxi !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "Vous revoilà. On dirait que vous avez réussi à remporter tous les défis.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Oui, certainement !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "Eh bien ? Qu'en penses-tu, Nomade ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 115,
+              "PlotLineKey": "La difficulté était exactement ce qu'il fallait.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 116,
+              "PlotLineKey": "C'était facile.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 117,
+              "PlotLineKey": "C'est difficile. Trop difficile !",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "Hmm... Si c'est ce que tu penses, alors on peut dire que ces défis supplémentaires sont prêts pour un public plus large.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 5,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "Encore un peu trop facile, hein ? Ce qui veut dire... Que je vais devoir corser encore un peu les choses.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "Ha. Même Nomade pense qu'ils sont trop difficiles. Je vois. Je vais les atténuer un peu...",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Hé, Qingxi. Tu n'oublies pas quelqu'un ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "Pfft. Tu crois ? Oh, je sais ce que tu penses. D'accord...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "C'est vraiment un jeu d'enfant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Chixia",
+          "PlotLineKey": "C-Comment as-tu deviné ça ?!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 118,
+              "PlotLineKey": "...Je lis en toi comme dans un livre.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 119,
+              "PlotLineKey": "La persévérance est une vertu.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "Tu veux bien me donner des trucs sur l'entraînement au tir, Chixia ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "Qui sait ? Nous pourrions peut-être promouvoir tes compétences auprès des Gardiens !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Des trucs ? Il suffit de travailler dur, de travailler dur et de travailler encore plus dur !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "Travailler dur ? Hmm... Ce n'est pas vraiment un conseil.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Chixia",
+          "PlotLineKey": "D'accord, laisse-moi réfléchir alors... Je dirais qu'on a aussi besoin d'un « cœur héroïque ».",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Il faut dégainer rapidement pour protéger les innocents et tirer avec une précision absolue pour arrêter le mal. En tant qu'héroïne, je dois chercher la perfection !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 120,
+              "PlotLineKey": "C'est de la Chixia typique.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 121,
+              "PlotLineKey": "Absolument. Les héros sont inéluctables !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "C'est vrai, avoir une forte volonté est tout aussi crucial.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Qingxi",
+          "PlotLineKey": "Merci. Je raconterai sûrement ce que tu as dit aujourd'hui à l'instructeur.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Pas de quoi, Qingxi !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Oh... Au fait, {PlayerName}, as-tu trouvé de bonnes choses à manger et à boire ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Le jeu m'a complètement prise. J'ai complètement oublié que j'étais venue ici pour me chercher de quoi grignoter.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Maintenant que tout ça est fait, mon estomac commence à gargouiller...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 122,
+              "PlotLineKey": "Il y a plein de kiosques qui offrent des trucs à manger.",
+              "PlayVoice": false,
+              "JumpToId": 23
+            },
+            {
+              "TextId": 123,
+              "PlotLineKey": "Tu devrais essayer les « Boulettes de poisson avec sauce épicée » !",
+              "PlayVoice": false,
+              "JumpToId": 24
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Sympa... Chixia la chasseuse de gourmandises est prête !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 25
+        },
+        {
+          "Id": 24,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Des Boulettes de poisson avec sauce épicée... Rien que le nom me fait saliver !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 25
+        },
+        {
+          "Id": 25,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Tu viens avec moi, {PlayerName} ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 124,
+              "PlotLineKey": "D'accord.",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 125,
+              "PlotLineKey": "Peut-être une prochaine fois.",
+              "PlayVoice": false,
+              "JumpToId": 27
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Ouais ! Allez. C'est l'heure de manger !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Chixia",
+          "PlotLineKey": "D'accord Hector ! Bon Marché de la lune, {PlayerName} !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

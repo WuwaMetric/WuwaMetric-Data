@@ -1,0 +1,573 @@
+{
+  "Id": 133000008,
+  "Name": "Geheime Untersuchung",
+  "Description": "Der Patrouilleur in der Nähe der Glühwürmchen-See scheint in Schwierigkeiten zu sein. Informiere dich über die Situation, bevor die Dinge ernst werden.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 133000008,
+  "ShowQuestList": [],
+  "QuestDesc": "Der Patrouilleur in der Nähe der Glühwürmchen-See scheint in Schwierigkeiten zu sein. Informiere dich über die Situation, bevor die Dinge ernst werden.",
+  "Conditions": [
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 1
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Und jetzt...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 84,
+              "PlotLineKey": "Was ist los?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Wer bist du...?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 85,
+              "PlotLineKey": "Rover.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 86,
+              "PlotLineKey": "{PlayerName}.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Super! Ich weiß, du bist ein ausgezeichneter Kämpfer. Könntest du mir bitte dabei helfen?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 87,
+              "PlotLineKey": "Was?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Ich bin Qianshan, ein Patrouilleur von der Öffentlichen Sicherheitsbehörde. Ich war auf einer verdeckten Ermittlungsmission.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Siehst du das Exil-Lager auf der zentralen Insel von Glühwürmchen-See? Sie sind ein Unterstützer der Halle der Sechs.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Ich habe es geschafft, einige geschmuggelte Gegenstände zu beschlagnahmen und sie herauszunehmen. Bald wird eine Einsatztruppe eintreffen, um sie zu transportieren, aber ein anderes Problem quält mich...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Ich habe eine neue Spur bei diesen Gegenständen gefunden.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 88,
+              "PlotLineKey": "Halle der Sechs?",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 89,
+              "PlotLineKey": "Welche neue Spur?",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Ja. Sie sind ein ziemlicher Dorn im Auge für die Öffentlichen Sicherheitsbehörden im ganzen Land.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Es handelt sich um eine gerissene Organisation, die ihre illegalen Aktivitäten mit scheinbar legalen auf der Oberfläche verbirgt. Die engmaschigen Operationen und die komplizierten Beziehungen zwischen den sechs Zweigen machen es der Öffentlichen Sicherheitsbehörde fast unmöglich, sie auf einen Schlag auszulöschen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Meine Mission bestand darin, neue Beweise innerhalb dieser Festung zu finden, damit ein koordinierter Angriff mit anderen PSBs möglich gemacht werden kann.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Diese Exilanten werden der Halle der Sechs helfen, einige Tacetit-Waffen aus Jinzhou zu verschiffen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Wir müssen Zugang zu den Details dieser Operation bekommen, aber wie du sehen kannst, sind wir derzeit unterbesetzt...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Wenn ich zurückkehre, werde ich nicht nur Misstrauen ausgesetzt sein, sondern es ist auch möglich, dass diese beschlagnahmten Gegenstände nicht rechtzeitig transportiert werden...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Deshalb frage ich mich, ob du verfügbar bist, um die Betriebsdetails ihrer Waffenlieferung für uns zu finden?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 90,
+              "PlotLineKey": "Ich bin verfügbar.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Großartig, danke!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Du musst ins Herz von ihnen eindringen, um es herauszufinden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Wenn du einfach in das Lager eindringst, könnten die Aufzeichnungen zerstört werden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Deshalb musst du dich ein wenig verkleiden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Warum besorgst du dir nicht zuerst ein Exilanten-Outfit?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 91,
+              "PlotLineKey": "Jetzt?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Äh... wir haben keine andere Wahl, weil das Outfit, das ich benutzt habe, bereits entsorgt wurde...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "So schnell schon gesammelt?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Lass mich mal sehen. Sieht so aus, als hättest du nicht alles. Such weiter!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Großartig. Beeindruckende Effizienz.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Lass mich sehen. Richtig, du hast sie alle.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 217,
+              "PlotLineKey": "Dann bin ich weg.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Hey, nicht so hastig! Die Exilanten sind nicht so schlau, aber sie sind definitiv keine Idioten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "In letzter Zeit gibt es Gerüchte im Lager über einen verdeckten Kerl unter ihnen. Wenn du einfach so dahinläufst, könntest du durchaus Zweifel aufwerfen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Ich habe eine falsche Identität für dich und einige Informationen über die Leute in diesem Lager, nur für den Fall. Du solltest sie alle beherrschen! Sonst verrätst du dich, sobald du den Mund aufmachst.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 218,
+              "PlotLineKey": "So viele Seiten!",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 219,
+              "PlotLineKey": "Okay, ich werde sie beherrschen.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Ich denke, es ist nicht so schwer... Ich habe eine Menge irrelevanten Informationen herausgefiltert. Das Originalpapier hat mich ganze drei Tage gekostet, um es zu beherrschen!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Dieses Lager ist völlig anders als andere Exil-Lager, weil der Boss gnadenlos ist und die Mitglieder alle verdächtig sind.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Dieses Mal bist du ganz allein unter diesen Leuten, also könnten die Informationen in Schlüsselmomenten durchaus dein Leben retten.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 220,
+              "PlotLineKey": "Hast du all das zusammengestellt?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Nein, das hat mein verstorbener Partner Shenhai getan.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Los, versuche sie zu meistern. Ich werde in einer Weile nach dir sehen.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Rover! Geht es dir gut?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 145,
+              "PlotLineKey": "Hier ist alles, was wir bisher gesammelt haben.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Großartig. Überlasse den Rest uns. Wir werden ihnen geben, was sie verdienen. Sowohl dieses Lager als auch die Halle der Sechs.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Danke für deine Hilfe! Bitte nimm die Belohnung.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Stimmt. Hast du alles verstanden?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Wenn ja, werde ich dir ein paar Fragen stellen. Und wenn du sie richtig beantwortest, starten wir die Mission.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 238,
+              "PlotLineKey": "Nur noch ein paar Augenblicke.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 239,
+              "PlotLineKey": "Bereit. Stell sie.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Okay, ich warte.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Super. Frage Nummer 1. Was hat die Mutter von Qiao Sheng und Qiao Yang beruflich gemacht?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 240,
+              "PlotLineKey": "Lehrerin.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 241,
+              "PlotLineKey": "Ärztin.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 242,
+              "PlotLineKey": "Verbannung.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Richtig. Gut gemacht. Du erinnerst dich schnell an Dinge.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Falsch. Ihre Mutter war eine Lehrerin! Du musst dich daran erinnern!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Falsch. Ihre Mutter war eine Lehrerin! Du musst dich daran erinnern!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Frage Nummer 2. Was war der Grund für die Verletzung an Qiao Shengs rechtem Bein?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 243,
+              "PlotLineKey": "Versuchter Ladendiebstahl.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 244,
+              "PlotLineKey": "Fehlgeschlagene Mission.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 245,
+              "PlotLineKey": "Unfallbedingter Sturz.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Richtig. Du bist wirklich zuverlässig, oder?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 10,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Falsch. Die Verletzung war auf einen versuchten Ladendiebstahl im Alter von 9 Jahren zurückzuführen.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Falsch. Die Verletzung stammt von einem versuchten Ladendiebstahl im Alter von 9 Jahren.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Frage Nummer 3. Was macht Kuixiao, ein Freund von Qiao Sheng im Camp, gerne?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 246,
+              "PlotLineKey": "Technologien studieren.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 247,
+              "PlotLineKey": "Fleisch essen.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 248,
+              "PlotLineKey": "Kämpfen.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Richtig. Du hast das Material sehr sorgfältig gelesen, oder?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 14,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Falsch. Der Fleischliebhaber ist Zaijia. Kuixiao mag es, Technologien zu studieren. Verwechsele sie nicht miteinander!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Falsch. Der Kampfliebhaber ist Auspice. Kuixiao mag es, Technologien zu studieren. Verwechsele sie nicht miteinander!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Wir haben noch etwas Zeit. Laut den Informationen, die wir zuvor erhalten haben, werden sie heute die Bestände überprüfen. Es ist vielleicht nicht der beste Zeitpunkt, um hineinzugehen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Qianshan",
+          "PlotLineKey": "Lass uns die Mission morgen Abend starten. Du kannst die Zeit nutzen, um das Material weiter zu meistern.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

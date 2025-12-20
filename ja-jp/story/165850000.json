@@ -1,0 +1,396 @@
+{
+  "Id": 165850000,
+  "Name": "波間の余響",
+  "Description": "先駆条約のメンバーを名乗る映里が、あなたの協力を求めてカフェを訪れた。彼女は、ネロンライトの中の記憶を写真という形で残したいと考えている……",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 165850000,
+  "ShowQuestList": [],
+  "QuestDesc": "先駆条約のメンバーを名乗る映里が、あなたの協力を求めてカフェを訪れた。彼女は、ネロンライトの中の記憶を写真という形で残したいと考えている……",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100031,
+      "PreQuestName": "瞳に輝く星々の光"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 11900018,
+      "PreQuestName": "鱗の跡"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ナミポン",
+          "PlotLineKey": "お客様、ちょうどいいところに！お客様に用があって訪ねてきた人がいるの。とっても大事なお願いをしたいんだって。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 14,
+              "PlotLineKey": "{Male=カフェに新しい客が来たのか？;Female=カフェに新しいお客さんが来たの？}",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 15,
+              "PlotLineKey": "{Male=以前来たことがある人なのか？;Female=ここに来たことがある人なの？}",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ナミポン",
+          "PlotLineKey": "そうなんだよ、本当にめでたいことなんだ！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "ナミポン",
+          "PlotLineKey": "知らない人だったけど、よく考えたら、とってもめでたいことなんだよ！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "ナミポン",
+          "PlotLineKey": "お客様と千咲が、穂波のループを終わらせたから、車掌カフェも新しいお客さんを迎えられたんだ。もしかしたら、このカフェもそのうち人気店になっちゃうかもしれないね！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 16,
+              "PlotLineKey": "その人に関して……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 17,
+              "PlotLineKey": "他に何か情報は？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "ナミポン",
+          "PlotLineKey": "あのお客様は「先駆条約」の人だって言ってて、「正式採用選考」のことで悩んでいるみたい。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ナミポン",
+          "PlotLineKey": "話している時に、彼女がこの近くに写真を撮るのにピッタリな場所はないかって聞いてきたから、近くの噴水をおすすめしたの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ナミポン",
+          "PlotLineKey": "あそこの桜は今満開なんだぁ。前にここで行われた「穂波スクランブル絶景スポットランキング」で一位を取ったこともあるんだよ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 18,
+              "PlotLineKey": "「先駆条約」……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 19,
+              "PlotLineKey": "「正式採用」……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "ナミポン",
+          "PlotLineKey": "でも、彼女とその話題になると、どうしても空気が重くなっちゃうんだよね……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ナミポン",
+          "PlotLineKey": "難しいことは、ナミポンにもよくわからないの。詳しい話は、お客様が直接あの人に聞いてみてね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ナミポン",
+          "PlotLineKey": "それに、ナミポンはカフェの店番があるから、一緒には行けないんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（そういうことなら、噴水まで行って、その人に会ってみよう。）",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "映里",
+          "PlotLineKey": "はじめまして！私は、先駆条約の映里と言います。やっとお会いできました！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（会ったことのない過ぎし人のようだ……この付近の住民ではないようだけど、他の地域から来たの{Male=だろうか？;Female=でしょうか？}）",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（……こういう状況は滅多にない。まずは彼女の真意を探ってから判断しよう。）",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 43,
+              "PlotLineKey": "{PlayerName}{Male=だ。;Female=よ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 44,
+              "PlotLineKey": "{Male=俺を探しているとナミポンから聞いた。;Female=私を探しているとナミポンから聞いた。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "映里",
+          "PlotLineKey": "そうです！「正義のダークレジェンド」さんにぜひお願いしたいことがありまして！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 45,
+              "PlotLineKey": "「正義のダークレジェンド」って……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 46,
+              "PlotLineKey": "{Male=俺のことか？;Female=私のこと？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "映里",
+          "PlotLineKey": "もちろんです！ひと目でわかりましたよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "映里",
+          "PlotLineKey": "あの「謎のハサミガール」の仲間であり、黒髪の謎のヒーロー、そして穂波市で噂されている最新の都市伝説！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "映里",
+          "PlotLineKey": "腕も立ち、凶暴な残像を退けるだけでなく、心優しい正義の味方なんですから！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 47,
+              "PlotLineKey": "それに「謎のハサミガール」って……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 48,
+              "PlotLineKey": "{Male=また妙な称号が増えたな。;Female=また妙な称号が増えたね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "映里",
+          "PlotLineKey": "都市伝説にはかっこいい称号があるものでしょう？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "映里",
+          "PlotLineKey": "あっ、話が逸れましたね。私がお願いしたいのは、この穂波市を題材にした写真企画を一緒に仕上げることです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "映里",
+          "PlotLineKey": "実はこれ、私の正式採用試験でもあるんです。……恥ずかしい話ですが、先駆条約のメンバーを名乗ってはいるものの、まだ試用期間中なんです。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 49,
+              "PlotLineKey": "試用期間？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 50,
+              "PlotLineKey": "{Male=話が重くなってきたな。;Female=話が重くなってきたね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "映里",
+          "PlotLineKey": "私は、子どもの頃からずっと『潮汐ジオグラフィック』のファンで、大人になったら先駆条約に入って、この雑誌の編集者になるのが夢だったんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "映里",
+          "PlotLineKey": "でも、この雑誌の編集部には独自の採用試験があって、編集者を志望する人は、先駆条約の理念に沿った写真企画を立案し、撮影して、審査を通過して誌面に掲載されなければならないんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "映里",
+          "PlotLineKey": "せっかく撮影テーマを決めた矢先、この街の道路があちこち封鎖されていて、しかも危険な残像まで現れるし、挙げ句に私のデバイスは完全に壊れてしまって！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "映里",
+          "PlotLineKey": "もう打つ手なしの時に、他の人から{PlayerName}さんの英雄譚を聞いたんです……！お願いします、助けてください！これが最後のチャンスなんです！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 51,
+              "PlotLineKey": "{Male=任せてくれ。;Female=任せて。}",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 52,
+              "PlotLineKey": "じゃあ報酬は……",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "映里",
+          "PlotLineKey": "ありがとうございます、「正義のダークレジェンド」さん！必ずご満足いただける報酬を用意します！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 16,
+          "Speaker": "映里",
+          "PlotLineKey": "安心してください！正義の味方にタダ働きなんて絶対させません！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "映里",
+          "PlotLineKey": "では早速、デバイスで目の前の噴水を撮影し、その最も美しい姿を残しましょう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "映里",
+          "PlotLineKey": "昔、この場所は賑やかな歩行街でした。みんな歩き疲れると、ここに立ち寄って、水の音を聞きながらひとときの静けさと憩いを楽しんだんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "映里",
+          "PlotLineKey": "この噴水も、車掌カフェと同じように、穂波スクランブルのランドマークでした。人々の記憶の中で、ここはいつも安らぎを感じる場所なんです。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "映里",
+          "PlotLineKey": "光、アングル、構図、そしてこの絶妙な瞬間の切り取り――完璧、まさに完璧、極めて完璧！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "映里",
+          "PlotLineKey": "やっぱりお願いして正解でした！本当にありがとうございます！そうだ、ナミポンにもお礼を言わなくちゃ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "映里",
+          "PlotLineKey": "さすが穂波の守護神ですね。ナミポンに会ったら、きっと良いことが起こるはずです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "映里",
+          "PlotLineKey": "それじゃあ、次の目的地へ行きましょう！たくさんのナミポンがいる、あの場所へ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 413,
+              "PlotLineKey": "行こう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 414,
+              "PlotLineKey": "{Male=ちょっと待った。;Female=ちょっと待って。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "Id": 133900004,
+  "Name": "이상한 삼형제",
+  "Description": "당신은 삼형제를 도와 각자의 문제를 해결했고, 그들은 당신에게 직접 감사의 말을 전하고 싶다...",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 133900004,
+  "ShowQuestList": [],
+  "QuestDesc": "당신은 삼형제를 도와 각자의 문제를 해결했고, 그들은 당신에게 직접 감사의 말을 전하고 싶다...",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900001,
+      "PreQuestName": "이상한 삼형제 - 오드골"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900002,
+      "PreQuestName": "이상한 삼형제 - 오드레골"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900003,
+      "PreQuestName": "이상한 삼형제 - 오드디"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "오드골",
+          "PlotLineKey": "잘됐다, 아직 여기 있었구나!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "오드골",
+          "PlotLineKey": "우리 셋이 얘기하다 방금 알았어. 네가 나뿐만 아니라 내 동생들도 도와줬다고 들었어!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "오드레골",
+          "PlotLineKey": "역시 세상에서 제일 강한 녀석답네! 역시 강해!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "오드디",
+          "PlotLineKey": "고마워, 정말 너무 고마워!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 70,
+              "PlotLineKey": "별말씀을요",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 71,
+              "PlotLineKey": "말로만 고맙다고 하시게요?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "오드골",
+          "PlotLineKey": "별거 아니라니! 선행 공약에 들어가는 건 우리 삼 형제의 꿈이었는걸. 네가 이렇게 큰 도움을 줬는데, 우리가 꼭 제대로 감사 표시를 해야지!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "오드골",
+          "PlotLineKey": "물론 선물도 준비했어! 선행 공약에 들어가는 건 우리 삼 형제의 꿈이었는걸. 네가 이렇게 큰 도움을 줬는데, 우리가 꼭 제대로 감사 표시를 해야지!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "오드레골",
+          "PlotLineKey": "세상에서 제일 강한 녀석한테 주는 감사 표시는 당연히 세상에서 제일 대단하고 좋은 선물이어야지!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "오드디",
+          "PlotLineKey": "그래서 우리가 돈을 모아서 여기에 <span style=\"color:#ffd12f;\" class=\"font-bold\">조각상</span>을 세우기로 했어!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "오드골",
+          "PlotLineKey": "자, 네가 생각하기에 제일 멋진 포즈를 취해봐!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "현자처럼 생각에 잠긴 모습",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 73,
+              "PlotLineKey": "용사처럼 용맹한 모습",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "오드골",
+          "PlotLineKey": "좋아, 찍었어. 이걸 석공한테 보내면 돼. 며칠 뒤에 다시 오면 너만의 <span style=\"color:#ffd12f;\" class=\"font-bold\">특별 조각상</span>을 볼 수 있을 거야!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "오드골",
+          "PlotLineKey": "어서 와. 자, 봐봐. 우리가 널 위해 만든 「조각상」이야! 하하하...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 130,
+              "PlotLineKey": "이건 조각상이 아니잖아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 131,
+              "PlotLineKey": "이건 제가 취한 포즈가 아니잖아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "오드골",
+          "PlotLineKey": "원래는 네 모습 그대로 조각상을 만들려고 했는데, 그게... 문제가 좀 생겼어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "오드골",
+          "PlotLineKey": "석재가 도착하고 나서 누가 훔쳐갈까 봐 내가 여기서 지키고 있었거든. 그래서 네 사진을 석공한테 전해달라고 오드레골에게 부탁했지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "오드레골",
+          "PlotLineKey": "그래서 내가 달리고 달리고 또 달렸는데! 결국 길을 잃어버렸지 뭐야, 하하!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "오드디",
+          "PlotLineKey": "둘째 형이 안 돌아오길래 길을 잃은 것 같아서, 내가 예비용 사진을 들고 석공을 찾아갔어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "오드디",
+          "PlotLineKey": "근데 막상 도착해 보니 사진을 어디다 흘렸더라고...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "오드골",
+          "PlotLineKey": "난 기다리다가 너무 걱정돼서 둘을 찾으러 가기로 했어. 근데 석재를 그냥 둘 수는 없어서 등에 메고 갔는데, 사람은 못 찾고 넘어져서 석재를 절벽 아래로 다 떨어뜨려 버렸어...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "오드골",
+          "PlotLineKey": "석재도 사진도 다 잃어버려서 하는 수 없이 석공한테 쓰려던 돈으로 홀로그램을 하나 사고 대충 포즈를 만들어 봤어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "오드레골",
+          "PlotLineKey": "사실 이것도 괜찮지 않아?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "오드디",
+          "PlotLineKey": "응응, 마을이랑 잘 어울리는 것 같아!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 132,
+              "PlotLineKey": "그럭저럭 괜찮네요...",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 133,
+              "PlotLineKey": "제 조각상 내놓으세요! 제 조각상 내놓으라고요! 빨리요!",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "오드골",
+          "PlotLineKey": "이해해 줘서 고마워, 하하",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 12,
+          "Speaker": "오드골",
+          "PlotLineKey": "아... 그게... 우리 마지막 모은 돈을 다 써서 새 조각상을 만들자니...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "오드레골",
+          "PlotLineKey": "이렇게 하자! 우리 선행 공약은 잠깐 미루고, 일해서 돈부터 모으자!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "오드디",
+          "PlotLineKey": "잘하면 3~4년이면 조각상 만들 돈을 모을 수 있을 거야!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "그렇게까진 안 해도 돼요...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "오드골",
+          "PlotLineKey": "이해해 줘서 정말 정말 고마워, 하하",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "오드골",
+          "PlotLineKey": "그럼 우리 셋은 이제 선행 공약으로 가볼게. 다음에 또 보자!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "오드골",
+          "PlotLineKey": "어서 와. 자, 봐봐. 우리가 널 위해 만든 「조각상」이야! 하하하...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 130,
+              "PlotLineKey": "이건 조각상이 아니잖아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 131,
+              "PlotLineKey": "이건 제가 취한 포즈가 아니잖아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "오드골",
+          "PlotLineKey": "원래는 네 모습 그대로 조각상을 만들려고 했는데, 그게... 문제가 좀 생겼어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "오드골",
+          "PlotLineKey": "석재가 도착하고 나서 누가 훔쳐갈까 봐 내가 여기서 지키고 있었거든. 그래서 네 사진을 석공한테 전해달라고 오드레골에게 부탁했지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "오드레골",
+          "PlotLineKey": "그래서 내가 달리고 달리고 또 달렸는데! 결국 길을 잃어버렸지 뭐야, 하하!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "오드디",
+          "PlotLineKey": "둘째 형이 안 돌아오길래 길을 잃은 것 같아서, 내가 예비용 사진을 들고 석공을 찾아갔어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "오드디",
+          "PlotLineKey": "근데 막상 도착해 보니 사진을 어디다 흘렸더라고...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "오드골",
+          "PlotLineKey": "난 기다리다가 너무 걱정돼서 둘을 찾으러 가기로 했어. 근데 석재를 그냥 둘 수는 없어서 등에 메고 갔는데, 사람은 못 찾고 넘어져서 석재를 절벽 아래로 다 떨어뜨려 버렸어...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "오드골",
+          "PlotLineKey": "석재도 사진도 다 잃어버려서 하는 수 없이 석공한테 쓰려던 돈으로 홀로그램을 하나 사고 대충 포즈를 만들어 봤어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "오드레골",
+          "PlotLineKey": "사실 이것도 괜찮지 않아?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "오드디",
+          "PlotLineKey": "응응, 마을이랑 잘 어울리는 것 같아!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 132,
+              "PlotLineKey": "그럭저럭 괜찮네요...",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 133,
+              "PlotLineKey": "제 조각상 내놓으세요! 제 조각상 내놓으라고요! 빨리요!",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "오드골",
+          "PlotLineKey": "이해해 줘서 고마워, 하하",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 12,
+          "Speaker": "오드골",
+          "PlotLineKey": "아... 그게... 우리 마지막 모은 돈을 다 써서 새 조각상을 만들자니...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "오드레골",
+          "PlotLineKey": "이렇게 하자! 우리 선행 공약은 잠깐 미루고, 일해서 돈부터 모으자!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "오드디",
+          "PlotLineKey": "잘하면 3~4년이면 조각상 만들 돈을 모을 수 있을 거야!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "그렇게까진 안 해도 돼요...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "오드골",
+          "PlotLineKey": "이해해 줘서 정말 정말 고마워, 하하",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "오드골",
+          "PlotLineKey": "그럼 우리 셋은 이제 선행 공약으로 가볼게. 다음에 또 보자!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

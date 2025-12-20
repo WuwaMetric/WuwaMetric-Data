@@ -1,0 +1,456 @@
+{
+  "Id": 133000010,
+  "Name": "Límites de la Simulación",
+  "Description": "En la entrada de una sala sellada en el nivel inferior, un robot defectuoso sigue repitiendo instrucciones fragmentadas. Comunícate con él para descubrir la historia oculta dentro de esta sala.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 133000010,
+  "ShowQuestList": [],
+  "QuestDesc": "En la entrada de una sala sellada en el nivel inferior, un robot defectuoso sigue repitiendo instrucciones fragmentadas. Comunícate con él para descubrir la historia oculta dentro de esta sala.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100012,
+      "PreQuestName": "Hasta el final de la costa"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "KU-Repair",
+          "PlotLineKey": "Ka... Ka... Datos... Eliminar...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 130,
+              "PlotLineKey": "¿Qué acabas de decir?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 131,
+              "PlotLineKey": "¿Por qué suenas diferente a los demás?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "KU-Repair",
+          "PlotLineKey": "Ka... Ka... Error... Módulo de idioma... Eliminar... Eliminar...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 132,
+              "PlotLineKey": "¿Necesitas mantenimiento?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "KU-Repair",
+          "PlotLineKey": "Datos... Sellados... Sala... Sala... Entrar...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 133,
+              "PlotLineKey": "¿Esta sala está sellada?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 134,
+              "PlotLineKey": "¿Quieres que entre?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Escuchas un chirrido de los circuitos de KU-Repair.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 135,
+              "PlotLineKey": "No importa. Primero revisaré esta sala.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "¿?",
+          "PlotLineKey": "Advertencia. Entidad desconocida detectada.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "¿?",
+          "PlotLineKey": "Modo de seguridad activado. Preparando expulsión de entidades desconocidas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "¿?",
+          "PlotLineKey": "Cinco.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "¿?",
+          "PlotLineKey": "Cuatro.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "¿?",
+          "PlotLineKey": "Tres.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "¿?",
+          "PlotLineKey": "Dos.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "¿?",
+          "PlotLineKey": "Comando activado. Portal abierto.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "La pantalla se oscurece y se eliminan todos los datos restantes.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Errante",
+          "PlotLineKey": "Datos eliminados... Misión cumplida.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "KU-Repair",
+          "PlotLineKey": "Todo listo. Ahora debería poder operar la pantalla nuevamente.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lester",
+          "PlotLineKey": "¿Por qué estás aquí, KU-Repair? Espera, ¿quién te ha arreglado?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lester",
+          "PlotLineKey": "¿Lo has arreglado tú, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "KU-Repair",
+          "PlotLineKey": "Ka... Ka...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lester",
+          "PlotLineKey": "Bueno, parece que tendré que llamar otra vez a mantenimiento.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 218,
+              "PlotLineKey": "¿Qué le pasa a este robot?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lester",
+          "PlotLineKey": "No sé... Ha estado mucho tiempo sin conexión. No estoy segura de por qué está vuelve a estar en línea ahora.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lester",
+          "PlotLineKey": "Quizás alguien lo configuró para reactivarse en un momento determinado.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lester",
+          "PlotLineKey": "Ha estado vagando entre estas dos salas abandonadas sin responder a ninguna orden. Es bastante extraño, ¿no crees?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 219,
+              "PlotLineKey": "¿Para qué se utilizaba esta sala?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lester",
+          "PlotLineKey": "Si no recuerdo mal, era una sala de análisis de matriz estelar.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lester",
+          "PlotLineKey": "Se usó un tiempo pero luego fue abandonada y sellada, por razones que desconozco. Después de todo, han pasado siglos.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 220,
+              "PlotLineKey": "¿Qué pasa con esas civilizaciones simuladas?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lester",
+          "PlotLineKey": "Todos los datos útiles fueron transferidos mucho tiempo atrás sin mayor dificultad, ya que eran solo algunos códigos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lester",
+          "PlotLineKey": "Encontré esta sala gracias a KU-Repair. Planeaba usarla para otra cosa, pero resulta que no tengo acceso.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lester",
+          "PlotLineKey": "Llegué a pensar que nunca sabría por qué se abandonaron las salas, pero el sello desapareció de repente hace un momento.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lester",
+          "PlotLineKey": "Por cierto, ¿no notaste algo inusual allí?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 221,
+              "PlotLineKey": "Nada en particular.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 222,
+              "PlotLineKey": "Solo encontré algunas grabaciones antiguas.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lester",
+          "PlotLineKey": "Ya veo... Suena bastante seguro.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lester",
+          "PlotLineKey": "De todos modos, ¡gracias por la información! Lo investigaré y presentaré otra solicitud para reutilizar la sala. ¡Tengo la sensación de que esta vez me la aprobarán muy rápido!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Se escucha un breve zumbido eléctrico que parece inundarlo todo y aparece un nuevo texto en la pantalla.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mensajes en la pantalla",
+          "PlotLineKey": "Un cordial saludo al mundo que reciba este mensaje.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mensajes en la pantalla",
+          "PlotLineKey": "Por favor, dadnos la oportunidad de presentaros a nuestra civilización.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "El mensaje termina abruptamente. Parece que la segunda parte fue borrada hace mucho tiempo.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 169,
+              "PlotLineKey": "(Continúa esperando)",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 170,
+              "PlotLineKey": "(Deja de esperar y opera)",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "El zumbido de la bobina aumenta por un momento antes de que aparezca un nuevo texto en la pantalla.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Mensajes en la pantalla",
+          "PlotLineKey": "Por favor, salvad a esta civilización.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Mensajes en la pantalla",
+          "PlotLineKey": "Por favor, salvad a nuestra civilización.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 171,
+              "PlotLineKey": "(No respondas)",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 172,
+              "PlotLineKey": "(Intentar responder)",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Todavía recuerdas cómo aquel investigador te advirtió que borraras los datos, pero al final, la curiosidad puede contigo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Se escucha un breve zumbido eléctrico que parece inundarlo todo y aparece un nuevo texto en la pantalla.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mensajes en la pantalla",
+          "PlotLineKey": "Al fin estáis dispuestos a escuchar. Llevamos tanto tiempo esperando este momento... Una oportunidad para conectar con la verdadera realidad.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mensajes en la pantalla",
+          "PlotLineKey": "Mensaje recibido. Generando nuevos datos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "La sirena suena una vez más en la sala.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "¿?",
+          "PlotLineKey": "Advertencia, modo de seguridad activado. Listo para repeler entidad desconocida. Listo para ███ para █ Listo █ █ █",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "Ups... Tengo que arreglar esto rápidamente.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Errante",
+          "PlotLineKey": "Las notas mencionaban esto... <span style=\"color:#ffd12f;\" class=\"font-bold\">Revisa ambas salas de análisis y asegúrate de que sean iguales</span>. Hmm, debería intentarlo.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

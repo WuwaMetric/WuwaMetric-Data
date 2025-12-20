@@ -1,0 +1,362 @@
+{
+  "Id": 189800006,
+  "Name": "黎明を告げる星・夜に残る者（下）",
+  "Description": "突然、旧市街地にルドが現れた。誰かを追っているようだが、あなたもすぐに、逃走中の犯人の正体を知ることになる……",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 189800006,
+  "ShowQuestList": [],
+  "QuestDesc": "突然、旧市街地にルドが現れた。誰かを追っているようだが、あなたもすぐに、逃走中の犯人の正体を知ることになる……",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 189800005,
+      "PreQuestName": "黎明を告げる星・夜に残る者（上）"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ルド",
+          "PlotLineKey": "支援いただき、ありがとうございます。義人様のおかげで、ここの再建も、思っていたより進んでいます。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ルド",
+          "PlotLineKey": "フィービーさんが一人前になるまではまだ時間がかかると思いますが、義人様と他の侍祭たちが協力してくれれば、すべてが順調に進んでいくはずです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ルド",
+          "PlotLineKey": "ここには、私の顔を見たくないラグーナの移民も多くいますので、手短に話します。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ルド",
+          "PlotLineKey": "あの方についてなんですが……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "エノル",
+          "PlotLineKey": "アレッシオ司祭ではありませんか？どうしてここに？",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=どうしたんだ？;Female=どうしたの？}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "エノル",
+          "PlotLineKey": "{PlayerName}様は、ユリアさんとルド様についてどう考えているのかな、と……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1260,
+              "PlotLineKey": "ユリアの罪は死に値しないし、ルドも今審判されるべきではない。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 1261,
+              "PlotLineKey": "ユリアの罪は死に値しないが、ルドは今審判されるべき。",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 1262,
+              "PlotLineKey": "ユリアの罪は死に値するが、ルドは今審判されるべきではない。",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 1263,
+              "PlotLineKey": "ユリアの罪は死に値し、ルドも今審判されるべき。",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "エノル",
+          "PlotLineKey": "{PlayerName}様は本当に優しくて、勇敢なお方ですね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "エノル",
+          "PlotLineKey": "私、ようやく理解できました。自分と向き合うのにも、他人を許すのにも、勇気が必要だということを。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "エノル",
+          "PlotLineKey": "ユリアさんとルド様は、自分の過去に責任を負うと決められました。その過去がどうであれ、勇敢な人たちだと思います。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "エノル",
+          "PlotLineKey": "なので、私も勇気を出して、私に優しくしてくれたこの世界に報いたいです。これこそが、私の「昇華」の道です！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 7,
+          "Speaker": "エノル",
+          "PlotLineKey": "あの二人に対して、異なる判断をするのですね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "エノル",
+          "PlotLineKey": "やはり追放という罰は、ユリアさんにとって厳しすぎるかもしれません。彼女は覚悟を見せましたが、更生の機会を与えられませんでした。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "エノル",
+          "PlotLineKey": "誰もが許されるわけではない……そのことを私はしっかり理解しないといけませんね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "エノル",
+          "PlotLineKey": "私も勇気を出して、私に優しくしてくれたこの世界に報いたいです。これこそが、私の「昇華」の道です！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 11,
+          "Speaker": "エノル",
+          "PlotLineKey": "あの二人に対して、異なる判断をするのですね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "エノル",
+          "PlotLineKey": "ルド様がすべきことは、教団を元の姿に戻すことなのかもしれません。しかし、災厄の被害者たちを指摘する資格など、彼にはありません。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "エノル",
+          "PlotLineKey": "だからこそ、ラグーナの人々が公平な審判を下すと信じ、自ら審判に臨んだのでしょう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "エノル",
+          "PlotLineKey": "私も勇気を出して、私に優しくしてくれたこの世界に報いたいです。これこそが、私の「昇華」の道です！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 15,
+          "Speaker": "エノル",
+          "PlotLineKey": "{PlayerName}様は本当に優しく、自分を貫く人ですね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "エノル",
+          "PlotLineKey": "ユリアさんとルド様は、自分の過去に責任を負うと決めた、勇敢な人たちです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "エノル",
+          "PlotLineKey": "私たちも彼らに対して、公平な審判を下すべきだと思います。これこそが、彼らにとって最大の敬意です。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "エノル",
+          "PlotLineKey": "私も勇気を出して、私に優しくしてくれたこの世界に報いたいです。これこそが、私の「昇華」の道です！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 19,
+          "Speaker": "エノル",
+          "PlotLineKey": "「昇華」と言えば、あのフィービーが枢密院にまで昇進したんですよ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1264,
+              "PlotLineKey": "次会う時は、「フィービー様」と呼ばないと。",
+              "PlayVoice": false,
+              "JumpToId": 20
+            },
+            {
+              "TextId": 1265,
+              "PlotLineKey": "{Male=先を越されたな。;Female=先を越されたね。}",
+              "PlayVoice": false,
+              "JumpToId": 21
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "エノル",
+          "PlotLineKey": "あははっ、フィービーがそんなことに気にするわけないじゃないですか！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 22
+        },
+        {
+          "Id": 21,
+          "Speaker": "エノル",
+          "PlotLineKey": "あははっ、そんなこと、私は気にしませんよ！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 22
+        },
+        {
+          "Id": 22,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=フィービーがとても忙しそうにしていて心配だ。;Female=フィービーがとても忙しそうにしていて心配。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "エノル",
+          "PlotLineKey": "大丈夫です。私は信じています。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "エノル",
+          "PlotLineKey": "彼女は見た目に反して強い人です。断るのが下手なところはあるかもしれませんが、彼女はいつも正しいことをします。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "エノル",
+          "PlotLineKey": "きっと今は、ルド様の期待に応えようと頑張っているのだと思います。それがフィービーの「昇華」の道ですから。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "エノル",
+          "PlotLineKey": "それにしても大きな期待ですね。私も彼女の助けにならなくては。それでは、旧市街地の再建から始めましょう！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "エノル",
+          "PlotLineKey": "ルド様は末端の侍祭たちのことまで気にかけており、調停役として、ファミリーとのバランスを維持し続けていました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "エノル",
+          "PlotLineKey": "それなのに、まさか自分自身まで被告席に送るとは。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 326,
+              "PlotLineKey": "彼は審判を受けるべきだ。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 327,
+              "PlotLineKey": "{Male=彼は審判を受けるべきだが、少なくとも今じゃない。;Female=彼は審判を受けるべきだけど、少なくとも今じゃない。}",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "被害者に代わって彼を審判する資格は、{Male=俺たち;Female=私たち}にはない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "彼が本当に無実なら、なおさら審判廷に立つべきだと思う。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "エノル",
+          "PlotLineKey": "それなら、私もですね……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "アレッシオはラグーナの怒りに火をつけ、火を消すべき人は結局何もしなかった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "残ってしまったこの怒りが、ほかの無実な人に向かないなんて、誰にも保証できない……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "エノル",
+          "PlotLineKey": "……「無実」とは一体何なのでしょうか……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

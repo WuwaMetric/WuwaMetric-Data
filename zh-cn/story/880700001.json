@@ -1,0 +1,851 @@
+{
+  "Id": 880700001,
+  "Name": "行动代号：月下双雄",
+  "Description": "化身为正义的代言人，在追月节来临之际消灭潜藏于阴影之中的罪恶——行动开始！\n\n完成此任务后解锁新的经营伙伴。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880700001,
+  "ShowQuestList": [],
+  "QuestDesc": "化身为正义的代言人，在追月节来临之际消灭潜藏于阴影之中的罪恶——行动开始！\n\n完成此任务后解锁新的经营伙伴。",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 6,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "吟霖",
+          "PlotLineKey": "——{PlayerName}，你找我过来……有什么事？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1083,
+              "PlotLineKey": "别紧张。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1084,
+              "PlotLineKey": "只是想请你帮个忙。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "吟霖",
+          "PlotLineKey": "我明白了。原定表演人偶戏的艺人有事来不了，你希望我代替那位艺人，在宵月会表演人偶戏……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "吟霖",
+          "PlotLineKey": "这倒是没什么问题。最近我手头暂时没什么工作，客串几天艺人也没问题——只要你付得起出场费就行。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "吟霖",
+          "PlotLineKey": "对了，如果要在宵月会上表演的话，我们最好准备几个符合节日氛围的人偶。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "吟霖",
+          "PlotLineKey": "你有什么好主意吗，{PlayerName}？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1085,
+              "PlotLineKey": "狐狸追赶兔子的人偶？",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 1086,
+              "PlotLineKey": "或者漂泊者大战鸣式的人偶？",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "吟霖",
+          "PlotLineKey": "嗯……瑝珑的传说吗？好主意，做成可爱的小动物的样子，应该也会受到孩子们的欢迎吧。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "吟霖",
+          "PlotLineKey": "嗯……像英雄戏那样吗？倒也不是不行……正义与邪恶之间的交锋，说不定会很受欢迎呢……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "吟霖",
+          "PlotLineKey": "现在从头开始做人偶应该已经来不及了。还好，我知道一个地方出售成品人偶。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1087,
+              "PlotLineKey": "还有这种地方吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "吟霖",
+          "PlotLineKey": "当然了。在今州只要有门路，可是什么都能买得到哦……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1088,
+              "PlotLineKey": "是黑市之类的吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1089,
+              "PlotLineKey": "听起来……很不妙啊。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "吟霖",
+          "PlotLineKey": "开个玩笑而已。走吧，我带你去看看。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "甘雪",
+          "PlotLineKey": "欢迎光临「先行公约」商店！啊……是{PlayerName}和吟霖小姐，你们要买什么呢？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "吟霖",
+          "PlotLineKey": "有人偶吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "甘雪",
+          "PlotLineKey": "哈，有！店里可是刚到了一批新货哦！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 547,
+              "PlotLineKey": "人偶……？这里还卖这种东西？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "甘雪",
+          "PlotLineKey": "是啊，先行公约里有一些很厉害的人偶师，他们经常会把他们做的人偶当作周边放在店里售卖。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "甘雪",
+          "PlotLineKey": "不过，一般的客户都不会对它们感兴趣，所以，我们也不会把它摆在柜台上。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "甘雪",
+          "PlotLineKey": "所幸，还能卖给收藏家，或者像吟霖这样的专业人士。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 548,
+              "PlotLineKey": "原来如此。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "甘雪",
+          "PlotLineKey": "稍等一下，我去库房里找一找……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "甘雪很快找到了吟霖所需要的人偶，并将它们交给了吟霖。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "甘雪",
+          "PlotLineKey": "——谢谢惠顾，欢迎下次光临！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 549,
+              "PlotLineKey": "搞定，我们回桃源乡吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "吟霖",
+          "PlotLineKey": "等等……我刚才好像看到了一个熟人。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 550,
+              "PlotLineKey": "熟人？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "吟霖",
+          "PlotLineKey": "有意思……他可不应该出现在这里。我们追上去看看吧，{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "你要追的人……是流放者？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "吟霖",
+          "PlotLineKey": "没错。流放者是无法进入今州城的。为了混进今州城，他显然进行了变装，没有穿流放者的所谓“制服”。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "吟霖",
+          "PlotLineKey": "那家伙叫老雷，经常干一些偷鸡摸狗的勾当。前几天才从监狱里放出来。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "吟霖",
+          "PlotLineKey": "我还没开始做潜入调查员的时候，他曾经给我当过几天线人，但是关键时刻脚底抹油跑了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "吟霖",
+          "PlotLineKey": "一个流放者，大摇大摆地出现在今州城里，这事大概没这么简单……他好像在和其他人说话，我们过去听听吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "马仔",
+          "PlotLineKey": "——雷哥，您是说……您找到了带兄弟们发财的新路子？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "老雷",
+          "PlotLineKey": "当然了，我以前在哪混你又不是不知道。那可是野兽帮！放心吧，有我牵头，这次买卖小不了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "马仔",
+          "PlotLineKey": "厉害啊，雷哥！您仔细说说，兄弟们最近手头正好有点紧……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "老雷",
+          "PlotLineKey": "呵，你知道宵月会吧？宵月会里可全是肥羊。唉。有钱人怎么就这么多呢！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "老雷",
+          "PlotLineKey": "我最近刚从班房出来，我之前跟你们说的那位大哥，有人脉，讲义气，还有路子。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "老雷",
+          "PlotLineKey": "只要我们跟着他干，在宵月会捞一票大的，以后我们也能当有钱人了！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "马仔",
+          "PlotLineKey": "雷、雷哥，请务必跟兄弟们引荐一下那位大哥。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "老雷",
+          "PlotLineKey": "怎么，然后再把我踹一边去，直接跟大哥干？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "马仔",
+          "PlotLineKey": "那哪能呢……我又不是不讲义气的人，我只是好奇……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "老雷",
+          "PlotLineKey": "那你就跟着我去见见世面吧，记住，把嘴都闭严实了！别让人家知道我们的大买卖。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "老雷",
+          "PlotLineKey": "大哥让我们凌晨两点到四点在桃源乡东边的树下交货，你好好准备准备，别让大哥挑出毛病来！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "马仔",
+          "PlotLineKey": "好嘞！您就放心吧！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "吟霖",
+          "PlotLineKey": "看起来，我们好像意外目击了一起有组织犯罪活动……{PlayerName}，你觉得我们现在应该怎么办才好呢？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 576,
+              "PlotLineKey": "不应该轻举妄动。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 577,
+              "PlotLineKey": "我们直接逮捕他们吧。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 578,
+              "PlotLineKey": "你是专家，我听你的。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "吟霖",
+          "PlotLineKey": "嗯，我也是这么想的。老雷还提到了一个神秘的“大哥”，从他们的对话来看，这个大哥才是这起犯罪活动的主谋。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "吟霖",
+          "PlotLineKey": "从他们的对话来看，老雷并不是这起犯罪活动的主谋。主谋应该是他提到的那个神秘的“大哥”。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "吟霖",
+          "PlotLineKey": "我认为，老雷提到的那个神秘的“大哥”才是幕后黑手。最好把他也找出来。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "吟霖",
+          "PlotLineKey": "还好，他们的会面时间和会面地点都有了。不如……就我们两个人去会会他们吧。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 579,
+              "PlotLineKey": "我去通知巡尉。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "吟霖",
+          "PlotLineKey": "等等，人太多了反而会打草惊蛇……我们两个人先去看看情况再说吧。到时候，我们见机行事。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "马仔",
+          "PlotLineKey": "——哈啊。雷哥，大哥什么时候来啊。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "老雷",
+          "PlotLineKey": "这是大哥的派头！重要人物都是压轴出场的！好好等着吧！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "老雷",
+          "PlotLineKey": "——啊，大哥来了！都给我立正，迎接大哥！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "一个熟悉的身影从树后面走向老雷。这个身影……你简直太熟悉了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "吟霖",
+          "PlotLineKey": "等等，那好像是……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 600,
+              "PlotLineKey": "不会吧……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 601,
+              "PlotLineKey": "怎么可能……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "吟霖",
+          "PlotLineKey": "黎叔……？别急，我们先听听他们在说什么。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "黎叔",
+          "PlotLineKey": "——等急了吧，小雷？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "老雷",
+          "PlotLineKey": "呵……呵呵，黎哥您说的哪里话。我们也是刚到。快，叫黎叔！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "马仔",
+          "PlotLineKey": "黎叔好！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "黎叔",
+          "PlotLineKey": "嗯，嗯……呵呵，年轻真好啊。如果我再年轻个几十岁，也就用不着麻烦你们了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "老雷",
+          "PlotLineKey": "不麻烦，不麻烦。都是为了赚钱嘛。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "黎叔",
+          "PlotLineKey": "我可不是为了钱……唉，说了你也不信。我的货呢，小雷？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "老雷",
+          "PlotLineKey": "就在那边的箱子里。您也知道，我在野兽帮也待了几天，这活计还是弄不错的……不然，您再掌掌眼？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "黎叔",
+          "PlotLineKey": "嗯，毕竟事关重大，我还是——",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "就在此时，不远处传来了残象的吼声。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "老雷",
+          "PlotLineKey": "——这声音……糟了，是箭簇熊！它一定是被咱们的货引过来的！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "马仔",
+          "PlotLineKey": "黎……黎叔，您是大哥，不然您……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "黎叔",
+          "PlotLineKey": "我、我要是年轻个二十岁，这家伙可不是我的对手！但现在……咳咳咳！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 602,
+              "PlotLineKey": "……他们好像被残象攻击了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "吟霖",
+          "PlotLineKey": "有趣……以我对黎叔的了解，他并不是个坏人。难道……他的伪装技术会比我还好吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "吟霖",
+          "PlotLineKey": "等解决掉残象再好好问问他吧。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "黎叔",
+          "PlotLineKey": "{PlayerName}，还有……吟霖？你们怎么在这里？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "老雷",
+          "PlotLineKey": "谢谢二位壮士——等等，你是……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "吟霖",
+          "PlotLineKey": "看好他们，{PlayerName}。我先看看他们的货……也许是什么危险品。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "不久后，吟霖回来了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1493,
+              "PlotLineKey": "箱子里是炸弹还是枪啊？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "吟霖",
+          "PlotLineKey": "……都不是，只是一些兽肉，看起来都很新鲜，品质也很高。我反复确认过了，箱子没有夹层，肉也没被下毒。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "吟霖",
+          "PlotLineKey": "说说吧，各位。这到底是……怎么回事？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "老雷",
+          "PlotLineKey": "……我交代，我坦白！都是黎哥让我们做的！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "黎叔",
+          "PlotLineKey": "等等，{PlayerName}……现在买兽肉也犯法了吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 626,
+              "PlotLineKey": "买兽肉……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "黎叔",
+          "PlotLineKey": "是啊，我最近在琢磨一道“秘制今州烤串”，打算在宵月会的摊子上卖。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "黎叔",
+          "PlotLineKey": "但烤肉的味道让我不太满意，我琢磨了好几天，才想到用新鲜的上品兽肉，加以炭火烤炙。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 627,
+              "PlotLineKey": "但这和流放者又有什么关系？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "老雷",
+          "PlotLineKey": "啊？流放者？我自从刑满释放之后，就不当流放者了啊。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "老雷",
+          "PlotLineKey": "黎哥知道我金盆洗手不容易，又知道我以前在 野兽帮干过，知道怎么狩猎，所以才雇我带兄弟们打猎的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 628,
+              "PlotLineKey": "那这身衣服是怎么回事？",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 629,
+              "PlotLineKey": "什么叫“在宵月会捞票大的”？",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 630,
+              "PlotLineKey": "为什么在偏僻的地方凌晨交易？",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 631,
+              "PlotLineKey": "我没问题了。",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "老雷",
+          "PlotLineKey": "我们去打猎，总不能穿那些又容易脏又容易破的衣服吧，还是这套衣服适合干活。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 16,
+          "Speaker": "老雷",
+          "PlotLineKey": "宵月会都是肥羊……啊呸，有钱的客人，黎哥的烤串肯定能大卖特卖！他给我们的分成也很大方！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 17,
+          "Speaker": "黎叔",
+          "PlotLineKey": "因为我得等到凌晨游客走得差不多了，才能扔下摊子来拿货啊……而且，这几个人穿着流放者的衣服，也进不去会场。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 18,
+          "Speaker": "吟霖",
+          "PlotLineKey": "嗯……理由和证据链都很充分。感谢你们配合调查，抱歉，二位，看来是我们搞错了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "老雷",
+          "PlotLineKey": "哪……哪有，我大概也弄明白了。都是我嘴笨，说那些江湖上的黑话说习惯了，一时改不过来。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "马仔",
+          "PlotLineKey": "对啊，别说是{PlayerName}和这位……吟霖小姐了，我都觉得雷哥你打算干什么违法乱纪的事。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 632,
+              "PlotLineKey": "做的是正当营生就好。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 633,
+              "PlotLineKey": "浪子回头金不换，继续加油吧！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "老雷",
+          "PlotLineKey": "{PlayerName}说得对，这次蹲完监狱我也想明白了，还是自己出力赚来的钱花起来安心。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "老雷",
+          "PlotLineKey": "黎叔，你要回宵月会的摊位吗？我们帮你抬箱子吧。不过我们只能送你到会场附近，剩下的路……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 634,
+              "PlotLineKey": "就交给我们吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "黎叔",
+          "PlotLineKey": "哦，好啊！ 那就谢谢了！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

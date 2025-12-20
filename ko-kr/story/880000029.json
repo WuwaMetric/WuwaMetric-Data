@@ -1,0 +1,993 @@
+{
+  "Id": 880000029,
+  "Name": "비전 점술",
+  "Description": "동현이 한 선배가 남긴 보물을 발견한 것 같다. 이 보물은 「달점」의 믿음직스러운 보물이 되기에 충분할 것 같다.\n\n해당 임무 완료 후 새로운 경영 파트너가 해제됩니다",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000029,
+  "ShowQuestList": [],
+  "QuestDesc": "동현이 한 선배가 남긴 보물을 발견한 것 같다. 이 보물은 「달점」의 믿음직스러운 보물이 되기에 충분할 것 같다.\n\n해당 임무 완료 후 새로운 경영 파트너가 해제됩니다",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 1,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "감심",
+          "PlotLineKey": "——죄송해요, 전 속세를 떠난 사람이지만 풍수지리나 점성술 같은 학문은... 그다지 익숙하지 않아요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "감심",
+          "PlotLineKey": "게다가 이런 일은 기연과 관련이 있으니 억지로 강요할 수 없네요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "동현",
+          "PlotLineKey": "그렇군, 에휴, 그럼 어쩔 수 없지. 다른 방법을 생각해 보는 수밖에",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "감심",
+          "PlotLineKey": "그렇게 하시는 게 좋을 것 같아요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 780,
+              "PlotLineKey": "무슨 일인가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "감심",
+          "PlotLineKey": "아, {PlayerName}. 별일 아니에요. 동현 아저씨께서 제게 제비뽑기 점괘를 풀어달라고 하셨는데 전... 점을 치는 데 능숙하지 못한 터라",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "동현",
+          "PlotLineKey": "말하자면 사연이 길다네. 내 비록 관상, 점 같은 것을 조금 볼 줄 알지만 어설프게 아는 터라... 뭔가 믿을 만한 걸 찾고 있다네",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 781,
+              "PlotLineKey": "믿을 만한 거라뇨?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "동현",
+          "PlotLineKey": "오래전, 금주에 떠돌이 점성술사가 있었는데 음양에 통달하고 하늘의 뜻을 읽을 줄 안다고 하더군. 그 사람에게 점을 치기 위해 사람들의 발길이 끊이지 않았었다고 해",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "동현",
+          "PlotLineKey": "신의 경지에 도달했다고 할 만큼 달점 실력이 대단했는데 아... {PlayerName} 자네는 이런 건 잘 알지 못하겠군",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "동현",
+          "PlotLineKey": "특별한 방식으로 구운 도자기에 깨끗한 물을 반만 채운 채 조용히 주문을 외우면서 물속에 비친 달을 보며 길흉을 점치는 달점이었지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "동현",
+          "PlotLineKey": "전해오는 이야기에 따르면 점성술사가 달점을 할 때면 그릇 안의 물이 황금빛으로 빛났고, 그릇 안에 비친 달빛은 선계처럼 아련하게 빛났다고 하지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "동현",
+          "PlotLineKey": "아쉽게도 그자의 생사도 알지 못한다는 거야. 들려오는 말에 따르면 그자가 금주를 떠날 때, 편지 한 통과 점괘 한 개를 놓고 갔다고 하더군",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "동현",
+          "PlotLineKey": "편지엔 자신이 금주에서 기인을 만나 대화를 나눈 뒤 자신의 부족함을 깨달았다고 해. 점성술 책을 봐도 별다른 재미를 느끼지 못했다면서",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "동현",
+          "PlotLineKey": "낙담한 끝에 그는 손을 씻기로 결심했지만 자신과 반평생을 함께해 온 그릇을 버리는 게 아쉬워서, 금주에 그릇을 보관했다고 하더군",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "동현",
+          "PlotLineKey": "점괘를 단서로 인연이 있는 사람이 언젠가 그릇을 찾아주기를 바라면서 말이야",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 782,
+              "PlotLineKey": "그래서 감심에게 점괘를 풀어달라고 한 거군요...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "동현",
+          "PlotLineKey": "바로 그게 점성술사가 남겨둔 단서라네. 그가 남긴 도자기에 영험한 기운이 깃들어 있을 것 같아서 가게에 두면 왠지 믿음직스러울 것 같아서 말이야",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "감심",
+          "PlotLineKey": "그분에 대한 이야기는 들어본 적 없지만 동현 아저씨의 말씀도 일리가 있네요. 점술을 볼 때는 분위기를 내는 게 확실히 중요하니까요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "감심",
+          "PlotLineKey": "그분도 누군가 자신이 남긴 보물을 찾아서 달맞이 축제에서 다시 주목받기를 바라실 거예요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 783,
+              "PlotLineKey": "그럼 점괘는 무엇인가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "동현",
+          "PlotLineKey": "으음? 하하, 이야기에 빠져서 깜빡할 뻔했... 점괘는 「자아를 찾으려면 전망대에 올라 호수를 보라. 어린아이의 마음으로, 의심 없이 행하라. 」 였네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "감심",
+          "PlotLineKey": "이 점괘는 점성술과 아무런 관련도 없는 것 같아요... 그래서 전 전혀 짐작도 가지 않아요. {PlayerName} 생각은 어떤가요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 784,
+              "PlotLineKey": "점괘에서는 어떤 장소를 언급한 것 같아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "감심",
+          "PlotLineKey": "호수를 바라볼 수 있는 전망대요...? 금주에 그런 곳이 있었나요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "동현",
+          "PlotLineKey": "...그러고 보니 나도 비슷한 곳을 찾아봤지만 아무런 수확도 없었다네. 아무래도 기연이 아직 오지 않은 탓일지도 모르겠군",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "감심",
+          "PlotLineKey": "어찌 됐든 단서가 있으면 됐죠! 동현 아저씨, 저희가 도자기를 찾아 드릴게요!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 785,
+              "PlotLineKey": "네. 우리한테 맡겨 주세요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "동현",
+          "PlotLineKey": "고맙네. 찾아 준다면 크게 사례하지! 잘 부탁하네! 감심, {PlayerName}!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "방랑자",
+          "PlotLineKey": "「호수를 볼 수 있는 전망대」... 점괘에서 말한 곳이 바로 여기인 것 같아요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "방랑자",
+          "PlotLineKey": "다음 내용은... 「어린아이의 마음으로, 의심 없이 행하라.」인데, 아마 근처에서 아이를 찾아야 하는 것 같아요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "감심",
+          "PlotLineKey": "일리가 있네요. 주변에 점괘와 관련된 단서가 있을지도 몰라요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "호숫가의 소녀",
+          "PlotLineKey": "으흥흥~",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "감심",
+          "PlotLineKey": "안녕하세요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "호숫가의 소녀",
+          "PlotLineKey": "으응? 호리병을 들고 있는 언니, 그리고 {Male=오빠;Female=언니}... 무슨 일이에요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 803,
+              "PlotLineKey": "혹시 이 근처에서 이상한 물건 본 적 있어?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "호숫가의 소녀",
+          "PlotLineKey": "이상한 물건이요...? 음, 호숫가에 자주 오긴 하지만 이상한 물건이라는 건...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "호숫가의 소녀",
+          "PlotLineKey": "...아, 맞다. 고양이요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "감심",
+          "PlotLineKey": "고양이...?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "호숫가의 소녀",
+          "PlotLineKey": "네, 맞아요! 이 근처에 고양이들이 웅크리곤 하는 곳이 있는데 거기 가면 꼼짝도 하지 않아요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "호숫가의 소녀",
+          "PlotLineKey": "호숫가에 올 때마다 항상 봤던 것 같아요. 엄마는 녀석들이 물고기를 잡으려고 그러는 거라는데 제가 보기엔 좀 이상해요...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "감심",
+          "PlotLineKey": "음, 고양이라... 어떻게 생각해요, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 804,
+              "PlotLineKey": "살펴볼 필요는 있을 것 같아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 805,
+              "PlotLineKey": "이상하다면 가서 확인해 봐야죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "호숫가의 소녀",
+          "PlotLineKey": "저기... {Male=오빠;Female=언니}는 순찰관인가요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 806,
+              "PlotLineKey": "아니에요",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 807,
+              "PlotLineKey": "우리는 보물을 찾으러 왔어요",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "호숫가의 소녀",
+          "PlotLineKey": "저기... 나쁜 사람 아니죠?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "감심",
+          "PlotLineKey": "아, 물론이죠. 저희는 오래전에 사라진 보물을 찾으러 왔어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "호숫가의 소녀",
+          "PlotLineKey": "보... 보물이요?! 와아, 근사해요!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "호숫가의 소녀",
+          "PlotLineKey": "보... 보물이요?! 와아, 근사해요!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "호숫가의 소녀",
+          "PlotLineKey": "아쉽지만 엄마가 위험한 일은 하지 말라고 했어요... 그래도 두 사람 모두 힘내세요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "감심",
+          "PlotLineKey": "좋아요, 이 축복 덕분에 꼭 보물을 찾아낼 수 있을 거예요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "호숫가의 소녀",
+          "PlotLineKey": "네!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "감심",
+          "PlotLineKey": "「수레에 먼지가 쌓일 때...」 이 구절은 이곳을 가리키는 것 같아요. 틀림없어요, 여긴 몇 년 동안 유지보수를 하지 않은 낡은 수레가 있으니까요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "감심",
+          "PlotLineKey": "제가 가서 살펴볼게요!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "감심",
+          "PlotLineKey": "찾았어요, {PlayerName}!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "감심",
+          "PlotLineKey": "나무 상자 하나가 더 있어요. 무게가 조금 다른 것 같은데... 안에 있는 게 또 종이쪽지는 아니겠죠",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 834,
+              "PlotLineKey": "그럴지도 모르겠네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 835,
+              "PlotLineKey": "취향이 고약하네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "감심",
+          "PlotLineKey": "역시 그렇네요. 「참된 나를 찾고자 한다면 거리를 두루 돌아다녀라. 이익만 따르는 정자는 결국 공허해질 것이다.」 이게 다음 단서인 것 같아요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "감심",
+          "PlotLineKey": "이익만 추구하는 정자라... 제 생각엔 상가를 말하는 것 같아요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 836,
+              "PlotLineKey": "대단해요, 감심!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 837,
+              "PlotLineKey": "당신도 요령을 찾은 것 같은데요!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "감심",
+          "PlotLineKey": "아훗... 그냥 아무렇게나 찍은 거라 맞는지 틀리는지는...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 838,
+              "PlotLineKey": "가보면 알겠죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "감심",
+          "PlotLineKey": "네! 이제 곧 답을 찾을 수 있을 것 같아요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "감심",
+          "PlotLineKey": "가게가 이렇게 많은데... 어쩔 수 없죠, 하나하나씩 살펴보는 수밖에요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "방랑자",
+          "PlotLineKey": "잠깐만요, 감심. 점괘에서 말한 이익만을 따르는 정자는 대형 상점을 가리키는 것 같지 않아요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "감심",
+          "PlotLineKey": "일리가 있어요. 그럼 작은 상점을 찾아보죠",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "감심",
+          "PlotLineKey": "{PlayerName}이(가) 맞았어요. 점괘에서 말한 곳은 작은 상점이었어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "감심",
+          "PlotLineKey": "네... 나무 상자가 꽤 무거운 걸 보니 도자기가 여기 들어 있는 것 같아요. 열어보실래요, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 850,
+              "PlotLineKey": "열어보죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "감심",
+          "PlotLineKey": "점성술사가 남긴 보물이라니... 조금 긴장되네요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "당신과 감심이 함께 나무 상자를 열자 안에 평범해 보이는 검은색 도자기가 들어있었다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "감심",
+          "PlotLineKey": "이게 그 보물인가요? 하지만 보기엔...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 851,
+              "PlotLineKey": "...그저 평범한 도자기처럼 보이는 걸요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "감심",
+          "PlotLineKey": "알 것 같아요. 물이 깊을수록 소리가 없다는 말처럼 귀한 보물일수록 소박하죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "감심",
+          "PlotLineKey": "어쩌면 이걸로 점을 쳐야 그 진가를 알 수 있을지도 몰라요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 852,
+              "PlotLineKey": "그럴지도 모르겠네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 853,
+              "PlotLineKey": "그럴까요...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "감심",
+          "PlotLineKey": "어쨌든 일단 동현 아저씨께 가져다드리죠",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "감심",
+          "PlotLineKey": "이쪽 일도 끝난 것 같네요. 고마워요, {PlayerName}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "감심",
+          "PlotLineKey": "하지만 전설 속 신통방통한 황금빛 보물이 결국 평범한 도자기였다니",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1443,
+              "PlotLineKey": "실망한 것 같은데요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "감심",
+          "PlotLineKey": "네, 조금은요. 그렇지만 동현 아저씨는 기뻐하시는 것 같았어요. 그분에게 도자기 그 자체가 보물이었던 거겠죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "감심",
+          "PlotLineKey": "하지만 그 이유 때문이 아니라 그냥... 죄송한 마음이 들어서요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "감심",
+          "PlotLineKey": "둘이서 함께 오랫동안 돌아다니며 수수께끼도 풀고, 단서도 찾았는데 얻은 결과가 겨우 이거라니",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1444,
+              "PlotLineKey": "괜찮아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1445,
+              "PlotLineKey": "마음에 두지 마세요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "감심",
+          "PlotLineKey": "아니에요, {PlayerName}이(가) 이렇게까지 해주셨는데 어떻게든 답례해야죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "감심",
+          "PlotLineKey": "답례... 답례라... 음, 생각해 볼게요...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "감심",
+          "PlotLineKey": "아, 맞아요! 최근에 다관에서 급여를 받았는데 이걸로 맛있는 것 사드릴게요!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1446,
+              "PlotLineKey": "좋아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1447,
+              "PlotLineKey": "그럼 잔뜩 먹어야겠네요!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "감심",
+          "PlotLineKey": "네, 마음껏 시키세요!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "동현",
+          "PlotLineKey": "——아, 어서 오게! 어떤가, 도자기를 찾았나?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 872,
+              "PlotLineKey": "찾긴 찾았어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 873,
+              "PlotLineKey": "보물 같진 않던데요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "동현",
+          "PlotLineKey": "으음... 괜찮네. 기록된 대로 맑은 물을 담은 뒤에 달점 주문을 외워보지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "동현",
+          "PlotLineKey": "달이 그릇 안을 비출 때 신묘한 힘이 드러날 걸세",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "감심",
+          "PlotLineKey": "역시 보물이네요. 어서 해보세요, 동현 아저씨!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "동현이 도자기에 물을 반 정도 채운 뒤에 주문을 외웠지만—— 아무 일도 일어나지 않았다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "감심",
+          "PlotLineKey": "잠깐, 황금빛은요...?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 874,
+              "PlotLineKey": "달빛만 보이네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 875,
+              "PlotLineKey": "그러게요, 황금빛은요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "동현",
+          "PlotLineKey": "...음, 자네들이 찾아온 도자기가 그분이 남기신 것이 맞아",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "동현",
+          "PlotLineKey": "하지만 지금 보니 그저 평범한, 점을 칠 때 쓰는 그릇일 뿐이었군",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "감심",
+          "PlotLineKey": "그럴 리가요...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "동현",
+          "PlotLineKey": "세상일이라는 건 사람의 입을 통해 전해지면서 부풀려 지거나 조작되는 경우가 허다하지. 그분께 확실히 특별한 점이 있었을지도 몰라",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "동현",
+          "PlotLineKey": "허나 세월이 흐르면서 이야기도 변해버린 것이겠지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "동현",
+          "PlotLineKey": "나도 연극을 보는 것을 좋아하지만 극 중에 나오는 머리 셋, 팔 여섯 달린 영웅이나 한 손으로 무쇠솥을 들어 올리는 장사 같은 건 후대에 지어낸 가공의 존재지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "감심",
+          "PlotLineKey": "그럼 이 그릇은 결국에 아무런 쓸모도 없는 건가요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "동현",
+          "PlotLineKey": "아니, 그건 절대로 아니야! 여기엔 가게를 지켜주는 믿음직스러운 기운이 담겨져 있어. 보물의 가치는 그 자체의 효과에만 그치지 않는다는 걸 명심하게나",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "동현",
+          "PlotLineKey": "이야기, 재미있고 우여곡절로 가득한 이야기, 감동을 줄 수 있는 이야기가 보물이 지닌 진정한 가치라네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "감심",
+          "PlotLineKey": "그, 그렇군요. 큰 가르침을 받았습니다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "동현",
+          "PlotLineKey": "어찌 됐든 도와줘서 고맙네. {PlayerName}, 그리고 감심. 자네들 덕분에 그릇을 찾았어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "동현",
+          "PlotLineKey": "보물의 기운을 받아 가게 간판도 무사히 내걸 수 있을 거야!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "감심",
+          "PlotLineKey": "찾았어요, 나무 상자가 있네요... 음? 이건 무슨 냄새죠?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 818,
+              "PlotLineKey": "약 냄새 같은데요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "감심",
+          "PlotLineKey": "...나무 상자 속에 들어있는 게 고양이를 끌어들인 모양이네요. 게다가 오랫동안 썩지 않은 약재인 것 같아요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "감심",
+          "PlotLineKey": "역시 보통내기가 아닌 것 같아요. 하지만... 오랜 세월이 지난 뒤에 어린이가 수수께끼를 풀 거라고 예언할 수 있는 신통술이라는 게 세상에는 정말 존재하는 걸까요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 819,
+              "PlotLineKey": "아이의 호기심 때문일 거예요",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 820,
+              "PlotLineKey": "어쩌면 진짜 점괘에서 나온 걸지도 모르겠네요",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "감심",
+          "PlotLineKey": "확실히 그렇긴 해요. 어린이의 생각은 순수하고, 세속에 물들어 있지 않으니까요. 어른보다 더 민감하게 관찰할 수 있었을 거예요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "감심",
+          "PlotLineKey": "사부님의 말씀이 사실인 것 같아요. 점성술이라는 게 속임수인 것만은 아닌 것 같아요... 아쉽지만도 제겐 그걸 연구하고 깨달을 기연이 없는 것 같아요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "감심",
+          "PlotLineKey": "같이 나무 상자를 열어 볼까요? 어쩌면 도자기가 안에 들어있을지도 모르잖아요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "당신과 감심은 나무 상자를 열었지만 상자 안에는 비단 주머니 안에 들어 있는 약재 외에 빛바랜 쪽지만 들어있었다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "감심",
+          "PlotLineKey": "「...근본을 찾고자 한다면 이리저리 얽힌 길로 가라. 수레에 먼지가 쌓일 때 나의 길은 어디인가?」 지난번 점괘랑 무척 비슷한데요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 821,
+              "PlotLineKey": "또 다른 단서인 것 같아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "감심",
+          "PlotLineKey": "...저, 저는 전혀 모르겠어요. {PlayerName}은(는) 뭔가 감이 잡히시나요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 822,
+              "PlotLineKey": "어느 정도는요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "감심",
+          "PlotLineKey": "역시 {PlayerName}이네요!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

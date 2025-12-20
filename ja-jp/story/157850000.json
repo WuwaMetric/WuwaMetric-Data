@@ -1,0 +1,238 @@
+{
+  "Id": 157850000,
+  "Name": "汚された夢",
+  "Description": "挑戦をクリアし、ドリームノードの後ろに隠れた悪夢を倒す",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 157850000,
+  "ShowQuestList": [],
+  "QuestDesc": "挑戦をクリアし、ドリームノードの後ろに隠れた悪夢を倒す",
+  "Conditions": [
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 157850001
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 169850002
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 169850000
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 169850004
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "{PlayerName}、聞こえるか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "セブン・ヒルズに現れたナイトメア残像の消滅を確認した。やはり、あなたがやってくれたんだな、ありがとう。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 51,
+              "PlotLineKey": "大したことじゃない。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 52,
+              "PlotLineKey": "観光客として通りがかっただけ。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "それでも、私たちに意外な収穫をもたらしてくれた......実は、セブン・ヒルズのドリームサンプルの中で、ある特別なものを発見したんだ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "偶然か、それとも運命か......とにかく、あなたの協力に感謝している。実は、セブン・ヒルズのドリームサンプルの中で、ある特別なものを発見したんだ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "前回もらった心の集域映画祭の招待状を覚えているか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 53,
+              "PlotLineKey": "覚えている。",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 54,
+              "PlotLineKey": "覚えていない。",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "覚えてくれていて助かる。ここ数日、あの招待状のことでずっと悩んでいたんだ。何せ深海層は、私たちが探知できない特殊な夢境だからな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "セブン・ヒルズのデータサンプルで似たような周波数を見つけた。あの時招待状が深海層の封鎖を突破して、あなたのところに届いたのも、この周波数が持つ特殊な力が原因かもしれない。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "それでも問題ない。簡潔に言うと、心の集域の深層夢境がなぜ突然活発になったのか、原因が概ね分かったんだ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "しかし、私たちの推測を検証するにはサンプルが足りない。もしよければ、他のナイトメア残像も片付けてくれないか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "そいつらの位置を送った。終わったら、こちらも相応の報酬を用意する。頼んだぞ、{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "{PlayerName}、ドリームサンプルを全て確認できた。よくやった。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 67,
+              "PlotLineKey": "結果は？",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 68,
+              "PlotLineKey": "報酬は？",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "白きゲートキーパー",
+          "PlotLineKey": "{PlayerName}、正直に言うと、状況は思ってたよりずっと複雑だニャー！今回サンプルで発見したのは、前に映画館で出た——",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "白きゲートキーパー",
+          "PlotLineKey": "報酬は後で届けるニャー。約束は破ったりしない！{PlayerName}、知っているか？今回のサンプルで発見したのは、前に映画館で出た——",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "口を挟むな。進捗報告は私の仕事だろう！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "白きゲートキーパー",
+          "PlotLineKey": "......ニャー。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "手短に言うと、セブン・ヒルズに現れたナイトメア残像は特殊な周波数を纏っている。以前深海層との繋がりが回復した時に届いた招待状には、それと似たものがあったんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "今のところ確かなのは、ずっとリナシータの心の集域に繋がらなかった原因が、この周波数にあるということだけ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "この力がどこから来たかはまだ定かではない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "白きゲートキーパー",
+          "PlotLineKey": "あの黒潮という災害に関わっているんじゃないかと、私たちは推測してるニャー！集めた悪夢のサンプルにも黒潮関連の悪夢があったし！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "だから、報告は私の役目だと言っているだろう！根拠もない推測を口にするな！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "とにかく、集域の深海層の状況はまだ把握していないが、この周波数が集域とリナシータにさらなる影響を及ぼす可能性は十分にある。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "黒きゲートキーパー",
+          "PlotLineKey": "もし{PlayerName}がリナシータ以外の地域に向かうのなら、そこのナイトメア残像にも注意してほしい。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

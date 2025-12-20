@@ -1,0 +1,655 @@
+{
+  "Id": 126000006,
+  "Name": "Journal of Jinzhou: Vo.1",
+  "Description": "You see two engaging in a heated discussion on the journal. Go and check what has happened.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 126000006,
+  "ShowQuestList": [],
+  "QuestDesc": "You see two engaging in a heated discussion on the journal. Go and check what has happened.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100005,
+      "PreQuestName": "Ominous Star"
+    },
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 12
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Girl",
+          "PlotLineKey": "The textbooks are boring enough already, sis. Can’t we make the magazine just a little more interesting?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Girl",
+          "PlotLineKey": "Why don’t we just go to the theater and hire a storyteller to add a few finishing touches for us?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Female Instructor",
+          "PlotLineKey": "How many times have I told you, writing a publication is a very serious matter, even if it’s an extracurricular one?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Girl",
+          "PlotLineKey": "If the magazine is boring, how can you expect it to become popular with students?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Girl",
+          "PlotLineKey": "Wouldn’t it contradict the very purpose behind starting the magazine?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Female Instructor",
+          "PlotLineKey": "You’re right. A popular magazine needs to set itself apart from an academic journal. I should think from our readers’ perspective.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Female Instructor",
+          "PlotLineKey": "Thanks for the reminder. I nearly got caught up in the details again!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Girl",
+          "PlotLineKey": "Well, I’m a potential reader too, you know!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Female Instructor",
+          "PlotLineKey": "Potential reader... That makes sense. I should listen to people’s thoughts and opinions more!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Girl",
+          "PlotLineKey": "Hehe, there you go!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Girl",
+          "PlotLineKey": "Please excuse me, friend that’s passing by. My name is Xingzhu, and you?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 204,
+              "PlotLineKey": "I’m {PlayerName}.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "Oh! I’ve heard of the name. The incredible Rover.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "With your skills, can I ask you a favor in lending my sister a hand?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "Don’t worry, it won’t take you long. It’s really just a small favor, please!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Female Instructor",
+          "PlotLineKey": "Ahem. Hello, {PlayerName}. Allow me to introduce myself.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Female Instructor",
+          "PlotLineKey": "My name is Yingzhu, I work for the textbook department of the Jinzhou Institute. I’m currently responsible for writing an extracurricular magazine for the students.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "It’s called “A Look Inside Jinzhou”, to broaden students’ horizons and satisfy their curiosity.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "But my sister thought the draft was too narrow in terms of who would be interested in it. If it doesn’t catch on, it won’t serve its purpose of helping people learn.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "{PlayerName}, do you mind helping us by taking a small test?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "It’s only a simple quiz. It wouldn’t matter if you answer them correctly or not.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "I just want to confirm whether the learning points are that uncommon and perplexing or not.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 205,
+              "PlotLineKey": "I’m pretty confident with my know-how.",
+              "PlayVoice": false,
+              "JumpToId": 22
+            },
+            {
+              "TextId": 206,
+              "PlotLineKey": "I hope I won’t make a fool of myself.",
+              "PlayVoice": false,
+              "JumpToId": 24
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "I can’t thank you enough!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "I look forward to your performance.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "You can just think of it as us having a casual chat. I’m also curious about what you’ve seen and heard in Jinzhou so far.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "The test results will be kept confidential, and will only be used as a reference for future writing changes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "So you don’t need to worry too much, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "The first question is about the Sentinel of Jinzhou, which is super basic!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "What is the Sentinel of Jinzhou called?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 122,
+              "PlotLineKey": "Dragon",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 123,
+              "PlotLineKey": "Jué",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 124,
+              "PlotLineKey": "Light",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 0,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "The next question is about a widely used scientific technology called Tacetite Weapons.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "Which department of the Huaxu Academy is responsible for making Tacetite Weapons?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 143,
+              "PlotLineKey": "Department of Safety",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 144,
+              "PlotLineKey": "Department of Anomaly Studies",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 145,
+              "PlotLineKey": "Department of Resources",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 0,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "This question is about a special dish from Jinzhou.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "Which of these isn’t in the recipe for famous Spicy Pulled Chicken?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 159,
+              "PlotLineKey": "Fowl",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 160,
+              "PlotLineKey": "Chili",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 161,
+              "PlotLineKey": "Caltrop",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 0,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "These Q&A gave me fresh ideas for our next issue of “Jinzhou: A Closer Look”.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "I missed a bunch of stuff by working alone before...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "Please take these rewards, you earned them.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "Your feedback is super helpful!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "Can we ask for your help again in the future?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "No, we can’t keep bothering {PlayerName} like this…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 186,
+              "PlotLineKey": "I don’t mind helping you again.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 187,
+              "PlotLineKey": "It’s a fair trade.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "When “Jinzhou: A Closer Look” is published, I will surely put your name on the acknowledgement page!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "Looking forward to a great collaboration ahead.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "We’ll have more Q&A next time, so get ready!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "Rest assured, we won’t let you contribute for nothing.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Yingzhu",
+          "PlotLineKey": "As a token of thanks, I will also put your name on the acknowledgement page.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "Yes! {PlayerName}’s help is worth remembering!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "{PlayerName}, next time I will also prepare some questions. They’ll be way more interesting than my sister’s.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xingzhu",
+          "PlotLineKey": "Looking forward to a great collaboration ahead.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

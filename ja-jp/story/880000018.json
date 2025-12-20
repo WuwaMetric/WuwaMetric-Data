@@ -1,0 +1,554 @@
+{
+  "Id": 880000018,
+  "Name": "明月を誘いながら",
+  "Description": "願いの木の下に、再び相里要と出会った。今度共に歩くのは、人の願いのためではなく、賑やかな街の一景と皓月を満喫するため。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000018,
+  "ShowQuestList": [],
+  "QuestDesc": "願いの木の下に、再び相里要と出会った。今度共に歩くのは、人の願いのためではなく、賑やかな街の一景と皓月を満喫するため。",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 880700004,
+      "PreQuestName": "月追進行中"
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 182,
+              "PlotLineKey": "<ano=ソウリ>相里</ano>？これって……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 183,
+              "PlotLineKey": "{Male=まだ願いがあったのか？;Female=まだ願いがあったの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "いや、{PlayerName}のおかげで、今年の願い事の対応は全て終わったよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "今やっているのは、<ano=つきのきや>月樹屋</ano>の「アフターサービス」みたいなものかな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "叶った願いは、こうして木に掛けるんだ。あと、ここに来られない、もしくは来たくない人の分は僕が代わりに掛けているよ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 184,
+              "PlotLineKey": "{Male=そういう時こそ俺の出番！;Female=そういう時こそ私の出番！}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 185,
+              "PlotLineKey": "最後まで手伝わせて。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "その気持ちは来年までお預けかな。{PlayerName}が来る前に、最後の1個が終わっちゃったんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "<ano=げっついさい>月追祭</ano>の間、願いが叶った人たちが次々と灯ろうを掛けに来てくれてね。手元に残ったのはほんの少し……来れなかった人の分だけ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "それに、君は今年の<ano=げっついさい>月追祭</ano>のために随分と奔走してくれた。だから、君にも初めての<ano=げっついさい>月追祭</ano>をちゃんと満喫してほしいんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "後は僕に任せてほしい。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 186,
+              "PlotLineKey": "じゃあ、お言葉に甘えようかな。",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 187,
+              "PlotLineKey": "時間ならあるから大丈夫。",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "うん。休める時にちゃんと休まないとね。それがお祭りの日なら尚更だ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 11,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "君は今州に来てからずっと忙しそうだね。でも、時間は有限。上手く使うんだよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "楽しい時間は、あっという間に過ぎ去ってしまうから。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "もうすぐ<ano=げっついさい>月追祭</ano>は終わるけど、<ano=よいづきかい>宵月会</ano>の露店ならまだやってるよ。まだ遊び足りないのだったら、セールを始めたお店も多い頃合いだし、行ってみたらどうかな？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 188,
+              "PlotLineKey": "<ano=ソウリ>相里</ano>は<ano=よいづきかい>宵月会</ano>に詳しいね。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 189,
+              "PlotLineKey": "そういうことを知ってるなんて意外。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "こう見えて、気になるお店は毎年すべて行っていたんだ。今年はその余裕がなかったけどね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "{PlayerName}も何年かここにいれば、これぐらいわかるようになるよ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 190,
+              "PlotLineKey": "本当？研究しかやっていないと思ってた。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "あはは、それは否定できないかも。一人で理論やデータ、検証待ちの仮説に浸っている時間は、僕にとって大切なものだからね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "でも、時々研究から離れて賑やかな喧騒の中に飛び込むのも、また違った楽しみがあって良いものだ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 191,
+              "PlotLineKey": "<ano=ソウリ>相里</ano>が一番好きなお店は何？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 192,
+              "PlotLineKey": "オススメのお店はある？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "僕のかい？君もすでに色々と見てきているだろうし……ここは僕と一緒に少し散策してみようか。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "<ano=ソウリヨウ>相里要</ano>はあなたを連れて<ano=よいづきかい>宵月会</ano>を見て回った。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 193,
+              "PlotLineKey": "そこの店は、<ano=つきつぼうち>月壺打ち</ano>？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "うん。そういえば、この前<ano=つきつぼうち>月壺打ち</ano>をやった時……君、興味津々だったよね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "{PlayerName}は実戦経験が豊富だし、あらゆる能力が平均値を超えている。射撃の腕だっていいはずだ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 194,
+              "PlotLineKey": "まあ、1位には届くかはわからないけどね。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 195,
+              "PlotLineKey": "自信はある。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "なら、より挑戦的な遊び方を教えてあげよう。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 196,
+              "PlotLineKey": "気になる。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "<ano=つきつぼうち>月壺打ち</ano>はいつも大人気なんだ。店主が毎日的を張り替えても、すぐにボロボロになってしまうほどにね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "でも、実は中心から指半分くらい下を狙うと当てやすいという裏ワザがあってね……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "やり方自体はそう珍しくないけど……銃口に角度をつけて、的のウサギの左耳と手元が水平になるよう、照準を合わせて撃つことがポイント。これで中心を撃ち抜くと同時に、貫通させた弾を次の的の中心まで到達させられる。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 197,
+              "PlotLineKey": "{Male=1発で……2つも撃ち抜くのか？;Female=1発で……2つも撃ち抜くの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "その通り。ふさわしい角度を見つけて、後は力を利用する。まあ、原理としては子供の頃に川辺でやった水切りみたいなものかな。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 198,
+              "PlotLineKey": "{Male=何だか……すごい遊び方だな。;Female=何だか……すごい遊び方だね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 199,
+              "PlotLineKey": "{Male=現実離れした遊び方だけど、本当にできるのか？;Female=現実離れした遊び方だけど、本当にできるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "一昨年の<ano=げっついさい>月追祭</ano>で実際にお店でやってみたんだけど、1発で3つの的を撃ち抜いたよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "それから店主がこれを客引きの目玉にし始めたんだ。なんでも、僕の記録を破ったら、月見限定プレゼントがもらえるらしいよ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 200,
+              "PlotLineKey": "{Male=賞品まであるのか？やってみたいかも……;Female=賞品まであるの？やってみたいかも……}",
+              "PlayVoice": false,
+              "JumpToId": 30
+            },
+            {
+              "TextId": 201,
+              "PlotLineKey": "まさか記録保持者が目の前に……",
+              "PlayVoice": false,
+              "JumpToId": 31
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "ふう、よかった。興味を持ってくれて嬉しいよ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 32
+        },
+        {
+          "Id": 31,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "{PlayerName}なら、僕の記録なんてアッサリ破ってしまうんじゃないかな。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 32
+        },
+        {
+          "Id": 32,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 202,
+              "PlotLineKey": "全ての的を1回で撃ち抜くことはできる？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 33,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "それはさすがに難しそうだね……小数点以下2ケタまで計算が必要になるのかな……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "もしかしたら、義手を使えばできるかもしれないけど、それじゃ出禁にされてしまいそうだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "そうならないためにも、引き続き左手を使うつもり。{PlayerName}との公平な勝負のためにもね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "まあ実際のところ、僕は結果より未知へと辿り着く過程の方に興味があるんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 37,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "これは研究ではないから、勝ち負けより、この「遊び」を楽しめたかどうかの方が重要だと思う。{PlayerName}もそう思わないかい？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "{Male=俺もそう思う。;Female=私もそう思う。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "もちろん。楽しむことに意味がある！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 38,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "それじゃあ……来年の<ano=げっついさい>月追祭</ano>も一緒に回れるよう、君を予約しておこうかな。{PlayerName}？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 205,
+              "PlotLineKey": "え？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 206,
+              "PlotLineKey": "{Male=随分と先の予約だな。;Female=随分と先の予約だね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 39,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "あはは、変だよね。来年の今、君が何をしているかなんてわからないのに。でも、この月を見ていたら、君に今、伝えなきゃいけない気がしたんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "もちろん、一緒にみんなの願いを叶えるのも楽しかった。けど、君と一緒に<ano=つきつぼうち>月壺打ち</ano>をしたり、団らん餅屋で新しいお菓子を食べてみたい。人混みに流されながら、目的もなく歩いてみたい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "まだ1年も先のことなのに、君と一緒にやってみたいことがいくらでも思いつくんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 42,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "まだ具体的な予定は立てていないけど、君と過ごす<ano=げっついさい>月追祭</ano>は、きっと最高に楽しい時間になるんじゃないかな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 43,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "そういうことなら……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 208,
+              "PlotLineKey": "実は、来年のことで考えがあるんだけど……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 44,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 209,
+              "PlotLineKey": "（やってなかったことをやってみる……）",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 210,
+              "PlotLineKey": "（<ano=ソウリヨウ>相里要</ano>と一緒に過ごす約束をする……）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 45,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "じゃあ、君のその願いは、来年の<ano=げっついさい>月追祭</ano>の願い事として受理しよう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 46,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "<ano=つきのきや>月樹屋</ano>の使命のため、僕自身のため………",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "相里要（ソウリヨウ）",
+          "PlotLineKey": "そして、君のために、必ず叶えるよ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

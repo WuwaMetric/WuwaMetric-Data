@@ -1,0 +1,827 @@
+{
+  "Id": 139700002,
+  "Name": "解けないギミック",
+  "Description": "先駆条約が用意してくれた沢山の狐くじの景品の中から、長離がその伝説の大当たりを引いたとは…そしてそれはなんと、稷廷財宝の宝地図であった。\n\nクリア後、新しい「経営仲間」を解放。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700002,
+  "ShowQuestList": [],
+  "QuestDesc": "先駆条約が用意してくれた沢山の狐くじの景品の中から、長離がその伝説の大当たりを引いたとは…そしてそれはなんと、稷廷財宝の宝地図であった。\n\nクリア後、新しい「経営仲間」を解放。",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 7,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "ふっ……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 500,
+              "PlotLineKey": "{Male=何を見てるんだ、長離？;Female=何を見てるの、長離？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "おや、{PlayerName}。あの者たちが狐くじをやっているのを見ているのよ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 501,
+              "PlotLineKey": "自分でもやってみては？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "それもいいかも。では、やってみよう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "<ano=チョウリ>長離</ano>は露店の前に行き、無造作にルーレットを回した。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "……おお、また当たりましたね、<ano=チョウリ>長離</ano>様。去年も……いえ、これまでずっと、お回しになられたときは毎回お当たりですね。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 502,
+              "PlotLineKey": "まさか……これも計画のうちとか？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "いえ……単に運がよかっただけであろう。当たり外れは運によるもの、計略でどうこうできるものではないのよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "これはっ！<ano=チョウリ>長離</ano>様！今リストで確認しましたところ、お当たりになったのは今年の<ano=よいづきかい>宵月会</ano>でただ一つのスーパーサプライズ大賞のようです！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 503,
+              "PlotLineKey": "スーパーサプライズ大賞……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 504,
+              "PlotLineKey": "ただ一つ……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "ええ。大賞と申しましても、実際には……宝地図といいましょうか、大賞の手がかりのようなものなのですが。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "ほう……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "実は、数日前に<ano=せんくじょうやく>先駆条約</ano>の探検家が今州の近くで変わったプラットフォームを発見したんです。見たところ、どうも古いもののようです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "そのプラットフォームはギミックによってロックされていて、どうやら<ano=しょくてい>稷廷</ano>が作ったものらしいです。探検家たちはあらゆる手を尽くしましたが、ギミックを解くことができませんでした。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "困り果てた探検家のうちの一人が、「これはもう、人の力ではお手上げだ。運の力で解くしかない」と冗談半分にぼやきました。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 505,
+              "PlotLineKey": "それで、その冗談を実行に移したというわけか。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "そのとおりです。私とっさに思いついたのです。狐くじの景品のなかにこの大賞を混ぜておけば、いちばん強運な方に引き当ててもらえる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "その方が思いがけず運の力でプラットフォームの謎を解いてくださるかもしれないと。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 506,
+              "PlotLineKey": "<ano=チョウリ>長離</ano>なら……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 507,
+              "PlotLineKey": "<ano=チョウリ>長離</ano>は興味ある？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "おもしろそうね……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "{PlayerName}、一緒に行かない？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 508,
+              "PlotLineKey": "もちろん。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 509,
+              "PlotLineKey": "その中にはきっとお宝の山が！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "それでは……のちほどお二人のデバイスに、われわれの発見したコントロールキーとプラットフォームの位置情報をお送りいたしますね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "成功をお祈りします！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "……そうね、間違いない。<ano=しょくてい>稷廷</ano>様式のギミックね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "おもしろいわね。普通の<ano=しょくてい>稷廷</ano>のギミックとは構造が少し違って、多層の入れ子状になっている。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 519,
+              "PlotLineKey": "多層の入れ子？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "これは実際には、互いに連結した4つのギミックでできている。すべてのギミックを解くには、特定の順序で、しかも一定時間内に、謎解きを完了させる必要がある。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 520,
+              "PlotLineKey": "もし失敗したら？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "最悪の場合、プラットフォーム自体が自動崩壊するかもしれない。妾たちも不測の事態に巻き込まれるでしょう……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "……というのは冗談。<ano=せんくじょうやく>先駆条約</ano>の探検家たちがきっと何度も試みたはず。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "このプラットフォームの安全性が確認できていなかったら、ここを狐くじの景品にするはずがない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "おそらく、失敗しても謎解きが初期状態にリセットされるだけでしょう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 521,
+              "PlotLineKey": "それなら難しいことはない。一つ一つ試してみよう。",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 522,
+              "PlotLineKey": "やはり付近で手がかりを探そう。",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "それもよいが、4つのギミックには24通りの組み合わせがある……それに、ギミックが何と連結しているかわからない。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 10,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "うむ、そうしよう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "成功よ、{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "どんなお宝があるか見てみましょう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "<ano=センシン>繊晨</ano>の言っていたお宝はないようね。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 542,
+              "PlotLineKey": "あるのは1冊の本だけ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "ふむ……おもしろい。これが日誌にある『ギミックマスターDの最新ビックリギミック大全』ね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "思ったとおり……隅から隅まで複雑な暗号で書かれている。挿絵から推測するに、いろいろな機巧術の作り方が説明されているようね。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 543,
+              "PlotLineKey": "謎が謎を呼ぶ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 544,
+              "PlotLineKey": "さすがギミックマスター。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "他には何もないようだから、帰りましょう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "{PlayerName}さん、おかえりなさい。宝物は見つかりましたか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 639,
+              "PlotLineKey": "見つけたのは1冊の本だけ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "えっ、本ですか？まさか……ちょっと見せていただけますか！？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "<ano=センシン>繊晨</ano>に本を渡した。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "や、やはりこれは、今まで発見されていなかったギミックマスターDの新作！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "す、すごい。これらの本のうわさは耳にしていましたが、実物を見たのは初めてです！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 640,
+              "PlotLineKey": "えっ、「これら」？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "ええ、他にも色々ありますよ。『ギミックマスターDの超クールなマジックギミック』『ギミックマスターDの大人気ソーシャルギミック』『ギミックマスターDの究極激ムズギミック』……。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "これらの本は、<ano=しょくてい>稷廷</ano>の怪人「ギミックマスターD」が発明したとびきりの機巧術が記されていますから、<ano=せんくじょうやく>先駆条約</ano>にとっては非常に価値のあるものです！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "<ano=せんくじょうやく>先駆条約</ano>にたくさんいる機巧術専門家たちはみんなこれらの本の秘密を知りたがっています。秘密がわかれば、探検家たちが記録の残っていない古いトラップを解き明かせるようになるかもしれませんから。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "これらの本を<ano=せんくじょうやく>先駆条約</ano>にお譲りいただけませんか？お願いします！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 641,
+              "PlotLineKey": "別にいいよ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "妾もかまわぬ。あなたたちにとって重要なものなら、持っていくがよい。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "繊晨（センシン）",
+          "PlotLineKey": "あ、ありがとうございます、{PlayerName}さん！お礼はたっぷりご用意いたします！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "<ano=センシン>繊晨</ano>は本を持ったまま深くお辞儀し、立ち去った。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "なんというか、結果から考えると、妾たちはお宝を見つけていたようね……ちょっと違う形ではあったけど。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 642,
+              "PlotLineKey": "こういう結果になると最初からわかっていたのでは？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "あら……見破られちゃった？そうよ。以前、蔵書に目を通していたときに、ギミックマスターDに関する記述を見たの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "ギミックマスターDが多くのギミックを残し、ギミックに関する難解な書を記したことが書かれていた。<ano=せんくじょうやく>先駆条約</ano> は <ano=こうりゅう>瑝瓏</ano>の探索の任務を担っているから、きっとギミックマスターDについてよく知っているはず。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "もっとも、お宝のたぐいにはそもそも興味がないのだけれどね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "妾にとっては、今日の最大の収穫は財宝でも、ギミックマスターDの貴重な著作でもない。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 643,
+              "PlotLineKey": "じゃあ何？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "そうね、{PlayerName}……何でしょうね……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "まあ、この謎の答えは、あなたが自分で考えてね。それではまたね、{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "{PlayerName}、何だ？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 578,
+              "PlotLineKey": "ギミックマスターからのヒントをもう一度確認したい。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 580,
+              "PlotLineKey": "面倒くさいから正解を教えて。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 579,
+              "PlotLineKey": "もう一度試してみる。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 581,
+              "PlotLineKey": "降参。<ano=チョウリ>長離</ano>に任せた。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "黄色・青・紫・赤という順序で<ano=ざんぞう>残像</ano>を倒せば、解けるようになるはず。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 584,
+              "PlotLineKey": "なるほど。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "……ほう、妾に？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 587,
+              "PlotLineKey": "うん！",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 586,
+              "PlotLineKey": "もう少し考える。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "<ano=チョウリ>長離</ano>がギミックを解いてくれた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "順番が違うようね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "{PlayerName}、もう一度試してみる？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 590,
+              "PlotLineKey": "ギミックマスターからのヒントをもう一度確認したい。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 591,
+              "PlotLineKey": "面倒くさいから正解を教えて。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 592,
+              "PlotLineKey": "もう一度試してみる。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "正解は、黄色・青・紫・赤という順序だと思う。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 596,
+              "PlotLineKey": "そうか！",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "順番が違うようね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "{PlayerName}、もう一度試してみる？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 590,
+              "PlotLineKey": "ギミックマスターからのヒントをもう一度確認したい。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 591,
+              "PlotLineKey": "面倒くさいから正解を教えて。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 592,
+              "PlotLineKey": "もう一度試してみる。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "正解は、黄色・青・紫・赤という順序だと思う。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 596,
+              "PlotLineKey": "そうか！",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "順番が違うようね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "{PlayerName}、もう一度試してみる？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 590,
+              "PlotLineKey": "ギミックマスターからのヒントをもう一度確認したい。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 591,
+              "PlotLineKey": "面倒くさいから正解を教えて。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 592,
+              "PlotLineKey": "もう一度試してみる。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "長離（チョウリ）",
+          "PlotLineKey": "正解は、黄色・青・紫・赤という順序だと思う。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 596,
+              "PlotLineKey": "そうか！",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

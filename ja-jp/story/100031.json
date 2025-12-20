@@ -1,0 +1,686 @@
+{
+  "Id": 100031,
+  "Name": "瞳に輝く星々の光",
+  "Description": "幕間",
+  "MaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_27.png",
+  "FemaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_27.png",
+  "AreaIcon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/UiArchive/Atlas/SP_ArchiveAreaLinaxita.png",
+  "ShowQuestList": [
+    165000004
+  ],
+  "QuestDesc": "あなたたちが無事に穂波を離れた後、何度もオーバークロック寸前に陥った千咲はブラックショアで治療を受けていた。それからしばらく経ち、あなたは様子を見に行こうと彼女を訪ねることに……彼女にとっても、あなたにとっても、これが新たな始まりとなるだろう。",
+  "Unlock": [
+    {
+      "Id": 165850000,
+      "Name": "波間の余響",
+      "Type": 2
+    },
+    {
+      "Id": 318850001,
+      "Name": "続けて穂波市を探索",
+      "Type": 7
+    }
+  ],
+  "Chapters": [
+    {
+      "Title": "千咲が治療を終えるまで待つ"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "リーヌ",
+          "PlotLineKey": "あ、{PlayerName}さん、戻ったんですね！<ano=ちさ>千咲</ano>さんの状況確認に来たんですか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 5524,
+              "PlotLineKey": "{Male=<ano=ちさ>千咲</ano>の具合はどうだ？;Female=<ano=ちさ>千咲</ano>の具合はどう？}",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 5525,
+              "PlotLineKey": "{Male=ただ、ふらっと立ち寄っただけだ。;Female=ただ、ふらっと立ち寄っただけ。}",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "リーヌ",
+          "PlotLineKey": "<ano=ちさ>千咲</ano>さんは今、ブラックショアの隔離治療室に移送されています。経過を観察しながら、段階的に処置しています。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "リーヌ",
+          "PlotLineKey": "長いことオーバークロック寸前の高ストレス状態下にあったせいで、バイタルサインのデータはあまり良いとは言えません。つまり……体を無理やり動かしているだけで、本当は限界の状態です。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "リーヌ",
+          "PlotLineKey": "ですが、良いお知らせもあります！すでにいくつかの治療法を見つけました。経過を確認したところ、どうやら有効のようです。すぐに万全とはいかないかもしれませんが、このまま様子を見れば、これ以上の深刻化は防げるでしょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "リーヌ",
+          "PlotLineKey": "では、引き続き<ano=ちさ>千咲</ano>さんの身体状況の分析に戻ります！あっ、そうでした……経過はおおむね良好です。このまま様子を見れば、これ以上の深刻化は防げるでしょう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "千咲の治療が終わった後、あなたは再びブラックショア諸島へと戻った……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "{PlayerName}、ちょうどいいところに来てくれた。共有しておきたい情報がある。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "ブラックショアで例の穂波のソノラを管理下に置いたところ、内部に新たな変化を確認した――",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "穂波と現実の繋がりは、徐々に安定している。内部の時間の流れるスピードも、現実と近づいてきた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "しかし、テティスシステムの観測によると、ソノラが外界と周波数の交換をする際、この裂け目を通さずに行なわれる場合がよくあるそうだ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 2392,
+              "PlotLineKey": "{Male=それは何を意味してるんだ？;Female=それは何を意味してるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "データが重なる時に生じた誤差かもしれない……ただ、穂波のソノラと外界との間に、別の入り口がある可能性も否定できない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "それに、穂波には未解明の現象や、未捜索の危険なエリアが数多く存在している。引き続き、研究と観測を継続しよう。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 2393,
+              "PlotLineKey": "そういえば、<ano=ちさ>千咲</ano>の様子は？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "彼女なら、ブラックショアで治療を受けたところだ。今のところ異常は見られない。ラベル曲線も正常な範囲、これといったオーバークロックの後遺症も特になし。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "だが、穂波にいる時と同じような感覚で、無闇に共鳴能力を使用されては困るな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "少し待って。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "ああ、そうか……分かった。その人なら、ちょうどここに。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "情報が届いた。しばらく前に、<ano=ちさ>千咲</ano>は行き先を告げ、一人で穂波に向かったようだ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 2394,
+              "PlotLineKey": "{Male=なぜ穂波に戻ったんだ？;Female=どうして穂波に戻ったの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "理由までは分からない。ただ、「今の穂波の様子を見てみたい」と言ってたらしい……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "ここ数日、<ano=ちさ>千咲</ano>に付き添っていたテティスターミナルは、スプラウツの地にいる。その子に直接聞けば何か分かるだろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "とりあえず、行ってみる。<ano=ちさ>千咲</ano>の性格なら、考えなしに勝手な行動をするとは思えない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 18,
+          "Speaker": "Narrator",
+          "PlotLineKey": "しばらくして、あなたはブラックショアに戻って千咲を訪ねる。そこではワレンチナから、穂波市のソノラと現実との繋がりが安定していることを知った。千咲も治療を終え、顕著なオーバークロックの後遺症は残っていない。しかし、千咲は少し前に一人で穂波に向かったようだ。もしかすると、ここ数日千咲に付き添っていたテティスターミナルが何か知っているかもしれない……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 3,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "ほかに知りたいことは？私の権限の範囲内であれば、何でも答えよう。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 2439,
+              "PlotLineKey": "穂波の時間の流れる速度について……",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 2440,
+              "PlotLineKey": "ブラックショアで過ごしていた<ano=ちさ>千咲</ano>について……",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 2441,
+              "PlotLineKey": "花持ちの<ano=すみか>澄夏</ano>について……",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 2442,
+              "PlotLineKey": "もう聞きたいことはない。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "穂波は破壊された時、悲鳴の力で特別なソノラの中に封じ込められた。それによって、内部の時間は固まった<ano=こはく>琥珀</ano>のように、外界より遥かに遅くなったわけだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "<ano=じょうしょうさん>乗霄山</ano>の時と似たような状況だな。中で1日過ごすと、外では100日以上も経っている例と近い。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "でも、状況が変わった。穂波と現実の繋がりが強まるにつれ、時間の流れるスピードが正常に戻ってきている。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "……君が裂け目に吸い込まれてから、ショアキーパーはずっと心配していた。穂波の動向を、誰よりも細かく観察するほどに。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "幸い、穂波の時間は外界とほとんど同じスピードになっていたおかげで、私たちとのズレは最小限で済んでいる。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 3
+        },
+        {
+          "Id": 9,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "治療を受けている間、<ano=ちさ>千咲</ano>はブラックショアのデータベースの閲覧権限を申請した。一般的な知識や最近の情報に関するものについて。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "時折、ブラックショアの生活エリアで散歩をしたり、周りの施設を観察したりする姿も見かけられた。加入したばかりの「枝」と同じように。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "詳しいことは、<ano=ちさ>千咲</ano>の面倒を見ているテティスターミナルが知っているはず。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 3
+        },
+        {
+          "Id": 12,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "確かに、<ano=すみか>澄夏</ano>は何年も前に行方不明になったメンバーだったな。当時、私たちは彼女を探したが、見つけることは叶わなかった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "……<ano=ちさ>千咲</ano>が提出した記録の中に、<ano=すみか>澄夏</ano>の経歴や穂波で活動した内容が詳しく記されている。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "彼女はエラー収容所で最も優秀な研究員の一人で、ブラックショアの誇らしいエリート花持ちの一人でもあった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "真実を追い求める彼女の崇高な心を、星図は永遠に記録するだろう。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 3
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 3,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "ほかに知りたいことは？私の権限の範囲内であれば、何でも答えよう。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 2461,
+              "PlotLineKey": "穂波の時間の流れる速度について……",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 2462,
+              "PlotLineKey": "ブラックショアで過ごしていた<ano=ちさ>千咲</ano>について……",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 2463,
+              "PlotLineKey": "花持ちの<ano=すみか>澄夏</ano>について……",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 2464,
+              "PlotLineKey": "もう聞きたいことはない。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "穂波は破壊された時、悲鳴の力で特別なソノラの中に封じ込められた。それによって、内部の時間は固まった<ano=こはく>琥珀</ano>のように、外界より遥かに遅くなったわけだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "<ano=じょうしょうさん>乗霄山</ano>の時と似たような状況だな。中で1日過ごすと、外では100日以上も経っている例と近い。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "でも、状況が変わった。穂波と現実の繋がりが強まるにつれ、時間の流れるスピードが正常に戻ってきている。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "……君が裂け目に吸い込まれてから、ショアキーパーはずっと心配していた。穂波の動向を、誰よりも細かく観察するほどに。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "幸い、穂波の時間は外界とほとんど同じスピードになっていたおかげで、私たちとのズレは最小限で済んでいる。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 3
+        },
+        {
+          "Id": 9,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "治療を受けている間、<ano=ちさ>千咲</ano>はブラックショアのデータベースの閲覧権限を申請した。一般的な知識や最近の情報に関するものについて。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "時折、ブラックショアの生活エリアで散歩をしたり、周りの施設を観察したりする姿も見かけられた。加入したばかりの「枝」と同じように。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "詳しいことは、<ano=ちさ>千咲</ano>の面倒を見ているテティスターミナルが知っているはず。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 3
+        },
+        {
+          "Id": 12,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "確かに、<ano=すみか>澄夏</ano>は何年も前に行方不明になったメンバーだったな。当時、私たちは彼女を探したが、見つけることは叶わなかった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "……<ano=ちさ>千咲</ano>が提出した記録の中に、<ano=すみか>澄夏</ano>の経歴や穂波で活動した内容が詳しく記されている。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "彼女はエラー収容所で最も優秀な研究員の一人で、ブラックショアの誇らしいエリート花持ちの一人でもあった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ワレンチナ",
+          "PlotLineKey": "真実を追い求める彼女の崇高な心を、星図は永遠に記録するだろう。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 3
+        }
+      ],
+      "State": 10
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "1番演者",
+          "PlotLineKey": "これで、ヤット安心しテ充電ができル……",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 4
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "クリープ",
+          "PlotLineKey": "クク……急いデ出ていったみたいダケド……これ、片付けちゃおうカナ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "クリープ",
+          "PlotLineKey": "ア、花持ち、来たカ。<ano=ちさ>千咲</ano>さんナラ、しばらく前に出かけたヨ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1027,
+              "PlotLineKey": "{Male=出かける前に何か異常はあったか？;Female=出かける前に何か異常はあった？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "クリープ",
+          "PlotLineKey": "いつも通り、近くデ休んでたと思うヨ。ただ最近、機嫌指数が低くテ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "クリープ",
+          "PlotLineKey": "少し前までいろんな資料を漁ってたケド、ここ数日、ずっとある方向をぼんやりと眺めるカ、手持ちのハサミで切り紙をしてたネ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1028,
+              "PlotLineKey": "切り紙……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "クリープ",
+          "PlotLineKey": "エエ、切り紙の工芸品ダヨ。ほら、机に少し残っテル。いつもならきれいに片付けてたンダケド、どうしちゃったンダロウ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=（どうやら切り紙の時にできた紙くずのようだな。それと半分くらい完成してるこの塔、どこか見覚えが……）;Female=（どうやら切り紙の時にできた紙くずのようだね。それと半分くらい完成してるこの塔、どこか見覚えが……）}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "クリープ",
+          "PlotLineKey": "<ano=ちさ>千咲</ano>さんは申請を出した時、同行する人は必要か聞いたケド、断られたンダ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1029,
+              "PlotLineKey": "事情は分かった。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1030,
+              "PlotLineKey": "{Male=俺が<ano=ちさ>千咲</ano>を見つけよう。;Female=私が<ano=ちさ>千咲</ano>を見つけよう。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "クリープ",
+          "PlotLineKey": "分かっタ。それじゃあ、<ano=ちさ>千咲</ano>サンのことは任せたヨ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 13,
+          "Speaker": "Narrator",
+          "PlotLineKey": "クリープは、普段スプラウツの地で休んでいる千咲が、最近あまり元気がないと話した。彼女は急いで出かけたようで、机の上に残した切り紙の紙くずもそのままにしていた。様子がおかしいと感じたあなたは、穂波へ向かい、千咲を探すことに。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "穂波に向かう"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ここで起きた出来事を回遊魚が再現してくれた――",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "少女が柵にもたれ、遠くを眺めている。青々とした空は、その目に吸い込まれそうになっていた。いったい、何を考えていたのだろう……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "車掌カフェに向かう"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "千咲（ちさ）",
+          "PlotLineKey": "どうかしましたか？いきなり振り向いて……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 2506,
+              "PlotLineKey": "さっき、ラジオから声が聞こえた。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 2507,
+              "PlotLineKey": "{Male=俺;Female=私}の名前を呼ぶ声が。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "千咲（ちさ）",
+          "PlotLineKey": "声？ラジオは壊れたんじゃ……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "千咲（ちさ）",
+          "PlotLineKey": "本当ですか？私は何も聞こえませんでしたが……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 2508,
+              "PlotLineKey": "{Male=そうか……声が聞こえた気がするんだが。;Female=そう……声が聞こえた気がするんだけど。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "千咲（ちさ）",
+          "PlotLineKey": "……たぶん、少し疲れてるんだと思います。一度、カフェに戻って休みましょう。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 2509,
+              "PlotLineKey": "{Male=そうだな、少し休憩するよ。;Female=そうだね、少し休憩するよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 2510,
+              "PlotLineKey": "{Male=大丈夫だ、安心してくれ。;Female=大丈夫だよ、安心して。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=（千咲には聞こえなかったのか……だが、ただの幻聴とは思えない）;Female=（千咲には聞こえなかったのね……でも、ただの幻聴とは思えない）}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 11,
+          "Speaker": "Narrator",
+          "PlotLineKey": "不思議なことに、あなたのそばにいる千咲は何も聞こえなかった。しかし、あなたが耳にしたその声は……ただの幻聴とは思えない。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

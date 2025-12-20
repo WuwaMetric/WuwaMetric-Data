@@ -1,0 +1,312 @@
+{
+  "Id": 162700005,
+  "Name": "Fantasmes des mille portes",
+  "Description": "Une voix familière résonne à travers les fréquences du paysage onirique, se présentant comme le « Concierge noir ». Vous décidez de partir à sa recherche et de découvrir ce qu'il mijote.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 162700005,
+  "ShowQuestList": [],
+  "QuestDesc": "Une voix familière résonne à travers les fréquences du paysage onirique, se présentant comme le « Concierge noir ». Vous décidez de partir à sa recherche et de découvrir ce qu'il mijote.",
+  "Conditions": [
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 30
+    },
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 114000027,
+        "ChildQuestId": 24
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 31000
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "Bonjour, {PlayerName}. Tu m'entends...? C'est moi, le Concierge noir.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 9,
+              "PlotLineKey": "Qui ?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 10,
+              "PlotLineKey": "Pourquoi me contacter ?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 11,
+              "PlotLineKey": "Bonjour, je suis le Concierge blanc.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Ahem. Je suis l'Administrateur du <ano=monde de rêve>Somnoire</ano>, le Concierge noir.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Eh bien... c'est pour te parler du Somnoire, naturellement.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Hum. gardons les blagues pour plus tard, {Male=Orateur;Female=Oratrice}.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Je me demandais si tu avais remarqué... La porte vers le Somnoire a commencé à apparaître à Rinascita.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "(Voix étouffée)",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 12,
+              "PlotLineKey": "Bonjour ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 13,
+              "PlotLineKey": "Problème de réseau ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "La communication onirique semble subir une sorte d'interférence... Ah, voilà, ça fonctionne à nouveau.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Concierge noir",
+          "PlotLineKey": "Si possible, j'aimerais te parler en personne. Viens me voir si tu as du temps.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "Ah. {PlayerName}. bonjour.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "Emm... Je suppose que tu dois être intrigué par mon apparence actuelle. Je t'assure que je suis le Concierge noir qui t'a contacté plus tôt.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "Tu es caché dans Cosmos d'Encore ?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 32,
+              "PlotLineKey": "Ah, donc le dernier « Cosmos », c'est toi !",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "En effet, Mlle Encore n'a pas été impliquée ici. Cette entité est une réplique de fragments de mémoire du Somnoire. J'emprunte simplement son apparence pour le moment.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "D'accord, d'accord...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "Passons maintenant à autre chose. Cela n'a aucun rapport avec le sujet dont nous allons parler.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 5,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "Cette-fois là...?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 34,
+              "PlotLineKey": "Le boulot qui me dit qu'il faut utiliser des « Échoides » !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 35,
+              "PlotLineKey": "La dernière fois, « Dorothée » m'a dit qu'il faut entrer dans la porte...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "Hum... Eh bien... Oui, tu as tout à fait raison. C'est à moi que tu as parlé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "Je vous dois en effet des excuses pour t'inviter dans l'expérience de la nouvelle « Porte » sous une fausse identité. Cela faisait partie de mon plan pour sauver ces rêves... Un plan que tu as contrecarré.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 36,
+              "PlotLineKey": "Et cette fois ? Que fais-tu ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "Mais s'il te plaît, {Male=Orateur;Female=Oratrice}. Je t'assure que je n'ai aucun secret à cacher.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "J'ai optimisé la logique de stockage de mémoire de quelques Zones de Mémoire. Si tout se passe bien, le Somnoire devrait pouvoir accueillir plus de rêves sans avoir besoin plus d'espace libre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "Pourtant, j'ai découvert des impuretés persistantes dans les rêves de Rinascita. Lorsque les Nœuds oniriques à Rinascita ont été activés, elle ont envahi le Somnoire avec les rêves.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "Des « impuretés » ? Qu'est-ce que c'est ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "Contrairement à ce que nous avons déjà affronté, elles sont constituées de quelque chose de plus sinistre que les émotions négatives des cauchemars. Quelque chose qui s'apparente à une peste spirituelle. Cependant, je n'ai pas encore trouvé de réponse définitive.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "Plus de Zones de Mémoire tombent sous leur influence à mesure que nous parlons. Si on ne fait rien, cela pourrait non seulement interrompre mon travail, mais aussi compromettre l'intégrité du Somnoire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "{Male=Orateur;Female=Oratrice}, j'ai besoin ton aide pour gérer ces impuretés. Pas pour moi mais pour le tout Somnoire.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "D'accord, une quête comme toujours...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 39,
+              "PlotLineKey": "Je ne travaille pas pour rien, non ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "Il y aura de nombreuses récompenses qui t'attendent à l'intérieur des rêves. Je serai également prêt à t'aider de toute façon.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "À propos de la porte du Somnoire à Rinascita dont je t'ai parlé plus tôt... Pour éviter toute propagation supplémentaire, j'ai scellé les impuretés dans les Zones de Mémoire derrière celle-ci.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "Au fur et à mesure de ta progression, j'ouvrirai <span class=\"font-bold\">périodiquement plus de portes situées dans différentes zones. Le Somnoire mettra également à disposition les équipements nécessaires pour toi et ton camarade.</span>",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "« Cosmos »",
+          "PlotLineKey": "Ouvre-la et purifie les Zones de mémoire affectées par les impuretés, {Male=Orateur;Female=Oratrice}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

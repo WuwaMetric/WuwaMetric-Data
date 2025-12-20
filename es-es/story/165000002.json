@@ -1,0 +1,612 @@
+{
+  "Id": 165000002,
+  "Name": "Mujer en máscara",
+  "Description": "En las Islas Riccioli aparece una persona misteriosa con máscara, vestida con elegancia, pero con una locura que contrasta con su apariencia.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 165000002,
+  "ShowQuestList": [],
+  "QuestDesc": "En las Islas Riccioli aparece una persona misteriosa con máscara, vestida con elegancia, pero con una locura que contrasta con su apariencia.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "El viejo y la ballena"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chica extraña",
+          "PlotLineKey": "¡Aquí, {Male=hermano;Female=hermana}! ¡Por fin lo atrapé! ¡Mira qué bonito es!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Pescador joven",
+          "PlotLineKey": "Será mejor que mantengas la distancia. Hay algo extraño en ella. Mejor no acercarse demasiado.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Pescador mayor",
+          "PlotLineKey": "Qué raro. Parecía estar bien cuando le ofrecí algo de comer antes...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 141,
+              "PlotLineKey": "¿Quién es ella?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 142,
+              "PlotLineKey": "¿Qué le pasó?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Pescador joven",
+          "PlotLineKey": "No tengo la menor idea. Por cómo viste, no parece ser de las Islas Riccioli. Tal vez la promesa de aventura la sacó de la ciudad.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 5,
+          "Speaker": "Pescador joven",
+          "PlotLineKey": "Algo debe haberle afectado. Parece que está conmocionada.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Pescador joven",
+          "PlotLineKey": "Por cómo viste, no parece ser de las Islas Riccioli. Tal vez la promesa de aventura la sacó de la ciudad.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Pescador mayor",
+          "PlotLineKey": "A estas aguas acuden peces raros a montones. A la gente de la ciudad le encanta venir aquí con la esperanza de añadir otro trofeo exótico a su colección.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Pescador mayor",
+          "PlotLineKey": "Pero estas aguas son peligrosas para quien no las conoce. Los que se andan con cuidado se exponen al peligro. Aunque hay personas que desaparecen cada dos por tres, el atractivo de la aventura continúa llamando a más.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Pescador mayor",
+          "PlotLineKey": "Me contaron que ella y su {Male=hermano;Female=hermana} llegaron hace algún tiempo preguntando sobre pesca.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Pescador mayor",
+          "PlotLineKey": "Pero ahora está sola...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Pescador joven",
+          "PlotLineKey": "No sé qué pudo ser de su familia, ni he logrado convencerla de que se marche. Quizás podrías intentar hablar tú con ella.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Dana",
+          "PlotLineKey": "{Male=Hermano;Female=Hermana}, ya verás qué cara ponen cuando les lleve este lindo pececito.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Dana extiende unos brazos llenos de cicatrices, revelando los pedazos de una botella rota que sostenía.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Dana",
+          "PlotLineKey": "¿Eh? {Male=estás herido;Female=estás herida}.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Dana",
+          "PlotLineKey": "¡Es maravilloso! ¿Recuerdas que el tío Ronald nos habló de unos peculiares peces que se sienten atraídos por las heridas?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Dana",
+          "PlotLineKey": "Nadie ha encontrado uno de esos todavía. ¡Rápido, vamos al mar! ¡Es nuestra oportunidad de hacernos con uno! ¡Imagina cuando lo enseñemos a toda la ciudad!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 150,
+              "PlotLineKey": "¿Prometes regresar a la ciudad después de atrapar ese pez?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Dana",
+          "PlotLineKey": "¡Por supuesto! ¡Cuando les enseñe este pez, nadie podrá negar que soy la mayor coleccionista del mundo!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 151,
+              "PlotLineKey": "¿Qué aspecto tiene?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Dana",
+          "PlotLineKey": "¿No lo recuerdas? Vale. Te haré un dibujo.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 152,
+              "PlotLineKey": "Vale, ya veo. Los encontraré.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 0,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Dana",
+          "PlotLineKey": "Tío Ronald, me prometiste que me ayudarías. Mi pez. ¿¡Dónde está mi pez!?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Pescador de paso",
+          "PlotLineKey": "¡¿Q-quién demonios eres tú?! ¡Aléjate de mí!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Dana",
+          "PlotLineKey": "Duele... Me duele la cara... Por favor, no me muerdas la cara... Sálvame, {Male=hermano. ¿Hermano?;Female=hermana. ¿Hermana?}",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 42,
+              "PlotLineKey": "¿Dana? ¿Qué estás haciendo todavía en la isla?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Dana",
+          "PlotLineKey": "(*Solloza*) Mi pez. El pez que me diste. No lo encuentro...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Observas el pez que pescaste para Dana colgando de su cintura, exudando un hedor nauseabundo y podrido.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Dana",
+          "PlotLineKey": "¡Lo siento mucho! ¡Por favor, no te enfades conmigo! ¡Te lo compensaré! ¡Encontraré tu pez favorito!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 43,
+              "PlotLineKey": "¿Mi pez favorito?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Dana garabatea rápidamente el dibujo de un pez.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Dana",
+          "PlotLineKey": "¡Este! ¡De pequeños me dijiste que era tu pez favorito! Todavía lo es, ¿verdad? Por favor, dime que no me equivoqué.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 44,
+              "PlotLineKey": "No tienes que ir a buscarlo. Ya lo tengo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Dana",
+          "PlotLineKey": "¿Qué? ¿Dónde? ¿Saliste al mar sin mí? ¿Qué tesoros encontraste? ¡Muéstramelo!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 45,
+              "PlotLineKey": "Te traeré el pez.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Dana",
+          "PlotLineKey": "Pececito... Oh, pececito, pescadito... Sal de ahí, sal de ahí, sal de dondequiera que estés. Tengo una cosita para ti...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 68,
+              "PlotLineKey": "¿Aún estás aquí, eh?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Dana",
+          "PlotLineKey": "¿A qué viene esa cara tan larga? Hay mucho espacio dentro de esta pecera, y mira qué pececitos más adorables para hacerte compañía.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Dana",
+          "PlotLineKey": "Hola... ¿Arrojaste a tu {Male=propio hermano;Female=propia hermana} al mar...?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Dana",
+          "PlotLineKey": "Oh, no llores. Te ayudaré a encontrarlo. Cualquier cosa por mi {Male=querido hermano;Female=querida hermana}... Sí, cualquier cosa…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Intentar convencerla de que se marche no surte efecto. Debería encontrar a su familia, a ver si así vuelve a casa).",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 69,
+              "PlotLineKey": "Dana, ¿dónde está tu {Male=hermano;Female=hermana}?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Dana",
+          "PlotLineKey": "Sigue en el mar. Allí hace tanto frío... Quiero encontrar{Male=lo;Female=la}.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 70,
+              "PlotLineKey": "¿En el mar? Quieres decir que está...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Dana",
+          "PlotLineKey": "¡No puedo irme a casa sola! ¡Hicimos una promesa! Este es su aspecto. No, más bien... así. Debo traer{Male=lo;Female=la} de vuelta.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Dana garabatea frenéticamente en el suelo. Te dibuja un pez.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "De repente, Dana entra en pánico y corre hacia el mar. La atrapas justo a tiempo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Dana",
+          "PlotLineKey": "¡Quítame tus manos de encima! ¡¿Quién te has creído?! ¡Soy una noble! ¡Tengo una invitación! ¡Soy una verdadera coleccionista! ¡Déjame ir ahora mismo!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Dana",
+          "PlotLineKey": "Traemos regalos para el señor Doria. Rápido, {Male=hermano;Female=hermana}. Muéstrale los regalos que hemos preparado.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Si confunde a ese pez con su {Male=hermano;Female=hermana}, ¿quizás traerlo de vuelta la convenza de irse?)",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 71,
+              "PlotLineKey": "Vale. Iré a buscarlo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Dana",
+          "PlotLineKey": "Mmmffff. ¡Ya veréis, pueblerinos!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Dana sostiene el pez con fuerza y lo lanza hacia los pescadores, quienes retroceden incómodos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Dana",
+          "PlotLineKey": "Observe bien este pez, señor Doria. ¡Es una especie que se creía extinta! Pasé tres días y tres noches buscándolo en el mar.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Dana",
+          "PlotLineKey": "Oh, Madame Claire, ¿puedo entrar ahora en su salón? He hecho todas las tareas que me asignó. Me lo prometió...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 94,
+              "PlotLineKey": "...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Barquero curioso",
+          "PlotLineKey": "¿Qué tiene en las manos...? ¿Es un pescado podrido?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Pescador curioso",
+          "PlotLineKey": "No entiendo ni una palabra de lo que dice. ¿No es un pez normal y corriente?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Dana",
+          "PlotLineKey": "¡Me lo prometió! ¿Por qué todos me mienten? ¡¿POR QUÉ?! ¡¿POR QUÉ?!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Barquero curioso",
+          "PlotLineKey": "¡Ahí va! ¡Tranquila, señorita! ¡Que alguien trate de calmarla!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 95,
+              "PlotLineKey": "Dana, soy yo. Respira, por favor.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Cuando Dana se fija en ti, su frenetismo se apaga. Las lágrimas comienzan a surcar su rostro.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Dana",
+          "PlotLineKey": "{Male=Hermano;Female=Hermana}. ¡Oh, {Male=hermano;Female=hermana}! Lo siento mucho... Te decepcioné. Fui a buscarlos, pero...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Dana",
+          "PlotLineKey": "Ellos... *Sollozo*... Siguieron cambiando sus exigencias. Nunca tuvieron la intención de aceptarnos en la familia...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 96,
+              "PlotLineKey": "No llores. Encontraremos una solución.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Dana",
+          "PlotLineKey": "¿De verdad crees que hay esperanza? Si les ofrecemos otro pez raro... ¿nos aceptarán?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 97,
+              "PlotLineKey": "Lo harán. ¿Qué tipo de pez tienes en mente?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Dana",
+          "PlotLineKey": "Es-estaba pensando... ¿Qué tal este? Solo se puede encontrar en las Islas Riccioli. Es extremadamente raro.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Dana",
+          "PlotLineKey": "Si capturamos este pez, ¿por fin llevaremos el apellido de la familia? Imagínate, ¡quizás incluso nos lleven en un carruaje!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 98,
+              "PlotLineKey": "Exactamente. Yo iré a buscar el pez y tú me esperarás aquí, ¿de acuerdo?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Dana",
+          "PlotLineKey": "Vale. Seré una buena chica. Ten cuidado, {Male=hermano;Female=hermana}.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Dana",
+          "PlotLineKey": "Oh, estimada Madame Claire. ¿Dónde se encuentra?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Dana",
+          "PlotLineKey": "¿No desea verme?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 118,
+              "PlotLineKey": "Ah... Madame Claire salió a pescar, Dana.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Dana",
+          "PlotLineKey": "Oh... ¿Cómo puede ser?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Dana",
+          "PlotLineKey": "Espera. ¿Esto es una nota de Madame Claire?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "«Carta de Claire»",
+          "PlotLineKey": "«La gente de la ciudad se vuelve cada día más extraña...»",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "«Carta de Claire»",
+          "PlotLineKey": "«¿Por qué no me consigues algunos ejemplares para vender, Ronald? Podría ser un negocio más que rentable».",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Dana",
+          "PlotLineKey": "Conque te fuiste a ver al tío Ronald, ¿eh? Madame Claire, ¡voy a buscarte!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2223 @@
+{
+  "Id": 121000034,
+  "Name": "Tacet Discord Hunter",
+  "Description": "Find the Resonator who once proclaimed to be \"Tacet Discord Hunter\" to obtain the precious TD Material.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 121000034,
+  "ShowQuestList": [],
+  "QuestDesc": "Find the Resonator who once proclaimed to be \"Tacet Discord Hunter\" to obtain the precious TD Material.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100005,
+      "PreQuestName": "Ominous Star"
+    },
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 8
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Worried Mother",
+          "PlotLineKey": "I'm begging you. Miss Koko, you must have some way to save my daughter.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Koko",
+          "PlotLineKey": "But...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Worried Mother",
+          "PlotLineKey": "Is it about the payment? I'll give you all my savings if that's what it takes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Koko",
+          "PlotLineKey": "It's not about the money!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Koko",
+          "PlotLineKey": "{PlayerName}, you're here. But sorry, the shop's closed for now.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "Miss Koko, do you need any help?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Koko",
+          "PlotLineKey": "Don't worry. I'm okay. This lady here isn't a threat.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Koko",
+          "PlotLineKey": "Her daughter's dealing with a rare illness—non-life-threatening for now, but it could get worse.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 36,
+              "PlotLineKey": "Is there no cure?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Worried Mother",
+          "PlotLineKey": "Doctors have tried everything, but regular medicine isn't working. There's one last hope, though.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Koko",
+          "PlotLineKey": "Yes, my teacher handled a similar case before, and I still have the prescription from back then.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Koko",
+          "PlotLineKey": "The issue is, the crucial \"guide drug\" is tough to get.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "What's a \"guide drug\"?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Koko",
+          "PlotLineKey": "The \"guide drug\" is the most critical ingredient in the prescription. Currently, only some wealthy folks have the \"guide drug\" we need, and they probably won't sell it for money unless...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "Unless...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Koko",
+          "PlotLineKey": "Unless you can find some rare items to exchange with them. Oh, by the way, Rover, have you ever heard of something called \"Bell Spiriton\"?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 39,
+              "PlotLineKey": "Not at all.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Koko",
+          "PlotLineKey": "If we had that \"Bell Spiriton,\" we could use it to exchange for the \"guide drug.\"",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Koko",
+          "PlotLineKey": "It's not something easy to obtain.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Worried Mother",
+          "PlotLineKey": "Miss Koko, do you know how to get it? I'll do anything!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Koko",
+          "PlotLineKey": "You can only find \"Bell Spiriton\" from a Calamity-Class Tacet Discord called Bell-Borne Geochelone. Have you heard of it?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 40,
+              "PlotLineKey": "No, never heard of it.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 41,
+              "PlotLineKey": "Yes, of course.",
+              "PlayVoice": false,
+              "JumpToId": 23
+            },
+            {
+              "TextId": 42,
+              "PlotLineKey": "Fought one, but didn't find any \"Bell Spiriton.\"",
+              "PlayVoice": false,
+              "JumpToId": 24
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Koko",
+          "PlotLineKey": "Even Rover hasn't heard of it. Not that surprising, though. Only a handful of people have the chance to see it.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Koko",
+          "PlotLineKey": "It's said to have a body as huge as a mountain, can crush an armored car with only one step, and freeze a river with a single breath!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Koko",
+          "PlotLineKey": "Many tried to hunt it down in the past, but they all became revenants frozen in the river.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Koko",
+          "PlotLineKey": "However, it doesn't usually leave its territory, so it's even rarer for people to see it.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Koko",
+          "PlotLineKey": "People with sanity won't willingly pick fights with it, let alone risk their lives for an herb.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 23,
+          "Speaker": "Koko",
+          "PlotLineKey": "Yeah, you get how formidable it is. Nobody dares to challenge it, not to mention putting their lives on the line for an herb.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 24,
+          "Speaker": "Koko",
+          "PlotLineKey": "Seriously? You took it down? You're not pulling my leg, right?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Koko",
+          "PlotLineKey": "Even so, you didn't get the \"Bell Spiriton.\" That's a pity.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 26
+        },
+        {
+          "Id": 26,
+          "Speaker": "Worried Mother",
+          "PlotLineKey": "How can this be? Is there really no way?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Koko",
+          "PlotLineKey": "Hmm…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 43,
+              "PlotLineKey": "Miss Koko, any ideas?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Koko",
+          "PlotLineKey": "Well, there's someone I know who might still have some \"Bell Spiritons,\" but the problem is, he's a bit unreliable.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 44,
+              "PlotLineKey": "Can we really trust him?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 29,
+          "Speaker": "Koko",
+          "PlotLineKey": "Not sure, but he did sell me plenty of rare TD materials before. It seems like he's got a few tricks up his sleeve.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Worried Mother",
+          "PlotLineKey": "Please tell me how I can find him. No matter how slim the hope is, I'll give it a try.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 45,
+              "PlotLineKey": "I want to help.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 31,
+          "Speaker": "Koko",
+          "PlotLineKey": "Thanks! So, let this lady stick around to help me prepare other herbs, and I'll leave the task of obtaining \"Bell Spiriton\" to {PlayerName}? Sound good?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 46,
+              "PlotLineKey": "No problem. Leave it to me.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 32,
+          "Speaker": "Koko",
+          "PlotLineKey": "His name's Lianfeng, and he hangs around the theater all the time. You should spot him there.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 47,
+              "PlotLineKey": "How will I know who he is?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 33,
+          "Speaker": "Koko",
+          "PlotLineKey": "He goes by \"TD Hunter\" and talks a big game about hunting formidable TDs, although no one has actually seen him fight.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Koko",
+          "PlotLineKey": "If you see someone being loud and boastful over tea at the theater, that's Lianfeng.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Koko",
+          "PlotLineKey": "If you see someone being loud and boastful over tea at the theater, that's Lianfeng.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Worried Mother",
+          "PlotLineKey": "Rover, please help me. I've got no other options.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Guan",
+          "PlotLineKey": "Hey, Lianfeng, you have a guest here.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Who are you? I don't know you.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 291,
+              "PlotLineKey": "You're Lianfeng? Finally found you.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Are you looking for me? Who told you I'm here?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 292,
+              "PlotLineKey": "Miss Koko from Shifang Pharmacy.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Darn. Did she send you to collect debts?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 293,
+              "PlotLineKey": "What?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Nothing, forget it. Anyway, why are you looking for me? Spill it. I don't have time to waste.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Come on! You're just having tea here with us. Oh! Nice tea.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Just so you know, if you're here to borrow money, then you can turn around and leave. I'm broke. Flat broke.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Guan",
+          "PlotLineKey": "You can sell those PRECIOUS materials you've obtained from TDs, huh? They should earn you a great sum.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "I sold them all a long time ago.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 294,
+              "PlotLineKey": "All of them? What about the material called \"Bell Spiriton?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "I don't have any. Speaking of which, I once obtained some from a TD called Bell-Borne Geochelone. Well, forget about it. After all, you won't have a chance to see it.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Why am I telling you all this? You're just wasting my time. Get outta here; don't spoil my moment drinking this delicious tea.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 295,
+              "PlotLineKey": "Where else can I find it?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "I'm not lying, but I'm the only one that can obtain \"Bell Spiriton\".",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Then why not go take down that Bell-Borne thing again?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Seriously? I'm not going! I'm tired of dealing with minions like Bell-Borne Geochelone. Whoever wants to go can go by themselves.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "If you're that strong, why did you quit the Pioneer Association? Or, were you kicked out?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Guan",
+          "PlotLineKey": "I heard from Miss Maqi that you quit. So it's true, huh?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Nonsense. I quit because I don't need any companions or assistance to take down TDs.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "I'm a lone wolf. I don't waste time getting along with people.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Guan",
+          "PlotLineKey": "Hey, friend, I remember you're Rover who just came to Jinzhou, right? Why do you want this thing?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 296,
+              "PlotLineKey": "(You explain the situation about that mother and her sick daughter)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "That's unfortunate, but so what? Why should I help someone I barely know? Go find someone else.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Guan",
+          "PlotLineKey": "Hey, how can you be so cruel? Have some compassion!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Oh my, I really can't stand stories like this.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "What's the matter with you two?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 297,
+              "PlotLineKey": "Mr. Lianfeng, please lend us a hand.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ugh, but…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "???",
+          "PlotLineKey": "Hahaha! Please explain this matter in detail to us Pioneer Association!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Pioneer Association Squad Leader",
+          "PlotLineKey": "Sorry for the abrupt intrusion! We didn't intend to eavesdrop your conversation. It's just your voices were a bit loud.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tsk, are all members of the Pioneer Association this rude?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Pioneer Association Squad Leader",
+          "PlotLineKey": "In fact, we're the Explorers of the Pioneer Association, and I'm the captain of this squad. Are you Rover? Nice to meet you!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 298,
+              "PlotLineKey": "Nice to meet you too.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 29,
+          "Speaker": "Guan",
+          "PlotLineKey": "Haha, Lianfeng, you're ignored!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Shut up. Hey, what do you want?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Pioneer Association Squad Leader",
+          "PlotLineKey": "Well, we're heading to the Gorges of Spirits to investigate a giant Tacet Discord found there.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 299,
+              "PlotLineKey": "Bell-Borne Geochelone?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 32,
+          "Speaker": "Pioneer Association Squad Leader",
+          "PlotLineKey": "Yes. Our goal is to take Bell-Borne Geochelone down for further research.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Pioneer Association Squad Leader",
+          "PlotLineKey": "Then we happened to hear your conversation and thought if we could help the unfortunate mother and daughter at the same time, it'd be great.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Guan",
+          "PlotLineKey": "That's great! Please help them!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "You're such good guys, unlike Lianfeng.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Are you insane?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 300,
+              "PlotLineKey": "Can you really defeat that giant Tacet Discord?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 37,
+          "Speaker": "Pioneer Association Squad Leader",
+          "PlotLineKey": "Don't worry. We've thoroughly investigated Bell-Borne Geochelone, and our squad is composed of experienced Resonators.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 38,
+          "Speaker": "Pioneer Association Squad Leader",
+          "PlotLineKey": "But we've never heard of this \"Bell Spiriton\" before. It seems like an interesting research subject. I'm sure the Editorial Department will be thrilled.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 39,
+          "Speaker": "Pioneer Association Squad Leader",
+          "PlotLineKey": "Well, Rover, just wait for our good news! Bye!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Wait, that's too dangerous! You're all going to die! Hey, stop!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "Guan",
+          "PlotLineKey": "Just let them do their work, Lianfeng. You're being ridiculous.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 42,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Me? Ridiculous? I just don't want to see them throw away their lives so rashly!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 301,
+              "PlotLineKey": "Are you worried about them?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 43,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "I'm not a member of the Pioneer Association anymore. They can do whatever they want. I don't care.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 44,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "But they're underestimating that TD. Members of the Pioneer Association are too focused on research and investigation. Sometimes, they forget they're dealing with extremely formidable creatures.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 45,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Since you're a man of strength, why not join in and help out? We'll respect you as a true man.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 302,
+              "PlotLineKey": "Mr. Lianfeng, let's go help them.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 46,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tsk, easy for you to say.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "Guan",
+          "PlotLineKey": "Look, he's backing down.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 48,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Are you underestimating me? Fine, I'll go! But I won't help them fight Bell-Borne Geochelone. I already said I'm done with the Pioneer Association!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 49,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "I'll tell {Male=him;Female=her} how to take down Bell-Borne Geochelone as {Male=his;Female=her} \"Master\"!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "Me?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 50,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Looks like you're skilled enough. With my guidance, you'll be more capable than those guys in the future.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 51,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "Well, as long as you're happy.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "I'll help.",
+              "PlayVoice": false,
+              "JumpToId": 52
+            },
+            {
+              "TextId": 305,
+              "PlotLineKey": "I don't need a master.",
+              "PlayVoice": false,
+              "JumpToId": 53
+            },
+            {
+              "TextId": 306,
+              "PlotLineKey": "Master Lianfeng!",
+              "PlayVoice": false,
+              "JumpToId": 54
+            }
+          ]
+        },
+        {
+          "Id": 52,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Good. Hope you'll be as composed facing that formidable TD.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 55
+        },
+        {
+          "Id": 53,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tsk. Anyway, with an experienced \"TD hunter\" by your side, nothing could go wrong.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 55
+        },
+        {
+          "Id": 54,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "One more time!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 55
+        },
+        {
+          "Id": 55,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "In that case, you'll know I wasn't bragging. Wait and see.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 56,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Rover, come! Let's have a private talk over there. Don't let these fools hear.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 57,
+          "Speaker": "Fengxi",
+          "PlotLineKey": "As if we'd love to hear. We've had our fill of tea. Bye.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 58,
+          "Speaker": "Guan",
+          "PlotLineKey": "Boss, put it on Lianfeng's tab!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 59,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Out, out, out! Get out! Don't waste our time.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "What happened?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Aren't you afraid to fight against TDs?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "I mean, Bell-Borne Geochelone is a very dangerous opponent. You might get hurt or even lose your life fighting it.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Though that mother and daughter are quite pitiful, you don't have an obligation to help them.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Even if you back out now, no one can blame you, including that mother and daughter.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Keep this conversation between us. I'll try to figure out a way to get the \"Bell Spiriton\" for you, so you don't have to risk your life.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Though we've only known each other for a short time, I don't want to see you die on my watch.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 174,
+              "PlotLineKey": "You're experienced, so I'm safe with you around.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "You've got some guts. Well, not bad.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 175,
+              "PlotLineKey": "Unless you lied.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hmph. Are you doubting that I've never hunted that TD?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "Yes.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 177,
+              "PlotLineKey": "Not yet.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "That's straightforward.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Fine, even though you said that, I can tell from your expression that you're not fully convinced.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Can't blame you. Honestly, I sometimes doubt if I'm a true \"TD Hunter\" myself.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Have you heard of the Overclocking of a Resonator?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 178,
+              "PlotLineKey": "Yes.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 179,
+              "PlotLineKey": "No.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "You're quite knowledgeable. Have you ever encountered a Resonator after Overclocking?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Seriously? You've never heard of it? Given the fact you're a Resonator, that's a surprise. Overclocking is a negative phenomenon that occurs in Resonators. Different Resonators have different symptoms.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "If left unchecked, it can lead to severe aftereffects, even completely altering a Resonator's personality.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "For example, I'm one of the unlucky Resonators who went through it.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Rover",
+          "PlotLineKey": "You've experienced Overclocking before?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Perhaps, I don't really remember because the researchers at the Academy confirmed that I lost most of my memories after Overclocking.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Some memories, like how to fight those TDs, stay with me—no matter how hard I've tried to forget them.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Though in those memories, I always hunted them alone. There's always this strange feeling of unnaturalness... Forget it. You won't understand.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Anyway, not the right time to talk about this now.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Let's go. I'll head to the meeting point outside Jinzhou and wait for you there. I already sent the coordinates to your Terminal.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "If you're ready, meet me there. Don't dawdle. We need to catch up with them!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Cough…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 211,
+              "PlotLineKey": "Are you alright?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "I'm fine. Just a bit careless to be attacked by those minions. Not a big deal. I scared them off effortlessly.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 212,
+              "PlotLineKey": "You sure?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "What's with that look! Seems like it's time for your first lesson as my apprentice.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Rule Number One for \"TD Hunter\"—\"Never look down upon minions!\"",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Even weaker enemies can cause unexpected trouble. Got it?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 213,
+              "PlotLineKey": "But you didn't seem to follow your own rule.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 214,
+              "PlotLineKey": "Okay, okay, let's keep moving.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 215,
+              "PlotLineKey": "Yes, Master!",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ahem, I intentionally put myself in danger to teach you a lesson.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 228,
+              "PlotLineKey": "",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Alright, it's your loss not listening to me. I'm speaking from experience.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 227,
+              "PlotLineKey": "",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Good, remember my words. They'll be useful to you one day.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 216,
+              "PlotLineKey": "Why are we gathering here?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Bell-Borne Geochelone lives in the Gorges of Spirits, which is the source of the Qing River flowing through here. I can sense the state of a TD through the remaining frequency in the medium.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 217,
+              "PlotLineKey": "What did you find then?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "I told you that only I can find the \"Bell Spiriton,\" right? It's because Bell-Borne Geochelone emits a special frequency during specific periods, and only when defeating it during these periods can one get the \"Bell Spiriton.\"",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "No matter how many times you defeat Bell-Borne Geochelone, as long as it's not the right timing, you can't get the \"Bell Spiriton,\" and only my Resonance Ability can tell if it's the right timing.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 218,
+              "PlotLineKey": "What about now?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "We're pretty lucky. There's a high chance we'll get the \"Bell Spiriton\" if we hunt Bell-Borne Geochelone now.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Plus, it seems that those from the Pioneer Association are planning to go to the Gorges of Spirits along the river.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 219,
+              "PlotLineKey": "I can see signs of someone camping here.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Seems like they're well-prepared. The Pioneer Association is really interested in Bell-Borne Geochelone.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 220,
+              "PlotLineKey": "What's special about Bell-Borne Geochelone?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "You wanna know? Curiosity is a good trait! The more you know about your enemy before a battle, the more confident you'll be.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Let's start from the question \"how Tacet Discords are formed.\" Most people believe that they are born out of chaos, but there are some exceptions—some TDs seem to come from legends or even real history.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Legend has it that the ancient army in Huanglong used to sound a bronze bell in battle, inspiring soldiers to fight bravely and symbolizing the good wish of a triumphant return.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "One day, the bell ringer saved a turtle along the Qing River by accident. From then on, that turtle became an indispensable part of the soldiers, sharing their happiness and sorrow.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Before the fierce battle ended, the bell ringer died. However, the sound of the bell still echoed on the battlefield. It's said that the turtle was the one who sounded the bell.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 221,
+              "PlotLineKey": "The turtle carried on the duty of that bell ringer.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Yes, that's the story. Later, someone found a rusted ancient bell in the Gorges of Spirits, similar in style to the bronze bell the ancient army used.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Underneath that ancient bell was a giant turtle-shaped Tacet Discord. It witnessed the fierce war and bid farewell to the bell ringer and soldiers. These memories tied the heavy ancient bell to its back.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "But it's just a story. After all, no one knows if TDs have memories and emotions.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "No matter what happened in the past, this TD is now a hideous creature bringing nothing other than pain and torture to Huanglong.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "You don't need to show any mercy. If it really had emotions, it wouldn't want to be a creature destroying happiness and peace of people in Huanglong.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Rule Number Two for \"TD Hunter\"—\"Never show mercy to Tacet Discords!\"",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 222,
+              "PlotLineKey": "I see.",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 223,
+              "PlotLineKey": "Again...",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 224,
+              "PlotLineKey": "Yes, Master!",
+              "PlayVoice": false,
+              "JumpToId": 26
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "The Pioneer Association should have left not long ago. Let's follow their traces and catch up quickly!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Have you used the Scan function on the Terminal?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 225,
+              "PlotLineKey": "Of course.",
+              "PlayVoice": false,
+              "JumpToId": 28
+            },
+            {
+              "TextId": 226,
+              "PlotLineKey": "Not yet.",
+              "PlayVoice": false,
+              "JumpToId": 29
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Wonderful. Let's follow the path displayed on the Terminal and track them down.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "This is where having me as your master comes in handy. I can teach you everything you wanna know.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Turn on your Terminal and select the Scan function. You'll see a path displayed on the screen, and all you need to do is to follow it!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Understand? Great, let's follow the path displayed on the Terminal and track them down.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "These are the TDs that just attacked me.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Be careful. They seem to get extremely aggressive due to the awakening of Bell-Borne Geochelone.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Even someone as experienced as me got caught up in a tough battle.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "That sound…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 323,
+              "PlotLineKey": "I heard it too.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "It's a signal that Bell-Borne Geochelone is waking up.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ugh… My head…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 324,
+              "PlotLineKey": "What happened?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Nothing, just a bit of a headache.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(Darn, it's happening again. It feels like something in my memories is about to be awakened.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "The problem is, the traces left by the Pioneer Association members seem to disappear here…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 434,
+              "PlotLineKey": "We can follow the sound of the bell.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Right, they must be where the bell sound is. Let's go.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hey! Wake up! Can you hear me!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 361,
+              "PlotLineKey": "We're late…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Pioneer Association Squad Leader",
+          "PlotLineKey": "Ugh, you are… those people at the teahouse?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Enough talking. I'll check your injuries with my Forte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "No major organ damage, but there are multiple fractures. Did you fight against Bell-Borne Geochelone?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Pioneer Association Squad Leader",
+          "PlotLineKey": "Ha, it can't be called a fight. We're completely crushed.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Pioneer Association Squad Leader",
+          "PlotLineKey": "You should leave. Though it's calm now, no one knows when it'll wake up again.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Pioneer Association Squad Leader",
+          "PlotLineKey": "It's not an opponent you ordinary people can deal with.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ordinary people? You've got us wrong. I'm Lianfeng, a professional \"TD Hunter,\" and this is my top apprentice.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 362,
+              "PlotLineKey": "\"Top apprentice\"… You've only got one apprentice, okay?",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 363,
+              "PlotLineKey": "I'm not your apprentice.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 364,
+              "PlotLineKey": "Just leave it to me and my master!",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "You guys stay here and rest. Leave the rest to us.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "{PlayerName}, listen carefully to what I'm about to say.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 365,
+              "PlotLineKey": "Alright.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Do you see the large bell in the center of the \"Bell-Borne Ravine\"? Ringing it will awaken Bell-Borne Geochelone.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Since it's giant, it moves and turns slowly, so we'd better…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 366,
+              "PlotLineKey": "Stay away from it.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 367,
+              "PlotLineKey": "Get close to it.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Staying away from it will only force us into corners with its massive body. It can also use icy breath and condense water into ice crystals for indiscriminate attacks.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Though it may seem crazy, it's actually safer to get as close to it as possible.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Yeah, getting close allows us to take advantage of its blind spots during its turns and attacks. Smart move.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Its four legs, head, and tail are all highly offensive weapons. Don't underestimate them.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Also, its weakness is the big bell on its back, but it's relatively high and not easy to attack under normal circumstances.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 368,
+              "PlotLineKey": "Unless we can find a way to make it fall…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "You have a clear head, huh?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Bell-Borne Geochelone's feet are covered in hard ice, protecting them from hard.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "However, it's also its weakness. Once the ice is shattered, Bell-Borne Geochelone will lose balance and fall down, which gives us a good chance to attack its most vulnerable point.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 369,
+              "PlotLineKey": "But it keeps moving around.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "I'll draw its attention, and you seize the chance to attack.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 370,
+              "PlotLineKey": "Won't that put you in danger?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Tsk, are you underestimating a \"TD Hunter\"? Once you figure out its attack pattern, dodging is easy. That's how we took it down before.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 371,
+              "PlotLineKey": "We? I thought you defeated it on your own?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "We... I... Ugh, my head...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 372,
+              "PlotLineKey": "Was there anyone else who fought Bell-Borne Geochelone with you?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(In my memory, there's a group of people fighting alongside me.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(Who were they?)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Ugh… my head hurts!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 373,
+              "PlotLineKey": "Don't push yourself too hard. You'd better take a rest in your condition.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "It's dangerous to confront Bell-Borne Geochelone on your own.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 374,
+              "PlotLineKey": "It'll be fine. Leave it all to me.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Wait, {PlayerName}!!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Pioneer Association Squad Leader",
+          "PlotLineKey": "You really took down that monster all by yourself! That's astonishing!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "That's my apprentice! It should be a piece of cake for {Male=him;Female=her} to deal with such a small fish.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 383,
+              "PlotLineKey": "Are you alright?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Don't know about them, but I'm perfectly fine.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 384,
+              "PlotLineKey": "You sure?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "What are you worried about? It's just a small hiccup. Anyway, let me see the material you got from Bell-Borne Geochelone.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Yeah, that's it—the \"Bell Spiriton.\" It's actually the seed produced by the plant on Bell-Borne Geochelone.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Pioneer Association Squad Leader",
+          "PlotLineKey": "Haha? Really? Good to know! I need to note it down.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Oh my, can't you forget about your stupid research for one second?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Never mind. Forget about them. You need to hurry back to Jinzhou and give this to Koko. I'll contact the Pioneer Association to get them medical treatment.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Koko",
+          "PlotLineKey": "Rover, you're back!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Koko",
+          "PlotLineKey": "Is everything okay? Did you find Lianfeng?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 414,
+              "PlotLineKey": "Yes.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Koko",
+          "PlotLineKey": "Did he still have \"Bell Spiriton\"?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 415,
+              "PlotLineKey": "It's a long story. Here, take it.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Koko",
+          "PlotLineKey": "\"Bell Spiriton\"? Oh, yes, this is it!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Worried Mother",
+          "PlotLineKey": "So my daughter can be saved?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Koko",
+          "PlotLineKey": "Yes, with this, your daughter can be cured.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Koko",
+          "PlotLineKey": "But it looks so fresh. I thought Lianfeng got it a long time ago.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "???",
+          "PlotLineKey": "Because it's freshly picked.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Koko",
+          "PlotLineKey": "Uncle Lianfeng?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hey, show me some respect. It's Brother Lianfeng.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 416,
+              "PlotLineKey": "How are you feeling?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Just a little aftereffect of Overclocking. See, I'm totally fine.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Koko",
+          "PlotLineKey": "Overclocking? But your symptoms don't seem like it. The aftereffect of Overclocking is supposed to be associated with a Resonator's Forte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "So what? My Forte is frequency perception.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 417,
+              "PlotLineKey": "But your symptom is memory loss.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Hmm…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Koko",
+          "PlotLineKey": "Is there a possibility that you didn't really go through Overclocking, and some other incident caused your memory loss?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 418,
+              "PlotLineKey": "I believe you had teammates fighting with you.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "No way. I've never had any companions or teammates. My dear apprentice, you worry too much. I handle my affairs, and you handle yours.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Koko",
+          "PlotLineKey": "How did you get injured?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 419,
+              "PlotLineKey": "A long story again.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 420,
+              "PlotLineKey": "He insisted on being my master.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 421,
+              "PlotLineKey": "Master Lianfeng!",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "I'll share with you the exciting battle between Rover and Bell-Borne Geochelone later. For now, let's make the medicine this lady's daughter needs.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Worried Mother",
+          "PlotLineKey": "Thank you, Mr. Lianfeng.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "No big deal. Taking down enemies of this level is just a walk in the park for a \"TD Hunter\".",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Koko",
+          "PlotLineKey": "Uncle Lianfeng, what do you think about continuing hunting those giant TDs? If you happen to get any rare materials, I'm still willing to buy them at a good price!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Call me \"Brother\"! Anyway, I've already retired. I'll leave the title of \"TD Hunter\" to my chief apprentice.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 422,
+              "PlotLineKey": "Me?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Koko",
+          "PlotLineKey": "Really? That's good news. Rover's much more reliable than Uncle Lianfeng.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 423,
+              "PlotLineKey": "Can I?",
+              "PlayVoice": false,
+              "JumpToId": 24
+            },
+            {
+              "TextId": 424,
+              "PlotLineKey": "I'm not your apprentice.",
+              "PlayVoice": false,
+              "JumpToId": 25
+            },
+            {
+              "TextId": 425,
+              "PlotLineKey": "Leave it to me, Master!",
+              "PlayVoice": false,
+              "JumpToId": 26
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Don't worry! I'll keep teaching you, hahaha!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 27
+        },
+        {
+          "Id": 25,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Okay, fine, but not being a TD Hunter is surely a waste of your skills.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 27
+        },
+        {
+          "Id": 26,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Great. Now you're the new \"TD Hunter,\" and I'm sure you can do it well.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 27
+        },
+        {
+          "Id": 27,
+          "Speaker": "Koko",
+          "PlotLineKey": "Right, and of course, you'll earn a fair wage for your work.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "(Perhaps, I can find out the true reason for my memory loss in battles against TDs.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Lianfeng",
+          "PlotLineKey": "Well then, my dear apprentice, if there's information about new large TDs, I'll contact you!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

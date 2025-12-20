@@ -1,0 +1,434 @@
+{
+  "Id": 133900004,
+  "Name": "Les trois frères bizarres",
+  "Description": "Vous avez aidé les trois frères, et ils souhaitent vous remercier en personne.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 133900004,
+  "ShowQuestList": [],
+  "QuestDesc": "Vous avez aidé les trois frères, et ils souhaitent vous remercier en personne.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900001,
+      "PreQuestName": "Les trois frères bizarres : Fratellone"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900002,
+      "PreQuestName": "Les trois frères bizarres : Fratello"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900003,
+      "PreQuestName": "Les trois frères bizarres : Fratellino"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Génial, tu es toujours là !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "En discutant, nous nous sommes rendus compte que c'est toi qui a aidé mes frères !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fratello",
+          "PlotLineKey": "De sages paroles ! Rien ne vous arrête !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Merci beaucoup !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 70,
+              "PlotLineKey": "Ce n'est rien.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 71,
+              "PlotLineKey": "J'ai besoin de quelque chose de plus tangible que de simples paroles en l'air.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "N'importe quoi ! Rejoindre l'Association pionnière est notre rêve, et tu nous as énormément aidés, nous devons absolument te remercier comme il se doit !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Bien sûr, nous allons montrer notre reconnaissance ! Rejoindre l'Association pionnière est notre rêve, et tu nous as énormément aidés, nous devons absolument te remercier comme il se doit !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fratello",
+          "PlotLineKey": "Puisque nous remercions la personne la plus forte du monde, nous devons te donner le meilleur cadeau imaginable !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "C'est pourquoi nous avons décidé de mettre notre argent en commun pour te construire une <span style=\"color:#ffd12f;\" class=\"font-bold\">statue</span>, juste ici !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "D'accord, montrons-nous une pose la plus cool !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "Prendre une pose de penseur.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 73,
+              "PlotLineKey": "Se tenir droit comme un guerrier.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "D'accord, j'ai pris la photo ! Nous l'enverrons au sculpteur. Reviens dans quelques jours et tu vas avoir une <span style=\"color:#ffd12f;\" class=\"font-bold\">statue exclusive</span> !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Ah, te voilà. Regarde, nous avons fait une « statue » pour toi ! Ha ha ha...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 130,
+              "PlotLineKey": "Ça n'a rien d'une statue.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 131,
+              "PlotLineKey": "Et ce n'est pas non plus la pose que j'ai prise.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Nous avions prévu de respecter ta pose, mais euh, il y a eu un petit accident.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Après l'arrivée des pierres, j'avais peur que quelqu'un les vole, alors je suis resté ici et j'ai demandé à Fratello de livrer le portrait au sculpteur.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fratello",
+          "PlotLineKey": "Alors, j'ai couru, couru et couru encore ! Puis je me suis perdu, ha ha !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "J'ai compris que Fratello s'était perdu en ne le voyant pas revenir. Alors, j'ai pris ton portrait de secours et je suis allé chercher le sculpteur.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Mais quand je suis arrivé, impossible de mettre la main sur le portrait...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "J'étais vraiment inquiet de mon côté, alors j'ai décidé d'aller les chercher. Mais je ne pouvais pas laisser les pierres sans surveillance, alors je les ai portées avec moi. Je n'ai pas retrouvé mes frères, et à la fin, j'ai trébuché et tout est tombé de la falaise...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Sans les pierres ni le portrait, nous n'avions pas d'autre choix que d'utiliser la commission du sculpteur pour acheter une projection et ajuster la pose en fonction de nos souvenirs.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fratello",
+          "PlotLineKey": "Ça aurait pu être pire, non ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Ouais, ça correspond bien à l'ambiance de la ville !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 132,
+              "PlotLineKey": "Je suppose que oui...",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 133,
+              "PlotLineKey": "Je veux une statue ! C'est ça ou c'est rien !",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Merci de ta compréhension, ha ha !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 12,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "C'est-à-dire que nous avons dépensé toutes nos économies pour ça, donc faire une autre statue pourrait être un peu difficile…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Fratello",
+          "PlotLineKey": "Et si nous attendions de rejoindre l'Association pionnière pour économiser un peu d'argent d'abord ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Si tout se passe bien, nous devrions avoir économisé assez dans trois ou quatre ans pour construire votre statue !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Ce n'est pas nécessaire…je plaisante…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Merci pour ta compréhension, ha ha.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Nous partons maintenant à l'Association pionnière. À la prochaine !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Ah, te voilà. Regarde, nous avons fait une « statue » pour toi ! Ha ha ha...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 130,
+              "PlotLineKey": "Ça n'a rien d'une statue.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 131,
+              "PlotLineKey": "Et ce n'est pas non plus la pose que j'ai prise.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Nous avions prévu de respecter ta pose, mais euh, il y a eu un petit accident.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Après l'arrivée des pierres, j'avais peur que quelqu'un les vole, alors je suis resté ici et j'ai demandé à Fratello de livrer le portrait au sculpteur.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fratello",
+          "PlotLineKey": "Alors, j'ai couru, couru et couru encore ! Puis je me suis perdu, ha ha !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "J'ai compris que Fratello s'était perdu en ne le voyant pas revenir. Alors, j'ai pris ton portrait de secours et je suis allé chercher le sculpteur.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Mais quand je suis arrivé, impossible de mettre la main sur le portrait...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "J'étais vraiment inquiet de mon côté, alors j'ai décidé d'aller les chercher. Mais je ne pouvais pas laisser les pierres sans surveillance, alors je les ai portées avec moi. Je n'ai pas retrouvé mes frères, et à la fin, j'ai trébuché et tout est tombé de la falaise...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Sans les pierres ni le portrait, nous n'avions pas d'autre choix que d'utiliser la commission du sculpteur pour acheter une projection et ajuster la pose en fonction de nos souvenirs.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fratello",
+          "PlotLineKey": "Ça aurait pu être pire, non ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Ouais, ça correspond bien à l'ambiance de la ville !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 132,
+              "PlotLineKey": "Je suppose que oui...",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 133,
+              "PlotLineKey": "Je veux une statue ! C'est ça ou c'est rien !",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Merci de ta compréhension, ha ha !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 12,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "C'est-à-dire que nous avons dépensé toutes nos économies pour ça, donc faire une autre statue pourrait être un peu difficile…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Fratello",
+          "PlotLineKey": "Et si nous attendions de rejoindre l'Association pionnière pour économiser un peu d'argent d'abord ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Si tout se passe bien, nous devrions avoir économisé assez dans trois ou quatre ans pour construire votre statue !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Ce n'est pas nécessaire…je plaisante…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Merci pour ta compréhension, ha ha.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Nous partons maintenant à l'Association pionnière. À la prochaine !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

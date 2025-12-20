@@ -1,0 +1,937 @@
+{
+  "Id": 139000020,
+  "Name": "Traîneur d'Écho aux cheveux blancs - II",
+  "Description": "M. Jingzhu a mis au point une nouvelle méthode pour entraîner les Échos. Allez lui demander les détails.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139000020,
+  "ShowQuestList": [],
+  "QuestDesc": "M. Jingzhu a mis au point une nouvelle méthode pour entraîner les Échos. Allez lui demander les détails.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 139000017,
+      "PreQuestName": "Traîneur d'Écho aux cheveux blancs - I"
+    },
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 21
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "J'ai entendu dire que Yhan est devenu un instructeur très strict. Faites bien attention.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Il y a pas mal de jeunes là-bas que j'ai déjà battus en duel ! Donc, je vais m'abstenir de vous rejoindre et de briser leur moral.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Nous y voilà. Entrez donc. Bonne chance !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Maintenant que tout le monde est là, Monsieur Jingzhu, quel est le plan ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Depuis notre dernière séparation, j'ai réfléchi aux paroles de Linghan, et elles m'ont offert une nouvelle perspective !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "« Vous ne pouvez pas juger un Écho uniquement sur son apparence. Malgré ses imposantes faucilles, il n'est peut-être pas ce qu'il paraît. »",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Elle pensait que les faucilles n'étaient impressionnantes qu'en surface, mais manquaient de praticité et de tranchant en tant qu'armes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Je suis sûr que si je peux affûter ces faucilles jusqu'à ce qu'elles soient aussi tranchantes qu'une lame, Linghan acceptera volontiers mes Menthes poivrées.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 807,
+              "PlotLineKey": "Vraiment ?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 808,
+              "PlotLineKey": "Vous êtes sûr cette fois ?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "On s'améliore avec la pratique. On connaîtra la réponse une fois que j'aurai essayé.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Euh, la vie est pleine d'incertitudes. Si j'échoue cette fois, il y aura toujours une autre chance !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Très bien, alors mettons-nous à affûter ces énormes faucilles !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Euh, à propos du terrain d'entraînement des Échos...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Ce serait celui de l'Instructeur Yhan ! J'y suis déjà allée pour l'évaluation de fin d'études des Patrouilleurs. Honnêtement, si je pouvais éviter, je ne ferais pas un deuxième tour.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Mais avec {PlayerName} à nos côtés aujourd'hui, ce ne sera pas si stressant, n'est-ce pas ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Être timide ne convient pas à une Patrouilleuse ! Suivez-moi. Allons-y !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "De retour si vite ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Yhan est un personnage assez redoutable. Traverser son entraînement comme vous l'avez fait est vraiment impressionnant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Je n'ai aucun doute que le monde sera bientôt à vos pieds, les jeunes !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Assez plaisanté. Passons aux choses sérieuses. Les faucilles du Combattant Havoc attendent d'être affûtées !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "De retour ici, dans cet endroit familier.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yingying",
+          "PlotLineKey": "Grand-père, vous êtes là pour voir grand-mère, n'est-ce pas ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yingying",
+          "PlotLineKey": "J'ai entendu dire que vous... euh, comment dire ? Que vous faites la cour à grand-mère ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Oh là là ! Attends, Yingying. Tu es trop jeune pour comprendre ce que ça veut dire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yingying",
+          "PlotLineKey": "J'ai même appris un nouveau terme ! L'amour tardif !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yingying",
+          "PlotLineKey": "Bref, grand-père, vous devriez foncer ! Je vais aller dire à grand-mère que vous êtes là !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yingying",
+          "PlotLineKey": "GRAND-MÈRE !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yingying",
+          "PlotLineKey": "Grand-père est revenu avec plus de Menthes poivrées pour toi !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Oh là là, les enfants de nos jours sont vraiment quelque chose.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Linghan",
+          "PlotLineKey": "Des Menthes poivrées ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Linghan",
+          "PlotLineKey": "C'est curieux. Ces derniers temps, une dizaine de messieurs m'ont apporté de telles fleurs.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Douze, en fait.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Et maintenant je suis le treizième... Attends, les autres, c'était tous moi aussi...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Vous vous souvenez de ce que vous m'avez dit la dernière fois ? On ne peut pas juger un Écho juste à son apparence.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Vous avez raison ! Du coup, j'ai renforcé mes Échos encore plus !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Linghan",
+          "PlotLineKey": "C'est une façon de voir les choses.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Quel soulagement d'entendre ça ! Bon, laissez-moi vous montrer ce qu'on a accompli cette fois-ci !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Qu'en pensez-vous, Linghan ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Linghan",
+          "PlotLineKey": "Désolée, quelle était la raison de votre visite déjà ? Ah, pour me montrer l'Écho ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yingying",
+          "PlotLineKey": "NON ! Grand-mère, il est là pour te donner des Menthes poivrées !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 932,
+              "PlotLineKey": "Oh, ma petite...",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 933,
+              "PlotLineKey": "Bien joué !",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Yingying est trop énergique aujourd'hui, mais ça m'a beaucoup aidé.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Yingying déborde vraiment d'énergie aujourd'hui, n'est-ce pas ? Mais ça m'a bien rendu service.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Je suppose que je devrais profiter de l'occasion. Je suis venu vous apporter des Menthes poivrées. Accepteriez-vous de passer le reste de votre vie avec moi ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Linghan",
+          "PlotLineKey": "Oh là là, quelle histoire... Merci, mais je ne cherche pas de partenaire en ce moment. Même si je l'étais, je préférerais quelqu'un qui ressemble à mon ancienne flamme...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Linghan",
+          "PlotLineKey": "C'était un soldat sage et courageux, et même ses Échos étaient impressionnants. À côté de lui, tout le monde paraît insignifiant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Linghan",
+          "PlotLineKey": "Alors, n'hésitez pas à me poser des questions sur les Échos, mais pour le reste, évitons d'en parler.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Très bien... Désolé de vous avoir dérangée.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Il semble que monsieur Jingzhu a été encore une fois rejeté.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Monsieur Jingzhu, ça va ? Ne soyez pas triste... J-je vais faire tout ce que je peux pour vous remonter le moral.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Ah ? Triste ? Pas le moins du monde ! Et même si je l'étais, ce ne serait qu'une simple façade.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Treize échecs, mais je ne suis pas prêt à abandonner ! Je persisterai, que ce soit la quatorzième, la quinzième fois ou plus...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 953,
+              "PlotLineKey": "Pourquoi êtes-vous soudainement si motivé ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Parce que j'ai décidé de devenir le soldat sage et courageux qui correspond aux idéaux de Linghan !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Je suis désolé de rendre vos efforts inutiles.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 954,
+              "PlotLineKey": "Ce n'est pas grave.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 955,
+              "PlotLineKey": "À condition de ne pas être radin avec le paiement.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 956,
+              "PlotLineKey": "C'était assez amusant de voir tout ça se dérouler.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Merci. Les jeunes sont vraiment gentils !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Pas de problème. Je veillerai à ce que vous receviez une compensation adéquate.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Bon, c'est un peu embarrassant... Mais bon, au moins, j'ai rendu quelqu'un heureux. Ce n'est pas si terrible.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Bon, c'est un peu embarrassant... Mais bon, au moins, j'ai rendu quelqu'un heureux. Ce n'est pas si terrible.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Treize rejets consécutifs... Il est peut-être temps de réfléchir à mon approche...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Peut-être que Linghan n'aime pas des déclarations aussi directes et passionnées ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Ça se tient... Madame Linghan a l'air plutôt sérieuse, il serait peut-être temps de changer de tactique ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Mais quelle autre approche pourrais-je essayer ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 957,
+              "PlotLineKey": "Parler plus des Échos ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Chixia",
+          "PlotLineKey": "C'est une super idée ! Si vous commencez par un sujet qui l'intéresse, vous pourrez vous rapprocher d'elle, et ensuite, lui demander d'être votre partenaire viendrait plus naturellement !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "En effet, il semble que les Échos soient la seule chose qui l'intéresse.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Je dois bien réfléchir à améliorer l'Écho. En fait, ma capitaine m'a appris beaucoup de choses à l'époque, mais l'âge a un peu brouillé ma mémoire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Bon, on va en rester là pour aujourd'hui. Je dois rentrer chez moi pour réfléchir à tout ça. Voici votre paiement pour vos efforts d'aujourd'hui.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Pas mal. Bien au-delà de mes attentes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yhan",
+          "PlotLineKey": "{PlayerName}, vous ne cessez de m'impressionner.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yhan",
+          "PlotLineKey": "N'hésitez pas à venir me voir si vous avez besoin d'aide. Je serais heureux de proposer des entraînements à différents niveaux pour les personnes aussi motivées que vous.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Ça sonne un peu... intimidant, n'est-ce pas ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Je n'aurais jamais imaginé qu'on traverserait tout cet entraînement aussi rapidement ! Tu es vraiment à la hauteur de ta réputation, {PlayerName} !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Allons annoncer la bonne nouvelle à monsieur Jingzhu !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chixia",
+          "PlotLineKey": "C'est encore plus impressionnant maintenant ! Regardez ces faucilles, elles sont vraiment intimidantes !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Héhé, voilà le fruit d'un entraînement qui a passé l'épreuve de l'exigeant Yhan.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Cette voix... Je savais que c'était vous, Monsieur Jingzhu.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Chixia",
+          "PlotLineKey": "In-Instructeur Yhan ?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Ah, tu reconnais encore ce vieux visage, Yhan.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Vous vous connaissez ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Oui, depuis longtemps.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yhan",
+          "PlotLineKey": "À l'époque des Gardiens de minuit, monsieur Jingzhu avait tout mon respect.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Cela fait un moment que nous ne nous sommes pas vus, Monsieur Jingzhu. Vous semblez toujours aussi énergique… même si vos jambes paraissent moins agiles ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Ahem, juste un petit accident. Vous savez, je prends de l'âge. Un faux pas lors d'une randonnée. Rien de grave !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Je me repose, et je devrais bientôt être rétabli.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Vos blessures semblent bien guéries, mais n'oubliez pas l'importance du repos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Toujours aussi bavard, mon garçon. À l'époque, on endurait bien pire tout en combattant. Tu te souviens ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Mais vous êtes à la retraite depuis longtemps…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Peut-être, mais le feu brûle toujours en moi ! Cela fait un bon moment que j'ai pris ma retraite, et les occasions de rencontrer des jeunes comme vous sont rares de nos jours.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Et voici le Chef Instructeur Yhan. Vous avez l'air en forme, je présume ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Je ne fais que remplir mon devoir. Et vos anciens camarades, comment vont-ils ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "À part la capitaine et moi, ils… Ah, peu importe. Parlons de sujets plus joyeux pour cette réunion rare.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Le passé est passé. Quand tu auras mon âge, tu réaliseras que le moment présent est ce qui compte le plus dans la vie !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Vivre l'instant présent et chérir chaque jour qui passe. C'est ainsi que nous honorons le sacrifice de nos camarades.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Yhan",
+          "PlotLineKey": "En effet, Monsieur Jingzhu. Le présent exige toute notre attention.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Exactement, parlons donc du présent. Tu sais ce dont j'ai besoin maintenant. Es-tu prêt à me donner un coup de main ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Vous êtes toujours aussi plein d'énergie, monsieur Jingzhu.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Ah bon ? Je suis vraiment flatté.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Yhan",
+          "PlotLineKey": "Mais pour obtenir des Échos, il faut passer par les voies légales. Même pour votre demande, je ne peux pas faire d'exception.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Tu n'as pas changé, toi !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Chixia",
+          "PlotLineKey": "L'instructeur Yhan est vraiment strict.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Je suis encore surprise d'apprendre que monsieur Jingzhu a été un Gardien de minuit.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Bah, je sais rester discret.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Je vais la faire tomber amoureuse de moi en un seul coup !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Avec mon charme naturel et ces faucilles bien affûtées, je suis sûr que cette fois, je vais gagner le cœur de Linghan, et elle acceptera mes Menthes poivrées !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 902,
+              "PlotLineKey": "Vous en êtes sûr ?",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 903,
+              "PlotLineKey": "Vraiment ?",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Absolument !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Pourquoi êtes-vous si sûr qu'un puissant Écho suffira à conquérir Madame Linghan ?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 12,
+          "Speaker": "Chixia",
+          "PlotLineKey": "Je suis d’accord. Pourquoi êtes-vous si sûr qu'un puissant Écho suffira à conquérir Madame Linghan ?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Il n'y a pas que l'Écho ! Linghan m'a déjà dit ses critères pour l'homme idéal.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Elle disait rêver d'un partenaire sage et courageux, accompagné d'un Écho imposant, capable d'affronter les ennemis avec une sérénité sans pareille.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Vous voyez ? Mis à part l'imposant Echo, tout me va parfaitement !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 904,
+              "PlotLineKey": "…",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Chixia",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Pourquoi ce regard ? Vous doutez de moi ? C'est normal, il y a un écart de génération.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Mais en amour, surtout chez les personnes âgées comme nous, je suis expert !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Jingzhu",
+          "PlotLineKey": "Bon, tout est prêt. Allons rendre visite à Linghan.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

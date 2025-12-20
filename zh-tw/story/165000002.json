@@ -1,0 +1,612 @@
+{
+  "Id": 165000002,
+  "Name": "島上的面具人",
+  "Description": "黎喬利島上出現一位神秘的面具人，衣著體面，卻有著不同於儀表的瘋癲……",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 165000002,
+  "ShowQuestList": [],
+  "QuestDesc": "黎喬利島上出現一位神秘的面具人，衣著體面，卻有著不同於儀表的瘋癲……",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "老人魚海"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "奇怪的女孩",
+          "PlotLineKey": "{Male=哥哥;Female=姐姐}你看，我抓到了！你快看，好漂亮的魚。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "年輕的漁民",
+          "PlotLineKey": "朋友，現在先別離她太近，她的情緒看起來不太穩定，小心傷到你。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "年長的漁民",
+          "PlotLineKey": "真奇怪，剛才遞給她食物的時候還很正常啊……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 141,
+              "PlotLineKey": "她是誰？",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 142,
+              "PlotLineKey": "她怎麼了？",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "年輕的漁民",
+          "PlotLineKey": "不認識，她的打扮不像黎喬利群島上的人，或許是來探險的城裡人吧。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 5,
+          "Speaker": "年輕的漁民",
+          "PlotLineKey": "看起來像是受了什麼刺激，腦袋不太靈光了。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "年輕的漁民",
+          "PlotLineKey": "她的打扮不像是黎喬利群島上的人，或許是來探險的城裡人吧。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "年長的漁民",
+          "PlotLineKey": "這片海域深處有很多奇怪的魚，城裡人喜歡來這裡水下探險，找別人沒有的神秘魚類去填充他們的珍奇櫃。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "年長的漁民",
+          "PlotLineKey": "未知海域非常危險，沒有敬畏是會招來厄運的。每天都有自大的傻瓜有去無回，可還是有源源不斷的人去冒險。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "年長的漁民",
+          "PlotLineKey": "剛才聽旁邊的人說，很久之前這個女孩和她{Male=哥哥;Female=姐姐}兩個人打聽過抓魚的事情。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "年長的漁民",
+          "PlotLineKey": "現在怎麼只有她一個人在這裡了……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "年輕的漁民",
+          "PlotLineKey": "唉，我不知道她的家人是誰，也勸不走她，或許你可以再試試。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "達娜",
+          "PlotLineKey": "{Male=哥哥;Female=姐姐}，達娜把這條漂亮的魚帶回去，一定能讓他們大開眼界吧。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "達娜伸直了傷痕累累的雙臂，把捧在手裡的酒瓶碎片給你看。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "達娜",
+          "PlotLineKey": "欸，{Male=哥哥;Female=姐姐}你受傷了？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "達娜",
+          "PlotLineKey": "太好了！你記不記得羅納叔叔說，這裡有種魚會被人的傷口吸引。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "達娜",
+          "PlotLineKey": "還沒有人找到過這種魚呢，快，我們快出海，就算我們死掉也要找到這條魚！找到之後拿回城給他們看看！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 150,
+              "PlotLineKey": "找到這條魚你就會回城嗎？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "達娜",
+          "PlotLineKey": "當然了！我要第一時間把這條魚拿給所有人看，這樣就沒有人會不承認我是最厲害的收藏家了！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 151,
+              "PlotLineKey": "這條魚長什麼樣？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "達娜",
+          "PlotLineKey": "你怎麼不記得了，我畫給你看。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 152,
+              "PlotLineKey": "好，我明白了，我會找到它的。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 0,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "達娜",
+          "PlotLineKey": "羅納叔叔你答應幫我的，我的魚呢？我的魚呢！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "路過的漁民",
+          "PlotLineKey": "你、你是誰啊？！離我遠點！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "達娜",
+          "PlotLineKey": "好痛…我的臉好痛……不要咬我的臉……{Male=哥哥;Female=姐姐}救救我，{Male=哥哥;Female=姐姐}？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 42,
+              "PlotLineKey": "達娜？你怎麼還在島上？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "達娜",
+          "PlotLineKey": "{Male=哥哥;Female=姐姐}…嗚嗚……我的魚，你送給我的魚，我找不到了……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "你看到上次帶給達娜的魚正掛在她的腰間，散發著腥臭腐爛的味道。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "達娜",
+          "PlotLineKey": "對不起，你別生氣，我去找你最喜歡的魚送給你，向你道歉！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 43,
+              "PlotLineKey": "什麼喜歡的魚？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "達娜手忙腳亂畫出了一條魚的大致形狀。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "達娜",
+          "PlotLineKey": "就是這個，你小時候告訴我的，你說這是你最喜歡的魚！現在還是的，對吧？我沒有記錯？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 44,
+              "PlotLineKey": "你不用去冒險，我已經有它了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "達娜",
+          "PlotLineKey": "什麼？在哪裡？你竟然拋下我自己出海了嗎？你瞞著我找到什麼好東西了？快給我看看！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 45,
+              "PlotLineKey": "我會把這個魚拿給你看的。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "達娜",
+          "PlotLineKey": "小魚…小魚…你在哪裡……快出來吧，我給你帶了好吃的。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 68,
+              "PlotLineKey": "……還沒有離開嗎。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "達娜",
+          "PlotLineKey": "你為什麼這麼傷心？這裡的魚缸很大啊，還有很多其他漂亮的魚在陪你呢。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "達娜",
+          "PlotLineKey": "{Male=哥哥;Female=姐姐}…你把自己的{Male=哥哥;Female=姐姐}丟在了海裡嗎……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "達娜",
+          "PlotLineKey": "別哭，我幫你去把它找回來，{Male=哥哥;Female=姐姐}最重要了…{Male=哥哥;Female=姐姐}最重要……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（直接勸她離開好像沒有用，不如試著找到她的親人，讓他們帶她回去？）",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 69,
+              "PlotLineKey": "達娜，你的{Male=哥哥;Female=姐姐}在哪？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "達娜",
+          "PlotLineKey": "{Male=他;Female=她}還在海裡，海裡很冷…我要把{Male=他;Female=她}找回來。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 70,
+              "PlotLineKey": "海裡？難道{Male=他;Female=她}……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "達娜",
+          "PlotLineKey": "我不能一個人回家，我們約定好的。{Male=他;Female=她}長這樣，不對…是這樣，我一定要把{Male=他;Female=她}接回來。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "達娜一邊說一邊在地上認真塗畫，最終畫出一條魚。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "達娜慌張地向海邊跑去，你及時攔住了她。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "達娜",
+          "PlotLineKey": "你是什麼身分也敢抓我！我可是真正的貴族，是有邀請函的客人，我真的是收藏家！讓我進去！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "達娜",
+          "PlotLineKey": "我們為多利亞先生帶來了珍貴的禮物，{Male=哥哥;Female=姐姐}，快給他看看我們準備的禮物。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（如果她有機率把這種魚認成自己的{Male=哥哥;Female=姐姐}，把這條魚帶回來或許能讓她沉浸在假象中離開？）",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 71,
+              "PlotLineKey": "好，我馬上拿出來。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "達娜",
+          "PlotLineKey": "哼，你們這些不長眼的傢伙，等著瞧！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "達娜捧著手裡的魚不停地遞給周圍的漁民，圍觀的人們紛紛退避。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "達娜",
+          "PlotLineKey": "多利亞先生，您再仔細看看，這條魚是已經滅絕的品種，我在深海中找了三天三夜才找到的。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "達娜",
+          "PlotLineKey": "克萊爾夫人，我現在可以加入您的沙龍了嗎，我已經符合您提出的額外條件了。您答應過我的……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 94,
+              "PlotLineKey": "……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "圍觀的船工",
+          "PlotLineKey": "她手裡拿的什麼…腐爛的魚嗎……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "圍觀的漁民",
+          "PlotLineKey": "我聽不懂她在說什麼，這不只是一條普通的魚嗎？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "達娜",
+          "PlotLineKey": "你們明明答應過我的，你們為什麼要騙我！為什麼！為什麼！！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "圍觀的船工",
+          "PlotLineKey": "你不要打人啊！大家快想辦法控制她一下！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 95,
+              "PlotLineKey": "達娜，是我，冷靜點。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "達娜看到你之後才終於漸漸冷靜了下來，眼裡流出淚水。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "達娜",
+          "PlotLineKey": "{Male=哥哥;Female=姐姐}，{Male=哥哥;Female=姐姐}…對不起…我讓你失望了……我去找他們，可是……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "達娜",
+          "PlotLineKey": "他們…嗚嗚…他們出爾反爾，他們根本沒想接受我們進入家族……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 96,
+              "PlotLineKey": "別哭了，不會的，還會有辦法的。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "達娜",
+          "PlotLineKey": "還會有辦法嗎……如果再送一條珍貴的魚給他們，他們…會接受我們嗎？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 97,
+              "PlotLineKey": "一定會的，你覺得什麼魚合適？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "達娜",
+          "PlotLineKey": "我…我覺得……這種魚怎麼樣？它只在黎喬利群島出現，很珍貴。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "達娜",
+          "PlotLineKey": "只要去那裡成功抓到這條魚，我們是不是就能變成家族的一員了？到時候說不定會有專人來接我們呢！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 98,
+              "PlotLineKey": "沒錯，我去找魚，你乖乖等我。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "達娜",
+          "PlotLineKey": "嗯，達娜會乖乖等你回來的。{Male=哥哥;Female=姐姐}注意安全。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "達娜",
+          "PlotLineKey": "尊敬的克萊爾夫人，您到底在哪裡？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "達娜",
+          "PlotLineKey": "您難道，還是不願意見我嗎？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 118,
+              "PlotLineKey": "亞……克萊爾夫人已經出去捕魚了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "達娜",
+          "PlotLineKey": "啊……怎會如此！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "達娜",
+          "PlotLineKey": "這是，這是克萊爾夫人留下的信箋嗎？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "「克萊爾的信」",
+          "PlotLineKey": "「最近城裡來的人越來越奇怪了……」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "「克萊爾的信」",
+          "PlotLineKey": "「羅納，要不你弄點標本賣吧，也是一筆好買賣。」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "達娜",
+          "PlotLineKey": "克萊爾夫人，您去找羅納叔叔了嗎？我這就來找您！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

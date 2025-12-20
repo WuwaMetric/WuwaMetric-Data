@@ -1,0 +1,295 @@
+{
+  "Id": 880000041,
+  "Name": "Ein paar Fische fangen",
+  "Description": "Auf zum großen Fang!",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000041,
+  "ShowQuestList": [],
+  "QuestDesc": "Auf zum großen Fang!",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "Der alte Mann und der Wal"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Marco",
+          "PlotLineKey": "Hallöchen, {PlayerName}! Komm her und triff Julien. Er ist ein Kater, der sich dem Leben am Dock nicht entziehen kann.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Marco",
+          "PlotLineKey": "Jedes Mal, wenn ich ihm einen Fisch gebe und über seine katerhaften Ambitionen erfahren will, miaut er mich an.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Julien",
+          "PlotLineKey": "Miau!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "Was sind seine katerhaften Ambitionen?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 55,
+              "PlotLineKey": "Warum miaut er denn?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Marco",
+          "PlotLineKey": "Er möchte der größte aller Kater sein – und Tiere aller Art fangen! Nicht wahr, Julien?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Julien",
+          "PlotLineKey": "Miau … Miau!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "Er stimmt wohl zu.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "Klingt nicht so, als würde er zustimmen.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Marco",
+          "PlotLineKey": "Keinen Zweifel! Wenn er sein angeborenes Schicksal erfüllt, wird er immer genug Fisch zu fressen haben!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Marco",
+          "PlotLineKey": "Unmöglich … Ich bin mir ganz sicher, dass er sein angeborenes Schicksal erfüllen will. Ihm wird nie wieder der Fisch ausgehen!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Das Wort „Fisch“ löst bei Julien aufgeregtes Miauen aus. Plötzlich sind seine katerhaften Ambitionen klar.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "Er miaut nur, weil er auf Fisch hofft.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "Er hängt nur wegen dem Fisch am Dock herum.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 60,
+              "PlotLineKey": "Er sehnt sich nach absoluter Herrschaft über alle Fische.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Marco",
+          "PlotLineKey": "Unfassbar! Ich dachte, er würde mich einfach mögen …",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 10,
+          "Speaker": "Marco",
+          "PlotLineKey": "Wie kann das sein?! Wir sprechen hier doch von den Träumen dieses Katers. Es kann nicht nur um Fisch gehen!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "Marco",
+          "PlotLineKey": "Da ist schon was dran. Fische sind das Kronjuwel im Leben eines Katers!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "Marco",
+          "PlotLineKey": "Oh, Julien, sag, dass es nicht stimmt! Geht es dir wirklich nur um Fisch?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Julien",
+          "PlotLineKey": "Miau, miau!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 61,
+              "PlotLineKey": "Nur zu. Gib ihm einen Fisch, dann siehst du es.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Marco",
+          "PlotLineKey": "Gute Idee … Ich habe heute aber noch keinen einzigen gefangen!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 62,
+              "PlotLineKey": "Ich habe etwas Fisch dabei.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 63,
+              "PlotLineKey": "Ich habe auch keinen.",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Marco",
+          "PlotLineKey": "Oh, wirklich? Könntest du mir – Äh, nein, könntest du Julien einen Fisch geben?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 16,
+          "Speaker": "Marco",
+          "PlotLineKey": "Verstehe … Nun, wenn du Fische findest, kannst du sie mit Julien teilen?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "Marco",
+          "PlotLineKey": "Julien wird dich dafür belohnen! Also, ich werde es, du verstehst mich aber …",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Marco",
+          "PlotLineKey": "Nun? Hast du Fisch gefangen?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "Hier.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Marco",
+          "PlotLineKey": "Oh, vielen Dank, ich versuche es sofort! Oh, Julien. Komm her, Julien. Hol deinen Fisch.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Julien",
+          "PlotLineKey": "Miau!!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Julien nimmt den Fisch freudig an, verschlingt ihn in Sekunden und lässt nichts zurück als Gräten. Dann schmiegt er sich dankbar an dich.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Marco",
+          "PlotLineKey": "Oh, hast du gesehen, wie er das Ding verschlungen hat?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 73,
+              "PlotLineKey": "Kann keine Leckerei ablehnen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 74,
+              "PlotLineKey": "Es ist eben sein Kronjuwel.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Marco",
+          "PlotLineKey": "Ja, ja! Vielen Dank! Dank dir hab ich Juliens katerhaften Ambitionen erkannt!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Marco",
+          "PlotLineKey": "Hier. Hast du dir verdient!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Julien",
+          "PlotLineKey": "Miau, miau!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "Id": 165850000,
+  "Name": "Flüstern der Wellen",
+  "Description": "Eri, ein selbsternanntes Mitglied der Pioneer Association, kommt ins Café und bittet dich um Hilfe, die im Schillerglüh verstreuten Erinnerungen wiederzufinden.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 165850000,
+  "ShowQuestList": [],
+  "QuestDesc": "Eri, ein selbsternanntes Mitglied der Pioneer Association, kommt ins Café und bittet dich um Hilfe, die im Schillerglüh verstreuten Erinnerungen wiederzufinden.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100031,
+      "PreQuestName": "Wo Sternenlicht durch die Iris fließt"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 11900018,
+      "PreQuestName": "Schuppe der Vergangenheit"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Willkommen zurück, {Male=Passagier;Female=Passagierin}! Du kommst gerade recht! Jemand hat nach dir gefragt – soll wohl um etwas Wichtiges gehen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 14,
+              "PlotLineKey": "Ein Gast im Café?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 15,
+              "PlotLineKey": "Jemand, den ich kenne?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Ja! Was für eine freudige Gelegenheit!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Nö, ein neues Gesicht! Wenn das kein Grund zum Feiern ist!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Nachdem du und Chisa Honamis Zeitschleife durchbrochen habt, hat das Shashou-Café endlich wieder einen neuen Gast bekommen. Wer weiß – bald könnte es hier wieder proppenvoll sein.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 16,
+              "PlotLineKey": "Was diesen Gast betrifft …",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 17,
+              "PlotLineKey": "Weißt du mehr darüber?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Sie meinte, sie sei von der Pioneer Association. Eine … „Mitgliedschaftsbeurteilung“ schien sie zu beschäftigen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Wir haben ein wenig geplaudert. Sie hat nach hübschen Stellen für Bilder gefragt. Ich habe ihr den Springbrunnen empfohlen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Die Kirschblüten stehen in voller Blüte. Die Stelle wurde einst zum „schönsten Ort der Honami-Promenade“ gekürt!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 18,
+              "PlotLineKey": "Pioneer Association …",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 19,
+              "PlotLineKey": "Mitgliedschaftsbeurteilung …",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Mh-hmm. Das Thema war der Stimmung nicht zuträglich …",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Zu kompliziert. Nichts für ein Capybara wie mich. Am besten fragst du sie selbst.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Das Café ruft. Ich überlasse das also dir, {Male=Passagier;Female=Passagierin}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Also dann. Auf zum Springbrunnen.)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Eri",
+          "PlotLineKey": "Hallo, ich bin Eri von der Pioneer Association. Endlich begegnen wir uns!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Eine Zurückgelassene, offensichtlich nicht von hier. Aber woher kommt sie?)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(… Seltsam. Ich sollte zuerst einmal ihre Absichten herausfinden.)",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 43,
+              "PlotLineKey": "Ich bin {PlayerName}.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 44,
+              "PlotLineKey": "Namipon meinte, du hättest nach mir gesucht?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Eri",
+          "PlotLineKey": "Ah, ja! Die „Dunkle Legende der Gerechtigkeit“! Ich habe eine Bitte an dich!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 45,
+              "PlotLineKey": "… „Dunkle Legende der Gerechtigkeit“?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 46,
+              "PlotLineKey": "Meinst du mich?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Eri",
+          "PlotLineKey": "Natürlich! Ich habe dich sofort erkannt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Eri",
+          "PlotLineKey": "Du bist {Male=der Partner;Female=die Partnerin} der „geheimnisvollen Scherenfrau“. {Male=Der schwarzhaarige Held;Female=Die schwarzhaarige Heldin}, Honamis neueste urbane Legende!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Eri",
+          "PlotLineKey": "Es geht nicht nur darum, dass du stark genug bist, um gegen die TDs zu kämpfen. Es geht darum, warum du es tust. Die Leute sehen, dass du wirklich versuchst, diese Stadt zu beschützen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 47,
+              "PlotLineKey": "Hehe, „geheimnisvolle Scherenfrau“ …",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 48,
+              "PlotLineKey": "Noch so ein absurder Spitzname.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Eri",
+          "PlotLineKey": "Hab dich nicht so – Legenden brauchen coole Titel. Das ist Teil ihres Reizes!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Eri",
+          "PlotLineKey": "Wie dem auch sei, ich wollte dich ursprünglich um Hilfe mit einem Projekt bitten. Ich möchte Honami fotografieren.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Eri",
+          "PlotLineKey": "Das ist kein bloßer Zeitvertreib. Es geht um meine Mitgliedschaftsbeurteilung. Ich nenne mich zwar ein Mitglied der Pioneer Association, aber genau genommen steht meine Mitgliedschaftsprüfung an.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 49,
+              "PlotLineKey": "Mitgliedschaftsprüfung?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 50,
+              "PlotLineKey": "Jetzt wird’s ernst.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Eri",
+          "PlotLineKey": "Ich bin seit klein auf eine begeisterte Anhängerin des Magazins „Wuthergeographie“. Der Pioneer Association als Redakteurin beizutreten, würde mir einen Kindheitstraum erfüllen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Eri",
+          "PlotLineKey": "Aber die Redaktionsleitung hat einen aberwitzigen Beurteilungsprozess. Man muss ein Projekt vorweisen, das zur Mission der Association passt, eine Fotoreportage organisieren, die Genehmigung einholen und dann hoffen, dass das Ganze veröffentlicht wird.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Eri",
+          "PlotLineKey": "Ich habe mich endlich für ein Motiv entschieden, aber jetzt sind die Straßen verstopft, überall tauchen TDs auf und zu allem Überfluss hat auch noch mein Terminal den Geist aufgegeben!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Eri",
+          "PlotLineKey": "Ich wusste echt nicht mehr weiter, bis ich von deinen Heldentaten hörte … Bitte, du musst mir helfen! Das ist meine einzige Chance!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 51,
+              "PlotLineKey": "Also gut. Ich werde dir helfen.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 52,
+              "PlotLineKey": "Und meine Belohnung für all das?",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Eri",
+          "PlotLineKey": "Danke, Dunkle Legende der Gerechtigkeit! Keine Sorge, umsonst musst du nicht arbeiten!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 16,
+          "Speaker": "Eri",
+          "PlotLineKey": "Keine Sorge. {Male=Einen legendären Helden;Female=Eine legendäre Heldin} wie dich kann ich kaum umsonst arbeiten lassen!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "Eri",
+          "PlotLineKey": "Dann fangen wir mal an. Bitte halte diesen Brunnen in seiner ganzen Pracht auf einem Foto fest.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Eri",
+          "PlotLineKey": "Dieser Ort … früher war er so voller Leben. Man konnte müde Kunden beobachten, die sich hier niederließen, um dem Wasser zu lauschen und einen Moment der Ruhe zu genießen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Eri",
+          "PlotLineKey": "Genau wie das Shashou-Café wurde auch dieser Springbrunnen zu einem Wahrzeichen der Honami-Promenade. Er ist eine Erinnerung … Ein Gefühl vollkommener Zufriedenheit.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Eri",
+          "PlotLineKey": "Das Licht, die Bildkomposition, der Zeitpunkt … perfekt. Einfach perfekt!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Eri",
+          "PlotLineKey": "Ich wusste, dich um Hilfe zu bitten, war die richtige Entscheidung. Tausend Dank! Und natürlich ein Danke an Namipon, dass es uns miteinander bekannt gemacht hat.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Eri",
+          "PlotLineKey": "Honamis Maskottchen bringt stets Glück. Wo Namipon auftaucht, ist das Glück nicht weit.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Eri",
+          "PlotLineKey": "Es ist also nur passend, dass uns an unserem nächsten Halt sehr viel mehr Namipons erwarten!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 413,
+              "PlotLineKey": "Ist gut. Gehen wir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 414,
+              "PlotLineKey": "Vielleicht später.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

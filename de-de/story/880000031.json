@@ -1,0 +1,1011 @@
+{
+  "Id": 880000031,
+  "Name": "Grund zum Kämpfen",
+  "Description": "Jiyan schickt von seinem Posten weit an der Front eine Nachricht, die etwas Wichtiges zu betreffen scheint ...\n\nEine/einen Gefährtin/Gefährten wird nach Abschluss dieser Quest freigeschaltet",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000031,
+  "ShowQuestList": [],
+  "QuestDesc": "Jiyan schickt von seinem Posten weit an der Front eine Nachricht, die etwas Wichtiges zu betreffen scheint ...\n\nEine/einen Gefährtin/Gefährten wird nach Abschluss dieser Quest freigeschaltet",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 5,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100009,
+      "PreQuestName": "Großer Kriegssturm: Part II"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jiyan (Kontaktieren)",
+          "PlotLineKey": "{PlayerName}, lange nicht gesehen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1018,
+              "PlotLineKey": "Jiyan? Ist etwas an der Front passiert?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jiyan (Kontaktieren)",
+          "PlotLineKey": "Keine Sorge. Ich bin nicht wegen der Arbeit hier.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jiyan (Kontaktieren)",
+          "PlotLineKey": "Wir haben den schlüpfenden Threnodianer unter Kontrolle gebracht. Es sollte eine Weile dauern, bis sich neue Bedrohungen durch Tacet-Dissonanzen bilden können.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jiyan (Kontaktieren)",
+          "PlotLineKey": "Das wäre ohne dich nicht möglich gewesen, {PlayerName}. Danke.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jiyan (Kontaktieren)",
+          "PlotLineKey": "Angesichts des nahenden Mondjagdfestivals und der gesicherten Lage an den Grenzen habe ich allen Soldaten Ausgang bewilligt, die schon länger keinen mehr hatten. Sie haben es verdient, Zeit mit ihren Lieben zu verbringen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jiyan (Kontaktieren)",
+          "PlotLineKey": "Ich bleibe mit den übrigen Soldaten auf meinem Posten, um die Sicherheit zu gewährleisten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jiyan (Kontaktieren)",
+          "PlotLineKey": "Das erinnert mich an etwas ... manche dieser Soldaten haben ihre Familien durch Tacet-Dissonanzen verloren.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jiyan (Kontaktieren)",
+          "PlotLineKey": "Ich bin mir nicht sicher, was sie jetzt machen oder ob sie Hilfe brauchen. Vielleicht sollte ich ...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1019,
+              "PlotLineKey": "Das brauchst du nicht. Überlass das mir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1020,
+              "PlotLineKey": "Ich werde schauen, wie es ihnen geht.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jiyan (Kontaktieren)",
+          "PlotLineKey": "Du ... *Lächeln* dann nehme deine Hilfe gerne an, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Freundlicher Alter Mann",
+          "PlotLineKey": "Oh, du bist es, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1007,
+              "PlotLineKey": "Seid ihr hier für „Schwimm, Gulpuff, schwimm“?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Freundlicher Alter Mann",
+          "PlotLineKey": "Was? Oh, nicht wirklich ... das ist der Stand für dieses Gulpuff-Spiel? Entschuldigung. Meine Augen sind auch nicht mehr, was sie mal waren.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Freundlicher Alter Mann",
+          "PlotLineKey": "Mein Sohn ist Resonator. Das könnte ihm gefallen, denke ich ...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1008,
+              "PlotLineKey": "Dein Sohn?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Freundlicher Alter Mann",
+          "PlotLineKey": "Ja. Er ist ein Mitternachtsranger. Sie haben ihm ein paar Tage Urlaub gegeben. Wenn er zurückkommt, will ich mit ihm auf den Mondlichtmarkt gehen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Freundlicher Alter Mann",
+          "PlotLineKey": "Haha, er wird sicher eine Menge Spaß haben.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lele",
+          "PlotLineKey": "Yanwu! Du bist zurück!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jin",
+          "PlotLineKey": "Yanwu! Wo sind die Leckereien, die du uns letztes Mal versprochen hast?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yanwu",
+          "PlotLineKey": "Oh nein! Die habe ich total vergessen ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jin",
+          "PlotLineKey": "Hmpf! Du Lügner!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yanwu",
+          "PlotLineKey": "... Hahaha, ich ärgere euch nur. Ich habe euch Loong-Brötchen vom Mondlichtmarkt mitgebracht. Esst sie, solange sie noch heiß sind, da schmecken sie am besten!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jin",
+          "PlotLineKey": "Wow! Loong-Brötchen! Danke, Yanwu!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lele",
+          "PlotLineKey": "D-darf ich auch zum Mondlichtmarkt gehen ...?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yanwu",
+          "PlotLineKey": "Natürlich! Sag einfach Tante Direktorin Bescheid, dann darfst du gehen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lele",
+          "PlotLineKey": "Hurra!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jin",
+          "PlotLineKey": "Ich will auch mit! Los, Le! Wir müssen Tante finden!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Die Kinder laufen mit ihren Loong-Brötchen weg und spielen Fangen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Yanwu",
+          "PlotLineKey": "Passt auf, Kinder! Guckt, wo ihr langlauft!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 280,
+              "PlotLineKey": "Hallo, Yanwu.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Yanwu",
+          "PlotLineKey": "Oh, {PlayerName}! Dich habe ich bei unserer letzten Schlacht gesehen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Yanwu",
+          "PlotLineKey": "Was hat dich hierher verschlagen? Ich dachte, dass du auf dem Mondlichtmarkt wärst.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 281,
+              "PlotLineKey": "Tatsächlich ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Du erklärst Yanwu den Grund für dein Erscheinen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Yanwu",
+          "PlotLineKey": "Ich verstehe. Das ist sehr aufmerksam von General Jiyan, aber das wäre nicht nötig gewesen. Mir geht es gut. Er macht sich zu viele Sorgen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Yanwu",
+          "PlotLineKey": "Ich bin in dem Waisenhaus hier um die Ecke aufgewachsen. Die Direktorin kümmert sich um uns, als wären wir ihre eigenen Kinder. Das Waisenhaus ist mein Zuhause geworden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Yanwu",
+          "PlotLineKey": "Ich bin überhaupt nicht einsam. Ich bin hier bei meiner Familie.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 282,
+              "PlotLineKey": "Diese Kinder ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Yanwu",
+          "PlotLineKey": "Sie sind alle Waisen, genau wie ich. Wenn ich Ausgang bekomme, besuche ich sie und quatsche ein bisschen mit der Direktorin.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Yanwu",
+          "PlotLineKey": "Der Gedanke, dass ich da draußen an der Front gegen Monster kämpfe, um sie zu beschützen, verleiht meinem Leben einen Sinn.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 283,
+              "PlotLineKey": "Brauchst du Hilfe?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "Yanwu",
+          "PlotLineKey": "Hilfe? Ne, da fällt mir nichts ein. Vielleicht müssten die Wände des Waisenhauses mal wieder gemalt werden ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Yanwu",
+          "PlotLineKey": "Aber lass mal, das kriege ich in einer Stunde alleine hin, oder schneller!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Yanwu",
+          "PlotLineKey": "Danke für deinen Besuch, {PlayerName}. Das bedeutet mir sehr viel.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Yanwu",
+          "PlotLineKey": "So, ich muss jetzt los. Wir sehen uns!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1035,
+              "PlotLineKey": "...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "... Hallo, {PlayerName}. Suchst du nach Bekannten?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1036,
+              "PlotLineKey": "Ich bin wegen etwas anderem hier.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 1037,
+              "PlotLineKey": "... Nein, ich kenne hier niemanden.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Ich verstehe ... die Soldaten in diesen Gräbern sind gefallen, bevor du nach Jinzhou gekommen bist. Du wirst sie nicht kennen.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Es sind alle Soldaten, die ihr Leben für Jinzhou gegeben haben.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Dir fällt der Name auf dem Grab ins Auge, vor dem Ke Ni steht — es trägt den gleichen Familiennamen wie sie.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1038,
+              "PlotLineKey": "Wer ist das ...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Das ist das Grab meines Bruders. Er hat in der Nachhut gedient. Sein Team ist bei einer Transportmission ... in einen Hinterhalt geraten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Sie haben ihre Pflicht erfüllt. Sie haben menschliche Schutzschilde gebildet, um die Wagen vor den Monstern abzuschirmen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Als die Verstärkung endlich eintraf, war es schon zu spät. Keiner hat überlebt.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1039,
+              "PlotLineKey": "Sie waren Helden.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Danke. Wenn er das von den Rettern Jinzhous gehört hätte, wäre er bestimmt froh gewesen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Was bringt dich heute eigentlich hierher?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Du erklärst Ke Ni den Grund für dein Erscheinen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Ah, verstehe. Das klingt wirklich nach General Jiyan. Danke für das Angebot. Hmm, lass mich kurz nachdenken ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Könntest du mir ein bisschen Zitronengras besorgen? Mein Bruder hat diesen Duft geliebt, obwohl er kein Fan von Blumen war.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1040,
+              "PlotLineKey": "Kein Problem.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Danke, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Danke! Riecht wie immer erfrischend.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Das erinnert mich an die Zeit, als meine Mutter noch am Leben war ... sie hat immer Zitronengras in ihren Fischsuppen getan. Ganz ehrlich, das war nicht die beste Suppe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Das Zitronengras und der Fisch haben zusammen einen komischen Geschmack erzeugt, den ich nicht so wirklich beschreiben kann.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Aber sie war sich sicher, dass uns das beim Wachsen hilft. Ich hatte das nicht ausgehalten und meine Portion meinem Bruder gegeben. Tja, er war wirklich groß geworden ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Wahrscheinlich hat er Zitronengras geliebt, weil ihn das an einfache, glückliche Zeiten erinnerte ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Entschuldige, {PlayerName}. Ich bin in meinen Familiengeschichten abgedriftet ... Haha, jetzt fehlt mir plötzlich die Fischsuppe meiner Mutter!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Alles klar!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Wenn du mir schon so viel Zitronengras gebracht hast, koche ich mir im Urlaub diese Fischsuppe!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Ke Ni",
+          "PlotLineKey": "Wahrscheinlich wird das noch ekliger schmecken, weil ich es alleine esse. Nun ja ...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Bist du auch wegen der Sehenswürdigkeiten hier, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Schon klar, bist du nicht. An solchen Tagen hat niemand so viel freie Zeit wie ich.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1399,
+              "PlotLineKey": "Dein Gesicht ... bist du verletzt?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Ach, keine Sorge. Ich habe mich vor ein paar Tagen gekratzt. Ist schon wieder geflickt.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1400,
+              "PlotLineKey": "Du scheinst keine Freude an deinem Urlaub zu haben.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Der Urlaub ... als Neuling würde ich mich freuen wie der Schneekönig.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Denk mal darüber nach. Urlaub, das bedeutet für die meisten Leute Essen, Freunde und Familienfeste.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1401,
+              "PlotLineKey": "Ja, das machen alle.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 1402,
+              "PlotLineKey": "Du kannst das doch auch.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Haha, ALLE ...",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Kann ich das, ja ...",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Mein Dorf wurde vom Waveworn verschlungen, es ist einfach so im Boden versunken.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Wie ein Stein, der übers Wasser hüpft. Ein paar kleine Wellen und Zack, für immer verschwunden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Freunde, Familie, alles, was ich geliebt habe ... alles plötzlich weg.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Ich wusste nicht, was ich tun sollte, aber ich wollte am Leben bleiben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Und da kam mir der große General Jiyan",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Haha, weißt du, was dieser Trott ... ähem, General Jiyan hat tatsächlich versucht, mich zu rekrutieren, und er hat mich gefragt, ob ich gegen diese übrig gebliebenen Tacet-Dissonanzen kämpfen will, die Jinzhou bedrohen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Für mich gibt es keinen Unterschied zwischen den Tacet-Dissonanzen und Waveworn. Es sind einfach Naturkatastrophen, mit denen man nicht kommunizieren kann und die schwer aufzuhalten sind. Gegen sie? Wie kann sich ein Mensch gegen eine Naturkatastrophe wehren?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Aber ich habe trotzdem ja gesagt. Er hat das gut verkauft. Da dachte ich mir, dass ich lieber auf dem Schlachtfeld sterbe als in der Wildnis verhungere.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Na gut, jetzt weißt du alles. Meine Antwort dürfte klar sein.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Woher weiß ich, was du fragen wolltest? Jiyan fragt uns bei jedem Urlaub die gleiche verdammte Frage!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Und meine Antwort bleibt gleich — danke, aber nein! Mir geht es alleine besser. Zumindest, solange es noch Tacet-Dissonanzen zum Kämpfen gibt. Damit meine Fäuste was zu tun haben.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1403,
+              "PlotLineKey": "Das werde ich ihm ausrichten.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Sicher, und jetzt geh. Oh, nimm das hier mit.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Jiyan hört irgendwie nie auf mit der Arbeit. Wenn er erstmal an etwas dran ist, vergisst er zu essen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Ich und die Jungs haben einen Eintopf aus allem gemacht, was wir in die Finger kriegen konnten. Er kann was davon abhaben.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1404,
+              "PlotLineKey": "Riecht gut ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Ningwei",
+          "PlotLineKey": "Ne, nicht naschen! Na ja, vielleicht einen Happen, aber lass Jiyan was übrig, ja?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Die Tacet-Dissonanz bleibt in den Norfall Barren unter Kontrolle. Wir sollten erwägen, unsere Außenposten weiter nach Norden zu verlegen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Stationiert neue Überwachungsposten in den Außenbezirken. So kriegen wir frühzeitige Warnungen und ausreichend Zeit, um uns auf zukünftige Ausbrüche vorzubereiten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Bote",
+          "PlotLineKey": "Verstanden!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Der Bote salutiert und verschwindet eilig.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "{PlayerName}, was bringt dich hierher? Solltest du nicht in der Kommune Taoyuan sein?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1243,
+              "PlotLineKey": "Bin gerade zurück von einem deiner Soldaten. Ich wollte noch schauen, wie es dir geht.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Verstehe. Das müssen Ningwei und seine Bande gewesen sein.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Ich habe ihnen gesagt, dass sie ihren Urlaub genießen sollen ... aber sie bleiben immer in der Nähe des Lagers, selbst nach Jahren an der Front.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1244,
+              "PlotLineKey": "Weil sie sich hier zu Hause fühlen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1245,
+              "PlotLineKey": "Ich verstehe jetzt auch, warum.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Ah ... dann müssen sie dir viel erzählt haben, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1246,
+              "PlotLineKey": "Sie haben mir ein Geschenk mitgegeben.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Ein Geschenk? Was ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Du stellst Jiyan die Schüssel mit dem Eintopf hin.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Ha, wusste ich es doch. Das hat Ningwei gekocht, stimmt’s?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Wahrscheinlich hat er erwähnt, wie ich ihn angeworben habe. Aber ich könnte wetten, dass er dir nicht die ganze Geschichte erzählt hat.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1247,
+              "PlotLineKey": "Schieß los.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1248,
+              "PlotLineKey": "Ich liebe Geschichten. Erzähl mir mehr.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Ich war damals noch kein General und nur zum Dienst dorthin geschickt. Als ich zurück zur Nachhut-Verteidigungslinie kam, war es schon in der tiefen Nacht.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Ich kochte mir einen Eintopf und warf alles hinein, was ich hatte. Da traf ich Ningwei.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Er sagte, seine Heimatstadt sei vom Waveworn zerstört worden und er sei allein und wisse nicht, wohin er gehe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Ich teilte den Eintopf mit ihm und hörte ihm zu, wie er viel darüber erzählte, was passiert war, seit er von zu Hause weggegangen war.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Seine Augen waren voller Verwirrung und Verzweiflung. Er wollte leben, aber er konnte keine Motivation finden, die ihn dabei unterstützte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Wie ihr wisst, habe ich ihn später eingeladen, sich Mitternachtsranger anzuschließen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Danach kochte er immer einen ähnlichen Eintopf wie damals, wenn er im Urlaub war, und lieẞ ihn mir schicken. Ich glaube, er wollte sich damit revanchieren.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "... Egal, wahrscheinlich will er nur mit seinen Kochkünsten angeben. Meine sind nicht so toll, und das ist noch geschmeichelt.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1249,
+              "PlotLineKey": "Schöne Geschichte. Aber dein Eintopf wird kalt.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "... Oh, danke für den Hinweis.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Jiyan",
+          "PlotLineKey": "Sollen wir zusammen essen, {PlayerName}? Du musst hungrig sein nach dem langen Weg.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1250,
+              "PlotLineKey": "Ein bisschen schon ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1251,
+              "PlotLineKey": "Freut mich sehr!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

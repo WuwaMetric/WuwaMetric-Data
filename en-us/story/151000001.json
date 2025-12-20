@@ -1,0 +1,119 @@
+{
+  "Id": 151000001,
+  "Name": "Cerulean Echoes Adrift in the Winds: Part II",
+  "Description": "Head to the lower level and rescue the trapped Aetherfin with KU-Key",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 151000001,
+  "ShowQuestList": [],
+  "QuestDesc": "Head to the lower level and rescue the trapped Aetherfin with KU-Key",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 151000000,
+      "PreQuestName": "Cerulean Echoes Adrift in the Winds: Part I"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Let's go if you're ready, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "It would take a lot of time to walk there, so I've requested temporary access to the Shorekeeper's portals.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "With them, we can move much faster.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 442,
+              "PlotLineKey": "You can even do that?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 443,
+              "PlotLineKey": "When can I learn this skill?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Of course! As your best assistant, I've got to know these things.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "If you want to learn it… you'd need to link your mind to the Tethys System, and then—",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 444,
+              "PlotLineKey": "I quit.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "You can also activate the portals with your special clearance, just like last time.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Anyway, I've opened up the portal for you. Let's get going!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 16,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "You're welcome! Actually, I've already taken one while we were on the surface! I'll print it as well!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "By the way, the Shorekeeper just helped us. It would be nice to thank her in person.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "It must be quite a while since she's seen the Aetherfins again.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

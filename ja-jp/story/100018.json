@@ -1,0 +1,3611 @@
+{
+  "Id": 100018,
+  "Name": "老人と魚と海",
+  "Description": "幕間",
+  "MaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_14a.png",
+  "FemaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_14b.png",
+  "AreaIcon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/UiArchive/Atlas/SP_ArchiveAreaLinaxita.png",
+  "ShowQuestList": [
+    880000034,
+    880000036,
+    880000037,
+    880700011,
+    880000038,
+    880000039
+  ],
+  "QuestDesc": "陽光、砂浜、大海……そして魚！四方を海に囲まれたリナシータでは、魚捕りに出ない手はないだろう？イシュマエルという若者が、あなたをリナシータの魚捕りの楽園、リジョリ群島へと案内してくれる……\nスターバックは、どうやら精神に異常をきたしてしまったようだ。なんでも、一匹の魚が原因で、今の姿になってしまったそうだ……\nすべての魚がここに集うのなら……「魚へん」が付いた「鯨」も……\nとうに死んだはずのキャプテンに、出航叶わぬ船。そして今、かのキャプテンは必然に至る道を歩み、この船もまた、再び大海へと漕ぎ出す……\nかつて嵐の中、一人のキャプテンが一頭のクジラと共に海の底へと沈んだ。今、再び同じ嵐が海に吹き荒れ、あのクジラもまた、その中を泳いでいる……\n海は再び静寂を取り戻したが、キャプテンアハブ一行は姿を消したままだった。あなたをリジョリ群島へと誘ったイシュマエルは、キャプテンアハブが残した物を調べているようだ………",
+  "Unlock": [
+    {
+      "Id": 880000041,
+      "Name": "魚スティックの時間",
+      "Type": 2
+    },
+    {
+      "Id": 880000043,
+      "Name": "釣りの出来事",
+      "Type": 2
+    },
+    {
+      "Id": 165000001,
+      "Name": "セーラーの遺産",
+      "Type": 2
+    },
+    {
+      "Id": 165000002,
+      "Name": "島の仮面被り",
+      "Type": 2
+    }
+  ],
+  "Chapters": [
+    {
+      "Title": "漁師を探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "もしかして、あなたは「<ano=げっけいかん>月桂冠</ano>」を賜ったあの人？僕はイシュマエル。早速だけど、釣りってやったことある？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "釣り針や餌、釣りは色んな知識や技術が問われるんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "釣りをするなら、海に出るのがおすすめだよ。カルネヴァーレと同じで、これもリナシータの伝統の一つだからね。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "魚捕りの達人になりたい。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 11,
+              "PlotLineKey": "やってみたい。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "じゃあ、僕のとっておきの場所を教えてあげよう。ラグーナ北部にある、リジョリ群島……ちょうど暖流と寒流がぶつかる場所で、魚がたくさん集まるんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "それと、一人で行くなら一本釣りがおすすめだよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "島に着いたら、アハブという年老いたキャプテンを探してみて。きっと喜んで連れて行ってくれるよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "僕もちょうど島に戻るところなんだ。港に群島行きの船があるから、「群島で釣りをしたい」と言えば連れて行ってもらえるよ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "船夫を見つけてリジョリ群島に向かう準備をする"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "船夫",
+          "PlotLineKey": "リジョリ群島へ行くのですか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1105,
+              "PlotLineKey": "{Male=ああ、出発しよう。;Female=ええ、出発しよう。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1106,
+              "PlotLineKey": "他に用があるので、後で。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "船夫",
+          "PlotLineKey": "しっかり掴まってください！出航しますよ！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "キャプテン「アハブ」を探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "船夫",
+          "PlotLineKey": "アハブじいさんをお探しですか？それでしたら、あそこの船着き場に行ってみてください。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "船夫",
+          "PlotLineKey": "いつも他の人と違う格好をしているので、一目で分かると思いますよ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "グォーッ……グォォーッ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "？？？",
+          "PlotLineKey": "ん？ん……ああ、分かった分かった……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "？？？",
+          "PlotLineKey": "んん！？引いておるぞ！？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "？？？",
+          "PlotLineKey": "{Male=あんちゃん;Female=嬢ちゃん}！ぼさっとしてないで、手伝え！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "？？？",
+          "PlotLineKey": "お、おい！待て——",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "？？？",
+          "PlotLineKey": "ありゃ大物だな……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "残念……",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 38,
+              "PlotLineKey": "大丈夫？",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "？？？",
+          "PlotLineKey": "大物なら、いずれまた帰って来るだろう。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "？？？",
+          "PlotLineKey": "これぐらい何ともないわい！若い頃はクジラをわし一人で世界の果てまで追いかけられたんだぞ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "？？？",
+          "PlotLineKey": "もしかして……お前さんがイシュマエルが言ってた若造か？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 39,
+              "PlotLineKey": "魚捕りの達人になるために来た。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 40,
+              "PlotLineKey": "魚捕りに興味がある。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "アハブ",
+          "PlotLineKey": "そうか、それならいいところに来たな。わしはアハブ。この場所とは付き合いが長くてな――",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "アハブ",
+          "PlotLineKey": "あそこにいるタコの商人はプランク。海釣りで必要なものなら何でも揃ってるし、船の整備と修理もしてくれるいいやつだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "アハブ",
+          "PlotLineKey": "む……お前さん、まだ船を持っとらんのか？なーに、心配はいらん！わしの船を貸そう！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 41,
+              "PlotLineKey": "あれもゴンドラ？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "アハブ",
+          "PlotLineKey": "わしらが使うゴンドラは魚を捕るのに特化していて、街で使われているものとはまるで違う。船ってのは海に出る我々にとって、まさに死生を共にする家族。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "アハブ",
+          "PlotLineKey": "名前は「ラケル号」。少し古いが、まだまだ現役だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "アハブ",
+          "PlotLineKey": "わしが身を引いてからは、この子もしばらく波にもまれておらん。きっとまた海に出る日を待ち望んでいることだろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "アハブ",
+          "PlotLineKey": "わしら同じ魚を釣った友だからな。それぐらいすぐ分かる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "アハブ",
+          "PlotLineKey": "……さあ、準備が整ったら出発するぞ！逃げたあの大物を捕まえに行くとしよう！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "アハブ",
+          "PlotLineKey": "このアハブから逃げた魚、この目で拝んでやるわい！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 24,
+          "Speaker": "Narrator",
+          "PlotLineKey": "イシュマエルからの情報に従い、あなたはアハブという老キャプテンを見つける。老キャプテンは、彼が昔愛用していた小船をくれた。これで海に出て魚捕りができる。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "プランクと会話して出航の準備をする"
+    },
+    {
+      "Title": "プランクと会話し、魚捕りアビリティのレベルを上げる"
+    },
+    {
+      "Title": "アハブに報告する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アハブ",
+          "PlotLineKey": "ほう！さすがだ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アハブ",
+          "PlotLineKey": "こんなに早く慣れるとは、たいしたものだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アハブ",
+          "PlotLineKey": "そうだ、時間があれば、市場にも行ってみるといい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アハブ",
+          "PlotLineKey": "釣りに舵取り、船の管理から商売……キャプテンたるものは色んなスキルを身に付けなきゃならんからな。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "リジョリ港の市場に向かう"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "水産商人",
+          "PlotLineKey": "……俺たちはな、お前ら教団に税金を払うつもりはない。とっとと失せな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "若い漁師",
+          "PlotLineKey": "でもコフィンおじさん、彼女はさっきあなたのぬいぐるみを治してくれたじゃないですか……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "水産商人",
+          "PlotLineKey": "きっと何か企んでるんだ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "商売している老婦人",
+          "PlotLineKey": "ちょっとコフィン、少し落ち着きなさい。この子はただ道を尋ねてるだけじゃないの……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 848,
+              "PlotLineKey": "フィービー？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "フィービー",
+          "PlotLineKey": "ごめんなさい……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "フィービー",
+          "PlotLineKey": "実は、前にラグーナで怪我をした「<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>」の行方を探していまして……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "商売している老婦人",
+          "PlotLineKey": "えーと……<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>ねえ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "コフィン",
+          "PlotLineKey": "ふん、誰であろうと教団の手の者を歓迎するつもりはない！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "若い漁師",
+          "PlotLineKey": "あ、あの人ってこの前ラグーナ城に来た共鳴者、「<ano=げっけいかん>月桂冠</ano>」を手に入れた人じゃないか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "アハブ",
+          "PlotLineKey": "いい加減にしないか！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "アハブ",
+          "PlotLineKey": "教団は何年もわしらと関わっていない。もし何か用があれば、子供一人寄越すなんてことはしないだろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "アハブ",
+          "PlotLineKey": "わしらは<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>と海の恵みと共にある。ならば、わしらも海のように広い心を持つべきだ。子供一人受け入れられないでどうする。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "アハブ",
+          "PlotLineKey": "それに、教団は人に手を貸すような真似はしないのだろう？お前さんはあいつらと同じように、恩を仇で返すつもりか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "コフィン",
+          "PlotLineKey": "で、でも、アハブさん……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "アハブ",
+          "PlotLineKey": "もういい、黙ってろ。商売上がったりで苛立ってるだけなんだろ？さあ、散った散った！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "アハブ",
+          "PlotLineKey": "何かあったら、わしがどうにかする。ほれ、はやく帰りな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "フィービー",
+          "PlotLineKey": "二人とも、ありがとうございます。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "フィービー",
+          "PlotLineKey": "私は<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>が今どうしているか知りたくてこの村へ来ました。カルネヴァーレ以降、あの子の姿を見ていなくて……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "アハブ",
+          "PlotLineKey": "{Male=あんちゃん;Female=嬢ちゃん}、この子は？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 849,
+              "PlotLineKey": "{Male=俺の友達だ。;Female=私の友達だよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 850,
+              "PlotLineKey": "面識はある。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "アハブ",
+          "PlotLineKey": "そうか……教団は黙認しているようだが、リジョリ群島の者は長らく教団に反抗を続けている。だから、教団の帽子を見かけただけで過剰に反応してしまう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "フィービー",
+          "PlotLineKey": "帽子だけで、ですか……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "アハブ",
+          "PlotLineKey": "なるべく教団の人間だと悟られぬようにな。お前さん、<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>を探しているんだって？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "フィービー",
+          "PlotLineKey": "はい！カルネヴァーレで見た時から何だか苦しそうで……それに怒りの感情もわずかながら感じました。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "アハブ",
+          "PlotLineKey": "この海を冒険していれば、いつかは出会えるかもしれない。だが、もっと簡単な方法がある……あそこの灯台が見えるか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "アハブ",
+          "PlotLineKey": "このような灯台はリジョリ群島に4つある。すべてが灯れば、<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>はわしらの祈りに応え、穏やかな姿に戻るだろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "アハブ",
+          "PlotLineKey": "この前、姿を消した時も他の3つの灯台の灯りが消えておった。もう一度灯りを灯せば、<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>に会えるはずだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "アハブ",
+          "PlotLineKey": "そうだ。{PlayerName}、この帽子の嬢ちゃんを連れて、海に出てみるといい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "フィービー",
+          "PlotLineKey": "海に出る？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 851,
+              "PlotLineKey": "釣りの時間だ！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "フィービー",
+          "PlotLineKey": "え！？でも私、リジョリ群島の水産業については教団の本で読んだだけで、実際に海に出たことはないのですが……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "アハブ",
+          "PlotLineKey": "海を受け入れなければ、海はお前さんに応えてはくれんぞ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "アハブ",
+          "PlotLineKey": "ああ……それと、この旅の間は教団のではなく「自分の」帽子を被るといい。何かあったら、わしのもとに来てくれ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "フィービー",
+          "PlotLineKey": "{PlayerName}さん、あのおじいさんが言っていたことってつまり……私の帽子が変ってことですか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 852,
+              "PlotLineKey": "そんなことないよ！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 34,
+          "Speaker": "フィービー",
+          "PlotLineKey": "うぅ……そうだといいのですが……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "フィービー",
+          "PlotLineKey": "……気を取り直して……鯨を見つけるためにも、海釣りのお手伝いをさせていただきますね！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 42,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたとアハブが一度逃した魚を再び捕まえた後、アハブから市場に行くよう勧められる。そこであなたは、フィービーに出会った。ただこのリジョリ群島では、教団は歓迎されない存在であるため、あなたとアハブは急ぎその場を取り繕う。フィービーは、回遊の鯨を追ってここにやってきたとのこと。それを聞いたアハブは、海に出て魚捕りをしていれば、会えるかもしれないとフィービーに告げた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "船着き場で出航の準備をする"
+    },
+    {
+      "Title": "依頼を達成して、魚捕りの名声をレベル3以上にする"
+    },
+    {
+      "Title": "依頼の達成または図鑑の解放で、魚捕りの名声をレベル3以上にする"
+    },
+    {
+      "Title": "リジョリ港の船着き場あたりでアハブを探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アハブ",
+          "PlotLineKey": "足……わしの足はどこだ……銛を持ってこい……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アハブ",
+          "PlotLineKey": "……副キャプテン……わしの油はどこだ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アハブ",
+          "PlotLineKey": "おお、大漁だったようだな！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アハブ",
+          "PlotLineKey": "わしの方でも<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>について調べてみたぞ。ヘルム村に行って……で、あいつに……あいつ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アハブ",
+          "PlotLineKey": "ああ！スターバックだ！あいつを探してこい！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アハブ",
+          "PlotLineKey": "ここ最近、様子がおかしいようでな。なんでも、<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>を見たせいでそうなっただとか。会いに行く時は、わしの紹介だと言ってくれ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "アハブ",
+          "PlotLineKey": "それから、あの船を見たか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "アハブ",
+          "PlotLineKey": "本当に「大物」を釣りたいのなら、あの船が必要となるだろう。だが、先に修理せんと動かない。詳しくはそこの船大工に聞いてみてくれ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "船大工に大船のことについて聞く"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "クィークェグ",
+          "PlotLineKey": "{PlayerName}？アハブが、言ってた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "クィークェグ",
+          "PlotLineKey": "木材、もって来て。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 941,
+              "PlotLineKey": "どうして？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "クィークェグ",
+          "PlotLineKey": "木材。船、修理する。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "原木と素材をクィークェグに渡す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "クィークェグ",
+          "PlotLineKey": "今、足りない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "クィークェグ",
+          "PlotLineKey": "材料あれば、クィークェグ、船、直せる。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "船着き場に行きヘルム村に向かう準備をする"
+    },
+    {
+      "Title": "ヘルム村に向かう"
+    },
+    {
+      "Title": "スターバックを探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "スターバック",
+          "PlotLineKey": "グへへぇ……愛しい俺の宝物よ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "スターバック",
+          "PlotLineKey": "誰も知らない……俺たち二人だけが知ってる……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "スターバック",
+          "PlotLineKey": "俺の……婚約者よ……どうか俺を待っててくれ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "フィービー",
+          "PlotLineKey": "えっと、スターバックさん？<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>について何かご存知ですか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "スターバック",
+          "PlotLineKey": "おお……結婚式の立会人か？ちょうどいいところに！さ、はやくこっちに！立会人が必要なんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "フィービー",
+          "PlotLineKey": "立会人、ですか……？教義に、聖職者であれば立会人を務めることができるとの記述はありますが……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 741,
+              "PlotLineKey": "{Male=魚と結婚するのか？;Female=魚と結婚するの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 742,
+              "PlotLineKey": "本当に何かおかしいみたい……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "スターバック",
+          "PlotLineKey": "グへへぇ……グへへぇへ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "フィービー",
+          "PlotLineKey": "もしかして……魅了術にかかっているのではないでしょうか？教団の本でこのような症状を見たことがあります！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "フィービー",
+          "PlotLineKey": "インペラトルの祝福よ、ここに——",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "待って——",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "フィービー",
+          "PlotLineKey": "え？本にはこれで解除できると記載がありましたが……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "スターバック",
+          "PlotLineKey": "いてっ！？お前は……俺は……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "スターバック",
+          "PlotLineKey": "白金のクラゲ……黒くて大きい……魚……ん？お前は人間か……いや、俺は魚……違う……俺の魚……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "スターバック",
+          "PlotLineKey": "うう……頭が痛い……お前たちは一体誰だ？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 743,
+              "PlotLineKey": "{Male=効いたみたいだ！;Female=効いたみたい！}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 744,
+              "PlotLineKey": "{Male=俺もやってみようかな？;Female=私もやってみようかな？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "スターバック",
+          "PlotLineKey": "俺の船はどこだ？なぜ俺はここに……ん？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "スターバック",
+          "PlotLineKey": "魚……グへへぇ……セリーン湾の……魚…グへへぇ…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "フィービー",
+          "PlotLineKey": "また魅了術にかかったようです！もう一度やってみます！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "漁師のぬいぐるみ",
+          "PlotLineKey": "……！…………",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "フィービー",
+          "PlotLineKey": "えっ？君は？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "フィービー",
+          "PlotLineKey": "足はもう大丈夫なの？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 745,
+              "PlotLineKey": "{Male=このぬいぐるみを知ってるのか？;Female=このぬいぐるみを知ってるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "フィービー",
+          "PlotLineKey": "前に市場で会ったんです。足をゴンドラに轢かれたみたいで、私が治してあげました。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "漁師のぬいぐるみ",
+          "PlotLineKey": "…………！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "フィービー",
+          "PlotLineKey": "コフィンさんに来るよう言われたの？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "フィービー",
+          "PlotLineKey": "スターバックさんのゴンドラが近くの岩礁で動けなくなっているみたいです。それと、そのゴンドラが何か知っているみたいですよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "フィービー",
+          "PlotLineKey": "スターバックさん、二週間もずっとこんな状態だなんて……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "漁師のぬいぐるみ",
+          "PlotLineKey": "……！……！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "フィービー",
+          "PlotLineKey": "これを使って岩を爆破するの？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "フィービー",
+          "PlotLineKey": "{PlayerName}さん、このまま魅了術を解き続けると、スターバックさんに悪影響を及ぼすかもしれません。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 746,
+              "PlotLineKey": "確かにさっきもかなり痛がっていた。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 747,
+              "PlotLineKey": "それも彼のため。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 29,
+          "Speaker": "フィービー",
+          "PlotLineKey": "でも、さっきスターバックさんが少し正気に戻った時、彼の船と「セリーン湾」について話していました。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "フィービー",
+          "PlotLineKey": "彼の船を見つけ、魅了術にかかった原因がわかれば、問題を解決できるかもしれません。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 748,
+              "PlotLineKey": "そうだね。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 749,
+              "PlotLineKey": "じゃあ出発しよう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 31,
+          "Speaker": "スターバック",
+          "PlotLineKey": "グへへぇ……結婚式には花火が必要だ……「甘い花火」が……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 42,
+          "Speaker": "Narrator",
+          "PlotLineKey": "キャプテンアハブの指示通りに、あなたとフィービーはかつてアハブの船で、副キャプテンを務めていたスターバックを見つけた。しかし、彼は何らかの魔力に魅了され、理性を失っているようだ。彼を正気に戻すために、まずは彼のゴンドラを見つけ、手がかりを探ることにする。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "船に乗って捨てられたゴンドラを探す"
+    },
+    {
+      "Title": "ゴンドラが閉じ込められている場所へ向かう"
+    },
+    {
+      "Title": "岩を爆破してゴンドラを救い出す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "あそこです！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "あれ？何だか甘い匂いが……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "フィービー",
+          "PlotLineKey": "あ、ゴンドラが戻ってきました！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "捨てられたゴンドラ",
+          "PlotLineKey": "…………！…………！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "解放されたゴンドラが何か言ってるみたい。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "フィービー",
+          "PlotLineKey": "人魚みたいな「セイレーン」に会ったの！？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 918,
+              "PlotLineKey": "「ローレライ」のこと？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 919,
+              "PlotLineKey": "でも、彼女は<ano=かすみた>霞立</ano>つ<ano=すいきょう>水境</ano>にいるはず……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "フィービー",
+          "PlotLineKey": "もしかして、「ローレライ」がもう一人いる、とか……？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "捨てられたゴンドラ",
+          "PlotLineKey": "…………？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "フィービー",
+          "PlotLineKey": "あの魚、「セイレーン」と何か関係があるのかもしれません。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "フィービー",
+          "PlotLineKey": "もしそうであれば、数週間経っても腐らない理由となるでしょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "フィービー",
+          "PlotLineKey": "スターバックさんから魚を取り上げて調べてみましょう。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 920,
+              "PlotLineKey": "そうとなれば……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 921,
+              "PlotLineKey": "{Male=こっそりすり替えるしかないな。;Female=こっそりすり替えるしかないね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 922,
+              "PlotLineKey": "似たような魚をもう一匹釣ろう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "フィービー",
+          "PlotLineKey": "本当にそれでいけますか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 923,
+              "PlotLineKey": "他にいい方法もないし。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 924,
+              "PlotLineKey": "魚同士だし、行けるはずだ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "フィービー",
+          "PlotLineKey": "{PlayerName}さんがそう言うのなら、やってみましょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 18,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたたちはスターバックのゴンドラを見つけた。そこで、彼が持っている青色の大きな魚が、彼にかかった魅了の原因であるかもしれないことが分かった。彼からその魚を取り上げらることはできないか、あなたたちは作戦を練ることに……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "依頼クリア・図鑑登録で、魚捕りの名声をレベル6以上に上げる"
+    },
+    {
+      "Title": "依頼クリア・図鑑登録で、魚捕りの名声をレベル6以上に上げる"
+    },
+    {
+      "Title": "すべての重要依頼をクリアする"
+    },
+    {
+      "Title": "すべての重要依頼をクリアする"
+    },
+    {
+      "Title": "船に乗り交換用の大物を捕獲する"
+    },
+    {
+      "Title": "夜まで待つ（または時間を19：00~05：00の間に設置する）"
+    },
+    {
+      "Title": "特別な引き上げスポットで大物を捕獲する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "一匹の深灰色の大きな魚が自ら船に飛び乗ってきた……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "この魚はスターバックが持っている魚とどこか似ている。おそらく、この魚を彼のと交換できるだろう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ヘルム村に戻ってスターバックを探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "スターバック",
+          "PlotLineKey": "グへへぇ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "スターバック",
+          "PlotLineKey": "ん？立会人じゃないか。俺の婚約者を見なかったか……？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "スターバック",
+          "PlotLineKey": "グへへぇ……お前たち……何をするつもりだ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "スターバック",
+          "PlotLineKey": "た、助けてくれー！！！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "フィービー！魚を掴んで！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "フィービー",
+          "PlotLineKey": "とても滑ります！ここは私が魅了術を解いて……！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "スターバック",
+          "PlotLineKey": "泥棒！お前ら泥棒だ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "スターバック",
+          "PlotLineKey": "いたた……お前たちは……いたた……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "スターバック",
+          "PlotLineKey": "誰だ？この魚はなんだ？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "フィービー",
+          "PlotLineKey": "スターバックさん、私たちはキャプテンアハブに頼まれて、あなたを探しに来たんです。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "スターバック",
+          "PlotLineKey": "アハブじいさんが……いや、そんなことより、一体何が起こっているんだ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 891,
+              "PlotLineKey": "この青い魚に何か心当たりは？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 892,
+              "PlotLineKey": "<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>は覚えてる？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "スターバック",
+          "PlotLineKey": "覚えているのは、魚を捕りに海に出たことだけ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "スターバック",
+          "PlotLineKey": "でも、航海の途中、歌声が聞こえてきて……そしたら体が勝手に動き出して、歌声を追うように船を出していて……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "スターバック",
+          "PlotLineKey": "気が付いたら、セリーン湾の沖合にいた。そこはもともと<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>が眠る場所だったんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "スターバック",
+          "PlotLineKey": "歌声がまるで海の底から聞こえてくるようだったよ。海の中には<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>の影が……そして、もう一つ大きな魚の影があった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "スターバック",
+          "PlotLineKey": "それは、息をのむほど美しい影だった……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "スターバック",
+          "PlotLineKey": "持っていた物はほとんどを餌にして海に投げ入れたんだ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "スターバック",
+          "PlotLineKey": "最終的に魚は食いついたんだけど、歌声がどんどん大きくなってきて……その後のことは覚えていない。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 893,
+              "PlotLineKey": "釣ったのはこの青い魚？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "スターバック",
+          "PlotLineKey": "そうだ！こいつだ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "スターバック",
+          "PlotLineKey": "待て！そういえば……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "スターバック",
+          "PlotLineKey": "鍵だ！鍵……鍵が……ない……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "スターバック",
+          "PlotLineKey": "そうだ……鍵も餌にしたんだ……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 894,
+              "PlotLineKey": "まさか……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "スターバックは青い魚の腹の中から一本の鍵を取り出した……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "スターバック",
+          "PlotLineKey": "ああ、やっぱりあった！こいつの腹の中だ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "スターバック",
+          "PlotLineKey": "アハブじいさんから預かってたんだ。お前はこれが必要だろう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ひと目で古びた様子がわかる、錆びついた灯台の鍵を渡された。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "スターバック",
+          "PlotLineKey": "その後のことは覚えていないが、<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>がこのセリーン湾に現れたことは確かだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "スターバック",
+          "PlotLineKey": "助けてくれてありがとう……<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>を探しているなら、あそこに行ってみるといい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "フィービー",
+          "PlotLineKey": "あなたはどうするのですか……？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "スターバック",
+          "PlotLineKey": "俺は今年で47歳になる。海の上で長い年月を過ごしてきた。取った魚の数が、食べた魚の数よりも多いくらいだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "スターバック",
+          "PlotLineKey": "でも、未だに運命の相手とも魚とも出会えていない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "スターバック",
+          "PlotLineKey": "なあ、美しいお嬢さん——",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 895,
+              "PlotLineKey": "コホン。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 896,
+              "PlotLineKey": "行くよ、フィービー。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 33,
+          "Speaker": "フィービー",
+          "PlotLineKey": "それではさようなら、スターバックさん。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "フィービー",
+          "PlotLineKey": "どうかお元気で！インぺ……海の祝福がありますように！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "スターバック",
+          "PlotLineKey": "お、おお、順調を祈るよ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 44,
+          "Speaker": "Narrator",
+          "PlotLineKey": "何とかスターバックからその魚を取り上げたあなたたち。正気に戻った副キャプテンは、以前「セリーン湾」という場所で回遊の鯨を見たことがあり、その傍にもう一匹巨大な魚がいるという情報を教えてくれた。別れ際に、彼はアハブキャプテンから預かっていた灯台の鍵をあなたに渡した。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "入手した鍵でヘルム村の灯台を灯す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "キャプテンアハブに言われた通り、この島の灯台を灯しましょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "灯台を灯したら、次はスターバックさんが言っていたセリーン湾に行ってみましょうか。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "船の設計図を入手した。クィークェグに船の修理について聞いてみよう。"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "元は残骸だったものが、今はもう船の形になってきた……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "クィークェグ",
+          "PlotLineKey": "もうすぐ。ありがとう。あと半分。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "クィークェグ",
+          "PlotLineKey": "キャプテンの命令。まもなく。発効。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "クィークェグ",
+          "PlotLineKey": "直れば。すべてが。良くなる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "クィークェグ",
+          "PlotLineKey": "それと、大物は、セリーン湾にいる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "クィークェグ",
+          "PlotLineKey": "我々は、負けた。気をつけろ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "船は<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>によってひっくり返され、あなたは大波によって岸辺に打ち上げられた……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "船着き場でセリーン湾に向かう準備をする"
+    },
+    {
+      "Title": "セリーン湾に向かう"
+    },
+    {
+      "Title": "敵を倒す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "フィービー！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=邪魔するな！;Female=邪魔しないで！}",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "{PlayerName}さん！大丈夫ですか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 529,
+              "PlotLineKey": "大丈夫だ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 530,
+              "PlotLineKey": "魚が……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "まさか<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>に襲われるとは……でも、無事でよかったです。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "フィービー",
+          "PlotLineKey": "そうだ、持ち物は全部持っていますか？念のため確認しておきましょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "持ち物を確認してみた……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "いつの間にか奇妙な色の魚を持っていた。その目には不気味な光が宿っている……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "失くした物はないけど、いつの間にかこれが……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "フィービー",
+          "PlotLineKey": "変わった魚ですね……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "プランクに聞いてみよう。きっと何か知っているはず。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "セリーン湾の船着き場に向かいプランクに状況を聞く"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "プランク",
+          "PlotLineKey": "…………！……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "大きなタコが足をばたつかせながら、アハブのメッセージを渡してきた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アハブ",
+          "PlotLineKey": "「みな無事でよかった。プランクならセリーン湾まで泳いで行けるだろう」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アハブ",
+          "PlotLineKey": "「スターバックのとこ灯台が灯った。これで、わしらもまた海に出られる。全てはお前さんと帽子の嬢ちゃんのおかげだ」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アハブ",
+          "PlotLineKey": "「<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>がいなくなって、セリーン湾にたくさんの魔物が集まってきた」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アハブ",
+          "PlotLineKey": "「セリーン湾の灯台の鍵は、長い間海に沈んでおる」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "アハブ",
+          "PlotLineKey": "「お前さんは……いつか奇妙な魚たちに出会うだろう」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "アハブ",
+          "PlotLineKey": "「わしも調査を続けよう。何か進展があれば、プランクに伝える」",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "岩で塞がれてるようですね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "{PlayerName}さん、ここなら音骸の力を使えますよ！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 11
+    },
+    {
+      "Title": "プランクの依頼をクリアする"
+    },
+    {
+      "Title": "依頼を達成して、魚捕りの名声をレベル9以上にする"
+    },
+    {
+      "Title": "依頼の達成または図鑑の解放で、魚捕りの名声をレベル9以上にする"
+    },
+    {
+      "Title": "指定位置で「チタンサバ」を捕獲する"
+    },
+    {
+      "Title": "セリーン湾の灯台を灯す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "{PlayerName}さん！あれ、<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>です！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "西の島に向かっているようです！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "フィービー",
+          "PlotLineKey": "傷は少し癒えたようにも見えますが、声にはまだ怒りが満ちていますね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 4,
+          "Speaker": "Narrator",
+          "PlotLineKey": "情報通り、回遊の鯨はにセリーン湾にいた。灯台の明かりがともった後、回遊の鯨は嵐に囲まれたある島へと向かった……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "新しい設計図を入手した。造船所に行ってクィークェグに渡そう。"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "この船は、もうすぐ直りそうだぞ……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "クィークェグ",
+          "PlotLineKey": "直った。ありがとう。時が来た。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "クィークェグ",
+          "PlotLineKey": "ピークォッド号。キャプテン。必要。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "クィークェグ",
+          "PlotLineKey": "キャプテンの人選。アハブでなくとも、いい。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "1番演者",
+          "PlotLineKey": "船、だいぶ良くなった。アハブの銛が、ない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "1番演者",
+          "PlotLineKey": "アハブは言ってた。船が直れば、みんな、家に帰れる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "1番演者",
+          "PlotLineKey": "アハブはキャプテン。キャプテンはいつも正しい。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 3
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "1番演者",
+          "PlotLineKey": "アハブ、ピークォッド号は、直った。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "1番演者",
+          "PlotLineKey": "アハブなら、みんな、連れて帰れる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "1番演者",
+          "PlotLineKey": "家に、帰ろう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 4
+    },
+    {
+      "Title": "アハブに最後の島について尋ねる"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アハブ",
+          "PlotLineKey": "わしは年老いた……スターバック……もうわしは……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アハブ",
+          "PlotLineKey": "アルバトロス号も沈め……今度はわしが……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アハブ",
+          "PlotLineKey": "来たか。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アハブ",
+          "PlotLineKey": "<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>が向かった島は、レイエス遺跡群。いにしえの秘密がいくつも隠されている場所だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アハブ",
+          "PlotLineKey": "そこは閉ざされた場所。その秘密を守るかのように、常に嵐が島を囲んでおる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アハブ",
+          "PlotLineKey": "だが、心配はいらん。嵐を解く方法はすでに見つけたからな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "アハブ",
+          "PlotLineKey": "スターバックが言っていることが本当なら、その嵐もセイレーンと関係があるはずだ。だから……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "アハブ",
+          "PlotLineKey": "さあ、出発だ！お前さんと帽子の嬢ちゃん、俺とスターバックで、別行動をとろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "アハブ",
+          "PlotLineKey": "レイエス遺跡群の東側に小島がある、そこで合流しよう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "船に乗りアハブが指定した島に向かう"
+    },
+    {
+      "Title": "船に乗りアハブが指定した島に向かう"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "スターバック",
+          "PlotLineKey": "ほら見ろよ、キャプテン、俺の言った通りだろう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "ここにはこう書いてあります。「リジョリ、それは灯火で海淵を照らす星。レイエスの底には僭越者が眠っている。レイエスの末裔と永遠に海を泳ぐ魚たちのために、汝の愛を捧げよ」。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アハブ",
+          "PlotLineKey": "どういう意味だ……？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "フィービー",
+          "PlotLineKey": "リジョリは、リナシータの星相学における「<ano=海淵の星>ネプテューニア</ano>」に対応している。つまり、ここにはリナシータで最も深い海域があります。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アハブ",
+          "PlotLineKey": "ほほう？帽子の嬢ちゃんはそんなことも知っておるのか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "フィービー",
+          "PlotLineKey": "これはリナシータ人なら誰しもが知っていることですよ。<ano=さいしゅ>歳主</ano>インペラトルの伝説にも記されています。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 706,
+              "PlotLineKey": "後半はどういう意味？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "フィービー",
+          "PlotLineKey": "それは……私にも分かりません。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "アハブ",
+          "PlotLineKey": "「……汝の愛を捧げよ」って言っておる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "アハブ",
+          "PlotLineKey": "つまり、何かを愛さなきゃいけないということか？訳が分からん！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "アハブ",
+          "PlotLineKey": "ふん。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "アハブ",
+          "PlotLineKey": "おお！最も尊きもの、レイエスの末裔よ、我が言葉を聞き届けたまえ！我が汝に愛慕を捧げん！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "アハブ",
+          "PlotLineKey": "むう……我が汝に愛慕を捧げん！何世を経ても決して止むことのない波こそが、我が忠誠の証足りうる！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "アハブ",
+          "PlotLineKey": "ふん！これは年寄りには無理な注文だ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "アハブ",
+          "PlotLineKey": "{Male=あんちゃん;Female=嬢ちゃん}、お前さんに任せた！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 707,
+              "PlotLineKey": "{Male=俺が？;Female=私が？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "アハブ",
+          "PlotLineKey": "なんだ、別に台本も何もいらんだろう？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 708,
+              "PlotLineKey": "最も尊きもの、レイエスの末裔よ……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 709,
+              "PlotLineKey": "我が汝に我の——",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "スターバック",
+          "PlotLineKey": "待て！違う！全くもって違う！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "スターバック",
+          "PlotLineKey": "愛の伝え方だぞ？そんなじゃ全然ダメだ！出直してこい！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "スターバック",
+          "PlotLineKey": "俺が手本を見せる！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "スターバック",
+          "PlotLineKey": "ああ、愛しの我が恋人よ、我が生命に差し込む光よ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "スターバック",
+          "PlotLineKey": "嵐などに我々を引き裂くことはできない。なぜなら、あなたへの愛はこの嵐を退けるほどに強烈だ！それ以上に荒々しいのだから！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "スターバック",
+          "PlotLineKey": "我が魂はこの愛に苛まれ、救済を求めている。なぜなら、すでに進むべき道を見つけたのに、そこへ向かえずにもがき苦しんでいるからだ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "アハブ",
+          "PlotLineKey": "やったぞ！成功だ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "スターバック",
+          "PlotLineKey": "おお、我が愛しの恋人よ——",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "アハブ",
+          "PlotLineKey": "もういい！早く行くぞ！こんなことに時間を使うな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 31,
+          "Speaker": "Narrator",
+          "PlotLineKey": "レイエスの島周辺の嵐を鎮めるため、あなたたちはアハブが言っていた名もなき島へ向かった。そこで見つけたいにしえの石碑に書かれている内容に従って嵐を静めるよう試みたが、何の成果も得られなかった。最終的には、スターバックが島の主に「愛を告げた」ことによって、嵐を鎮めることができた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "フィービーとこの島ことについて話し合い、調査を始める"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "{PlayerName}さん、アハブじいさんの様子が少しおかしいと思いませんか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "具体的に何がおかしいのかは言葉にできませんが……何かを隠している気がします。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "フィービー",
+          "PlotLineKey": "ここは手分けして調べてみませんか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "フィービー",
+          "PlotLineKey": "この島は<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>と深い関わりがあり、遺跡もたくさんあります。きっと何か手がかりが見つかるはずです。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "フィービー",
+          "PlotLineKey": "私も古代リナシータの文字を解読して、真相解明のお手伝いをさせていただきますね！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "遺跡の灯台の鍵がこの島の宝の中に封印されている、と書いてあります。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "もしかしたら、あそこにあるのかも？",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 14
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アハブ",
+          "PlotLineKey": "よし！嵐が止めば、プランクも無事ここまで来れるだろう！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アハブ",
+          "PlotLineKey": "だが、クィークェグはどうか……ピークォッド号の修理が終わったと言えど、新しいキャプテンが到着するまでは動かせないからな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アハブ",
+          "PlotLineKey": "辺りを調べるぞ。レイエスの灯台については、わしも全く手がかりがない。あのセイレーンを探し出して船のマストに吊るし上げてやろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アハブ",
+          "PlotLineKey": "{PlayerName}、今回のお前さんの働きぶりには目を見張るものがある。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アハブ",
+          "PlotLineKey": "だが、海の波を乗り越えられる者はそう多くない。海は時に慈悲深く、時に残酷だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アハブ",
+          "PlotLineKey": "例え夢の中であっても、鋭い銛を深く、正確に突き刺さねばならん。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "アハブ",
+          "PlotLineKey": "わしらは海の恵みを受けながらも、銛先を海に、そしてあいつに向けておる……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "アハブ",
+          "PlotLineKey": "戦い、もがき……終わりのない海との闘い、それが海に生きるわしらの宿命だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "アハブ",
+          "PlotLineKey": "そう、宿命だ……引き潮や浅瀬で死んだ者を何人も知っている。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "アハブ",
+          "PlotLineKey": "もちろん、荒波の中で死ぬ者もいる。だが、今のわしは嵐をも呑む大波。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "アハブ",
+          "PlotLineKey": "さあ行け。お前さんも歴としたキャプテンだ。やるべきことを成し遂げてこい。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "スターバック",
+          "PlotLineKey": "ああ、お前か……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "スターバック",
+          "PlotLineKey": "そうだ、お前にも礼を言っておかないと。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "スターバック",
+          "PlotLineKey": "お前がいなければ、俺はここまで来られなかっただろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "スターバック",
+          "PlotLineKey": "……アハブじいさんに追い求めるものがあるように、俺には待っている人がいる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "スターバック",
+          "PlotLineKey": "おお、愛しの我が恋人よ、どうか俺を待っていてくれ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "スターバック",
+          "PlotLineKey": "ああ、分かっているさ。この想いは断ち切られるべきなのかもしれない。でも、まだ遅くはない……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "スターバック",
+          "PlotLineKey": "アハブじいさん！あいつがあなたを探しているのではなく、あなたが、ずっとあいつを探していたんだ！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "灯台の周りで手がかりを探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "「海からの三つの贈り物を示せ。さすれば、灯火は永遠に消えることはない」。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "つまり……海の中で三つの何かを見つければ、封印が解ける、ということでしょうか？",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "ここに残響が集まっています。どうか安らかに眠れますように。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 16
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "そっちです！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "スターバック",
+          "PlotLineKey": "我が恋人よ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "しっかり掴まってろよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "さあ 意地を見せろ ピークォッド！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ブラント",
+          "PlotLineKey": "そこが深淵のどん底だとしても！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 8
+    },
+    {
+      "Title": "船に乗り海からの「贈り物」を探す"
+    },
+    {
+      "Title": "Quest_880000038_ChildQuestTip_880_27"
+    },
+    {
+      "Title": "Quest_880000038_ChildQuestTip_880_39"
+    },
+    {
+      "Title": "一番目の幽霊に魚を提出する"
+    },
+    {
+      "Title": "最初の幽霊が提示した謎を確認する"
+    },
+    {
+      "Title": "Quest_880000038_ChildQuestTip_880_54"
+    },
+    {
+      "Title": "Quest_880000038_ChildQuestTip_880_56"
+    },
+    {
+      "Title": "二番目の幽霊に魚を提出する"
+    },
+    {
+      "Title": "二人目の幽霊が提示した謎を確認する"
+    },
+    {
+      "Title": "Quest_880000038_ChildQuestTip_880_61"
+    },
+    {
+      "Title": "三番目の幽霊に魚を提出する"
+    },
+    {
+      "Title": "三人目の幽霊が提示した謎を確認する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "不思議な霊体は、魚の旨味を味わったのか、満足げに去っていった……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "不思議な霊体は、海の呼びかけに感応したのか、消え去った……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "不思議な霊体は、最後の灯台を見つめ、再びそれが灯ることを待ち望んでいるかのようだった……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "レイエス遺跡群の灯台を灯す"
+    },
+    {
+      "Title": "フィービーと情報交換する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "{PlayerName}さん、これで4つの灯台が全てが灯りました！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>の声が聞こえますか？以前のような悲しみと怒りに満ちた声ではなくなったみたいですね。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 799,
+              "PlotLineKey": "フィービー、何か発見はあった？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 800,
+              "PlotLineKey": "鯨って感情豊かなんだね。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "フィービー",
+          "PlotLineKey": "レイエス遺跡の碑文をいくつか解読してきました。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "フィービー",
+          "PlotLineKey": "<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>は<ano=さいしゅ>歳主</ano>「インペラトル」と何らかの繋がりがあるみたいです。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 7,
+          "Speaker": "Narrator",
+          "PlotLineKey": "島にある最後の灯台をともした後、<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>は以前の温厚な様子に戻った。一方で、フィービーが進めていた島の調査も、何か進展があったようだ……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "伝承では",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "海底に沈んだ船とセーラーをあの世へと導くのが",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "フィービー",
+          "PlotLineKey": "<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>の役目です",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "フィービー",
+          "PlotLineKey": "その気性は荒く",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "フィービー",
+          "PlotLineKey": "悲しみと怒りの歌は",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "フィービー",
+          "PlotLineKey": "嵐を呼び起こし",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "フィービー",
+          "PlotLineKey": "すべてを呑み込む",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "フィービー",
+          "PlotLineKey": "インペラトルが英知でその心を灯した後",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "フィービー",
+          "PlotLineKey": "鯨は魚群を導き",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "フィービー",
+          "PlotLineKey": "海を守っている",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 2
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "これらの出来事を記録した石碑の中には、教団の歴史よりも古いものもありました。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "フィービー",
+          "PlotLineKey": "それに、スターバックさんと関係のある「セイレーン」の手がかりも見つけました。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "フィービー",
+          "PlotLineKey": "それはリジョリの淵、つまり群島の海底に住む反響生物の一種。私たちが<ano=かすみた>霞立</ano>つ<ano=すいきょう>水境</ano>で出会ったローレライと近しい生物です。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "フィービー",
+          "PlotLineKey": "おそらく、<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>がここを離れていた間に、その導きに従わなかった「死せるもの」たちの残響が彼女の内に重なり、彼女を操って漁師たちを魅了していたのだと思います。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "フィービー",
+          "PlotLineKey": "彼女はローレライには遠く及ばない未熟な存在です。しかし、彼女と<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>は共生関係にあります。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "フィービー",
+          "PlotLineKey": "<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>の傷も、本来であれば彼女が癒やしていたものだったのでしょう……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 812,
+              "PlotLineKey": "彼女を元に戻さないと。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "フィービー",
+          "PlotLineKey": "はい、<ano=かすみた>霞立</ano>つ<ano=すいきょう>水境</ano>の時と同じように……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "フィービー",
+          "PlotLineKey": "ただ、ちょっと心配事が……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "フィービー",
+          "PlotLineKey": "{PlayerName}さんは、鯨とお話できますか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 813,
+              "PlotLineKey": "アブならできるかもしれない。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "フィービー",
+          "PlotLineKey": "なるほど。では、これが片付いたら、鯨とゆっくり話してみましょうか。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "フィービー",
+          "PlotLineKey": "一度アハブじいさんのところに戻りましょう、{PlayerName}さん。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 14,
+          "Speaker": "Narrator",
+          "PlotLineKey": "島の石碑に書かれた内容によると、回遊の鯨の役目は海上の亡霊を来世へと導くという役割があり、そしてこの海域に侵入した「セイレーン」は、恐らくローレライと近しい生物だと、フィービーは推測する。これで必要な情報が揃った。あなたたちは一度アハブのところに戻り、それから「セイレーン」を倒しに行くことに決めた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "アハブを探す"
+    },
+    {
+      "Title": "アハブが残したメッセージを確認する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アハブのメモ",
+          "PlotLineKey": "あの血も涙もない、それでいてどうにもならんヤツめ……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アハブのメモ",
+          "PlotLineKey": "わしはもう老いぼれた。お前の呪いも今日で終わりだ……だが、最後まで戦ってやる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アハブのメモ",
+          "PlotLineKey": "地獄のどん底に落ちようとも、お前と刺し違えてやるぞ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アハブのメモ",
+          "PlotLineKey": "波よ、ありったけの大波で押し寄せてこい！このわしが死にゆく波の上に、さらにうねりを加えてくれ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アハブのメモ",
+          "PlotLineKey": "ピークォッド号の船員たちよ！お前たちに約束した安らぎは、今日こそ手に入るぞ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アハブのメモ",
+          "PlotLineKey": "わしを殺したあの渦潮、わしの帆をはらませたあの嵐よ！わしはお前たちを呼ぶぞ！ヤツもここに引きずり込んでやれ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "アハブのメモ",
+          "PlotLineKey": "さあ！今日こそ、わしらを縛りつけたロープを断ち切り、地獄に身を投じて、ヤツと決着をつける日だ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "{PlayerName}！無事だったか！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 658,
+              "PlotLineKey": "イシュマエル？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 659,
+              "PlotLineKey": "アハブたちは？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "ピークォッド号の修理が終わったと聞いて、一緒に様子を見に来たんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "だが、ここに着いたら誰もいなかった。残っていたのはプランクだけ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "？？？",
+          "PlotLineKey": "おおい、{PlayerName}じゃないか。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 663,
+              "PlotLineKey": "ブラント！？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "ブラント",
+          "PlotLineKey": "多少の年季を感じるが立派な船だな！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 665,
+              "PlotLineKey": "{Male=俺が一から作ったんだ！;Female=私が一から作ったんだ！}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "ブラント",
+          "PlotLineKey": "この船も君と深い縁があるようだな！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ブラント",
+          "PlotLineKey": "アハブにこの船の舵取りを頼まれているんだ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 668,
+              "PlotLineKey": "アハブはどこ？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "ブラント",
+          "PlotLineKey": "俺も彼を見ていない。ん？お、おい、どこに行くんだ？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ブラント",
+          "PlotLineKey": "君のゴンドラが動き出したぞ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ブラント",
+          "PlotLineKey": "おい！おい！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "？？？",
+          "PlotLineKey": "ああ、愛しの我が恋人よ！今会いに行くぞ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "スターバックだ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "あいつ、勝手に船を出しやがって！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ブラント",
+          "PlotLineKey": "止まれ、止まるんだ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "スターバック",
+          "PlotLineKey": "我が愛はこの嵐をも退ける！我が愛はそれほどに強烈だ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "ブラント",
+          "PlotLineKey": "まずい……嵐がくるぞ！早く乗れ！あいつ、血迷ってる！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "プランク",
+          "PlotLineKey": "ルル……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "プランクは何かに怯えているようだ。今は商売どころではないのかもしれない……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "「ピークォッド号」でブラントを見つけ出航の準備をする"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "この船は舵取りなしで動くようだが、キャプテンだけは必要なようだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "さあ、出発の準備はいいか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 607,
+              "PlotLineKey": "アイアイサー！キャプテンブラント！",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 608,
+              "PlotLineKey": "もう少し準備させて。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "1番演者",
+          "PlotLineKey": "おお、ロープが勝手に締まった！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "1番演者",
+          "PlotLineKey": "よぉし、帆を上げろ！出航だ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 18
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "どうやら、ピークォッド号は運命から逃れられなかったようだな……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "だが、俺のキャプテン代理の仕事もこれで終わりだ。では、いつかまた会おう、我が友よ！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "フィービーの休憩を待つ（時間を4:00～9:00に設定）"
+    },
+    {
+      "Title": "レイエス遺跡群周辺の島で回遊の鯨について調べる"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "フィービー",
+          "PlotLineKey": "<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>が……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "回遊の鯨",
+          "PlotLineKey": "…………！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アブ",
+          "PlotLineKey": "おい！デカいの！また会ったな！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アブ",
+          "PlotLineKey": "前に船をひっくり返されたけど、助けてもらったから、これでチャラだ！えーと……<ano=こんしゅう>今州</ano>の古い言葉で言うところの「君子は小人の過ちを看過する」ってやつだな！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 642,
+              "PlotLineKey": "{Male=アブの方が小さいだろ。;Female=アブの方が小さいでしょ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "回遊の鯨",
+          "PlotLineKey": "…………！…………",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アブ",
+          "PlotLineKey": "こいつが言うには、あの「セイレーン」が傷を癒やしたんだって。でも、こいつの代わりに残響を吸収しすぎたせいで、影響を受けて正気を失ってしまったみたいだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "アブ",
+          "PlotLineKey": "さっき「セイレーン」と戦うのをためらっていたのもそのせいだ。きっと彼女を懲らしめたら、反省するんじゃないか。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "フィービー",
+          "PlotLineKey": "あの、<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>さん……一つだけ聞きたいことがあります！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "フィービー",
+          "PlotLineKey": "もう、傷はすべて治りましたか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "回遊の鯨",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "アブ",
+          "PlotLineKey": "治ってるに決まってるだろ？どこをどう見たって健康そのもの、すっごく元気じゃんか。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "フィービー",
+          "PlotLineKey": "あの人たちに利用されて、カルネヴァーレであんなひどい目に遭わせて……私一人の謝罪では償いにはなり得ませんが……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "フィービー",
+          "PlotLineKey": "それでも、あなたに謝りたいんです。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "回遊の鯨",
+          "PlotLineKey": "…………？……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "回遊の鯨",
+          "PlotLineKey": "…………",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "アブ",
+          "PlotLineKey": "こいつは、お前を責めてなんかいないってさ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "アブ",
+          "PlotLineKey": "お前はずっとこいつを追いかけてきた。その長い旅の間では漁師たちを助けてくれた。自分にも海の恵みを与えてくれた。それが、こいつが守りたいものだったんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "アブ",
+          "PlotLineKey": "あ！お前が大物を釣り上げたことも褒めてるぞ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "回遊の鯨",
+          "PlotLineKey": "…………",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "アブ",
+          "PlotLineKey": "「ありのままの自分でいてほしい。他人に捧げる時も、他人から受け取る時も、信念と希望を抱いたまま」……そう言ってるぞ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "フィービー",
+          "PlotLineKey": "はい、分かりました！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "回遊の鯨",
+          "PlotLineKey": "…………！？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "アブ",
+          "PlotLineKey": "そりゃ当然だ！我とこいつは最強のコンビだぞ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 643,
+              "PlotLineKey": "もしかすると、いつか……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 644,
+              "PlotLineKey": "あなたを釣り上げることもできたりして？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 25,
+          "Speaker": "回遊の鯨",
+          "PlotLineKey": "…………",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "アブ",
+          "PlotLineKey": "あれ、デカいの、どうしたんだ？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "回遊の鯨",
+          "PlotLineKey": "……！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "フィービー",
+          "PlotLineKey": "ええっと……笑ってる？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "アブ",
+          "PlotLineKey": "うわあああ！！！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "アブ",
+          "PlotLineKey": "んあー、待ってろよ！いつかお前を釣り上げた日にゃ、倍返しだ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 37,
+          "Speaker": "Narrator",
+          "PlotLineKey": "嵐は鎮まり、あなたたちは海の底から連れ出してくれた回遊の鯨と再び出会った。フィービーはカルネヴァーレで起きたことについて、一個人として回遊の鯨にお詫びの意を伝えたが、回遊の鯨は気にしていないようだ。<br>魚捕りの達人のあなたなら、いつの日か、この「大物」を釣り上げる偉業を成し遂げるかもしれない……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ローズバッド",
+          "PlotLineKey": "…………！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "荷物を大量に積んだゴンドラは「金さえあれば、いいものをたくさんあげよう！」と言っているようだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "依頼クリア・図鑑登録で、魚捕りの名声をレベル10以上に上げる"
+    },
+    {
+      "Title": "リジョリ港でイシュマエルを見つける"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "ふむ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "{PlayerName}、気づいた？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "あなたたちが<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>とこの海を正常に戻したら、キャプテンアハブも、スターバックさんも、クィークェグさんも、みんな消えてしまった……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "今、キャプテンアハブが残したノートを調べている最中だ。彼らは「最後の港」を探し続けていたらしい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "キャプテンアハブは彼の人生を海に捧げ、この海域で最も優れた船長であり漁師だった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "キャプテンアハブを追いかけて、その航路を辿れば、何か発見があるかもしれない。例えば、彼が残した宝とか……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1087,
+              "PlotLineKey": "<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>を釣り上げることもできる？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "その可能性は否めない。キャプテンアハブは<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>に対して強い執念を持っていたけど、その理由は分からない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "それじゃあ、それを目標に進んでいこう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "依頼クリア・図鑑登録で、魚捕りの名声をレベル12以上に上げる"
+    },
+    {
+      "Title": "リジョリ港でイシュマエルを見つける"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "海はこんなにも穏やかで、渦潮も消えてしまった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "全てが元通りになった……{PlayerName}、実は、キャプテンアハブたちは……何十年も前から、海の底で眠っているんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "この海への愛と、<ano=かいゆう>回遊</ano>の<ano=くじら>鯨</ano>との約束によって、現世にずっと留まっていたんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "リジョリ群島のこの凪いだ海はまさに、彼らの終の棲家。ここが、彼らの「最後の港」なんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "でも、なぜか「ラケル号」だけは消えなかった。しかも、かなりあなたに懐いているみたい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "きっと、キャプテンアハブもあなたが彼の意思を継いでくれることを望んでいるんだろう……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1096,
+              "PlotLineKey": "あなたはどうする？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "僕かい？僕はただの平凡なセーラー、漁師だ。ここで生まれ、ここで結婚して子供を産み、最後はこの海で眠る。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "イシュマエル",
+          "PlotLineKey": "さあ、出航しようか、キャプテン{PlayerName}！あなたが目指すべきは、この世界の果てだ！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

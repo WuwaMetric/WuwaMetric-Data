@@ -1,0 +1,759 @@
+{
+  "Id": 135000005,
+  "Name": "Die verborgene Wahrheit",
+  "Description": "Du bist auf ein Exil gestoßen, das von Tacet-Dissonanzen belagert wird. Nachdem er deine Fähigkeiten gesehen hat, scheint er deine Hilfe zu benötigen.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 135000005,
+  "ShowQuestList": [],
+  "QuestDesc": "Du bist auf ein Exil gestoßen, das von Tacet-Dissonanzen belagert wird. Nachdem er deine Fähigkeiten gesehen hat, scheint er deine Hilfe zu benötigen.",
+  "Conditions": [
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 135000024
+    },
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 1
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "Ein neues Gesicht, hm? Versteht deine dünne, zweigähnliche Figur das wahre Geschäft des Kampfes?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "Du hast dich nicht den ganzen Weg hierher geschleppt, um für das veraltete Prinzip des alten Narren Babysitter zu spielen, oder?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "Du hast immer noch die Chance, dich zurückzuziehen, hihi! Fang nicht an, wie ein kleines Baby in der Grube zu weinen.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lächelnder Exilant",
+          "PlotLineKey": "Hallo, bist du auch hier, um an der Seaside-Arena teilzunehmen?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lächelnder Exilant",
+          "PlotLineKey": "Noch ein Konkurrent hier, und mein Herz bricht vor Schuld.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lächelnder Exilant",
+          "PlotLineKey": "Ich habe noch nie verloren, weißt du? Viel Glück, du wirst es brauchen, glaub mir.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Hier ist dein Eintrittspass. Jetzt kannst du das Lager frei betreten und verlassen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Hast du irgendwelche nützlichen Informationen herausgefunden?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 291,
+              "PlotLineKey": "Sie sind nicht freundlich.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 292,
+              "PlotLineKey": "Sie sind aggressiv.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Nun, alle Teilnehmer sind Elite-Mitglieder ihrer Fraktionen und der Wettbewerb schürt ihre Aggressivität mit jeder Runde.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Übrigens, bevor das Match beginnt, müssen wir Gegenstände in den Preispool einbringen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Rover, hast du etwas Wertvolles?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 293,
+              "PlotLineKey": "Ich habe nichts.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 294,
+              "PlotLineKey": "Ich bin pleite.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Keine Sorge! Ich werfe meine Sachen ein. Ich habe Vertrauen in dich!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Ich habe alles, was ich besitze, aufs Spiel gesetzt, sogar ein Comicbuch der 20. Jubiläumsausgabe mit der Unterschrift des Autors.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Es ist die begehrte Ausgabe Nummer 0001.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 295,
+              "PlotLineKey": "Bist du ernst?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Hey! Unterschätzt du sie? Sie haben mich ein Vermögen gekostet!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Ich werde sie dem Organisator übergeben. Du gehst dich bei der Rezeptionistin anmelden. Ich werde dein größter Fan während des Spiels sein!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Hallo, bist du hier, um dich für die Seaside-Arena anzumelden?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Es gibt eine neue Regel zu befolgen. Wenn du dich für das Match anmelden möchtest, musst du zuerst drei Abzeichen sammeln.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "Welche Abzeichen?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Die Teilnehmer in der Seaside-Arena waren schon immer die Besten der Besten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Aufgrund der verlockenden Belohnungen versuchen viele Unfähige, sich einzuschleichen, und verschwenden die Zeit aller. Deshalb haben wir diese Regel aufgestellt - um sicherzustellen, dass nur die wirklich Mächtigen teilnehmen können.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Um diese Abzeichen zu verdienen, musst du drei grundlegende Prüfungen bestehen. Bist du bereit?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "Leg los.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Die erste Prüfung testet deinen Mut. Eine Waffe ist am höchsten Punkt im Lager platziert.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Wenn du sie sicher bergen kannst, erhältst du das erste Abzeichen.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Ausgezeichnet. Die Überwindung innerer Ängste ist der erste Schritt, um an die Spitze zu klettern.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Du hast das Abzeichen des Mutes verdient.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Das nächste Abzeichen steht für Geschwindigkeit. Warte einen Moment; jemand fordert es gerade heraus.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Gut, du bist dran. Siehst du diese Schießziele?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Deine Aufgabe ist es, diese Ziele innerhalb von dreißig Sekunden zu treffen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Nur diejenigen, die schnell reagieren und schnelle Entscheidungen treffen, können bestehen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Wenn du die Person bist, die wir erwarten, bin ich sicher, du kannst es mit Leichtigkeit schaffen. Wenn du bereit bist, lass uns anfangen.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Effizient und sauber. Komm und hol dir dein Abzeichen für Geschwindigkeit.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Die letzte Prüfung ist die herausforderndste.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Rover, da bist du ja! Sieht so aus, als wärst du bereit.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Hier kannst du Exilanten aus verschiedenen Fraktionen finden. Um die Ordnung aufrechtzuerhalten, müssen wir einen Eintrittspass haben, um unsere Identität zu beweisen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Ich werde einen Eintrittspass für dich besorgen. In der Zwischenzeit kannst du dich in den Lagern umsehen. Vielleicht kannst du einige Informationen über den Gegner finden.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Hier bist du. Es ist dein zweites Abzeichen. Was das letzte Abzeichen betrifft...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Du wirst einer umfassenden Prüfung unterzogen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Allerdings ist der Zeitplan des Prüfers umgekehrt zu unserem.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Du wirst sie nur in der Dämmerung finden.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Das Essen wird in letzter Zeit immer schlechter. Was ist los? Brauchst du etwas?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 325,
+              "PlotLineKey": "Du bist der letzte Prüfer?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 326,
+              "PlotLineKey": "Ich bin hier, um das letzte Abzeichen zu bekommen.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Ein weiterer törichter Herausforderer von einer törichten Fraktion, hm? Wenn du nicht alles verlieren willst, was du hast, kehre jetzt um.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Bereuen ist immer noch eine Option. Wir können so tun, als hätten wir dich nie gesehen. Beeil dich und geh!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Du willst das letzte Abzeichen? Schau, wie schwach und zerbrechlich du bist. Geh einfach, wenn du nicht willst, dass deine Fraktion in Schwierigkeiten gerät.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 327,
+              "PlotLineKey": "Ich habe jemandem versprochen, dass ich gewinnen würde.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Meine Ohren sind müde von solchen Versprechen. Wie auch immer, ich habe dir bereits eine Chance gegeben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Das letzte Abzeichen steht für Stärke, also musst du mich besiegen, um es zu bekommen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Einfach, oder? Okay, versuch es, Kleiner.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Herzlichen Glückwunsch zum Sammeln aller drei Abzeichen. Ein Exil, der behauptet, dein Freund zu sein, hat bereits das Anmeldeformular in deinem Namen ausgefüllt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Bevor du das Match beginnst, mach dich bitte mit den Regeln der Seaside-Arena vertraut.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Dein Freund hat vergessen, die Echo-Informationen für dich bereitzustellen. Leider sind keine Änderungen erlaubt, sobald das Anmeldeformular eingereicht wurde.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Gemäß den Regeln der Seaside-Arena erhalten Herausforderer, die keine Echo-Informationen registriert haben, ein Unterstützungs-Echo für den Kampf.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 355,
+              "PlotLineKey": "Ist es stark?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Hahaha, leider ist es nur ein Zig Zag, eine gewöhnliche Tacet-Dissonanz. Um das Match nicht zu beeinflussen, können wir nur das grundlegende Echo bereitstellen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Hier sind die Regeln.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Die Seaside-Arena verwendet ein K.-o.-System. Den Teilnehmern ist es erlaubt, in den Kämpfen jeden Kampfstil zu verwenden. Der Gewinner rückt automatisch in die nächste Runde vor.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Wenn du alle drei Runden gewinnst, qualifizierst du dich, den vorherigen Champion herauszufordern.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Bist du bereit, Rover?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 356,
+              "PlotLineKey": "Lass uns anfangen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 357,
+              "PlotLineKey": "Kann es kaum erwarten.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Rezeptionist",
+          "PlotLineKey": "Viel Glück!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Das Finale rückt näher. Ich bin mir immer noch nicht sicher, wie sie es schaffen, ihre Gegner zu besiegen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Rover, du solltest dich besser auf die Bewegungen deines Gegners während des Kampfes konzentrieren.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Ich werde zuschauen. Wenn etwas schief geht, werde ich dir helfen.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Hehe, du warst großartig in den Spielen! Das ist der Rover, den ich kenne!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Nach dieser Saison werden Die Hyänen langsam ihren Status zurückgewinnen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Ich freue mich so, diese gute Nachricht mit dem alten Anführer zu teilen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Auf meinem Weg hierher begegnete ich mehreren hochrangigen Fraktionen, die bereit zu gehen schienen. Sie sahen mich mit Verachtung an.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Jetzt ist es an der Zeit, dass sie den Schmerz spüren, den ich ertragen habe!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Haha, schau mich nicht so an. Siehst du nicht, dass das nur ein Scherz ist?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeyuan",
+          "PlotLineKey": "Hier, Rover, ist deine Bezahlung. Hoffe, dich bald wieder zu sehen.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "All das Chaos ist nun vorbei. Warum das lange Gesicht?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Lass mich raten. Du fürchtest, dass der, dem du geholfen hast, eigentlich ein wilder und gieriger Wolf ist.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 471,
+              "PlotLineKey": "Wie weißt du, was ich denke?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Ich kann es an deinem Gesichtsausdruck ablesen. Du bist kein Exilant, oder?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Es ist egal, ob sie Wölfe sind oder nicht. Denke sorgfältig darüber nach, warum du dich entschieden hast, ihnen zu helfen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Du hast ihnen nicht geholfen, um ihren Status zu erhöhen oder mehr Vorteile zu erlangen, sondern um die Seaside-Arena zu ihrem ursprünglichen Zweck zurückzuführen - einem Ort, an dem jeder Spaß haben kann.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Du hast dazu beigetragen, die verdrehten Regeln dieser Region zu ändern.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Du hast den Schwachen eine Überlebenschance gegeben, und das ist lobenswert.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Diese Region steht vor einer neuen Welle von Veränderungen. Ob sie positiv oder negativ sind, hängt von der Reaktion der Menschen hier ab.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Es ist nicht mehr deine Sorge, also grüble nicht über das nach, was du getan hast. Warten wir ab und sehen, welche Antworten sie geben werden.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 472,
+              "PlotLineKey": "Ich glaube, ich verstehe, was du meinst.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Trainierender Exilant",
+          "PlotLineKey": "Ich war hier so lange festgefahren. Es ist an der Zeit, mich zu befreien und meine steifen Knochen zu dehnen. Bis dann, Rover.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "Wie versprochen, habe ich eure Anfragen erfüllt. Es wird nicht lange dauern, bis die Seaside-Arena wieder zu einer Arena wird, in der die Teilnehmer ihre Fähigkeiten schärfen können.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "Ich kann es kaum erwarten, den Tag zu sehen, an dem es wieder als Verhandlungstisch ausgenutzt wird, hahaha!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 485,
+              "PlotLineKey": "Wie meinst du das?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "Wölfe im Wald jagen immer Schafe, auch wenn sie wissen, dass Jäger sie vielleicht erschießen könnten. Es liegt in ihrer Natur, unveränderlich.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "Wenn es sonst nichts gibt, verabschiede ich mich.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Gladiator Champion",
+          "PlotLineKey": "Hier sind die Beute deiner Siege. Jetzt gehört alles dir.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

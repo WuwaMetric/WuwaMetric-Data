@@ -1,0 +1,4572 @@
+{
+  "Id": 101010,
+  "Name": "出航だ、キャプテン！",
+  "Description": "ブラント",
+  "MaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveRole/T_ArchiveRole_22.png",
+  "FemaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveRole/T_ArchiveRole_22.png",
+  "AreaIcon": "",
+  "ShowQuestList": [
+    155000000
+  ],
+  "QuestDesc": "ブラントと船員たちの賭け事に巻き込まれて、愚者の劇団の一日キャプテンになった。準備はできたか、キャプテン。冒険の始まりだよ！",
+  "Unlock": [],
+  "Chapters": [
+    {
+      "Title": "愚者の洞窟でブラントと会話する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "半ダースだけなんて、お前らしくないな……バティエ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "バティエ",
+          "PlotLineKey": "チッ。エグラの高級酒だからって、ビビったな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ハイマー",
+          "PlotLineKey": "バティエ、もう半ダース追加するしかないだろ！盛り上げていこうぜ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 119,
+              "PlotLineKey": "{Male=何をしてるんだ？;Female=何をしてるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "おお、{PlayerName}じゃないか！今はバティエと「誉れ高き賭け」をしているところさ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 120,
+              "PlotLineKey": "{Male=何を賭けてるんだ？;Female=何を賭けてるの？}",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 121,
+              "PlotLineKey": "ブラントは賭け事に弱いんじゃ……？",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "バッド",
+          "PlotLineKey": "どっちが先に魚を釣れるかで勝負してるんだ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "ブラント",
+          "PlotLineKey": "我が友よ……それでもキャプテンとして、みんながうまい酒を飲めるように戦うしかないのさ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "ブラント",
+          "PlotLineKey": "バティエのやつ、自信満々で半ダースの麦酒を賭けてきたんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ブラント",
+          "PlotLineKey": "エグラの高級酒を飲んだことはあるか？ほんのり甘いコクのある味わいで、一口飲んだら止まらなくなるぞ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "バティエ",
+          "PlotLineKey": "そこまで言うなら、「トゥループストレングス」をもう一本賭けよう。今日は存分に飲もうじゃないか！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ブラント",
+          "PlotLineKey": "そう来なくっちゃな！だったら、俺は何本賭ければいい？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "バティエ",
+          "PlotLineKey": "いや、キャプテン……せっかく{PlayerName}さんが来たのに、酒だけじゃつまらないだろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "バティエ",
+          "PlotLineKey": "なら、これでどうだ。もし俺が先に釣ったら、当番の兄弟たちに休みをくれ。カルネヴァーレで「<ano=げっけいかん>月桂冠</ano>」を勝ち取った{Male=彼;Female=彼女}に、もう一度みんな会いたがってるんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "バティエ",
+          "PlotLineKey": "料理や甲板掃除、それから武器の手入れなんかは……代わりにキャプテンがやる！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ブラントとバティエが熱く話し合っている後ろで、バティエの釣り竿が揺れた――",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 122,
+              "PlotLineKey": "食いついた！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "しかし、二人は気づいていない。たとえ今、<ano=しゅざ>主座</ano>がここに現れても、二人は「誉れ高き賭け」を優先する勢いだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "ブラント",
+          "PlotLineKey": "いいだろう、久々に料理をするのも悪くない！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 123,
+              "PlotLineKey": "（釣り竿を握って力を込める）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "重さからして、食いついた魚は賭けを文句なく終わらせられるほどの大物に違いない。全身の力を振り絞り、竿を上げると――",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "その魚の目は、釣り上げられたことに絶望してるかのようだった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "シソス",
+          "PlotLineKey": "見ろ、すごい大きさだ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "バッド",
+          "PlotLineKey": "鍋に入り切らないな……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "ハイマー",
+          "PlotLineKey": "この釣り竿は、バティエのやつだな？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "バティエ",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "ブラント",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "ブラント",
+          "PlotLineKey": "予想外だが仕方ない、これも勝負だ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "バティエ",
+          "PlotLineKey": "こいつは群れのボスに決まってる！これでキャプテンは酒も飲めずに甲板掃除だ、ははっ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "ブラント",
+          "PlotLineKey": "俺の負けだ。今日の当番は引き受けよう！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "ハイマー",
+          "PlotLineKey": "じゃあ、キャプテンの代わりはどうするんだ？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "バティエ",
+          "PlotLineKey": "そりゃ、賭けに勝った俺が……いや。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "バティエ",
+          "PlotLineKey": "竿を上げて大物を釣り上げた{PlayerName}さんになってもらおう。カルネヴァーレでも大活躍した{Male=彼;Female=彼女}なら、一日キャプテンもやり遂げてくれるんじゃないか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 124,
+              "PlotLineKey": "{Male=本気で言ってるのか？;Female=本気で言ってるの？}",
+              "PlayVoice": false,
+              "JumpToId": 30
+            },
+            {
+              "TextId": 125,
+              "PlotLineKey": "{Male=キャプテンになるのは構わないけど、報酬はあるのか？;Female=キャプテンになるのは構わないけど、報酬はあるの？}",
+              "PlayVoice": false,
+              "JumpToId": 31
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ああ、信じてるぞ。きっといいキャプテンになれるはずさ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 32
+        },
+        {
+          "Id": 31,
+          "Speaker": "ブラント",
+          "PlotLineKey": "もちろんだ！うちの船は、そのあたりもキッチリしてる。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 32
+        },
+        {
+          "Id": 32,
+          "Speaker": "ブラント",
+          "PlotLineKey": "でも、「一日キャプテン」になるかどうかは、君次第だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "ブラント",
+          "PlotLineKey": "それより、今日は夜ご飯も食べてってくれ。麦酒ちゃんがご主人の帰りを待ってるぞ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "ブラント",
+          "PlotLineKey": "あらためて、劇団を助けてもらったお礼もしたいからな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "バティエ",
+          "PlotLineKey": "そうだよ！しかも今日は、この大物でご馳走が食べられるぞ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "バティエ",
+          "PlotLineKey": "厨房のみんなにも、豪勢にやるよう伝えておくよ。酒も大量に用意しないと。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 37,
+          "Speaker": "ブラント",
+          "PlotLineKey": "それじゃ、俺は甲板を磨いてくる。頼んだぞ、一日キャプテン。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 38,
+          "Speaker": "ブラント",
+          "PlotLineKey": "劇団を見て回るも良し、自由にするも良し。今日は最後まで楽しんでいってくれ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 46,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたは不意にもブラントとバティエの賭けに巻き込まれ、彼らが言い争っている間に「フィッシュキング」を釣り上げて賭けの勝者となった。<br>その結果、あなたは愚者の船の「一日キャプテン」として任命されることに。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "バティエ",
+          "PlotLineKey": "どうだキャプテン、賭けてみないか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "せっかくだ、勝負しようじゃないか！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "だが、今日は何を賭ける？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "ブラントたちは何を……？とりあえず、行ってみよう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "夜ご飯まで、まだ時間があるな。もう少し劇団を見て回ったらどうだ？たっぷり楽しんでいってくれ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "キャプテンについて……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "バティエはああ言っていたが、「一日キャプテン」になるかどうかは君次第だ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 208,
+              "PlotLineKey": "{Male=「キャプテン」って、いつも何をしてるんだ？;Female=「キャプテン」って、いつも何をしてるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "まずは、航路の決定や舵取りだ。キャプテンが行き先を決めないと、出航できないからな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "当然かもしれないが、やはり劇団にとってキャプテンは必要不可欠。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ブラント",
+          "PlotLineKey": "この海で、胸踊る物語や貴重な宝物と出会うためにも。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ブラント",
+          "PlotLineKey": "物語を探したり、歓声をもたらす旅に劇団を導く存在が必要なんだ。狂嵐の海の荒波を乗り越え、目的地に向かって導く誰かが。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 209,
+              "PlotLineKey": "{Male=何だか楽しそうだな。;Female=何だか楽しそうだね。}",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 210,
+              "PlotLineKey": "{Male=挑戦の連続だな。;Female=挑戦の連続だね。}",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 211,
+              "PlotLineKey": "すごく大変そう……",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "ブラント",
+          "PlotLineKey": "波が荒いほど、冒険も大きくなるからな……我が友よ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "ブラント",
+          "PlotLineKey": "そうだな。疲れがあれば歓声もあるように、冒険があれば宝もあるのさ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "ブラント",
+          "PlotLineKey": "でも一番の宝物は、やっぱり劇団の仲間だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ブラント",
+          "PlotLineKey": "釣り上手なバティエ、海の状況を熟知してるティナ、三日三晩聞いても飽きない物語の語り手レヴィト……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ブラント",
+          "PlotLineKey": "みんなそれぞれ得意なことがある。誰一人として、失うわけにはいかない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ブラント",
+          "PlotLineKey": "それじゃあキャプテン、俺は仕事の続きに戻ろう。夜ご飯までに甲板を磨き終えないとな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ブラント",
+          "PlotLineKey": "6時になったら、また会おう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "一日キャプテンか……<ano=ぐしゃ>愚者</ano>の<ano=げきだん>劇団</ano>のキャプテンって、いつも何をしてるんだろう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "夜ご飯まで、まだ時間がある。劇団を見て回ろう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ロココ",
+          "PlotLineKey": "書類作業なら心配いらないよ。もともとブラントの仕事。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "レヴィト",
+          "PlotLineKey": "「帰りし者」が火炎を通り抜け、舞台へと舞い戻った。そして帆を高く上げ、航路を定めると、海を越えるべく……",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "パン・ケーク",
+          "PlotLineKey": "6時、ご飯！6時、ご飯！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "まだ早い……もう少し劇団を見て回ろう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "午後6時に劇団に晩ご飯を食べに行く（18:00-23:00）"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ロココ",
+          "PlotLineKey": "{PlayerName}、一日キャプテンになったって聞いたよ。この書類作業もやっておいて。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 178,
+              "PlotLineKey": "{Male=書類作業もあるのか？;Female=書類作業もあるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 179,
+              "PlotLineKey": "また使いっ走り？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ロココ",
+          "PlotLineKey": "ふふ、冗談だよ。劇団で過ごす一日、楽しんでほしい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ロココ",
+          "PlotLineKey": "書類作業は、明日のブラントに任せればいい。ペロと一緒に見張る。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ロココ",
+          "PlotLineKey": "何だかんだブラントは、きちんとやってくれる。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 180,
+              "PlotLineKey": "頼もしいね。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 181,
+              "PlotLineKey": "{Male=個性的だな。;Female=個性的だね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "ロココ",
+          "PlotLineKey": "キャプテンの責任だから。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ティナ",
+          "PlotLineKey": "{PlayerName}が一日キャプテンになったって聞いたわよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ティナ",
+          "PlotLineKey": "なら、ブラントの代わりに今日の航路を決めないと。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 166,
+              "PlotLineKey": "やっとキャプテンらしい仕事が来た。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 167,
+              "PlotLineKey": "ここは副キャプテンに決めてもらおう。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "ティナ",
+          "PlotLineKey": "ええ、愚者は自分の進むべき道を知りたがってるもの。だからキャプテンとして、導く必要があるわ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "ティナ",
+          "PlotLineKey": "もちろん、副キャプテンの意見も重要。だけど、最終的にはキャプテンが自分で決めないと。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "ティナ",
+          "PlotLineKey": "私たちのような過去を失った人にとって、「目的地」は大事だから。劇団にとって、キャプテンは欠かせない存在。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（それで、ブラントはキャプテンの代わりを気にしてたのか。なら――）",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 168,
+              "PlotLineKey": "リナシータ中を回る！",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 169,
+              "PlotLineKey": "<ano=こうりゅう>瑝瓏</ano>まで戻ろう！",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 170,
+              "PlotLineKey": "ブラックショアに行こう！",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "ティナ",
+          "PlotLineKey": "妥当な選択ね。劇のためにセブンヒルズまで行ったことがあるから、航路をよく知ってるわ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 8,
+          "Speaker": "ティナ",
+          "PlotLineKey": "とても挑戦し甲斐のある航路ね。<ano=こうりゅう>瑝瓏</ano>のヒーローショーを見たいって、みんなずっと言ってる。チャンスがあれば行きたいわ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 9,
+          "Speaker": "ティナ",
+          "PlotLineKey": "ブラックショア……どこにあるのか知らないけど、楽しそうなところね。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 10,
+          "Speaker": "ティナ",
+          "PlotLineKey": "それじゃあ、みんなに伝えておくよ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 171,
+              "PlotLineKey": "{Male=驚かないんだな……;Female=驚かないんだね……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 172,
+              "PlotLineKey": "さすがは<ano=ぐしゃ>愚者</ano>の<ano=げきだん>劇団</ano>だ！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "ティナ",
+          "PlotLineKey": "私たちの劇団は、航海の経験が豊富だもの。何も怖がる必要はないわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ティナ",
+          "PlotLineKey": "ブラントキャプテンは、いつもあれこれ考えを変えちゃう癖があるけど、海で迷ったり嵐に襲われた時は、必ず先頭に立ってみんなを守ってくれる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ティナ",
+          "PlotLineKey": "劇団に入ってもう長いし、こういう「即興」の生活には慣れてるの。だから安心して、一日キャプテン。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ティナ",
+          "PlotLineKey": "でも最近は海賊をよく見かけるから、航路によっては危ないところもあるわ。海賊に航路を断たれた商船から、私たちの劇団に護送依頼が来るくらいだもの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ティナ",
+          "PlotLineKey": "練習が終わったら、私も海の様子を確認するから安心して。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "ハイマー",
+          "PlotLineKey": "ティナ――もう始まるよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "ティナ",
+          "PlotLineKey": "分かった！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "ティナ",
+          "PlotLineKey": "そろそろ行かないと。キャプテン、楽しい一日が過ごせるよう祈ってるわ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "パン・ケーク",
+          "PlotLineKey": "6時、ご飯！6時、ご飯！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "パン・ケーク",
+          "PlotLineKey": "こんにちは！キャプテンに、挨拶して、言われた！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 190,
+              "PlotLineKey": "ブラントは負けたよ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 191,
+              "PlotLineKey": "{Male=今日は俺がキャプテンだ。;Female=今日は私がキャプテンだよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "パン・ケーク",
+          "PlotLineKey": "キャプテン！キャプテン！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "パン・ケーク",
+          "PlotLineKey": "ブラント、また負けた！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 192,
+              "PlotLineKey": "「また」なんだ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 193,
+              "PlotLineKey": "{Male=勝ったことはあるのか？;Female=勝ったことはあるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "パン・ケーク",
+          "PlotLineKey": "ない、ない！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "パン・ケーク",
+          "PlotLineKey": "パン・ケーク、キャプテンの仕事、手伝う！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "レヴィト",
+          "PlotLineKey": "「帰りし者」が火炎を通り抜け、舞台へと舞い戻った。そして帆を高く上げ、航路を定めると、海を越えるべく……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 143,
+              "PlotLineKey": "{Male=何を歌ってるんだ？;Female=何を歌ってるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "レヴィト",
+          "PlotLineKey": "最近、海で流行ってる物語なんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "レヴィト",
+          "PlotLineKey": "狂嵐の海に、ある大海賊がいてね。その人は、なんと不死身の体で火の中も歩けるから、誰にも捕まらない。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 144,
+              "PlotLineKey": "そんな人が本当に……？",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 145,
+              "PlotLineKey": "{Male=胡散臭い話だな……;Female=胡散臭い話だね……}",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "レヴィト",
+          "PlotLineKey": "どうだろうね……まぁ物語だから、誇張されてるんじゃないかな。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "レヴィト",
+          "PlotLineKey": "ちょっと大げさに表現されてるのかもしれないね。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "レヴィト",
+          "PlotLineKey": "とにかく、こういう歌や物語が子どもたちに人気なんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "レヴィト",
+          "PlotLineKey": "いつもキャプテンと一緒に、私の歌を聞きに来るよ。ブラントは物語に合わせて、即興で演技をしてくれるから盛り上がってね。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 146,
+              "PlotLineKey": "{Male=それもキャプテンの仕事なのか？;Female=それもキャプテンの仕事なの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "レヴィト",
+          "PlotLineKey": "……ブラントは好きでやってるだけじゃないかな？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "レヴィト",
+          "PlotLineKey": "じゃあ、私は練習を続けるよ。夜ご飯までに準備しないといけないからね。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "バティエ",
+          "PlotLineKey": "「トゥループストレングス」だ！うちの劇団じゃ、通貨としても使えるぞ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "バティエ",
+          "PlotLineKey": "そういえば、さっき魚を捌いてたら、こんなのが出てきたんだよ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 250,
+              "PlotLineKey": "少し見せてほしい。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "どうして半分に……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "バティエ",
+          "PlotLineKey": "ああ、俺も不思議に思ったよ。でも、見つけた時からこうだったんだ。この色、もしかして何か貴重な……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "えっ？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "文様が……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ブラント",
+          "PlotLineKey": "どれ、俺にも見せてくれ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "ここに文字がある、何かのヒントかも。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ブラント",
+          "PlotLineKey": "……この海には、「D」にまつわる伝説がある。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ブラント",
+          "PlotLineKey": "そう、ゴールデンキャプテン・ドラコの伝説さ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ティナ",
+          "PlotLineKey": "ドラコって……まさかあの伝説の冒険者！？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "レヴィト",
+          "PlotLineKey": "てっきり、ただの伝説だと思ってた……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 251,
+              "PlotLineKey": "キャプテン・ドラコって？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 252,
+              "PlotLineKey": "伝説の冒険者って？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ああ、リナシータに伝わる冒険者キャプテン・ドラコは、コイン一枚で船団を立ち上げ、当時一番の金持ちから宝を奪ったそうだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ブラント",
+          "PlotLineKey": "その後、ありったけの金を持って海に出たのさ。狂嵐の海を通り抜けられる安全な航路を探しにな。なんて立派な海賊なんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ブラント",
+          "PlotLineKey": "でも残念ながら、最後に帰ってきたのは狂った船員が一人。途中で何が起こったのかは、誰も知らない。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 253,
+              "PlotLineKey": "{Male=よく知ってるんだな。;Female=よく知ってるんだね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "ブラント",
+          "PlotLineKey": "もちろんだ、こういう物語を聞いて育ったからな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "ブラント",
+          "PlotLineKey": "あの時の俺は<ano=じゅんれいせん>巡礼船</ano>に乗ったばかりで、毎晩のように悪夢にうなされていてな。そしたら、トスカニーニが冒険譚を聞かせてくれたのさ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "ブラント",
+          "PlotLineKey": "あの時、思ったんだ。いつか絶対、キャプテンになってやるとな。俺だったら、絶対にそんな失敗はしない。船員たちを必ず生きて帰らせる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "バルドリーノ",
+          "PlotLineKey": "選ばれし<ano=ねず>不寝</ano>のトスカニーニか……あいつを覚えているのは、もうお前だけじゃろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "バルドリーノ",
+          "PlotLineKey": "伝説の後半は知っとるか？狂った船員は、死ぬ間際までずっとつぶやいていた……キャプテンのコインが宝物に導いてくれる、と。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "バルドリーノ",
+          "PlotLineKey": "もしかすると、{PlayerName}キャプテンの手にあるそれが、伝説のコインなのかもしれん。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "バティエ",
+          "PlotLineKey": "宝物だって、こりゃついてる。ラッキーコインじゃないか！欠けてなければ、その宝は俺たちのものになってたのにな、はははっ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 254,
+              "PlotLineKey": "{Male=本当に宝があるのか？;Female=本当に宝があるの？}",
+              "PlayVoice": false,
+              "JumpToId": 23
+            },
+            {
+              "TextId": 255,
+              "PlotLineKey": "{Male=このコイン、半分しかないのか？;Female=このコイン、半分しかないの？}",
+              "PlayVoice": false,
+              "JumpToId": 24
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "バルドリーノ",
+          "PlotLineKey": "存在するだろう。あのキャプテン・ドラコが、世界中を回って手に入れた宝。おそらく、劇団のみんなが何不自由なく暮らせるほどの価値のはず。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 25
+        },
+        {
+          "Id": 24,
+          "Speaker": "バルドリーノ",
+          "PlotLineKey": "だが、半分しかないのは妙だ。いったい、どうして……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 25
+        },
+        {
+          "Id": 25,
+          "Speaker": "ハイマー",
+          "PlotLineKey": "欠けたコイン、宝物……うっ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "ブラント",
+          "PlotLineKey": "どうしたハイマー、具合でも悪いのか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "ハイマー",
+          "PlotLineKey": "いや……急に思い出したんだ。この間、欠けたコインを賭けで手に入れたんだが、別のやつに負けちまって……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 256,
+              "PlotLineKey": "これに似たコイン？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "ハイマー",
+          "PlotLineKey": "ああ、そっくりだ！だからあいつ、コインの価値がどうこう語ってたのか。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "ハイマー",
+          "PlotLineKey": "てっきり嘘だと思って、ベラに賭けで差し出しちまったよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "ブラント",
+          "PlotLineKey": "……確か、モンテリファミリーの者か。ここ最近、海賊が増えた影響で護送依頼を何度か頼まれたな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "ハイマー",
+          "PlotLineKey": "そうだ、トラットリア・マルゲリータでピザを食べてる姿をよく見かける。海に出ない日は、大体そこで飯を食べてるはずだ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ここ数日は護送依頼が来てないな。となると、出航の予定もないはず。トラットリア・マルゲリータに行ってみよう。{PlayerName}キャプテンの運があれば、きっと会えるはずさ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "ブラント",
+          "PlotLineKey": "どうだ、一緒に行かないか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 257,
+              "PlotLineKey": "行こう、出発だ！",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 258,
+              "PlotLineKey": "{Male=ブラント船員、案内を頼む。;Female=ブラント船員、案内をお願い。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 34,
+          "Speaker": "ブラント",
+          "PlotLineKey": "了解だ、キャプテン！急いで帆を上げて出航だ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 44,
+          "Speaker": "Narrator",
+          "PlotLineKey": "食事中、バティエが半分欠けたラッキーコインをくれた。<br>ブラントが言うには、それは伝説の冒険者ドラコが持っていたコインであり、計り知れない財宝への手がかりになるかもしれないとのこと。<br>ちょうど、劇団員のハイマーがもう半分のコインの行方に心当たりがあるということで、その情報をもとに、あなたはブラントと一緒にコインを探しに出かけることを決める。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "トラットリア・マルゲリータに行ってベラを探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "あれがベラだ。珍しいな、一人で酒を飲んでるなんて……話を聞きに行ってみよう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ベラと会話する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "一人でヤケ酒か、我が友よ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ベラ",
+          "PlotLineKey": "もう本当、何をやってもうまくいかないの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ベラ",
+          "PlotLineKey": "ここ最近、海賊のせいで船を出せないでしょ。だから、まともに交易もできないし。ほら、このピザなんてオリーブが入ってないじゃない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ベラ",
+          "PlotLineKey": "マルゲリータに聞いたら、届くのは二日後だって。はぁ、不幸ね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ベラ",
+          "PlotLineKey": "きっと、あのラッキーコインが盗まれたせいよ。絶対に許さないんだから……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ベラ",
+          "PlotLineKey": "はぁ、キャプテンは運がいいわね。海霧に遭っても、こうして戻ってこられて。その運、あたしにも分けてよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ははっ、今日のキャプテンは{Male=彼;Female=彼女}なんだ。運が欲しかったら、こっちに聞いてくれ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 297,
+              "PlotLineKey": "ブラントは賭けに負けたから。",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 298,
+              "PlotLineKey": "{Male=今日は俺がキャプテンだ。;Female=今日は私がキャプテンになった。}",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "ブラント",
+          "PlotLineKey": "賭けに負けた俺は、劇団の甲板磨きさ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ほら、運なんてどうなるか分からないだろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ブラント",
+          "PlotLineKey": "マルゲリータ、「ネクターワイン」を持ってきてほしい。ベラの分も頼む。会計は俺にまとめておいてくれ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "マルゲリータ",
+          "PlotLineKey": "分かりました。少々お待ちくださいチュ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ブラント",
+          "PlotLineKey": "この「神の雫」は、どんな「開運法」よりもいいぞ。乾杯だ、不運よ吹き飛べ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 299,
+              "PlotLineKey": "乾杯！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "ベラ",
+          "PlotLineKey": "……乾杯！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "グラスを持ち、一気に飲んだ。素敵な幸運の夜に乾杯！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ブラント",
+          "PlotLineKey": "いい味だ……そういえば、コインはどこで盗まれたんだ？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "ベラ",
+          "PlotLineKey": "ここよ……この間、飲みに来た時テーブルに置いたまま話をしてたら盗まれたの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "マルゲリータ",
+          "PlotLineKey": "キュ……最近、盗難被害に遭うお客様が多いようですチュ。誰の仕業なのかな……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 300,
+              "PlotLineKey": "常習犯の可能性が……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 301,
+              "PlotLineKey": "{Male=この店が狙われてるようだな……;Female=この店が狙われてるみたいだね……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "ブラント",
+          "PlotLineKey": "常習犯か……キャプテン、ちょっと考えがある。あとは任せたぞ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=いきなりどうしたんだ？;Female=いきなりどうしたの？}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ふぅ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "ブラント",
+          "PlotLineKey": "注目！俺は<ano=ぐしゃ>愚者</ano>の<ano=げきだん>劇団</ano>のブラントだ！みんな、聞いてくれ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "驚く女性の声",
+          "PlotLineKey": "どうしたの？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "驚く男性の声",
+          "PlotLineKey": "演劇でも始まるのか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "ブラント",
+          "PlotLineKey": "この中に、ラッキーコインの物語を知ってる人はいるか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "ブラント",
+          "PlotLineKey": "あの狂嵐の海には、無限の幸運と無尽蔵の宝をもたらしてくれるラッキーコインがあるらしい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "ブラント",
+          "PlotLineKey": "幸運にも、俺の友人が半分に欠けたコインを手に入れた。だが、もう半分の場所は今も分からないまま。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "ブラント",
+          "PlotLineKey": "そこで俺たちは、海霧を抜け嵐を越え、ここまでやってきた。残りのコインを探すために。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "ブラント",
+          "PlotLineKey": "お願いだ！コインの居場所に心当たりのある人は、出てきてくれ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "ブラント",
+          "PlotLineKey": "果たして、今日のラッキーボーイ、ラッキーガールは誰だ？情報提供者には、最高の報酬をやろう！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 35,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたたちはベラという人物を見つけ、コインの行方について尋ねた。<br>ただ残念なことに、「開運法」とやらに惑わされているベラから、コインは盗まれたということを知る。<br>容疑者を特定するために、我らが伝説の役者ブラントは、いかにも彼らしいやり方で、その場にいる全員の注意を集め、「ラッキーコイン」の物語を大声で語り始める。<br>さて、誰が疑わしき「ラッキーボーイ」なのか、ブラントのショーに合わせ、探してみよう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "怪しい人を探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ためらう男性",
+          "PlotLineKey": "言っちまうか……いや待て、でも大金が手に入るかもしれねえ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 341,
+              "PlotLineKey": "{Male=何か知ってるのか？;Female=何か知ってるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ためらう男性",
+          "PlotLineKey": "い、いや……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 342,
+              "PlotLineKey": "{Male=じゃあ、報酬はなしだな。;Female=じゃあ、報酬はなしだね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "ためらう男性",
+          "PlotLineKey": "待て待て。話す、話すさ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 343,
+              "PlotLineKey": "{Male=何を知ってるんだ？;Female=何を知ってるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ためらう男性",
+          "PlotLineKey": "コインの持ち主を俺は知ってる。だから、先に報酬をくれ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "もし嘘だったら？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ためらう男性",
+          "PlotLineKey": "嘘なんかじゃない！あの海賊に奪われてなければ、今頃は俺が……！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 344,
+              "PlotLineKey": "{Male=……口を滑らしたな。;Female=……口を滑らしたね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 345,
+              "PlotLineKey": "（捕まえる）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "ためらう男性",
+          "PlotLineKey": "な、何をする？！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "泥棒が状況を理解する前に、素早く拘束した。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=（周りの人たちの反応を探ってるのか……これも「即興」だな）;Female=（周りの人たちの反応を探るために……これは「即興」だね）}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（ブラントがみんなの気を引いている間に、怪しい人がいないか見てみよう）",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ベラ",
+          "PlotLineKey": "キャプテン、ブラントは急にどうしたのよ？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 321,
+              "PlotLineKey": "コインが盗まれた時、周りに誰かいた？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ベラ",
+          "PlotLineKey": "マルゲリータにコンスタンティン、それから……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ベラ",
+          "PlotLineKey": "……道を尋ねてきた男。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 322,
+              "PlotLineKey": "顔は覚えてる？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ベラ",
+          "PlotLineKey": "よく覚えてないわ。結構混んでたし、意識してなかったもの。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "俺の友人が銛を魚のひれに強く突き刺し、引き上げようとした瞬間、海霧からセイレーンの歌声が聞こえてきた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "驚く女性",
+          "PlotLineKey": "……それで、どうなったの？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "海霧が濃くなり得体の知れない歌声が聞こえてきても、我が友人は物怖じせず大魚の背に飛び乗り、俺たちを導いて危険を脱したんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "そして、その大魚の腹から半分に欠けたコインを見つけたのさ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "物語を話すのが上手だ……いつかアンコに会わせてみたい。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "マルゲリータ",
+          "PlotLineKey": "だ、大丈夫でしょうか……？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 312,
+              "PlotLineKey": "心配しないで、あれは演技だから。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 313,
+              "PlotLineKey": "お酒に飲まれるまで飲むのは良くないよね。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "マルゲリータ",
+          "PlotLineKey": "演技なんですか、面白いですねチュ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "マルゲリータ",
+          "PlotLineKey": "きっと、うちのお酒が美味しすぎるせいですチュ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "マルゲリータ",
+          "PlotLineKey": "でも、そんな大事なコインがうちのお店で盗まれたなんて……大変なことになりそうですチュ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 314,
+              "PlotLineKey": "店長さんは、怪しい人を見かけてない？",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 315,
+              "PlotLineKey": "これと似たコインを見た記憶は？",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "マルゲリータ",
+          "PlotLineKey": "そういえば最近、ずっと店内をうろうろしてる人がいるんですチュ……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "マルゲリータ",
+          "PlotLineKey": "ないですチュ。でも最近、ずっと店内をうろうろしてる人がいるんですチュ……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "マルゲリータ",
+          "PlotLineKey": "いつも、一番隅の席に座ってチュ……",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "どうか、即興劇に大いなる歓声と拍手を！キャプテン、完璧だったろう？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 372,
+              "PlotLineKey": "ブラヴォー！",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 373,
+              "PlotLineKey": "{Male=酔っ払ってたんじゃないのか？;Female=酔っ払ってたんじゃないの？}",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ははっ、ありがとう！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "マルゲリータ",
+          "PlotLineKey": "泥棒が捕まって良かったですチュ……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "はっはっは。酔っ払うには、まだまだ酒が足りないな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "マルゲリータ",
+          "PlotLineKey": "キュ！飲みすぎないでくださいね！お客様を家まで送るサービスは、うちのお店にありませんのでチュ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "ブラント",
+          "PlotLineKey": "とりあえず、この「ラッキーガイ」に事情を話してもらおうじゃないか。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ブラント",
+          "PlotLineKey": "名前は？例のコインはどこにある？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "スワイパー",
+          "PlotLineKey": "……スワイパーだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "スワイパー",
+          "PlotLineKey": "チッ、報酬を信じた俺がバカだったぜ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "スワイパー",
+          "PlotLineKey": "あのコインは、もう俺の手元にない。すぐ海賊どもに取られちまった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ブラント",
+          "PlotLineKey": "海賊？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "スワイパー",
+          "PlotLineKey": "キャプテンの名前は、エディッチ。あのコインをずっと狙ってたんだと。深夜0時に、エグラの町で何か企んでるらしい。きな臭い話だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ブラント",
+          "PlotLineKey": "エディッチだって……？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "スワイパー",
+          "PlotLineKey": "それ以上のことは何も知らねえ！さっさとあいつらを捕まえにいけ！ふん、感謝するんだな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ベラ",
+          "PlotLineKey": "泥棒のくせによく言うわね！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "マルゲリータ",
+          "PlotLineKey": "キュ……頭に来ました！お客様の物を盗んでおいて反省してないなんて、「<ano=ないしゃいん>内赦院</ano>」に引き渡します！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "スワイパー",
+          "PlotLineKey": "「<ano=ないしゃいん>内赦院</ano>」だと……？いやいやいや、コインの行方を教えたんだから、むしろ報酬をくれないのはおかしいだろ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "ブラント",
+          "PlotLineKey": "報酬は「反省」だ！一日も早く更生するよう祈ってるさ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "ベラ",
+          "PlotLineKey": "「<ano=ないしゃいん>内赦院</ano>」まで送ってあげる。全部吐いてもらうわよ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 374,
+              "PlotLineKey": "{Male=エディッチを知ってるようだな。;Female=エディッチを知ってるみたいだね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "ブラント",
+          "PlotLineKey": "知ってるも何も、彼も昔、<ano=じゅんれいせん>巡礼船</ano>に乗っていた追放者の一人だった。「韋駄天」ってあだ名でな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "ブラント",
+          "PlotLineKey": "だが、あいつは俺と考えが対立し、劇団を去っていったのさ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "ブラント",
+          "PlotLineKey": "そして再会した時、エディッチは海賊になっていた。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 375,
+              "PlotLineKey": "劇団の一人だったんだ……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 376,
+              "PlotLineKey": "今は海賊になったんだ……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "ブラント",
+          "PlotLineKey": "スワイパーからコインを奪ったのは、ドラコの宝物を手に入れるためだろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=……どうしてエディッチは、深夜にエグラの町まで行くんだ？;Female=どうしてエディッチは、深夜にエグラの町まで行くの？}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "ブラント",
+          "PlotLineKey": "自分たちの目で確かめるしかないな、キャプテン。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 377,
+              "PlotLineKey": "{Male=航路が確定したな。;Female=航路が確定したね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 378,
+              "PlotLineKey": "{Male=ああ、行ってみよう。;Female=ええ、行ってみよう。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "ブラント",
+          "PlotLineKey": "今夜は長くなりそうだな。「ファントム」には気をつけるんだぞ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 34,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたはスタイリッッッシュに泥棒を取り押さえ、そいつの口から、コインはエディッチという海賊に盗まれたことを知る。<br>その張本人は今夜12時に、エグラの町で何かを企んでいるらしい。<br>させてたまるか！ヤツを阻止するために、急ごう、キャプテン！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "エグラの町に向かう"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "キャプテン、あれは……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "どうやら、盛大な宴を開こうとしてるみたいだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "できれば準備を手伝ってやりたいが……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "海賊どもは用心深い。迂闊に手を出すと、気づかれる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "ここは別の方法で、海賊の目的を探ろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ブラント",
+          "PlotLineKey": "分かった。周りの<ano=おんがい>音骸</ano>たちは見たか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 392,
+              "PlotLineKey": "それが何か？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 393,
+              "PlotLineKey": "嫌な予感がする……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ははっ。俺たち船員には海のルールがあるように、陸には陸のルールがあるのさ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ブラント",
+          "PlotLineKey": "<ano=音骸>ファントム</ano>の集いし地に来たら、<ano=人形劇団>彼ら</ano>の意見を聞くのが一番。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ブラント",
+          "PlotLineKey": "さあキャプテン、夜の帳は下りた。そろそろ「ファントム」の出番だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ブラント",
+          "PlotLineKey": "今夜の宴の主人公は――ビッグベアとミス・ロンリーの二人。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 394,
+              "PlotLineKey": "ビッグベアになった。",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 395,
+              "PlotLineKey": "{Male=なんでブラントがミス・ロンリーなんだ？;Female=なんでブラントがミス・ロンリーなの？}",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "ブラント",
+          "PlotLineKey": "俺はミス・ロンリーだ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 12,
+          "Speaker": "ブラント",
+          "PlotLineKey": "チームにはビッグベアが一体しかいないからな。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "ブラント",
+          "PlotLineKey": "さて、ビッグベア。エディッチキャプテンにサプライズを届けようじゃないか。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 18,
+          "Speaker": "Narrator",
+          "PlotLineKey": "エグラの町に辿り着くと、そこでは盛大な宴の準備を進めている様子だった。<br>宴に参加したい気持ちは山々だが、軽率に動いてしまえば勘づかれるかもしれない。<br>すると、ブラントからいいアイデアがあると言われ、「あるもの」を被せられる。<br>ジャンジャン！あなたたちは見事にビッグベアとミス・ロンリーの姿に変わった！<br>このファントムたちの宴の主役として、そろそろエディッチにサプライズをしてあげなくては……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "海賊の音骸を倒す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "どもりの海賊",
+          "PlotLineKey": "キャプテンは、なななな何を？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "お前らだけで充分だろ？ちゃんと足止めしておけ。宝を手に入れたら分けてやる！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "どもりの海賊",
+          "PlotLineKey": "か、か、か、火炎……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "だから、落ち着けって言ったじゃねぇか！チッ。なんで反応しないんだ、このコイン……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ブラント",
+          "PlotLineKey": "火炎だと？ここは俺が茶番に火をつけよう！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "海賊の音骸を倒す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "やっちまえ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "海賊たち",
+          "PlotLineKey": "あそこだ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "キャプテン 受け取れ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "逃げ足だけは相変わらず速いな。「韋駄天」の名は、今も健在か。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 506,
+              "PlotLineKey": "捕まえ損ねた。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 507,
+              "PlotLineKey": "少なくとも、この<ano=おんがい>音骸</ano>たちは助けられた。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "大丈夫だ、またすぐ会えるさ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "それに、ひとまずコインを入手できた。ラグーナ城に戻ったら、ベラに返そう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "どうせ、エディッチにはまたすぐ会えるはずだ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "もう悲しくないミス・ロンリー",
+          "PlotLineKey": "アリガ……ロンリー、リー！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 508,
+              "PlotLineKey": "{Male=嬉しそうだな。;Female=嬉しそうだね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 509,
+              "PlotLineKey": "ブラヴォーって言ってる！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "ブラント",
+          "PlotLineKey": "キャプテンも<ano=おんがい>音骸</ano>語が分かるのか！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ブラント",
+          "PlotLineKey": "さあ、ミス・ロンリー！これで自由に友だちと遊べるようになったぞ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ブラント",
+          "PlotLineKey": "航海を長く続けてると、忘れてしまうんだ。「海から何かを得たければ、それ相応の対価を払わなければならない」ことを。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ブラント",
+          "PlotLineKey": "キャプテンはキャプテンの義務を担い、船員は船員の労働を果たさなければならない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ブラント",
+          "PlotLineKey": "自由に航海をしたければ、当然対価は必要さ。自分の願いを叶えるために他人を踏み台にするなんて、見過ごせないな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ブラント",
+          "PlotLineKey": "これを見てくれ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ブラント",
+          "PlotLineKey": "もしかしたら……この三つの島にドラコの宝が眠ってるかもしれない。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 510,
+              "PlotLineKey": "{Male=ブラントにも叶えたい願いがあるのか？;Female=ブラントにも叶えたい願いがあるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 511,
+              "PlotLineKey": "{Male=ブラントもドラコの宝を手にしたいのか？;Female=ブラントもドラコの宝を手にしたいの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "ブラント",
+          "PlotLineKey": "はっはっは、もちろんさ。ドラコの宝を手に入れたら、何だって叶えられる。これ以上ないくらい魅力的じゃないか。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ただ、欲しいというより、気になると言ったほうが正しいな。世界を回った船長が、いったい何を隠したのか……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ドラコの身に起きた謎……これほど面白い劇は、そうそうないだろう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ひとまず西へ向かい、三つの島を回ろう。ツキが回ってくれば、本当に宝が見つかるかもしれないしな。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 512,
+              "PlotLineKey": "船を探さないと。",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 513,
+              "PlotLineKey": "海賊に遭遇するかもしれない。",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "ブラント",
+          "PlotLineKey": "そうだな。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 18,
+          "Speaker": "ブラント",
+          "PlotLineKey": "全員、倒すまでさ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 19,
+          "Speaker": "ブラント",
+          "PlotLineKey": "カルネヴァーレの後、劇団のゴンドラを港に泊めておいた。それを使おう。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 514,
+              "PlotLineKey": "それじゃあ、早く行こう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 515,
+              "PlotLineKey": "{Male=やっと舵を取れるのか！;Female=やっと舵を取れるね！}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ああ！今度は、俺が導いてやろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 31,
+          "Speaker": "Narrator",
+          "PlotLineKey": "エディッチには逃げられてしまったものの、あなたたちはコインの回収に成功した。<br>地図を手に入れた今、いよいよ宝探しの旅に出発する時だ！<br>劇団のコンドラが港に停泊している。そろそろ舵を取る楽しさを知る時が来たようだ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "港に向かう"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "着いたな。キャプテン、あれが俺たちのゴンドラだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "劇団はあそこを舞台に、即興の劇をしたこともあるのさ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "キャプテン、一つ目の島の位置情報をデバイスに送っておいた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "目標地点に向かって、全力前進！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "船着き場はこの先だ、入港しよう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "調査を進める"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ふぅ……静かだな。まるでインターバルのようだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "こういう時間が、新しい物語の驚きや期待を高まらせてくれる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "興奮している海賊",
+          "PlotLineKey": "来たぞ、キャプテンの言う通りだ。やっちまえ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 526,
+              "PlotLineKey": "{Male=これはとんだサプライズだな。;Female=これはとんだサプライズだね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 527,
+              "PlotLineKey": "応戦しよう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Title": "敵を倒す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "興奮している海賊",
+          "PlotLineKey": "くっ、早く逃げるぞ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "あいつら、何か掘ってたな……確かめよう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "島で探索する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "見つけた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "琥珀みたいにきれいな色艶だな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "エディッチが言ってた、琥珀の鍵を覚えてるか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "これを持って、次の島へ行こう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "妙な感触だ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "危ない！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "またもやサプライズとは、本当にツキが回ってきたかもしれないな。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=何もないな。;Female=何もないね。}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "俺のシャベルと空気がある。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "面白くなかったか……もう少し掘るとしよう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ゴンドラに乗る"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "二つ目の島には、何が待っているんだろうか？",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ゴンドラに乗り二つ目の島に向かう"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "おお、ようやく鍵を見つけたか。よくやった！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "さっきの沈没船を忘れるなよ？海霧も出てきた……さらに危険が増していくはずだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "だが、キャプテンの俺がいればどんな危険も関係ない！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "いいか、お前らはここに残れ。誰も通すなよ。もし誰か来たら、海賊の根性を見せろ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "どもりの海賊",
+          "PlotLineKey": "ははははは、はい、キャプテン！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ブラント",
+          "PlotLineKey": "……エディッチの声だ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "霧が濃くなってきた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "心配するな、キャプテン。海ではよくあることさ。その手で握った舵と俺を信じれば問題ない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "灯りに従って進めば、目的まで無事にたどり着けるはずさ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "この船旅の緊張した雰囲気を和らげるように、ブラントは軽く歌を口ずさむ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "あの沈没船が見えるか、キャプテン？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=ドラコの船なのか？;Female=ドラコの船なの？}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ああ、ドラコの船団は狂嵐の海すら乗り越えられたそうだ。なのに、まさかこんなところで英雄が沈んでしまうとは……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "いずれにせよ、目的地までもうすぐさ！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "島に上陸する"
+    },
+    {
+      "Title": "エディッチに近づく"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "偉そうな海賊",
+          "PlotLineKey": "止まれ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 577,
+              "PlotLineKey": "{Male=俺たちを呼んでるのか？;Female=私たちを呼んでるの？}",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 578,
+              "PlotLineKey": "ただの通りすがりです。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "偉そうな海賊",
+          "PlotLineKey": "お前たちだな、キャプテンが言ってたのは！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "偉そうな海賊",
+          "PlotLineKey": "ふざけてるのか？キャプテンから聞いてるぞ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "偉そうな海賊",
+          "PlotLineKey": "俺たちの偉業を邪魔するやつらがいるってよ！俺のネクターワイン風呂とこいつの金歯は誰にも邪魔させねぇ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "どもりの海賊",
+          "PlotLineKey": "そ、そうだ。おおおおおおお前らに俺の歯の痛みが分かるものか……いたたたた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "偉そうな海賊",
+          "PlotLineKey": "……あれ、キャプテンはなんて言ってたっけ？そうだ、海賊の根性を見せるぞ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 10,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたたちはエディッチの手下に遭遇した。どうやら向こうはやる気満々で、話し合う気はないらしい。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "海賊の音骸を倒す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "どもりの海賊",
+          "PlotLineKey": "……ち、ちょっと待った。違う……おお、お前は火炎……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "どもりの海賊",
+          "PlotLineKey": "火炎……火炎より帰りし者だ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "偉そうな海賊",
+          "PlotLineKey": "おい、待て！早く言えよ！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "もう偉そうにしていない海賊",
+          "PlotLineKey": "降参だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "もう偉そうにしていない海賊",
+          "PlotLineKey": "あの不死身の体を持つ伝説の大海賊、火炎より帰りし者だとは……俺らの負けだ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 589,
+              "PlotLineKey": "{Male=そんな設定まであるのか？;Female=そんな設定まであるの？}",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 590,
+              "PlotLineKey": "ブラントは大海賊だったんだ。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 591,
+              "PlotLineKey": "{Male=すごく立派な二つ名だな……;Female=すごく立派な二つ名だね……}",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "いや、あるわけないだろう。そんな設定、観客も戸惑うさ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "いつの間にか大海賊になってたのか！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "ブラント",
+          "PlotLineKey": "よし。今度舞台に立つ時は、そう名乗ろう。きっと最高のサプライズになるはずだ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "もう偉そうにしていない海賊",
+          "PlotLineKey": "とぼけるな！あれだけ有名な海の伝説を間違えるはずがない……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 10,
+          "Speaker": "Narrator",
+          "PlotLineKey": "ブラントが「火炎より帰りし者」であることを、奴らはようやく気づいたようだ。それと同時に、即座に戦意を喪失する。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "また偉そうになった海賊",
+          "PlotLineKey": "誰も知らないんだ 「帰りし者」がいつ現れたのか",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "また偉そうになった海賊",
+          "PlotLineKey": "そして いつ消えたのか",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "また偉そうになった海賊",
+          "PlotLineKey": "何度も指名手配され",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "また偉そうになった海賊",
+          "PlotLineKey": "何度も逃げ延び",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "また偉そうになった海賊",
+          "PlotLineKey": "不死身と噂されているその人物は どんなに荒れ狂う嵐でも――",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Character_Brant_52_32",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1033,
+              "PlotLineKey": "QTE.成功",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1034,
+              "PlotLineKey": "QTE.失敗",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Character_Brant_52_33",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1035,
+              "PlotLineKey": "QTE.成功",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1036,
+              "PlotLineKey": "QTE.失敗",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "また偉そうになった海賊",
+          "PlotLineKey": "どんなに高い荒波でも",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ブラント",
+          "PlotLineKey": "見よ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "また偉そうになった海賊",
+          "PlotLineKey": "貴族の剣ですら殺せない！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=ずいぶんと大げさだな;Female=ずいぶんと大げさだね}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ブラント",
+          "PlotLineKey": "はっはっは…… 最後まで聞こうじゃないか",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "また偉そうになった海賊",
+          "PlotLineKey": "実力は認めよう",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Character_Brant_52_34",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1037,
+              "PlotLineKey": "QTE.成功",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1038,
+              "PlotLineKey": "QTE.失敗",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "また偉そうになった海賊",
+          "PlotLineKey": "何度も<ano=じゅんれいせん>巡礼船</ano>を略奪してるくらいだ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "ブラント",
+          "PlotLineKey": "これは人助けさ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "また偉そうになった海賊",
+          "PlotLineKey": "だが！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "また偉そうになった海賊",
+          "PlotLineKey": "いつも俺たちの邪魔をしている！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "また偉そうになった海賊",
+          "PlotLineKey": "商船を襲おうとすると",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "また偉そうになった海賊",
+          "PlotLineKey": "いつも炎をまといながら現れる！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "どもりの海賊",
+          "PlotLineKey": "ひ ひどい……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "もう偉そうにしていない海賊",
+          "PlotLineKey": "言い逃れはできないだろ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "全部バレてちゃ仕方ない。そう、俺は不死身の「火炎より帰りし者」だ。お前たちの夢のなかで、いつまでも響き続ける炎の音のもと。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "もう偉そうにしていない海賊",
+          "PlotLineKey": "何でも聞いてくれ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "どもりの海賊",
+          "PlotLineKey": "そ、それだとキャプテンを裏切ることになるんじゃ？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "もう偉そうにしていない海賊",
+          "PlotLineKey": "大丈夫だ！忘れちまったのか？キャプテンは邪魔をさせるなって言ったんだ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "もう偉そうにしていない海賊",
+          "PlotLineKey": "このままだと、キャプテンが宝を手にしたところで、炎の悪夢を見ちまうだろ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "もう偉そうにしていない海賊",
+          "PlotLineKey": "キャプテンなら、もう鍵を手に入れて宝の在り処に向かった。今さら追いつけっこない。みんなで宝を分け合って、俺はネクターワイン風呂に浸かる！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "どもりの海賊",
+          "PlotLineKey": "お、俺も金歯の夢が……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ブラント",
+          "PlotLineKey": "なんとも心優しいキャプテンだな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ブラント",
+          "PlotLineKey": "……けど、それならなぜ仲間を足止めに使った？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ブラント",
+          "PlotLineKey": "さあ、最後の島に向かうとしよう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 14,
+          "Speaker": "Narrator",
+          "PlotLineKey": "海賊たちからエディッチの行方を知ることができた。<br>いよいよご対面する時が来たようだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ゴンドラに乗る"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "もうすぐ最後の島に着く。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "楽しみだな。冒険の終幕は、いつも興奮が抑えきれない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "俺たちの輝く最高の瞬間が、すぐそこで待っているからな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "キャプテン、新たな挑戦を迎える準備はできてるか？",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "島に上陸する"
+    },
+    {
+      "Title": "エディッチと会話する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "エディッチだ、やっぱりここに。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "ブラント、早かったな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "まさか、まだ生きてるとは。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "それで、宝はどうした？尊敬で偉大な無欲のキャプテン・エディッチが宝を持ち帰るところを、船員たちが待ってるぞ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "……あの役立たずどもが。足止めすらできないとはな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "鍵が欲しいなら、くれてやる。ただし……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ブラント",
+          "PlotLineKey": "うちのキャプテンと正々堂々、決闘でもするか？海に生きる者の対決、胸が踊るじゃないか！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "そう急かすな、話を聞け！この扉を見ろ。二つの鍵が揃わない限り、開くことはない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "俺たちは、それぞれ一つずつ持ってるはずだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "宝を狙ってるんなら、お互い様だろう？分け前は、6対4……いや、4対6でお前らが多く持っていったっていい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "俺の手下と戦ったなら、宝に拘る理由も分かってるだろ？全部、あいつらにいい暮らしをさせてやるためだ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "どうする、<ano=ぐしゃ>愚者</ano>の<ano=げきだん>劇団</ano>のキャプテン！お前らにとっても、悪くない話じゃないのか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（嘘をついているようには見えないけど、どこまで信頼していいものか……）",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（ひとまず協力して扉を開こう。もし裏切られても、まだ手はある）",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 651,
+              "PlotLineKey": "（話に応じる）",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 652,
+              "PlotLineKey": "（少し様子を見る）",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 653,
+              "PlotLineKey": "（ブラントを見る）",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "分かった、協力しよう。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 15,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "さっさと鍵を出さないと、いつまで経っても扉は開かないぞ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "鍵を渡して。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 17,
+          "Speaker": "ブラント",
+          "PlotLineKey": "いいだろう、受け入れる。ただし、鍵はうちのキャプテンに預ける条件付きだ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 18,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "あそこだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "宝、宝は……おい、後ろだ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "なんだ、この化け物は！俺の偉業のために、お前らが戦え！<ano=ぐしゃ>愚者</ano>の<ano=げきだん>劇団</ano>は強いんだろ？だったら、そいつらに見せつけてやれ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 24,
+          "Speaker": "Narrator",
+          "PlotLineKey": "エディッチから手を組まないかと提案される。鍵を先にこっちに渡し、見つけた宝の6割をやる、という条件だ。<br>あなたたちはその提案に乗るも、警戒を怠ることはなかった。すると案の定、エディッチは裏切ろうとする。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "扉を閉められたか。どうやら、この<ano=おんがい>音骸</ano>たちの相手をしなければならないようだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "やっぱり裏切られたか……",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "あそこに穴があるな、行ってみよう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "他の道を探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "予想通り、道が続いてるな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=ああ、奥に進もう。;Female=ええ、奥に進もう。}",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "奥へ進む"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=これは何の絵だ？;Female=これは何の絵かな？}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "かなり腐食してるな。もう少し近づいてみよう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "刻まれた文字がある。一部、読み取れなくなっていた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "「出たい……ここから、出たい……」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "誰かが閉じ込められていたのかもしれない。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "刻まれた文字がある。ほとんど読み取れなくなっていた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "「……希望はない…………諦め……ああ……」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "船乗りが残したんだろう。これが海霧で遭難した者の末路か。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "これは……キャプテンか。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ほら、片手に天秤を持ってるだろう。もう一方の手にあるのは、このコインだな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "片方は財宝、もう片方は割れた心、か。キャプテン、この絵は何を意味してると思う？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 805,
+              "PlotLineKey": "宝を手にする方法を提示してる。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 806,
+              "PlotLineKey": "この先へ進む者に警告してる。",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 807,
+              "PlotLineKey": "分からない。",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "面白い。宝を手に入れたければ、自分の心を差し出せと言ってるわけか。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 5,
+          "Speaker": "ブラント",
+          "PlotLineKey": "確かに。宝の主は皆、何かしら仕掛けを施すからな。誰にも盗まれないように。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "ブラント",
+          "PlotLineKey": "大丈夫だ、ほかにもヒントはあるはずさ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "ブラント",
+          "PlotLineKey": "海の果てには、あらゆる物事を天秤にかける国があるらしい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ブラント",
+          "PlotLineKey": "魂も財も、全て等価交換。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ブラント",
+          "PlotLineKey": "面白いと思わないか？ひょっとして、ドラコは公平な男だったのかもしれない。さて、もう少し奥へ進んでみよう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "どれどれ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "「海よ、宝を盗もうとする輩を呪え！」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "「この世は等価交換。その心を忘れるなかれ……」",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 695,
+              "PlotLineKey": "宝を盗む人を呪う？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 696,
+              "PlotLineKey": "等価交換？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ドラコの宝を誰も手にできなかった理由は、これなのかもしれない。宝を手に入れるためには、相応の対価を差し出さなくてはいけないのか。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ああ、続きにこう書かれている。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 697,
+              "PlotLineKey": "海から何かを得たければ、その対価を。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 698,
+              "PlotLineKey": "自由に航海がしたければ、その対価を。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "ブラント",
+          "PlotLineKey": "この広大な海を渡ると決めたら、あとは波と風に身を任せるべきなのさ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ブラント",
+          "PlotLineKey": "等価交換のルールに背き欲望に飲まれたら、命を支払うことになる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ブラント",
+          "PlotLineKey": "キャプテン、答えが分かった。ここは俺に任せてほしい。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 699,
+              "PlotLineKey": "ブラントが信じた道に付いていく。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 700,
+              "PlotLineKey": "{Male=俺もキャプテンの仕事を全うする。;Female=私もキャプテンの仕事を全うする。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ああ！よし、<ano=目標>宝</ano>に向かって出発だ！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "刻まれた文字がある。ほとんど読み取れなくなっていた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "「奥には呪いが……」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "「あの箱を見た途端、皆正気を失って財宝の奪い合いが始まった……ああ、恐ろしい……」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "呪い……それでドラコの宝は発見されず、伝説になったのか。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "ど、どうなってやがる……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "呪い……呪いだ！金が、俺の金が動き出すなんて！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "欲望を剥き出しにした対価さ、エディッチ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "等価交換のルールを忘れたのか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "あ、あのコインの話か……！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 20
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなたは微かな希望を胸に、一枚のシェルコインを投げてみた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "向こう側からは物音一つしない。船のほうから、波の音が聞こえてくるだけだった。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 16
+    },
+    {
+      "Title": "更に奥へ進む"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "二人とも、無事だったとはな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "さっきは化け物が恐ろしくて、夢中になってたんだよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "それで、気づけばここにいたわけだ。振り返ってみれば一人で心配したさ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "にしても、驚いたな。あの化け物を倒して、ここまでやってくるなんて。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 723,
+              "PlotLineKey": "{Male=あんたの偉業は達成できたのか？;Female=あんたの偉業は達成できたの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "偉業……ああ、偉業か！もちろんだ。ほら、ドラコの宝はここにある。こんなに眩しく輝いてるとはな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "もしかして、俺が宝を独り占めすると思ってたのか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "宝箱を開けるチャンスを、二人に譲るために待ってたというのに。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 724,
+              "PlotLineKey": "{Male=何がチャンスだ……;Female=チャンスって……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 725,
+              "PlotLineKey": "{Male=ただ呪いが怖いだけだろう。;Female=ただ呪いが怖いだけ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "の、呪いだなんて！はっ、俺がそんな人間に見えるのか？こっちはお前らのためを思って……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ブラント",
+          "PlotLineKey": "大丈夫だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ブラント",
+          "PlotLineKey": "海のルールの前で……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ブラント",
+          "PlotLineKey": "この「呪い」は取るに足らない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "だ、大丈夫なのか……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "ははっ、何が呪いだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "騙しやがって！これで宝は全部俺のもんだ、はっはっはっはっは！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 726,
+              "PlotLineKey": "偉業はどうした？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 727,
+              "PlotLineKey": "船員たちはどうする？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "偉業……船員？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "一人一枚コインをやれば、それで充分だろ。残りは俺がもらう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "<ano=じゅんれいせん>巡礼船</ano>を去った時の言葉、今も覚えてるぜ。自分の欲しいものは、自由に求めていいんだろ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "ようやく分かったぜ。俺が求めてたのは金だ！これが俺の偉業だ、はははははっ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "ブラント",
+          "PlotLineKey": "その自由には、対価が伴うぞ……エディッチ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ほら、お出ましだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "な、何だこれは？！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "ブラント",
+          "PlotLineKey": "気をつけろ、キャプテン！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 28,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたたちは宝の隠れ場所にたどり着き、再びエディッチと出会った。<br>またしても同じ手口であなたたちを騙そうとするエディッチ。ブラントがコインと海図を交換したとたん、宝を独り占めしようと、宝箱を担ぎ上げる。<br>宝を独占するのは彼の勝手だが、その行為には相応の対価を支払う必要がある。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "敵を倒す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "金…… 俺の金が……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "エディッチ",
+          "PlotLineKey": "金が…… 俺の偉業が なぜ なぜだ……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "無事に出られた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "……エディッチは、最後まで金に囚われてしまったか。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 767,
+              "PlotLineKey": "大丈夫？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ああ……昔、トスカニーニからドラコの物語を聞いた俺は、みんなが自由に暮らしていけるように必ず戦いに勝利するキャプテンになりたいって言ってたんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "それを聞いてたエディッチは、俺を見て笑ってたさ。ドラコの財宝さえ手に入れれば、誰にも文句を言わせず自由に暮らせるってな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ブラント",
+          "PlotLineKey": "でも、俺はその言葉に納得できなかった。もしかしたら、俺にとって一番大事なのは、この大海原を渡り、自由を味わうことなのかもしれない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ブラント",
+          "PlotLineKey": "その後、俺たちは別々の道を選択した。あいつは<ano=ぐしゃ>愚者</ano>の<ano=げきだん>劇団</ano>を去り、海賊の道を選んだ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 768,
+              "PlotLineKey": "同じキャプテンでも、二人は全然違う。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "即興劇もそうだけど、何よりブラントの心には「海のルール」が備わってる。{Male=そうだろう;Female=そうでしょ}、キャプテン。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ブラント",
+          "PlotLineKey": "君も特別だ、キャプテンとして。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ブラント",
+          "PlotLineKey": "誰よりも立派だった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ブラント",
+          "PlotLineKey": "今日という一日を共に過ごして、よく分かった。船員を思いやり、一人ひとりの考えを尊重する君は良き理解者だと。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ブラント",
+          "PlotLineKey": "本当に楽しい冒険だった！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ブラント",
+          "PlotLineKey": "……受け取ってくれ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 769,
+              "PlotLineKey": "ドラコの宝物？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 770,
+              "PlotLineKey": "何が書いてある？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "ブラント",
+          "PlotLineKey": "これはゴールデンキャプテン・ドラコの海図だ。彼の人生が記されている。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ドラコは狂嵐の海を越え、様々な財宝を手に入れたが、その対価を支払った。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ブラント",
+          "PlotLineKey": "海霧に遭い、病に侵され、針路を見失った……どれも船団が壊滅したっておかしくない出来事だ。実際、航海の出発地に戻ってこられた仲間は、ほんの数人。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "ブラント",
+          "PlotLineKey": "そこからラグーナまで逃げ延びた者は、あのコインを持ち帰った一人だけ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ノートの言葉を覚えてるか？「この世は等価交換。その心を忘れるなかれ」。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "ブラント",
+          "PlotLineKey": "つまり、宝を手に入れるには、相応の対価を支払わなくてはならない。俺が差し出した対価は、あのコインだ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 771,
+              "PlotLineKey": "だから、あの時コインを……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 772,
+              "PlotLineKey": "それで、この海図を手に入れたんだ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ああ、面白いだろう？コイン一枚で恐ろしい呪いも呼べれば、素晴らしい宝と交換もできるわけさ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "ブラント",
+          "PlotLineKey": "でも、いったい誰に想像できた？ドラコの人生で最後に残った宝が、コイン一枚分の価値しかない海図だなんて。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "ブラント",
+          "PlotLineKey": "……今だから言えるが、自信はどこにもなかった。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 773,
+              "PlotLineKey": "{Male=賭けたのか？;Female=賭けたの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 774,
+              "PlotLineKey": "{Male=度胸があるな。;Female=度胸があるね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "ブラント",
+          "PlotLineKey": "俺は、ただ友と自分の勇気を信じただけさ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "ブラント",
+          "PlotLineKey": "こんな物語ではなく、「火炎より帰りし者」のほうが面白かったか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 775,
+              "PlotLineKey": "{Male=あの話か……;Female=あの話ね……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 776,
+              "PlotLineKey": "{Male=あれは何なんだ？;Female=あれは何なの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ははっ、さすがに覚えてるか。実は、俺がよく指名手配されてた頃の話さ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "ブラント",
+          "PlotLineKey": "指名手配されるたびに俺は、それをみんなで劇にしたんだ。俺は逃げる役、みんなは懸賞金目当てに追いかける役でな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "ブラント",
+          "PlotLineKey": "まさか、こんなに話が大きくなるなんて思わなかったが。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "ブラント",
+          "PlotLineKey": "もし興味があるなら、帰りに話そうじゃないか。どうせ、時間ならいくらでもあるからな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "ブラント",
+          "PlotLineKey": "どうする、キャプテン。そろそろ帰るか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 777,
+              "PlotLineKey": "出発だ！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Type": "Outline",
+          "Id": 40,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたたちはようやく船に戻った。そこでブラントは過去のこと、現在のこと、それと海図のことについて語り始める。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ブラントと会話する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ふぅ……冒険終了だ、よくやった。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 787,
+              "PlotLineKey": "一日キャプテンも、これで終わり……",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 788,
+              "PlotLineKey": "書類作業は任せたよ。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "あっという間だったな。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "ブラント",
+          "PlotLineKey": "何の話かよく分からないな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ブラント",
+          "PlotLineKey": "はっはっは、冗談さ。それくらい任せておけ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "ブラント",
+          "PlotLineKey": "そうだ、これを受け取ってくれ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "……ドラコの海図？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ブラント",
+          "PlotLineKey": "ああ、冒険の記念にピッタリだろう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ブラント",
+          "PlotLineKey": "これより君は、俺たちの「名誉キャプテン」だ。この海図は、その証。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 789,
+              "PlotLineKey": "次の出航は決まってる？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "ブラント",
+          "PlotLineKey": "それは、海次第さ。何かあったら必ず俺を呼んでくれ、キャプテン！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 14,
+          "Speaker": "Narrator",
+          "PlotLineKey": "冒険の幕が閉じ、あなたは劇団の「名誉キャプテン」となった。<br>別れ際に、ブラントはドラコの海図をあなたに渡し、次の冒険もまた共にしたいと告げる。そして呼ばれたら、必ず駆けつけるとも。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ブラント",
+          "PlotLineKey": "君は、俺たちの「名誉キャプテン」だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ブラント",
+          "PlotLineKey": "また一緒に冒険しようじゃないか！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

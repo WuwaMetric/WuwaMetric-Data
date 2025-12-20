@@ -1,0 +1,485 @@
+{
+  "Id": 880700002,
+  "Name": "この景色が君の心に留まらんことを",
+  "Description": "点暁の団扇絵屋がようやく営業を開始したらしい。様子を見に行こう。\n\nクリア後、新しい「経営仲間」を解放。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880700002,
+  "ShowQuestList": [],
+  "QuestDesc": "点暁の団扇絵屋がようやく営業を開始したらしい。様子を見に行こう。\n\nクリア後、新しい「経営仲間」を解放。",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 8,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "――待って、<ano=オリエ>折枝</ano>。これ、全部あなたが描かなきゃいけない分なの？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "はい。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "でも、こんなにたくさん……あなた1人じゃ、絶対に描き終わらないわ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "大丈夫です、<ano=テンギョウ>点暁</ano>さん……期日までに完成させますから。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "それはそうだけど、前回も間に合わせるために連日徹夜していたでしょう……あれから、まだ数日しか経ってないのに。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "今なんて、この風景を描くためにあちこちに出向いているじゃない……決して楽な仕事ではないはずよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "本当に大丈夫なの、<ano=オリエ>折枝</ano>？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "だ、大丈夫です、お任せください……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "わ、私……絵を描きに行ってきますので。では、こ、これにて失礼いたします……<ano=テンギョウ>点暁</ano>さん。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "<ano=オリエ>折枝</ano>はバタバタと去っていった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "ちょっと待ちなさい、<ano=オリエ>折枝</ano>……！あの子ったら……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "あら、{PlayerName}さん。団扇を買いにきたの？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "さっき、<ano=オリエ>折枝</ano>が慌てて出ていくのを見たから",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "{Male=……何かあったのか？;Female=……何かあったの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "それは……説明するわね。今回の<ano=よいづきかい>宵月会</ano>で露店を開いていて、知り合いの画家数人にお願いして団扇に絵を描いてもらうことにしたの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "で、あの子が他の画家にお願いする予定だった分も全部引き受けちゃったのよ……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 205,
+              "PlotLineKey": "{Male=そんなにたくさんの依頼を……;Female=そんなにたくさんの依頼を……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 206,
+              "PlotLineKey": "{Male=それはさすがに受けすぎだろ。;Female=それはさすがに受けすぎでしょ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "私は、あの子が無事に絵を描き終えるか……いえ、頑張りすぎて体調を崩さないか心配なのよ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "{Male=何か手伝えることはあるか？;Female=何か手伝えることはある？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "えっと……お願いしていいのかしら？そうね……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "そうだわ、あの子のために風景の写真をいくつか用意してあげたら、作画の参考にできるかもしれない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "そうすれば、あの子は外出せずに絵を仕上げることができる……きっと楽になるはずよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "写真をいくつか撮ってきてもらえるかしら？相応の報酬は支払うから。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 208,
+              "PlotLineKey": "{Male=分かった。;Female=分かった。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "ありがとう、良かったわ！<ano=オリエ>折枝</ano>は、<ano=とうげんきょう>桃源郷</ano>付近の山の斜面で桃の木を描いてるはずよ。あそこの写真なら、撮る必要はないと思うから……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "<ano=めいしょうたに>鳴鐘渓</ano>の滝と<ano=こんしゅうじょう>今州城</ano>の景観を、写真に収めてもらえるかしら。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "撮り終わった後は、私から<ano=オリエ>折枝</ano>に写真を渡すわね。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 209,
+              "PlotLineKey": "{Male=任せてくれ。;Female=任せて。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 210,
+              "PlotLineKey": "{Male=お安いご用さ。;Female=お安いご用よ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "そう、良かったわ……<ano=オリエ>折枝</ano>も、きっと喜ぶはずよ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "お帰りなさい、{PlayerName}さん。写真は無事に撮れたかしら？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1209,
+              "PlotLineKey": "{Male=全部撮り終わったよ。;Female=全部撮り終わったよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1210,
+              "PlotLineKey": "{Male=順調だったよ、楽勝楽勝。;Female=順調だったよ、楽勝楽勝。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "そうね……問題ないわ。構図も陰影もプロ並みね……これなら、絵の参考にピッタリだわ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "本当にありがとう。この写真は、<ano=オリエ>折枝</ano>が帰って来たら渡すわね！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1211,
+              "PlotLineKey": "{Male=うん、それじゃまた今度。;Female=うん、それじゃまた今度。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "ええ、またお会いしましょう、{PlayerName}さん！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "あなたが離れてから数分後……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "あっ、<ano=オリエ>折枝</ano>！あなたに良いお知らせがあるの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "へ？良いお知らせ……？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "これからは、写生のために外出しなくてもいいのよ、これを見て——",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "これは……写真？<ano=めいしょうたに>鳴鐘渓</ano>の滝と<ano=こんしゅうじょう>今州城</ano>の景観じゃないですか。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "こ、これ、まさに私がほしかったものなんです……！ありがとうございます、<ano=テンギョウ>点暁</ano>さん！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "いいえ、お礼を言うべきなのは私じゃなくて、写真を撮ってくれた心優しいあの人よ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "心優しいあの人……？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "そうよ、この写真はどれも私が撮ったんじゃないの。<ano=めいしょうたに>鳴鐘渓</ano>のような危険な場所に、行けるわけないでしょう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "（まさか、心優しいあの人って、あの時桃の木のそばにいた……）",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "点暁（テンギョウ）",
+          "PlotLineKey": "どうしたの、<ano=オリエ>折枝</ano>？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "あっ……い、いえ、何でもないです！わ、私……絵を描きに行ってきますので……！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "（……次に{Male=彼;Female=彼女}に会った時には……改めて{Male=彼;Female=彼女}にお礼を言わなくちゃ。）",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "{Male=……「鳴鐘渓の滝」か、たぶんここだな。;Female=「鳴鐘渓の滝」ね、たぶんここかな。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "{Male=近くで場所を見つけて写真を撮ろう。;Female=近くで場所を見つけて写真を撮ろう。}",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "ここからなら、<ano=こんしゅうじょう>今州城</ano>の全景が見渡せる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "{Male=この近くで写真を1枚撮ろう。;Female=この近くで写真を1枚撮ろう。}",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "うーん……空白をなるべく多めに残して、桃の木の華やかさを強調するために朱色のボカシを加えたら……もっと良くなるかな？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "ううん、ダメかも……ボカシを入れたら、写意画に寄ってしまう……<ano=テンギョウ>点暁</ano>さんが<ano=よいづきかい>宵月会</ano>で売るのは、工筆画の方が向いていると思うし……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "<ano=オリエ>折枝</ano>は真剣に構図を練っているように見えた。この様子なら、心配はいらないようだ……急いで<ano=テンギョウ>点暁</ano>の依頼を完了させよう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "あなたがその場を離れた後、<ano=オリエ>折枝</ano>は怪訝な顔で後ろを振り返った。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "あれ……？さっき、誰かがいた気がするけれど。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "それに、なんだか……知ってる人みたい？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "折枝（オリエ）",
+          "PlotLineKey": "ううん、そんなはずは……ここ数日徹夜のしすぎで、幻覚でも見たのかも。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "Id": 157850000,
+  "Name": "Traumkontagion",
+  "Description": "Schließe die Herausforderung ab und besiege den Albtraum im Traumknoten.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 157850000,
+  "ShowQuestList": [],
+  "QuestDesc": "Schließe die Herausforderung ab und besiege den Albtraum im Traumknoten.",
+  "Conditions": [
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 157850001
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 169850002
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 169850000
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 169850004
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Hallo, {PlayerName}. Kannst du mich hören?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Wir haben erfahren, dass der Albtraum der Tacet-Dissonanz in Septimont beseitigt wurde – und das durch deine Hand. Sehr beeindruckend.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 51,
+              "PlotLineKey": "Ein Vergnügen.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 52,
+              "PlotLineKey": "Einfach ein freundlicher Tourist, der gerade vorbeigekommen ist.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Was du gemacht hast, hat uns wirklich überrascht. Tatsache ist, dass wir etwas Einzigartiges aus den Träumen in Septimont entdeckt haben.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Ob es nun reiner Zufall oder das Werk des Schicksals ist, bleibt eine Frage. Tatsache ist, dass wir etwas Einzigartiges aus den Träumen in Septimont entdeckt haben.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Ich bin mir sicher, dass du dich noch an die Einladung zum Somnoire-Filmfestival erinnerst, oder?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 53,
+              "PlotLineKey": "Ja.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 54,
+              "PlotLineKey": "Nicht wirklich.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Okay, das macht die Sache umso einfacher. Es beschäftigt uns schon, seitdem wir die Einladung erhalten haben. Immerhin ist die Tiefwasserzone ein Ort, in den wir noch nie einen Blick werfen konnten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Datenproben aus Septimont zeigen eine ähnliche Frequenz. Wir nehmen an, dass die Einladung auf diesem Weg zu dir gelang, nachdem sie die Tiefwasserzone durchquert hat und die einzigartigen Frequenzsignaturen genutzt wurden.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Keine Sorge. Kurz gesagt, wir konnten ein grobes Bild davon bekommen, warum in den Tiefen der Somnoire plötzlich so viel los war.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Allerdings haben wir noch nicht genügend Proben, um unsere Hypothese zu untermauern. Falls es dir nichts ausmacht, würden wir dich bitten, auch die verbleibenden Tacet-Dissonanzen zu beschaffen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Die Koordinaten wurden an dein Terminal übermittelt. Wie immer wirst du für deinen Einsatz belohnt. Wir schätzen deine Unterstützung, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Wir haben alle Proben gesammelt, {PlayerName}. Gut gemacht.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 67,
+              "PlotLineKey": "Was hast du gefunden?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 68,
+              "PlotLineKey": "Ich hol mir meine Belohnung.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Elfenbein-Torwächter",
+          "PlotLineKey": "Tut mir leid, {PlayerName}. Die Sache ist komplizierter, als wir dachten. Miau! Wir haben sogar das Kino aus dem letzten Mal in diesen Proben gefunden.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Elfenbein-Torwächter",
+          "PlotLineKey": "Keine Sorge, du bekommst deine Belohnung – versprochen. Miau! Weißt du was, {PlayerName}? Wir haben in diesen Proben das Kino vom letzten Mal gefunden.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Stör mich nicht. Ich bin derjenige, der die Berichte abgibt!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Elfenbein-Torwächter",
+          "PlotLineKey": "...Miau.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Kurz gefasst: Die Tacet-Dissonanz-Albträume von Septimont senden eine Frequenz aus, die die Verbindung zum Tiefen erneut herstellen kann,ähnlich dem Moment, als die Einladung gesendet wurde.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Eine Sache ist sicher: Die unterbrochene Verbindung von Rinascitas Somnoire hat etwas damit zu tun.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Bis jetzt sind wir jedoch nicht in der Lage, die Quelle der Frequenzen zu finden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Elfenbein-Torwächter",
+          "PlotLineKey": "Unsere Theorie ist, dass die Dunkle Flut dahinterstecken könnte! In den Proben finden sich überall Spuren der Dunklen Flut!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Wie oft muss ich dir noch sagen, dass *ich* den Bericht schreibe! Behalt deine verrückten Fantasien für dich!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Nun gut. Die Situation innerhalb der Tiefe bleibt unklar, aber es steht außer Frage, dass sowohl die Somnoire als auch die Rinascita weiterhin unter dem Einfluss dieser Frequenz Opfer fallen werden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Achte während deiner Reisen in die verschiedenen Regionen von Rinascita auf Albträume, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

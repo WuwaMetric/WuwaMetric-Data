@@ -1,0 +1,312 @@
+{
+  "Id": 162700005,
+  "Name": "수많은 문의 환상",
+  "Description": "꿈의 주파수에서 낯익은 목소리가 들려온다. 그자는 자칭 「블랙 게이트 수호자」라고 하는데... 어쨌든, 무슨 꿍꿍이를 꾸미고 있는지 확인해보자",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 162700005,
+  "ShowQuestList": [],
+  "QuestDesc": "꿈의 주파수에서 낯익은 목소리가 들려온다. 그자는 자칭 「블랙 게이트 수호자」라고 하는데... 어쨌든, 무슨 꿍꿍이를 꾸미고 있는지 확인해보자",
+  "Conditions": [
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 30
+    },
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 114000027,
+        "ChildQuestId": 24
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 31000
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "{PlayerName}, 제 목소리가 들리나요...? 전 블랙 게이트 수호자라고 해요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 9,
+              "PlotLineKey": "누구시죠?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 10,
+              "PlotLineKey": "왜 저한테 연락을 주신 거죠?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 11,
+              "PlotLineKey": "안녕하세요, 전 화이트 게이트 수호자예요",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "블랙 게이트 수호자",
+          "PlotLineKey": "흠... 안녕하세요, 전 <ano=꿈의 저장 운반체>「마음의 영역」</ano> 관리자, 블랙 게이트 수호자예요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "블랙 게이트 수호자",
+          "PlotLineKey": "그건... 당연히 「마음의 영역」 때문이죠",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "블랙 게이트 수호자",
+          "PlotLineKey": "흠... 길잡이, 농담이죠?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "블랙 게이트 수호자",
+          "PlotLineKey": "이미 눈치채셨을 수도 있겠지만, 리나시타에도... 마음의 영역으로 통하는 「문」이 생겼어요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "블랙 게이트 수호자",
+          "PlotLineKey": "*치직거리는 소리*",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 12,
+              "PlotLineKey": "여보세요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 13,
+              "PlotLineKey": "신호가 안 좋나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "블랙 게이트 수호자",
+          "PlotLineKey": "이미 눈치채셨을 수도 있겠지만, 리나시타에도... 마음의 영역으로 통하는 「문」이 생겼어요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "블랙 게이트 수호자",
+          "PlotLineKey": "괜찮으시다면, 만나서 얘기하죠. 기다리고 있을게요, 길잡이",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "오셨군요, {PlayerName}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "음, 아마 제 모습 때문에 당황하셨을 수도 있겠지만... 전 정말로 전에 연락드렸던 블랙 게이트 수호자예요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "혹시 앙코의 「그늘이」 속에 들어가셨어요?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 32,
+              "PlotLineKey": "...생각났어요, 지난번에도 당신이었군요",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "아니요, 앙코 아가씨랑은 상관없어요. 이건 마음의 영역 속에서 복사한 「기억 개체」예요. 잠깐 형상만 빌린 것뿐이죠",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "그... 래요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "으흠, 지금부터 얘기할 내용은 이거랑은 상관없어요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 5,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "지, 지난번이요...?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 34,
+              "PlotLineKey": "저더러 잔상에 대해 복제 에코를 사용하라고 했을 때요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 35,
+              "PlotLineKey": "그리고 「도로시」가 나타났던 때요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "음... 그건... 네, 맞아요. 저였어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "죄송해요, 그땐 제가 가짜 신분으로 당신에게 새로 열린 「문」에 대한 테스트를 부탁드렸었죠. 당신으로 인해 좌절된 계획을 실현하기 위해...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 36,
+              "PlotLineKey": "이번엔, 어떤 걸 꾸미고 계시죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "아니에요, 당신에게 더 이상 숨기는 건 없어요, 믿어주세요, 길잡이",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "얼마 전, 일부 기억 영역의 저장 로직에 대해 최적화를 진행했어요. 문제가 생기지 않는 이상, 마음의 영역은 이미 보유한 공간만으로도 더욱 많은 꿈을 수용할 수 있을 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "하지만, 정체를 알 수 없는 악념들이 리나시타의 꿈속에서 헤매고 있어요. 이곳의 꿈의 노드가 활성화되면 그 악념들도 꿈을 이용해 마음의 영역으로 밀려들게 될 거예요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "그 악념들은 무엇이죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "그것들은 단순한 악몽 속의 부정적인 정서가 아니라, 전염병과 같이 정신에 영향을 주는 성질을 가지고 있어요... 아직은 명확한 답을 드릴 수 없을 것 같네요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "점점 더 많은 기억 영역이 그들의 영향을 받고 있어요. 이대로 계속 자라나면, 최적화 작업뿐만 아니라, 마음의 영역 자체도 위기에 처하게 될 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "길잡이, 이 악념들을 처리해 주세요. 저를 위해서가 아니라, 전체 영역을 위해서요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "알겠어요, 익숙한 부탁이네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 39,
+              "PlotLineKey": "그냥 도와드릴 순 없죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "걱정하지 마세요. 꿈속에 걸맞은 보상이 있을 거예요. 저도 최선을 다해 협조해 드릴 거고요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "제가 아까 리나시타 지역의 「문」을 본 적이 있는지 물어봤었죠... 위험이 확산하는 걸 막기 위해, 이미 그 악념들을 「문」 뒤의 기억 영역에 가뒀어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "저는 앞으로도 계속 <span class=\"font-bold\">정기적으로 각지에 여러 가지 문을 개설할 거예요. 마음의 영역도 당신과 함께 싸웠던 사람들을 위해 도움을 제공할 것이구요</span>",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "「그늘이」 (블랙 게이트 수호자)",
+          "PlotLineKey": "문으로 이동하여, 악념의 영향을 받은 기억 영역을 복구해 주세요, 길잡이",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

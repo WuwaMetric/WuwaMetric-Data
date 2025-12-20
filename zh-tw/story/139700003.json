@@ -1,0 +1,666 @@
+{
+  "Id": 139700003,
+  "Name": "待得團圓時",
+  "Description": "猜燈謎挑戰限時追加了特殊的限定獎品，快和秧秧一起參加挑戰吧。\n\n完成此任務後解鎖新的經營夥伴。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700003,
+  "ShowQuestList": [],
+  "QuestDesc": "猜燈謎挑戰限時追加了特殊的限定獎品，快和秧秧一起參加挑戰吧。\n\n完成此任務後解鎖新的經營夥伴。",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 9,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "秧秧",
+          "PlotLineKey": "這裡的燈謎還挺有趣的。你也要來試試嗎，{PlayerName}？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "斜陽",
+          "PlotLineKey": "怎麼樣，{PlayerName}？ 有沒有興趣挑戰一下？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "斜陽",
+          "PlotLineKey": "你看，我這有全新出爐的高難度謎面，答對三個就算你中了今天的頭彩，會有典藏級特別獎勵喔。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "秧秧",
+          "PlotLineKey": "高難度……？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 369,
+              "PlotLineKey": "秧秧要不要也來一起？",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 370,
+              "PlotLineKey": "這麼難，那我要申請雙人合作！",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "秧秧",
+          "PlotLineKey": "一起答？ 這樣可以嗎？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "秧秧",
+          "PlotLineKey": "嗯……如果可以的話，我和{PlayerName}一起？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "斜陽",
+          "PlotLineKey": "可以可以，過節嘛，開心最重要！ 而且秧秧剛才一直看得很投入，應該也挺喜歡這類活動吧？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "斜陽",
+          "PlotLineKey": "我這高難度謎面，只讓{PlayerName}一個人答也有點欺負人了不是？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 371,
+              "PlotLineKey": "這麼有自信？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 372,
+              "PlotLineKey": "放馬過來吧！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "斜陽",
+          "PlotLineKey": "好！ 那先來點開胃菜，第一題，有一圓月輪，肚皮白又白。 偶爾當空躍，自在水中游。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "斜陽",
+          "PlotLineKey": "打一種——殘象！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "秧秧",
+          "PlotLineKey": "圓滾滾的外形，白白的肚皮，能在水中游……難道是……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 373,
+              "PlotLineKey": "……寒霜陸龜？",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 374,
+              "PlotLineKey": "……咕咕河豚？",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 375,
+              "PlotLineKey": "……嗚咔咔？",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 376,
+              "PlotLineKey": "……叮咚咚？",
+              "PlayVoice": false,
+              "JumpToId": 13
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "斜陽",
+          "PlotLineKey": "不對，再想想？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 13,
+          "Speaker": "斜陽",
+          "PlotLineKey": "不對，再想想？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 14,
+          "Speaker": "斜陽",
+          "PlotLineKey": "不對，再想想？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "斜陽",
+          "PlotLineKey": "沒錯，對啦，就是咕咕河豚！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "斜陽",
+          "PlotLineKey": "你看，咕咕河豚跳起來的時候，遠遠看上去是不是很像掛在天上的圓月？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "秧秧",
+          "PlotLineKey": "記得很小的時候……每逢追月節，家人會把團圓餅做成各種模樣，大多都是圓滾滾的動物……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "秧秧",
+          "PlotLineKey": "那時候大家都想要咕咕河豚形狀的團圓餅。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "斜陽",
+          "PlotLineKey": "哈哈，看來小孩子都很喜歡這些東西啊，那麼……下一題！ 我要開始提高難度了！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "斜陽",
+          "PlotLineKey": "——今有雞兔同籠，上有十四頭，下有三十八足……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "斜陽",
+          "PlotLineKey": "請問雞和兔各有幾隻！五分鐘倒數計時開始！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 377,
+              "PlotLineKey": "……這是燈謎？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "秧秧",
+          "PlotLineKey": "嗯……比起燈謎，更像是書院裡常見的算術題……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "斜陽",
+          "PlotLineKey": "咳……有謎面，有謎底，而且掛在花燈下面，這怎麼就不能是燈謎了呢？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "秧秧",
+          "PlotLineKey": "……這麼說似乎也沒錯，但總覺得怪怪的……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "秧秧",
+          "PlotLineKey": "記得算書中好像提到過這道題的解法……比如「半足法」……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 378,
+              "PlotLineKey": "就交給秧秧了！",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 379,
+              "PlotLineKey": "（說出答案）",
+              "PlayVoice": false,
+              "JumpToId": 28
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "秧秧",
+          "PlotLineKey": "嗯，好，我試試看……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "秧秧",
+          "PlotLineKey": "算出來了！ 答案是……共有五隻兔，九隻雞！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 30
+        },
+        {
+          "Id": 28,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "（先假設全是雞，算出所有脚的差數，得到兔的數量……我知道了。）",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "共有五隻兔，九隻雞。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 30
+        },
+        {
+          "Id": 30,
+          "Speaker": "斜陽",
+          "PlotLineKey": "回答正確！ 您這腦子轉得可比柏松老師還快啊，佩服佩服。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "斜陽",
+          "PlotLineKey": "既然如此，那第三題我們就換個方式，由你們自己來挑謎面如何？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "斜陽看向一排懸掛著的花燈，下方的花箋隨著燈悠悠晃動。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "秧秧",
+          "PlotLineKey": "咦……看不到上面的謎面……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "斜陽",
+          "PlotLineKey": "噢，這裡的謎面是用特殊墨水寫的，要用花燈靠近照一下才能顯現。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 380,
+              "PlotLineKey": "盲選啊……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 35,
+          "Speaker": "斜陽",
+          "PlotLineKey": "這樣更有意思嘛，猜燈謎和找靈感一樣，講究一個緣分！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "秧秧",
+          "PlotLineKey": "原來如此……這樣也很有趣。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 381,
+              "PlotLineKey": "那就由秧秧來選吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 37,
+          "Speaker": "秧秧",
+          "PlotLineKey": "欸，要我來選嗎？ 嗯……那就，這個吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 38,
+          "Speaker": "斜陽",
+          "PlotLineKey": "好嘞！ 讓我看看……謎面出來了！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 39,
+          "Speaker": "斜陽",
+          "PlotLineKey": "——明月照環壁，華燈繞今城，闔家圍桌笑，齊首慶相逢。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "斜陽",
+          "PlotLineKey": "打一詞語！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "秧秧",
+          "PlotLineKey": "明月，闔家……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 382,
+              "PlotLineKey": "難道……就是指追月節？",
+              "PlayVoice": false,
+              "JumpToId": 42
+            },
+            {
+              "TextId": 383,
+              "PlotLineKey": "難道……是指「團圓」？",
+              "PlayVoice": false,
+              "JumpToId": 44
+            }
+          ]
+        },
+        {
+          "Id": 42,
+          "Speaker": "斜陽",
+          "PlotLineKey": "欸，很接近了！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 43,
+          "Speaker": "秧秧",
+          "PlotLineKey": "……我知道了，是「團圓」吧。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 44
+        },
+        {
+          "Id": 44,
+          "Speaker": "斜陽",
+          "PlotLineKey": "回答正確！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 45,
+          "Speaker": "斜陽",
+          "PlotLineKey": "二位一共答對了三題，那這特別獎勵就是你們的了！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 46,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "斜陽拿出一盞流光溢彩的花燈，上面描繪著心狐追月的場景。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "秧秧",
+          "PlotLineKey": "好漂亮……！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 384,
+              "PlotLineKey": "這不還是花燈嗎？",
+              "PlayVoice": false,
+              "JumpToId": 48
+            },
+            {
+              "TextId": 385,
+              "PlotLineKey": "秧秧看上去很喜歡。",
+              "PlayVoice": false,
+              "JumpToId": 49
+            }
+          ]
+        },
+        {
+          "Id": 48,
+          "Speaker": "斜陽",
+          "PlotLineKey": "這你就有所不知了。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 50
+        },
+        {
+          "Id": 49,
+          "Speaker": "秧秧",
+          "PlotLineKey": "嗯……上次在追月節上拿到花燈，還是在很小的時候……好懷念。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 50
+        },
+        {
+          "Id": 50,
+          "Speaker": "斜陽",
+          "PlotLineKey": "可別瞧看這個花燈，這可是一位有名的收藏家特意趕在追月節送來的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 51,
+          "Speaker": "斜陽",
+          "PlotLineKey": "據說是歲主「心」親手所製，祂曾將大量花燈藏於林中，找到它就相當於得到了一整年的祝福。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 52,
+          "Speaker": "斜陽",
+          "PlotLineKey": "你看，多好的彩頭，恭喜二位啦！ 祝福二位！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "秧秧",
+          "PlotLineKey": "{PlayerName}，你還有空嗎？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "秧秧",
+          "PlotLineKey": "我想……和你一起走一走。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "秧秧",
+          "PlotLineKey": "還記得很小的時候，我總是很期待追月節。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "秧秧",
+          "PlotLineKey": "能看到絢麗的煙火，拿到漂亮的花燈，吃家人親手做的團圓餅，大街上到處都是臉上洋溢著快樂笑容的人們。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "秧秧",
+          "PlotLineKey": "……雖然很多記憶都已經變得模糊，但我始終記得家人和朋友發自內心的笑容。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "秧秧",
+          "PlotLineKey": "我想加入夜歸成為踏白，還有一個原因就是……我想盡可能找回大家的笑容，哪怕我一個人的力量很微小……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 616,
+              "PlotLineKey": "你看，大家都很開心。",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 617,
+              "PlotLineKey": "……你想家了嗎？",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "秧秧",
+          "PlotLineKey": "嗯！ 所以……我很喜歡現在的今州。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "秧秧",
+          "PlotLineKey": "嗯……不過，沒關係的。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "秧秧",
+          "PlotLineKey": "即使無法在今天和家人團聚，但風中傳來的歡笑和喜悅……已經讓我覺得非常幸福。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "秧秧",
+          "PlotLineKey": "望著這一輪明月，我便知道他們是安穩快樂的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "秧秧",
+          "PlotLineKey": "謝謝你，{PlayerName}，我很開心。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "秧秧",
+          "PlotLineKey": "不只是現在，還有你為今州，為大家所做的一切。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "秧秧",
+          "PlotLineKey": "讓這次追月節……對我來說有著截然不同的意義。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 618,
+              "PlotLineKey": "宵月會還沒有結束呢。",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 619,
+              "PlotLineKey": "以後的每個節日都會更好。",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "秧秧",
+          "PlotLineKey": "嗯！既然如此……{PlayerName}還有什麼想去的地方嗎？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "秧秧",
+          "PlotLineKey": "在這裡休息一會，然後再一起去看看吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "秧秧",
+          "PlotLineKey": "借{PlayerName}吉言，而且……如果之後的節日我們也能一起度過，就更好了。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

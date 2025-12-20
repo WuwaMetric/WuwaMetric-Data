@@ -1,0 +1,3611 @@
+{
+  "Id": 100018,
+  "Name": "노인, 물고기와 바다",
+  "Description": "번외편",
+  "MaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_14a.png",
+  "FemaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_14b.png",
+  "AreaIcon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/UiArchive/Atlas/SP_ArchiveAreaLinaxita.png",
+  "ShowQuestList": [
+    880000034,
+    880000036,
+    880000037,
+    880700011,
+    880000038,
+    880000039
+  ],
+  "QuestDesc": "햇빛, 모래사장, 바다... 그리고 물고기! 바다에 둘러싸인 리나시타에 낚시가 빠져선 안 되겠지? 이슈마이어라는 젊은이가 당신을 리졸리 군도로 안내하였는데, 그곳은 바로 리나시타의 낚시 천국이었다...\n스타바커스라는 선원은 정신적 착란에 빠졌는데, 소문에 의하면 물고기 한 마리 때문에 그 지경이 되었다고 하지...\n모든 물고기는 전부 이 곳에서 모이지, 고래도 「물고기」이니, 그렇다면...\n오래전에 죽은 선장, 항해할 수 없는 배. 하지만 지금, 그 선장은 필연의 길을 걷고 있으니, 이 배도 다시 한번 출항할 때가 온 것이다...\n폭풍 속에서, 한 명의 선장과 한 마리의 고래가 함께 바다 깊숙이 가라앉았다. 오늘 또 한 번 바다에서 같은 폭풍이 몰아치고, 그 고래 또한 그 속에서 헤엄치고 있다...\n바다는 다시 잠잠해졌고, 아합 선장 일행은 보이지 않았다. 당신에게 리졸리 군도를 안내해 준 이슈마이어는 아합 선장이 남긴 유물을 연구하는 듯 하다...",
+  "Unlock": [
+    {
+      "Id": 880000041,
+      "Name": "Go Get Some Fish",
+      "Type": 2
+    },
+    {
+      "Id": 880000043,
+      "Name": "낚시 풍파",
+      "Type": 2
+    },
+    {
+      "Id": 165000001,
+      "Name": "선원이 남긴 보물",
+      "Type": 2
+    },
+    {
+      "Id": 165000002,
+      "Name": "섬의 가면 인간",
+      "Type": 2
+    }
+  ],
+  "Chapters": [
+    {
+      "Title": "낚시인 찾기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "제 이름은 이슈마이어에요. 오오! 당신이 바로 그 「월계관을 쟁취한 사람」이시군요? 낚시를 해보신 적이 있으신가요?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "낚시는 말이죠. 낚싯바늘이 구부러져 있어야 하고, 미끼도 아주 적당히 잘 만들어야 돼요...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "「바다낚시」 한번 해보시지 않을래요? 카니발과 마찬가지로, 이것도 리나시타에서 전해 내려오는 수많은 전통 중 하나예요",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "낚시의 달인이 되고 싶어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 11,
+              "PlotLineKey": "해볼래요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "만약 해보고 싶으시면, 제가 좋은 장소를 하나 알고 있어요. 라군나 북쪽에 「리졸리 군도」라는 곳이 있는데, 거긴 폭풍 바다의 차갑고 따뜻한 해류가 서로 만나는 곳이라, 물고기 떼가 모두 거기에 모이게 되거든요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "그리고 혼자 움직이기에는 「배낚시」가 더 적합할 거예요. 「그물낚시」는 난이도가 꽤 높아서요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "섬에 도착하면 「아합」이라는 나이 든 선장을 찾아가세요. 분명 흔쾌히 데려다줄 거예요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "저도 마침 섬으로 돌아가려던 참이었어요. 항구 쪽에 군도로 돌아가는 배가 한 척 있는데, 군도로 바다낚시하러 가는 손님이라고 말씀하시면 돼요!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "선원을 찾아 리졸리 군도로 이동할 준비 하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "뱃사공",
+          "PlotLineKey": "리졸리 군도행 손님이신가요?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1105,
+              "PlotLineKey": "네 맞아요, 출발해 주세요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1106,
+              "PlotLineKey": "나중에요. 해야 할 일이 있어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "뱃사공",
+          "PlotLineKey": "자리에 앉으시면 곧 출발하겠습니다!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "늙은 선장 「아합」 찾기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "뱃사공",
+          "PlotLineKey": "아합 어르신을 찾으시는 거죠? 아마 저쪽 부두에 있을 거예요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "뱃사공",
+          "PlotLineKey": "보통 사람들하고는 좀 다른 분이라, 한눈에 알아보실 수 있을 거예요",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "드르렁... 쿠울...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "???",
+          "PlotLineKey": "응? 응... 그래... 알았다니까...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "???",
+          "PlotLineKey": "아이고! 어유! 물고기다! 물고기야!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "{Male=젊은이;Female=아가씨}! 멍하니 있지 말고, 와서 좀 거들어 주게!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "???",
+          "PlotLineKey": "읏차! 읏차! 잠깐——",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "???",
+          "PlotLineKey": "분명 월척이었을텐데...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "아쉽게도 물고기가 도망갔네요...",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 38,
+              "PlotLineKey": "괜찮으세요?",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "???",
+          "PlotLineKey": "조만간 내가 또 낚아 올릴 테니 별문제 없네",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "???",
+          "PlotLineKey": "응? 고작 이거 가지고 뭘 그러나. 소싯적엔 혼자 고래 한 마리를 쫓아 땅끝까지 누비고 다녔는걸!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "???",
+          "PlotLineKey": "자네는... 이슈마이어가 말한 그 젊은이인가?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 39,
+              "PlotLineKey": "「낚시의 달인」이 되러 왔어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 40,
+              "PlotLineKey": "「바다낚시」를 해보고 싶어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "아합",
+          "PlotLineKey": "좋구먼, 잘 찾아왔어. 난 아합이라고 하네. 이 부두와는 질긴 인연이 있지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "아합",
+          "PlotLineKey": "저기 저 문어 상인은 플랑크라고 하네. 바다낚시에 필요한 물건에서부터 배 수리까지 모든 일을 도와주고 있다네",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "아합",
+          "PlotLineKey": "그런데... 배가 없는 것 같구먼? 뭐, 상관없네! 그냥 내 걸 쓰게나!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 41,
+              "PlotLineKey": "저건 곤돌라인가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "아합",
+          "PlotLineKey": "우리가 고기잡이에 쓰는 곤돌라는 성안에 사는 사람들 것과는 다르다네. 바다에 나가 고기를 잡는 우리에게 배는 생사를 함께하는 가족일세",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "아합",
+          "PlotLineKey": "저 녀석은 「라젤호」라고 하네. 좀 낡긴 했어도, 위용만큼은 옛날 못지않지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "아합",
+          "PlotLineKey": "은퇴한 뒤로, 한동안 이 녀석과 함께 거센 파도와 맞서지 못했다네... 녀석도 분명 고기잡이에 나서던 날을 그리워할 게야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "아합",
+          "PlotLineKey": "서로 같은 물고기를 낚아왔으니, 우린 친구라고도 할 수 있지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "아합",
+          "PlotLineKey": "이왕 이렇게 된 거... 출발하세! 가서 우리 손에서 도망친 그 거대한 놈을 잡아 오자고!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "아합",
+          "PlotLineKey": "그 어떤 물고기도 이 몸의 손을 벗어날 순 없어!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 24,
+          "Speaker": "Narrator",
+          "PlotLineKey": "이슈마이어의 이전 안내에 따라, 당신은 부두에서 아합이라는 나이 든 선장을 찾았다. 그리고 그가 자신이 과거에 사용했던 낚싯배를 당신에게 넘긴 덕에 물고기를 잡으러 바다로 나갈 수 있게 된다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "플랑크와 대화 후, 출항 준비하기"
+    },
+    {
+      "Title": "플랑크와 대화 후, 낚시 능력 레벨 UP 하기"
+    },
+    {
+      "Title": "도망간 물고기를 다시 잡고, 아합과 대화하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "아합",
+          "PlotLineKey": "허! 아주 좋아. 역시 자네로군!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "아합",
+          "PlotLineKey": "이렇게 빨리 능숙해지다니, 이쪽에 소질이 있는걸!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "아합",
+          "PlotLineKey": "참, 시간 나면 잊지 말고 시장에도 한 번 가보게나",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "아합",
+          "PlotLineKey": "배를 모는 것이 어부가 지녀야 할 소양이라면, 장사를 잘하는 것이 선장이 지녀야 할 소양이니까",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "리졸리 부두 시장으로 이동하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "수산물 상인",
+          "PlotLineKey": "...이봐. 우린 수도회에 세금을 내는 관례 따윈 없으니까, 저리 꺼져",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "젊은 어민",
+          "PlotLineKey": "하지만 코펜 아저씨, 방금 이 아가씨가 아저씨네 인형을 고쳐줬잖아요...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "수산물 상인",
+          "PlotLineKey": "다 속셈이 있으니까 그런 거겠지!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "물건을 파는 노부인",
+          "PlotLineKey": "아이고, 코펜. 이 아가씨는 그냥 길을 물어본 것뿐인데, 뭘 그렇게까지 하나...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 848,
+              "PlotLineKey": "페비?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "페비",
+          "PlotLineKey": "미안...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "페비",
+          "PlotLineKey": "난 그저 회유의 고래가 어디에 있는지 찾고 싶어서... 예전에 라군나에서 다쳤으니까...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "물건을 파는 노부인",
+          "PlotLineKey": "회유의 고래라... 그건...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "코펜",
+          "PlotLineKey": "수도회는 여기서 얼쩡거릴 생각 말라고!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "젊은 어민",
+          "PlotLineKey": "저기, 저 사람 좀 보세요. 얼마 전에 라군나 성에서 온 그 공명자, 그 「월계관」을 쟁취한 사람이잖아요...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "아합",
+          "PlotLineKey": "거기까지 하게!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "아합",
+          "PlotLineKey": "수도회는 몇 년간 우리 일에 관여한 적이 없네. 만약 정말로 관여하려 했다면, 이 사람 하나만 보낼 리가 있겠나?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "아합",
+          "PlotLineKey": "우리의 어업은 회유의 고래와 바다의 축복 덕에 존재하고, 바다는 만물을 포용하지. 그런데 자네는 성직자의 모자를 썼다고 어린 소녀 하나도 못 받아들인다는 건가?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "아합",
+          "PlotLineKey": "게다가, 수도회 사람이라면 자네를 도와 인형을 고쳐줬을까? 여기 은혜를 원수로 갚는 사람도 있었군그래!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "코펜",
+          "PlotLineKey": "하지만 아합 어르신...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "아합",
+          "PlotLineKey": "됐네, 이쯤 하게. 요즘 가뜩이나 장사도 어려운데, 다들 볼일 보러 가보게나",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "아합",
+          "PlotLineKey": "혹시 또 무슨 일이 생기더라도 내가 있지 않나. 됐지? 모두 가보게",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "페비",
+          "PlotLineKey": "두 사람, 고맙습니다!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "페비",
+          "PlotLineKey": "난 마을 주민들에게 회유의 고래에 대해 물어보려고 온 건데... 카니발 이후로 본 적이 없어서...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "아합",
+          "PlotLineKey": "{Male=젊은이;Female=아가씨}, 서로 아는 사이인가?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 849,
+              "PlotLineKey": "서로 잘 아는 사이죠!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 850,
+              "PlotLineKey": "한번 만난 적이 있어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "아합",
+          "PlotLineKey": "그렇구먼... 하지만 리졸리 군도는 수도회가 그들의 인도를 받지 않아도 된다고 묵인한 곳이네. 이곳 사람들도 수도회의 모자를 쓰고 섬에 오는 이들을 별로 반기지 않아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "페비",
+          "PlotLineKey": "모자요? 음...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "아합",
+          "PlotLineKey": "아무튼, 자네는 개인적인 일로 왔다고만 말하면 되네. 듣자 하니, 회유의 고래를 찾으려 한다지? 마침 나도 찾고 있었거든...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "페비",
+          "PlotLineKey": "네! 얼마 전 카니발에서 있었던 여러 징후로, 회유의 고래의 상태가 이상하다는 걸 느낄 수 있었어요. 저도 그 고통과 분노를 느낄 수 있었고요...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "아합",
+          "PlotLineKey": "이 바다를 항해하다 보면 회유의 고래와 마주칠 수도 있겠지만, 좀 더 간단하고 직접적인 방법도 있지... 저기 저 「등대」 보이나?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "아합",
+          "PlotLineKey": "리졸리 군도엔 4개의 등대가 있는데, 등대 불이 켜지면 회유의 고래가 우리의 기도에 응답한다네. 이전처럼 부드럽게 말이야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "아합",
+          "PlotLineKey": "얼마 전, 회유의 고래가 사라진 후로 나머지 세 등대의 불이 모두 꺼졌다네. 이 등대의 불들을 다시 켤 수 있다면, 회유의 고래를 만날 수 있을 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "아합",
+          "PlotLineKey": "마침 이렇게 된 거... 자네가 이 모자 쓴 아가씨를 데리고 함께 바다로 나가는 게 낫겠군",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "페비",
+          "PlotLineKey": "바다로...?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 851,
+              "PlotLineKey": "물고기 잡죠!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "페비",
+          "PlotLineKey": "에!? 수도회의 책에서 리졸리 군도의「어획 산업」에 관한 내용은 읽은 적 있지만, 실제로 바다에 나가본 적은 없는데...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "아합",
+          "PlotLineKey": "바다를 포용하지도 않고서 바다의 응답을 바라는 겐가?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "아합",
+          "PlotLineKey": "아, 그리고 또 하나, 가는 길에 「자신」의 모자를 잘 쓰고 있으면 되네. 나중에 무슨 일이 또 생기거든 그땐 나를 찾아오게나",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "페비",
+          "PlotLineKey": "{PlayerName}, 저 어르신은 왜 「모자」 얘기를 하시는 거야? 내 모자... 이상해?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 852,
+              "PlotLineKey": "너무 신경쓰지 말고 자신만의 길을 가세요!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 34,
+          "Speaker": "페비",
+          "PlotLineKey": "정말...?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "페비",
+          "PlotLineKey": "어쨌든 회유의 고래를 찾기 위해, 최선을 다해서 고기 잡는 일을 도울게!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 42,
+          "Speaker": "Narrator",
+          "PlotLineKey": "당신과 아합의 손에서 도망친 그 물고기를 잡은 후, 아합이 당신을 시장으로 안내했는데, 마침 여기에서 페비를 만났다. 깊은 바다 수도회를 환영하지 않는 리졸리 군도의 어민들 때문에 당신과 아합이 페비를 대신하여 궁지를 벗어났고, 페비로부터 그녀 자신이 회유의 고래의 종적을 따라 이곳에 이르게 되었다는 사실을 듣게 된다. 그리고 아합은 물고기를 잡으러 바다로 나간다면 회유의 고래를 만날 수 있을 거라고 하는데...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "부두로 이동해 출항 준비하기"
+    },
+    {
+      "Title": "의뢰를 완료하여, 낚시 명성을 Lv. 3 또는 그 이상으로 올리기"
+    },
+    {
+      "Title": "의뢰를 완료하거나 도감을 수록하여, 낚시 명성을 Lv. 3 또는 그 이상으로 올리기"
+    },
+    {
+      "Title": "리졸리항 부두 근처에서 아합 찾기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "아합",
+          "PlotLineKey": "다리... 내 다리가 어디 갔지? 창을 가지고 오게...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "아합",
+          "PlotLineKey": "일등 항해사... 기름...! 내 기름은 어디에 있나...?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "아합",
+          "PlotLineKey": "후후, 어떤가? 수확은 좀 있나?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "아합",
+          "PlotLineKey": "회유의 고래 일도 어느 정도 가닥이 잡히는구먼. 이제 「조타륜 마을」 쪽에... 그... 뭐였더라...?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "아합",
+          "PlotLineKey": "맞다! 스타바커스!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "아합",
+          "PlotLineKey": "그 녀석이 뭐랄까... 요 몇 주간 약간 제정신이 아닌데, 회유의 고래를 목격한 뒤로 그리되었다고 하더군. 찾아가서 내가 보낸 거라고 하면 될 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "아합",
+          "PlotLineKey": "그리고 저쪽에 있는 배도 봤지?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "아합",
+          "PlotLineKey": "진짜 「대어」를 잡으려면 저 배가 꼭 필요하네만... 지금은 수리가 시급한 상태라네. 이 일에 대해서는 그곳의 선원들이 자세히 설명해 줄 걸세",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "선원을 찾아 큰 배에 대해 알아보기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "퀴그",
+          "PlotLineKey": "{PlayerName}? 아합한테 들었어요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "퀴그",
+          "PlotLineKey": "나무가 필요해요",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 941,
+              "PlotLineKey": "...네?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "퀴그",
+          "PlotLineKey": "배를 고쳐야죠",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "원목과 재료를 퀴그에게 제출하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "퀴그",
+          "PlotLineKey": "근데 나무가 없어요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "퀴그",
+          "PlotLineKey": "재료가 있어야 수리를 하죠",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "부두로 이동해 출항 준비를 하고, 조타륜 마을로 이동하기"
+    },
+    {
+      "Title": "조타륜 마을로 이동하기"
+    },
+    {
+      "Title": "스타바커스 찾기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "헤헤... 우리 예쁜이...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "저 사람들은 몰라... 이제 우리 둘뿐이야...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "우리 자기, 내 약혼녀... 조금만 기다려...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "페비",
+          "PlotLineKey": "어, 스타바커스 씨? 혹시 회유의 고래에 대해 아는 게 있을까?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "응? 접니다! 저요! 주례 선생님이신가요? 마침 잘 오셨군요! 어서 오세요! 어서요. 전통대로 하려면 주례가 꼭 필요하거든요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "페비",
+          "PlotLineKey": "주례라고? 수도회에서는 교리에 따라 성직자들에게 라군나 사람들을 위해 주례를 서는 걸 허락해 주긴 하지만...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 741,
+              "PlotLineKey": "물고기랑 결혼하는 사람이 어디 있어요!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 742,
+              "PlotLineKey": "확실히 정상은 아닌 것 같네요...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "헤헤... 헤헤헤...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "페비",
+          "PlotLineKey": "혹시... 매혹된 건가? 수도회 책에서 이런 증상을 본 적 있어!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "페비",
+          "PlotLineKey": "임페라토르의 축복이여, 이곳에 오소서——",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "잠깐——",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "페비",
+          "PlotLineKey": "어? 수도회에선 이렇게 기록되어 있던데...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "어라!? 당신은... 난...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "백금색... 해파리... 검은색... 대어... 어? 당신은 사람... 나는 물고기... 아니... 내 물고기...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "윽... 머리야... 당신들은 누구죠?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 743,
+              "PlotLineKey": "효과가 있는 것 같네요!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 744,
+              "PlotLineKey": "제가 해볼까요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "제 배는요? 왜 제가 여기에... 어?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "물고기... 헤헤헤... 「고요한 만」의... 물고기... 헤헤헤...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "페비",
+          "PlotLineKey": "또 유혹에 넘어갔잖아! 다, 다시 한번 해볼게!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "어부 인형",
+          "PlotLineKey": "...! ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "페비",
+          "PlotLineKey": "어? 넌?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "페비",
+          "PlotLineKey": "다리는 괜찮아진 거야?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 745,
+              "PlotLineKey": "저 인형을 알아요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "페비",
+          "PlotLineKey": "전에 시장에서 만났어. 곤돌라 때문에 다리가 부러진 것 같아서 고쳐준 적이 있거든",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "어부 인형",
+          "PlotLineKey": "...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "페비",
+          "PlotLineKey": "코펜 씨가 오라고 한 거니?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "페비",
+          "PlotLineKey": "스타바커스 씨의 곤돌라가 근처의 암초에 갇혀 있는데, 그 곤돌라가 뭔가 알고 있는 것 같다고 말하는 것 같아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "페비",
+          "PlotLineKey": "스타바커스 씨가 이렇게 된 지도 벌써 2주 째래...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "어부 인형",
+          "PlotLineKey": "...! ...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "페비",
+          "PlotLineKey": "이걸로 돌을 폭파시켜야 한다고?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "페비",
+          "PlotLineKey": "{PlayerName}, 계속 수도회의 방식으로 매혹을 풀다간 스타바커스 씨가 감당하지 못하게 될지도 몰라",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 746,
+              "PlotLineKey": "정말 아파 보이던데요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 747,
+              "PlotLineKey": "이것도 결국 자신을 위한 거니까요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 29,
+          "Speaker": "페비",
+          "PlotLineKey": "그런데 아까 스타바커스 씨가 잠시 정신을 차렸을 때, 자기 배와 「고요한 만」이라는 곳 얘기를 했었잖아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "페비",
+          "PlotLineKey": "배를 찾으면 스타바커스 씨가 매혹된 이유를 알 수 있을 거야. 최소한 문제의 근원을 찾아서 해결할 수는 있겠지",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 748,
+              "PlotLineKey": "일리가 있군요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 749,
+              "PlotLineKey": "그럼 출발하죠!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 31,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "헤헤... 결혼식엔 불꽃놀이가 있어야지... 「로맨틱한 불꽃놀이」 말이야...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 42,
+          "Speaker": "Narrator",
+          "PlotLineKey": "당신과 페비는 아합 선장의 지시에 따라 그의 일등 항해사였던 스타바커스를 찾았지만, 그는 어떤 신비한 힘의 유혹에 빠져 의식을 잃은 듯했다. 매혹에 빠진 그의 의식을 되찾기 위해 스타바커스의 곤돌라를 찾아 단서를 얻기로 한다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "부두로 이동해 출항하여, 버려진 곤돌라를 찾기"
+    },
+    {
+      "Title": "곤돌라가 갇힌 위치로 이동하기"
+    },
+    {
+      "Title": "바위를 터뜨려, 곤돌라 구하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "바로 저기야!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "어라? 왜 공기 중에 달콤한 냄새가...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "페비",
+          "PlotLineKey": "곤돌라가 헤엄쳐서 돌아갔어!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "버림받은 곤돌라",
+          "PlotLineKey": "...! ...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "해방된 곤돌라는 뭔가를 말하려는 것 같다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "페비",
+          "PlotLineKey": "그러니까 네 말은... 사람의 몸에 물고기 꼬리를 가진 「바다 요괴」를 만났다는 거야?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 918,
+              "PlotLineKey": "...「로렐라이」?!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 919,
+              "PlotLineKey": "그녀는 「물의 경지」에서 살텐데요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "페비",
+          "PlotLineKey": "또 다른 「로렐라이」가 있다는 거야?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "버림받은 곤돌라",
+          "PlotLineKey": "...?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "페비",
+          "PlotLineKey": "그 물고기... 사람들이 말하는 「바다 요괴」와 관련이 있을지도 몰라",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "페비",
+          "PlotLineKey": "그러면 그 물고기가 왜 몇 주가 지나도 썩지 않는지 그 의문도 풀리게 되는 셈이지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "페비",
+          "PlotLineKey": "아무래도 스타바커스 씨 손에 있는 물고기를 뺏어야 할 것 같아",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 920,
+              "PlotLineKey": "그렇다면야...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 921,
+              "PlotLineKey": "가짜로 바꿔치기하죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 922,
+              "PlotLineKey": "비슷한 물고기로 한 마리 더 잡으면 되지 않아요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "페비",
+          "PlotLineKey": "그게 가능할까?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 923,
+              "PlotLineKey": "지금은 더 좋은 방법이 없잖아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 924,
+              "PlotLineKey": "어차피 다 물고기니 가능하지 않을까요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "페비",
+          "PlotLineKey": "{PlayerName}이(가) 그렇게 말한다면... 한번 해보지 뭐!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 18,
+          "Speaker": "Narrator",
+          "PlotLineKey": "당신들은 스타바커스가 버린 곤돌라를 찾아냈고, 그가 빠진 매혹이 그의 손안에 있는 파란 대어와 관련이 있을 수도 있다는 사실을 알게 된 당신과 페비는 스타바커스의 손에 있는 물고기를 바꿔치기할 방법을 찾아보기로 한다...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "의뢰를 완료하거나 도감을 수록하여, 낚시 명성을 Lv. 6 또는 그 이상으로 올리기"
+    },
+    {
+      "Title": "의뢰를 완료하거나 도감을 수록하여, 낚시 명성을 Lv. 6 또는 그 이상으로 올리기"
+    },
+    {
+      "Title": "출항! 모든 중요 의뢰를 완료하기"
+    },
+    {
+      "Title": "모든 중요 의뢰를 완료하기"
+    },
+    {
+      "Title": "부두로 이동해 출항하여, 교환으로 사용될 대어 잡기"
+    },
+    {
+      "Title": "밤까지 기다리기(혹은 시간을 밤 19:00-05:00로 조정)"
+    },
+    {
+      "Title": "특수 어장에서 대어를 잡기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "짙은 회색의 대어 한 마리가 스스로 배에 뛰어올랐다...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "이 물고기는 스타바커스의 손에 있는 물고기와 약간 비슷하게 생긴 게, 스타바커스의 손에 있는 물고기와 바꿀 수 있을 것 같았다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "조타륜 마을로 돌아가 스타바커스 찾기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "헤헤헤...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "어? 주례 선생님. 제 약혼녀 못 보셨나요?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "헤헤헤... 당신들... 뭐, 뭐 하는 거야!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "사... 사람 살려!!!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "페비! 꼬리를 잡아요!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "페비",
+          "PlotLineKey": "너, 너무 미끄러워! 내가 매혹을 풀게!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "도둑이야! 이 도둑놈들!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "윽... 당신들은... 아이고, 머리야...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "당신들은 누구시죠? 이 물고기는 어떻게...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "페비",
+          "PlotLineKey": "스타바커스 씨, 아합 선장으로부터 당신을 찾으라는 부탁을 받았어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "아합 어르신이... 이게... 도대체 어떻게 된 일이죠?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 891,
+              "PlotLineKey": "이 「파란색 물고기」에 대한 기억이 있으신가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 892,
+              "PlotLineKey": "회유의 고래를 기억하시나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "얼마 전에 물고기를 잡으러 바다로 나갔던 것만 기억나요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "중간에 자꾸 노랫소리가 들렸는데... 마치 홀린 것처럼 배를 타고 그 소리를 따라갔죠",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "제가 정신을 차렸을 땐, 이미 「고요한 만」 주변 바다에 도착한 뒤였어요. 거긴 원래 회유의 고래가 잠을 자는 곳이죠",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "노랫소리는 바다 밑바닥에서부터 들려오는 것 같았어요. 바닷속에선 회유의 고래 말고도 또 다른 큰 물고기의 그림자가 보이는 것 같았고요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "정말... 숨막힐 정도로 아름다운 그림자였어요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "아무리 많이 미끼를 던져봐도 도무지 낚을 수가 없더라고요. 갖고 있던 거의 모든 걸 미끼로 써 봤죠",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "물고기가 미끼를 물 때까지 말이에요... 그런데 노랫소리만 점점 더 커지다가... 그다음은... 그다음은 기억이 안 나네요",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 893,
+              "PlotLineKey": "이 파란색 물고기가 바로 당신이 잡은 건가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "네! 바로 이 녀석이에요!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "잠깐만요! 분명 여기에...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "열쇠! 열쇠... 열쇠가 왜 없지?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "열쇠... 열쇠를 미끼로 썼구나...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 894,
+              "PlotLineKey": "잠깐만요! 그 말은...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "스타바커스가 파란 대어의 배에서 열쇠를 꺼냈다...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "아, 역시! 찾았어요! 뱃속에 있었네요!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "아합 어르신께서 잘 보관하라고 하셨는데, 이게 필요하신 거 맞죠?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "스타바커스의 녹슨 등대 열쇠에 물고기 특유의 점액이 묻어있다...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "그다음 일은 기억이 잘 안 나지만, 회유의 고래는 분명 얼마 전 「고요한 만」에 나타났어요. 이건 틀림없어요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "만약 회유의 고래를 찾으려는 거라면, 꼭 거기 가보세요. 그리고... 고마워요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "페비",
+          "PlotLineKey": "그럼 당신은 이제...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "전 올해 이제 마흔일곱 살이에요. 오랫동안 바다를 다니며 잡은 물고기들이 살면서 먹은 물고기보다 훨씬 더 많아요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "그런데 저만의 짝도 물고기도 아직 만나질 못했죠",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "오, 이 미모의 아가씨는...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 895,
+              "PlotLineKey": "콜록콜록...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 896,
+              "PlotLineKey": "가죠. 페비",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 33,
+          "Speaker": "페비",
+          "PlotLineKey": "그럼 잘 있어. 스타바커스 씨",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "페비",
+          "PlotLineKey": "모든 일이 뜻대로 이뤄지길 바랄게! 임페라... 아니 바다의 축복이 있길!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "아, 네... 고맙습니다...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 44,
+          "Speaker": "Narrator",
+          "PlotLineKey": "당신과 페비는 스타바커스의 손에 있던 물고기를 빼앗는데 성공했다, 마침내 의식을 되찾은 스타바커스는 자신이 과거에 「고요한 만」이라는 장소에서 회유의 고래를 본 적이 있다고 했으며, 이뿐만 아니라 아주 커다란 물고기 한 마리도 회유의 고래 주변에 있었다고 했다. 그리고 떠나기 전, 그는 아합 선장이 보관하라고 맡긴 등대 열쇠를 당신에게 건네주었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "획득한 열쇠로 조타륜 마을의 등대를 밝히기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "아합 선장님이 말씀하신 대로, 이 섬에 있는 등대의 불을 밝히러 가자!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "그다음에는, 스타바커스 씨가 말한 「고요한 만」에 가보는 거야",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "선박 설계도를 손에 넣은 후, 퀴그에게 배 수리에 관해 문의하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "원래 잔해에 불과했던 모습이 이젠 기본적인 배의 모습을 갖추게 되었다...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "퀴그",
+          "PlotLineKey": "곧 수리될 거예요. 감사합니다. 이제 절반 정도 남았네요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "퀴그",
+          "PlotLineKey": "이제 선장의 명령에 따라야 해요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "퀴그",
+          "PlotLineKey": "잘 고치기만 하면 되죠. 아무 문제 없을 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "퀴그",
+          "PlotLineKey": "그리고 그 「대어」는 바로 고요한 만에 있어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "퀴그",
+          "PlotLineKey": "저흰 이미 실패했지만요... 조심하세요!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "작은 배는 회유의 고래에게 뒤집히고, 당신은 거센 파도에 의해 해안으로 떠내려갔다...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "부두로 이동해 출항 준비를 하고, 고요한 만으로 이동하기"
+    },
+    {
+      "Title": "고요한 만으로 이동하기"
+    },
+    {
+      "Title": "잔상 소멸하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "페비!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "저리 비켜!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "{PlayerName}! 다치진 않았어?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 529,
+              "PlotLineKey": "전 괜찮아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 530,
+              "PlotLineKey": "내 물고기가...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "회유의 고래가 우리를 습격한 거야. 다치지 않았으면 다행이지만...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "페비",
+          "PlotLineKey": "잃어버린 물건이 있는지 확인해 봐!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "소지품들을 검사해 봤는데...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "소지품 중 이상한 색상의 물고기가 하나 생겼고, 그 물고기의 눈은 아직도 이상한 빛으로 반짝이고 있었다...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "잃어버린 건 없는데, 이런 게 있네요...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "페비",
+          "PlotLineKey": "이상한 물고기...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "플랑크 씨한테 물어보는 건 어때요? 이게 무슨 물고기인지 알고 있을 거예요",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "고요한 만의 부두를 찾아, 플랑크에게 상황을 문의하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "플랑크",
+          "PlotLineKey": "...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "문어가 덩실덩실 춤을 추며 당신에게 아합의 소식을 전한다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "아합",
+          "PlotLineKey": "「위험 요소만 없다면, 플랑크는 「고요한 만」까지 헤엄쳐 갈 수 있네」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "아합",
+          "PlotLineKey": "「스타바커스 쪽 등대에 불이 켜진 뒤 우리가 원활히 바다로 나갈 수 있었던 건 자네와 그 모자 아가씨 덕분이야」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "아합",
+          "PlotLineKey": "「회유의 고래가 없는 동안, 「고요한 만」에는 많은 괴물이 모였어」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "아합",
+          "PlotLineKey": "「고요한 만의 등대 열쇠는 잃어버린 지 오래됐다더군. 바닷속에 빠진 걸로 알고 있네」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "아합",
+          "PlotLineKey": "「자네도 이상한 물고기들을 만나게 될 걸세」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "아합",
+          "PlotLineKey": "「나도 계속 조사해 보겠네. 진전이 있으면 플랑크에게 소식을 전하라고 하겠네」",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "돌로 막혀있어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "{PlayerName}, 이곳에 에코 능력을 사용할 수 있어.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 11
+    },
+    {
+      "Title": "플랑크의 의뢰 완료"
+    },
+    {
+      "Title": "의뢰를 완료하여, 낚시 명성을 Lv. 9 또는 그 이상으로 올리기"
+    },
+    {
+      "Title": "의뢰를 완료하거나 도감을 수록하여, 낚시 명성을 Lv. 9 또는 그 이상으로 올리기"
+    },
+    {
+      "Title": "출항 후 지정된 위치로 이동하여 「티타늄 기어 피쉬」 잡기"
+    },
+    {
+      "Title": "고요한 만의 등대를 밝히기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "{PlayerName}, 저것 좀 봐! 회유의 고래야!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "저기, 서쪽 섬 쪽으로 지나갔어!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "페비",
+          "PlotLineKey": "상처는 좀 나은 것 같지만... 아직 분노가 가득한 울음소리야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 4,
+          "Speaker": "Narrator",
+          "PlotLineKey": "역시 고요한 만 안에 있었던 회유의 고래는 등대가 켜지자 폭풍이 몰아치는 섬을 향해 헤엄쳐 간다...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "새로운 선박 설계도를 손에 넣었으니, 선박 수리 공장으로 이동해 퀴그에게 제출하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "이 커다란 배는 곧 수리가 끝날 것 같다...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "퀴그",
+          "PlotLineKey": "다 고쳤어요. 감사합니다. 이젠 떠날 때가 됐어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "퀴그",
+          "PlotLineKey": "페쿼드에 선장 한 명이 꼭 필요해요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "퀴그",
+          "PlotLineKey": "아합이 선장을 맡지 않더라도... 꼭 누군가가 선장을 맡아야 해요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "1호 연기자",
+          "PlotLineKey": "배가 괜찮아지니까, 아합의 창이 사라졌어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "1호 연기자",
+          "PlotLineKey": "아합이 배가 수리되기만 하면 우리 모두 집으로 돌아갈 수 있댔어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "1호 연기자",
+          "PlotLineKey": "선장인 아합의 말이니 틀림없어",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 3
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "1호 연기자",
+          "PlotLineKey": "아합, 페쿼드는 이미 다 고쳤어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "1호 연기자",
+          "PlotLineKey": "아합, 이제 우리 모두를 데려가실 수 있어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "1호 연기자",
+          "PlotLineKey": "이제 돌아가요...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 4
+    },
+    {
+      "Title": "아합을 찾아 마지막 섬에 관한 정보 알아내기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "아합",
+          "PlotLineKey": "난 늙었어... 스타바커스... 난 늙었네...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "아합",
+          "PlotLineKey": "「알바트로스」도 침몰시키세... 이번엔 내가...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "아합",
+          "PlotLineKey": "아, 자네들 왔구먼",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "아합",
+          "PlotLineKey": "회유의 고래가 가던 그 섬은 「레예스 유적」 이라고도 불리는 곳이지. 오래된 비밀이 많이 숨겨져 있다고 전해지는 곳이네",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "아합",
+          "PlotLineKey": "그리고 그 비밀을 지켜주려는 듯, 폭풍이 섬에 오르려는 사람들을 가로막고 있지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "아합",
+          "PlotLineKey": "하지만 두려워할 필요 없네. 내가 이미 폭풍을 해결할 방법을 찾았으니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "아합",
+          "PlotLineKey": "스타바커스가 한 말이 사실이라면, 폭풍과 바다 요괴도 관련이 있을 거야. 그것 때문에...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "아합",
+          "PlotLineKey": "어서 가지. 지금 바로 출발하자고! 자네와 모자 아가씨가 한 팀, 나는 스타바커스와 한 팀으로 가면 되겠네",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "아합",
+          "PlotLineKey": "레예스 유적으로부터 조금 동쪽에 작은 섬이 있네. 그곳에서 합류하세",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "부두로 이동해 출항하여, 아합이 지정한 작은 섬으로 이동하기"
+    },
+    {
+      "Title": "부두로 이동해 출항하여, 아합이 지정한 작은 섬으로 이동하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "보세요. 선장. 제가 어떻게 선장님을 속이겠어요?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "비석에는 이렇게 쓰여 있어. 「리졸리, 등불로 바다의 별을 비춰라. 레예스의 아래에서 깊이 잠든 찬탈자여, 레예스의 후예들과 바닷속 불멸의 물고기들에게 사랑을 선사하라」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "아합",
+          "PlotLineKey": "이게 무슨 뜻이지...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "페비",
+          "PlotLineKey": "리졸리는 리나시타의 성명학에서 바다의 별에 대응돼요. 이곳에 리나시타 전체에서 가장 깊은 해저 구역이 있거든요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "아합",
+          "PlotLineKey": "오호? 모자 아가씨, 그런 것도 아는군",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "페비",
+          "PlotLineKey": "리나시타 사람이라면 모두 알고 있는 거니까요. 수호신 임페라토르의 전설에도 기록돼 있고요",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 706,
+              "PlotLineKey": "뒷부분은 무슨 뜻인가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "페비",
+          "PlotLineKey": "이건... 나도 모르겠어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "아합",
+          "PlotLineKey": "「...사랑을 선사하라」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "아합",
+          "PlotLineKey": "우리가 뭔가를 사랑해야 한다는 말인가? 해괴하기 짝이 없구먼!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "아합",
+          "PlotLineKey": "흠...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "아합",
+          "PlotLineKey": "오! 가장 고귀한 레예스의 후예시여, 들어 주시옵소서! 당신에게 제 사랑을 바치겠습니다!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "아합",
+          "PlotLineKey": "당신에게... 사랑을 바칩니다! 영원히 멈추지 않는 이 파도는 당신을 위해 바치는 충성입니다!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "아합",
+          "PlotLineKey": "아이고, 난 이제 늙었다고! 이게 무슨 쪽팔리는 짓이야, 난 못 하겠네!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "아합",
+          "PlotLineKey": "{Male=젊은이;Female=아가씨}, 자네가 한 번 해보게!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 707,
+              "PlotLineKey": "저요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "아합",
+          "PlotLineKey": "고작 말 몇 마디뿐인데 뭐 어렵다고, 대본이 필요한 것도 아니잖나?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 708,
+              "PlotLineKey": "가장 고귀한 레예스의 후예시여...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 709,
+              "PlotLineKey": "전 당신에게 제...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "아이고! 둘 다 틀렸어요!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "어떻게 사랑을 그렇게 표현할 수 있나요? 그게 아니에요! 모두 틀렸어요!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "자자, 제가 해볼게요!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "오, 내 사랑이시여, 내 생명의 빛이시여",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "폭풍조차 우릴 막을 순 없습니다. 당신 앞의 제 사랑은 폭풍에도 지지 않을 자신이 있습니다. 저는 그보다 더 강렬한 존재니까!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "바라건대 제 영혼을 해방해주소서. 제 영혼의 방향은 이미 정해졌으니...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "아합",
+          "PlotLineKey": "됐네! 됐어!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "오, 아름다운 내 사랑이시여——",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "아합",
+          "PlotLineKey": "됐다고! 빨리 가세. 더 이상 지체 말고 빨리!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 31,
+          "Speaker": "Narrator",
+          "PlotLineKey": "레예스 섬의 폭풍을 헤쳐나갈 수 없자, 아합이 말한 이름 없는 섬으로 떠난 당신들은 오래된 비석의 기록대로 폭풍을 해결하려고 시도했지만 아무 소용이 없었고, 결국 스타바커스가 섬의 주인에게 「사랑을 바친」 후에야 레예스 섬의 폭풍을 없앨 수 있었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "페비와 섬에 관한 얘기를 나눈 뒤 조사하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "{PlayerName}, 아합 선장님이 뭔가 이상한 것 같지 않아?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "자세히는 모르겠지만... 우리한테 뭔가 숨기고 있는 것 같아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "페비",
+          "PlotLineKey": "그러니까, 따로 조사해 보자!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "페비",
+          "PlotLineKey": "이 섬은 회유의 고래와 밀접한 관련이 있고 유적도 널려 있으니까, 분명 단서가 있을 거라 생각해",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "페비",
+          "PlotLineKey": "난 고대 리나시타 문자를 알아볼 수 있으니까, 반드시 진실에 다가갈 수 있을 거야",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "유적 등대의 열쇠는 이 섬의 보물에 봉인되어 있대",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "아마 저쪽에 있지 않을까?",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 14
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "아합",
+          "PlotLineKey": "아주 좋아! 폭풍이 물러가면 플랑크도 여기까지 헤엄쳐 올 수 있을 걸세!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "아합",
+          "PlotLineKey": "하지만 퀴그는 당분간 돌아올 수 없을 것 같아. 수리가 끝난 「페쿼드호」는 새 선장이 와야 끌고 올 수 있네",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "아합",
+          "PlotLineKey": "주변을 둘러보세. 레예스의 등대에 관해서는 짚이는 것이 없지만... 아무튼 바다 요괴를 유인해 돛대에 매달아 물리칠 방법을 생각해야 해",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "아합",
+          "PlotLineKey": "아주 잘해줬네, {PlayerName}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "아합",
+          "PlotLineKey": "모든 사람이 바다의 파도를 이겨낼 수 있는 건 아닐세. 인자한 듯하면서도 더없이 무서운 존재가 바로 바다거든",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "아합",
+          "PlotLineKey": "난 꿈에서도 창을 잘 갈아서 소리 없이 바다에 던지는 꿈을 꾸곤 한다네. 그래야 어설프지 않게 정확히 찌를 수 있으니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "아합",
+          "PlotLineKey": "우리는 바다의 선물을 받으면서도, 손에 쥔 창으로는 항상 그를 겨누고 있지... 방심하지 않도록 말이야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "아합",
+          "PlotLineKey": "격렬한 싸움... 끝없는 투쟁, 그건 우리처럼 바다에 사는 자들의 숙명이라네",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "아합",
+          "PlotLineKey": "그렇지... 그거 아나? 어떤 사람들은 썰물에 죽기도 하지만, 또 어떤 사람들은 얕은 웅덩이에서 죽기도 한다네",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "아합",
+          "PlotLineKey": "그런가 하면 어떤 사람들은 하늘에 닿을 듯 거대한 파도에서 죽기도 하지. 난 지금 내 자신이 방금까지 폭풍을 핥고 있던 거대한 파도같이 느껴지네",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "아합",
+          "PlotLineKey": "가게나, 선장. 자네가 해야 할 일, 그리고 하고 싶은 일을 하게나",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "음, 안녕하세요...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "아, 저도 감사의 인사를 전해야겠군요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "당신이 없었다면 저도 여기까지 오지 못했을 테니까요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "아합 선장님한테는 목표가 있었어요. 저도 마찬가지고요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "오, 내 사랑, 부디 나를 기다려주세요...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "하지만, 아직 늦지 않았으니, 이런 생각은 접는 게 좋겠군요... 보세요!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "선장님! 그 녀석이 선장님을 찾는 게 아니라, 선장님이 그 녀석을 계속 찾는 거였어요!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "등대 주변에서 단서 찾기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "「바다의 3가지 선물을 펼쳐 보이면, 등불은 영원히 꺼지지 않을 것이다」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "그러니까... 이 바다에서 세 개의 선물을 찾아야 봉인을 해제할 수 있다는 건가?",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "잔향이 여기로 모여들고 있어. 모두 편안히 잠들길...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 16
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "저기야!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "내 사랑!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "브렌트",
+          "PlotLineKey": "흠흠, 꽉 잡아!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "브렌트",
+          "PlotLineKey": "멈추지 마라, 페쿼드!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "브렌트",
+          "PlotLineKey": "우리 함께, 심연으로 가보자!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 8
+    },
+    {
+      "Title": "부두로 이동해 출항하여, 바다에서 「선물」 찾기"
+    },
+    {
+      "Title": "Quest_880000038_ChildQuestTip_880_27"
+    },
+    {
+      "Title": "Quest_880000038_ChildQuestTip_880_39"
+    },
+    {
+      "Title": "첫번째 위치로 이동해 물고기를 제출하기"
+    },
+    {
+      "Title": "첫번째 유령이 짚은 수수께끼를 확인하기"
+    },
+    {
+      "Title": "Quest_880000038_ChildQuestTip_880_54"
+    },
+    {
+      "Title": "Quest_880000038_ChildQuestTip_880_56"
+    },
+    {
+      "Title": "두번째 위치로 이동해 물고기를 제출하기"
+    },
+    {
+      "Title": "두번째 유령이 짚은 수수께끼를 확인하기"
+    },
+    {
+      "Title": "Quest_880000038_ChildQuestTip_880_61"
+    },
+    {
+      "Title": "세번째 위치로 이동해 물고기를 제출하기"
+    },
+    {
+      "Title": "세번째 유령이 가리킨 수수께끼 확인하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "신비한 영체는 생선의 맛을 맛본 듯했고, 만족스러운 모습으로 떠났다...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "신비한 영체는 바다의 감화를 받은 듯 훝어졌다...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "신비한 영체는 저 마지막 등대를 바라보며 다시 불이 켜지길 기대하는 듯했다...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "레예스 섬의 등대 밝히기"
+    },
+    {
+      "Title": "페비를 찾아 획득한 단서 교환하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "{PlayerName}, 이제 등대 4개의 불이 모두 켜졌어!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "회유의 고래 소리 들려? 더 이상 슬픔과 고통이 느껴지지 않는 것 같아",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 799,
+              "PlotLineKey": "혹시 뭔가 발견했나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 800,
+              "PlotLineKey": "고래 소리에 확실히 감정이 풍부해졌어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "페비",
+          "PlotLineKey": "레예스 유적에 있는 비석의 문자들을 해독해 냈어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "페비",
+          "PlotLineKey": "회유의 고래... 확실히 수호신 임페라토르 님과 관련이 있지 않을까 싶어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 7,
+          "Speaker": "Narrator",
+          "PlotLineKey": "섬의 마지막 등대의 불이 켜지자, 회유의 고래는 이전의 온화함을 되찾았고, 이와 함께 페비 또한 섬의 조사에 진전이 이루게 되었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "원래",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "바다 밑에 묻힌 배와 선원들을 후세로 이끄는 건",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "페비",
+          "PlotLineKey": "회유의 고래의 일이었지만...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "페비",
+          "PlotLineKey": "불안정한 성격 탓에",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "페비",
+          "PlotLineKey": "슬픔과 분노를 담은 노래가",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "페비",
+          "PlotLineKey": "폭풍과 어둠을",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "페비",
+          "PlotLineKey": "불러왔대",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "페비",
+          "PlotLineKey": "임페라토르의 등불로 정신을 차리고 나서야",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "페비",
+          "PlotLineKey": "물고기 떼와 바다를...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "페비",
+          "PlotLineKey": "지킨 거야",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 2
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "이 사건들이 기록된 비석 중 일부는 수도회보다도 더 오래된 것들이야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "회유의 고래 외에도, 이전에 스타바커스 씨와 관련이 있던 「바다 요괴」에 대한 단서도 찾았어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "페비",
+          "PlotLineKey": "바다 요괴는 리졸리 해연... 그러니까 군도 해저에 서식하는 울림 생물 중 하나일 거야. 우리가 이전에 물의 경지에서 만났던 로렐라이와 같은 종류의 생물이라고도 할 수 있지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "페비",
+          "PlotLineKey": "회유의 고래가 예전에 이곳을 떠났기 때문인지, 고래에 의해 안내받지 못한 「망자」들의 잔향이 그 생물의 몸에 누적된 거야. 그것 때문에 어민들을 유혹한 거고",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "페비",
+          "PlotLineKey": "회유의 고래와 공생 관계이긴 하지만, 아직 작고 약한 데다가 완전히 성장하지 않아서 로렐라이보다 훨씬 뒤떨어진 존재야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "페비",
+          "PlotLineKey": "회유의 고래 몸에 난 상처도 바다 요괴가 치료해준 거겠지...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 812,
+              "PlotLineKey": "그녀를 정상으로 회복시켜야 해",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "페비",
+          "PlotLineKey": "물의 경지에서 비슷한 일이 있었으니까, 이번에는 별문제 없을 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "페비",
+          "PlotLineKey": "근데...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "페비",
+          "PlotLineKey": "{PlayerName}은(는)... 고래랑 얘기할 수 있어?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 813,
+              "PlotLineKey": "포포라면 소통이 가능할 거예요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "페비",
+          "PlotLineKey": "일이 마무리되면 같이 가서 회유의 고래와 얘기해 보자",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "페비",
+          "PlotLineKey": "하지만 일단은 아합 선장님부터 찾아야겠어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 14,
+          "Speaker": "Narrator",
+          "PlotLineKey": "섬의 비문 해석을 통해 페비는 회유의 고래가 바다의 망령을 다음 생으로 인도하는 역할을 맡고 있고, 현재 이 바다에 침입한 바다 요괴가 로렐라이와 같은 존재일 수 있다는 생각을 한다. 정보를 파악한 후, 당신들은 아합 선장을 찾아가 「바다 요괴」를 처리하기로 한다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "아합 찾기"
+    },
+    {
+      "Title": "아합이 남긴 쪽지를 확인하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "아합의 쪽지",
+          "PlotLineKey": "이 눈 하나 깜짝하지 않고 사람을 죽이고, 정복도 불가능한 녀석...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "아합의 쪽지",
+          "PlotLineKey": "난 늙었어. 날 향한 너의 저주가 오늘이면 끝나겠구나... 그래도 나는 계속 끝까지 너와 싸울 거다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "아합의 쪽지",
+          "PlotLineKey": "지옥에 떨어지더라도, 목숨 걸고 네 녀석과 싸우겠어!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "아합의 쪽지",
+          "PlotLineKey": "파도여, 바다를 향해 오거라! 죽음을 향해 가고 있는 나를 덮치는 파도를 또 한 번 덮쳐라!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "아합의 쪽지",
+          "PlotLineKey": "페쿼드의 선원들이여! 바로 오늘 내가 약속했던 안식이 올 것이다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "아합의 쪽지",
+          "PlotLineKey": "나를 죽였던 소용돌이, 내 돛에 불어왔던 폭풍아! 내가 너희를 소환한다! 그리고 그 녀석도 함께 이곳에 소환한다!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "아합의 쪽지",
+          "PlotLineKey": "덤벼라! 오늘은 우리를 묶은 밧줄을 끊고 지옥에 몸을 던져 끝까지 싸울 것이다!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "{PlayerName}! 돌아오셨군요!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 658,
+              "PlotLineKey": "이슈마이어?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 659,
+              "PlotLineKey": "아합 선장 일행들은요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "「페쿼드호」가 수리되었다는 소식을 듣고, 함께 따라와 봤어요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "근데 제가 왔을 때 해안에는 아무도 없었고 플랑크만 있더라고요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "오호, {PlayerName}. 이번 항해의 일등 항해사는 너야?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 663,
+              "PlotLineKey": "브렌트?!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "브렌트 (통신 중)",
+          "PlotLineKey": "이 배는 다 좋은데, 좀 낡은 게 흠이라니까",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 665,
+              "PlotLineKey": "제가 한 땀 한 땀 꿰매 고친 거라구요!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "브렌트 (통신 중)",
+          "PlotLineKey": "보아하니 이 배도 너랑 인연이 꽤 있나 보네",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "브렌트 (통신 중)",
+          "PlotLineKey": "며칠 전에, 아합이 나에게 이 배의 조타수가 되어 달라고 부탁했거든...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 668,
+              "PlotLineKey": "그럼 아합 어르신은요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "브렌트 (통신 중)",
+          "PlotLineKey": "난 못 봤는데, 어? 그런데, 지금 너 어디야?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "브렌트 (통신 중)",
+          "PlotLineKey": "왜 네 고기잡이 곤돌라가 바다로 나가는 것처럼 보이지?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "브렌트 (통신 중)",
+          "PlotLineKey": "어이, 이봐!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "???",
+          "PlotLineKey": "내 사랑! 당신을 만나러 왔습니다!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "스타바커스예요!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "혼자 조각배를 몰고 가버렸어요!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "브렌트 (통신 중)",
+          "PlotLineKey": "멈춰, 어서 멈추라고!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "스타바커스",
+          "PlotLineKey": "제 사랑이라면 이 폭풍을 물러나게 할 수 있어요. 전 이 폭풍보다 더 강렬하니까!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "브렌트 (통신 중)",
+          "PlotLineKey": "거긴... 폭풍우야! 빨리 돌아와! 저 녀석... 미쳤어!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "플랑크",
+          "PlotLineKey": "루...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "플랑크는 무언가에 겁을 먹은 듯 장사를 할 수 없었다...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "「페쿼드호」에 올라 브렌트를 찾고 출항 준비하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "브렌트",
+          "PlotLineKey": "이 배는 선원이 없어도 움직일 수 있지만, 선장은 꼭 필요하단 말이지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "브렌트",
+          "PlotLineKey": "어때? 출발 준비 다 됐어?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 607,
+              "PlotLineKey": "준비됐어요! 브렌트 선장!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 608,
+              "PlotLineKey": "아직이요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "1호 연기자",
+          "PlotLineKey": "로프가 왜 저절로 조여졌지?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "1호 연기자",
+          "PlotLineKey": "돛을 올려! 출항 준비!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 18
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "브렌트",
+          "PlotLineKey": "보아하니 「페쿼드호」는 이번에도 자신의 운명을 면치 못한 것 같군...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "브렌트",
+          "PlotLineKey": "그래도 선장 대행도 마무리했으니... 또 보자고, 내 벗들이여!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "페비가 휴식을 취한 후, 시간을 4시에서 9시 사이로 조정하기"
+    },
+    {
+      "Title": "레예스 섬 부근의 작은 섬으로 이동해 회유의 고래 조사하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "회유의 고래...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "회유의 고래",
+          "PlotLineKey": "...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "포포",
+          "PlotLineKey": "어이! 덩치! 또 만났네!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "포포",
+          "PlotLineKey": "지난번에 네가 우리 배를 뒤집어놨지만, 방금 우리를 구해준 걸 봐서, 비긴 걸로 할게! 음... 금주에 이런 말이 있거든. 「대인은 소인의 잘못을 따지지 않는다」!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 642,
+              "PlotLineKey": "얘가 너보다 훨씬 큰걸",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "회유의 고래",
+          "PlotLineKey": "...! ....",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "포포",
+          "PlotLineKey": "덩치 말로는 그 「바다 요괴」가 치유에 도움을 줬대. 근데 회유의 고래 대신 너무 많은 잔향을 흡수하는 바람에 정신을 잃었다나 봐",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "포포",
+          "PlotLineKey": "그래서 아까도 차마 그 「바다 요괴」와 싸울 수 없었던 거고. 혼을 내줬으니까 이젠 잘못을 깨달았겠지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "페비",
+          "PlotLineKey": "회유의 고래야, 물어보고 싶은 게 있어!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "페비",
+          "PlotLineKey": "이제는 회복된 거야?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "회유의 고래",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "포포",
+          "PlotLineKey": "당연하지! 이렇게 팔팔한데, 어떻게 봐도 건강해 보이잖아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "페비",
+          "PlotLineKey": "그 사람들한테 이용당해서 카니발에 나타난 거라니... 고작 나 같은 성직자 하나가 수도회 전체를 대신할 수 없다는 걸 알지만...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "페비",
+          "PlotLineKey": "그래도 난 너한테 사과하고 싶어. 비록 나 하나뿐이더라도",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "회유의 고래",
+          "PlotLineKey": "...? ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "회유의 고래",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "포포",
+          "PlotLineKey": "덩치는 널 원망한 적이 없대",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "포포",
+          "PlotLineKey": "넌 계속 이 녀석의 행방을 쫓으면서 어민들을 돕고, 바다의 선물을 받았잖아. 그게 바로 이 녀석이 지키려던 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "포포",
+          "PlotLineKey": "오! 큰 물고기를 잡았다고 칭찬도 하고 있어!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "회유의 고래",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "포포",
+          "PlotLineKey": "「주는 것이든 베푸는 것이든, 신념이든 희망이든, 스스로를 잃지 마세요」. 방금은 그렇게 말했어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "페비",
+          "PlotLineKey": "응, 알겠어!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "회유의 고래",
+          "PlotLineKey": "...?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "포포",
+          "PlotLineKey": "그럼, 당연하지! 우리들은 지금까지 언제나 최고였으니까!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 643,
+              "PlotLineKey": "언젠가는...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 644,
+              "PlotLineKey": "제가 당신도 낚아도 될까요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 25,
+          "Speaker": "회유의 고래",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "포포",
+          "PlotLineKey": "이봐, 덩치. 왜 말이 없어?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "회유의 고래",
+          "PlotLineKey": "...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "페비",
+          "PlotLineKey": "지금... 웃은 거야?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "포포",
+          "PlotLineKey": "우와!!!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "포포",
+          "PlotLineKey": "두, 두, 두고 봐! 우리가 널 낚아 올리면, 반드시 배로 갚아 줄 테니까!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 37,
+          "Speaker": "Narrator",
+          "PlotLineKey": "폭풍이 물러가고 회유의 고래에 의해 바닷속에서 나오게 된 당신들은 회유의 고래와 다시 만나게 된다. 페비는 회유의 고래에게  카니발 사건에 대한 개인적인 사과의 뜻을 전했지만, 뜻밖에도 회유의 고래는 분노를 표출하지 않았다. 먼 훗날, 낚시의 달인으로서 당신이 바다에서 회유의 고래를 낚아올릴 날이 올지도...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "장미 꽃봉오리",
+          "PlotLineKey": "...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "화물을 가득 실은 이 곤돌라는, 마치 「제게 돈을 주시면, 좋은 걸 드릴게요!」라고 말하는 것 같다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "의뢰를 완료하거나 도감을 수록하여, 낚시 명성을 Lv. 10 또는 그 이상으로 올리기"
+    },
+    {
+      "Title": "리졸리항으로 이동해 이슈마이어 찾기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "음...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "{PlayerName}, 혹시... 눈치채셨나요?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "여러분이 회유의 고래와 이 바다를 원래대로 돌려놓은 후로, 아합 선장, 스타바커스 씨, 그리고 퀴그 씨까지 모두 사라졌어요...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "지금 아합 선장이 남긴 수첩을 보고 있는데, 그분들은 계속 「마지막 항구」를 찾고 있었더라고요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "아합 선장은 평생을 바다에 바친 분이었어요. 이 해역에선 가장 막강한 선장이자 고기잡이였죠",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "아합 선장을 목표로 삼아 그분의 길을 되짚어 가면, 뭔가 발견할지도 몰라요. 선장이 남긴 보물 같은 걸 찾을 수 있을지도요",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1087,
+              "PlotLineKey": "회유의 고래를 잡을 수도 있다는 건가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "그럴 가능성도 있죠. 선장님은 늘 회유의 고래한테 엄청나게 집착했지만, 그 이유는 알 수 없었거든요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "이왕 이렇게 된 거, 이걸 목표로 계속 나아가 보죠",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "의뢰를 완료하거나 도감을 수록하여, 낚시 명성을 Lv. 12 또는 그 이상으로 올리기"
+    },
+    {
+      "Title": "리졸리항으로 이동해 이슈마이어 찾기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "바다가 잔잔한 데다, 소용돌이도 사라졌어요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "모든 게 원래 모습으로 돌아갔어요... {PlayerName}, 아합 선장 일행은 사실... 수십 년 전 이미 바다 아래 묻혀 있는 사람들이었어요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "이 바다에 대한 사랑과 회유의 고래와의 약속 때문에 세상에 남아 있던 거예요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "이제 리졸리의 이 고요한 바다는 그분들의 마지막 길이 됐네요. 이곳이 그분들의 「마지막 항구」인 거겠죠",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "하지만 「라젤호」는 사라지지 않았어요. 게다가 당신을 아주 좋아하는 것 같고요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "아합 선장도 당신이 그분의 뒤를 이어주기를 바랐을 거라고 생각해요...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1096,
+              "PlotLineKey": "당신은요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "저요? 전 그저 평범한 선원이자 어부일 뿐인걸요. 전 여기서 태어났으니까, 여기서 결혼을 하고, 아이도 낳고... 결국 이 바다에서 잠들 거예요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "이슈마이어",
+          "PlotLineKey": "가시죠, {PlayerName}! 당신의 목표는 세계의 끝에 있으니까요!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

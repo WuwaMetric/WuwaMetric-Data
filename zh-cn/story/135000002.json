@@ -1,0 +1,868 @@
+{
+  "Id": 135000002,
+  "Name": "调查营地配给失窃一事",
+  "Description": "找出营地补给的下落",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 135000002,
+  "ShowQuestList": [],
+  "QuestDesc": "找出营地补给的下落",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100005,
+      "PreQuestName": "奔策候残星"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "北固",
+          "PlotLineKey": "漂泊者？！真是稀客，久仰大名了！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "北固",
+          "PlotLineKey": "我叫北固，是营地的队长，正准备调查营地中的失窃案。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 121,
+              "PlotLineKey": "需要我的帮助吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "北固",
+          "PlotLineKey": "每过一段时间，呜呜物流就会帮忙运来营地的配给，这些配给涵盖了吃穿用度。呜呜物流卸货的时候，数目一样不少。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "北固",
+          "PlotLineKey": "可到了晚上复核配给的时候，负责清点的队员却发现少了一箱包裹，虽然也不是什么重要的东西......",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 122,
+              "PlotLineKey": "听上去还是挺重要的。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "北固",
+          "PlotLineKey": "那倒也是！毕竟谁不想念城中热乎的家乡菜呢？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "北固",
+          "PlotLineKey": "为了慰劳戍守营地的队员们，我偷偷拜托了攀花准备了一批预制菜——",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 123,
+              "PlotLineKey": "打住！",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 124,
+              "PlotLineKey": "说的我都饿了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "北固",
+          "PlotLineKey": "抱歉抱歉，我也许久没回今州，对故乡菜甚是想念。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "北固",
+          "PlotLineKey": "总之，我不希望漂泊者声张此事，但我也不好亲自下场调查此事。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "北固",
+          "PlotLineKey": "对于前线的将士们而言，建立信任需要日夜相伴、出生入死，我不希望毁掉这份来之不易的信任，所以......",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 125,
+              "PlotLineKey": "你想委托我调查此事？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 126,
+              "PlotLineKey": "有酬劳的话一切好说。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "北固",
+          "PlotLineKey": "作为答谢，我请漂泊者去攀花饭馆好好搓一顿！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 127,
+              "PlotLineKey": "一言为定！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "北固",
+          "PlotLineKey": "言归正传。漂泊者可以先从执勤的岗哨入手，调查一下昨天下午至今的营地出入情况。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "渡影",
+          "PlotLineKey": "漂泊者！需要我帮您做什么？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 135,
+              "PlotLineKey": "（表明自己的来意）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "渡影",
+          "PlotLineKey": "原来是想了解营地出入情况吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "渡影",
+          "PlotLineKey": "虽然我是今早才接岗，不过我可以帮你查询值班日志，日志记录了所有的人员出入记录，稍等我一下！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "......",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "渡影",
+          "PlotLineKey": "除了运送配给的呜呜物流员以外，没有其他的出入记录。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 136,
+              "PlotLineKey": "这么放心地告诉我了吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 137,
+              "PlotLineKey": "不好奇调查原因吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "渡影",
+          "PlotLineKey": "忌炎将军嘱咐过我们，希望夜归的各位力所能及地帮助漂泊者。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "渡影",
+          "PlotLineKey": "不论缘由如何，只要能帮助到漂泊者就好。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 138,
+              "PlotLineKey": "向你致敬。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 139,
+              "PlotLineKey": "你是个正直的人。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "芜菁",
+          "PlotLineKey": "到底是谁这么缺德！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 164,
+              "PlotLineKey": "发生了什么？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "芜菁",
+          "PlotLineKey": "不知道谁把吃的洒撒了一路，灰冠鸥闻着味儿就乌泱泱地来了，赶都赶不走。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "芜菁",
+          "PlotLineKey": "好不容易才打扫干净，你看我都被啄成啥样了！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 165,
+              "PlotLineKey": "你是这里的负责人吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "芜菁",
+          "PlotLineKey": "你要说谁管这一块儿......这块属于营地的仓储区，茗伊才是负责人。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "芜菁",
+          "PlotLineKey": "通常来说，茗伊负责清点入库，天琅和芜衡干些装卸的体力活儿。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "芜菁",
+          "PlotLineKey": "你提醒我了，晚些时候我也去问问茗伊，我一定要把干坏事儿的人查明白。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "夜归队员",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "夜归队员",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "夜归队员",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "格外沉重的脚印，步距不大，像是搬着重物的样子。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "脚跟处的鞋印布满了裂纹，后跟严重磨损，说明步行时的重心在后。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 183,
+              "PlotLineKey": "有件事我想问问你。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "天琅",
+          "PlotLineKey": "漂泊者但说无妨，眼下我正准备清点新到的外勤服。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 184,
+              "PlotLineKey": "随昨日的配给送到的吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "天琅",
+          "PlotLineKey": "正是。士兵们的外勤服会定期换新，前段时间收集了一批新装申请，一些申请理由看得我头疼。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "天琅",
+          "PlotLineKey": "诸如，执行任务时被碎獠猪的獠牙勾破了裤子、无光之森的戏猿偷走了帽子......",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "天琅",
+          "PlotLineKey": "我把申请表放在拐角处的桌台上了，漂泊者有兴趣的话可以自行查阅。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 185,
+              "PlotLineKey": "入库时发生了什么？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "天琅",
+          "PlotLineKey": "当时茗伊有事暂离，其间由我临时协助库内的清点。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "天琅",
+          "PlotLineKey": "另一名队员芜衡负责在仓库外独自全权负责货物的装卸，我在仓库里并无察觉到有何异常。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 186,
+              "PlotLineKey": "那份申请表也许就是突破口。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 199,
+              "PlotLineKey": "......",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "年轻的夜归",
+          "PlotLineKey": "有……有什么事吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 200,
+              "PlotLineKey": "你衣服上的油星子......",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "年轻的夜归",
+          "PlotLineKey": "呃......我回了今州一趟，在攀花饭馆吃饭时不小心溅上的。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 201,
+              "PlotLineKey": "已经没有问下去的必要了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "茗伊",
+          "PlotLineKey": "漂......漂泊者？是北固队长拜托你来的吧？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "茗伊",
+          "PlotLineKey": "配给丢失的事情是我上报的。我只是在入库的时候离开了一会儿，就发生了这种事情。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "离开一会儿？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 174,
+              "PlotLineKey": "你去了哪里？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "茗伊",
+          "PlotLineKey": "哇啊——我......拜托了天琅临时代班！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "茗伊",
+          "PlotLineKey": "天琅和渡影都可以帮我作证！我有不在场证明！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 175,
+              "PlotLineKey": "怎么还有渡影的事？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "茗伊",
+          "PlotLineKey": "配......配给里有一份渡影的快件，我只是顺路拿给他而已！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "茗伊",
+          "PlotLineKey": "绝对没有别的意思！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "年轻真好......",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "接下来去找天琅吧。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "呜呜物流的配送箱。打开的瞬间一股辛香扑鼻而来，但箱内已是空空如也。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "箱底泛着淡淡的油光。这个香气......不会错！是攀花饭馆的香汁鸡。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "越闻越饿，此地不宜久留......问问附近的夜归队员有没留意到什么吧。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "营地队长",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "营地队长",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "营地队长",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "北固",
+          "PlotLineKey": "没有人出入营地吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "北固",
+          "PlotLineKey": "或许我该做好最坏的打算。如此一来，只能是营地中的人员所为。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "北固",
+          "PlotLineKey": "趁漂泊者问询出入记录的时候，我也顺手调取了装卸配给时的监控。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "北固",
+          "PlotLineKey": "茗伊、天琅、芜衡全程参与了配给的装卸、入库，可以从他们入手，看看能否得到什么有效信息。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "北固",
+          "PlotLineKey": "对了，补给入库的位置是一片监控死角，漂泊者说不定能发现一些隐藏的线索，拜托了！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "申请人：渡影<br>申请诉求：需更换上衣。<br>原因：解救被流放者劫持的研究员时，上衣被流弹贯穿。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "申请人：克凛<br>申请诉求：需更换军帽。<br>原因：意外得罪了灰冠鸥，导致日常收到从天而降的礼物。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "看来芜菁也要有难了......",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "申请人：芜衡<br>申请诉求：需更换军靴。<br>原因：搬运重物导致鞋跟严重磨损，导致经常摔倒。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "和物流箱旁的鞋印特征基本吻合，以防万一，再去找当事人确认一下吧。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 206,
+              "PlotLineKey": "（告诉北固自己的猜想）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "北固",
+          "PlotLineKey": "嗯，我也有了初步的推断。漂泊者认为是谁拿走了配给呢？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "茗伊",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 208,
+              "PlotLineKey": "天琅",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 209,
+              "PlotLineKey": "芜衡",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "北固",
+          "PlotLineKey": "和我预想的有些出入，或许另有其人。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "北固",
+          "PlotLineKey": "和我预想的有些出入，或许另有其人。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "北固",
+          "PlotLineKey": "看来我们达成了一致，我们去找芜衡聊聊吧。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "北固",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "北固",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "年轻的夜归",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "年轻的夜归",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "年轻的夜归",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "年轻的夜归",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "年轻的夜归",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 212,
+              "PlotLineKey": "",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "北固",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "北固",
+          "PlotLineKey": "感谢你的帮助，漂泊者。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 219,
+              "PlotLineKey": "关于芜衡......",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "北固",
+          "PlotLineKey": "一些孩子小小年纪就离开家乡、经年累月地驻守着营地，处理事情的方式也比较耿直，遇到事情喜欢藏在心里。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "北固",
+          "PlotLineKey": "作为驻守一方的将士，不能因为如此简单的原因擅离职守，更需要对自己的伙伴坦诚相待。时间还长，他要学习的东西还多着呢。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "北固",
+          "PlotLineKey": "缺了的那几道菜，就让芜衡亲自下厨补上吧！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "北固",
+          "PlotLineKey": "对了，等我回了今州，我们攀花饭馆再叙！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

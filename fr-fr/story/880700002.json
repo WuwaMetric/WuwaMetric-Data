@@ -1,0 +1,485 @@
+{
+  "Id": 880700002,
+  "Name": "Que tu sois à mes côtés",
+  "Description": "Dianxiao ouvre enfin son kiosque de l'éventail créatif. Allez y jeter un coup d'œil.\n\nCompléter cette quête pour débloquer un nouveau partenaire.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880700002,
+  "ShowQuestList": [],
+  "QuestDesc": "Dianxiao ouvre enfin son kiosque de l'éventail créatif. Allez y jeter un coup d'œil.\n\nCompléter cette quête pour débloquer un nouveau partenaire.",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 8,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Attends ! Zhezhi, ne me dis pas que tu as prévu de finir tout ça toute seule ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Oui.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Mais il y a tellement de demandes... Ma chérie, je ne peux pas te laisser faire tout ça toute seule.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Dianxiao, ça va aller. Je vais les terminer dans les temps.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Je ne doute pas de ça. Je sais que tu viens de faire des nuits blanches pour un autre projet. Ce n'était qu'il y a quelques jours, tu as besoin de te reposer...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Et si tu acceptes ce projet, tu vas devoir voyager pour trouver l'inspiration… Ça ne sera pas une tâche facile.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Tu es sûre que ça va aller ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "O-oui. S'il te plaît, laisse-moi faire ce travail…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Je... Je vais commencer à travailler tout de suite. Merci, Dianxiao.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Zhezhi part précipitamment.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Attends, Zhezhi... !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Oh, bonjour, {PlayerName}. Tu es là pour acheter un éventail ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "J'ai vu Zhezhi partir précipitamment…",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "Qu'est-ce qui s'est passé ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Eh bien, voilà. J'ai installé ce kiosque des éventails au Marché de la lune et j'avais prévu de demander à quelques amis artistes de créer des éventails.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Mais aucun de nos artistes n'avait de créneaux disponibles... Je ne savais pas quoi faire. Puis Zhezhi s'est proposée pour prendre en charge toutes les commandes elle-même.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 205,
+              "PlotLineKey": "Toutes ces requêtes à réaliser…",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 206,
+              "PlotLineKey": "Ça paraît beaucoup de travail.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Zhezhi respecte toujours les délais, mais je ne veux pas qu'elle s'épuise à la tâche.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "Puis-je donner un coup de main ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Tu vas nous aider ? Vraiment ? Laisse-moi réfléchir…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Pourrais-tu prendre des photos des paysages qu'elle a choisis ? Comme ça, elle pourra simplement utiliser ces photos comme référence.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Elle pourra rester à la maison et se concentrer sur son art au lieu de voyager. Ça lui permettra de gagner du temps et de garder son énergie !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Tu peux nous aider avec ça ? Je te paierai, bien sûr !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 208,
+              "PlotLineKey": "Bien sûr, pourquoi pas ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Génial ! Merci beaucoup ! Zhezhi devrait être en train de peindre des pêchers sur un coteau près de Ville Fleur-de-Pêche, donc je pense que tu peux y passer.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Alors... Nous avons encore besoin de photos de la cascade à l'étang de la clochette et de la ville de Jinzhou.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Quand tu auras terminé, ramène-les-moi et je les donnerai à Zhezhi.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 209,
+              "PlotLineKey": "Tu peux compter sur moi !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 210,
+              "PlotLineKey": "C'est du gâteau.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Quel soulagement. Merci, Zhezhi sera très contente d'avoir ces photos !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Comment ça s'est passé, {PlayerName} ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1209,
+              "PlotLineKey": "Voilà, les photos de référence.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1210,
+              "PlotLineKey": "Un jeu d'enfant.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Fantastique ! Très beaux angles et bons détails. Oui, ça fera d'excellentes images de référence.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Merci mille fois. Je les donnerai à Zhezhi lorsqu'elle sera revenue !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1211,
+              "PlotLineKey": "À la prochaine fois.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "À la prochaine fois, {PlayerName} !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Quelques minutes plus tard…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Hé, Zhezhi ! J'ai une bonne nouvelle !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Une bonne nouvelle… ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Cette fois, tu n'auras plus à peindre en plein air. Regarde ce qu'on t'a apporté !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Ce sont… des photos de référence ? La cascade de l'étang de la clochette et une vue en panorama de la ville de Jinzhou...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "C'est... C'est exactement ce dont j'ai besoin… Merci, Dianxiao !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Non, ce n'est pas moi que tu dois remercier, mais une personne très gentille qui s'est portée volontaire pour aider.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Une personne gentille...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Oui, {Male=il;Female=elle} a pris ces photos pour toi. Jamais je n'oserais jamais aller dans des endroits comme l'étang de la clochette.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(Serait-ce... la personne que j'ai vue à côté des pêchers...)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Qu'est-ce qu'il y a, Zhezhi ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "R-rien ! Excuse-moi, je dois travailler sur la peinture… !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(...Je m'assurerai de {Male=le;Female=la} remercier lors de notre prochaine rencontre.)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Nomade",
+          "PlotLineKey": "« La cascade près de l'étang de la clochette ».... C'est sûrement ici.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Nomade",
+          "PlotLineKey": "Je vais trouver un bon endroit pour ma photo.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Nomade",
+          "PlotLineKey": "D'ici, je peux voir toute la ville de Jinzhou.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Nomade",
+          "PlotLineKey": "Je dois prendre une photo ici.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Hmm... Je devrais laisser plus d'espace pour que le contraste soit plus fort. Et peut-être que je vais faire de l'Alla prima, ajouter une touche de vermillon ici, pour faire ressortir les pêchers ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Non, ça sera trop flou. Les clients du Marché de la lune préfèrent les détails plus réalistes...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "(Zhezhi a l'air très concentrée. Elle ne devrait pas avoir de mal à faire les peintures. Je vais y aller et m'occuper de la demande de Dianxiao…)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Alors que vous partez, Zhezhi vous regarde, étonnée.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Euh... Est-ce que j'ai vu quelqu'un du coin de l'œil ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "J'ai l'impression que... je {Male=le;Female=la} connais ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Oublions… J'ai probablement des visions à force de me coucher trop tard.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}
