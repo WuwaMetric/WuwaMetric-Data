@@ -1,0 +1,191 @@
+{
+  "Id": 939850004,
+  "Name": "ファンタスティック・パタ",
+  "Description": "あなたは崖の近くで、妙な行動をとる女の子を見かける。何かに挑戦している最中のようだ。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 939850004,
+  "ShowQuestList": [],
+  "QuestDesc": "あなたは崖の近くで、妙な行動をとる女の子を見かける。何かに挑戦している最中のようだ。",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100022,
+      "PreQuestName": "燃え上がる心"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ララミア",
+          "PlotLineKey": "頑張ってララミア、怖がらないで。たとえ失敗しても、ロラが引っ張ってくれるから……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "女の子は深呼吸をした……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ロラ",
+          "PlotLineKey": "*励ましの鳴き声*",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 160,
+              "PlotLineKey": "{Male=ここで何をしているんだ？;Female=ここで何をしているの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ララミア",
+          "PlotLineKey": "あ、こんにちは！今、秘密の特訓をしてるの！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ララミア",
+          "PlotLineKey": "崖に大剣が刺さっているでしょ？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ララミア",
+          "PlotLineKey": "大剣を伝ってゴールまで跳んでいけば、ロラの試練をクリアできるって言われてたの。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 161,
+              "PlotLineKey": "ロラ？",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 162,
+              "PlotLineKey": "{Male=危なくないのか？;Female=危なくない？}",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "ララミア",
+          "PlotLineKey": "ふふっ、ロラは私が名付けたこの子の名前。落ちちゃっても、毎回ロラが私をスタート地点に戻してくれるの。不思議でしょ！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "ララミア",
+          "PlotLineKey": "まあ、ちょっと危ないかもしれないけど、ロラもいるし命の危険はないよ！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "ララミア",
+          "PlotLineKey": "あなた……運動神経が良さそうだし、よかったら試してみない？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ララミア",
+          "PlotLineKey": "もしあなたが挑戦に成功したら、ロラが報酬を用意してくれるよ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ララミア",
+          "PlotLineKey": "{PlayerName}、どうだった？最後まで行けた？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 146,
+              "PlotLineKey": "行けた。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ロラ",
+          "PlotLineKey": "！*嬉しい鳴き声*",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ララミア",
+          "PlotLineKey": "{PlayerName}、すごい！ねえ……感想教えて？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 148,
+              "PlotLineKey": "{Male=簡単な挑戦だった。;Female=簡単な挑戦だった。}",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 149,
+              "PlotLineKey": "{Male=他の挑戦はある？;Female=他の挑戦はある？}",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ララミア",
+          "PlotLineKey": "え、簡単？や、やっぱり人それぞれなんだね。あはは……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 5,
+          "Speaker": "ロラ",
+          "PlotLineKey": "*落ち込んだ鳴き声*",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ララミア",
+          "PlotLineKey": "今はまだないみたい。でも、あなたはこれまで見た中で最高の戦士だって、ロラが言ってるよ。すごいね……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "ララミア",
+          "PlotLineKey": "私もいつか、あなたみたいに強くなれたらいいな。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

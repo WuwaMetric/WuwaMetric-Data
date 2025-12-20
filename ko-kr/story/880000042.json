@@ -1,0 +1,345 @@
+{
+  "Id": 880000042,
+  "Name": "땅땅게 별미 도전",
+  "Description": "땡땡게를 땅땅게로 만들고, 찜? 훙싸오? 아니면... 이상한 맛?",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000042,
+  "ShowQuestList": [],
+  "QuestDesc": "땡땡게를 땅땅게로 만들고, 찜? 훙싸오? 아니면... 이상한 맛?",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 880000037,
+        "ChildQuestId": 23
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "사라",
+          "PlotLineKey": "{Male=오빠;Female=언니}, 이상한 맛 땅땅게 먹어봤어?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 84,
+              "PlotLineKey": "먹어봤어요",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 85,
+              "PlotLineKey": "그게 뭐예요?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "사라",
+          "PlotLineKey": "먹어봤다고?! 그럼 진정한 용사구나!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "사라",
+          "PlotLineKey": "땅땅게로 만든 요리 말이야! 난 그걸 먹어본 사람이야말로 최고의 용사라고 생각해!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "사라",
+          "PlotLineKey": "근데 유진이 최고의 용사가 되고 싶다고 해서, 내가 이상한 맛 땅땅게를 먹어야 된다고 그랬거든...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "사라",
+          "PlotLineKey": "근데 우리한텐 땅땅게가 없어서... 이러면 유진도 용사가 되지 못할 거야...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "유진",
+          "PlotLineKey": "용사가 되지 못할 거야...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "사라",
+          "PlotLineKey": "{Male=오빠;Female=언니}, 어디에 가면 이 요리를 먹을 수 있을까? 돈이라면 우리도 있어!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 86,
+              "PlotLineKey": "제가 가지고 와볼게요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "사라",
+          "PlotLineKey": "진짜? 고마워, {Male=오빠;Female=언니}! 그럼 여기서 기다릴게!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "유진",
+          "PlotLineKey": "기다릴게!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "사라",
+          "PlotLineKey": "어때, {Male=오빠;Female=언니}. 이상한 맛 땅땅게 요리는 가져왔어?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 110,
+              "PlotLineKey": "여기 있어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "사라",
+          "PlotLineKey": "유진, 빨리 먹어봐!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "유진",
+          "PlotLineKey": "이 땅땅게, 무슨 맛이 날까? 날개복치 같은 맛은 아니겠지...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "사라",
+          "PlotLineKey": "어리숙한 불가사리 맛일지도 몰라, 얼른 먹어봐!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 111,
+              "PlotLineKey": "날개복치 맛 맞아요",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 112,
+              "PlotLineKey": "어리숙한 불가사리 맛이에요",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 113,
+              "PlotLineKey": "그냥 땅땅게 맛이에요",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "유진",
+          "PlotLineKey": "진짜?! 그럼 엄청 비릴 텐데...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "유진",
+          "PlotLineKey": "음... 씹으면 되게 쫄깃쫄깃할 것 같아...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "유진",
+          "PlotLineKey": "땅땅게 맛은 무슨 맛일까...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "사라",
+          "PlotLineKey": "유진, 빨리 먹어봐!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "유진",
+          "PlotLineKey": "나... 난 못 먹겠어... 용사 안 할래!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "사라",
+          "PlotLineKey": "안 돼! 네가 그랬잖아, 용사가 되고 싶다면서!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "사라",
+          "PlotLineKey": "에휴... {Male=오빠;Female=언니}, 유진은 못 먹겠대. 하지만 나한테 방법이 있지!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "사라",
+          "PlotLineKey": "우리가 땅땅게를 맛본 다음, 맛있다는 걸 알려주면 될 거야!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 114,
+              "PlotLineKey": "그럼 제가 먹어볼게요",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 115,
+              "PlotLineKey": "싫어요, 사라가 먹어봐요",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "기대가 가득한 두 아이의 눈빛 때문에 이상한 맛 땅땅게를 먹어보았다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "바다의 맛이 나며 짭짤하면서도 약간 비리지만, 전반적으로 괜찮은 맛이다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "사라",
+          "PlotLineKey": "어때, 어때?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 116,
+              "PlotLineKey": "바다의 맛이에요",
+              "PlayVoice": false,
+              "JumpToId": 19
+            },
+            {
+              "TextId": 117,
+              "PlotLineKey": "맛이 괜찮아요",
+              "PlayVoice": false,
+              "JumpToId": 19
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "사라",
+          "PlotLineKey": "그럼 내가 먹어볼게",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "사라는 한참을 망설이다 게 다리를 들고 한 입 베어 물었다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "사라",
+          "PlotLineKey": "음... 그러니까...괜찮아. 바다 맛이 나네! 맛있다!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 19,
+          "Speaker": "유진",
+          "PlotLineKey": "진짜? 나도 먹어볼래...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "유진",
+          "PlotLineKey": "마... 맛있어... 맛있어...!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "유진은 얼굴을 잔뜩 찌푸렸지만 꿀꺽 삼켰다. 진정한 용사다!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "유진",
+          "PlotLineKey": "후... 진, 진짜 맛있어. 고마워, 이제 나도 진짜 용사야...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 118,
+              "PlotLineKey": "정말 용감한 용사예요...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 119,
+              "PlotLineKey": "무리하지 않아도 돼요...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "사라",
+          "PlotLineKey": "고마워, {Male=오빠;Female=언니}! 유진을 최고의 용사로 만들어 줬으니까, 이거 줄게!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "Id": 142000004,
+  "Name": "在りし日の試練",
+  "Description": "一通の謎の密書があなたのところに届いた。\nポルトヴィーノ城で、不思議な試練が挑戦者を待っている。この一連の出来事は、フィサリアファミリーと関わっているようだ……\n\n<color=highlight>この任務エリアでは隠された特別報酬を獲得できる</color>",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 142000004,
+  "ShowQuestList": [],
+  "QuestDesc": "一通の謎の密書があなたのところに届いた。\nポルトヴィーノ城で、不思議な試練が挑戦者を待っている。この一連の出来事は、フィサリアファミリーと関わっているようだ……\n\n<color=highlight>この任務エリアでは隠された特別報酬を獲得できる</color>",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100015,
+      "PreQuestName": "神聖なるそよ風は常に吹き込む"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=候補者宛の密書？どこかの候補者に送られるはずの密書が、なぜ俺のところに……;Female=候補者宛の密書？どこかの候補者に送られるはずの密書が、どうして私のところに……}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=試練と、万能な秘薬か……どうも怪しいな……ポルトヴィーノ城に行ってみるか。;Female=試練と、万能な秘薬……どこか怪しい……ポルトヴィーノ城に行ってみよう。}",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "ええ、かしこまりました……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "チェリー",
+          "PlotLineKey": "このチェリー、試練を突破するため頑張ります！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 62,
+              "PlotLineKey": "誰と話してる？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 63,
+              "PlotLineKey": "あなたが候補者？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 64,
+              "PlotLineKey": "{Male=あなた宛ての密書が俺のところに届いてる。;Female=あなた宛ての密書が私のところに届いてるの。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "チェリー",
+          "PlotLineKey": "四つの試練がポルトヴィーノ城のそばにあるってファミリーの方が仰ったの……すべての試練をこなし、バッジを獲得しないと。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "チェリー",
+          "PlotLineKey": "私、██になって、秘薬を貰いたいの。そうしなければ、ジョジョが助からない……！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 65,
+              "PlotLineKey": "{Male=俺の話、聞いてる？;Female=私の話、聞こえてる？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 66,
+              "PlotLineKey": "ジョジョって誰？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "チェリー",
+          "PlotLineKey": "善は急げ……今すぐ出発しないと。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "そう言うやいなや、チェリーはあなたの目の前から消失した。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "チェリー",
+          "PlotLineKey": "あの……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 101,
+              "PlotLineKey": "{Male=俺が見える？;Female=私が見える？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 102,
+              "PlotLineKey": "バッジを四枚獲得したよ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "チェリー",
+          "PlotLineKey": "私、すべての試練を突破しました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "チェリー",
+          "PlotLineKey": "試練の証は四枚ここに！お目通りを！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 103,
+              "PlotLineKey": "{Male=やはり声は届かないようだな……;Female=やはり声は届かないようね……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 104,
+              "PlotLineKey": "{Male=試練を突破したのは俺なんだけど……;Female=試練を突破したのは私なんだけど……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "チェリー",
+          "PlotLineKey": "心より感謝致します……今の私なら、██になる資格はあるのでしょうか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "チェリー",
+          "PlotLineKey": "それと密書に記された例の秘薬、ジョジョの病を治せる秘薬がほしいのです……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 105,
+              "PlotLineKey": "{Male=これで試練に通過したと見ていいのか……;Female=これで試練に通過したと見ていいの……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 106,
+              "PlotLineKey": "{Male=本当に万能な秘薬はあるのか……;Female=本当に万能な秘薬はあるの……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "チェリー",
+          "PlotLineKey": "えっ？分かりました……これまでの試練はただの始まりですか……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "チェリー",
+          "PlotLineKey": "あの、ポルトヴィーノ城での試練も頑張ります。私、絶対██になってみせます！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "チェリー",
+          "PlotLineKey": "絶対に秘薬を貰い、ジョジョを治すんだから。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "チェリーは固く決心したようだ。迷うことなくポルトヴィーノ城へ向かう姿が見える。<br>……彼女は扉を押し開けることなく、そのまま扉をすり抜けた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "さっきからこの感じ……幻覚？チェリーに出会った時から？それとも密書が到着した時からすでに……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "チェリーはかつて、とある神秘的な試練の第一歩を通過した少女。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "目撃した幻覚が本当なら、彼女はこの後、ポルトヴィーノ城内へ入っていったはずだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "チェリーはその後、試練を通過できたのかな。この城から、無事出られたのかな……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "あなたは扉を押す。だが、その扉は重く、びくともしなかった。<br>あなたはなぜか、扉に触れた瞬間、頭を水面から出して、新鮮な空気を吸えたような感覚がした。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

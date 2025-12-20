@@ -1,0 +1,868 @@
+{
+  "Id": 135000002,
+  "Name": "Investigate the Theft of Camp Supplies",
+  "Description": "Find out the whereabouts of the camp supplies",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 135000002,
+  "ShowQuestList": [],
+  "QuestDesc": "Find out the whereabouts of the camp supplies",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100005,
+      "PreQuestName": "Ominous Star"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Rover? What a pleasant surprise. I've heard a lot about you!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Beigu",
+          "PlotLineKey": "I'm Beigu, the captain of the camp. Currently caught up in an investigation regarding a theft case.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 121,
+              "PlotLineKey": "Do you need my help?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Lollo Logistics regularly delivers supplies to the camp, covering all our needs. When they unloaded the supplies, the quantities matched our order perfectly.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Beigu",
+          "PlotLineKey": "However, during the nightly inventory check, a team member responsible for counting noticed one box missing, though it was not something important.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 122,
+              "PlotLineKey": "But we still need to figure out where it went.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Beigu",
+          "PlotLineKey": "You're right. It's packed with everyone's favorite hometown dishes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Beigu",
+          "PlotLineKey": "To treat the soldiers here,  I secretly asked Panhua to prepare a batch of pre-made dishes—",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 123,
+              "PlotLineKey": "Hey, stop!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 124,
+              "PlotLineKey": "You're making me hungry.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Beigu",
+          "PlotLineKey": "My apologies. It's been a while since I last visited Jinzhou. I miss the hometown dishes so much.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Anyway, I hope you can keep our conversation between us. Unfortunately, I can't conduct the investigation myself.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Beigu",
+          "PlotLineKey": "For the soldiers here, trust is often more valuable than their lives. It's built through shared experiences and overcoming challenges together. I don't want this incident to sow even the smallest seed of doubt.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 125,
+              "PlotLineKey": "So you want me to find out the truth for you?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 126,
+              "PlotLineKey": "Let's discuss my payment.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Beigu",
+          "PlotLineKey": "As a token of gratitude, I'll treat you to a feast at Panhua's Restaurant.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 127,
+              "PlotLineKey": "Deal!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Without further ado, you can start by checking the guard post. Investigate the entry and exit records from yesterday afternoon until now.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Duying",
+          "PlotLineKey": "Hi, Rover! What can I do for you?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 135,
+              "PlotLineKey": "(Express your intention)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Duying",
+          "PlotLineKey": "Oh, you want to look into the entry and exit records, huh?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Duying",
+          "PlotLineKey": "Even though I just started this post this morning, I can check the duty log for you. It has all personnel entry and exit records. Just give me a moment.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Duying",
+          "PlotLineKey": "Other than the Lollo Logistics delivery folks, there aren't any other entry and exit records.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 136,
+              "PlotLineKey": "Why did you help me?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 137,
+              "PlotLineKey": "Aren't you curious about why there's an investigation going on?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Duying",
+          "PlotLineKey": "General Jiyan asked all members of the Midnight Rangers to assist you in any way possible.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Duying",
+          "PlotLineKey": "So, whatever your reason is, I'm glad I can help you.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 138,
+              "PlotLineKey": "Thank you.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 139,
+              "PlotLineKey": "You're an honest person.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Wujing",
+          "PlotLineKey": "Who the hell did this?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 164,
+              "PlotLineKey": "What happened?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Wujing",
+          "PlotLineKey": "Someone spilled the food along the way. The Gray Crested Gulls smelled it and came in swarms. I can't drive them away!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Wujing",
+          "PlotLineKey": "It took me great effort to clean it up here. Look at what these birds did to me!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 165,
+              "PlotLineKey": "Are you in charge here?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Wujing",
+          "PlotLineKey": "Well, in that case, you should look for Mingyi. She's the one responsible for the storage area in the camp.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Wujing",
+          "PlotLineKey": "Usually, Mingyi handles checking the inventory and stocking supplies, while Tianlang and Wuheng take care of loading and unloading supplies.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Wujing",
+          "PlotLineKey": "Oh, you reminded me. I'll need to go ask Mingyi. I'll find out who did this!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Midnight Ranger",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Midnight Ranger",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Midnight Ranger",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Heavy footsteps. The pace isn't far, as if the person was hauling something weighty.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "The shoe prints at the heels show numerous cracks, signaling significant wear and tear at the back of the shoes. It suggests the person walked with a backward-leaning posture.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 183,
+              "PlotLineKey": "There's something I want to ask you.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Tianlang",
+          "PlotLineKey": "Sorry, but I'm in the middle of counting the newly arrived field uniforms.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 184,
+              "PlotLineKey": "Did they come with yesterday's supplies?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Tianlang",
+          "PlotLineKey": "Indeed. The soldiers' field uniforms are regularly replaced. Some time ago, we collected applications for new uniforms, and some of the reasons on the applications were really... amusing.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Tianlang",
+          "PlotLineKey": "There are reasons like pants torn by the fangs of a Sabyr Boar or a hat stolen by the Hoochiefs in the Dim Forest...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Tianlang",
+          "PlotLineKey": "I've placed all those application forms on the table in the corner. If you're interested, you can take a look there.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 185,
+              "PlotLineKey": "What happened during the stocking?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Tianlang",
+          "PlotLineKey": "Mingyi left for another business for a little while, and during that time, I helped in counting the inventory.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Tianlang",
+          "PlotLineKey": "Another team member, Wuheng, was responsible for loading and unloading the supplies outside the warehouse on her own. I didn't notice anything unusual in the warehouse.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 186,
+              "PlotLineKey": "Maybe the application forms can be a breakthrough.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 199,
+              "PlotLineKey": "...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Young Midnight Ranger",
+          "PlotLineKey": "What… what can I do for you?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 200,
+              "PlotLineKey": "The oil stains on your clothes…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Young Midnight Ranger",
+          "PlotLineKey": "Ugh, I went back to Jinzhou not long ago. I accidentally splashed some on while eating at Panhua's Restaurant.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 201,
+              "PlotLineKey": "No need to ask further.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mingyi",
+          "PlotLineKey": "Rover? Did Captain Beiwang send you over?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mingyi",
+          "PlotLineKey": "I reported the missing supplies. I stepped away for a moment during the stocking, and it happened.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "Did you leave for a moment?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 174,
+              "PlotLineKey": "Where did you go?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mingyi",
+          "PlotLineKey": "I asked Tianlang to take over for me when I stepped away.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mingyi",
+          "PlotLineKey": "Tianlang and Duying can both vouch for me! I have an alibi!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 175,
+              "PlotLineKey": "Why was Duying involved?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Mingyi",
+          "PlotLineKey": "There was a package for Duying in the supplies, so... so I just happened to take it to him.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Mingyi",
+          "PlotLineKey": "I had no other suspicious intentions! I promise!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "Oh, youth.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "I'll go find Tianlang next.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "The supply box of Lollo Logistics. The moment it's opened, a pungent fragrance swarms out, but the box is disappointedly empty.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "At the box's bottom, a faint sheen of oil lingers. The delightful scent... can't be mistaken! It's Panhua's Restaurant's Poached Chicken.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "The more you inhale, the hungrier you become. It's probably wise to leave this spot promptly. Perhaps a chat with the nearby Midnight Rangers could shed light on any observations they've made.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Camp Leader",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Camp Leader",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Camp Leader",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Beigu",
+          "PlotLineKey": "No one entered or left the camp.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Maybe I should brace myself for the worst. If that's the case, the thief could only be someone from within the camp.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Beigu",
+          "PlotLineKey": "While you were looking into the entry and exit records, I took the chance to review the surveillance footage from when the supplies were loaded and unloaded.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Mingyi, Tianlang, and Wuheng were present throughout the entire process of loading, unloading, and stocking supplies. You might want to start with them to see if you can uncover any useful clues.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Oh, by the way, the unloading area is a blind spot in the surveillance. Rover, you might discover some hidden clues there. I'm counting on you!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Applicant: Duying<br>Request: Replacement of the upper garment<br>Reason: While rescuing a researcher kidnapped by the Exiles, the upper garment was pierced through by bullets.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Applicant: Kelin<br>Request: Replacement of the hat<br>Reason: Accidentally offended Gray Crested Gulls and therefore received their gifts dropping from the sky all the time.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Looks like Wujing is going to face some challenges too...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Applicant: Wuheng<br>Request: Replacement of the boots<br>Reason: Carrying heavy loads led to severe wear on the heels, causing frequent falls.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "The description seems to align with the shoe print characteristics near the supply box. Just to be sure, go and confirm with the individual involved.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 206,
+              "PlotLineKey": "(Tell Beigu your speculation)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Well, I also have a preliminary speculation. Rover, who do you think took away the supplies?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "Mingyi",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 208,
+              "PlotLineKey": "Tianlang",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 209,
+              "PlotLineKey": "Wuheng",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Beigu",
+          "PlotLineKey": "It's a bit different from what I expected. Maybe it's someone else.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Beigu",
+          "PlotLineKey": "It's a bit different from what I expected. Maybe it's someone else.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Seems like we're on the same page. Let's go talk to Wuheng.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Beigu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Beigu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Young Midnight Ranger",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Young Midnight Ranger",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Young Midnight Ranger",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Young Midnight Ranger",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Young Midnight Ranger",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 212,
+              "PlotLineKey": "",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Beigu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Rover, thank you for your help.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 219,
+              "PlotLineKey": "About Wuheng...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Beigu",
+          "PlotLineKey": "She left her hometown at a young age and has been stationed at the camp for years. No one ever taught her how to handle mistakes, which is why she dealt with them in such a straightforward way.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Beigu",
+          "PlotLineKey": "As a soldier, she left her post without permission, trying to solve a problem that was beyond her ability. She should have placed more trust in her comrades. There's still much for her to learn.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Beigu",
+          "PlotLineKey": "As for those spilled dishes, I'll let Wuheng make up for it by cooking them for us.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Rover, when I return to Jinzhou, let's meet again at Panhua's Restaurant!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

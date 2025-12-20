@@ -1,0 +1,705 @@
+{
+  "Id": 139700001,
+  "Name": "安可的火热大冒险！",
+  "Description": "西沙委托你制作传说中的烟花，这听起来似乎是个很简单的任务……\n\n完成此任务后解锁新的经营伙伴。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700001,
+  "ShowQuestList": [],
+  "QuestDesc": "西沙委托你制作传说中的烟花，这听起来似乎是个很简单的任务……\n\n完成此任务后解锁新的经营伙伴。",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 4,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "——黎爷爷，这是什么啊？看起来好好吃！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "黎叔",
+          "PlotLineKey": "这个叫团圆饼，是今州城传承了几千年的传统点心。尝尝看，它很好吃的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "安可",
+          "PlotLineKey": "几千年……那它肯定有什么有趣的故事吧？黎爷爷，你知道吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "黎叔",
+          "PlotLineKey": "唔……还真有个和团圆饼相关的故事。我想想啊……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "黎叔",
+          "PlotLineKey": "这事啊，还要从瑝珑的两位岁主说起……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "西沙",
+          "PlotLineKey": "……呵。{PlayerName}。我女儿也是这样子，那孩子……一提到故事什么的，简直停不下来。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "西沙",
+          "PlotLineKey": "不过最近，她又开始对烟花感兴趣了。整天缠着我要看烟花。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "西沙",
+          "PlotLineKey": "正好我确实也会这手艺，就在这摆了个摊。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "当父亲还真是辛苦呢……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "西沙",
+          "PlotLineKey": "哈哈，谁说不是呢。不过看到女儿在烟花映照下的笑脸，就感觉……也没那么累了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "西沙",
+          "PlotLineKey": "不过，她这几天说是要看最大最漂亮的烟花。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "西沙",
+          "PlotLineKey": "我这几天一直在试，但是你也看到了，后面堆了一大堆的实验品，没一个能达到她的标准的。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 32,
+              "PlotLineKey": "请继续努力！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "西沙",
+          "PlotLineKey": "那是当然。不过……我最近好像弄到了一个烟花古方。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "西沙",
+          "PlotLineKey": "它上面用的原料都稀奇古怪的，但常言说得好。越怪的东西就越厉害……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "这叫哪门子常言……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 34,
+              "PlotLineKey": "也有那么几分道理。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "西沙",
+          "PlotLineKey": "嗯……所以我觉得那玩意儿有戏！虽然根据我的经验，那配方倒不像是烟花，而像是……爆竹。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "西沙",
+          "PlotLineKey": "配方中的轰鸣硫晶我这还有存货，但剩下两种原料就弄不到了……{PlayerName}，能麻烦你帮忙找找看吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "没问题。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 36,
+              "PlotLineKey": "正好我现在有空。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "西沙",
+          "PlotLineKey": "真的吗？谢……谢谢你！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "就在这时，原本正在听故事的安可突然从{PlayerName}身后冒了出来。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "安可",
+          "PlotLineKey": "你要去冒险吗，{PlayerName}，安可都听到了，安可也想去！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "西沙",
+          "PlotLineKey": "安可，{PlayerName}要去的地方可很危险哦。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "安可",
+          "PlotLineKey": "放心，安可很厉害！安可会保护{PlayerName}的，绝对安全！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "我相信安可的力量。",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 38,
+              "PlotLineKey": "谢谢你。",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "安可",
+          "PlotLineKey": "嗯嗯！还是{PlayerName}了解我！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 17,
+          "Speaker": "安可",
+          "PlotLineKey": "嘿嘿，不用谢，因为{PlayerName}是我的朋友嘛！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 18,
+          "Speaker": "安可",
+          "PlotLineKey": "而且，去寻找秘密烟花的大冒险……一听就是一个很不错的故事！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "西沙",
+          "PlotLineKey": "……呵，那……就拜托你了，安可。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "安可",
+          "PlotLineKey": "交给我们吧！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "首先，我们要在这个地方找爆燃火硝！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "等等，爆燃火硝……这是什么东西啊。听上去就很危险。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "木炭的话，篝火附近应该能找到吧？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "{PlayerName}，我们一起找吧！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "原来这就是爆燃火硝啊……看起来和普通的土也差不多嘛。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "它真能用来做烟花吗？",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "这就是低频木炭吗……嗯，收集完成！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "这样应该就都搞定了，{PlayerName}！我们回去找西沙叔叔吧！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "西沙",
+          "PlotLineKey": "哦，你们回来了？这么快就找到原料了吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "对啦，任务完成！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "西沙",
+          "PlotLineKey": "呵……在这里稍等一下吧，{PlayerName}。我去制作烟花。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "过了一会，西沙谨慎地把做好的烟花交给了你。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "西沙",
+          "PlotLineKey": "奇怪……感觉……它不太像我之前做过的烟花，但也不像爆竹。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "西沙",
+          "PlotLineKey": "保险起见，{PlayerName}……能请你们去没人的地方放几个试试吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "西沙",
+          "PlotLineKey": "一定要注意安全。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 189,
+              "PlotLineKey": "交给我们吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "安可",
+          "PlotLineKey": "耶，去放烟花咯！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "嗯……{PlayerName}，就在这里试试吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "放在地上，然后点火……然后就有美丽的烟花看啦，嗯哼哼～",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "等等，好像不太对……把它扔出去，安可！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "咳咳……{PlayerName}，你……你没事吧！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 201,
+              "PlotLineKey": "这威力……有点强得过分了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 202,
+              "PlotLineKey": "你怎么样，安可？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "嗯，安可好好的，并没有受伤。也没有被吓到。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "安可",
+          "PlotLineKey": "但是……烟花应该是这样的吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "不，这是威力很强的爆竹。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "大概是西沙搞错了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "安可",
+          "PlotLineKey": "是这样啊……看来西沙叔叔没办法向他家里的妹妹交差了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "安可",
+          "PlotLineKey": "……{PlayerName}，你听到什么声音了吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "是残象，它们大概是被爆炸引来的。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 208,
+              "PlotLineKey": "而且，它们的数量好像还不少。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "安可",
+          "PlotLineKey": "{PlayerName}，安可有个好主意。你那里还有没放完的爆竹吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 209,
+              "PlotLineKey": "你是说……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "安可",
+          "PlotLineKey": "没错！尝试没试过的新事物，也是冒险最重要的一环！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "……爆竹都用得差不多了，不过残象也被解决掉了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "我们回去吧，{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "西沙",
+          "PlotLineKey": "{PlayerName}，安可！烟花怎么样，是不是非常华丽？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 227,
+              "PlotLineKey": "有点过于“华丽”了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 228,
+              "PlotLineKey": "那不是烟花……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "西沙",
+          "PlotLineKey": "怎……怎么回事？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "{PlayerName}向西沙讲述了刚才发生的事。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "西沙",
+          "PlotLineKey": "……原来如此。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "西沙",
+          "PlotLineKey": "抱歉啊，{PlayerName}。你和安可……没受伤吧？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "安可",
+          "PlotLineKey": "没有没有，是{PlayerName}保护了我！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "西沙",
+          "PlotLineKey": "那就好。唉。我果然还是毁掉那个配方好了。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 229,
+              "PlotLineKey": "且慢。说不定……它还有别的用处。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "西沙",
+          "PlotLineKey": "你是说……它可以用来对付残象？不错的主意，这倒是个意外收获……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "西沙",
+          "PlotLineKey": "我去找我们呜呜物流的快递员，让他们也用用看看……谢谢你们了，{PlayerName}！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "安可",
+          "PlotLineKey": "不用谢！安可也收获了超级有趣的故事！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "安可",
+          "PlotLineKey": "{PlayerName}和羊咩干掉了森林中的大怪物，虽然没能找到公主最喜欢的花，但是森林还是恢复了往日的平静！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "西沙",
+          "PlotLineKey": "……你听懂了吗，{PlayerName}？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 230,
+              "PlotLineKey": "大概听懂了。",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 231,
+              "PlotLineKey": "我也没搞懂。",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "西沙",
+          "PlotLineKey": "唉，如果我也有这种本事就好了……这样我就能弄明白我女儿那些稀奇古怪的愿望都是从哪来的了。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "西沙",
+          "PlotLineKey": "哈……小孩的心思有时候确实也挺难弄明白的。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "西沙",
+          "PlotLineKey": "说到女儿，我还以为这次准能行……看起来，还得找点新配方出来……对，我可不能放弃啊。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "安可",
+          "PlotLineKey": "加油，西沙叔叔……！你一定能做出最好看的烟花的！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "西沙",
+          "PlotLineKey": "嗯嗯，谢谢你，安可！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

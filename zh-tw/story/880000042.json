@@ -1,0 +1,345 @@
+{
+  "Id": 880000042,
+  "Name": "當當蟹怪味挑戰",
+  "Description": "鐺鐺蟹成為當當蟹，是清蒸，紅燒，還是……怪味？",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000042,
+  "ShowQuestList": [],
+  "QuestDesc": "鐺鐺蟹成為當當蟹，是清蒸，紅燒，還是……怪味？",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 880000037,
+        "ChildQuestId": 23
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "薩拉",
+          "PlotLineKey": "{Male=哥哥;Female=姐姐}，你吃過怪味當當蟹嗎？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 84,
+              "PlotLineKey": "吃過啊。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 85,
+              "PlotLineKey": "那是什麼？",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "薩拉",
+          "PlotLineKey": "你吃過！天啊，你真是勇士！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "薩拉",
+          "PlotLineKey": "是一道用當當蟹做成的菜！我覺得敢吃這道菜的都是最棒的勇士！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "薩拉",
+          "PlotLineKey": "尤金說他想成為棒棒的勇士，我和他說那你得吃怪味當當蟹。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "薩拉",
+          "PlotLineKey": "但我們沒有怪味當當蟹，這樣尤金就不能成為勇士了。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "尤金",
+          "PlotLineKey": "不能成為勇士了……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "薩拉",
+          "PlotLineKey": "{Male=哥哥;Female=姐姐}知道在哪可以吃到這道菜嗎？我們可以付錢。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 86,
+              "PlotLineKey": "我給你們帶過來吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "薩拉",
+          "PlotLineKey": "真的嗎？謝謝{Male=哥哥;Female=姐姐}，那我們在這裡等你！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "尤金",
+          "PlotLineKey": "等你來！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "薩拉",
+          "PlotLineKey": "怎麼樣，{Male=哥哥;Female=姐姐}手裡有怪味當當蟹嗎？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 110,
+              "PlotLineKey": "在這裡。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "薩拉",
+          "PlotLineKey": "尤金，你快試試！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "尤金",
+          "PlotLineKey": "這個當當蟹是什麼味道的，應該不會是生太陽魚味道的吧……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "薩拉",
+          "PlotLineKey": "有可能是笨呆海星味的呢，你試試！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 111,
+              "PlotLineKey": "是生太陽魚味。",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 112,
+              "PlotLineKey": "是笨呆海星味。",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 113,
+              "PlotLineKey": "只是當當蟹味。",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "尤金",
+          "PlotLineKey": "啊？！那感覺會腥腥的……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "尤金",
+          "PlotLineKey": "嗯……聽起來咬上去會很有嚼勁……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "尤金",
+          "PlotLineKey": "那應該是什麼味呢……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "薩拉",
+          "PlotLineKey": "尤金，快吃啦！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "尤金",
+          "PlotLineKey": "我……我、我不敢，我不當勇士了。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "薩拉",
+          "PlotLineKey": "尤金！這樣可不好，你說過要成為勇士的！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "薩拉",
+          "PlotLineKey": "唉……{Male=哥哥;Female=姐姐}你看，尤金不敢。但我有個辦法！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "薩拉",
+          "PlotLineKey": "我們試一下這個當當蟹的味道，讓尤金知道這個當當蟹好吃，他就會吃了！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 114,
+              "PlotLineKey": "那讓我吃一口。",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 115,
+              "PlotLineKey": "我不要，你吃吧。",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "在兩個小朋友的期待目光中，你試著吃了一口怪味當當蟹。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "你似乎嚐到了海浪的味道，鹹鹹的，還有點腥。但總的來說很不錯。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "薩拉",
+          "PlotLineKey": "怎麼樣怎麼樣？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 116,
+              "PlotLineKey": "像海浪的味道。",
+              "PlayVoice": false,
+              "JumpToId": 19
+            },
+            {
+              "TextId": 117,
+              "PlotLineKey": "味道不錯。",
+              "PlayVoice": false,
+              "JumpToId": 19
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "薩拉",
+          "PlotLineKey": "那我來吃吧。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "你看著薩拉猶豫了好一會，最終抱起蟹腿啃下一口。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "薩拉",
+          "PlotLineKey": "嗯……味道……還可以，是海浪的味道，好！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 19,
+          "Speaker": "尤金",
+          "PlotLineKey": "真的嗎？我也要試試……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "尤金",
+          "PlotLineKey": "好吃……好吃……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "你們看到尤金的整張臉都要扭到一起了，但他還是吃下去了。真是勇士！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "尤金",
+          "PlotLineKey": "呼……真、真好吃，謝謝你，這下我也是勇士了……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 118,
+              "PlotLineKey": "真是勇士……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 119,
+              "PlotLineKey": "不用逞強的……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "薩拉",
+          "PlotLineKey": "謝謝你啦，{Male=哥哥;Female=姐姐}！這些給你，你讓尤金成為最棒的勇士啦！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

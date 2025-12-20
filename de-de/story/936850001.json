@@ -1,0 +1,1084 @@
+{
+  "Id": 936850001,
+  "Name": "Entdeckung vergangener Helden",
+  "Description": "Die Wolken am Himmel zeugen von hallenden Kriegsschreien, die wilden Lande erinnern sich an die Schritte der Krieger, und tosende Strömungen tragen den flammenden Mut der Tapferen davon. In jeder Ecke dieses Landes glänzen die Spuren einer glorreichen Vergangenheit. Die hoch aufragenden Städte, Türme und gewaltigen Mauern, geschmiedet vom Volk von Septimont, sind der bleibende Beweis ihrer Stärke und Entschlossenheit.\nAm Hafen begegnest du einem Vater und seiner Tochter – mitten in einem hitzigen Streit. Wer hätte gedacht, dass diese unerwartete Begegnung den Auftakt zu einer Reise in die bewegte Geschichte Septimonts bilden würde …",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 936850001,
+  "ShowQuestList": [],
+  "QuestDesc": "Die Wolken am Himmel zeugen von hallenden Kriegsschreien, die wilden Lande erinnern sich an die Schritte der Krieger, und tosende Strömungen tragen den flammenden Mut der Tapferen davon. In jeder Ecke dieses Landes glänzen die Spuren einer glorreichen Vergangenheit. Die hoch aufragenden Städte, Türme und gewaltigen Mauern, geschmiedet vom Volk von Septimont, sind der bleibende Beweis ihrer Stärke und Entschlossenheit.\nAm Hafen begegnest du einem Vater und seiner Tochter – mitten in einem hitzigen Streit. Wer hätte gedacht, dass diese unerwartete Begegnung den Auftakt zu einer Reise in die bewegte Geschichte Septimonts bilden würde …",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100021,
+      "PreQuestName": "Schatten des Ruhms"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 11900018,
+      "PreQuestName": "Schuppe der Vergangenheit"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "Du bist … {PlayerName}, {Male=der Gladiator, der;Female=die Gladiatorin, die} gegen Kandidatin Lupa zum Champion wurde!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 238,
+              "PlotLineKey": "Ja, das bin ich.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 239,
+              "PlotLineKey": "Warum streitet ihr?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Ich bin Nicus. Entschuldige meine Direktheit, aber du kommst genau zur richtigen Zeit.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Als Champion weißt du sicher, was es bedeutet, {Male=ein Gladiator;Female=eine Gladiatorin} von Septimont zu sein. Ich hoffe, du kannst sie überzeugen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Ich war auch mal ein Gladiator. Ich hatte gehofft, meine Tochter Postumia würde in meine Fußstapfen treten, aber sie—",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Ich will keine Gladiatorin sein! Da gibt es überhaupt nichts zu diskutieren!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Postumia streckt ihrem Vater die Zunge raus, rennt davon und verschwindet in einer Menschenmenge.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Verzeihung, jetzt stehe ich da wie ein Dummkopf. Immer, wenn ich mit dem Thema anfange, endet es mit einem Streit.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Aber wie gesagt, vielleicht kannst du sie ja überzeugen. Der Titel des Champions bedeutet den Septimontern viel, das gilt bestimmt auch für Postumia.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Immer, wenn wir streiten, rennt sie zum <span style=\"color:#ffd12f;\" class=\"font-bold\">Titanenknochen-Ödland</span>, um zu schmollen. Ich schicke dir die Koordinaten.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 240,
+              "PlotLineKey": "Willst du sie nicht suchen?",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 241,
+              "PlotLineKey": "Hast du Angst, dass ihr etwas zustößt?",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Zugegeben, ich schneide das Thema Gladiatoren ziemlich häufig an, deshalb ist es nicht selten, dass Postumia davonrennt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Ich könnte nach ihr suchen, aber das würde alles nur noch schlimmer machen. Ich muss ihr Zeit geben, damit sie sich beruhigt.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 12,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Postumia will keine Gladiatorin werden, dabei hat sie eindeutig das Talent dafür. Umso mehr schmerzt mich ihre Entscheidung.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Wenn sie sich voll und ganz der Ausbildung zur Gladiatorin widmen würde, wäre das Ergebnis atemberaubend.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 14,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Meine Belohnung ist für einen Champion vielleicht nur eine Kleinigkeit, aber ich will dich gerne für deine Mühe entschädigen. Ich hoffe nur, dass Postumia auf den richtigen Weg findet.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 242,
+              "PlotLineKey": "Und wenn sie darauf besteht, keine Gladiatorin zu werden?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Dann werde ich andere Methoden probieren. Ich bete dafür, dass sie es eines Tages als Ehre ansieht, eine Gladiatorin sein zu können.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 243,
+              "PlotLineKey": "Ich werde sie nicht zwingen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 244,
+              "PlotLineKey": "Ich will zuerst ihre Sicht der Dinge hören.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Verstehe. Was auch immer du sagst, deine Worte werden bei ihr einen bleibenden Eindruck hinterlassen. Schließlich bist du der Champion von Septimont.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Oh, du bist’s … Tut mir leid, dass ich so wütend geworden bin.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Versteh mich nicht falsch. Ich will zwar keine Gladiatorin werden, aber ich hatte immer Respekt vor Gladiatoren, besonders vor Champions wie dir.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Aber erst mal will ich mich vorstellen: Ich bin Postumia, Septimonts zukünftige offizielle Historikerin!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 192,
+              "PlotLineKey": "Offizielle Historikerin?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 193,
+              "PlotLineKey": "Du willst also keine Gladiatorin werden?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Ja, ich will die Geschichte von Septimont festhalten und für zukünftige Generationen bewahren.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Er hat dich hergeschickt, oder? Tut mir leid, dass er dich in die Sache reingezogen hat.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Am Anfang dachte ich, ich könnte die Ausbildung über mich ergehen lassen und ihm irgendwann sagen, dass ich andere Pläne habe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Aber dann hat er immer mehr Trainingseinheiten angesetzt und sich in den Kopf gesetzt, dass ich unbedingt Gladiatorin werden muss.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 194,
+              "PlotLineKey": "Weil du ein Talent dafür hast.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Ja, ich weiß. Wie gesagt, ich habe großen Respekt vor Gladiatoren. Aber ich will selbst keine Gladiatorin werden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Als Kind war ich fasziniert von der turbulenten Geschichte von Septimont. Ich wollte, dass alle Besucher von dieser blutigen, aber ruhmreichen Vergangenheit erfahren, die den unnachgiebigen Geist unseres Volkes geprägt hat!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Wenn mein Vater nur verstehen würde—",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Moment mal, ich hab’s! Wenn ich alle historischen Stätten von Septimont in einem Buch zusammenstelle und meinem Vater zeige, versteht er mich vielleicht!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Sieh dich mal hier um. Das <span style=\"color:#ffd12f;\" class=\"font-bold\">Titanenknochen-Ödland</span> ist der Ort, an dem die Septimonter zuerst Land betreten haben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Hier stehen Steinsäulen. Felsvorsprünge durchziehen das Land. Unsere Vorfahren haben sich in diesem zerklüfteten Terrain zu Hause gefühlt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Deshalb komme ich her, wenn ich wütend bin. Ich sehe mir die Landschaft an und stelle mir die Freude unserer Vorfahren vor, als sie nach langer Reise hier an Land gingen. In solchen Momenten fühle ich mich von der Vergangenheit motiviert.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Na, was meinst du? Hilfst du mir, Fotos zu machen, damit ich mein Buch fertigstellen kann? Du bist schließlich unser Champion.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Hehe, der Apfel fällt nicht weit vom Stamm …)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Postumia",
+          "PlotLineKey": "„Verdorbene Flut tränkt die Gipfel, der große Drache schreit vor Kummer, bleich und ausgezehrt liegt das Land darnieder.“ Das habe ich in einem Buch unserer Vorfahren gelesen. Es erzählt von der Entdeckung der Gruft des Aschedrachen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Weißt du, Champion, wir Septimonter reden gerne über Stärke und Kämpfe, weil sie unsere Geschichte bis in die heutige Zeit geprägt haben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Der Drache nistete früher oben in den Grenzbergen. Wenn er seine Flügel ausbreitete, verdunkelte sich der Himmel. Sein Schrei konnte die ganze Insel erbeben lassen. Niemand zweifelte je an seiner Stärke.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Aber nach der Dunklen Flut blieb nur eine tragische Tacet-Dissonanz zurück.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 259,
+              "PlotLineKey": "Septimont wird sein Schicksal nicht teilen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Natürlich nicht! Selbst als die Dunkle Flut über Septimont kam, trafen die Wellen auf die riesigen, unerschütterlichen Grenzberge.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Die Berge hielten die Dunkle Flut auf, wurden aber zu dieser grässlich bleichen Gestalt erodiert. So blieb das Feuer von Septimont verschont.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Kannst du es spüren, Champion? In Krisenzeiten verteidigen nicht nur die Septimonter dieses Land, sondern das Land selbst wehrt sich gegen die Bedrohung.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 260,
+              "PlotLineKey": "Das ist es, was Septimont so besonders macht.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Hehe, ein Lob von einem Champion aus einem fernen Land … Das macht mich ganz verlegen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Wir haben das Tal des Ruhms zu Ehren der Helden gebaut, die von der Dunklen Flut getötet wurden. Und wir vergessen auch nicht die großen Drachen, die der Dunkelheit zum Opfer fielen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Schließlich teilen wir diese Welt mit den Drachen. Wir dürfen nicht vergessen, dass sie früher große Macht hatten. Ihr Untergang sollte uns eine Warnung sein.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Belassen wir es fürs Erste dabei, ich möchte das Opfer der Grenzberge in diesem Bild festhalten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Champion, als Nächstes gehen wir zum <span style=\"color:#ffd12f;\" class=\"font-bold\">Klagetal</span>. Dort ist es ein wenig gefährlich, aber davon lassen wir uns nicht abhalten!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Als ich klein war, nahm mein Vater mich mit zu dieser riesigen Statue. Er erzählte mir, wie stark dieser „Held der Helden“ war und welch epische Kämpfe er bestritten hat.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Vielleicht wollte er mich motivieren, härter zu trainieren. Aber ich hatte andere Pläne.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Bücher erzählen davon, wie Fabius, der Held der Helden, an der Seite des Hütenden Imperators gegen die Dunkle Flut kämpfte. Eine sehr bewegende Geschichte. Die Statue ist das perfekte Denkmal für Fabius’ Heldentaten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Ja, das Bewahren der Geschichte sorgt dafür, dass zukünftige Generationen sich immer an ihn erinnern werden. Fabius war ein unglaublich tapferer Krieger, und ich …",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Slovik",
+          "PlotLineKey": "Ist diese Dame nicht auch eine vorzügliche Gladiatorin? Hallo, ich bin Slovik. Ich wurde kürzlich von den Schwarzen Küsten geschickt, um im Observatorium der Dunklen Flut oben auf den Grenzbergen zu arbeiten.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 541,
+              "PlotLineKey": "Fast hätte ich vergessen, dass du auch hier bist.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 542,
+              "PlotLineKey": "Du hast die Grenzberge verlassen, um hier zu faulenzen?",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Slovik",
+          "PlotLineKey": "Es wäre doch unhöflich gewesen, den besinnlichen Moment der jungen Dame hier zu unterbrechen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Slovik",
+          "PlotLineKey": "Außerdem lerne ich gerne über die Geschichte und liebe die septimontische Kultur. Entsprechend froh war ich, als ich hergeschickt wurde.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 8,
+          "Speaker": "Slovik",
+          "PlotLineKey": "Hehe, ich gönne mir nur ab und an ein wenig Freizeit. Ich liebe die septimontische Kultur. Entsprechend froh war ich, als ich hergeschickt wurde.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Slovik",
+          "PlotLineKey": "Ich besuche die Sehenswürdigkeiten, wann immer ich Zeit habe. Und am nächsten Feiertag sehe ich mir einen Gladiatorenkampf an.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 10,
+          "Speaker": "Slovik",
+          "PlotLineKey": "Meine Liebe zu Septimont ist im Laufe der Zeit nur gewachsen, vor allem da die Forschung im Observatorium gut vorankommt. Gleichzeitig ist mir klargeworden, wie schrecklich die Dunkle Flut ist.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Slovik",
+          "PlotLineKey": "Umso mehr bewundere ich Septimont dafür, die Dunkle Flut direkt bekämpft zu haben. Und natürlich die vielen großen Gladiatoren, die diese Stadt auch heute noch zu bieten hat, wie Postumia.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Slovik",
+          "PlotLineKey": "Auch wir versuchen unseren Beitrag zu leisten, indem wir eifrig die Forschung vorantreiben, um die Dunkle Flut zu verstehen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Aber ich … Ja, auch ich werde mein Bestes geben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Also gut, Champion, mach ein Foto von Fabius, dem „Helden der Helden“, der für immer über Septimont wacht.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Danach bringe ich dich zum schlagenden Herzen von Septimont, dem <span style=\"color:#ffd12f;\" class=\"font-bold\">Kapitol</span>.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Bist du bereit, auf unserer Reise zum <span style=\"color:#ffd12f;\" class=\"font-bold\">Kapitol</span> die Wildnis zu durchqueren?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 376,
+              "PlotLineKey": "Ja, gehen wir.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 377,
+              "PlotLineKey": "Ich muss mich erst vorbereiten.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Gut! Die grüne Landschaft des <span style=\"color:#ffd12f;\" class=\"font-bold\">Kapitols</span> erwartet uns!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Kein Problem! Wir treffen uns dort, wenn du bereit bist.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Septimont-Stadt, Kapitol, Greifenfestung. Dieser Ort hat viele Namen und verkörpert die vielen Qualitäten der Septimonter.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Außenstehende, die Septimont nicht verstehen, betrachten uns als stolz und überheblich, weil sie nur aus der Ferne die Silhouette der Stadt sehen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Aber sobald sie uns kennenlernen, merken sie, dass unsere Leidenschaft brennt wie die Sonne, genauso wie unsere Ehre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Egal, von wo in Solaris man stammt – im blühenden und pulsierenden Herzen von Septimont ist man immer willkommen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 565,
+              "PlotLineKey": "Ich bin mit der Gastfreundlichkeit der Stadt vertraut.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 566,
+              "PlotLineKey": "Ich weiß, Septimont ist bereits meine Heimat.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Postumia",
+          "PlotLineKey": "„Mit der Gastfreundlichkeit der Stadt vertraut?“ Du bist doch unser Champion, also {Male=ein waschechter Septimonter;Female=eine waschechte Septimonterin}!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Auf jeden Fall. Als Champion bist du {Male=der Septimonter, der;Female=die Septimonterin, die} unsere Werte repräsentiert!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Wir alle kennen die schweren Zeiten in der Vergangenheit von Septimont, doch diese prächtige Bergfestung steht für unsere ruhmreiche Zukunft.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Eine Zukunft, die ich bewahren werde und die irgendwann zur Vergangenheit wird, auf die unsere Nachkommen zurückblicken werden. Das ist meine Aufgabe als Historikerin.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Aber … ist das wirklich genug? Falls Septimonts Zukunft neue Krisen bringt, wird die Stadt mehr Krieger brauchen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Verschwende ich wirklich mein Talent, wie mein Vater sagt? Wenn die Zeit gekommen ist, werde ich es dann bereuen?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 567,
+              "PlotLineKey": "Du musst diese schwere Last nicht tragen.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 568,
+              "PlotLineKey": "Du solltest das tun, was du wirklich willst.",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Danke für die tröstenden Worte, Champion. Aber mein Vater, er …",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 12,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Danke, dass du mich trösten willst, Champion … aber ich bin ratlos. Soll ich Gladiatorin oder Historikerin werden? Ich …",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Huch? Champion, hast du dieses seltsame Geräusch gehört?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 569,
+              "PlotLineKey": "Ja, klingt nach einem großen Paar flatternder Ohren.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 570,
+              "PlotLineKey": "Du hast ein scharfes Gehör.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Wie von einem Champion zu erwarten, hast du das Geräusch sofort gehört!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Ein Gladiator muss Augen und Ohren immer offenhalten, vor allem wenn es um Echos geht. Das Geräusch muss von schlagenden Flügeln stammen, oder?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Der Ta-da hier hat sich wahrscheinlich verirrt. Ich nehme an, er mag laute Umgebungen. Wenn niemand da ist, bekommt er Angst. Los, suchen wir ihn.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Hallo, Champion. Ich weiß es wirklich zu schätzen, dass du Postumia durch ganz Septimont begleitet hast.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 476,
+              "PlotLineKey": "Ach, die Zeit verging wie im Flug.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 477,
+              "PlotLineKey": "Was für eine ergiebige Reise voller Wissen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Trotzdem muss ich euch von ganzem Herzen danken, vor allem für deine Fotos und Postumias Geschichten. Mir war vorher gar nicht klar, wie reich die Geschichte von Septimont ist.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Jeder Septimonter weiß von den schweren Zeiten, aber was Postumia über die Zukunft gesagt hat, die zur Vergangenheit wird, auf die unsere Nachfahren zurückblicken – das hat mich wirklich bewegt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Ihre Talente beschränken sich nicht auf die einer Gladiatorin. Wenn sie lieber Historikerin werden möchte, muss ich sie dabei unterstützen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Aber … Vater, ich verstehe jetzt, dass ich als Gladiatorin den Kriegergeist von Septimont weitertragen kann.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Mir ist klargeworden, welchen Stellenwert die Gladiatoren bei den Leuten in Septimont haben. Ich kann diesen Weg jetzt nicht einfach verlassen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Champion, du hast mir und Postumia neue Perspektiven eröffnet. Sollte sie deiner Meinung nach lieber Gladiatorin oder Historikerin werden?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 478,
+              "PlotLineKey": "Als Gladiatorin hat sie die Freiheit, das zu tun, was sie möchte.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 479,
+              "PlotLineKey": "Gladiatorin zu sein, ist eine große Verpflichtung.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Freiheit …? Champion, du hast recht! Als Gladiatorin habe ich die freie Wahl!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Also sollte ich Gladiatorin werden?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Oh, ich verstehe. Champion, du willst mir sagen, dass mir als Gladiatorin nicht alle anderen Wege verbaut sind.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Ich kann Gladiatorin werden und noch vieles mehr.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Ich kann Gladiatorin UND Historikerin werden!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Postumia … Heißt das, du setzt die Ausbildung zur Gladiatorin fort?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Ja, wenn ich beides gut kann, warum sollte ich dann eines davon aufgeben?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Es wird ein beschwerlicher Weg, aber wir Septimonter wachsen an Herausforderungen. So ist es doch, oder, Champion?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 480,
+              "PlotLineKey": "Ja, meine gelehrte Kriegerin!",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 481,
+              "PlotLineKey": "Du bist schon jetzt eine erstklassige Gladiatorin.",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Hehe, du hast recht, Champion! Vielleicht redet bald ganz Septimont von mir. Wenn ich in die Arena komme, musst du mich anfeuern!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 17,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Wow, du machst mich noch ganz verlegen. Wenn ich in die Arena komme, musst du mich anfeuern!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 18,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Jedenfalls muss ich mich nochmals bei dir bedanken, Champion.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Danke, dass du mich an all die Orte begleitet hast und mir geholfen hast, meinen Weg zu finden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Machen wir ein letztes Foto vom Kolosseum. Möge der Ruhm, der in seinen Mauern widerhallt, immer mit dir sein.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "Oh nein …",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Warte! Wir kommen!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Champion, danke für deine harte Arbeit.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 608,
+              "PlotLineKey": "Ich wusste, dass du uns die ganze Zeit gefolgt bist.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Vor dem Champion kann man nichts verheimlichen, aber ich habe mir solche Sorgen um meine Tochter gemacht. Ich musste sie finden. Tut mir leid, dass sie dich auf einen Geschichtskurs mitgenommen hat.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Aber jetzt, da du Postumia in Aktion gesehen hast, musst du zugeben, dass es jammerschade wäre, wenn sie nicht in die Arena treten würde.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Sie liebt Septimont so sehr … Als Gladiatorin könnte sie seiner Geschichte am besten ihren Stempel aufdrücken.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 609,
+              "PlotLineKey": "Sie hat nicht nur mich in Septimont herumgeführt.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 610,
+              "PlotLineKey": "Hast du ihr denn nicht zugehört?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Nicht nur dich? Du meinst … sie wusste, dass ich ihr gefolgt bin?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Ich weiß, dass sie Historikerin werden will … Moment mal. Sie weiß, dass ich ihr gefolgt bin?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 611,
+              "PlotLineKey": "Sie hat all das nur für dich erzählt.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Nicus",
+          "PlotLineKey": "All das … über Septimonts Geschichte?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Hmm … Ich verstehe. Champion, darf ich Postumia noch ein wenig folgen? Und sag ihr bitte nichts von unserem Gespräch.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Ich brauche Zeit zum Nachdenken und würde ihre Reise mit dir gerne bis zum Ende begleiten.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Um die <span style=\"color:#ffd12f;\" class=\"font-bold\">Statue von Fabius dem Helden</span> zu erreichen, müssen wir zuerst dieses Meer überqueren. Es ist keine kurze Reise, also lass uns jetzt aufbrechen!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 615,
+              "PlotLineKey": "Ja, gehen wir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 616,
+              "PlotLineKey": "Ich brauche noch Zeit.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

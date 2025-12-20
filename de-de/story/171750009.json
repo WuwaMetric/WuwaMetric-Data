@@ -1,0 +1,814 @@
+{
+  "Id": 171750009,
+  "Name": "Avinoleum-Spuren",
+  "Description": "Ein alter Einsiedler schreibt seine Memoiren in der Akademie. Er wünscht sich einige Bilder von Avinoleum.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 171750009,
+  "ShowQuestList": [],
+  "QuestDesc": "Ein alter Einsiedler schreibt seine Memoiren in der Akademie. Er wünscht sich einige Bilder von Avinoleum.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100019,
+      "PreQuestName": "Die Jungfrau, Die Herausforderin, Die Todesruferin"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 11900018,
+      "PreQuestName": "Schuppe der Vergangenheit"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Entschuldigung, {Male=mein Herr;Female=meine Dame}, ist dir etwas Ungewöhnliches am Himmel aufgefallen?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 24,
+              "PlotLineKey": "Beobachtest du den Himmel?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Ja, das ist eine Angewohnheit von mir.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Einst war Avinoleum ein Wunder, das in ganz Rinascita bewundert wurde. Aber jetzt ist sie nur noch ein Schatten, der am Himmel hängt.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "Ich war schon einmal dort.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 26,
+              "PlotLineKey": "Tatsächlich komme ich gerade daher.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Was? Wie bist du …? Äh, ich spüre, dass du {Male=ein mächtiger Resonator;Female=eine mächtige Resonatorin} bist. Es gibt keinen Grund zu lügen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Entschuldige mein ausschweifendes Gerede. Ich schreibe an meinen Memoiren … eine Abhandlung über die Vergangenheit von Ragunna.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 27,
+              "PlotLineKey": "Die Vergangenheit von Ragunna?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Ja. Vor zwanzig Jahren hat die Dunkle Flut alles verschlungen. Sie hat so viele Dinge und Menschen ausgelöscht, die uns am Herzen lagen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Jemand muss die Ereignisse niederschreiben, sonst werden der Ruhm und die Errungenschaften unserer Vergangenheit für immer verblassen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Aber als ich von Avinoleum berichten wollte, wurde mir klar, dass ich mich kaum erinnern kann, wie sie aussah.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Ich … Meine Erinnerungen an die Akademie verschwinden. Der Ort, an dem ich meine Jugend verbracht habe, an dem ich meinen Glauben stärkte und mich der Selbstdisziplin hingab … alles verblasst.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 28,
+              "PlotLineKey": "Bist du ein Akolyth?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Ich war. Aber wie du siehst, trage ich das Gewand nicht mehr.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Der aktuelle Orden verbietet die Untersuchung der Vergangenheit und vernichtet damit vergangenen Aufzeichnungen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Aber ich habe eine Idee … Wenn du zur Akademie kommst, könntest du ein paar Fotos für mich machen?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Selbst, wenn sie ganz anders aussieht, kommen meine Erinnerungen vielleicht zurück, wenn ich sie sehe … ein paar.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 29,
+              "PlotLineKey": "Überlass es mir.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 30,
+              "PlotLineKey": "Klar, gegen eine entsprechende Bezahlung.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Danke. Über die Jahre konnte ich etwas ansparen. Du musst es nicht umsonst machen.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Natürlich. Über die Jahre konnte ich etwas ansparen. Du musst es nicht umsonst machen.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Bitte nimm diese Karte mit. Ich … brauche sie nicht mehr.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Der alte Mann gibt dir eine leicht vergilbte Karte. Darauf sind einige bekannte Orte abgebildet.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Sie wurde gezeichnet, als Avinoleum noch am Boden stand. Sie zeigt die bekannten Orte von damals.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Selbst jetzt im Himmel kann man noch etwas von der einstigen Schönheit erkennen, glaube ich.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Wenn du kannst … nimm dir etwas Zeit, um die Sehenswürdigkeiten zu bewundern und genieße das Ragunna der alten Tage.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Hmm? Scheinbar ist eine besondere Frequenz in der Nähe aufgetaucht?)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Die nachklingende Frequenz verwandelt sich in unbekannte Stimmen um dich herum.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Vater … Sind wir da? Ist das die Akademie Avinoleum?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "„Vater“",
+          "PlotLineKey": "Ja, Liebling. Wir sind in Avinoleum.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "„Vater“",
+          "PlotLineKey": "Ein Ort, der vom Hütenden gesegnet wurde, wo die göttliche Herrlichkeit zusammenfließt – die Theologische Akademie von Avinoleum.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "„Vater“",
+          "PlotLineKey": "Ab dem heutigen Tag wirst du hier studieren und zu einer Akolythin heranwachsen, die stark genug ist, die Bürde zu tragen, genau wie ich es einst tat.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Aber Vater, gehst du schon wieder?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "„Vater“",
+          "PlotLineKey": "Tut mir leid, Schatz. Es gibt noch weitentfernte Ecken, die den Segen des Hütenden noch empfangen müssen. Ich muss weiter meiner Pflicht nachkommen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "„Vater“",
+          "PlotLineKey": "Aber denke daran, ich komme zu dir zurück, wenn du mich brauchst.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Sie fühlt sich vertraut an …)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Das muss die besondere Frequenz sein. Welche Nachricht wird sie dieses Mal überbringen?)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Die Geräusche und Jubelrufe der Menge erfüllen die Luft. Auf beiden Seiten der Wasserstraße herrscht reges Treiben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Die Stadt Ragunna bricht bei solchen Anlässen immer in Jubel und Freude aus, aber ich hätte nie erwartet, solche Freudentaumel auch hier in der Akademie zu sehen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Die Akolythen, die dem Stück zusehen, drängen sich an den Rändern der Wasserstraße und selbst unsere strengen Professoren tanzen hemmungslos …",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "„Begleiter“",
+          "PlotLineKey": "Es ist Carnevale! Lass uns heute alle Titel und Ränge vergessen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Du hast recht. Der Carnevale überwindet alle Unterschiede und Meinungsverschiedenheiten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "„Begleiter“",
+          "PlotLineKey": "Hey, steh da nicht so rum! Mach mit! Vielleicht können wir sogar einen Blick auf die Gesegnete Jungfrau höchstpersönlich erhaschen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Ich komme gleich.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Eine handgezeichnete Karte der Akademie? Genau wie die, die ich dabeihabe.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Vielleicht ist das kein Zufall.)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Die Krönung der Gesegneten Jungfrau? Moment, ich spüre ein paar Frequenzen der Tacet-Dissonanzen.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Sloppy?",
+          "PlotLineKey": "*Verärgertes und bedrücktes Schreien*",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Du nennst dieses Drachen-Echo … „Sloppy“?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ältere Akolythin",
+          "PlotLineKey": "Genau. Es ist bekannt für sein freundliches, sanftmütiges Wesen und liegt den ganzen Tag herum. Nein, das trifft es nicht. Es ist einfach zu faul, um sich zu bewegen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Darf ich näher ran? Ich möchte es streicheln.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Oh, es fühlt sich so kalt an.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ältere Akolythin",
+          "PlotLineKey": "Hahaha, nimm dir so viel Zeit, wie du willst.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Und was ist mit diesem Riesendrachen dort drüben?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ältere Akolythin",
+          "PlotLineKey": "Siehst du ihn zum ersten Mal? Das ist das Reittier der Gesegneten Jungfrau, Gehinnom. Er wirkt vielleicht einschüchternd, aber er hat eine zarte Seele.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ältere Akolythin",
+          "PlotLineKey": "Apropos, die Krönung der Gesegneten Jungfrau steht kurz bevor.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Ja, ich kann es kaum abwarten.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Im Protokoll steht, dass die Gesegnete Jungfrau bald unter der Kuppel gekrönt wird.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Aber warum fühlt sich die Luft so schwer an?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Das Kreischen der Menge, ihre panischen Schreie und eine unheimliche Hymne hallen ringsum …",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Die Dunkelheit und der erstickende Nebel, der den Himmel verschlingt … Könnte das die Dunkle Flut sein?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Lasst euch von den Liedern nicht verleiten! Lauft! Vorsicht vor den Tacet-Dissonanzen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Jetzt ist nicht die Zeit, um sich zu ergeben. Ich sehe immer noch das Licht der Gesegneten Jungfrau hindurchscheinen. Sie hat noch nicht aufgegeben!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Meine Lampe scheint noch hell und mein Schwert hat noch genug Kraft, um alles Böse zu vernichten, das sich nähert!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Die letzten Worte des Mädchens, hallen in der nachklingenden Frequenz nach.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Ich, Rosalie Seneca, werde mich niemals der Dunklen Flut ergeben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "„Mädel“",
+          "PlotLineKey": "Heh, aber wenn das Glück noch ein letztes Mal auf meiner Seite ist, will ich leben … Ich habe noch so viele Träume, die ich verwirklichen will …",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Und dann kehrt die Stille wieder zurück.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "…",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Andrea",
+          "PlotLineKey": "{Male=Herr;Female=Fräulein}, bist du gerade aus Avinoleum zurückgekehrt?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 159,
+              "PlotLineKey": "(ihm die Bilder der Akademie geben)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Andrea",
+          "PlotLineKey": "…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Das ist wirklich Avinoleum. Diese Türme, diese Säulen … Sie strahlen immer noch so brillant wie damals.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Andrea",
+          "PlotLineKey": "… {Male=Herr;Female=Fräulein}, ich muss dich etwas fragen. Etwas, das ich mich bisher nicht getraut habe zu fragen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Als die Dunkle Flut wütete, studierte meine Tochter, <span style=\"color:#ffd12f;\" class=\"font-bold\">Rosalie</span> in der Akademie. Wie so viele andere auch, verschwand sie.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 160,
+              "PlotLineKey": "…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Denkst du, es ist möglich, dass Rosalie nach all diesen Jahren noch in den Ruinen lebt, abgeschieden von unserer Welt?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Dir wird sofort klar, welche Tragweite diese Frage hat. Zum Tod des Mädchens …",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 161,
+              "PlotLineKey": "Tatsächlich bin ich ihren nachklingenden Frequenzen begegnet.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 162,
+              "PlotLineKey": "(Die Wahrheit behalten und schweigen.)",
+              "PlayVoice": false,
+              "JumpToId": 24
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Andrea",
+          "PlotLineKey": "…! Hat sie etwas gesagt? Bitte, sag mir alles, was du gesehen und gehört hast.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Du erzählst dem alten Mann detailliert, was du gesehen und gehört hast, auch von ihrem Ende.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Die Lippen des alten Mannes beben ganz leicht. Einen Moment lang, der sich ewig anfühlt, wird er ganz still.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Andrea",
+          "PlotLineKey": "An diesem Tag wollte ich mit ihr die Krönung besuchen, aber ich kam zu spät …",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Als ich ankam, war es schon zu spät. Als Vater konnte ich mein eigenes Kind nicht beschützen, als Akolyth das heilige Land nicht retten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 163,
+              "PlotLineKey": "Das war nicht deine Schuld.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Danke … für deine Worte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Immerhin weiß ich, dass meine Tochter als wahre Akolythin starb. Ihr Glaube war unerschütterlich und ihre Seele tugendhaft.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Ich erinnere mich an den Staub ringsherum, als ich Rosalie nach Avinoleum brachte. Das goldene Licht der Abendsonne lies die Kuppel des Hauptturms glitzern.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Und sie fragte mich, wer diesen ruhmreichen Ort gebaut hatte oder ob es ein Segen vom Hütenden war.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Ich erinnere mich nicht mehr, was ich antwortete, aber ich glaube, sie hatte ihre eigene Antwort gefunden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 164,
+              "PlotLineKey": "Es war die Arbeit der Menschen, die vor uns kamen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 165,
+              "PlotLineKey": "Es waren die Mühen aller Menschen, die diese Zivilisation gebaut hatten.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Eines Tages wird das Land von Ragunna in neuem Glanz erstrahlen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Ich verspreche, ich werde diese Memoiren zu Ende schreiben und nicht zulassen, dass ich diese wertvollen Erinnerungen verliere.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Andrea",
+          "PlotLineKey": "… Bis zum nächsten Mal, {Male=Herr;Female=Fräulein}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "(Du sagst nichts und schaust den alten Mann lange mit sanftem Blick an.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Andrea",
+          "PlotLineKey": "… Danke dir. Ich glaube, ich kenne deine Antwort bereits. Das reicht.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Du hast diesem alten, welkenden Herzen einen Funken Hoffnung gegeben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Ich verspreche, ich werde diese Memoiren zu Ende schreiben und nicht zulassen, dass ich diese wertvollen Erinnerungen verliere.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Andrea",
+          "PlotLineKey": "Das ist ein lange überfälliges Geburtstagsgeschenk … Ich weiß, dass sich Rosalie darüber gefreut hätte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Andrea",
+          "PlotLineKey": "… Bis zum nächsten Mal, {Male=Herr;Female=Fräulein}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

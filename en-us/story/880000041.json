@@ -1,0 +1,295 @@
+{
+  "Id": 880000041,
+  "Name": "Go Get Some Fish",
+  "Description": "It's fish-hunting time!",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000041,
+  "ShowQuestList": [],
+  "QuestDesc": "It's fish-hunting time!",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "Old Man and the Whale"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Marco",
+          "PlotLineKey": "Hey there, {PlayerName}! Come over and meet Julien. He's a cat that just can't resist the harbor life.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Marco",
+          "PlotLineKey": "Every time I give him a fish and try to talk about his grand feline aspirations, he meows back at me.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Julien",
+          "PlotLineKey": "Meow!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "What are his feline aspirations?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 55,
+              "PlotLineKey": "Why exactly is he meowing?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Marco",
+          "PlotLineKey": "He vows to achieve peak cat greatness—catching all the critters! Isn't that right, Julien?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Julien",
+          "PlotLineKey": "Meow... Meow!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "Sounds like he's on board.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "Sounds like he's disagreeing with you.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Marco",
+          "PlotLineKey": "No doubt about it! If he fufills his birthright, he'll have all the fish he can eat!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Marco",
+          "PlotLineKey": "Impossible... There's no doubt in my mind he aims to fulfill his birthright. He'll have all the fish he can eat!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Upon hearing the word \"fish,\" Julien begins to meow in excitement. His true feline aspirations are suddenly clear.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "He only meows at you hoping for fish.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "He only hangs around the harbor looking for fish.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 60,
+              "PlotLineKey": "He craves total dominion over all fish.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Marco",
+          "PlotLineKey": "Outrageous! I thought he saw something in me...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 10,
+          "Speaker": "Marco",
+          "PlotLineKey": "How could that be?! It's the cat's dreams we're talking about here. It can't just be about fish!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "Marco",
+          "PlotLineKey": "There's some truth in that. Fish are the crown jewel of a cat's life!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "Marco",
+          "PlotLineKey": "Oh, Julien, tell me it's not true! Is it really just about the fish?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Julien",
+          "PlotLineKey": "Meow, meow!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 61,
+              "PlotLineKey": "Go on. Give him a fish and see.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Marco",
+          "PlotLineKey": "Good idea... But I haven't managed to catch a single one today!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 62,
+              "PlotLineKey": "I've got some fish on me.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 63,
+              "PlotLineKey": "I don't have any on me either.",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Marco",
+          "PlotLineKey": "Oh, really? Would you mind giving me—Ah no, giving Julien a fish?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 16,
+          "Speaker": "Marco",
+          "PlotLineKey": "I see... Well, if you find any fish, would you share some with Julien?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "Marco",
+          "PlotLineKey": "Julien will pay you for it! Well, I'll be the one paying, but you know...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Marco",
+          "PlotLineKey": "Well? Did you catch any fish?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "Here you go.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Marco",
+          "PlotLineKey": "Oh, thank you, I'll give it a try right now! Oh, Julien. Come here, Julien. Come get your fishy.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Julien",
+          "PlotLineKey": "Meow!!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Julien happily takes the fish and devours it in seconds, leaving nothing but bones. He then rubs himself against your hand to show his gratitude.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Marco",
+          "PlotLineKey": "Oh, did you see the way he was munching at that thing?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 73,
+              "PlotLineKey": "Can't say no to a snack.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 74,
+              "PlotLineKey": "It's their crown jewel, after all.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Marco",
+          "PlotLineKey": "Yes, yes! Thank you so much. You helped me realize Julien's real feline aspiration!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Marco",
+          "PlotLineKey": "Here. You earned these!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Julien",
+          "PlotLineKey": "Meow, meow!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

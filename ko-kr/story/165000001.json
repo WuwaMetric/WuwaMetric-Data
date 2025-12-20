@@ -1,0 +1,442 @@
+{
+  "Id": 165000001,
+  "Name": "선원이 남긴 보물",
+  "Description": "바다에 보물을 남긴다고 다 해적이라 할 순 없다. 그저 보통의 선원일 수도 있고... 또 선장일 수도 있으니 말이다",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 165000001,
+  "ShowQuestList": [],
+  "QuestDesc": "바다에 보물을 남긴다고 다 해적이라 할 순 없다. 그저 보통의 선원일 수도 있고... 또 선장일 수도 있으니 말이다",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "노인, 물고기와 바다"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "토레토",
+          "PlotLineKey": "성직자 아가씨잖아? 또 무슨 일로 온 거야?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "토레토 씨, 「선원의 보물」에 대해 더 알고 싶어서 왔어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "토레토",
+          "PlotLineKey": "수도회 사람도 보물에 신경을 쓰나?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "페비",
+          "PlotLineKey": "그, 그건 아닌데... 실은...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "토레토",
+          "PlotLineKey": "뭐, 상관없어! 너희 말고도 보물 찾는 사람들은 널렸거든. 어차피 아무도 못 찾겠지만",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "저희가 찾을 수 있을지도 모르죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "토레토",
+          "PlotLineKey": "자신 있나 본데! 하지만 천도의 나라 시대는 너무 오래전이라, 전해 내려온 이야기 말고 전설이 사실인지 아닌지 증명할 길은 없어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "토레토",
+          "PlotLineKey": "딱히 단서가 없으니까 사람들도 마구 찾고 보는 거지. 군도를 샅샅이 뒤져도 보물은 코빼기도 안 보였지만",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 26,
+              "PlotLineKey": "이 선원에 대한 다른 이야기는 없나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "토레토",
+          "PlotLineKey": "어디 보자... 「떠도는 곤돌라」 이야기도 있고... 「어왕의 주인」 이야기도 있고...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 27,
+              "PlotLineKey": "「떠도는 곤돌라」에 관하여",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 28,
+              "PlotLineKey": "「어왕의 주인」에 관하여",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 29,
+              "PlotLineKey": "더 알고 싶은 게 없어요",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "토레토",
+          "PlotLineKey": "전설에 따르면 선원은 곤돌라를 타고 여기에 왔다고 해. 그 배는 선원이 사라진 뒤에도 늘 군도 사이를 떠돌며 주인이 돌아오기를 기다리고 있다고 하지",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 10,
+          "Speaker": "토레토",
+          "PlotLineKey": "어왕은 물고기의 왕으로, 낚는 게 하늘의 별 따기보다 어려운 물고기야. 그런데 전설에 따르면, 선원이 이 해역에서 어왕 한 마리를 잡았다고 하더라고",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "토레토",
+          "PlotLineKey": "그런데 그 후로 어왕을 잡은 사람은 아무도 없었대. 섬에는 이런 전설이 전해지고 있지. 「선원과 같은 위대한 자만이 어왕의 응답을 받을 수 있다」고...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 12,
+          "Speaker": "토레토",
+          "PlotLineKey": "자, 이 정도면 많이 알려줬으니, 이제 맘껏 시도해 봐. 과연 보물을 찾을 수 있을지는 모르겠지만",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 0,
+          "Speaker": "페비",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "페비는 에코와 소통을 시도하며 그가 전해온 정보를 이해하는 중이다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "정말 뭔가 알고 있는 것 같은데, 열심히 우리한테 방향을 알려주고 있어... 이쪽으로 가볼까?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "네, 가보죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "아합",
+          "PlotLineKey": "또 만났구먼! 응? 손에 있는 그건 뭔가?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "페비는 보물을 찾아낸 일에 대해 아합에게 알려주며 상자 안을 보여준다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "아합",
+          "PlotLineKey": "이게 바로 그 전설의 선원이 남긴 상자라고?! 빨리 보여주게!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "아합",
+          "PlotLineKey": "음... 글자가 뭔가에 덧씌워져 있어서 잘 안 보이는 거였구먼. 내가 해결해 보겠네.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "아합은 근처에서 특수 식물을 찾아, 즙을 짜서 상자 위에 발랐다. 그러자 상자 안의 글자가 선명해지기 시작했다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "아합",
+          "PlotLineKey": "자. 이건 우리 지역의 오래된 비밀 문자 같은 거거든. 이제 잘 보일 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "아합",
+          "PlotLineKey": "「단번에 성공하는 건 없다. 진실은 하나하나 맞춰지는 것이다」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "페비",
+          "PlotLineKey": "...진정한 보물을 찾으려면 다른 조각을 모아서 보물 지도를 완성해야 한다는 의미인 것 같은데...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "페비",
+          "PlotLineKey": "앞으로도 계속 알아봐야겠는걸",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "아합",
+          "PlotLineKey": "선원이 마지막으로 남긴 물건은 뭘까? 어마어마한 재산? 오래된 보물?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "페비",
+          "PlotLineKey": "어왕일지도...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "아합",
+          "PlotLineKey": "뭐? 하하하! 성직자도 이런 농담을 할 줄 아는구먼",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 53,
+              "PlotLineKey": "감사합니다. 보물을 찾게 되면 가져다드릴게요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "아합",
+          "PlotLineKey": "마음만 받겠네. 난 지금도 아주 만족스러워서 아무것도 바랄 게 없거든. 뭘 찾든 간에 자네가 갖도록 하게!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 0,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "진짜 찾을 줄이야... 이 안에 있는 건...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "완전하지 않은 보물 지도인 것 같아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "상자 안에 무언가 적혀있는데. 음... 잘 안 보이네. 이상한 글자야",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 39,
+              "PlotLineKey": "이곳 사람에게 물어보죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "페비",
+          "PlotLineKey": "{PlayerName}. 여기서 들은 재밌는 이야기가 있는데, 한번 들어볼래?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "무슨 이야기요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "페비",
+          "PlotLineKey": "이 섬의 어민들에게 대대로 전해 내려오는 전설이야. 리나시타의 「천도의 나라」 시대에, 한 유랑하던 선원이 리졸리 군도를 지배하고 있었다고 해",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "페비",
+          "PlotLineKey": "그 사람은 평생 펑펑 쓰고도 남을 재산을 갖고 있었지만, 누구도 그 재산이 어디서 난 건지는 알 수 없었대",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "페비",
+          "PlotLineKey": "선원은 넘쳐흐르는 황금으로 굳건한 성지를 만들어서, 그곳에 사는 사람들한테 부유하고 평화로운 생활을 가져다줬다고 하지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "페비",
+          "PlotLineKey": "그런데 사람들이 선원을 위해 사당을 지으려고 할 때 즈음, 갑자기 사라져 버렸대",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "페비",
+          "PlotLineKey": "사람들 말로는 자신의 어두운 과거와, 그 과거에 얽힌 복수를 하러 바다로 나갔다고 전해지지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "페비",
+          "PlotLineKey": "그렇게 선원은 자기가 가진 보물 중 가장 귀한 것을 리졸리 군도에 남기고는, 홀로 복수의 길을 떠나 다시는 돌아오지 않았다고 해",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "페비",
+          "PlotLineKey": "선원은 대체 어떤 보물을 남겼을까? 분명 자신한테 엄청 소중한 물건이겠지?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 11,
+              "PlotLineKey": "우리 찾으러 가봐요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 12,
+              "PlotLineKey": "보물이 우리를 기다리고 있어요!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "페비",
+          "PlotLineKey": "관심 있어 할 줄 알았어. 그럼 이 전설에 관해 잘 아는 사람한테 물어보러 가자. 새로운 단서가 나올지도 모르잖아",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "아합의 기록",
+          "PlotLineKey": "「분명 그 전설 속의 선원이 남긴 보물을 찾은 누군가가 있겠지」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "아합의 기록",
+          "PlotLineKey": "「잘 안 보이면 수초의 즙을 짜내서 위에 바르면 돼」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "아합의 기록",
+          "PlotLineKey": "「응? 당연히 아무 수초나 상관없지. 특별한 수초랄 게 있겠나?」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "아합의 기록",
+          "PlotLineKey": "「단번에 성공하는 건 없다. 진실은 하나하나 맞춰지는 것이다」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "아합의 기록",
+          "PlotLineKey": "「찾아라... 그리고 보물 지도를 완성해라. 너희는... 과연 무엇을 찾을 수 있을까?」",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

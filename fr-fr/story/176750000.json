@@ -1,0 +1,647 @@
+{
+  "Id": 176750000,
+  "Name": "Puisse une ovation t'accueillir",
+  "Description": "Il paraît qu'un camp de chasse à proximité a été attaqué. Allez voir ce qui s'est passé.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 176750000,
+  "ShowQuestList": [],
+  "QuestDesc": "Il paraît qu'un camp de chasse à proximité a été attaqué. Allez voir ce qui s'est passé.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100025,
+      "PreQuestName": "Par la main brûlante du soleil"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gladiatrice inquiète",
+          "PlotLineKey": "Que s'est-il passé, dans ce campement-là ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gladiatrice inquiète",
+          "PlotLineKey": "Je sens comme quelque chose de sombre, sale et dangereux…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Gladiatrice inquiète",
+          "PlotLineKey": "J'ai l'impression que c'est urgent, mais j'ai encore des choses à régler ici…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 204,
+              "PlotLineKey": "Ne vous inquiétez pas. Je vais jeter un œil.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Attends, {Male=jeune homme;Female=jeune fille}…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Navré de te déranger, mais… Je n'ai personne d'autre vers qui me tourner.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Pourrais-tu m'aider à trouver mes enfants ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Arctos",
+          "PlotLineKey": "La Marée noire sème le chaos, et tant de vies innocentes ont été perdues. Les âmes qui ont sombré dans la folie ont mis le campement sens dessus dessous.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Tout est en ruines. Mes amis ont péri. Mes enfants ont disparu. Quant à moi… je suis blessé, et incapable de quoi que ce soit.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Il y a des jours où je déteste ces vieux os… J'ignore même si c'est la Marée noire ou le poids des années qui m'a rendu aussi faible.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 15,
+              "PlotLineKey": "Je vous aiderai à trouver vos enfants.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 16,
+              "PlotLineKey": "Ne vous en faites pas, je m'en occupe.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Merci. Décidément, les jeunes gens dans ton genre débordent de courage.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Quant à mes enfants… Il me semble que la dernière fois que je les ai vus, c'était juste avant de m'évanouir. Ils courraient en direction des portes métalliques.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Wootter blessé",
+          "PlotLineKey": "Woot ter… Woot ter ter… Ter ter !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Abby, j'ai besoin de tes services d'interprétation d'Échos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Abby",
+          "PlotLineKey": "Abby, ta fidèle interprète personnelle des Échos, à ton service ! Ahem… je passe en mode interprétation immersive !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Abby",
+          "PlotLineKey": "Biiip... Chargement terminé ! En attente d'une demande d'interprétation…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Grâce à Abby, vous pouvez désormais comprendre ce que dit le Wootter.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "« Wootter »",
+          "PlotLineKey": "Woo ! Danger droit devant !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 29,
+              "PlotLineKey": "Je cherche quelqu'un.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 30,
+              "PlotLineKey": "Tu as vu des enfants passer par ici ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Abby transmet vos paroles au Wootter. Son visage rondelet se plisse de confusion.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "« Wootter »",
+          "PlotLineKey": "Wootter n'a vu personne. Très dangereux. Gros monstre là-bas !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "« Wootter »",
+          "PlotLineKey": "Wootter et amis protègent campement et fouillent extérieur. Wootter blessé. Doit rester ici.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "« Wootter »",
+          "PlotLineKey": "Mais amis de Wootter un peu plus loin. Amis vont t'aider !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Le Wootter s'arrache une touffe de fourrure et vous l'offre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "« Wootter »",
+          "PlotLineKey": "Suis l'odeur ! Elle mène à eux !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Tu peux me traduire ça, Abby ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Abby",
+          "PlotLineKey": "Traduction en cours…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "« Wootter effrayé »",
+          "PlotLineKey": "Woo ! Trop peur !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "« Wootter reconnaissant »",
+          "PlotLineKey": "Merci !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "« Wootter survivant »",
+          "PlotLineKey": "Ouh la la… Si les monstres de Marée noire blessent Wootter… Wootter fera peur aussi…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "« Wootter survivant »",
+          "PlotLineKey": "Non ! Wootter ne veut pas devenir gros monstre qui fait peur !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Excuse-moi, aurais-tu vu des enfants passer par ici ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "« Wootter survivant »",
+          "PlotLineKey": "Enfants ? Enfants humains ? Wootter ne voit pas enfants.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "« Wootter reconnaissant »",
+          "PlotLineKey": "Que Wootters et monstres ici. Pas enfants humains.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "« Wootter effrayé »",
+          "PlotLineKey": "Trop dangereux. Aucun enfant humain ne veut jouer ici…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "« Wootter effrayé »",
+          "PlotLineKey": "Woo ter ter ter ! Pitchoun ! Où est Pitchoun ? Pitchoun pas avec nous !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "« Wootter survivant »",
+          "PlotLineKey": "Pitchoun… Le petit d'Arctos ? Est-ce que les monstres ont attrapé Pitchoun ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "« Wootter reconnaissant »",
+          "PlotLineKey": "Sauve Pitchoun ! Aide-nous ! S'il te plaaaaaaaît !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Ils prétendent ne pas avoir vu d'enfants humains… mais une seconde. Ce « Pitchoun » serait-il un des enfants d'Arctos ?)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(On n'a qu'un seul moyen de le découvrir.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "D'accord, j'irai chercher Pitchoun.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "« Wootter reconnaissant »",
+          "PlotLineKey": "Merci, woo ! Tu es {Male=gentil humain;Female=gentille humaine} !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "« Pitchoun »",
+          "PlotLineKey": "Woo… Hmm, m-merci, ter !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Ta blessure est grave. Tu ne devrais pas combattre dans cet état.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "« Pitchoun »",
+          "PlotLineKey": "J-Je dois retrouver Dodu !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Pitchoun a la respiration lourde. Il est clairement blessé, mais semble prêt à repartir à toute vitesse.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Tout doux. Pour l'instant, rentre au campement pour soigner tes blessures. Il faut que tu reprennes des forces avant de reprendre ta mission.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "« Pitchoun »",
+          "PlotLineKey": "Woo… D'accord. Pitchoun sait où est Dodu. Pitchoun devrait d'abord voir Arctos !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "De retour au campement, Arctos remarque les blessures de Pitchoun et les panse.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Est-ce que tu vas bien, Pitchoun ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "« Pitchoun »",
+          "PlotLineKey": "Ne t'en fais pas, ter ! Mais… Dodu est encore en danger…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Tout ira bien, Pitchoun. Je suis juste heureux que tu sois rentré sain et sauf.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Donc, c'est bien l'un des enfants que vous recherchiez ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Oui… Mais tant qu'« il » rôdera, le cauchemar ne s'arrêtera jamais.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "« Pitchoun »",
+          "PlotLineKey": "Pitchoun a trouvé Dodu ! Mais Dodu est bizarre… Dodu caché dans la grotte, derrière gros caillou.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Arctos",
+          "PlotLineKey": "{Male=Jeune guerrier;Female=Jeune guerrière}, pourrais-tu nous accompagner dans cette grotte. Je devrais m'en charger seul, mais Pitchoun et moi sommes tous les deux blessés...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Laissez-moi faire. Vous deux, restez ici et reposez-vous.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Non… C'est à moi de mettre un terme à cette histoire, et de mes propres mains.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Merci, {PlayerName}. Mes enfants sont tous rentrés chez eux.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Pitchoun",
+          "PlotLineKey": "Woo ter, woo ter ter, ter…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Notre nouveau campement a également été rebâti.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Arctos",
+          "PlotLineKey": "La Marée noire aura beau le détruire, tant que l'un d'entre nous restera en vie, il sera sans cesse reconstruit.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Arctos",
+          "PlotLineKey": "J'ai attaché la plume de Dodu à la queue du Hornett du campement.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Les plumes de sa queue viennent généralement des casques de gladiateurs. Aujourd'hui, je comprends véritablement ce que ça signifie.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Arctos",
+          "PlotLineKey": "La Marée noire peut effacer nos esprits, elle peut effacer nos corps, mais elle ne pourra jamais effacer notre courage, notre détermination à lutter et à aller de l'avant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Dodu était un gladiateur digne d'honneurs.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Arctos",
+          "PlotLineKey": "La Marée noire aura beau revenir encore et encore, nous repousserons toujours ses assauts, jusqu'à ce que les ovations de la victoire résonnent de nouveau sur ces terres.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Arctos",
+          "PlotLineKey": "C'est ce que Dodu aurait voulu.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Arctos",
+          "PlotLineKey": "Puisse une ovation accueillir à nouveau ce monde !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gladiateur rassuré",
+          "PlotLineKey": "Le danger a l'air de s'être évaporé. Tu lui as réglé son compte ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 211,
+              "PlotLineKey": "Oui, c'était bien moi.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 212,
+              "PlotLineKey": "Je ne suis qu'{Male=un voyageur;Female=une voyageuse} qui aime rendre service.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gladiateur rassuré",
+          "PlotLineKey": "Merci infiniment.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Gladiateur rassuré",
+          "PlotLineKey": "Tu es trop modeste.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Gladiateur rassuré",
+          "PlotLineKey": "Je vois que tout le monde met la main à la pâte pour reconstruire le camp.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Gladiateur rassuré",
+          "PlotLineKey": "Oui, ils débordent de motivation.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Gladiateur rassuré",
+          "PlotLineKey": "Voilà qui m'apaise. À présent, je peux me concentrer sur la défense de cet endroit.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "À en juger par les touffes de fourrure disséminées çà et là, un combat acharné a dû avoir lieu ici.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "L'heure étant apparemment à l'urgence, vous pressez le pas.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "« Dodu »",
+          "PlotLineKey": "Pitchoun et Arctos se sont échappés… Personne blessé…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "« Dodu »",
+          "PlotLineKey": "Dodu peut rentrer à la maison…",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

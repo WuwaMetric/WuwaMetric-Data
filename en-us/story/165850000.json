@@ -1,0 +1,396 @@
+{
+  "Id": 165850000,
+  "Name": "Whispers of the Waves",
+  "Description": "Eri, a self-proclaimed member of the Pioneer Association, comes to the cafe and asks for your help in recovering the memories scattered in the Irideglow…",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 165850000,
+  "ShowQuestList": [],
+  "QuestDesc": "Eri, a self-proclaimed member of the Pioneer Association, comes to the cafe and asks for your help in recovering the memories scattered in the Irideglow…",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100031,
+      "PreQuestName": "Flowing Starlight in the Iris"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 11900018,
+      "PreQuestName": "Scale of Past"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Welcome back, Passenger! Perfect timing! Someone came here looking for you. Said it's something important.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 14,
+              "PlotLineKey": "A customer in the coffeehouse?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 15,
+              "PlotLineKey": "Someone we know?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Yes! What a happy occasion!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Nope, a new face! Oh, this calls for a celebration!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Thanks to you and Chisa breaking Honami's loop, Shashou Cafe finally has a new visitor. Who knows, this cafe might just hum with life again.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 16,
+              "PlotLineKey": "About that customer…",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 17,
+              "PlotLineKey": "Do you know anything else?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Namipon",
+          "PlotLineKey": "She said she's from the Pioneer Association. She seemed... troubled by a \"membership appraisal.\"",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Namipon",
+          "PlotLineKey": "We chatted. She asked about nice spots for pictures. I suggested the fountain.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Namipon",
+          "PlotLineKey": "The cherry blossoms there are in full bloom. They won the vote for... \"Honami Crossing's Most Scenic Spot\"!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 18,
+              "PlotLineKey": "Pioneer Association...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 19,
+              "PlotLineKey": "Membership...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Uh-huh. Whenever that came up, things got a bit heavy…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Namipon",
+          "PlotLineKey": "Too complicated. Not for a capybara like me. It's best you ask her yourself.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Namipon",
+          "PlotLineKey": "The cafe needs me, so I'll leave you to it, Passenger.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Right. To the fountain it is.)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Eri",
+          "PlotLineKey": "Hi, I'm Eri from the Pioneer Association. Finally, we meet!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(A Left Behind, but doesn't seem local. Where did she come from?)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(...Unusual. Better figure out her intentions first.)",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 43,
+              "PlotLineKey": "I'm {PlayerName}.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 44,
+              "PlotLineKey": "Namipon said you were looking for me?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Eri",
+          "PlotLineKey": "Ah, yes! The \"Dark Legend of Justice\"! Please, I have a request for you!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 45,
+              "PlotLineKey": "…\"Dark Legend of Justice\"?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 46,
+              "PlotLineKey": "Are you talking about me?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Eri",
+          "PlotLineKey": "Of course! I recognized you immediately.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Eri",
+          "PlotLineKey": "You're the \"Mysterious Scissorswoman's\" partner. The black-haired hero, Honami's newest urban legend!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Eri",
+          "PlotLineKey": "It's not just that you're strong enough to fight the TDs. It's why you do it. People can see you're genuinely trying to protect this city.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 47,
+              "PlotLineKey": "Heh, \"Mysterious Scissorswoman\"...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 48,
+              "PlotLineKey": "Another bizarre nickname.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Eri",
+          "PlotLineKey": "C'mon, legends need cool titles. It's part of the appeal!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Eri",
+          "PlotLineKey": "Anyway, the real reason I sought you out is because I need your help with a project. I want to photograph Honami City.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Eri",
+          "PlotLineKey": "This isn't just for fun. It's for my membership appraisal. I call myself a member of the Pioneer Association, but I'm technically still pending membership review.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 49,
+              "PlotLineKey": "Membership review?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 50,
+              "PlotLineKey": "Now things are getting heavy.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Eri",
+          "PlotLineKey": "I've been a huge fan of Wutherium Geographic magazine since I was a kid. Joining the Pioneer Association as an editor? That's the dream.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Eri",
+          "PlotLineKey": "But the Editorial Board has a crazy appraisal process. You have to pitch a project that aligns with the Association's mission, pull off a photoshoot, secure approval, and get it published.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Eri",
+          "PlotLineKey": "I finally chose my theme, but now the streets are blocked, TDs are popping up everywhere, and my Terminal decided to die on me!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Eri",
+          "PlotLineKey": "I was totally out of options until I started hearing about your heroics... Please, you have to help me! This is my one shot!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 51,
+              "PlotLineKey": "All right. I'll help you.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 52,
+              "PlotLineKey": "And the reward for all this?",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Eri",
+          "PlotLineKey": "Thank you, Dark Legend of Justice! Don't worry, I won't let you work for free!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 16,
+          "Speaker": "Eri",
+          "PlotLineKey": "Oh, don't worry. I'm not about to let a legendary hero work for free!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "Eri",
+          "PlotLineKey": "Let's get started then. Please, take a photo of this fountain at its absolute best.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Eri",
+          "PlotLineKey": "This place... it used to be so full of life. You could see tired shoppers stopping by, listening to the water, stealing a moment of peace.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Eri",
+          "PlotLineKey": "Just like Shashou Cafe, this fountain became a landmark in Honami Crossing. It's a memory... the feeling of being perfectly content.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Eri",
+          "PlotLineKey": "The lighting, the framing, the timing… perfect. Just perfect!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Eri",
+          "PlotLineKey": "Seeking out your help couldn't have been more right. Thank you! And of course, I have Namipon to thank for introducing us.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Eri",
+          "PlotLineKey": "Honami's mascot always brings luck. Wherever Namipon goes, good things follow.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Eri",
+          "PlotLineKey": "So, it's only fitting that our next stop has a whole lot more Namipons!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 413,
+              "PlotLineKey": "Alright. Let's go.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 414,
+              "PlotLineKey": "Maybe later.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

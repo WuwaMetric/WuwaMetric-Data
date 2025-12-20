@@ -1,0 +1,2480 @@
+{
+  "Id": 100014,
+  "Name": "Comme un petit navire qui flotte",
+  "Description": "Acte II Prologue",
+  "MaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_10.png",
+  "FemaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_10.png",
+  "AreaIcon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/UiArchive/Atlas/SP_ArchiveAreaLinaxita.png",
+  "ShowQuestList": [
+    114000026
+  ],
+  "QuestDesc": "La Gardienne du Littoral pourrait avoir des indices sur les fréquences affaiblissantes d'Abby. Se rendre au Littoral noir pour le découvrir.",
+  "Unlock": [
+    {
+      "Id": 100015,
+      "Name": "Respiration de la Brise sacrée",
+      "Type": 1
+    },
+    {
+      "Id": 123900001,
+      "Name": "Quest_123900001_QuestName_123_1",
+      "Type": 2
+    },
+    {
+      "Id": 123900002,
+      "Name": "Quest_123900002_QuestName_123_2",
+      "Type": 2
+    },
+    {
+      "Id": 123900003,
+      "Name": "Quest_123900003_QuestName_123_2",
+      "Type": 2
+    },
+    {
+      "Id": 123900004,
+      "Name": "Quest_123900004_QuestName_123_2",
+      "Type": 2
+    },
+    {
+      "Id": 123900005,
+      "Name": "Quest_123900005_QuestName_123_2",
+      "Type": 2
+    },
+    {
+      "Id": 123900006,
+      "Name": "Quest_123900006_QuestName_123_2",
+      "Type": 2
+    },
+    {
+      "Id": 123900007,
+      "Name": "Quest_123900007_QuestName_123_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900003,
+      "Name": "Quest_157900003_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900004,
+      "Name": "Quest_157900004_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 148900000,
+      "Name": "Quest_148900000_QuestName_148_1",
+      "Type": 7
+    },
+    {
+      "Id": 157900013,
+      "Name": "Quest_157900013_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900014,
+      "Name": "Quest_157900014_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900015,
+      "Name": "Quest_157900015_QuestName_157_3",
+      "Type": 2
+    },
+    {
+      "Id": 157900016,
+      "Name": "Quest_157900016_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900017,
+      "Name": "Quest_157900017_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900018,
+      "Name": "Quest_157900018_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900019,
+      "Name": "Quest_157900019_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 157900020,
+      "Name": "Quest_157900020_QuestName_157_2",
+      "Type": 2
+    },
+    {
+      "Id": 100030,
+      "Name": "L'aurore de la ville déserte",
+      "Type": 1
+    }
+  ],
+  "Chapters": [
+    {
+      "Title": "Partir pour le Littoral noir"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Ça fait longtemps... comment ça va ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "J'appelle parce que j'ai du nouveau au sujet de la situation d'Abby.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Lorsque tu auras un moment, pourrais-tu revenir au Littoral noir ? Je serai là quel que soit le moment de ta visite.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Rencontrer la Gardienne du Littoral"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "...Tu es de retour.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 943,
+              "PlotLineKey": "Oui, je le suis.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 944,
+              "PlotLineKey": "Pourquoi joues-tu toute seule ?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Le Littoral noir accueille ton retour.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Je m'exprime par la musique... comme tu me l'as appris.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Je t'ai fait venir ici pour parler d'Abby. As-tu remarqué si elle avait plus faim ou s'elle était plus fatiguée récemment ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 945,
+              "PlotLineKey": "Oui, ça se voit plus ces derniers temps.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Alors, mes soupçons étaient fondés...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "La fréquence inhabituelle que j'ai remarquée vient d'Abby. C'est un changement subtil, mais il est de plus en plus fort.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Sa fréquence... est en train de s'affaiblir.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Abby était inquiète que ça puisse t'affecter et elle m'a demandé de l'aider.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "« La personne que j'essaie de protéger est peut-être en danger à cause de moi » ... Je sens qu'Abby est très inquiète.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "J'ai étudié la solution la plus viable pour la fréquence faiblissante d'Abby.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Avant de t'expliquer, il faudrait que tu regardes un enregistrement passé stocké dans Tethys. Il est important que tu le voies toi-même.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Il répondra peut-être à certaines questions.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "S'il te plaît, tiens ma main.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 18,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Vous recevez un message de la Gardienne du littoral à propos de la fréquence faiblissante d'Abby. La Gardienne pense avoir trouvé une solution faisable, mais elle insiste pour que vous allez d'abord au Littoral noir pour examiner un enregistrement passé stocké dans le Système Tethys...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Rencontrer la Gardienne du Littoral"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "J'ai trouvé ça pendant mes recherches sur Abby.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "C'est resté caché jusqu'à ce que la fuite au cœur du Système Tethys ait enfin été résolue.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1069,
+              "PlotLineKey": "Ce n'est pas par hasard si tu fais cette découverte maintenant.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Ce message... Je pense que je devrais y faire confiance.)",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1070,
+              "PlotLineKey": "Qui est « l'Imperator » ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "L'Imperator est la Sentinelle de Rinascita.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "C'est aussi la solution que propose Tethys. En tant que Sentinelle de Rinascita, l'Imperator devrait avoir les connaissances nécessaires pour réparer la fréquence faiblissante d'Abby.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Rinascita, aussi appelée le « Pays des Échos », est renommée pour ses technologies d'Écho. Elle abrite bon nombre d'êtres comme Abby qui ont des formes physiques.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Rinascita ? Je vais enfin savoir qui est vraiment Abby là-bas...)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Il se trouve que le meilleur moment pour visiter Rinascita, c'est maintenant.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Prends ça avec toi, s'il te plaît.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Invitation mystérieuse avec un parfum",
+          "PlotLineKey": "À notre estimé partenaire en affaires,",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Invitation mystérieuse avec un parfum",
+          "PlotLineKey": "Alors que le célèbre Carnaval revient à Rinascita, la famille Montelli, qui organise avec fierté ce grand festival, vous convie à honorer Ragunna de votre estimée présence et à prendre part aux célébrations.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Invitation mystérieuse avec un parfum",
+          "PlotLineKey": "Dans un esprit de bonne volonté, nous avons mis à disposition une certaine somme de fonds que vous pourrez utiliser pendant votre séjour à Rinascita. Ces fonds seront disponibles à la Banque d'Averardo pour votre convenance.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Invitation mystérieuse avec un parfum",
+          "PlotLineKey": "La famille Montelli tient en haute estime chacune de ses nombreuses amitiés. Si vous choisissez de placer la Fleur noire sur la Balance dorée, nous vous considérerons comme notre {Male=invité le plus honoré;Female=invitée la plus honorée} et {Male=un ami;Female=une amie} à vie de la famille.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Invitation mystérieuse avec un parfum",
+          "PlotLineKey": "La famille Montelli attend votre arrivée avec impatience.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1071,
+              "PlotLineKey": "La famille Montelli ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Les Montelli sont l'une des familles dirigeantes de Ragunna, une cité-état de Rinascita. Leurs connexions commerciales avec le Littoral noir sont la raison de cette invitation.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "C'est le plus grand festival de Rinascita. Durant cette période, le port de Ragunna assouplit ses règles pour accueillir les visiteurs.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "« Un hommage majestueux à notre Sentinelle ! »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "« Nourriture, vin, spectacles de lumière et un bal masqué, le tout couronné par d'extraordinaires performances d'Écho ! »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "« Vous êtes tous bienvenus, quelle que soit votre fortune ou votre rang ! Célébrez avec nous et que la joie ne cesse jamais ! »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1072,
+              "PlotLineKey": "Ça a l'air amusant.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Oui. C'est aussi une excellente destination de voyage.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Cependant... Rinascita est particulièrement spéciale pour le Littoral noir.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "La résurgence du Réprimantum à Jinzhou a déclenché des réactions similaires dans d'autres pays ; Rinascita a fait exception. Nous n'avons détecté aucune fluctuation de fréquence liée aux Réprimantums là-bas.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Bien que de nombreux Porteurs de Fleur aient visité les cités-États de Rinascita auparavant, notre présence est souvent accueillie avec un brin de scepticisme.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Etant données les circonstances, la meilleure approche serait de se rendre en tant qu'{Male=invité;Female=invitée} d'une famille éminente.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1073,
+              "PlotLineKey": "Bien, alors, allons-y.",
+              "PlayVoice": false,
+              "JumpToId": 27
+            },
+            {
+              "TextId": 1074,
+              "PlotLineKey": "Comment pouvons-nous nous rendre à Rinascita ?",
+              "PlayVoice": false,
+              "JumpToId": 28
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "...Tu pars maintenant ?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 29
+        },
+        {
+          "Id": 28,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Attends, s'il te plaît... Je vais ouvrir un portail pour toi.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 29
+        },
+        {
+          "Id": 29,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1075,
+              "PlotLineKey": "Attends !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Ah...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Ouvrir un portail épuisera ta puissance de calcul. Je crois que ça serait mieux de s'en servir pour les opérations du Littoral noir.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1076,
+              "PlotLineKey": "Tu n'as pas à t'inquiéter d'une question si minime.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1077,
+              "PlotLineKey": "Il vaudrait mieux faire profil bas.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 32,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "...Je vois.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Je demanderai à Aalto d'organiser ton transport jusqu'à Rinascita alors.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 43,
+          "Speaker": "Narrator",
+          "PlotLineKey": "La Gardienne du littoral explique qu'Imperator est le titre de la Sentinelle de la région de Rinascita, une figure qui détient peut-être la clé pour résoudre le problème de fréquence d'Abby.<br>Rinascita, aussi appelée le Pays des Échos, est réputée pour ses technologies d'Écho avancées et de nombreux Échos comme Abby y résident. Cette région pourrait aussi détenir des indices vitaux sur les origines d'Abby.<br>La Gardienne du littoral vous montre une lettre d'invitation de la famille Montelli, qui vous permettrait d'entrer à Rinascita en passant par la cité portuaire de Ragunna, juste avant le plus grand festival de la région : le Carnaval. Cependant, alors que la résurgence du Réprimantum sème le chaos dans d'autres régions, Rinascita reste étrangement épargnée. La paix inhabituelle suggère que ce voyage pourrait être mouvementé.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 767,
+              "PlotLineKey": "Ce sera un autre long voyage.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Bon voyage.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Gardienne du littoral",
+          "PlotLineKey": "Je serai là pour garder le Littoral noir jusqu'à ton retour.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Se rendre au port pour retrouver Aalto"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "KU-Monnaie",
+          "PlotLineKey": "Ku ! Le marché est en recul.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "KU-Monnaie",
+          "PlotLineKey": "Dois-je acheter ou vendre ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "Tu as l'air d'un expert, toi.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "KU-Monnaie",
+          "PlotLineKey": "Eh bien, je le suis ! Chaque Crédit coquille que j'utilise est complètement optimisé pour le Littoral noir !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "KU-Monnaie",
+          "PlotLineKey": "Plusieurs boîtes de Rinascita ont été rachetées par la Nouvelle Fédération lors d'une prise de contrôle hostile. Maintenant, elles me supplient de jouer le chevalier blanc.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 11,
+              "PlotLineKey": "Donc, tu manipules le marché !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "KU-Monnaie",
+          "PlotLineKey": "Quelle absurdité ! Je fais de l'argent pour le Littoral noir, tout en respectant la loi. Je n'ai rien fait qui va à l'encontre de nos principes !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "KU-Monnaie",
+          "PlotLineKey": "Écoute, l'argent est le pouvoir dans ce monde. C'est ce qui te permet de faire tout ce que tu veux, même sauver le monde.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "KU-Monnaie",
+          "PlotLineKey": "Ku... La bourse est fermée.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "KU-Monnaie",
+          "PlotLineKey": "En pleine nuit, le bruit des crédits coquilles qui entrent et sortent s'estompe.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 17,
+              "PlotLineKey": "(Agite ton sac d'argent)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "KU-Monnaie",
+          "PlotLineKey": "Quoi ! Oh, c'est toi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "KU-Monnaie",
+          "PlotLineKey": "D'accord, d'accord, j'ai compris. Mais on dirait que tu en as encore beaucoup. Si tu es à court, tu sais où me trouver.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 3
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "KU-Monnaie",
+          "PlotLineKey": "Kukuku... Bienvenue au Littoral noir !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 4
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "KU-Monnaie",
+          "PlotLineKey": "Ku, j'espère te revoir très vite !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 6
+    },
+    {
+      "Title": "Se rendre au port pour retrouver Aalto"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Aalto",
+          "PlotLineKey": "Te voilà ! Ton vaisseau est prêt !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Aalto",
+          "PlotLineKey": "Tu devras naviguer jusqu'à Rinascita, mais avec tout le grabuge causé par les Réprimantum, il ne nous reste que des canots.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Aalto",
+          "PlotLineKey": "Ne t'inquiète pas, voici ma réserve personnelle. Plutôt idéal pour faire profil bas, si je puis dire.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 627,
+              "PlotLineKey": "Il doit avoir des profondeurs cachées.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 628,
+              "PlotLineKey": "C'est assurément petit et discret.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 629,
+              "PlotLineKey": "C'est vraiment tout ?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Aalto",
+          "PlotLineKey": "Eh bien, tu as un œil de lynx !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 5,
+          "Speaker": "Aalto",
+          "PlotLineKey": "Petit mais puissant. Il a tout le nécessaire.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Aalto",
+          "PlotLineKey": "Ah, on s'arrête à « plus c'est gros mieux c'est » ? Tu n'as pas entendu parler de « point trop n'en faut » ?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Aalto",
+          "PlotLineKey": "C'est de l'équipement de pointe de l'Expo mondiale de la Nouvelle Fédération. J'ai failli perdre ma chemise en négociant. Je prévois de faire des réserves pour le Littoral noir.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Aalto",
+          "PlotLineKey": "À ce qu'il paraît, les Ragunnesis traitent la Sentinelle comme une divinité, avec des églises et tout. De vrais dévots. Et quand on est à Ragunna, on fait comme les Ragunnesi, d'accord ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Aalto",
+          "PlotLineKey": "Alors, laisse-moi faire de la magie sur le pilote automatique. Avant que tu n'aies le temps de dire ouf, tu seras déjà à Ragunna.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Aalto",
+          "PlotLineKey": "Fais-moi juste signe quand tu es {Male=prêt;Female=prête} à partir.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 630,
+              "PlotLineKey": "Je le suis.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 631,
+              "PlotLineKey": "Je dois encore faire mes valises.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Aalto",
+          "PlotLineKey": "Ensuite, on y va. Notre destination est...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 632,
+              "PlotLineKey": "Ragunna !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 633,
+              "PlotLineKey": "La mer d'étoiles !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 634,
+              "PlotLineKey": "J'espère que ce voyage sera sûr...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Aalto",
+          "PlotLineKey": "Accroche-toi, l'ami ! Nous allons partir de zéro pour passer à la vitesse de la lumière !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Aalto",
+          "PlotLineKey": "Très bien, chef. Je tiens le fort.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 22,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Au Littoral noir, Aalto a préparé votre bateau. Avant de lever les voiles, il vous conseille de faire attention aux coutumes de Ragunna : son peuple vénère la Sentinelle comme une divinité et il ne faut pas lui manquer de respect. Maintenant que vous êtes {Male=prêt;Female=prête}, vous pouvez embarquer pour votre voyage vers Ragunna.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Aalto",
+          "PlotLineKey": "Alors, capitaine, es-tu {Male=prêt;Female=prête} ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 639,
+              "PlotLineKey": "Je le suis.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 640,
+              "PlotLineKey": "Je dois encore faire mes valises.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Aalto",
+          "PlotLineKey": "Ensuite, on y va. Notre conquête est...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 641,
+              "PlotLineKey": "Ragunna !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 642,
+              "PlotLineKey": "La mer d'étoiles !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 643,
+              "PlotLineKey": "J'espère que ce voyage sera sûr...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Aalto",
+          "PlotLineKey": "Accroche-toi, l'ami ! Nous allons partir de zéro pour passer à la vitesse de la lumière !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Aalto",
+          "PlotLineKey": "Pas de problème. Tu me trouveras toujours ici.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 2
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Abby",
+          "PlotLineKey": "Ah, ce brouillard me donne la chair de poule. J'ai un mauvais pressentiment...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Abby",
+          "PlotLineKey": "Hein… Attends, qu'est-ce que c'est que cette énorme ombre sous l'eau ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Oui. Ça se rapproche.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Abby",
+          "PlotLineKey": "Attention !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "Ah, de nouveaux alliés nés des dangers de la haute mer ! Il n'y a pas de meilleur moyen de commencer une histoire épique, n'est-ce pas ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1158,
+              "PlotLineKey": "Merci de ton aide.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "???",
+          "PlotLineKey": "Je n'ai fait que mon devoir, {Male=cher ami;Female=chère amie}. Le brouillard s'épaissit une nouvelle fois, enveloppant ce chemin des plus tumultueux. Je présume que c'est ta première traversée ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "???",
+          "PlotLineKey": "Ces eaux grouillent de Tacets Discords colossaux et mystiques. Ce monstre des abysses que tu as vu s'appelle « Cetus le Brise-marée ».",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "C'est un géant paisible qui reste habituellement dans les eaux profondes, et ne manifeste aucun comportement agressif envers les gens...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1159,
+              "PlotLineKey": "C'est vrai que ça avait l'air inhabituel.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "???",
+          "PlotLineKey": "J'ai remarqué quelque chose d'étrange sur sa peau. C'est peut-être la cause de sa folie ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Abby",
+          "PlotLineKey": "Cette énorme créature sent la tristesse et la colère...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "???",
+          "PlotLineKey": "Tiens, tiens, c'est qui ce petit ballon de plage ? Un Écho qui parle ! Une petite chose maline ! Tu t'appelles comment ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Abby",
+          "PlotLineKey": "Quoi ? Déjà, je ne suis pas petite ! Et un ballon de plage ? Vraiment ? Et puis, donne d'abord ton nom avant de demander le mien !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "???",
+          "PlotLineKey": "Oh, où sont mes manières ? Je te présente mes plus plates excuses.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Brant",
+          "PlotLineKey": "Mon nom, c'est Brant, je suis le capitaine de ce beau navire. Comme vous pouvez le voir, nous sommes une joyeuse troupe des fous qui chassent la liberté sur les mers !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Brant",
+          "PlotLineKey": "Veuillez pardonner mon manque de courtoisie. Maintenant, voyageurs venus de loin, puis-je connaître vos noms ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1160,
+              "PlotLineKey": "Je m'appelle {PlayerName}. C'est Abby.",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 1161,
+              "PlotLineKey": "Je suis Roller, c'est Hover.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 1162,
+              "PlotLineKey": "Je suis {Male=le gardien;Female=la gardienne} du royaume, {Male=maître;Female=maîtresse} de la lumière et des ténèbres.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Abby",
+          "PlotLineKey": "Eh bien, tu as entendu ça ?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 13,
+          "Speaker": "Abby",
+          "PlotLineKey": "Oh, arrête ! Je m'appelle Abby ! Et c'est {PlayerName} !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "Abby",
+          "PlotLineKey": "Allez, pas besoin de faire des manières !... Je m'appelle Abby et {Male=lui;Female=elle}, c'est {PlayerName}.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "Brant",
+          "PlotLineKey": "Hehe, {PlayerName} et Abby ! Splendide ! « Tous ceux qui montent à bord, sont des invités d'honneur ! Avec des noms échangés, une amitié est née en mer ! »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Brant",
+          "PlotLineKey": "Allez les gars ! Nous allons accueillir nos {Male=nouveaux amis;Female=nouvelles amies} comme il se doit !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Brant",
+          "PlotLineKey": "Bienvenue dans la seule et unique Troupe des Fous !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Écho géant mystérieux",
+          "PlotLineKey": "*Bruits joyeux*",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Abby",
+          "PlotLineKey": "Oh ! Est-ce que ce sont... des Échos ? Incroyable ! Je n'en avais jamais vu comme ça avant. Pff, ils sont presque aussi spéciaux que moi... genre à 60, non, 70 % aussi spéciaux ! *Hic*",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Abby",
+          "PlotLineKey": "Euh...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ha ha ha, ta petite compagne est assez amusante. Je suppose que vous vous rendez à Rinascita pour le Carnaval ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1163,
+              "PlotLineKey": "Oui. Nous avons entendu dire que c'est un grand festival.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Brant",
+          "PlotLineKey": "En effet ! C'est le joyau du calendrier de Rinascita. Ah, les bals masqués sans fin, les festins somptueux, le vin qui coule à flots et la musique qui ne s'arrête jamais ! Pendant quelques magnifiques nuits, tous vos soucis disparaissent !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Brant",
+          "PlotLineKey": "Et point d'orgue du Carnaval, notre Sentinelle Imperator couronne le meilleur artiste du festivale avec le « Laurier ».",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1164,
+              "PlotLineKey": "Est-ce que ce Laurier donne droit à une audience avec la Sentinelle ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ha ! Bien sûr que non. Aucun mortel n'a jamais posé les yeux sur la divine Sentinelle dans le paradis des cieux. Mais le Lauréat peut entendre la voix de la Sentinelle.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Brant",
+          "PlotLineKey": "Nous avons un véritable Lauréat dans notre troupe. C'est dommage qu'il ne soit pas avec nous aujourd'hui. Oh, les histoires qu'il pourrait raconter ! Je pense que vous adorerez écouter le récit de ses jours de gloire.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Abby",
+          "PlotLineKey": "Parler avec la Sentinelle si on obtient le Laurier ? C'est quelque chose !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1165,
+              "PlotLineKey": "Vous assistez aussi au Carnaval ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "Brant",
+          "PlotLineKey": "Absolument ! Le dernier Carnaval remonte à une décennie. Nous n'allons pas rater celui-là.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Brant",
+          "PlotLineKey": "Sentinelle ou Laurier, peu importe...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Brant",
+          "PlotLineKey": "La Troupe des Fous apportera toujours un vent de liberté et de joie dans cette ville.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Brant",
+          "PlotLineKey": "...Hein ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est le brouillard.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "Abby",
+          "PlotLineKey": "Le brouillard ? Beurk, je n'aime pas l'odeur qui vient de la mer juste là maintenant.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Brant",
+          "PlotLineKey": "Attention mes amis. Le brouillard peut avoir un effet sur les Échos.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ce n'est pas qu'un simple mauvais temps. C'est un Phénomène d'érosion. De nombreux Tacets Discords se cachent dans le brouillard, prêts à détruire n'importe quel bateau de passage.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "Brant",
+          "PlotLineKey": "Mais n'ayez crainte ! Notre vaisseau ne périra pas ici ! Vous avez devant vous un capitaine expérimenté !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "Brant",
+          "PlotLineKey": "Oyez, équipage courageux ! Sécurisez les cordes et déployez les voiles ! Je prends la barre !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 37,
+          "Speaker": "Brant",
+          "PlotLineKey": "Le rideau final ne tombera pas ici ! Notre saga doit continuer !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 47,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Votre voyage est interrompu par une attaque de « Cetus le Brise-marée ». Alors que tout semble perdu, Brant, le chef d'une troupe itinérante, vient à votre secours et vous prend à bord de son bateau.<br>Pendant votre conversation, Brant révèle que la troupe se rend au Carnaval, où la Sentinelle insaisissable, Imperator, fera une rare apparition afin de couronner le meilleur artiste du festival avec le « Laurier ». Cette gloire donne au Lauréat le privilège d'entendre la voix de la Sentinelle.<br>Alors que vous discutez, un brouillard épais se lève. C'est un Phénomène d'érosion qui hante les mers de Rinascita. Dedans, de nombreux Tacets Discords se cachent, prêts à attaquer les bateaux qui passent. Pour survivre à ce brouillard, vous rejoignez les membres de la troupe.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Écho géant mystérieux",
+          "PlotLineKey": "*Geignements de douleur*",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Courage, Lario... Nous avons presque fini de traverser ce brouillard.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Tempête, fais donc rage ! Ta fureur n'est qu'une brise contre notre juste cours !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Il est temps de se battre, mes amis ! Je tiens fermement la barre ! Que le déluge s'abatte, notre vaisseau tient bon ! Notre appel au clairon percera le rugissement de la tempête !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Parler à Brant"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Merci pour votre aide, mes {Male=amis;Female=amies} !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "En avant vers Ragunna. Reposez-vous pendant que nous poursuivons notre route.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Installez-vous et regardez bien autour de vous ! Ne soyez pas timides, d'accord ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 4,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Vous avez réussi à vous frayer un chemin dans la brume, mais vous n'êtes toujours pas à Ragunna. Il est temps pour vous de passer du temps avec certains membres de la troupe pour avoir un aperçu de la culture riche qui vous attend à destination.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Boîte étrange",
+          "PlotLineKey": "Zzz... Zzz...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1117,
+              "PlotLineKey": "Y a quelqu'un ?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 1118,
+              "PlotLineKey": "Est-ce que c'est un Écho aussi ?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 1119,
+              "PlotLineKey": "Regardez, un coffre d'équipement !",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Abby",
+          "PlotLineKey": "Chut, il est sûrement en train de dormir ! Mais sa fréquence est très éloignée de celle des autres Échos...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "Abby",
+          "PlotLineKey": "*Snif* Non, je trouve qu'il ne sent pas comme un Écho.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Abby",
+          "PlotLineKey": "C'est impossible que ce soit un coffre d'équipement ! Sa fréquence est bizarre...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ce coffre ? C'est le paradis personnel de notre première lieutenante.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Brant",
+          "PlotLineKey": "Tout va bien, Roccia ? De nouveaux {Male=amis;Female=amies} nous ont rejoint.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Boîte étrange",
+          "PlotLineKey": "...Bonjour.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Brant",
+          "PlotLineKey": "Eh bien, vous voyez, elle est assez réservée. Sa façon d'être amicale... on finit par y prendre goût.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Brant",
+          "PlotLineKey": "Cette pièce est l'une de ses possessions préférées. Je parie que c'est sa façon de dire « Enchantée ».",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Boîte étrange",
+          "PlotLineKey": "Euh hmm...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Brant",
+          "PlotLineKey": "Haha... Peut-être qu'elle apprécie ton entente avec Abby.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 16,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Un coffre mystérieux sur le bateau attire votre attention. Brant explique qu'il s'agit du havre personnel de la première lieutenante du bateau, qui semble timide avec les inconnus. Mais, malgré sa timidité, elle rassemble son courage et vous offre une pièce ancienne rare dans un geste de bonne volonté.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Le mystérieux Écho géant mugit une salutation grave et retentissante.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Abby",
+          "PlotLineKey": "Bonjour !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Abby",
+          "PlotLineKey": "Il nous dit « bonjour ».",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 795,
+              "PlotLineKey": "(Émettre un son vraisemblablement amical)",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 796,
+              "PlotLineKey": "Bonjour.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lario",
+          "PlotLineKey": "*Bruits confus*",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Abby",
+          "PlotLineKey": "…Il ne comprend pas pourquoi les frites n'attirent jamais les goélands…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Abby",
+          "PlotLineKey": "Arrête avec les bruits bizarres !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lario",
+          "PlotLineKey": "*Bruits joyeux*",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Il hoche la tête joyeusement, en prenant soin de ne pas taper la coque du bateau.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 11,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Main_Linaxita_2_0_9_11",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "Ho ho !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Le géant énigmatique vous enveloppe dans une étreinte. Une énergie étrange mais amicale vous submerge.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 3,
+          "Speaker": "Narrator",
+          "PlotLineKey": "La peluche géante vous enveloppe dans une étreinte. Une énergie étrange mais amicale vous submerge.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Regardez, mes amis ! Là, elle se tient… Le Phare de l'Aube de Ragunna !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Nous y sommes ! Le quai de Ragunna.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Vous trouverez des bateaux Écho plus loin, qui vous amèneront directement au cœur de Ragunna.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1255,
+              "PlotLineKey": "Vous n'allez pas en ville ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Eh bien, le Carnaval n'a pas encore commencé. Nous ne faisons que passer, pour prêter main forte à nos amis.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Brant",
+          "PlotLineKey": "Et une arrivée discrète ? Ce n'est pas notre style. Nous voguerons dans Ragunna avec panache, un spectacle époustouflant et la plus bruyante des ovations.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Brant",
+          "PlotLineKey": "N'oubliez pas de mettre des confettis dans vos poches pour l'occasion !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1256,
+              "PlotLineKey": "Merci pour le voyage.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 1257,
+              "PlotLineKey": "Abby, tu devrais dire au revoir.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Brant",
+          "PlotLineKey": "Le plaisir était pour moi ! D'ailleurs, où est cette adorable créature qui te tient compagnie ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1258,
+              "PlotLineKey": "Abby ? Réveille-toi.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Brant",
+          "PlotLineKey": "On dort ? C'est sûrement à cause du brouillard. Ne t'inquiète pas, les Échos récupèrent une fois qu'ils en sont sortis.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Brant",
+          "PlotLineKey": "Et fais-toi un cadeau, essaie notre Vin de nectar. On dit qu'une goutte de « Gocce di Divino » te fera rencontrer la Sentinelle dans tes rêves...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ha ! Ça sera peut-être ton raccourci pour voir la Sentinelle.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Brant",
+          "PlotLineKey": "Que les vents soient en votre faveur !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Abby",
+          "PlotLineKey": "Hmm... Que... Hein ? On est {Male=arrivés;Female=arrivées} ? Où sont passés Brant et l'équipage ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1259,
+              "PlotLineKey": "Ils sont partis tout à l'heure.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1260,
+              "PlotLineKey": "J'ai essayé de te réveiller.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Abby",
+          "PlotLineKey": "Vraiment ? Je n'ai rien entendu...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Abby",
+          "PlotLineKey": "Oh, alors c'est ça, Ragunna ? Comment on fait pour aller en ville ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1261,
+              "PlotLineKey": "Allons d'abord voir les quais.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Diacre de l'Ordre",
+          "PlotLineKey": "Partez, chers pèlerins, pour votre périple sacré. Que la Sentinelle vous guide comme elle a guidé les bateaux qui sont revenus.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Diacre de l'Ordre",
+          "PlotLineKey": "Va, Andreas... le « Fous ». Le bon Primus t'a béni avec ce pèlerinage sacré. Que tu trouves la voie juste pendant ton voyage.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Puisque vous êtes tous si justes, pourquoi ne pas vous-mêmes faire le pèlerinage !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Diacre de l'Ordre",
+          "PlotLineKey": "Notre devoir reste ici, pour guider ceux qui sont perdus. Je pleure pour toi, mon frère... car tu t'es éloigné de la vérité.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Andreas",
+          "PlotLineKey": "Ha... Haha... La vérité... Ne me fais pas rire...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Diacre de l'Ordre",
+          "PlotLineKey": "...Ta transgression est absoute devant la Traversée de pèlerin, le bateau sacré. Va maintenant, et embarque avec humilité.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "???",
+          "PlotLineKey": "Attendez un moment, {Male=voyageur;Female=voyageuse}... Bien que vous ayez des doutes, je vous implore de ne pas perturber leur pèlerinage.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "???",
+          "PlotLineKey": "Peut-être que garder le silence serait dans votre intérêt.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1262,
+              "PlotLineKey": "Pardon, et vous êtes ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Pardonnez mon intrusion. Permettez-moi de me présenter. Je suis Cristoforo, un modeste dramaturge en visite à Ragunna pour chercher l'inspiration pour ma dernière œuvre.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1263,
+              "PlotLineKey": "Je m'appelle {PlayerName}.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Un plaisir de faire votre connaissance. Je travaille sur une pièce sur des pèlerins qui essaient d'atteindre la terre promise de la Sentinelle...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Lorsque j'ai appris qu'une nouvelle Traversée de pèlerin allait partir, je suis venu. J'espérais trouver de nouvelles idées.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1264,
+              "PlotLineKey": "C'est ce bateau là-bas ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Oui. Quand les Ragunnesis sont arrivés ici, ils vénéraient la Sentinelle. Le Carnaval était leur hommage, un rite sacré pour faire communion avec elle.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Il semblerait que la Sentinelle Imperator préférait ne pas trop montrer sa puissance pour avoir l'admiration et le respect du peuple.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Et pourtant, au cours des festivités du Carnaval, elle faisait des miracles, et gardait ainsi le peuple aligné à sa direction.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "La légende dit que, touché par sa grâce, le croyant le plus dévot a bravé les tempêtes et les brumes pour trouver la Sentinelle. C'est ainsi qu'est née la tradition de la Traversée de pèlerin.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Si vous le souhaitez, j'ai plus d'histoires à raconter.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 43,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Vous arrivez enfin aux quais de Ragunna. La troupe vous dit au revoir, et promet de faire une entrée grandiose pour l'ouverture du Carnaval.<br>Alors que vous cherchez avec Abby l'entrée de la ville, vous voyez des diacres de l'Ordre qui envoient « les Fous » en pèlerinage. Un mystérieux dramaturge nommé Cristoforo remarque votre confusion et commence à expliquer les origines de cette pratique.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Le vaisseau continue de glisser sur les vagues. Un peu plus tard, des côtes lointaines émergent de l'horizon.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Se rendre au port"
+    },
+    {
+      "Title": "Prendre la Gondole pour se rendre à Ragunna"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gondolier",
+          "PlotLineKey": "Bien le bonjour ! Vous voulez aller à la ville ? Sautez dans cette gondole juste là.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 795,
+              "PlotLineKey": "Ce bateau est... un Écho ?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 796,
+              "PlotLineKey": "Ugh, quelle nuisance.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gondolier",
+          "PlotLineKey": "Correct ! À Ragunna, nous voguons sur des Échos. Ce sont des assistants fiables et de confiance, des cadeaux divins.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Gondolier",
+          "PlotLineKey": "Les Ragunnesis passent un tiers de leur vie dans des gondoles. Incroyable, n'est-ce pas ?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Gondolier",
+          "PlotLineKey": "Pas de problème ! Cette petite là vous emmènera à bon port en toute sécurité.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 7,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Aux quais, vous prévoyez d'embarquer dans la Gondole pour entrer dans la ville.<br>Peut-être que vous verrez tout un groupe d'Échos comme Abby en chemin ?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(Facultatif) Parler à Cristoforo"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Une âme juste avec une humble curiosité... Exactement ce à quoi je m'attendais.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 781,
+              "PlotLineKey": "(Poser des questions sur la Traversée de pèlerin)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Fenrico, l'illuminé, actuel Primus de Ragunna, a découvert le chemin du haut paradis, où la Sentinelle transmet ses enseignements aux mortels.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Avec sa permission, les pèlerins lèvent la voile pour la Terre promise, leurs voix faisant une symphonie d'hymnes, et leurs cœurs enflammés d'une piété et d'un espoir indéfectibles.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 782,
+              "PlotLineKey": "Piété... et espoir ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 783,
+              "PlotLineKey": "Ça... ne ressemble pas vraiment à ce que je viens de voir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Je sens vos doutes et ils ne sont pas injustifiés. Ces pèlerins n'ont que peu de choix. Après tout, ils ne comptent pas parmi les lntègres, mais sont considérés comme les Fous par les lois de Ragunna.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Entre une âme juste qui s'accroche à l'espoir dans l'épreuve et un Fou perdu qui se débat dans des vagues de confusion, le public préfère toujours la première option.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Je travaille sur une pièce. Elle parle de pèlerins qui essaient d'atteindre la terre promise de la Sentinelle.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Mais pour captiver, il faut des rebondissements. Peut-être que ce qui les attend n'est pas le doux salut promis par la Sentinelle, mais...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 784,
+              "PlotLineKey": "Mais quoi ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Héhé, qui sait ? Peut-être des trésors infinis, ou une bête inconnue qui se cache dans la brume.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Ou peut-être, rien qu'une rive abandonnée. Ce ne sont que mes idées initiales. J'ai besoin de temps pour les peaufiner.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Souhaitez-vous me faire partager de vos pensées sur la fin ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Faut-il que les pèlerins de l'histoire soient des Fous égarés qui affrontent leur fin dans le désespoir, ou des Intègres lésés qui trouveront enfin justice et rédemption ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Qu'est-ce qui est plus captivant selon vous, {Male=monsieur;Female=madame} ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 785,
+              "PlotLineKey": "Les Fous.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 786,
+              "PlotLineKey": "Les Intègres.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 787,
+              "PlotLineKey": "Pour être honnête... ni les uns ni les autres.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "Ah, je vois... Je prends note de votre commentaire.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Cristoforo",
+          "PlotLineKey": "En attendant le Carnaval, {Male=invité venu;Female=invitée venue} de loin.... J'espère que vous apprécierez la pièce que l'on vous a préparée à Ragunna.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Cristoforo fait un petit hochement de tête courtois et s'en va.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Abby",
+          "PlotLineKey": "Je ne sais pas quoi penser... Est-ce que tout ça était vrai, ou seulement une histoire ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Abby",
+          "PlotLineKey": "Hmm, celui-là donne une énergie mystérieuse...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 788,
+              "PlotLineKey": "Je suis d'accord.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 789,
+              "PlotLineKey": "Ah, « l'air d'un artiste. »",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 790,
+              "PlotLineKey": "Les dramaturges et leurs métaphores.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Abby",
+          "PlotLineKey": "Ah, peu importe ! Le Carnaval a l'air d'être génial ! Tout le monde n'en dit que du bien. Et tu pourrais même décrocher une petite discussion avec la Sentinelle !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Habitant passionné",
+          "PlotLineKey": "On dirait qu'il y a beaucoup de brume ces derniers temps, n'est-ce pas ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Habitant nerveux",
+          "PlotLineKey": "C'est mauvais signe. Le Carnaval approche...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Habitant passionné",
+          "PlotLineKey": "Eh, ne t'inquiète pas ! Nous, les Ragunnesis ne nous inquiétons pas au sujet de demain. Pourquoi ne pas aller chercher des fleurs pour les enfants ? Les prix risquent d'augmenter avec le Carnaval qui approche.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Matteo",
+          "PlotLineKey": "Andreas... Ce bateau... Non, non, je dois arrêter ce bateau !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Simone",
+          "PlotLineKey": "...Tu as perdu la tête ? Tu ne peux pas arrêter la Traversée de pèlerin. L'Ordre t'arrêterait !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Matteo",
+          "PlotLineKey": "Ah, tu ne comprends tout simplement pas.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Prendre la gondole pour se rendre à Ragunna"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Abby",
+          "PlotLineKey": "Je ne savais pas que tous les bateaux de Ragunna sont des Échos. Cette troupe n'est pas aussi spéciale que je le pensais...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Abby",
+          "PlotLineKey": "Maintenant, je ne peux même pas imaginer le genre d'Échos que nous pourrions voir dans la ville.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Peut-être que nous en croiserons quelque qui ont la même apparence que toi, tout un groupe.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Abby",
+          "PlotLineKey": "Tu plaisantes... Même au Pays des Échos, moi, Abby, je serai toujours la plus spéciale !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Abby",
+          "PlotLineKey": "Hic !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Acolyte au visage sérieux",
+          "PlotLineKey": "...Approuvé. Bienvenue à Rinascita.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Acolyte au visage sérieux",
+          "PlotLineKey": "Excusez-moi. Les visiteurs qui viennent ici pour la première fois doivent coopérer pour une inspection.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Acolyte au visage sérieux",
+          "PlotLineKey": "Est-ce que... c'est une Borne réservée ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Acolyte au visage sérieux",
+          "PlotLineKey": "Les Bornes réservées doivent être déclarées à l'entrée. Puis-je voir votre formulaire de déclaration, s'il vous plaît ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 823,
+              "PlotLineKey": "...Je n'étais pas au courant de ça.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 824,
+              "PlotLineKey": "Je ne l'ai pas déclaré.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Acolyte au visage sérieux",
+          "PlotLineKey": "Ce sont les règles. Veuillez coopérer avec nous.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Acolyte aîné",
+          "PlotLineKey": "Veuillez excuser le dérangement. Par décret de l'Ordre, tous les visiteurs doivent effectuer la procédure douanière afin d'assurer la sécurité...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Acolyte aîné",
+          "PlotLineKey": "...Ou alors, avez-vous un garant ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 825,
+              "PlotLineKey": "(Montrer la lettre d'invitation)",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 826,
+              "PlotLineKey": "Quelqu'un m'a {Male=invité;Female=invitée} ici.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Acolyte au visage sérieux",
+          "PlotLineKey": "Ah, je vois que vous êtes {Male=invité;Female=invitée} par la famille Montelli. Dans ce cas, vous avez l'autorisation d'amener votre Borne réservée à Rinascita.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Acolyte au visage sérieux",
+          "PlotLineKey": "Veuillez nous excuser pour toute gêne occasionnée. Tous les Échos, même ceux des Bornes réservées, sont considérés comme des envoyés divins. Une fois baptisés, ils recevront, eux aussi, la bénédiction de l'Imperator.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 827,
+              "PlotLineKey": "Est-ce que cela signifie que je pourrai voir la Sentinelle en personne ?",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 828,
+              "PlotLineKey": "Je n'en ai pas prévu de le faire.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Acolyte aîné",
+          "PlotLineKey": "Naturellement ! Nous sommes tous « unis » sous l'influence de la Sentinelle, libérés de toute « division ».",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Acolyte aîné",
+          "PlotLineKey": "La Sentinelle est avec vous, moi, avec nous tous.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Acolyte aîné",
+          "PlotLineKey": "Sa présence est éternelle dans nos cœurs et nous guide toujours...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 20
+        },
+        {
+          "Id": 18,
+          "Speaker": "Acolyte aîné",
+          "PlotLineKey": "Soyez certains que notre Sentinelle incarne la paix, la justice, la modestie et la miséricorde. Louez son nom et vous trouverez le réconfort !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Acolyte aîné",
+          "PlotLineKey": "Sa présence est éternelle dans nos cœurs et nous guide toujours...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 20
+        },
+        {
+          "Id": 20,
+          "Speaker": "???",
+          "PlotLineKey": "Prêchez avec respect et patience, de crainte de susciter le doute et la confusion.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Acolyte au visage sérieux",
+          "PlotLineKey": "Acolyte Phoebe.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je m'en charge maintenant. Salutations, {Male=cher invité;Female=chère invitée}. Je suis Phoebe, une acolyte de l'Ordre.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "La ville de Ragunna vous souhaite la bienvenue. De nombreux visiteurs sont ici pour le Carnaval qui aura lieu très prochainement. Afin de nous assurer que tous profitent du festival en toute sécurité, l'Ordre a renforcé les procédures douanières et ajouté de nouvelles règlementations...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Certaines informations ont pu être omises sur votre formulaire de déclaration. Veuillez accepter nos excuses.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 829,
+              "PlotLineKey": "Ce n'est pas grave. Les règles sont les règles.",
+              "PlayVoice": false,
+              "JumpToId": 25
+            },
+            {
+              "TextId": 830,
+              "PlotLineKey": "Pouvons-nous entrer dans la ville maintenant ?",
+              "PlayVoice": false,
+              "JumpToId": 26
+            }
+          ]
+        },
+        {
+          "Id": 25,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Merci pour votre compréhension. Veuillez me suivre.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Certainement. Veuillez me suivre.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 35,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Avant d'entrer officiellement dans la cité, vous passez par l'inspection de l'Ordre. Il semble qu'ils ont des réglementations supplémentaires pour les Bornes réservées. Heureusement, la famille Montelli a déjà organisé un garant pour vous.<br><br>Pendant l'inspection, les paroles évasives des membres de l'Ordre vous embrouillent, mais Phoebe, la religieuse arrive juste à temps pour répondre à vos questions.<br><br>Sous ses directions, vous entrez enfin dans le Pays des Échos.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

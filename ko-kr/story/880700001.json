@@ -1,0 +1,851 @@
+{
+  "Id": 880700001,
+  "Name": "작전명: 월하쌍웅",
+  "Description": "정의의 대변자로 변신해 달맞이 축제를 맞아 그늘에 가려진 죄악을 제거한다. 액션!\n\n해당 임무 완료 후 새로운 경영 파트너가 해제됩니다",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880700001,
+  "ShowQuestList": [],
+  "QuestDesc": "정의의 대변자로 변신해 달맞이 축제를 맞아 그늘에 가려진 죄악을 제거한다. 액션!\n\n해당 임무 완료 후 새로운 경영 파트너가 해제됩니다",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 6,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "음림",
+          "PlotLineKey": "——방랑자, 날 찾아 여기까지 오다니... 무슨 일이지?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1083,
+              "PlotLineKey": "너무 긴장하지 마세요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1084,
+              "PlotLineKey": "부탁할 일이 있는 것뿐이에요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "음림",
+          "PlotLineKey": "알 것 같군. 원래 인형극을 연기하기로 한 배우가 일이 있어서 못 오니까 나더러 그 대신 맡아달라는 거잖아. 달맞이 야시장에서 보여줄 인형극 공연에...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "음림",
+          "PlotLineKey": "그건 문제없어. 요즘 나도 딱히 바쁘지 않은 편이라 며칠 동안 출연해도 괜찮아—— 출연료만 제대로 챙겨준다면",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "음림",
+          "PlotLineKey": "참, 달맞이 야시장에서 공연한다면 아무래도 축제 분위기에 맞는 인형을 준비하는 게 좋을 것 같아",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "음림",
+          "PlotLineKey": "좋은 아이디어 있어, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1085,
+              "PlotLineKey": "토끼를 쫓는 여우 인형 어때요?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 1086,
+              "PlotLineKey": "명식과 싸우는 방랑자 인형은 어때요?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "음림",
+          "PlotLineKey": "음... 황룡의 전설 말이지? 좋은 생각이야. 귀여운 동물 인형이니까 아이들이 무척 좋아할 거야",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "음림",
+          "PlotLineKey": "음... 영웅극 같은 걸 말하는 거야? 안 될 건 없지만... 정의와 악의 대결이니까 사람들이 좋아할지도 모르겠네...",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "음림",
+          "PlotLineKey": "처음부터 인형을 만들기엔 시간이 턱없이 부족해. 인형 완제품을 파는 곳을 내가 알고 있다는 게 그나마 다행이야",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1087,
+              "PlotLineKey": "그런 곳도 있나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "음림",
+          "PlotLineKey": "물론이지. 금주에서는 연줄만 있으면 뭐든 구할 수 있지...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1088,
+              "PlotLineKey": "암시장 같은 건가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1089,
+              "PlotLineKey": "왠지... 수상한데요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "음림",
+          "PlotLineKey": "그냥 농담한 거야. 가자, 내가 데리고 가 줄게",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "감설",
+          "PlotLineKey": "「선행 공약」 상점에 오신 걸 환영해요! 아... {PlayerName}(이)랑 음림 씨네요. 찾으시는 게 뭐죠?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "음림",
+          "PlotLineKey": "인형 있어?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "감설",
+          "PlotLineKey": "아, 있어요! 마침 새로 들어온 게 있어요!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 547,
+              "PlotLineKey": "인형...? 그런 것도 파나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "감설",
+          "PlotLineKey": "네, 선행 공약에는 실력 좋은 인형사들이 있어요. 자신들이 만든 인형을 굿즈로 만들어서 종종 상점에서 팔기도 해요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "감설",
+          "PlotLineKey": "그렇지만 대부분의 손님은 전혀 관심이 없는 터라 가게에 진열해 두진 않아요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "감설",
+          "PlotLineKey": "다행히도, 수집가나 음림 씨 같은 전문가에게 팔기도 하죠",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 548,
+              "PlotLineKey": "그렇군요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "감설",
+          "PlotLineKey": "잠깐만 기다려주세요. 창고를 뒤져볼게요...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "음림이 찾는 인형을 감설이 재빨리 찾아 음림에게 건넸다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "감설",
+          "PlotLineKey": "——구매해 주셔서 감사합니다. 다음에 또 오세요!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 549,
+              "PlotLineKey": "해결됐네요. 이제 도원향으로 돌아가죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "음림",
+          "PlotLineKey": "잠깐... 아는 사람을 방금 본 것 같은데",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 550,
+              "PlotLineKey": "아는 사람이요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "음림",
+          "PlotLineKey": "재미있는걸... 여기 나타나면 안 되는 사람인데. {PlayerName}, 우리 따라가 보자",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "방랑자",
+          "PlotLineKey": "쫓는 사람이... 추방자인가요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "음림",
+          "PlotLineKey": "맞아, 추방자는 금주성에 들어올 수 없어. 금주성에 몰래 들어오려고 추방자가 걸치는 소위 「제복」도 입지 않고 변장까지 했더군",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "음림",
+          "PlotLineKey": "그 녀석의 이름은 레이, 종종 도둑질을 하곤 하지. 며칠 전에 감옥에서 나온 것 같아",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "음림",
+          "PlotLineKey": "내가 잠입 수사관이 되기 전에 내 밑에서 스파이 노릇을 했는데 중요한 순간에 내빼고 말았지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "음림",
+          "PlotLineKey": "추방자가 금주성 안을 활보하다니 이건 보통 심각한 문제가 아니야... 누군가와 이야기 중인 것 같으니 가서 알아보는 게 좋겠어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "마자",
+          "PlotLineKey": "——레이 형님, 지금... 한몫 단단히 벌 기회가 있다고요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "레이",
+          "PlotLineKey": "그래, 내가 전에 어디서 굴렀는지 너도 모르지 않겠지. 자그마치 야수 패거리라고! 걱정하지 마, 내가 뛰어든 이상 크게 한 건 할 테니까",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "마자",
+          "PlotLineKey": "역시 레이 형님! 자세히 말씀해 주세요. 요새 다들 주머니 사정이 빠듯한 터라...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "레이",
+          "PlotLineKey": "훗, 달맞이 야시장 알지? 거기가 완전 노다지 밭이야. 죄다 부자들이지!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "레이",
+          "PlotLineKey": "얼마 전 「학교」에서 나왔는데, 전에 말했던 형님이 인맥도 좋고 의리도 있는 데다 수완도 좋은 편이야",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "레이",
+          "PlotLineKey": "그 형님하고 같이 일하면 달맞이 야시장에서 떼돈을 벌 수 있을 거야. 앞으로 우리도 떵떵거리고 사는 거지!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "마자",
+          "PlotLineKey": "레, 레이 형님, 저희한테도 꼭 소개해 주세요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "레이",
+          "PlotLineKey": "왜? 그다음엔 날 버리고 그 형님한테 붙으려고?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "마자",
+          "PlotLineKey": "어휴, 그럴 리가요... 제가 또 한 의리 하잖아요! 그냥 궁금해서...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "레이",
+          "PlotLineKey": "그럼 나랑 같이 형님을 만나러 가자. 가면 입단속 잘해. 우리가 큰 건을 준비하고 있다는 걸 들키면 안 되니까",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "레이",
+          "PlotLineKey": "형님이 새벽 2시에서 4시 사이에 도원향 동쪽 나무 아래에서 접선하자고 하네. 형님한테 책잡히지 않게 단단히 준비해 와",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "마자",
+          "PlotLineKey": "예, 형님! 걱정 붙들어 매세요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "음림",
+          "PlotLineKey": "예상치 못하게 조직 범죄의 현장을 목격한 것 같은데... {PlayerName}, 어떻게 하는 게 좋을 것 같아?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 576,
+              "PlotLineKey": "섣불리 움직이지 않는 게 좋겠어요",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 577,
+              "PlotLineKey": "우리가 직접 체포하는 게 어때요?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 578,
+              "PlotLineKey": "그쪽이 전문가니까 전문가 말대로 할게요",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "음림",
+          "PlotLineKey": "응, 나도 그렇게 생각해. 듣자 하니 레이가 말한 정체를 알 수 없는 「형님」이 이번 범죄 활동의 주범인 것 같아",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "음림",
+          "PlotLineKey": "녀석들의 대화에서 들어보니 이번 범죄 활동의 주범은 레이가 아니라 레이가 말한 정체를 알 수 없는 「형님」인 것 같아",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "음림",
+          "PlotLineKey": "내가 보기엔 레이가 말한 정체를 알 수 없는 「형님」이 이번 사건의 배후 인물인 것 같아. 그 녀석도 찾아내야겠어",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "음림",
+          "PlotLineKey": "다행히 녀석들의 접선 시간과 장소 모두 파악했으니까... 차라리 우리 둘이 접선하는 게 어때?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 579,
+              "PlotLineKey": "제가 순찰관한테 신고할게요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "음림",
+          "PlotLineKey": "기다려, 사람이 많으면 되레 경계할 수도 있으니까... 우리가 먼저 가서 상황을 살펴보자. 기회를 봐서 움직이는 게 좋겠어",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "마자",
+          "PlotLineKey": "——하아... 레이 형님, 그 형님이 언제 오시는 겁니까?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "레이",
+          "PlotLineKey": "이게 그 형님 스타일이야! 중요한 사람은 결정적 순간에 등장하는 법이지. 그러니까 좀 기다려봐!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "레이",
+          "PlotLineKey": "——앗, 형님 오셨다! 똑바로 서서 형님을 모셔야지!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "익숙한 그림자가 나무 뒤에서 모습을 드러내더니 레이를 향해 걸어왔다. 그림자의 주인은... 너무나도 익숙한 얼굴이었다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "음림",
+          "PlotLineKey": "잠깐, 저건...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 600,
+              "PlotLineKey": "이럴 수가...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 601,
+              "PlotLineKey": "어떻게...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "음림",
+          "PlotLineKey": "영식 아저씨...? 침착해, 무슨 이야기를 하는지 일단 들어보자",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "영식",
+          "PlotLineKey": "——오래 기다렸어, 레이?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "레이",
+          "PlotLineKey": "하... 하핫! 그게 무슨 말씀입니까, 영식 형님! 저희도 방금 도착했답니다. 자, 다들 영식 형님께 인사 올려!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "마자",
+          "PlotLineKey": "안녕하세요, 영식 형님!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "영식",
+          "PlotLineKey": "그래, 그래... 젊다는 게 참 좋아. 내가 몇십 년만 더 젊었어도 자네들을 번거롭게 하는 일은 없었을 텐데",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "레이",
+          "PlotLineKey": "번거롭다뇨? 하나도 안 번거롭습니다. 다 먹고 살자고 하는 건데요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "영식",
+          "PlotLineKey": "내 경우는 그런 게 아니지만... 쯧, 말해봤자 믿지 않겠지만. 레이, 내 물건은?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "레이",
+          "PlotLineKey": "저 상자 안에 있습니다. 형님도 아시다시피 제가 야수 패거리 쪽에서 며칠 있었으니 이런 일에는 실수 안 하죠... 아니면 좀 더 보시겠습니까?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "영식",
+          "PlotLineKey": "그래, 어쨌든 일이 중요하니 아무래도——",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "바로 그때 멀지 않은 곳에서 잔상이 울부짖는 소리가 들려왔다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "레이",
+          "PlotLineKey": "——이 소리는... 큰일이네요. 화살곰이에요! 물건 냄새를 맡고 이끌려 나온 것 같아요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "마자",
+          "PlotLineKey": "여... 영식, 형님이시니까 형님께서...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "영식",
+          "PlotLineKey": "내, 내가 20년만 더 젊었어도 내 상대가 못 됐을 텐데... 하지만 지금은... 쿨럭, 쿨럭!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 602,
+              "PlotLineKey": "...잔상에게 공격받은 것 같아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "음림",
+          "PlotLineKey": "재밌네... 내가 알고 있는 영식 아저씨는 악당이 아니었는데... 위장술이 나보다 한 수 위였던 건가?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "음림",
+          "PlotLineKey": "일단 잔상부터 해치운 뒤에 제대로 물어봐야겠어",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "영식",
+          "PlotLineKey": "{PlayerName}, 그리고... 음림? 여긴 무슨 일인가?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "레이",
+          "PlotLineKey": "두 분 감사합니다——잠깐, 넌...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "음림",
+          "PlotLineKey": "이 녀석들 잘 감시해, {PlayerName}. 일단 녀석들의 물건부터 확인해야겠어... 무슨 위험한 물건이 들어있을지도 모르니까",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "잠시 뒤에 음림이 돌아왔다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1493,
+              "PlotLineKey": "상자 안에 무슨 폭탄이나 총 같은 게 들어있나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "음림",
+          "PlotLineKey": "...아니, 무슨 짐승고기 같은 게 들어 있던데. 신선하고 질도 좋아 보였어. 여러 번 확인했는데 상자에 이중벽도 없고 고기에도 독을 타지 않았어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "음림",
+          "PlotLineKey": "자, 이제 말해봐. 이게 대체... 어떻게 된 일이지?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "레이",
+          "PlotLineKey": "...마, 말할게! 난 결백해! 이건 전부 영식 형님이 시켜서 한 일이야!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "영식",
+          "PlotLineKey": "잠깐, {PlayerName}... 요샌 짐승고기를 사는 것도 불법인가?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 626,
+              "PlotLineKey": "짐승고기를 산다고요...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "영식",
+          "PlotLineKey": "그래, 요새 「특제 금주 꼬치구이」를 준비 중이거든. 달맞이 야시장의 노점에서 팔 생각이야",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "영식",
+          "PlotLineKey": "하지만 고기 맛이 영 마음에 들지 않더군. 며칠 내내 고민한 끝에 신선하고 질 좋은 짐승고기를 숯불에 굽기로 했지",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 627,
+              "PlotLineKey": "하지만 그게 추방자와 무슨 상관인 거죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "레이",
+          "PlotLineKey": "뭐, 추방자? 형량을 마치고 나왔으니 난 추방자가 아니야",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "레이",
+          "PlotLineKey": "영식 형님께서는 손 씻는 게 쉽지 않은 데다 내가 전에 야수 패거리에 몸담았다는 것도, 사냥에 능하다는 것도 알고 계시지. 그래서 내게 사람들을 데리고 짐승 고기를 사냥해 달라고 의뢰하신 거야",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 628,
+              "PlotLineKey": "그럼 이 옷은 어떻게 된 거죠?",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 629,
+              "PlotLineKey": "「달맞이 야시장에서 떼돈을 번다」는 건 뭐죠?",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 630,
+              "PlotLineKey": "왜 이런 새벽에 이렇게 외진 곳에서 거래하는 거죠?",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 631,
+              "PlotLineKey": "물어볼 게 없네요",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "레이",
+          "PlotLineKey": "사냥을 해야 하니 쉽게 더러워지고 구멍 나는 옷을 입을 순 없잖아. 게다가 이 옷은 일할 때 입으면 정말 편하거든",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 16,
+          "Speaker": "레이",
+          "PlotLineKey": "달맞이 야시장이 노다지 밭이라고 해서 이러는 거야?... 흥, 돈 많은 사람들이니 형님의 꼬치구이가 잘 팔릴 거라는 뜻이잖아! 그래야 우리한테 떨어지는 몫도 클 테고!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 17,
+          "Speaker": "영식",
+          "PlotLineKey": "그건 그러니까... 새벽이나 되어야 관광객을 거의 다 돌려보내고 물건을 가져갈 시간을 낼 수 있기 때문이지... 게다가 이 녀석들이 추방자의 옷을 입은 터라 안에 들어올 수도 없고 말이네",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 18,
+          "Speaker": "음림",
+          "PlotLineKey": "음... 이유와 증거가 모두 충분해. 협조해 줘서 고마워. 아무래도 우리가 두 사람을 오해한 것 같아, 사과하지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "레이",
+          "PlotLineKey": "괘... 괜찮아. 나도 이해는 가. 내가 워낙 말재주가 없는 데다 거친 말만 하는 터라 좀처럼 고치기 어렵더라고",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "마자",
+          "PlotLineKey": "맞아요! {PlayerName}, 그리고 이쪽에 계신... 음림 씨뿐만 아니라 저도 형님이 법을 어기는 일은 하신 줄 알았다니까요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 632,
+              "PlotLineKey": "정당한 방법으로 돈을 버는 거라면 괜찮아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 633,
+              "PlotLineKey": "손을 씻고 올바르게 사는 건 쉽지 않죠. 계속 응원할게요!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "레이",
+          "PlotLineKey": "{PlayerName}의 말이 맞아. 이번에 나도 감옥에 들어갔다가 나오면서 느낀 건데 역시 자기 힘으로 돈을 버는 게 마음 편해",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "레이",
+          "PlotLineKey": "영식 형님, 달맞이 야시장에 있는 가게로 돌아가실 거죠? 저희가 상자를 들어다 드릴게요. 하지만 회장 근처까지만 가져다드릴 수 있을 것 같은데 거기서부턴...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 634,
+              "PlotLineKey": "우리한테 맡겨요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "영식",
+          "PlotLineKey": "나야 고맙지!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

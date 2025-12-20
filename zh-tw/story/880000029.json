@@ -1,0 +1,993 @@
+{
+  "Id": 880000029,
+  "Name": "秘傳占術",
+  "Description": "董叔似乎發現了一位前輩留下的寶物，這個寶物足以成為卜問月的鎮攤之寶。\n\n完成此任務後解鎖新的經營夥伴。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000029,
+  "ShowQuestList": [],
+  "QuestDesc": "董叔似乎發現了一位前輩留下的寶物，這個寶物足以成為卜問月的鎮攤之寶。\n\n完成此任務後解鎖新的經營夥伴。",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 1,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "鑒心",
+          "PlotLineKey": "——抱歉，我雖然是方外之人，但堪輿算卦這類方術……並非我所長。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "鑒心",
+          "PlotLineKey": "而且，此物事關機緣，應該強求不得。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "董叔",
+          "PlotLineKey": "這樣啊，唉，那也沒辦法。 我再想想別的方法吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "鑒心",
+          "PlotLineKey": "如此也好。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 780,
+              "PlotLineKey": "出什麼事了嗎？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "鑒心",
+          "PlotLineKey": "啊，{PlayerName}。 也沒什麼，只是董叔托我幫他解個籤卦。 但小道……實在是不擅長卜算之術。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "董叔",
+          "PlotLineKey": "此事說來話長。 我雖然懂一些算卦看相之術，但畢竟是半路出家。 我就尋思著，弄點能壓得住場的東西來。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 781,
+              "PlotLineKey": "壓得住場的東西？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "董叔",
+          "PlotLineKey": "是啊，在很多年前，今州曾經來了個遊方的算命師傅。 傳說中他能通陰陽，知天命。 找他算卦的客人絡繹不絕。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "董叔",
+          "PlotLineKey": "他的卜問月占術更是出神入化。 呃，可能{PlayerName}對此不太了解。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "董叔",
+          "PlotLineKey": "在特殊燒制的瓷碗裡裝入半碗淨水，默念法訣，觀圓月於淨水中的倒影，借此來判斷吉凶，這就是卜問月之術。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "董叔",
+          "PlotLineKey": "傳說那位算命大師在施展卜問月之術時，碗中之水會放出金光，令碗中月影如同仙境般飄渺。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "董叔",
+          "PlotLineKey": "只可惜，他早已不知所終，據說，在他離開今州之時，他留下了一封信，和一支籤。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "董叔",
+          "PlotLineKey": "信中說，他在今州偶遇奇人。 和{TA}坐而論道後，頓覺技藝不精，再看占書已經味同嚼蠟。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "董叔",
+          "PlotLineKey": "他灰心之餘決定金盆洗手，但他又實在是捨不得丟掉陪伴自己飄零半生的瓷碗，於是將瓷碗藏到了今州的某個地方。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "董叔",
+          "PlotLineKey": "他以籤卦為線索，希望某個有緣人有朝一日能找到它。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 782,
+              "PlotLineKey": "所以，你想讓鑒心解開的籤……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "董叔",
+          "PlotLineKey": "沒錯，就是那位算命大師留下的。 我想，他留下的瓷碗一定能卦卦皆靈，放在攤位上也好幫我鎮鎮場子。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "鑒心",
+          "PlotLineKey": "雖然小道並未聽說過那位大師，但董叔所言有理。 在占算一行，確實有鎮場法寶這一說法。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "鑒心",
+          "PlotLineKey": "那位大師應該也會希望他所留下的寶物，在追月節再放異彩吧。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 783,
+              "PlotLineKey": "那麼，籤文是什麼呢？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "董叔",
+          "PlotLineKey": "哦，哈哈。 故事講得太投入了。 差點忘了……籤文是：「欲尋自我，長臺觀湖。稚子赤心，其行不疑」。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "鑒心",
+          "PlotLineKey": "這籤文看起來與占卜命數毫無關係……所以，我也是一頭霧水。 你有什麼想法嗎，{PlayerName}？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 784,
+              "PlotLineKey": "這籤文好像提到了某個地點。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "鑒心",
+          "PlotLineKey": "能夠觀賞湖景的長臺……？ 今州有這樣的地方嗎？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "董叔",
+          "PlotLineKey": "……說起來，我也曾經去類似的地方找過，但一無所獲。 也許是機緣未到吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "鑒心",
+          "PlotLineKey": "不管如何，只要有線索就好！ 董叔，我們會幫你找到那個瓷碗的！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 785,
+              "PlotLineKey": "嗯，就交給我們吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "董叔",
+          "PlotLineKey": "那太好了。 找到之後，我必有重謝！ 祝你們順利，鑒心，{PlayerName}！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "「長臺觀湖」……卦辭似乎指向此地。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "接下來的提示是……「稚子赤心，其行不疑」。也許我們要找這附近的孩子。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "鑒心",
+          "PlotLineKey": "有道理。 也許周圍就有和卦辭相關的線索。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "湖邊的小女孩",
+          "PlotLineKey": "嗯哼哼~",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "鑒心",
+          "PlotLineKey": "你好啊，小施主。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "湖邊的小女孩",
+          "PlotLineKey": "欸？ 是背著葫蘆的姐姐，還有另一位{Male=大哥哥;Female=大姐姐}……找我有什麼事嗎？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 803,
+              "PlotLineKey": "你在附近見到過什麼奇怪的東西嗎？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "湖邊的小女孩",
+          "PlotLineKey": "奇怪的東西……？ 唔，這湖邊我倒是經常來。 但要說奇怪的東西嘛……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "湖邊的小女孩",
+          "PlotLineKey": "……啊！ 對了，是貓！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "鑒心",
+          "PlotLineKey": "貓……？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "湖邊的小女孩",
+          "PlotLineKey": "嗯嗯，沒錯！ 這附近有個地方，經常會有貓蹲在那裡，一動不動。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "湖邊的小女孩",
+          "PlotLineKey": "每次來湖邊的時候，好像都能看到它們呢。 我媽媽說它們是想撈湖裡的魚，但我總覺得挺奇怪的……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "鑒心",
+          "PlotLineKey": "唔……是貓嗎。 你怎麼看，{PlayerName}？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 804,
+              "PlotLineKey": "確實值得注意。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 805,
+              "PlotLineKey": "既然有異常，那就去看看吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "湖邊的小女孩",
+          "PlotLineKey": "那個……{Male=大哥哥;Female=大姐姐}，你們是巡尉嗎？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 806,
+              "PlotLineKey": "不是喔。",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 807,
+              "PlotLineKey": "我們是來尋寶的。",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "湖邊的小女孩",
+          "PlotLineKey": "那……你們不會是壞人吧……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "鑒心",
+          "PlotLineKey": "哈，當然不是。 我們是來找一件失落已久的寶物的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "湖邊的小女孩",
+          "PlotLineKey": "尋……尋寶嗎？！ 聽起來好厲害！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "湖邊的小女孩",
+          "PlotLineKey": "尋……尋寶嗎？！ 聽起來好厲害！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "湖邊的小女孩",
+          "PlotLineKey": "可惜，我媽媽不讓我做這些冒險的事……但我會替你們加油的！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "鑒心",
+          "PlotLineKey": "好啊，借小施主吉言，我們必能找到寶物！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "湖邊的小女孩",
+          "PlotLineKey": "嗯嗯！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "鑒心",
+          "PlotLineKey": "「車輅蒙塵……」原來是指的這裡嗎。 沒錯，這裡確實有一輛舊車。 看起來好像已經很多年沒維護過了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "鑒心",
+          "PlotLineKey": "我去找找看！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "鑒心",
+          "PlotLineKey": "找到了，{PlayerName}！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "鑒心",
+          "PlotLineKey": "又是一個木匣，但重量好像不太對……裡面不會還是紙條吧。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 834,
+              "PlotLineKey": "有可能喔。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 835,
+              "PlotLineKey": "還真是惡趣味的高人啊。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "鑒心",
+          "PlotLineKey": "果然如此。「欲尋真我，遍歷坊間。逐利之亭，終將成空。」這應該就是下一個提示了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "鑒心",
+          "PlotLineKey": "逐利之亭……小道猜測，應該是說的商業街？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 836,
+              "PlotLineKey": "不錯嘛，鑒心！",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 837,
+              "PlotLineKey": "看來你也找到竅門了呢！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "鑒心",
+          "PlotLineKey": "哈……小道也就是隨便一猜。 至於對不對嘛……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 838,
+              "PlotLineKey": "去找找才知道。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "鑒心",
+          "PlotLineKey": "嗯！ 看來，答案很快就要揭曉了。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "鑒心",
+          "PlotLineKey": "商業街有這麼多鋪子……沒辦法了，挨個找一找吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "等等，鑒心。 既然卦辭中說的是逐利之亭，那想必指的不是大型的商鋪。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "鑒心",
+          "PlotLineKey": "有道理。 也就是說，找找小型的售賣亭就行了吧。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "鑒心",
+          "PlotLineKey": "{PlayerName}猜中了，卦辭所指的地方就是售賣亭。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "鑒心",
+          "PlotLineKey": "嗯……木匣沉甸甸的，那個瓷碗應該就在這裡面了。 要打開看看嗎，{PlayerName}？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 850,
+              "PlotLineKey": "打開吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "鑒心",
+          "PlotLineKey": "算命大師所留下的寶物……有點緊張呢。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "你和鑒心打開了木匣，裡面放著一個看起來平平無奇的黑色瓷碗。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "鑒心",
+          "PlotLineKey": "這就是寶物嗎？ 但看上去……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 851,
+              "PlotLineKey": "……它就是個普通的瓷碗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "鑒心",
+          "PlotLineKey": "小道明白了。 正所謂大音希聲，大象無形。 說不定越是珍貴的寶物，其外在就會越不起眼。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "鑒心",
+          "PlotLineKey": "也許，只有用它卜卦時，才能看出它的珍貴之處。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 852,
+              "PlotLineKey": "有可能。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 853,
+              "PlotLineKey": "真的嗎……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "鑒心",
+          "PlotLineKey": "總之，先帶回去讓董叔看看吧。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "鑒心",
+          "PlotLineKey": "嗯，看來此間事已了。 謝謝你，{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "鑒心",
+          "PlotLineKey": "不過，傳說中那個能夠發出金光，百占百靈的寶物，最後也竟然只是個普通的瓷碗而已。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1443,
+              "PlotLineKey": "你看起來好像有點失落。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "鑒心",
+          "PlotLineKey": "是有一點。 但董叔看起來還是很高興的。 也許對他而言，那個碗真的是寶物吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "鑒心",
+          "PlotLineKey": "但倒不是因為這個，而是覺得……不好意思。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "鑒心",
+          "PlotLineKey": "麻煩你跟著小道跑了這麼久，又是解謎，又是到處找線索，結果卻只得到了這個結果。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1444,
+              "PlotLineKey": "沒事。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1445,
+              "PlotLineKey": "不必放在心上。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "鑒心",
+          "PlotLineKey": "不不不，{PlayerName}做了這麼多，小道總得答謝一番才是。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "鑒心",
+          "PlotLineKey": "答謝……答謝，嗯，讓我想想……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "鑒心",
+          "PlotLineKey": "啊！ 有了，最近茶館剛給我發了工錢，我來請你吃東西吧！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1446,
+              "PlotLineKey": "好啊。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1447,
+              "PlotLineKey": "那我可要好好大吃一頓！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "鑒心",
+          "PlotLineKey": "嗯，點多少都行！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "董叔",
+          "PlotLineKey": "——欸，你們回來了！ 怎麼樣，找到那個瓷碗了嗎？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 872,
+              "PlotLineKey": "找是找到了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 873,
+              "PlotLineKey": "它看上去可不像寶貝啊。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "董叔",
+          "PlotLineKey": "嗯，嗯……沒關係，按照記載，只要往其中盛入淨水，再默念卜問月法咒。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "董叔",
+          "PlotLineKey": "當月影映在其中的時候，它的神奇之處就自然會揭示。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "鑒心",
+          "PlotLineKey": "不愧是寶物啊。 那快試試吧，董叔！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "董叔往瓷碗裡裝了半碗水，然後持訣念咒——什麼都沒發生。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "鑒心",
+          "PlotLineKey": "等等，金光呢……？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 874,
+              "PlotLineKey": "只有月光而已。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 875,
+              "PlotLineKey": "對啊，金光呢？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "董叔",
+          "PlotLineKey": "……嗯，你們所找到的瓷碗，確實應該是那位前輩所留下的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "董叔",
+          "PlotLineKey": "但現在看來，這只是個普通的，能用來算卦的瓷碗而已。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "鑒心",
+          "PlotLineKey": "怎麼會……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "董叔",
+          "PlotLineKey": "市井之事嘛，基本上都是出自大家以訛傳訛，穿鑿附會。 那位算卦大師可能確實有獨到之處。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "董叔",
+          "PlotLineKey": "因為年長日久，故事都變得走樣了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "董叔",
+          "PlotLineKey": "我老董愛看戲，戲文裡的那些三頭六臂的英雄，那些單手舉鼎的壯士，大抵也只是後人附會之作吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "鑒心",
+          "PlotLineKey": "那麼，這個碗豈不是沒用了？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "董叔",
+          "PlotLineKey": "錯，大錯特錯！ 這個瓷碗依然是足以鎮攤的寶物。 要知道，寶物的價值可不一定是它本身所擁有的神奇效果。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "董叔",
+          "PlotLineKey": "而是故事。一個好故事。一個足夠曲折，足夠動聽的故事。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "鑒心",
+          "PlotLineKey": "原、原來是這樣。 受教了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "董叔",
+          "PlotLineKey": "不管怎麼說，謝謝你們，{PlayerName}，還有鑒心。 謝謝你們幫我找到了這個瓷碗。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "董叔",
+          "PlotLineKey": "有此寶物相助，我這鐵口神算的招牌也就能順理成章地打出去了！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "鑒心",
+          "PlotLineKey": "找到了，是個木匣……嗯？ 這是什麼味道？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 818,
+              "PlotLineKey": "好像有股藥味。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "鑒心",
+          "PlotLineKey": "……想必木匣裡面有著能夠吸引貓，並且經久不腐的藥材吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "鑒心",
+          "PlotLineKey": "不愧是高人，但小道想不明白……難道世間真有通神之法，可以算出多年後將由一個小孩子解開這一謎題？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 819,
+              "PlotLineKey": "可能是因為孩子的好奇心。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 820,
+              "PlotLineKey": "也許真的是算出來的。",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "鑒心",
+          "PlotLineKey": "的確如此，小孩子的心思澄澈，又無世俗所累，在細緻入微的觀察上，怕是要比大人敏感得多。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "鑒心",
+          "PlotLineKey": "看來師父所言非虛，占卜之道也並非只是騙術……可惜，我註定是沒有將其研究明白的機緣了。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "鑒心",
+          "PlotLineKey": "我們打開木匣看看吧，也許那個瓷碗就在這裡面？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "你和鑒心打開了木匣，但裡面除了放了一些用錦囊包裹的藥材外，只有一張泛黃的紙條。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "鑒心",
+          "PlotLineKey": "「……欲尋本我，阡陌交錯。車輅蒙塵，吾路為何？」看起來，和那條籤文很像啊。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 821,
+              "PlotLineKey": "一個新的提示。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "鑒心",
+          "PlotLineKey": "……小、小道完全看不明白。 {PlayerName}，你有頭緒嗎？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 822,
+              "PlotLineKey": "大概有吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "鑒心",
+          "PlotLineKey": "不愧是{PlayerName}！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

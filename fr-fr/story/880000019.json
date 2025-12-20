@@ -1,0 +1,608 @@
+{
+  "Id": 880000019,
+  "Name": "À la poursuite de la gloire de la Lune",
+  "Description": "Non loin du Havre de Yumyum, vous rencontrez Zhezhi, qui est troublée par un manque d'inspiration pour ses peintures. Demandez-lui à ce sujet.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000019,
+  "ShowQuestList": [],
+  "QuestDesc": "Non loin du Havre de Yumyum, vous rencontrez Zhezhi, qui est troublée par un manque d'inspiration pour ses peintures. Demandez-lui à ce sujet.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 880700004,
+      "PreQuestName": "Chasser la lune, ici et maintenant"
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 323,
+              "PlotLineKey": "(Elle est là depuis cet après-midi...)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Hmm... « Capture les étals et l'arbre à vœux ensemble pour montrer l'ambiance festive... idéalement avec la lune en arrière-plan. » Ugh... devrais-je trouver un autre endroit pour peindre ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 324,
+              "PlotLineKey": "Salut, que fais-tu ici ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Mais avec ces demandes... la composition... n'est pas bonne…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Oh... ! Pardon, tu-tu me parles ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 325,
+              "PlotLineKey": "Oui.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 326,
+              "PlotLineKey": "En fait, je parlais à la main flottante derrière toi.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Quoi !? Qu-qu'y a-t-il derrière moi ?!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 327,
+              "PlotLineKey": "Hé, détends-toi. Je plaisantais.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "S'il te plaît, ne m'effraie pas comme ça...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Pardon... Je viens de te remarquer...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 328,
+              "PlotLineKey": "Je me souviens que tu t'appelles...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(Donc {PlayerName} se souvient de moi ? Mais attends... ai-je dit mon nom à {Male=lui;Female=elle} ? On s'est rencontré qu'une fois, c'est normal si {Male=il;Female=elle} ne se souvient pas de moi...)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(Devrais-je me présenter une fois de plus... ? Je devrais faire quelque chose pour que ça ne soit pas gênant, non ? Pff, que faire...)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Je...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 329,
+              "PlotLineKey": "Zhezhi. C'est bien ton nom, n'est-ce pas ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "O-oui ! Je suis Zhezhi. Tu as bien retenu mon nom.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(Oh, bon sang, merci ! {Male=Il;Female=elle} ne m'a pas oubliée...)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Je-me souviens de toi aussi ! Tu as dit que tu t'appelais Nomade.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 330,
+              "PlotLineKey": "Le festival est terminé. Tu ne rentres pas chez toi ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Non, les <span class=\"italic\">Artistes de Huanglong</span> ont demandé une peinture pour la Fête de Chasser la Lune, et je cherche toujours l'inspiration... C'est un peu difficile, mais je rentrerai une fois que ce sera fait.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 331,
+              "PlotLineKey": "Il se fait tard.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Eh bien, ce n'est pas que... Attends, déjà ?! Comment !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 332,
+              "PlotLineKey": "Tout le monde est parti.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Ça... ça va. Je préfère les endroits calmes... En plus, j'habite à Jinzhou, pas très loin...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Nomade",
+          "PlotLineKey": "(La laisser toute seule n'est pas une bonne option…)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 333,
+              "PlotLineKey": "As-tu déjà dîné ce soir ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Moi ? Je n'ai pas vraiment faim—",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Euh...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 334,
+              "PlotLineKey": "Laisse-moi te préparer quelque chose.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Vous empruntez les ustensiles au Havre Yumyum pour préparer des plats avec les ingrédients que vous avez.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 335,
+              "PlotLineKey": "J'ai emprunté le réchaud de M. Li. Allez, essaie.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Vraiment ? Merci... Mais je n'ai pas encore fini ma peinture—",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 336,
+              "PlotLineKey": "C'est difficile de travailler le ventre vide.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 337,
+              "PlotLineKey": "Tu peux manger et chercher l'inspiration en même temps.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Tu as raison... Je ne dis pas non !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "C'est tellement délicieux ! C'est presque aussi bon que celui de M. Li... Non, c'est encore meilleur avec tes assaisonnements supplémentaires.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 338,
+              "PlotLineKey": "Merci.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 339,
+              "PlotLineKey": "Au fait, comment s'est passé ta Fête de Chasser la Lune ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 31,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Oh, euh... Ça allait, je suppose. Pas grand-chose, voilà... Hehe.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 340,
+              "PlotLineKey": "...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 32,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(Oh, devrais-je être honnête ? Non, non, je ne peux pas l'inquiéter. Un petit mensonge ne fera pas de mal, non ?)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "En fait...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Je n'ai pas eu le temps d'en profiter beaucoup. Récemment, j'ai été submergée par les tâches et j'ai dû aider Mme Xiao à son kiosque pour créer des éventails.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Travailler au kiosque était épuisant. Juste une heure là-bas, et j'aurais besoin d'une journée pour m'en remettre.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "De toute façon, je n'ai trouvé personne pour aller au festival avec moi. J'ai l'impression de ne pas pouvoir respirer dans les endroits bondés, mais y aller toute seule était aussi gênant...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 37,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(Attends, est-ce que je viens de tout déballer ? Est-ce normal de se confier à quelqu'un qu'on connaît à peine ? Bizarre... Je ne me sens même pas nerveuse... Suis-je toujours aussi maladroite ? Oh non...)",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 341,
+              "PlotLineKey": "Je vois...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 38,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(Pense-t-il que je me plains ? Est-ce que je parais trop agaçante ?)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 39,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Je, euh, je ne dis pas que je ne me suis pas amusée ! Grâce à la fête, j'ai eu beaucoup de travail, et j'ai été payée pour m'occuper du kiosque. J'ai gagné assez en quelques jours pour rembourser trois ou quatre mois de dettes !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(QU'EST-CE QUE JE RACONTE ! Ça me fait paraître misérable !)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 342,
+              "PlotLineKey": "Eh bien, je suppose que nous pouvons profiter de la fête maintenant.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 42,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 343,
+              "PlotLineKey": "Bien que nous ne soyons que {Male=tous les deux;Female=toutes les deux}.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 43,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(...{Male=Tous les deux;Female=Toutes les deux} ? Cela signifie-t-il que nous sommes en... Non, non, non, je ferais mieux de m'arrêter là. Mais que pense-je !?)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 44,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "C'est bien... Juste nous deux. En fait, c'est…bien.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 45,
+          "Speaker": "Nomade",
+          "PlotLineKey": "La plupart des kiosques sont fermés...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 46,
+          "Speaker": "Nomade",
+          "PlotLineKey": "Mais nous pouvons toujours faire des vœux.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "C'est...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 344,
+              "PlotLineKey": "As-tu déjà fait un vœu ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 48,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Pas encore, mais...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 345,
+              "PlotLineKey": "Pourquoi ne pas saisir cette chance pour faire un vœu ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 49,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Je...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 50,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Avant de faire un vœu, Nomade, puis-je te demander une faveur... ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 51,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Puis-je te mettre dans mon tableau ? Tu n'auras qu'à te tenir là pendant dix minutes... ou peut-être cinq... ou trois, je te le promets !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 346,
+              "PlotLineKey": "Pourquoi ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 347,
+              "PlotLineKey": "C'est... une demande soudaine.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 52,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Je ne sais pas ! J'ai juste cette envie irrésistible... J'aimerais t'inclure dans ce tableau. J'ai l'impression que je dois... Non, en tout cas, je le veux !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 53,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 348,
+              "PlotLineKey": "Est-ce pour la revue ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 54,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 349,
+              "PlotLineKey": "Mais ne serait-il pas un peu inapproprié de m'inclure dans l'œuvre pour la revue ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 55,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Non, je ne parle pas du tableau que l'on me paie pour créer...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 56,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Ce tableau, je voudrais qu'il soit... Juste pour moi.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

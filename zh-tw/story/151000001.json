@@ -1,0 +1,119 @@
+{
+  "Id": 151000001,
+  "Name": "海風中失落的湛藍回聲·下",
+  "Description": "前往黑海岸下層，與庫可可一起幫助被困的洄游魚",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 151000001,
+  "ShowQuestList": [],
+  "QuestDesc": "前往黑海岸下層，與庫可可一起幫助被困的洄游魚",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 151000000,
+      "PreQuestName": "海風中失落的湛藍回聲·上"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "庫可可",
+          "PlotLineKey": "{PlayerName}，準備好了我們就立刻出發吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "庫可可",
+          "PlotLineKey": "前往汙染位置的路有點複雜，時間有限，我剛剛和系統申請了守岸人姐姐的傳送門的臨時權限。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "庫可可",
+          "PlotLineKey": "我們直接開門過去吧！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 442,
+              "PlotLineKey": "你居然還有這種功能？",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 443,
+              "PlotLineKey": "什麼時候我也能學這個？",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "庫可可",
+          "PlotLineKey": "庫庫庫，我可是{PlayerName}大師的助手，掌握的技能不夠豐富怎麼行！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "庫可可",
+          "PlotLineKey": "如果要主動使用的話……{PlayerName}你需要先讓自己的大腦和泰提斯系統相連，然後再……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 444,
+              "PlotLineKey": "還是算了吧……",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "庫可可",
+          "PlotLineKey": "其實，就和上次噬亡星事件時一樣，你也可以通過裝置授權來啟動傳送門。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "庫可可",
+          "PlotLineKey": "唔，總之這次我先把門打開了，我們快點趕過去吧！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 16,
+          "Speaker": "庫可可",
+          "PlotLineKey": "庫庫庫，其實剛剛在黑海岸上層已經偷偷拍了一張了，我將它們沖印出來一併作為謝禮送給你！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "庫可可",
+          "PlotLineKey": "說起來，剛剛守岸人姐姐有開門幫助過我們呀……{PlayerName}要不要去見見她呢。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "庫可可",
+          "PlotLineKey": "那些洄游魚，她是不是也很久沒有見到了呢……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

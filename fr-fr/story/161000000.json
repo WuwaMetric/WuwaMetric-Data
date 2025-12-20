@@ -1,0 +1,299 @@
+{
+  "Id": 161000000,
+  "Name": "Aventure de l'Équipe de peluches",
+  "Description": "Vous avez reçu un message de M. Fulmine. Il parle de « clients » mystérieux qui refusent de révéler leur nom et l'invitent à vous confier une demande.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 161000000,
+  "ShowQuestList": [],
+  "QuestDesc": "Vous avez reçu un message de M. Fulmine. Il parle de « clients » mystérieux qui refusent de révéler leur nom et l'invitent à vous confier une demande.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900005,
+      "PreQuestName": "Reconstruire le village des peluches : I"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100019,
+      "PreQuestName": "La Demoiselle, La Défiante et Le Cri de la Mort"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Bonjour, {PlayerName}. Ça faisait longtemps ! Depuis que tu as aidé à restaurer le Village des peluches, de plus en plus d'Échos y affluent.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Ça faisait longtemps que tout le monde n'avait pas été aussi joyeux et enthousiaste.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 9,
+              "PlotLineKey": "C'est super.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Oui, oui. Et au nom de tous ceux dont je tairai l'identité pour le moment, j'aimerais formellement t'inviter…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "Un instant. C'était quoi ce bruit ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Soudain, vous entendez le doux bruit d'un carillon. En essayant d'en trouver la source, vous réalisez qu'il provient de la cloche du cœur résonnant offerte par les Échos peluches.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Ils souhaitent te voir dès que possible. Bon, eh bien, on t'attend au Village des peluches !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Allons, calmez-vous. Je vous ai dit que {Male=M.;Female=Mme} {PlayerName} était déjà en chemin... Oh, te voilà !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 231,
+              "PlotLineKey": "Me voilà.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 232,
+              "PlotLineKey": "Qu'est-ce que j'ai manqué ?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Enfin ! Notre {Male=héros;Female=héroïne} honore à nouveau le Village des peluches de sa présence.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Oh, rien du tout. Nous t'attendions avant de partir à l'aventure.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 233,
+              "PlotLineKey": "C'est... pour moi ?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "C'est notre première fleur du matin ! Ces petits gars ne laissaient personne s'en approcher tant que la fleur n'avait pas éclos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Ils disent qu'ils veulent que la première fleur te revienne.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Les peluches",
+          "PlotLineKey": "(Cris de joie et d'embarras)",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 234,
+              "PlotLineKey": "Merci. Ça me touche beaucoup.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Les peluches",
+          "PlotLineKey": "(Cris de joie intense)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Ils sont ravis qu'elle te plaise ! Au fait, {PlayerName}, j'ai une question... As-tu déjà vu une épine maritime ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Comme tu peux le voir, le Village des peluches prospère à présent, et les Échos s'essaient à de nouvelles choses chaque jour.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "D'autant plus depuis que les Échos peluches nous ont entendu parler de l'épine maritime avec Enzo, il y a quelques jours. C'est une fleur qui brille comme une méduse. Ils ne tiennent plus en place, ils sont trop curieux et veulent en voir de leurs propres yeux.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Tu n'aurais pas une de ces magnifiques fleurs, par hasard ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Vous sortez une épine maritime de votre sac et la tendez à Fulmine.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "C'est... C'est le genre de beauté qu'on ne voit qu'une fois dans sa vie. Oh, merci beaucoup {PlayerName} ! Enzo était persuadé que les épines maritimes avaient disparu, et j'étais tenté de le croire... jusqu'à maintenant !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Où est-ce que tu l'as trouvée ? Pourras-tu y emmener les Échos peluches ? Si ça ne te gêne pas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Notre Équipe de peluches, formée de la crème de la crème des Échos, meurt d'envie de partir à l'aventure depuis la reconstruction du Village des peluches !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Partir à la découverte de formes de vie exotiques et d'endroits mystérieux, c'est quand même mieux que de rester au village à ne rien faire toute la journée !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 235,
+              "PlotLineKey": "Ça a l'air génial.",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 236,
+              "PlotLineKey": "Ça a l'air épuisant.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Exactement ! C'est le récit de tes plus grandes aventures qui les a inspirés ! Ils t'offriront un cadeau à ton retour !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 24
+        },
+        {
+          "Id": 18,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Non, non, non. Les nouveaux horizons ne sont qu'une partie de l'expérience. Ils veulent aussi voir {Male=le courageux;Female=la courageuse} {PlayerName} en action de leurs propres yeux. Et puis, ils t'offriront un cadeau à ton retour !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 293,
+              "PlotLineKey": "C'est gentil.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Avec plaisir ! Et pendant que tu y es, peux-tu aussi prendre quelques photos en chemin ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Bubulle et Vieux Four n'osent jamais aller visiter de nouveaux endroits. Si tu peux leur montrer des photos de paysages uniques par-delà le village, ça les y encouragerait peut-être.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Pas de souci",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "C'est génial ! Alors...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "En avant pour de nouvelles aventures.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

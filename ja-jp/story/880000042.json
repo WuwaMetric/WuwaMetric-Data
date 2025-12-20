@@ -1,0 +1,345 @@
+{
+  "Id": 880000042,
+  "Name": "コンコンガニ・百の味チャレンジ",
+  "Description": "ゴンゴンガニがコンコンガニに……酒蒸し、甘煮、それとも……百の味？",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000042,
+  "ShowQuestList": [],
+  "QuestDesc": "ゴンゴンガニがコンコンガニに……酒蒸し、甘煮、それとも……百の味？",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 880000037,
+        "ChildQuestId": 23
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "サラ",
+          "PlotLineKey": "{Male=お兄ちゃん;Female=お姉ちゃん}、「百の味のコンコンガニ」という料理を食べたことありますか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 84,
+              "PlotLineKey": "ある。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 85,
+              "PlotLineKey": "なにそれ？",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "サラ",
+          "PlotLineKey": "本当ですか！？すごい、{Male=お兄ちゃん;Female=お姉ちゃん}は勇者なんですね！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "サラ",
+          "PlotLineKey": "コンコンガニを使った料理ですよ！すごい勇者だけがこの料理を食べられるんです！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "サラ",
+          "PlotLineKey": "ユージーンが立派な勇者になりたいって言ってたから、「百の味のコンコンガニ」を食べないといけないって教えたんです。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "サラ",
+          "PlotLineKey": "でも私、「百の味のコンコンガニ」を持ってなくて……だから、ユージーンは勇者になれないんです。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ユージーン",
+          "PlotLineKey": "勇者になれない……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "サラ",
+          "PlotLineKey": "{Male=お兄ちゃん;Female=お姉ちゃん}、どこでこの料理が食べられるのか教えてください。お金なら払います。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 86,
+              "PlotLineKey": "見つけたら持ってきてあげるね。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "サラ",
+          "PlotLineKey": "本当？ありがとう、{Male=お兄ちゃん;Female=お姉ちゃん}！ここで待ってますね！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ユージーン",
+          "PlotLineKey": "待ってます！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "サラ",
+          "PlotLineKey": "{Male=お兄ちゃん;Female=お姉ちゃん}、「百の味のコンコンガニ」を持ってきてくれましたか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 110,
+              "PlotLineKey": "持ってきた。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "サラ",
+          "PlotLineKey": "ユージーン、早く食べてみて！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ユージーン",
+          "PlotLineKey": "コンコンガニ、どんな味なのでしょうか。生のサニーフィッシュとは絶対違いますよね……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "サラ",
+          "PlotLineKey": "もしかしたらムキムキヒトデの味かも。ほら、食べてみて！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 111,
+              "PlotLineKey": "{Male=生のサニーフィッシュの味だ。;Female=生のサニーフィッシュの味だよ。}",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 112,
+              "PlotLineKey": "{Male=ムキムキヒトデの味だ。;Female=ムキムキヒトデの味だよ。}",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 113,
+              "PlotLineKey": "コンコンガニはコンコンガニの味だ。",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "ユージーン",
+          "PlotLineKey": "えー！？それだと生臭そうですね……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "ユージーン",
+          "PlotLineKey": "うーん……噛みごたえがありそうな感じですね……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "ユージーン",
+          "PlotLineKey": "そう言われても、分からないですよ……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "サラ",
+          "PlotLineKey": "ユージーン、早く食べてみて！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ユージーン",
+          "PlotLineKey": "うぅ……怖いよ。僕、もう勇者にならなくてもいい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "サラ",
+          "PlotLineKey": "ユージーン！そんなこと言っちゃダメ。勇者になるって言ったのはあなたでしょ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "サラ",
+          "PlotLineKey": "はぁ……ごめんなさい、{Male=お兄ちゃん;Female=お姉ちゃん}。ユージーンは少し怖がりなところがあって……でも、いい方法を思いついたんです！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "サラ",
+          "PlotLineKey": "私たちがこのコンコンガニを試食して、ユージーンに美味しいと教えてあげましょう！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 114,
+              "PlotLineKey": "じゃあ、一口食べさせて。",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 115,
+              "PlotLineKey": "{Male=俺はいい、あなたが食べて。;Female=私はいい、あなたが食べて。}",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "二人の期待のこもった視線の中、恐る恐る「百の味のコンコンガニ」を食べてみた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "海を思い出させる味だ。塩辛くて、少し生臭い。でも、総じて美味しいように感じる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "サラ",
+          "PlotLineKey": "どうですか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 116,
+              "PlotLineKey": "海の味がする。",
+              "PlayVoice": false,
+              "JumpToId": 19
+            },
+            {
+              "TextId": 117,
+              "PlotLineKey": "けっこう美味しい。",
+              "PlayVoice": false,
+              "JumpToId": 19
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "サラ",
+          "PlotLineKey": "はい、分かりました。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "サラがしばらくためらった後、カニの足を抱えて一口かじった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "サラ",
+          "PlotLineKey": "ん……味は……悪くはない、ような。潮風みたいな味。美味しいですよ！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 19,
+          "Speaker": "ユージーン",
+          "PlotLineKey": "本当？じゃあ……僕も食べてみる……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "ユージーン",
+          "PlotLineKey": "美味しい！……いや、まずい……ううん、やっぱり美味しいかも。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ユージーンは顔を歪ませながらカニを食べきった。彼は本当の勇者になれたようだ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "ユージーン",
+          "PlotLineKey": "はぁ……お、美味しかった。ありがとう、これで僕も勇者だ……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 118,
+              "PlotLineKey": "{Male=そうだ。;Female=そうだね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 119,
+              "PlotLineKey": "無理しなくてもいいんだよ……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "サラ",
+          "PlotLineKey": "{Male=お兄ちゃん;Female=お姉ちゃん}！これを受け取ってください。ユージーンを最高の勇者にしてくれてありがとう！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

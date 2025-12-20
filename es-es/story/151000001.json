@@ -1,0 +1,119 @@
+{
+  "Id": 151000001,
+  "Name": "El eco azul perdido en la brisa marina: II",
+  "Description": "Dirígete al nivel inferior y rescata al Eterfín atrapado con KU-Key.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 151000001,
+  "ShowQuestList": [],
+  "QuestDesc": "Dirígete al nivel inferior y rescata al Eterfín atrapado con KU-Key.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 151000000,
+      "PreQuestName": "El eco azul perdido en la brisa marina: I"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Podemos ir en cuanto estés {Male=listo;Female=lista}, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Nos tomaría mucho tiempo llegar caminando hasta allí, por eso solicité acceso temporal a los portales de la Guardacostas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Así podemos avanzar mucho más rápido.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 442,
+              "PlotLineKey": "¿Puedes hacer eso también?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 443,
+              "PlotLineKey": "¿Cuándo puedo aprender esta habilidad?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "¡Por supuesto! Soy tu mejor asistente y tengo que saber estas cosas.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Para aprenderlo… tendrás que conectar tu mente al Sistema Tetis, y luego…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 444,
+              "PlotLineKey": "Paso.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "También puedes activar los portales con tu autorización especial, tal como la última vez.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "De todos modos, he abierto el portal para ti. ¡Sigamos adelante!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 16,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "¡Ha sido un placer! ¡De hecho, ya tomé una mientras estábamos en la zona alta! ¡La imprimiré también!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "Por cierto, la Guardacostas acaba de ayudarnos. Estaría bien darle las gracias en persona.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "KU-Key",
+          "PlotLineKey": "También debía llevar bastante tiempo sin ver Eterfines.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

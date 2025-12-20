@@ -1,0 +1,222 @@
+{
+  "Id": 133900006,
+  "Name": "Restore Plushie Village II",
+  "Description": "Through your hard work, meaningful changes have taken root in Plushie Village. In the meantime, the village receives a new visitor...",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 133900006,
+  "ShowQuestList": [],
+  "QuestDesc": "Through your hard work, meaningful changes have taken root in Plushie Village. In the meantime, the village receives a new visitor...",
+  "Conditions": [
+    {
+      "Type": "Item",
+      "Items": [
+        {
+          "ItemId": 71220005,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900005,
+      "PreQuestName": "Restore Plushie Village I"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Hello, did Old Bake once work in this bakery?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Apprentice",
+          "PlotLineKey": "Oh, yes. Did you see it somewhere?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "It's recovering in a safe place. Did you guys break it?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Apprentice",
+          "PlotLineKey": "Oh, it's not really our fault… The old baker was rough on Old Bake for the past 60 years, so by the time it got to us, it was pretty much already worn out.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Apprentice",
+          "PlotLineKey": "We wanted to use a better oven too, but we were worried it might hurt Old Bake's feelings, so we just made do. Then Old Bake's valve broke and it just ran away.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Then why are you dawdling around here?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Apprentice",
+          "PlotLineKey": "I'm actually trying to figure out a way to fix Old Bake. I grew up eating the Baton Bread it baked, though what it makes can only be called a baton now...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Apprentice",
+          "PlotLineKey": "Since you've sent it off to recover, could you send it back to us once it's fixed?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Apprentice",
+          "PlotLineKey": "That old baker wore it down all these years, and now we're just tossing it aside? I can't do that... it feels wrong.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1282,
+              "PlotLineKey": "But you know, it's better not to square a peg into a round hole.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1283,
+              "PlotLineKey": "But do you really need Old Bake?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Apprentice",
+          "PlotLineKey": "I... Anyway, I'll tell my fellows in the bakery what happened first. Please take good care of Old Bake.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "{Male=Mr.;Female=Ms.} {PlayerName}! You've come at the right time! Look over there!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "You look where Fulmine points to—some Plushies are playing as knights, wielding the rock-hard, dry baton bread Old Bake made as swords.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Who would've thought that dry bread could still be of use.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Well, I think Old Bake would fit right in with this village now!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1146,
+              "PlotLineKey": "Indeed. It's like a gentle grandpa to a bunch of children.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1147,
+              "PlotLineKey": "Indeed. The Plushie Knights need a master to forge their swords.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Haha, no better way to put it!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "It's all thanks to you. Never in my life would I be able to find that many Caskets.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1148,
+              "PlotLineKey": "No need. I'm happy to witness this lovely scene.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 1149,
+              "PlotLineKey": "I can definitely bring you more if I get more rewards!",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Yeah, I feel you. These Plushies aren't humans, but they share our feelings.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Speaking of this, the Sonoro Sphere within the painting is far smaller than its recorded potential size, which means more rewards await to be claimed!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Let's keep working together!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Subtle but significant changes have taken root in Plushie Village. An Oven Echo has come along.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

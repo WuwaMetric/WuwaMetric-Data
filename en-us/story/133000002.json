@@ -1,0 +1,374 @@
+{
+  "Id": 133000002,
+  "Name": "Misfortune on a Workday",
+  "Description": "Constant cries for help persist from the Exiles camp. Defeat the Exiles and rescue the caller from the camp.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 133000002,
+  "ShowQuestList": [],
+  "QuestDesc": "Constant cries for help persist from the Exiles camp. Defeat the Exiles and rescue the caller from the camp.",
+  "Conditions": [
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 106000005
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Goodness gracious, someone's finally here to save me!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "You must've gotten my distress signal.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 64,
+              "PlotLineKey": "What distress signal?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "I dug a small hole and stuffed a note through the back!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "I'd tap out the passcode on the wall every midnight!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "And today, I even managed to hold off their guard exchange for a full five minutes!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Which clue did you get to find me?!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 65,
+              "PlotLineKey": "I heard you calling for help.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 66,
+              "PlotLineKey": "That's a lot of work you did.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Yes! I won't just sit here to rot!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 67,
+              "PlotLineKey": "But I only heard your cry for help.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Oh, that was easy.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Enough talk. We have to leave. There's too many Exiles around. They'll find us if we don't.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 68,
+              "PlotLineKey": "Why did they kidnap you?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Ugh, don't even get me started. I was originally tasked with providing assistance in building fortifications over at the Desorock Highland, but those Exiles intercepted me on the way.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "They took notice of my clothing and asked if I was an engineer from the Ministry of Development. I replied yes, and they just grabbed me!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "I didn't get it at first. What's wrong with being an engineer? I didn't do anything to them.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "All I've heard was that some Exiles hate Jinzhou government employees, but I didn't expect myself to get caught in it this time.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "I've only been on the job for a few years, but I know that a colleague got hurt by some Exiles once.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 69,
+              "PlotLineKey": "Get to the point!",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 70,
+              "PlotLineKey": "And?",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Ah! Yes! I was just getting to it.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 16,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Then he was rescued by the Patroller, they caught the Exiles who kidnapped him, and after some questioning they found out that...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "That the leader of the Exiles failed the exam for a position he was applying for for ten years straight, so out of fury he resorted to becoming an Exile, and gets mad at every government employee he sees.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 18,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "After I was kidnapped, their leader, Haixing, told me that she wanted me to help them repair a collapsed treasure cave.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "I pretended to comply at first, I even went to the cave to check on it, and then I stalled for as long as I could to wait for rescue.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Maybe I stalled for too long or it's just my bad acting, anyway, they found out what I was planning, and that's when they showed their true colors! They even threatened my life!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "I'm not the kind of person you'd kidnap and still expect me to help you fix something. No way!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Didn't their mothers teach them how to say \"please\" when they were young? Those little crooks!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 71,
+              "PlotLineKey": "And?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "There was no chance in hell I'd do as they say! And then... They stopped giving me food.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Let's talk as we walk, we can't be just standing here, I don't want to get caught again.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Are you the only one they sent to come rescue me? Do you know how to fight? Can you take on three or four camps worth of Exiles on your own?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 76,
+              "PlotLineKey": "I'm the best there is. No need to worry!",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 77,
+              "PlotLineKey": "I not too sure about that last part.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Great. I'll be counting on you!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Then you just need to cover me while I sneak into the camp for some materials, make some explosives!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "We should be safe here. Thank you for saving me and escorting me all this way.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 245,
+              "PlotLineKey": "You're welcome.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "By the way, I was so nervous that I forgot to ask your name.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 246,
+              "PlotLineKey": "You can call me Rover.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 247,
+              "PlotLineKey": "I'm {PlayerName}.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Thank you so much, Rover. If it wasn't for you coming at the time, I can't even imagine how miserable my fate would have been.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Thank you so much, {PlayerName}. If it wasn't for you coming at the time, I can't even imagine how miserable my fate would have been.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "I don't have anything to repay you at the moment, so I'll tell you where Haixing's treasure cave is at and the password to it!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "I already know their password when I went there last time. I'll mark the location for you. If you're brave, go and take a look at it as soon as you can. You might even find some decent treasure!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "I have to get going, I've wasted too much time already. I wonder how progress have been over at the Desorock Highland.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ministry of Development Engineer",
+          "PlotLineKey": "Well, this is where we say goodbye. You've accompanied me far enough. Farewell!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

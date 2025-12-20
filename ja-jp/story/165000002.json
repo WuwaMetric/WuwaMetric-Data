@@ -1,0 +1,612 @@
+{
+  "Id": 165000002,
+  "Name": "島の仮面被り",
+  "Description": "ある謎めいた仮面被りがリジョリ群島に現れた。その整った身だしなみの裏には、人知れない狂気が潜んでいる……",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 165000002,
+  "ShowQuestList": [],
+  "QuestDesc": "ある謎めいた仮面被りがリジョリ群島に現れた。その整った身だしなみの裏には、人知れない狂気が潜んでいる……",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "老人と魚と海"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "変わった少女",
+          "PlotLineKey": "{Male=お兄ちゃん;Female=お姉ちゃん}、見て、捕まえたよ！すごく綺麗な魚でしょ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "若い漁師",
+          "PlotLineKey": "あまり近寄らない方がいい。なんかおかしいみたいなんだ。怪我するかもしれないぞ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "年寄りの漁師",
+          "PlotLineKey": "さっき食べ物を渡した時は、まだまともだったのに……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 141,
+              "PlotLineKey": "彼女は何者？",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 142,
+              "PlotLineKey": "{Male=彼女に何かあった？;Female=彼女に何かあったの？}",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "若い漁師",
+          "PlotLineKey": "さあな。探検でもしに来た街の人なんじゃないか。服装からしてリジョリ群島の人じゃなさそうだし……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 5,
+          "Speaker": "若い漁師",
+          "PlotLineKey": "何かショックを受けたのか、混乱しているみたいだな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "若い漁師",
+          "PlotLineKey": "冒険をしに来た街の人なのかな。服装からしてリジョリ群島の人じゃなさそうだし……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "年寄りの漁師",
+          "PlotLineKey": "この海の深いところには奇妙な魚がたくさんいるんだ。珍しい魚をコレクションしたがるマニアが集まるくらいにな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "年寄りの漁師",
+          "PlotLineKey": "未開の海は本当に危険で、畏敬の念を持たなければ不幸を招くことになる……それでも、冒険に出る者が後を絶たない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "年寄りの漁師",
+          "PlotLineKey": "なのにこの人と来たら、{Male=兄妹;Female=姉妹}揃って「どう魚を捕るのか」なんて、すごい剣幕で訊いてきたらしい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "年寄りの漁師",
+          "PlotLineKey": "あ、でも今は彼女一人しかいないな……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "若い漁師",
+          "PlotLineKey": "本当は誰と一緒にいたのかよくわからないんだ。とにかく、この子を止めてくれないか。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "{Male=お兄ちゃん;Female=お姉ちゃん}、ダーナがこの魚を持って帰ったら、みんなびっくりするんじゃないかな？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ダーナは傷だらけの腕を伸ばし、手に持ったワインボトルの破片を見せた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "え、{Male=お兄ちゃん;Female=お姉ちゃん}、怪我してるの？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "よかった！ローナおじさんが言ってた、人の傷に引き寄せられる魚って覚えてる？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "まだ誰もその魚を見つけられてないの。早く海に出てその魚を見つけよう！見つけたら街に戻って、みんなに見せてあげるの！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 150,
+              "PlotLineKey": "{Male=その魚を見つけたら、街に帰るのか？;Female=その魚を見つけたら、街に帰るの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "もちろん！だって、私が街で一番のコレクターだってみんなに認めてほしいから！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 151,
+              "PlotLineKey": "{Male=それってどんな魚なのか？;Female=それってどんな魚なの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "覚えてないの？じゃあ、私が描いてあげる。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 152,
+              "PlotLineKey": "わかった、見つけてくるよ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 0,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "ローナおじさん、約束したでしょ。私の魚はどこ？どこに置いたの！？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "通りかかりの漁師",
+          "PlotLineKey": "な、なんだお前！？離れろ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "痛い……痛い……食べないで……{Male=お兄ちゃん;Female=お姉ちゃん}、助けて……{Male=お兄ちゃん;Female=お姉ちゃん}？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 42,
+              "PlotLineKey": "{Male=ダーナ？どうしてまだ島にいるんだ？;Female=ダーナ？どうしてまだ島にいるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "{Male=お兄ちゃん;Female=お姉ちゃん}……うぅ……私の魚、あなたがくれた魚が見当たらないの……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ダーナの腰に酷い臭いを放つ魚がぶら下がっている。どうやら、前に彼女にあげた魚のようだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "ごめんね。あなたの好きな魚を見つけてあげるから！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 43,
+              "PlotLineKey": "好きな魚？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ダーナは魚の形を大まかに描いた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "これよ、あなたが小さい頃に教えてくれたの。あなたが大好きな魚だって。そうだよね？間違ってないよね？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 44,
+              "PlotLineKey": "それなら、もう持ってる。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "え？どこにあるの？まさか私を置いて一人で海に出たの？何かいいものは見つかった？見せて見せて！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 45,
+              "PlotLineKey": "わかった。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "お魚さん……お魚さん……どこにいるの……早く出ておいで、美味しいものを持ってきたよ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 68,
+              "PlotLineKey": "{Male=……まだここにいたのか。;Female=……まだここにいたのね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "どうして悲しい顔をしてるの？水槽は大きいし、他にもたくさんの綺麗な魚が一緒にいるでしょ？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "もしかして……{Male=お兄ちゃん;Female=お姉ちゃん}はまだ海の中にいるの……？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "泣かないで、私が探しに行くよ。{Male=お兄ちゃん;Female=お姉ちゃん}はとても大切な人だから……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（やはり説得はできないみたいだ。先に彼女の家族を見つけた方が良いかもしれない）",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 69,
+              "PlotLineKey": "ダーナ、君の{Male=お兄さん;Female=お姉さん}はどこに？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "{Male=お兄ちゃん;Female=お姉ちゃん}、まだ海の中にいるの。海の中、とても寒いのに……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 70,
+              "PlotLineKey": "海の中？もしかしてあなたの{Male=お兄さん;Female=お姉さん}は……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "私、{Male=お兄ちゃん;Female=お姉ちゃん}と一緒に帰らないといけないの。これが{Male=お兄ちゃん;Female=お姉ちゃん}だよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ダーナは地面に魚の絵を描き上げた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "突如ダーナが海辺に走り出そうとしたが、間一髪のところで彼女を引きとめた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "どうして止めるの！私は本物の貴族、招待状を持った客人よ。私は正真正銘のコレクターなの！行かせて！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "ドリア様、贈り物を持ってきました。{Male=お兄ちゃん;Female=お姉ちゃん}、贈り物を見せてあげて。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（彼女は魚を自分の{Male=兄;Female=姉}だと認識している。なら、この魚を持ってくれば彼女を満足させられるかもしれない）",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 71,
+              "PlotLineKey": "……わかった、すぐに見せる。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "もう、早くしてよ！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ダーナが手に持った魚を漁師たちに見せようとしている。でも、かなり避けられているようだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "ドリア様、もう一度よく見てください。この魚は既に絶滅した希少な品種。私が深海に潜ってやっと見つけた魚ですよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "クレア夫人、これであなたのサロンに参加できますよね？あなたが提示した追加条件も満たしました。約束しましたよね？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 94,
+              "PlotLineKey": "……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "野次馬の船大工",
+          "PlotLineKey": "この人、何持ってるんだ？……腐った魚？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "野次馬の漁師",
+          "PlotLineKey": "ほんと何言ってるんだ？これ、普通の魚だろう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "約束したじゃないですか！？あれは嘘だったのですか！？どうして！どうして！！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "野次馬の船大工",
+          "PlotLineKey": "やめろ、殴るな！誰か、彼女を止めてくれ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 95,
+              "PlotLineKey": "ダーナ、落ち着いて。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ダーナはあなたを見てようやく落ち着きを取り戻したが、その目には涙を浮かべていた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "{Male=お兄ちゃん;Female=お姉ちゃん}、がっかりさせてごめんね……私、約束したのに……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "彼ら……うぅ……彼らは約束を破った。はなから私たちをファミリーに招くつもりなんてなかったのよ……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 96,
+              "PlotLineKey": "大丈夫。方法ならまだある。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "方法……もっと珍しい魚を彼らにあげる、とか……？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 97,
+              "PlotLineKey": "{Male=ああ;Female=ええ}。どんな魚がいいと思う？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "えっと……この魚はどう？リジョリ群島にしかいない、とても珍しい魚なの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "この魚を捕まえたら、きっと迎えの人が来てくれる！私たち、ファミリーに入れるんだよ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 98,
+              "PlotLineKey": "{Male=そうだよ;Female=そうだよ}。魚を探してくるから、ここで待ってて。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "ダーナ、大人しく待ってるよ。{Male=お兄ちゃん;Female=お姉ちゃん}も気をつけてね。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "敬愛なるクレア夫人、あなたはどこにいるのですか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "まさか、私に会いたくないと言うのですか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 118,
+              "PlotLineKey": "えっと……クレア夫人は漁に出ているよ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "ええ……そんな！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "これは……クレア夫人が残した手紙？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "「クレア夫人の手紙」",
+          "PlotLineKey": "「最近、街から来る人がどんどんおかしくなっている……」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "「クレア夫人の手紙」",
+          "PlotLineKey": "「ローナ、標本を作って売ってみるのはいかが？いい商売になるかもしれない」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ダーナ",
+          "PlotLineKey": "クレア夫人、あなたはローナおじさんのところに行ったのですね？私もすぐ行きます！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

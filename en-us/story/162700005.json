@@ -1,0 +1,312 @@
+{
+  "Id": 162700005,
+  "Name": "Fantasies of the Thousand Gateways",
+  "Description": "A familiar voice echoes through the dreamscape's frequencies, introducing himself as \"Ebony Gatekeeper.\" You decide to seek him out and uncover what he's up to.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 162700005,
+  "ShowQuestList": [],
+  "QuestDesc": "A familiar voice echoes through the dreamscape's frequencies, introducing himself as \"Ebony Gatekeeper.\" You decide to seek him out and uncover what he's up to.",
+  "Conditions": [
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 30
+    },
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 114000027,
+        "ChildQuestId": 24
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 31000
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "Hello, {PlayerName}. Can you hear me...? It is I, the Ebony Gatekeeper.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 9,
+              "PlotLineKey": "Come again?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 10,
+              "PlotLineKey": "Why are you calling me?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 11,
+              "PlotLineKey": "Hello, and I'm the Ivory Gatekeeper.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ebony Gatekeeper",
+          "PlotLineKey": "Ahem. I am the Administrator of the <ano=domain of dreams>Somnoire</ano>, the Ebony Gatekeeper.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ebony Gatekeeper",
+          "PlotLineKey": "Well... to see you about matters concerning Somnoire naturally.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ebony Gatekeeper",
+          "PlotLineKey": "Ahem. Maybe save the jokes for later, Dreamwalker.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ebony Gatekeeper",
+          "PlotLineKey": "I was wondering if you have noticed... A gateway to the Somnoire has started to appear in Rinascita.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ebony Gatekeeper",
+          "PlotLineKey": "(Muffled voice)",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 12,
+              "PlotLineKey": "Hello?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 13,
+              "PlotLineKey": "You're breaking up.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ebony Gatekeeper",
+          "PlotLineKey": "The dreamscape seems to be experiencing some kind of interference... Ah, there, it's working again.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ebony Gatekeeper",
+          "PlotLineKey": "If possible, I'd like to speak with you in person. I'll be expecting you, Dreamwalker.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "Ah. {PlayerName}. You have arrived.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "Emm... I gather you must be puzzled by my current appearance. I can assure you I am the Ebony Gatekeeper who contacted you earlier.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "You're inside Encore's Cosmos?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 32,
+              "PlotLineKey": "...I see how it is. It was you who I spoke to that time!",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "I'm afraid Ms. Encore has no involvement in this. This entity is a replica of memory fragments from the Somnoire. I am merely borrowing its appearance for the time being.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "Okay...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "Now, then. This is unrelated to the topic we're about to discuss.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 5,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "That-that time?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 34,
+              "PlotLineKey": "That time when I used Echoids against the TDs.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 35,
+              "PlotLineKey": "That time when I met \"Dorothy\"...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "Ahem... Well... Yes, you're absolutely correct. It was me who you spoke to.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "I indeed owe you an apology for engaging you in the experiment to test out the new Gateway through a false identity. It was all part of my plan to save those dreams... One which you've thwarted.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 36,
+              "PlotLineKey": "Okay, out with it. What are you up to this time?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "Please, Dreamwalker. I assure you that I have no secrets to hide.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "I've been optimizing the memory storage logic of a few Memory Zones, and if all goes accordingly the Somnoire should be able to house more dreams with its current space.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "Yet I've discovered impurities lingering within the dreams of Rinascita. When the Dreamscape Nodes in Rinascita were activated, these impurities flooded in Somnoire along with the dreams.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "What are these impurities?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "Unlike what we've handled before, they are composed of something more sinister than negative emotions in nightmares. Something that's close to a spiritual plague. However, I have yet to achieve a definitive answer.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "More Memory Zones fall under their influence as we speak. If left untreated, they could not only put my work on hold but also undermine the integrity of the Somnoire itself.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "Dreamwalker, I wish to seek your aid in handling these impurities. But not for me, for the entire Somnoire.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "Fine. Not the first time I've done this.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 39,
+              "PlotLineKey": "I won't work for free.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "Rest assured, there will be plenty of rewards waiting for you inside the dreamscapes. I will also be available to assist you in any way my abilities allow.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "About the Somnoire gateway in Rinascita I mentioned to you earlier... In order to prevent further spread, I have sealed the impurities in the Memory Zones behind it.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "As you progress, I will <span class=\"font-bold\">periodically open more gateways located across various areas. The Somnoire will also have necessary utilities in place at your and your comrade's disposal.</span>",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "\"Cosmos\"",
+          "PlotLineKey": "Proceed to the gateway and restore Memory Zones affected by impurities, Dreamwalker.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

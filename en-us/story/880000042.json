@@ -1,0 +1,345 @@
+{
+  "Id": 880000042,
+  "Name": "Every Flavor Bell-less Crab Challenge",
+  "Description": "When you take the bell off the Bell Crab, do you steam it, roast it, or... turn it into something special?",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000042,
+  "ShowQuestList": [],
+  "QuestDesc": "When you take the bell off the Bell Crab, do you steam it, roast it, or... turn it into something special?",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 880000037,
+        "ChildQuestId": 23
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Hello there! Have you ever tried \"Every Flavor Bell-less Crab\" before?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 84,
+              "PlotLineKey": "Indeed I have.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 85,
+              "PlotLineKey": "What's that?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Sarah",
+          "PlotLineKey": "You've actually tried it? Wow, that makes you a real hero!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Sarah",
+          "PlotLineKey": "It's a dish made with Bell-less Crabs! I think anyone who's brave enough to eat that is a true hero!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Eugene says he wants to be a great hero, so I told him he needs to pass the \"Every Flavor Bell-less Crab\" test.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Sarah",
+          "PlotLineKey": "But since we don't know how to cook it, Eugene's not becoming a hero any time soon.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Eugene",
+          "PlotLineKey": "So much for becoming a hero...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Excuse me, but do you know where we can try that dish? We can pay for it!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 86,
+              "PlotLineKey": "I can find it for you.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Really? Thank you so much, {Male=mister;Female=miss}. We'll wait for you here until you're back!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Take your time...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Sarah",
+          "PlotLineKey": "How did it go, {Male=mister;Female=miss}? Did you find the dish?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 110,
+              "PlotLineKey": "Here you go.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Come on, Eugene. Try it!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Eugene",
+          "PlotLineKey": "I wonder what this \"Every Flavor Bell-less Crab\" tastes like. I hope it's not like raw Sunfish...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Sarah",
+          "PlotLineKey": "It might taste like a Gooberstar. Come on then!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 111,
+              "PlotLineKey": "It tastes like raw Sunfish.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 112,
+              "PlotLineKey": "It tastes like a Gooberstar.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 113,
+              "PlotLineKey": "It tastes like a Bell-less Crab.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Ah?! That sounds fishy...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Huh... Sounds like it'll be pretty chewy...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Eugene",
+          "PlotLineKey": "That doesn't really answer the question...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Just eat it already, Eugene!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Eugene",
+          "PlotLineKey": "I-I can't do it. I don't want to be a hero no more.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Oh, no, you don't, Eugene! You said you wanted to be a hero!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Hmph, Eugene's such a chicken. But I've got an idea!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Let's try it first. We'll show him how good it is and then he'll want to try it too!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 114,
+              "PlotLineKey": "Sure, I'll have a bite.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 115,
+              "PlotLineKey": "I'll pass. You try it.",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "The children stare at you with anticipation as you take a bite of the \"Every Flavor Bell-less Crab.\"",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "You taste the fresh flavors of the sea, salty and slightly fishy. Overall, it's quite enjoyable.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Sarah",
+          "PlotLineKey": "How is it? What does it taste like?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 116,
+              "PlotLineKey": "It tastes like the sea.",
+              "PlayVoice": false,
+              "JumpToId": 19
+            },
+            {
+              "TextId": 117,
+              "PlotLineKey": "It's delicious.",
+              "PlayVoice": false,
+              "JumpToId": 19
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Okay, I'll try it then.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Sarah hesitates for a moment before finally taking a big bite.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Hmm... It's not bad, you know. It tastes like the sea!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 19,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Are you sure? Let me have a bite...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Good... N-not good... Good again...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "You and Sarah watch as Eugene makes funny faces while chewing, but in the end, he finishes his bite. He's a hero now!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Phew... That was delicious. Thank you, now I'm a hero!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 118,
+              "PlotLineKey": "A true hero.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 119,
+              "PlotLineKey": "Don't go too hard at once.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Thank you very much, {Male=mister;Female=miss}! Take these. You made Eugene's dreams of becoming a hero come true!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

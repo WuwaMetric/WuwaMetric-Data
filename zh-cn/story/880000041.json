@@ -1,0 +1,295 @@
+{
+  "Id": 880000041,
+  "Name": "整点鱼条",
+  "Description": "是时候去海里整点鱼条了！",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000041,
+  "ShowQuestList": [],
+  "QuestDesc": "是时候去海里整点鱼条了！",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "老人鱼海"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "马尔科",
+          "PlotLineKey": "{PlayerName}，你看，这是于连！一只经常出没于码头的好猫。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "马尔科",
+          "PlotLineKey": "每次我拿着鱼条和他讨论猫生志向，他都一直喵喵叫。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "于连",
+          "PlotLineKey": "喵喵！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "他的猫生志向是什么？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 55,
+              "PlotLineKey": "他为什么一直喵喵叫？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "马尔科",
+          "PlotLineKey": "他一定是想要成为一只能够拿鼠破鱼抡虫的猫。对不对，于连？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "于连",
+          "PlotLineKey": "喵……喵！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "听起来他非常认同。",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "听起来他并不认同。",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "马尔科",
+          "PlotLineKey": "当然！毕竟只要成为一只能拿鼠破鱼抡虫的猫，就能吃到好多鱼条！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "马尔科",
+          "PlotLineKey": "怎么会呢……他肯定想成为一只能拿鼠破鱼抡虫的猫，这样就能吃到好多鱼条！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "听到「鱼条」两个字，于连突然疯狂喵喵起来。你这下清楚了于连的猫生志向。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "他只是想找你要点鱼条。",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "他只是想去码头整点鱼条。",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 60,
+              "PlotLineKey": "他只是想要鱼条向他俯首。",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "马尔科",
+          "PlotLineKey": "什么？！我还以为他是觉得我是个好人……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 10,
+          "Speaker": "马尔科",
+          "PlotLineKey": "怎么会！我们讨论的可是猫生志向，怎么会只是鱼条这么简单……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "马尔科",
+          "PlotLineKey": "有道理，毕竟鱼条是猫之荣耀……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "马尔科",
+          "PlotLineKey": "于连啊于连，你真的只想要鱼条吗？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "于连",
+          "PlotLineKey": "喵喵！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 61,
+              "PlotLineKey": "拿鱼条给他试试就好了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "马尔科",
+          "PlotLineKey": "是个办法……但我今天一天都没钓上一条鱼啊！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 62,
+              "PlotLineKey": "我有鱼。",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 63,
+              "PlotLineKey": "我没有鱼。",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "马尔科",
+          "PlotLineKey": "真的吗？那可以给我，啊不是，给于连一条鱼吗？",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 16,
+          "Speaker": "马尔科",
+          "PlotLineKey": "这样……那你要是什么时候有鱼了，可以给于连一条吗？",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "马尔科",
+          "PlotLineKey": "于连会付钱的！虽然是我来付……",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "马尔科",
+          "PlotLineKey": "怎么样？你带来鱼条了吗？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "给你鱼。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "马尔科",
+          "PlotLineKey": "谢谢你，我这就试试看！于连于连，乖于连，你的鱼条来啦。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "于连",
+          "PlotLineKey": "喵！！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "你看到于连开心地接过鱼条，没一会儿就吃得干干净净。而后，于连过来蹭蹭你的手表示感谢。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "马尔科",
+          "PlotLineKey": "天哪，噢……他吃得好开心！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 73,
+              "PlotLineKey": "毕竟是鱼条。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 74,
+              "PlotLineKey": "毕竟是猫之荣耀。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "马尔科",
+          "PlotLineKey": "是的，是的！谢谢你，你让我知道了于连的猫生志向！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "马尔科",
+          "PlotLineKey": "给，这些是你的报酬！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "于连",
+          "PlotLineKey": "喵喵！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

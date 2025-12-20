@@ -1,0 +1,1011 @@
+{
+  "Id": 880000031,
+  "Name": "因何而战",
+  "Description": "远在边关的忌炎发来了通讯，他似乎有很重要的事需要帮忙……\n\n完成此任务后解锁新的经营伙伴。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000031,
+  "ShowQuestList": [],
+  "QuestDesc": "远在边关的忌炎发来了通讯，他似乎有很重要的事需要帮忙……\n\n完成此任务后解锁新的经营伙伴。",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 5,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100009,
+      "PreQuestName": "千里卷戎旌·下"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "忌炎（通讯中）",
+          "PlotLineKey": "{PlayerName}，久疏问候。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1018,
+              "PlotLineKey": "忌炎？难道是边关出问题了？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "忌炎（通讯中）",
+          "PlotLineKey": "请放心。这倒不是。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "忌炎（通讯中）",
+          "PlotLineKey": "鸣式的孵化已得到抑制，残象在相当长的时间内，都可能无法形成足以威胁到今州的规模。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "忌炎（通讯中）",
+          "PlotLineKey": "这都要归功于你，{PlayerName}。谢谢你。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "忌炎（通讯中）",
+          "PlotLineKey": "如今正逢追月节，考虑到目前关外态势已然平定，我决定给那些长期值守的夜归军几日假期，让他们得以陪伴家人。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "忌炎（通讯中）",
+          "PlotLineKey": "而我会带领其余士兵继续镇守，以确保万无一失。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "忌炎（通讯中）",
+          "PlotLineKey": "不过，还有几名休假的士兵……他们的家人在残象潮入侵时不幸罹难。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "忌炎（通讯中）",
+          "PlotLineKey": "我无法确认他们的状况，也担心，他们会有需要帮助的地方。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1019,
+              "PlotLineKey": "那我去看看吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1020,
+              "PlotLineKey": "我会去帮助他们的。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "忌炎（通讯中）",
+          "PlotLineKey": "可以吗？那……非常感谢，{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "和蔼的老人",
+          "PlotLineKey": "啊，是{PlayerName}啊。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1007,
+              "PlotLineKey": "您也来玩鱼水乐吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "和蔼的老人",
+          "PlotLineKey": "啊？不是不是……哦，原来这个摊位是鱼水乐啊。抱歉，我老眼昏花了，看不清楚。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "和蔼的老人",
+          "PlotLineKey": "不过，我的儿子……他可是个共鸣者，说不定他会喜欢这个？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1008,
+              "PlotLineKey": "您的儿子？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "和蔼的老人",
+          "PlotLineKey": "他在夜归军服役，夜归军给他放了几天假，等他回来，我打算和他一起来逛逛宵月会。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "和蔼的老人",
+          "PlotLineKey": "哈哈，看到今年的宵月会办得这么热闹，他一定会很高兴的。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "小乐",
+          "PlotLineKey": "——彦武哥哥！你回来啦！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "阿进",
+          "PlotLineKey": "——彦武哥哥！给我们带好吃的回来了吗？上次你可是答应好的！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "彦武",
+          "PlotLineKey": "啊……糟、糟糕，我给忘了……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "阿进",
+          "PlotLineKey": "彦武哥哥是大骗子！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "彦武",
+          "PlotLineKey": "……哈哈哈哈，开玩笑的，我从宵月会给你们带了小龙包。要趁热吃哦。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "阿进",
+          "PlotLineKey": "哇啊……小龙包！谢谢彦武哥哥！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "小乐",
+          "PlotLineKey": "我、我也能去宵月会吗……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "彦武",
+          "PlotLineKey": "当然没问题啦，跟阿姨说一下就能去！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "小乐",
+          "PlotLineKey": "耶，太好啦！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "阿进",
+          "PlotLineKey": "那我也要去！走，小乐！我们快去找阿姨吧！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "孩子们拿着小龙包，相互追逐着跑远了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "彦武",
+          "PlotLineKey": "慢点，别摔倒了！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 280,
+              "PlotLineKey": "你好，彦武。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "彦武",
+          "PlotLineKey": "啊……{PlayerName}！我在那次作战中见过你！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "彦武",
+          "PlotLineKey": "今天没去宵月会吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 281,
+              "PlotLineKey": "嗯，实际上……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "你向彦武讲述了自己的来意。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "彦武",
+          "PlotLineKey": "……哈，原来是这样啊。真是的……忌炎将军想得也太周到了吧，不过，我一点事都没有。他大概是担心过头了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "彦武",
+          "PlotLineKey": "我是在这附近的一所福利院中长大的，院长阿姨对我们这些失去父母的孩子关怀备至，我早就把这里当成家了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "彦武",
+          "PlotLineKey": "所以，不用担心。我这不是已经和家里人团聚了吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 282,
+              "PlotLineKey": "那些孩子……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "彦武",
+          "PlotLineKey": "嗯，没错。他们也是福利院的孩子。我休假的时候总是回来看他们，顺便陪院长阿姨说说话。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "彦武",
+          "PlotLineKey": "一想到自己在前线与残象战斗，是为了保护他们，我就充满了力量。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 283,
+              "PlotLineKey": "那你有什么需要帮忙的吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "彦武",
+          "PlotLineKey": "帮忙……？应该没有吧。哦，对了，好像福利院的外墙得重新粉刷一下了……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "彦武",
+          "PlotLineKey": "不过这种事，就不必麻烦{PlayerName}了，我最多一小时就搞定了！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "彦武",
+          "PlotLineKey": "但还是非常感谢你，{PlayerName}！为了我特意跑了这么一趟。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "彦武",
+          "PlotLineKey": "好啦，我要去干活了，回头见，{PlayerName}！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "柯妮",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1035,
+              "PlotLineKey": "……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "柯妮",
+          "PlotLineKey": "……您好，{PlayerName}。请问……您认识这些安眠于此地的人吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1036,
+              "PlotLineKey": "不，我不是来吊唁的。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 1037,
+              "PlotLineKey": "……不，我不认识他们。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "柯妮",
+          "PlotLineKey": "是吗。我想也是，这里埋葬的基本上都是……您来到今州前在战场上阵亡的士兵，应该不会有{PlayerName}所认识的人。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "柯妮",
+          "PlotLineKey": "这里埋葬的都是在历次战役中阵亡的士兵。他们为了保护今州，而付出了自己的生命。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "柯妮面前的墓碑上写着一个名字，看起来似乎和柯妮有着同样的姓氏。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1038,
+              "PlotLineKey": "这是……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "柯妮",
+          "PlotLineKey": "我哥哥。他在伏波军中服役。他和同袍们在一次运输任务中……遭遇了突然出现的众多残象。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "柯妮",
+          "PlotLineKey": "为了履行自己的职责，他们靠用自己身躯所组成的防线，将残象挡了下来，掩护运输车离开。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "柯妮",
+          "PlotLineKey": "当增援赶到时……一切已经晚了。他们并没能救回任何一个人。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1039,
+              "PlotLineKey": "他们都是英雄。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "柯妮",
+          "PlotLineKey": "谢谢你。能被拯救今州之人这么说……想必他的在天之灵也会感到宽慰的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "柯妮",
+          "PlotLineKey": "那么，既然不是吊唁……又是什么事让你来到这里的呢？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "你向柯妮讲述了自己的来意。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "柯妮",
+          "PlotLineKey": "原来是这样……哈，的确像是忌炎将军的作风。需要帮忙的事吗？让我想想……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "柯妮",
+          "PlotLineKey": "如果可以的话，能帮我带点香柠草来吗？呵，我哥哥可是个吃货。他不喜欢什么花，唯独喜欢香柠草的味道。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1040,
+              "PlotLineKey": "没问题。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "柯妮",
+          "PlotLineKey": "谢谢你，{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "柯妮",
+          "PlotLineKey": "嗯……真是清新的味道。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "柯妮",
+          "PlotLineKey": "哈，我想到我妈妈还在世的时候……经常用香柠草给我们炖鱼汤喝。说实话，那……真的不好喝。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "柯妮",
+          "PlotLineKey": "香柠草那清新的味道混上鱼肉的腥味，就变成了一种难以言喻的怪味。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "柯妮",
+          "PlotLineKey": "我妈妈说，多喝鱼汤能长高。但我实在是不爱喝，就把汤都偷偷倒进哥哥碗里。结果，呵，他确实长得很高……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "柯妮",
+          "PlotLineKey": "我有时候会觉得，也许我哥哥他并不是喜欢香柠草，而是喜欢那段平淡而幸福的日子吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "柯妮",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "柯妮",
+          "PlotLineKey": "抱歉，{PlayerName}，自顾自地说起我家里的事了。哈……现在想起来，那鱼汤的味道还真是令人怀念啊。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "柯妮",
+          "PlotLineKey": "好！决定了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "柯妮",
+          "PlotLineKey": "正好{PlayerName}给我带了这么多香柠草，我也趁着假期试着做一下那道鱼汤吧！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "柯妮",
+          "PlotLineKey": "虽然一个人喝的话……总觉得会变得更难喝呢，哈……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "宁卫",
+          "PlotLineKey": "你也是来看风景的吗，{PlayerName}？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "宁卫",
+          "PlotLineKey": "哈，不用说我也知道不是了。哪有人会和我一样闲啊。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1399,
+              "PlotLineKey": "你的脸……是受伤了吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "宁卫",
+          "PlotLineKey": "没事，前几天和残象战斗的时候，不小心被蹭破了点皮。已经包扎过了。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1400,
+              "PlotLineKey": "你这可不像是在休假啊。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "宁卫",
+          "PlotLineKey": "什么？休假啊。如果我是个刚入伍的小毛头，那我肯定高兴疯了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "宁卫",
+          "PlotLineKey": "想想看，对于一般人来说，休假就代表和家人团圆，和朋友一起去吃好吃的，逛好玩的。对吧？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1401,
+              "PlotLineKey": "大家不都是这样吗？",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 1402,
+              "PlotLineKey": "你也可以这样做。",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "宁卫",
+          "PlotLineKey": "是啊，大家都得这样。哈、哈、哈……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "宁卫",
+          "PlotLineKey": "是吗。哈，还是算了。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "宁卫",
+          "PlotLineKey": "我所在的村子可是在海蚀中整个沉到地底下去了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "宁卫",
+          "PlotLineKey": "就像打水漂的时候被扔进水里的石子，泛起来几个小小的水花，之后就再也看不见了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "宁卫",
+          "PlotLineKey": "朋友啊，家人啊，对这个世界所剩下的那些美好的记忆啊，也像水花一样，啪的一下就没了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "宁卫",
+          "PlotLineKey": "我也不知道我该干什么，但我还是想活下去。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "宁卫",
+          "PlotLineKey": "这时候，忌炎找到了我。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "宁卫",
+          "PlotLineKey": "哈哈哈哈，那个傻瓜……咳咳，忌炎将军居然想招揽我，他问我要不要去对抗那些威胁今州的残象潮。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "宁卫",
+          "PlotLineKey": "对我来说，残象潮和海蚀没什么差别。都是没法沟通，也难以阻挡的天灾罢了。对抗它们？人要怎么才能抵抗得了天灾啊。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "宁卫",
+          "PlotLineKey": "但我最后还是同意了。毕竟他说得那么好听，死在保卫今州的战场上，听起来也比在野外饿死强。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "宁卫",
+          "PlotLineKey": "好啦，你既然都听到这了，那我想你也知道我的答案了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "宁卫",
+          "PlotLineKey": "别问我是怎么知道你想问什么的，因为忌炎那个婆婆妈妈的家伙，每次休假都要来问我们几个老家伙一模一样的话。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "宁卫",
+          "PlotLineKey": "今年的答复也一样——不需要！我才不需要什么帮助呢，只要有残象打，别让我的拳头闲着，那就够了。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1403,
+              "PlotLineKey": "我会回复忌炎将军的。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "宁卫",
+          "PlotLineKey": "嗯，去吧去吧。哦对了，顺便把这个给他。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "宁卫",
+          "PlotLineKey": "每次大伙休假的时候，忌炎总是不休息，他一忙起来就又会忘了吃饭。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "宁卫",
+          "PlotLineKey": "这是我和几个休假的老兄弟用打来的野物和采的野菜做的炖菜，给他捎过去吧。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1404,
+              "PlotLineKey": "闻起来还挺香的……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "宁卫",
+          "PlotLineKey": "喂，你可不许偷吃啊！算了，你可以偷偷吃一点，别都吃光了就行。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "忌炎",
+          "PlotLineKey": "如我所料……残象的活动目前限于北落野附近，看来我们可以考虑推进前哨站的位置了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "忌炎",
+          "PlotLineKey": "我们需要在北落野边陲设置新的观测所，以便在未来残象潮再度发生之时，我们将提前得到预警，拥有更长的备战时间。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "传令兵",
+          "PlotLineKey": "明白！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "传令兵行了个军礼，随后脚步匆匆地离开了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "忌炎",
+          "PlotLineKey": "{PlayerName}，你怎么来了？你现在不是应该……在桃源乡的吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1243,
+              "PlotLineKey": "我刚见过那些士兵，顺便来看看你。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "忌炎",
+          "PlotLineKey": "……我知道了，一定是宁卫和那些老兵。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "忌炎",
+          "PlotLineKey": "明明他们已经在前线奋战多年，是最需要休息的。但就算我强令他们休假，他们也不会离军营太远。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1244,
+              "PlotLineKey": "因为对他们而言，这里才是家。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1245,
+              "PlotLineKey": "我能够理解他们的想法。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "忌炎",
+          "PlotLineKey": "是吗。看来他们对你讲了很多事，{PlayerName}。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1246,
+              "PlotLineKey": "他们还给你准备了礼物哦。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "忌炎",
+          "PlotLineKey": "礼物？不会是……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "你将一大碗炖菜放在忌炎面前。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "忌炎",
+          "PlotLineKey": "哈，我就知道。一定是宁卫让你带给我的吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "忌炎",
+          "PlotLineKey": "他是不是跟你讲了我招揽他的故事？但我想，他肯定没讲全。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1247,
+              "PlotLineKey": "说来听听。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1248,
+              "PlotLineKey": "我最爱听故事了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "忌炎",
+          "PlotLineKey": "那时候我还不是将军，被派往关内执行任务，起程返回伏波阵时已是深夜。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "忌炎",
+          "PlotLineKey": "我露宿时随便找了点吃的炖了一锅，就在这时，我遇到了宁卫。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "忌炎",
+          "PlotLineKey": "他说他的故乡毁于海蚀，他孤身一人，不知道自己该何去何从。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "忌炎",
+          "PlotLineKey": "我和他分享了炖菜，听他讲了很多他离开家乡后发生的事。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "忌炎",
+          "PlotLineKey": "他的眼里全是迷惘和绝望。他想要活下去，但却找不到支撑他这么做的动力。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "忌炎",
+          "PlotLineKey": "后来你也知道了，我邀请他加入了夜归军。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "忌炎",
+          "PlotLineKey": "之后他就经常在放假的时候做和那时候差不多的炖菜，然后托人捎给我。我猜他是想还当初的那顿饭的人情吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "忌炎",
+          "PlotLineKey": "……不，他可能只是为了炫耀而已吧。毕竟他做饭的手艺可比我强多了。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1249,
+              "PlotLineKey": "好故事，但是炖菜要凉了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "忌炎",
+          "PlotLineKey": "……哈，说得对。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "忌炎",
+          "PlotLineKey": "你也来一起吃吧，{PlayerName}。辛苦你跑了这么远，你应该也饿了吧。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1250,
+              "PlotLineKey": "确实有点……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1251,
+              "PlotLineKey": "那我就不客气了！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

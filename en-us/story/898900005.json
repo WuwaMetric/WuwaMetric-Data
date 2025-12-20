@@ -1,0 +1,753 @@
+{
+  "Id": 898900005,
+  "Name": "Spring Adventures",
+  "Description": "Bing'ge has been scorched for his work recently. He needs someone who can help.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 898900005,
+  "ShowQuestList": [],
+  "QuestDesc": "Bing'ge has been scorched for his work recently. He needs someone who can help.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 125000123,
+      "PreQuestName": "The Commander of Time"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "Hello there.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 102,
+              "PlotLineKey": "It appears you've been busy lately.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "You're right. With Hongzhen back to normal, we've been swamped here at the gate... I never thought life here could get this busy.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "So, {PlayerName}, have you come to help us?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 103,
+              "PlotLineKey": "Is there something I can help with?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "Of course! In fact, there’s a job that would be just right for you.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "There are a few hot springs around Hongzhen. Ordinarily, we monitor the water periodically to check for contamination from Tacet Discords or the like.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "But as you can see, we've been short on manpower lately. Inspections were due days ago, but we haven't had anyone available to send...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 104,
+              "PlotLineKey": "Does inspection require special equipment?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "Equipment? No, no, no, we don't bother with that sort of thing here. Here in Hongzhen, we rely on the Pavo Plums by the hot springs to check the water, just as our ancestors did.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 105,
+              "PlotLineKey": "Pavo Plums...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 106,
+              "PlotLineKey": "How... how do you use them?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "The Pavo Plum plant is highly sensitive to its environment. It absorbs harmful substances from its surroundings, leading to slight changes in its appearance.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "Basically, I just give the Pavo Plum a good whiff, check its hue, and give it a quick lick. That’ll tell me all I need to know about the water's quality.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 107,
+              "PlotLineKey": "Are you serious?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "Hey, don't give me that look!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "I'm as local as it gets! Ever since I—no, ever since my Grandpa was a baby, we've always done it this way.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "Now, there are three hot springs needing inspection, and they're just a stone's throw away. I'm counting on you, {PlayerName}!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Curious Girl",
+          "PlotLineKey": "Fish... There are fish in the hot spring!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Curious Girl",
+          "PlotLineKey": "The water is so hot. Wouldn't it cook the fish?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Curious Girl",
+          "PlotLineKey": "Oh! I get it! They are jumping out of the water because it's too hot!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Curious Girl",
+          "PlotLineKey": "Hey, do you know what's happening here?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 218,
+              "PlotLineKey": "These fish are Airsailers. They can handle the heat.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 219,
+              "PlotLineKey": "Uh... I guess... what you said is right!",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Curious Girl",
+          "PlotLineKey": "Oh... so that's the reason. Awesome! Thanks for teaching me this!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Curious Girl",
+          "PlotLineKey": "Ha! So the teacher was right! When in doubt, think it out.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Curious Girl",
+          "PlotLineKey": "These fish... Oh, I just know the teacher will be thrilled if I write about them! Yep, it’s diary time!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Curious Girl",
+          "PlotLineKey": "Hongzhen is full of fun things to do... Where should I go next?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Young Researcher",
+          "PlotLineKey": "This is my analysis. Hmm... It lacks adequate theoretical support and empirical validation, but I am resolved to... maintain my stance.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Pioneer Association Employee",
+          "PlotLineKey": "Save it, please. This is art. Creation. It defies the cold logic of mere numbers!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Pioneer Association Employee",
+          "PlotLineKey": "Anyways, what's your choice?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Young Researcher",
+          "PlotLineKey": "Corn!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Pioneer Association Employee",
+          "PlotLineKey": "Egg!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 163,
+              "PlotLineKey": "...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 164,
+              "PlotLineKey": "What is this about?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Young Researcher",
+          "PlotLineKey": "Ah... it's {PlayerName}! You have perfect timing. We were just discussing which foods taste better when cooked in hot spring water.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Pioneer Association Employee",
+          "PlotLineKey": "Trust me, I've been around. When it comes to cooking things in a hot spring, your first thought would be an egg, right?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Young Researcher",
+          "PlotLineKey": "I beg to differ. An egg has a shell! Boiling it in a hot spring is no different than boiling it in regular water.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Young Researcher",
+          "PlotLineKey": "Corn, however, can really absorb all the good stuff from the hot spring. But eggs? ZERO ABSORPTION!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Pioneer Association Employee",
+          "PlotLineKey": "...Like I said, cuisine is an art, not a science!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Young Researcher",
+          "PlotLineKey": "Who likes plain old boiled eggs anyway?!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 165,
+              "PlotLineKey": "This is what you're arguing about?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Young Researcher",
+          "PlotLineKey": "We're at a stalemate here, so it's up to you—yes, you! Which food do you think tastes better when cooked in a hot spring?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 166,
+              "PlotLineKey": "Eggs?",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 167,
+              "PlotLineKey": "Corn?",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Pioneer Association Employee",
+          "PlotLineKey": "Look, even {PlayerName} agrees. Eggs boiled in hot springs are the best! That's what I call art!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "Young Researcher",
+          "PlotLineKey": "Hmph, just as I expected. {PlayerName} always makes judgments with wisdom and reason.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "At this moment, an elderly man shuffles over unsteadily.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Kind Old Man",
+          "PlotLineKey": "I could hear you quarreling from a mile away... Cough, none of you are from Hongzhen, are you?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Kind Old Man",
+          "PlotLineKey": "This spring's barely warmer than body heat. It's not even good for a hot bath, let alone boiling food in it.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Pioneer Association Employee",
+          "PlotLineKey": "Is... is that so?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Young Researcher",
+          "PlotLineKey": "How embarrassing... We should have inspected the hot spring first before our discussion...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Kind Old Man",
+          "PlotLineKey": "If it's spring fare you're after, make your way to Spring's Taste.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Kind Old Man",
+          "PlotLineKey": "They've got a spring nearly boiling over—perfect for cooking up local specialties. It's a well-known delight in Hongzhen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Kind Old Man",
+          "PlotLineKey": "That water’s hot enough to perfectly steam a chicken, let alone eggs or corn.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Young Researcher",
+          "PlotLineKey": "I see...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Pioneer Association Employee",
+          "PlotLineKey": "My mouth is already beginning to water!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Young Researcher",
+          "PlotLineKey": "In that case, should we go take a look later?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "Look at that! Finally, an unguarded hot spring!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "We traveled so far and endured so much, all... all for this moment.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Timid Exile",
+          "PlotLineKey": "Boss...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "You feel it, don't you? Our hard work paid off! Ah, and that faint scent of sulfur... Just standing here is already washing away all the exhaustion.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Timid Exile",
+          "PlotLineKey": "Um... It's not that. Boss, I'm trying to say...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "Hm?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Timid Exile",
+          "PlotLineKey": "Does that person over there... look familiar?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "Ah... it's that... What were they calling {Male=him;Female=her}?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Timid Exile",
+          "PlotLineKey": "Rover?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "Yes! They were with that little monk outside Jinzhou! How did {Male=he;Female=she} manage to follow us here... Oh no, did they find out what we did in Jinzhou...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Timid Exile",
+          "PlotLineKey": "That seems a bit much, doesn't it? Just lifted a few fish... from the cages, no less! And we did replace them with worms later, didn't we?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "Wait, that monk... She isn't here, right?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Timid Exile",
+          "PlotLineKey": "I don’t see her. Looks like the Rover is alone.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "Alone...? {Male=He;Female=She}'s thumbing {Male=his;Female=her} nose at us.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "This is our chance. Grab your weapon, boy! Time for revenge.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Timid Exile",
+          "PlotLineKey": "Spare us, please! We surrender, we surrender!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "How was that even possible? We had the numbers...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 263,
+              "PlotLineKey": "Are you here for the hot springs?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "Of course. We pulled off a mission just days ago, now today we need to—",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Timid Exile",
+          "PlotLineKey": "—That's right! We heard that the hot springs in Hongzhen were the best, so we left Jinzhou looking for them. We've been behaving ourselves perfectly all the way, I swear!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Timid Exile",
+          "PlotLineKey": "Forgive us, we didn't know you were in charge of this hot spring. It's just, we weren't allowed in Hongzhen, so we had to—",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 264,
+              "PlotLineKey": "\"Pull off a mission\"?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "No, no! That’s not it, you see, what I meant was... We couldn't pay the admission! Yes, we couldn't pay the admission fee to the hot spring!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 265,
+              "PlotLineKey": "Really...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Timid Exile",
+          "PlotLineKey": "Really. Ever since the day when you and that monk showed us a better way, we've been reforming our ways. We even helped Lollo Logistics to deliver goods the other day!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "Ha... Well, this was all just a misunderstanding. Let's skedaddle, shall we?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 266,
+              "PlotLineKey": "Don't let me catch you a third time.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Elder Exile",
+          "PlotLineKey": "You got it. From here on out, we'll be model citizens, contributing positively to society.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "The exiles leave in a hurry.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Rover",
+          "PlotLineKey": "Good, I've gathered all the Pavo Plums Bing'ge requested.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Rover",
+          "PlotLineKey": "I'll head back to town now to deliver them.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "Oh, you're back. Did everything go well?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "Time for a little inspection... Hmm, color checks out. And the smell... all good.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "Now, onto the taste... Mmm... Yup, spot on.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "The zesty bitterness hits the spot. Seems like these hot springs are clean. Whew, I can finally breathe easy.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "By the way, happen to see anything interesting along the way?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 206,
+              "PlotLineKey": "Flying fish in a hot spring?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 207,
+              "PlotLineKey": "Two people arguing about eggs and corn?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 208,
+              "PlotLineKey": "Exiles hoping for a soak?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "What in the world... Ha, that's got to be one heck of a story!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 209,
+              "PlotLineKey": "You can say that again.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "But I'm on duty now. Ugh, should've skipped work to see it myself. This endless grind is driving me crazy!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Bing'ge",
+          "PlotLineKey": "Anyway, thanks for the help, {PlayerName}. Until next time!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

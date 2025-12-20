@@ -1,0 +1,119 @@
+{
+  "Id": 151000001,
+  "Name": "바람 속 잃어버린 짙푸른 메아리 · II",
+  "Description": "검은 해안의 아래층으로 이동하여 쿠 · 키이와 함께 갇힌 회유어를 도와주기",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 151000001,
+  "ShowQuestList": [],
+  "QuestDesc": "검은 해안의 아래층으로 이동하여 쿠 · 키이와 함께 갇힌 회유어를 도와주기",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 151000000,
+      "PreQuestName": "바람 속 잃어버린 짙푸른 메아리 · I"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "쿠 · 키이",
+          "PlotLineKey": "{PlayerName}, 준비됐다면 바로 출발하죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "쿠 · 키이",
+          "PlotLineKey": "오염 위치로 가는 길이 꽤나 복잡하네요, 시간은 없고, 방금 시스템에서 파수인 누나의 텔레포트 게이트 임시 권한을 신청했어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "쿠 · 키이",
+          "PlotLineKey": "게이트 열고 가시죠!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 442,
+              "PlotLineKey": "이런 기능까지 가지고 있었어요?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 443,
+              "PlotLineKey": "저도 언젠가 배워봐도 될까요?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "쿠 · 키이",
+          "PlotLineKey": "쿠쿠쿠, 저는 {PlayerName} 마스터의 조력자인데, 습득한 스킬이 적어서는 절대 안 되죠!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "쿠 · 키이",
+          "PlotLineKey": "자발적으로 사용하려면... {PlayerName}은(는) 일단 자신의 뇌를 테티스 시스템과 연결시켜야 해요, 그리고 또...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 444,
+              "PlotLineKey": "포기 할게요...",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "쿠 · 키이",
+          "PlotLineKey": "사실 지난 멸망의 별 사건 때와 같이, 당신도 장치 권한 부여를 통해서 텔레포트 게이트를 활성화 할 수 있어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "쿠 · 키이",
+          "PlotLineKey": "음, 아무튼 이번에는 제가 게이트를 열겠어요, 빨리 가죠!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 16,
+          "Speaker": "쿠 · 키이",
+          "PlotLineKey": "쿠쿠쿠, 사실 방금 검은 해안 위층에서 이미 한 장 몰래 찍었어요, 제가 같이 뽑아서 선물로 드릴게요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "쿠 · 키이",
+          "PlotLineKey": "그런데 말인데, 방금 파수인 누나가 게이트를 열어 저희를 도와줬잖아요... {PlayerName}은(는) 직접 가서 만나보지 않을래요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "쿠 · 키이",
+          "PlotLineKey": "그녀도 회유어를 못 본 지 오래되지 않았을까요...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

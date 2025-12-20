@@ -1,0 +1,868 @@
+{
+  "Id": 135000002,
+  "Name": "Enquêter sur le vol des provisions du camp",
+  "Description": "Découvrir où se trouvent les provisions du camp",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 135000002,
+  "ShowQuestList": [],
+  "QuestDesc": "Découvrir où se trouvent les provisions du camp",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100005,
+      "PreQuestName": "Les étoiles sinistres"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Uh ? Nomade ? Quel visiteur rare, j'ai beaucoup entendu parler de vous !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Je m'appelle Beigu, le chef de ce camp, et je m'apprête à enquêter sur un vol qui a eu lieu ici.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 121,
+              "PlotLineKey": "Avez-vous besoin de mon aide ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Beigu",
+          "PlotLineKey": "De temps en temps, la Loulou Logistique nous livre des provisions qui couvrent tous nos besoins. Quand la Loulou Logistique a déchargé, le compte était bon.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Mais le soir, lors de la vérification, on a constaté qu'il manquait un colis. Ce n'était rien d'important, mais...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 122,
+              "PlotLineKey": "Il semble que ce soit important.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Beigu",
+          "PlotLineKey": "C'est vrai, qui n'aimerait pas un bon plat de chez soi ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Pour réconforter les membres de l'équipe qui gardent le camp, j'ai secrètement demandé à Mme. Panhua de préparer un lot de plats préparés...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 123,
+              "PlotLineKey": "Arrêtez, merci !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 124,
+              "PlotLineKey": "J'ai faim !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Désolé, je n'ai pas été à Jinzhou depuis longtemps et je m'ennuie de la cuisine de chez moi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Quoi qu'il en soit, je ne veux pas que le Nomade répande la nouvelle, mais je ne peux pas enquêter moi-même.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Pour les soldats de la ligne de front, la confiance se construit en passant du temps ensemble, en vivant et en mourant ensemble. Je ne veux pas détruire cette confiance durement gagnée, donc...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 125,
+              "PlotLineKey": "Alors vous voulez que je découvre la vérité ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 126,
+              "PlotLineKey": "C'est bon si l'on me paie.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Pour vous remercier, je vous invite à manger un bon repas au Restaurant de Panhua !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 127,
+              "PlotLineKey": "Marché conclu !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Pour en revenir à nos moutons. Nomade, vous pouvez commencer par enquêter sur les gardes de service, et vérifier qui est entré et sorti du camp depuis hier après-midi.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Duying",
+          "PlotLineKey": "Salut, Nomade ! Que puis-je faire pour vous ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 135,
+              "PlotLineKey": "(Exprimez votre intention)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Duying",
+          "PlotLineKey": "Oh, vous voulez consulter les registres d'entrée et de sortie, hein ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Duying",
+          "PlotLineKey": "Je viens de commencer mon boulot ici le matin, mais je peux consulter le registre de service pour vous.  Donnez-moi juste un moment.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Duying",
+          "PlotLineKey": "À part les livreurs de Loulou Logistiques, il n'y a pas d'autres registres.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 136,
+              "PlotLineKey": "Pourquoi m'avez-vous aidé ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 137,
+              "PlotLineKey": "N'êtes-vous pas curieux ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Duying",
+          "PlotLineKey": "Le général Jiyan a demandé à tous les membres des Gardiens de minuit de vous aider de toutes les manières possibles.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Duying",
+          "PlotLineKey": "Alors, quelle que soit votre raison, je suis content de pouvoir vous aider.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 138,
+              "PlotLineKey": "Merci beaucoup.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 139,
+              "PlotLineKey": "Merci de m'avoir aidé !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Wujing",
+          "PlotLineKey": "Qui diable a fait ça ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 164,
+              "PlotLineKey": "Qu'est-ce qui s'est passé ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Wujing",
+          "PlotLineKey": "Quelqu'un a renversé la nourriture en chemin. Les Mouettes Grises l'ont senti et sont venues en essaims. Je ne peux pas les chasser !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Wujing",
+          "PlotLineKey": "Il m'a fallu beaucoup d'efforts pour nettoyer ici. Regardez ce que ces oiseaux m'ont fait !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 165,
+              "PlotLineKey": "Êtes-vous en charge ici ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Wujing",
+          "PlotLineKey": "Eh bien, dans ce cas, vous devriez chercher Mingyi. Elle est la responsable de la zone de stockage dans le camp.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Wujing",
+          "PlotLineKey": "D'habitude, Mingyi s'occupe de vérifier l'inventaire et de stocker les fournitures, Tianlang et Wuheng s'occupent de décharger les trucs.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Wujing",
+          "PlotLineKey": "Oh, vous m'avez rappelé. Je vais devoir aller demander à Mingyi. Je vais certainement découvrir qui a fait ça !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Membre des Gardiens de minuit",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Membre des Gardiens de minuit",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Membre des Gardiens de minuit",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "On trouve les empreintes de pas.... comme si la personne transportait quelque chose de lourd.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Les empreintes de chaussures au niveau des talons montrent de nombreuses fissures, signalant une usure importante à l'arrière des chaussures. Cela suggère que la personne marchait avec une posture penchée en arrière.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 183,
+              "PlotLineKey": "Un moment s'il vous plaît ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Tianlang",
+          "PlotLineKey": "D'accord, Nomade. Dites-moi. Bien que je sois en train de compter les nouveaux uniformes…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 184,
+              "PlotLineKey": "Sont-ils venus avec les fournitures d'hier ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Tianlang",
+          "PlotLineKey": "En effet, les uniformes de nos camarades sont régulièrement renouvelés. J'ai reçu récemment de nombreuses demandes de nouveaux uniformes, certaines sont assez exaspérantes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Tianlang",
+          "PlotLineKey": "Par exemple, un soldat a déchiré son pantalon avec les défenses d'un Sanglier, un autre a perdu son chapeau à cause d'un Houlice de la Forêt aveuglante...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Tianlang",
+          "PlotLineKey": "J'ai laissé les demandes sur la table à l'angle, Nomade, si vous êtes intéressé, vous pouvez les consulter.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 185,
+              "PlotLineKey": "Qu'est-ce qui s'est passé pendant le stockage ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Tianlang",
+          "PlotLineKey": "À l'époque, Mingyi était absent pour une raison, je l'ai remplacé temporairement.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Tianlang",
+          "PlotLineKey": "Un autre membre de l'équipe, Wuheng, supervisait des marchandises à l'extérieur de l'entrepôt, je n'ai rien remarqué d'anormal.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 186,
+              "PlotLineKey": "Les formulaires de demande peuvent nous dire quelque chose.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 199,
+              "PlotLineKey": "......",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jeune membre des Gardiens de minuit",
+          "PlotLineKey": "Qu'est-ce que je peux faire pour vous ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 200,
+              "PlotLineKey": "Les taches de graisse sur vos vêtements......",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jeune membre des Gardiens de minuit",
+          "PlotLineKey": "Euh... Je suis allé à Jinzhou et j'ai accidentellement éclaboussé ma chemise au Restaurant de Panhua.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 201,
+              "PlotLineKey": "Il n'est plus nécessaire de poser d'autres questions.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Tingyi",
+          "PlotLineKey": "Un... un Nomade ? C'est le capitaine de l'équipe de Bei Gu qui vous a envoyé, n'est-ce pas ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Tingyi",
+          "PlotLineKey": "C'est moi qui ai signalé la perte de la provision. Je suis juste parti un instant pendant le stockage, et cela s'est produit.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "Parti un instant ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 174,
+              "PlotLineKey": "Où êtes-vous allé ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Tingyi",
+          "PlotLineKey": "Oh, non... J'ai... J'ai demandé à Tian Lang de me remplacer temporairement !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Tingyi",
+          "PlotLineKey": "Tian Lang et Du Ying peuvent témoigner pour moi ! J'ai un alibi !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 175,
+              "PlotLineKey": "Pourquoi y a-t-il aussi l'affaire de Du Ying ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Tingyi",
+          "PlotLineKey": "Il... Il y avait un colis pour Du Ying dans la provision, je l'ai juste pris pour lui en passant !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Tingyi",
+          "PlotLineKey": "Il n'y a absolument pas d'autre intention !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "C'est bien d'être jeune...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Allez trouver Tian Lang ensuite.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "C'est une boîte de livraison de Loulou Logistique. Une odeur épicée émane de la boîte une fois ouverte, mais elle est déjà vide.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Il y a une légère lueur d'huile au fond de la boîte. C'est... le Poulet au jus de Restaurant de Panhua !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Plus on le sent, plus on a faim. Il ne faut pas rester ici plus longtemps... Il faut demander aux Gardiens de minuit à proximité s'ils ont remarqué quelque chose.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Chef du camp",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Chef du camp",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Chef du camp",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Personne n'est entré ou sorti du camp ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Peut-être que je devrais me préparer au pire. Si c'est le cas, le voleur ne pourrait être que quelqu'un du camp.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Pendant que vous consultiez les registres d'entrée et de sortie, j'ai consulté les records.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Mingyi, Tianlang et Wuheng étaient présents tout au long du processus de chargement, de déchargement et de stockage des fournitures. Vous pourriez commencer par eux pour voir si vous pouvez découvrir des indices utiles.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Oh, au fait, la zone de déchargement est un point aveugle de la surveillance. Vous pourriez découvrir des indices cachés là-bas. Je compte sur vous !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Demandeur : Duying<br>Demande : Remplacement du vêtement supérieur<br>Raison : Lors du sauvetage d'un chercheur kidnappé par les Exilés, le vêtement supérieur a été transpercé par des balles.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Demandeur : Kelin<br>Demande : Remplacement du chapeau<br>Raison : A offensé accidentellement les Mouettes grise et reçoit donc constamment leurs cadeaux tombant du ciel.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Wu Qing a des boulots supplémentaires...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Demandeur : Wuheng<br>Demande : Remplacement des bottes<br>Raison : Le port de charges lourdes a provoqué une usure sévère des talons, causant des chutes fréquentes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "La description semble correspondre aux caractéristiques de l'empreinte de chaussure près de la boîte de ravitaillement. Allez confirmer avec la personne concernée.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 206,
+              "PlotLineKey": "(Dites à Beigu votre supposition)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Eh bien, j'ai aussi une supposition préliminaire. Nomade, qui penses-tu a pris les provisions ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "Mingyi",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 208,
+              "PlotLineKey": "Tianlang",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 209,
+              "PlotLineKey": "Wuheng",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Beigu",
+          "PlotLineKey": "C'est un peu différent de ce que j'attendais. Peut-être que c'est quelqu'un d'autre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Beigu",
+          "PlotLineKey": "C'est un peu différent de ce que j'attendais. Peut-être que c'est quelqu'un d'autre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Nous avons la même conclusion. Allons parler à Wuheng.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Beigu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Beigu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jeune membre des Gardiens de minuit",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jeune membre des Gardiens de minuit",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jeune membre des Gardiens de minuit",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jeune membre des Gardiens de minuit",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jeune membre des Gardiens de minuit",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 212,
+              "PlotLineKey": "",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Beigu",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Nomade, merci pour votre aide.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 219,
+              "PlotLineKey": "À propos de Wuheng…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Certains enfants quittent leur ville natale et restent dans les camps pendant des années. Ils ont tendance à garder les choses pour eux.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Beigu",
+          "PlotLineKey": "En tant que soldat gardant le camp, on ne peut pas quitter son poste pour des raisons aussi simples. Il faut être honnête avec ses camarades...il a encore beaucoup à apprendre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Quant à ces plats renversés, je laisserai Wuheng se rattraper en les cuisinant pour nous.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Beigu",
+          "PlotLineKey": "Nomade, quand je retournerai à Jinzhou, retrouvons-nous au Restaurant de Panhua !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

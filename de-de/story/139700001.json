@@ -1,0 +1,705 @@
+{
+  "Id": 139700001,
+  "Name": "Encore's dampfendes Abenteuer!",
+  "Description": "Xisha bittet dich, ihm das legendäre Feuerwerk zu machen. Scheint eine leichte Aufgabe zu sein... oder vielleicht doch nicht?\n\nEine/einen Gefährtin/Gefährten wird nach Abschluss dieser Quest freigeschaltet",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700001,
+  "ShowQuestList": [],
+  "QuestDesc": "Xisha bittet dich, ihm das legendäre Feuerwerk zu machen. Scheint eine leichte Aufgabe zu sein... oder vielleicht doch nicht?\n\nEine/einen Gefährtin/Gefährten wird nach Abschluss dieser Quest freigeschaltet",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 4,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "Was ist das, Herr Li? Sieht wirklich lecker aus!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Onkel Li",
+          "PlotLineKey": "Das ist ein Yumyum-Kuchen. Eine traditionelle Nachspeise, die in Jinzhou seit Jahrtausenden überliefert wird. Probier mal, das wird dir gefallen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Encore",
+          "PlotLineKey": "Jahrtausende ... dann muss es ja coole Geschichten darüber geben. Stimmt’s, Herr Li? Kennen Sie welche?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Onkel Li",
+          "PlotLineKey": "Hmm ... ja, ich kenne tatsächlich eine. Also ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Onkel Li",
+          "PlotLineKey": "Dies ist eine Geschichte, die bis zu den Hütenden von Huanglong zurückreicht ...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xisha",
+          "PlotLineKey": "... Hallo, {PlayerName}. Dieses kleine Mädchen erinnert mich an meine Tochter ... sobald es um Geschichten geht, hört sie nicht mehr auf mit dem Plappern.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Meine Tochter begeistert sich neuerdings für Feuerwerk und will eins sehen, sie liegt mir ständig in den Ohren damit.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Glücklicherweise bin ich, ihr Vater, ein guter Bastler. Also habe ich losgelegt und hier einen Stand für das Fest aufgebaut.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "Vater sein muss schwierig ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Haha, das kannst du laut sagen. Aber das breite Lächeln auf ihrem Gesicht, wenn sie ein Feuerwerk sieht ... das treibt mich wirklich an.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Sie will die größten und schönsten Feuerwerke sehen, hat sie gesagt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Also habe ich die letzten Tage herumprobiert, aber bis jetzt ist sie von keinem meiner Experimente beeindruckt. Siehst du die ganzen Fehlschläge hinter mir?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 32,
+              "PlotLineKey": "Ich bin sicher, dass du es schaffst!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Keine Frage. Unter uns ... ich glaube, mir ist da neulich eine uralte Rezeptur für Feuerwerkskörper in die Hände gefallen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Die Bestandteile wirken ein bisschen schräg, aber wie heißt es so schön: „Je verrückter, umso cooler“",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "Ich weiß nicht, ob man das so sagen kann ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 34,
+              "PlotLineKey": "Vielleicht.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Hm-hmm ... deswegen glaube ich, dass dieser Racker es in sich haben könnte! Mit dieser Rezeptur bin ich mir weniger sicher ... Für mich sieht das eher nach einem Kracher aus als nach einer Rakete.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Ich habe etwas Pompyrit übrig, aber die anderen Materialien sind schwer zu bekommen. Kannst du mir da weiterhelfen?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "Ich kümmere mich darum.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 36,
+              "PlotLineKey": "Ich kann Platz in meinem Kalender freischaufeln.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Wirklich? Ich ... Danke!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Encore steht plötzlich neben dir. Hatte sie nicht Herrn Li und seiner Geschichte zugehört?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Encore",
+          "PlotLineKey": "Begibst du dich auf ein Abenteuer, {PlayerName}? Encore hat alles gehört! Los, ziehen wir gemeinsam los!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Wo {PlayerName} hingeht, wird es ziemlich wild, Kleine.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Encore",
+          "PlotLineKey": "Keine Sorge! Encore ist megastark! Encore wird {Male=ihn;Female=sie} beschützen!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "Ich habe Vertrauen in Encores Fähigkeiten.",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 38,
+              "PlotLineKey": "Danke, Encore.",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Encore",
+          "PlotLineKey": "Genau! Was {PlayerName} gesagt hat!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 17,
+          "Speaker": "Encore",
+          "PlotLineKey": "*kichert* Gerne, {PlayerName}. Dafür hat man Freunde!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 18,
+          "Speaker": "Encore",
+          "PlotLineKey": "Eine abenteuerliche Suche nach geheimem Feuerwerk ... Klingt nach einer tollen Geschichte!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Na gut, dann überlasse ich dir das, Encore.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Encore",
+          "PlotLineKey": "Du kannst dich auf uns verlassen!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "Zuerst das Feuerpulver! Sollen wir hier irgendwo finden können.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "Dieses Zeug, Feuerpulver ... noch nie davon gehört. Klingt gefährlich.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "Holzkohle. Hmm ... vielleicht finden wir welche beim Feuer.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "Los geht’s, {PlayerName}!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "Also dieses Feuerpulver ... sieht für mich wie normale Erde aus.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "Sicher, dass man damit Feuerwerk machen kann?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "Das muss Niederfrequenz-Kohle sein ... Uuund ab in Encores Tasche damit!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "So, das war alles! Lass uns Herrn Xisha finden!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Also, das ging ja schnell! Habt ihr alles gefunden?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "Klar! Mission erfüllt!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Ha ... warte kurz, während ich die Feuerwerkskörper zusammenbaue, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Nach einer Weile kommt Xisha zurück und überreicht dir vorsichtig die fertigen Feuerwerkskörper.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Hmm ... die sind anders als meine üblichen Feuerwerkskörper, aber wie Kracher sehen sie auch nicht aus.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Ich würde euch gerne bitten, ein paar davon zu testen. Am besten da, wo es viel Platz und wenig Menschen gibt, {PlayerName} ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Seid besonders vorsichtig, okay?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 189,
+              "PlotLineKey": "Machen wir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Encore",
+          "PlotLineKey": "Juhu! Zeit für Feuerwerk!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "Hmm ... lass sie uns hier ausprobieren, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "Einfach auf den Boden stellen, hier anzünden ... und tadaa! Zeit für Feuerwerk!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Rover",
+          "PlotLineKey": "Da stimmt etwas nicht ... Encore, schmeiß das Ding weg!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "*Hust* ... Alles ... alles in Ordnung, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 201,
+              "PlotLineKey": "Das war ... eine viel zu große Explosion.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 202,
+              "PlotLineKey": "Mir geht’s gut. Und dir?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "Encore geht es gut. Kein Kratzer. Gar keine Angst gehabt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Encore",
+          "PlotLineKey": "Aber ... ist das normal für Feuerwerk?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "Nicht wirklich, das sind starke Feuerwerkskörper.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "Ziemlich sicher, dass da etwas schiefgelaufen ist.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Encore",
+          "PlotLineKey": "Hmm, verstehe ... Seine Tochter wird dieses Jahr wohl enttäuscht sein.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Encore",
+          "PlotLineKey": "... Hast du das gehört, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "TDs. Die Explosion muss sie angezogen haben.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 208,
+              "PlotLineKey": "TDs. Und noch dazu eine ziemliche Menge.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Encore",
+          "PlotLineKey": "{PlayerName}, Ich habe eine Idee. Hast du noch Feuerwerkskörper übrig?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 209,
+              "PlotLineKey": "Du meinst ...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Encore",
+          "PlotLineKey": "Klar, neue Sachen ausprobieren ist ein wichtiger Teil von Abenteuern!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Encore",
+          "PlotLineKey": "... Uff. Das waren fast alle Feuerwerkskörper. Diese TDs hatten nicht die geringste Chance!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Encore",
+          "PlotLineKey": "Lass uns zurückgehen, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xisha",
+          "PlotLineKey": "{PlayerName}, Encore! Wie lief es? Gibt das Feuerwerk einen großen Knall her?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 227,
+              "PlotLineKey": "Es war ein wirklich lauter Knall ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 228,
+              "PlotLineKey": "Das ist KEIN Feuerwerk ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Hä? Was meinst du damit ...?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Erzähl Xisha, was passiert ist.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Grundgütiger ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Entschuldige, {PlayerName}. Geht es euch gut? Habt ihr euch verletzt?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Encore",
+          "PlotLineKey": "Nein, überhaupt nicht. {PlayerName} hat auf mich aufgepasst!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xisha",
+          "PlotLineKey": "*Seufz* Ich bin froh, das zu hören. Ich sollte diese Formel verschwinden lassen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 229,
+              "PlotLineKey": "Moment. Könnten sie vielleicht ... woanders nützlich sein.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Moment ... willst du sagen, dass wir die gegen TDs verwenden können?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Ich spreche mal mit denen bei Lollo-Logistik und schaue, ob sie es versuchen wollen ... Danke für eure Hilfe, ihr beiden!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Encore",
+          "PlotLineKey": "Nicht der Rede wert, Herr Xisha! Encore macht da eine tolle Geschichte draus!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Encore",
+          "PlotLineKey": "{PlayerName} und Bombastliche bezwangen alle Ungeheuer im Wald. Obschon sie ihre Blumen nicht fand, brachten sie den Frieden in den Wald zurück!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xisha",
+          "PlotLineKey": "... Verstehst du, was sie da erzählt, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 230,
+              "PlotLineKey": "Mehr oder weniger.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 231,
+              "PlotLineKey": "Nicht den Hauch einer Ahnung.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Puh, ich wünschte, ich könnte das ... dann würde ich vielleicht verstehen, woher meine Tochter diese abgedrehten Ideen kriegt.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Ha ... meine Tochter ist genauso. Die Kinder heutzutage, man weiß nie, was in ihren Köpfen vor sich geht.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Apropos Tochter. Ich dachte, diesmal würde es klappen... Es sieht so aus, als müsste ich noch an meinen Formeln feilen. Ich kann nicht einfach aufgeben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Encore",
+          "PlotLineKey": "Sie schaffen das, Herr Xisha! Ich glaube an Sie!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Darauf kannst du wetten. Danke, Encore!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

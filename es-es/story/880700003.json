@@ -1,0 +1,700 @@
+{
+  "Id": 880700003,
+  "Name": "Bendita sea la luna",
+  "Description": "Con los preparativos para la Feria de la Luna casi completos, todo el lugar irradia alegría. En ese momento, aparece Jinhsi, el tan esperada Magistrada de Jinzhou...\n\nDesbloquea un nuevo compañero después de completar esta misión.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880700003,
+  "ShowQuestList": [],
+  "QuestDesc": "Con los preparativos para la Feria de la Luna casi completos, todo el lugar irradia alegría. En ese momento, aparece Jinhsi, el tan esperada Magistrada de Jinzhou...\n\nDesbloquea un nuevo compañero después de completar esta misión.",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 1,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 2,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 3,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 4,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 5,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 6,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 7,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 8,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 9,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 10,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 880000030,
+      "PreQuestName": "Un breve respiro"
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "¿Qué te parece?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "El néctar de Yunlu es dulce y delicioso. Es lo mejor de estas gachas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Creo recordar que hay una forma para potenciar la dulzura aún más. No sé si había que... empaparlo en agua azucarada primero...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "¿Eh? {PlayerName}, qué sorpresa tan agradable. ¿Has venido aquí por la Feria de la Luna?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1112,
+              "PlotLineKey": "Exacto. Jinhsi, no sabía que te gustaba tanto el dulce.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Jeje, el señor Li está haciendo una cata de pasteles. Daba la casualidad de que estaba de paso, así que decidí venir a hacer una visita.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "A decir verdad, he venido para ver si podía ayudar en algo, pero el señor Li me dijo que...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Ya he realizado todos los preparativos en la panadería para la Feria de la Luna. Toda va como la seda.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Pero no estoy seguro de si a la gente le van a hacer gracia nuestros nuevos pasteles, así que les he pedido que los prueben y me den su opinión.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "{PlayerName}, prueba un poco.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1113,
+              "PlotLineKey": "Gracias.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "¿Qué tal?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1114,
+              "PlotLineKey": "Estoy de acuerdo con Jinhsi",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Muy bien, gracias por tu opinión. Haré cambios basados en vuestras sugerencias.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Tan solo se trata de nuestros gustos personales. No te vendría mal pedir la opinión de otras personas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Jaja, no te preocupes, me tomo muy en serio las opiniones de todos los clientes. Así es como me llega la inspiración para los sabores nuevos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Tomad. Llevaos estos aperitivos y disfrutadlos mientras os dais un paseo por la feria. Comer algo delicioso dando un paseo bajo la luz de la luna es maravilloso, ¿no os parece?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Si os cansáis u os entra hambre, podéis venir a por más. ¡Disfrutaréis más de la feria con la barriga llena!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Gracias, señor Li. Avísame si necesitas ayuda. Ten por seguro que te echaré una mano.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Fantástico, lo tendré en cuenta. ¡Gracias, Magistrada! ¡Id a divertiros!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "{PlayerName}, ¿cómo te está tratando la Feria de la Luna? Hice un hueco para venir y echar un vistazo, y nada más llegar me he encontrado contigo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "¿Por qué no aprovechamos esta coincidencia tan agradable y vamos a dar un paseo?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1115,
+              "PlotLineKey": "Claro, vamos.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Niña envidiosa",
+          "PlotLineKey": "¡Vaya, parece muy rico! ¿De dónde lo has sacado?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Niña engreída",
+          "PlotLineKey": "Del Restaurante Reunión. ¡El señor Li acaba de hacerlo, y la Magistrada dice que está muy bueno!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Errante",
+          "PlotLineKey": "(¿La Magistrada? ¿Jinhsi también está aquí? Debería hacer una visita al Restaurante Reunión...)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¿Qué más...? Déjame pensar... No puedo dejar que se retrasen las actualizaciones de las adivinanzas...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¡Oh, Magistrada! ¿Estás aquí para resolver las adivinanzas o para compartir unas nuevas?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1135,
+              "PlotLineKey": "¿Las adivinanzas se te ocurrieron a ti?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Sí. Mientras comprobaba las solicitudes de los puestos, me fijé en que había uno para resolver adivinanzas. Me recordó a algunas adivinanzas que resolví en el pasado, así que las apunté.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Aunque no estoy segura de si los seleccionaron.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¡Las adivinanzas que nos diste son perfectas! Son simples pero ingeniosas, así que las guardé todas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Sin embargo, todavía nadie los ha resuelto y se ha llevado el premio especial que preparaste.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1136,
+              "PlotLineKey": "¿Qué adivinanzas? Yo quiero probar.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1137,
+              "PlotLineKey": "¿Un regalo especial de Jinhsi? Quiero probar.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¡Sin problema! La primera adivinanza es... Pensándolo mejor, ¿qué tal si te lo cuenta la propia Magistrada?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Está bien. La primera adivinanza... ¿Qué hace que los demás esbocen sonrisas resplandecientes incluso a costa de sí mismo?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1138,
+              "PlotLineKey": "La respuesta es fuegos artificiales.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 1139,
+              "PlotLineKey": "La respuesta es Jinhsi.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Jeje... Sabía que no tendrías problemas para solucionarlo. Parece que el premio especial ya tiene dueñ{Male=o;Female=a}.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Jinhsi se queda atónita, y justo después empieza a reírse.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Jeje, siempre me sorprendes. Lamentablemente, esa no es la respuesta correcta.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1140,
+              "PlotLineKey": "Parece que no podré llevarme tu regalo especial.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Si quieres, puedo preparar otro para ti.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Aún quedan muchas adivinanzas por resolver, ¡y también tienen regalos! ¡Prueba a ver!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "A este ritmo, me temo que {PlayerName} va a llevarse todas las recompensas a casa.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1141,
+              "PlotLineKey": "No se me da tan bien resolver adivinanzas.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 1142,
+              "PlotLineKey": "Entonces tendré que retirarme por el bien de los demás.",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Te pasas de modest{Male=o;Female=a}. Pero tienes razón, este evento es para todos. Los demás también se merecen una oportunidad para ganar.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 16,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Jeje, tienes razón, el evento es para todos. Los demás también se merecen una oportunidad para ganar.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "{PlayerName}, ¿qué tal si comprobamos otros puestos?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Señor Xieyang, discúlpanos. Te dejaremos a solas con tus adivinanzas. Que la creatividad y la inspiración te acompañen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "¡Gracias! ¡Espero que disfrutéis del Festival de la Caza de la Luna!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Xisha",
+          "PlotLineKey": "¡Fuegos artificiales! ¡Fuegos artificiales! ¡Fuegos artificiales de todo tipo! ¡Pueden incluso hacer los suyos propios!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xisha",
+          "PlotLineKey": "¡Magistrada, espera un momento! ¿Hay algunos fuegos artificiales que te gusten? ¡Yo te invito!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Sin tu ayuda, montar este puesto no habría sido tan fácil.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 944,
+              "PlotLineKey": "¿Su ayuda...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Sí, la Magistrada me hizo un gran favor mientras me preparaba para la Feria de la Luna.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Tenía toda la mercancía guardada en el almacén al otro lado del río.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Como sabrás, los fuegos artificiales requieren cuidados especiales para evitar accidentes, así que intenté tomar medidas antiincendios e impermeables. Hice lo que pude.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Cuando la Magistrada se enteró, me ayudó a encontrar un sitio mejor para guardarlos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xisha",
+          "PlotLineKey": "De lo contrario, es posible que su calidad se hubiera resentido, y habría riesgos de seguridad.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Me alegra poder ser de ayuda.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Xisha",
+          "PlotLineKey": "¡Toma estos fuegos artificiales como regalo! Gracias a ti, sus colores tan bonitos permanecen intactos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "¿Gracias a mí?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xisha",
+          "PlotLineKey": "Sí, las condiciones de almacenamiento son muy estrictas. El más mínimo cambio de temperatura o humedad puede arruinar su color.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Ya veo... Estoy segura de que disfrutaremos de ellos. ¡Gracias!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xisha",
+          "PlotLineKey": "¡No hay de qué! ¡Si te gustan puedes volver por más!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1457,
+              "PlotLineKey": "Se te ve muy contenta.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Me alegra ver que nuestros esfuerzos colectivos han hecho que la Feria de la Luna sea todo un éxito.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Siempre confié en que lo conseguiríamos, pero verlo con mis propios ojos es realmente conmovedor.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1458,
+              "PlotLineKey": "Entonces vamos a quedarnos un rato más aquí.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Ya he disfrutado todo lo que tenía que disfrutar.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Al pasear he visto las sonrisas sinceras en las caras de los visitantes y los dueños que cuidan de sus puestos con tanta pasión.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Todos están disfrutando de la feria... Es justo lo que quería ver.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "{PlayerName}, gracias por acompañarme. Si ha sido una experiencia tan agradable es porque tú estabas conmigo.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1459,
+              "PlotLineKey": "Lo mismo digo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Pero... ¿te has divertido ya lo suficiente?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "Has hecho que se cumplan mis sueños. Vamos a hacer ahora algo que te guste a ti.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1460,
+              "PlotLineKey": "Ya lo estamos haciendo: caminar junt{Male=os;Female=as} bajo la luna.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jinhsi",
+          "PlotLineKey": "<span class=\"italic\">«Ojalá nos encontremos bajo la luz de la luna y nuestro vínculo brille por lustros».</span>",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

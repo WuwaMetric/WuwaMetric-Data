@@ -1,0 +1,666 @@
+{
+  "Id": 139700003,
+  "Name": "Riddle and Reunion",
+  "Description": "Riddle Twiddle is offering a limited special prize! Join Yangyang and try to win it!\n\nUnlock a new Companion after completing this quest.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700003,
+  "ShowQuestList": [],
+  "QuestDesc": "Riddle Twiddle is offering a limited special prize! Join Yangyang and try to win it!\n\nUnlock a new Companion after completing this quest.",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 9,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "The lantern riddles look fun. Would you like to give them a try?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Well, {PlayerName}? Are you up for the challenge?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Look, I've got some tough riddles fresh from the press. Solve three and you'll win the jackpot. It's a collector's item, trust me!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Tough riddles...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 369,
+              "PlotLineKey": "Wanna tag team, Yangyang?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 370,
+              "PlotLineKey": "I might need some backup on this!",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Together? Is that allowed in the rules?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Then, if that's allowed in the rules... I'd like to take on this challenge together with {PlayerName}.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Of course, it's a festival after all. What could be more important than having fun? Yangyang, you seemed totally into our riddles. I bet you'd enjoy solving them yourself!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Plus, my riddles are tough! Wouldn't want to have {PlayerName} make a fool out of themselves, now would I?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 371,
+              "PlotLineKey": "I won't be so sure about that.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 372,
+              "PlotLineKey": "Try me!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "All right! How about we get you warmed up with an appetizer? Riddle Number 1: Round as the moon, with a belly just as white. In the air it may leap, in the waters it may creep.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Name this Tacet Discord!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "It's round in shape with a white belly, able to swim in water... Could it be...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 373,
+              "PlotLineKey": "...A Hoartoise?",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 374,
+              "PlotLineKey": "...A Gulpuff?",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 375,
+              "PlotLineKey": "...A Tick Tack?",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 376,
+              "PlotLineKey": "...A Clang Bang?",
+              "PlayVoice": false,
+              "JumpToId": 13
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Not quite. Try again.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 13,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Not quite. Try again.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Not quite. Try again.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "That's right. You got it. It's a Gulpuff!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "A Gulpuff really does remind you of the moon when it jumps up in the air, doesn't it?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "I remember when I was little... I loved the Moon-Chasing Festival. We'd make Plumpcakes in all sorts of shapes, mostly cute round animals...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "We all loved the Gulpuff Plumpcakes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Haha, truly a kids' favorite. Now... On to the next riddle! This one might be a bit trickier!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "You're given a cage full of chickens and rabbits. You count 14 heads and 38 legs...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Question... How many chickens and rabbits are there in total? Your five-minute timer starts… Now!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 377,
+              "PlotLineKey": "...Is that even a riddle?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Yeah... Isn't that more like a math problem than a riddle...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Ahem... You see, it's a question with a definitive answer. And since it's hanging under a lantern, let's call it a riddle.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "...If you say so. Still, it feels a bit off...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "I remember learning how to solve it in class, such as the \"half-leg method\"...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 378,
+              "PlotLineKey": "You got this one in the bag. Right, Yangyang?",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 379,
+              "PlotLineKey": "(Give the answer.)",
+              "PlayVoice": false,
+              "JumpToId": 28
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Okay, I'll see what I can do...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Done! The answer is... 5 rabbits and 9 chickens!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 30
+        },
+        {
+          "Id": 28,
+          "Speaker": "Rover",
+          "PlotLineKey": "(First, suppose that all of them are chickens, then calculate the difference in the number of legs, getting the amount of rabbits... I see.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Rover",
+          "PlotLineKey": "There are 5 rabbits and 9 chickens.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 30
+        },
+        {
+          "Id": 30,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Correct! You figured it out even faster than Mr. Bosong. I'm impressed.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "For the last riddle, how about we change things up a bit? You two can pick one from any of the lanterns.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "(Xieyang gestures to a row of lanterns above, adorned with swaying riddle slips.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Umm... I don't really see any riddles...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Oh, the riddles here are written in special ink. You'll have to hold them close to a lantern in order to see.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 380,
+              "PlotLineKey": "So we're going in blind…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 35,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Of course. The more suspense, the better! Solving lantern riddles is like a journey of discovery. You'll have to trust your instincts!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "I see... That does make things more interesting.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 381,
+              "PlotLineKey": "I'll leave it to you, Yangyang.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 37,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Huh? Me? Well... Then I'll choose, this one.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 38,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Alrighty! Let's see... The riddle has revealed itself！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 39,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "I am made up of many, but can also be one. I bring people together and make them have fun. What am I?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Name this phrase!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Made up of many, but can also be one...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 382,
+              "PlotLineKey": "Is it... \"Moon-Chasing Festival\"?",
+              "PlayVoice": false,
+              "JumpToId": 42
+            },
+            {
+              "TextId": 383,
+              "PlotLineKey": "Is it... \"Family\"?",
+              "PlayVoice": false,
+              "JumpToId": 44
+            }
+          ]
+        },
+        {
+          "Id": 42,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Ooh. Close, but not close enough!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 43,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "...I know. It's \"Family\", right?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 44
+        },
+        {
+          "Id": 44,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Correct!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 45,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Bravo. You've completed all 3 riddles. The special prize is yours!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 46,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Xieyang brings out a beautifully crafted lantern adorned with drawings of \"The Fox and the Moon\" tale.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "It's so pretty...!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 384,
+              "PlotLineKey": "Isn't it just a lantern?",
+              "PlayVoice": false,
+              "JumpToId": 48
+            },
+            {
+              "TextId": 385,
+              "PlotLineKey": "Yangyang, you seem to like it a lot.",
+              "PlayVoice": false,
+              "JumpToId": 49
+            }
+          ]
+        },
+        {
+          "Id": 48,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Well, it's not just any lantern.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 50
+        },
+        {
+          "Id": 49,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "I was little when I last received a lantern like this... I really miss those times.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 50
+        },
+        {
+          "Id": 50,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "We were lucky to get this lantern from a renowned collector for our special occasion.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 51,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "It's said that Sentinel \"Hsin\" handcrafted it and hid many more in the woodlands, making it a prized possession. Finding one is like getting a year's worth of blessings.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 52,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "How's that for a souvenir? Congratulations! Endless fortune be with you!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "{PlayerName}, do you have a moment?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Can we... go on a walk together?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "I remember always looking forward to the Moon-Chasing Festival when I was a child.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Fireworks light up the night sky, lanterns dot every street corner, and we indulge in family-made plumpcakes. Every face I see is filled with joy...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "...Those memories have grown fuzzy, but I still remember the heartfelt smiles of my loved ones.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "I joined the Midnight Rangers to protect their happy smiles... Even if my strength alone won't make much difference, I'll do what I can.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 616,
+              "PlotLineKey": "See, everyone's having a great time.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 617,
+              "PlotLineKey": "...Are you feeling homesick?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Yes! This is why I love Jinzhou. I love what we've fought to protect.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Maybe a little... But I'm okay.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "While I can't be with my family today, the laughter in the air is already making me feel delighted.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "As I look at the bright moon, I know they are having a great time somewhere.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Thank you, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "I feel so happy for this moment, and for all you've done.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "This year's Moon-Chasing Festival... You've made it feel very special to me.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 618,
+              "PlotLineKey": "There's still plenty of the Moonlit Fair to enjoy.",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 619,
+              "PlotLineKey": "I'm sure future festivals will only get better.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Indeed! Any other places you'd like to visit, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Let's take a little break here before moving on to more spots.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Thank you, {PlayerName}. I hope... we can always celebrate together, for every festival, just like we do now.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

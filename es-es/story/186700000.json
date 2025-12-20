@@ -1,0 +1,730 @@
+{
+  "Id": 186700000,
+  "Name": "Exploración del mar profundo",
+  "Description": "El Fabricatorium Abisal se ha agitado bajo las olas, y su inquietud ha circulado en silencio entre los nobles y la Orden. Para evitar más alteraciones en la vida del pueblo de Raguna y prevenir un pánico innecesario, ambas partes celebraron una rara reunión privada. En un gesto sin precedentes, lograron un consenso: es necesario realizar un nuevo reconocimiento completo del Fabricatorium, seguido de discusiones conjuntas sobre su destino y los Ecos comunes que alberga.\nY tú, como la única persona que ha regresado de ese lugar sin un rasguño, eres, sin duda, quien debe liderar esta expedición.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 186700000,
+  "ShowQuestList": [],
+  "QuestDesc": "El Fabricatorium Abisal se ha agitado bajo las olas, y su inquietud ha circulado en silencio entre los nobles y la Orden. Para evitar más alteraciones en la vida del pueblo de Raguna y prevenir un pánico innecesario, ambas partes celebraron una rara reunión privada. En un gesto sin precedentes, lograron un consenso: es necesario realizar un nuevo reconocimiento completo del Fabricatorium, seguido de discusiones conjuntas sobre su destino y los Ecos comunes que alberga.\nY tú, como la única persona que ha regresado de ese lugar sin un rasguño, eres, sin duda, quien debe liderar esta expedición.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100023,
+      "PreQuestName": "Atrapasueños en los jardines secretos"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 11900018,
+      "PreQuestName": "Escama del Pasado"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Carlotta",
+          "PlotLineKey": "{PlayerName}, ya me han contado lo que pasó en el Fabricatorium Abisal.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Carlotta",
+          "PlotLineKey": "Me temo que aún necesito tu ayuda.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Carlotta",
+          "PlotLineKey": "Si tienes tiempo, dirígete a las coordenadas marcadas. Un amigo te espera allí. Él te pondrá al día.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Carlotta",
+          "PlotLineKey": "Como Montelli... no, como ciudadana de Raguna, te doy las gracias.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "¿Las coordenadas de Carlotta llevan a la Catedral de Mercurio?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Así que la familia ha hablado con la Orden...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "Ha llegado {Male=el Virtuoso;Female=la Virtuosa}. Por el asunto de las profundidades, presumo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "Luther, a su servicio. Le esperaba.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 42,
+              "PlotLineKey": "¿La Orden ya está al día sobre lo ocurrido en el Fabricatorium?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Luther",
+          "PlotLineKey": "No se preocupe. Tras una extensa deliberación, decidimos no hacerlo público.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 43,
+              "PlotLineKey": "¿Deliberación?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Luther",
+          "PlotLineKey": "Al poco de recibir sus noticias, la Orden Abisal se reunió en secreto con las familias Montelli y Fisalia.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Luther",
+          "PlotLineKey": "Resultó raro ver a las tres partes reunidas en un mismo sitio.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Luther",
+          "PlotLineKey": "Decidimos mantenerlo en secreto para evitar el caos y el miedo innecesarios entre las gentes de Raguna, si bien una investigación más exhaustiva es algo muy necesario.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Luther",
+          "PlotLineKey": "Los Ecos comunes son vitales para Raguna. Deshacernos de ellos sería imprudente. Decidiremos el futuro del Fabricatorium las tres partes juntas, una vez lo entendamos completamente.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Luther",
+          "PlotLineKey": "La experiencia de los Fisalia en el control de Ecos y la tecnología de terminales de los Montelli ayudarán en la transición de las operaciones del Fabricatorium.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Luther",
+          "PlotLineKey": "Cuando la gente esté preparada para aceptar la verdad, la revelaremos a toda Raguna.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 44,
+              "PlotLineKey": "Y lo que yo pinto aquí es...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Luther",
+          "PlotLineKey": "Usted es la única persona que ha estado allí y ha regresado ilesa. ¿Quién mejor para liderar esta investigación?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Luther",
+          "PlotLineKey": "Yo me encargaré de la documentación. Me ayudaría cualquier detalle que pudiera darme durante el camino para que nuestra investigación sea minuciosa.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 45,
+              "PlotLineKey": "¿Tú y yo?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Luther",
+          "PlotLineKey": "Sí. Como el Fabricatorium está dirigido sobre todo por acólitos, la Orden y las familias decidieron que soy el más adecuado para esta tarea.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 46,
+              "PlotLineKey": "Muy bien, vamos.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 47,
+              "PlotLineKey": "Dame un momento, necesito prepararme.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Luther",
+          "PlotLineKey": "Le agradecemos enormemente su ayuda.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 48,
+              "PlotLineKey": "Sin problemas. Ya me han dado las gracias por esto.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Luther",
+          "PlotLineKey": "Naturalmente. Partiremos cuando esté {Male=listo;Female=lista}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "¿Quién podría imaginar semejante grandiosidad bajo la tierra que pisamos? Si no lo veo, no lo creo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "El mar nos nutre de maneras insospechadas.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "Si no recuerdo mal, los registros anteriores indicaban que esta es el área donde se incuban los Ecos comunes, ¿no?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 97,
+              "PlotLineKey": "Sí, eso son incubadoras de Ecos.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "Cientos, si no miles, de Ecos están siendo incubados. De ahí que haya tanta seguridad e investigadores supervisando.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 98,
+              "PlotLineKey": "Las tuberías transportan energía de frecuencia.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Luther",
+          "PlotLineKey": "Los Ecos reciclados de la Tumba Caída alimentan la creación de otros nuevos...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Luther",
+          "PlotLineKey": "Estos Ecos recién nacidos están ensamblados a partir de innumerables frecuencias rotas y no guardan relación alguna con el pasado.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 99,
+              "PlotLineKey": "¿Cómo lo sabes?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Luther",
+          "PlotLineKey": "Solía investigar frecuencias. Con un solo vistazo a las lecturas, puedo afirmar que todo rastro de datos antiguos se ha borrado...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 100,
+              "PlotLineKey": "Pareces preocupado.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Luther",
+          "PlotLineKey": "Años en el laboratorio pueden insensibilizar la mente. Hasta dejas de ver a los sujetos como individuos vivos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Luther",
+          "PlotLineKey": "Me recuerdo constantemente no caer en eso. Pero aquí, parece que todos ven a los Ecos como simples herramientas reemplazables, no como vidas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Luther",
+          "PlotLineKey": "¿Acaso no es esto una traición a nuestra fe?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 101,
+              "PlotLineKey": "He escuchado una perspectiva diferente.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Luther",
+          "PlotLineKey": "¿Cuál?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Alguien me dijo una vez que es un toque de brillo entre las ruinas, una sinfonía de vida eterna.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Luther",
+          "PlotLineKey": "¿Quiere decir que este ciclo es la unidad inmortal e inquebrantable de la vida?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Luther",
+          "PlotLineKey": "No, eso es falso. Nuestra «unidad» no debería construirse sobre el sacrificio de la autopercepción.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 102,
+              "PlotLineKey": "¿El sacrificio de la autopercepción?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Luther",
+          "PlotLineKey": "Como estos pobres Ecos...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "También necesitamos documentar este lugar, ¿verdad? Vamos a tomar algunas fotos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "Sí, por favor.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "¿Todo listo? ¿Vamos a la siguiente área?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 269,
+              "PlotLineKey": "Vamos.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 270,
+              "PlotLineKey": "Dame un momento.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "No hay problema, estaré aquí esperando.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Guía de la Orden",
+          "PlotLineKey": "Mis queridos {Male=hermanos;Female=hermano y hermana}, aquellos que venís aquí seréis la fuerza que salvará Rinascita.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "¿Oh? Gracias. No esperaba ver tantos...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Guía de la Orden",
+          "PlotLineKey": "Unámonos para hacer llegar la luz a todos los rincones y afrontemos la Ordalía Divina en unidad.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Luther",
+          "PlotLineKey": "¿Ordalía Divina...? ¿De qué estás hablando?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "No pueden comunicarse contigo normalmente.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Luther",
+          "PlotLineKey": "¿Por qué?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Salvar Rinascita y resistir la inevitable «Ordalía Divina» es un camino sembrado de muchas almas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Son víctimas de la búsqueda de salvación de la Orden, mártires voluntarios.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Luther",
+          "PlotLineKey": "Esto... es nuevo para mí...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Eso podría ser porque Fenrico mantiene en secreto el coste del fracaso.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Tras incontables fiascos, sus mentes se volvieron caóticas y no pueden con una vida normal.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Los que sobrevivieron a la oscuridad solo pudieron aferrarse a su fe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Este lugar no tiene nada que ver con la producción o los experimentos. Es el último refugio de Fenrico para ellos, donde vivir en paz lejos del resto del mundo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Luther",
+          "PlotLineKey": "Entiendo. Estas personas permanecerán bajo nuestro cuidado.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Luther",
+          "PlotLineKey": "Pero el caos y la oscuridad que mencionó antes...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 177,
+              "PlotLineKey": "Vamos. Pronto verás la verdad por ti mismo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "¿Es... ¡Primus Fenrico?!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 206,
+              "PlotLineKey": "Ya no puede responderte.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "Se lo ruego, cuéntemelo todo.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "¿Sabes algo sobre la falsa divinidad?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Luther",
+          "PlotLineKey": "Sí. Tras confirmar la visita al Fabricatorium, una carta de los Fisalia me reveló la verdad sobre el Centinela y el Trenodiano.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Si conoces este secreto, debes tener un puesto de relevancia en la Orden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Fenrico debía saber esto mucho antes de lo que creíamos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Pero lo olvidó, o quizás sus pensamientos se volvieron confusos tras debilitarse por la Marea Oscura.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Con el Trenodiano en su mente, tuvo que registrar fragmentos de verdad mientras aún estaba cuerdo y los mantuvo enterrados en las profundidades del mar.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Hubo una vez en que él y otros acólitos buscaron formas de salvar a Raguna, hasta que se dio cuenta de que sólo él mismo tenía posibilidades de éxito.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Pero olvidó anotar lo más importante: que era el Heraldo de la Marea Oscura.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Los restos del Trenodiano prácticamente se disolvieron en la Marea Oscura. Afortunadamente, el farol lo despertó y pudo detener la propagación de la Marea Oscura.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Luther",
+          "PlotLineKey": "El Trenodiano... eso lo explica.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 208,
+              "PlotLineKey": "¿Explicar el qué?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Luther",
+          "PlotLineKey": "Hace muchos años, hablé con el anterior Consejero Privado unas cuantas veces.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Luther",
+          "PlotLineKey": "Me dijo que, en los días del Seminario, Fenrico era una persona diferente del hombre que se convirtió en Primus. Incluso su viejo amigo lo veía como un extraño.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Luther",
+          "PlotLineKey": "Nunca entendió por qué, e incluso le enviaron en la Travesía del Peregrino. Supongo que, con lo que me ha contado, tiene sentido.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "Listo. He reunido suficiente información. ¿Vamos a la siguiente área?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 259,
+              "PlotLineKey": "Vamos.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 260,
+              "PlotLineKey": "Dame un momento.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "No hay problema, estaré esperando aquí.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Luther",
+          "PlotLineKey": "¿Procedemos al siguiente lugar?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 275,
+              "PlotLineKey": "Vamos.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 276,
+              "PlotLineKey": "Dame un momento.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Luther",
+          "PlotLineKey": "No te preocupes, estaré aquí.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

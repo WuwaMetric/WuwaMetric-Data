@@ -1,0 +1,458 @@
+{
+  "Id": 135000009,
+  "Name": "L'histoire engloutie",
+  "Description": "Cherchez les cinq phares dans le Territoire de Huanlong, collectez les informations pour aider l'historien à rétablir la vérité",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 135000009,
+  "ShowQuestList": [],
+  "QuestDesc": "Cherchez les cinq phares dans le Territoire de Huanlong, collectez les informations pour aider l'historien à rétablir la vérité",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 135000007,
+      "PreQuestName": "Réparer le phare de la la Baie Wuming"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 135000008,
+      "PreQuestName": "Réparer le phare des Hauts des roches"
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 135000054
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 135000046
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 135000038
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historien",
+          "PlotLineKey": "Bonjour, bonjour ! Tu es la personne qui s'occupe du phare ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 262,
+              "PlotLineKey": "C'est vrai.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Historien",
+          "PlotLineKey": "Pourriez-vous me dire ce que vous avez trouvé dans l'équipement du phare ? Je suis vraiment curieux de le savoir !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "(Partager les informations trouvées dans l'équipement du phare.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historien",
+          "PlotLineKey": "Hmm, hmm. Il y a cette histoire...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Historien",
+          "PlotLineKey": "Où est allé le « Manta » ? C'est intéressant. Cela pourrait être un bon sujet.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Historien",
+          "PlotLineKey": "J'ai fait une petite recherche, et il devrait y avoir un total de cinq phares similaires.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Historien",
+          "PlotLineKey": "Si vous collectez des informations de ces phares, le sort du « Manta » deviendra clair.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Historien",
+          "PlotLineKey": "Pourriez-vous chercher les autres phares ? Il y aura une récompense !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 263,
+              "PlotLineKey": "Oui. Laisse-moi faire.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 264,
+              "PlotLineKey": "Cela m'intéresse aussi.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Historien",
+          "PlotLineKey": "Ha ha ! Alors, c'est à toi !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historien",
+          "PlotLineKey": "Bonjour ! Tu es la personne qui a résolu l'énigme du phare ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 281,
+              "PlotLineKey": "C'est vrai.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Historien",
+          "PlotLineKey": "Si possible, peux-tu me dire ce que tu as trouvé dans le phare ? Je veux vraiment le savoir !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "(Partager les informations trouvées.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historien",
+          "PlotLineKey": "Quoi ! Vous avez rassemblé toutes les informations des cinq phares... !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Historien",
+          "PlotLineKey": "Face à cette passion pour l'histoire, plus que n'importe lequel de mes élèves... Je suis ému !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 282,
+              "PlotLineKey": "Pouvons-nous trouver le « Manta » avec ça ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Historien",
+          "PlotLineKey": "Oui, c'est suffisant. Mais, c'est assez...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 283,
+              "PlotLineKey": "Quoi, vous ne l'avez pas trouvé ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Historien",
+          "PlotLineKey": "Non. Pour être précis, « ce n'est pas nécessaire ».",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Historien",
+          "PlotLineKey": "En comparant les coordonnées... Ce « Manta » est sans aucun doute le navire coulé que nous avons trouvé près de la Tourbe piaulante. Il y a quelques années.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Historien",
+          "PlotLineKey": "Il y a des traces de la vie des marins à l'intérieur, et d'après ce que je vois... Cela correspond à l'information que vous avez fournie.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 284,
+              "PlotLineKey": "Et Mock et les autres ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Historien",
+          "PlotLineKey": "Malheureusement... Six corps ont été trouvés avec le navire. C'est sans doute Mock et « les marins ».",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 285,
+              "PlotLineKey": "C'est pas vrai !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Historien",
+          "PlotLineKey": "Ce n'est pas tout. L'heure de la mort des cinq autres a été établie bien avant que Mock n'ait téléchargé l'enregistrement dans le phare.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Historien",
+          "PlotLineKey": "En d'autres termes. Il a probablement voyagé seul. « Les marins » sont depuis longtemps...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Historien",
+          "PlotLineKey": "Mock a probablement eu des hallucinations. Il ne peut pas accepter cette fin, donc tout le monde a trouvé le phare et est descendu du « Manta » en toute sécurité...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Historien",
+          "PlotLineKey": "En fin de compte... Il a coulé avec le navire à la fin de son voyage en solitaire.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 286,
+              "PlotLineKey": "C'est la vérité...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Historien",
+          "PlotLineKey": "En effet, je ne peux pas le garantir... C'est juste une supposition. Cependant, révéler une histoire cachée à sa manière est une grande joie pour un chercheur d'histoire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Historien",
+          "PlotLineKey": "Quoi qu'il en soit... Grâce à vous, j'ai pu comprendre toute l'histoire. C'est la récompense que vous, qui aimez l'histoire, devriez recevoir !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historien",
+          "PlotLineKey": "Bonjour. Avez-vous trouvé d'autres phares ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "(J'ai transmis toutes les informations trouvées dans le phare.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Historien",
+          "PlotLineKey": "Vous avez rassemblé toutes les informations des cinq phares... !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historien",
+          "PlotLineKey": "Face à cette passion pour l'histoire, plus que n'importe lequel de mes élèves... Je suis ému !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 302,
+              "PlotLineKey": "Pouvons-nous chercher le « Manta » avec ça ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Historien",
+          "PlotLineKey": "Ah, c'est suffisant. Mais c'est assez...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "Alors, vous ne l'avez pas trouvé ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Historien",
+          "PlotLineKey": "Non. Pour être précis, « ce n'est pas nécessaire ».",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Historien",
+          "PlotLineKey": "En comparant les coordonnées... Ce « Manta » est sans aucun doute le navire coulé que nous avons trouvé près de la Tourbe piaulante. Il y a quelques années.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Historien",
+          "PlotLineKey": "Il y a des traces de la vie des marins à l'intérieur, et d'après ce que je vois... Cela correspond à l'information que vous avez fournie.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "Et qu'en est-il de Mock et des autres ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Historien",
+          "PlotLineKey": "Malheureusement... Six corps ont été trouvés avec le navire. C'est sans doute Mock et « les marins ».",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 305,
+              "PlotLineKey": "Quoi !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Historien",
+          "PlotLineKey": "Ce n'est pas tout. L'heure de la mort des cinq autres a été établie bien avant que Mock n'ait téléchargé l'enregistrement dans le phare.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Historien",
+          "PlotLineKey": "En d'autres termes. Il a probablement voyagé seul. « Les marins » sont depuis longtemps...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Historien",
+          "PlotLineKey": "Mock a probablement eu des hallucinations. Il ne peut pas accepter cette fin, donc tout le monde a trouvé le phare et est descendu du « Manta » en toute sécurité...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Historien",
+          "PlotLineKey": "En fin de compte... Il a coulé avec le navire à la fin de son voyage en solitaire.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 306,
+              "PlotLineKey": "Est-ce la vérité...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Historien",
+          "PlotLineKey": "En effet, je ne peux pas le garantir... C'est juste une supposition. Cependant, révéler une histoire cachée à sa manière est une grande joie pour un chercheur d'histoire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Historien",
+          "PlotLineKey": "Quoi qu'il en soit... Grâce à vous, j'ai pu comprendre toute l'histoire. C'est la récompense que vous, qui aimez l'histoire, devriez recevoir !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historien",
+          "PlotLineKey": "Allo ? Vous vous souvenez ? Oui, je suis l'historien de l'affaire du phare.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Historien",
+          "PlotLineKey": "J'ai confirmé que les cinq phares sont tous de nouveau opérationnels. Nous avons maintenant toutes les informations sur le « Manta » !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Historien",
+          "PlotLineKey": "J'aimerais que vous me racontiez l'histoire quand vous reviendrez à Jinzhou !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historien",
+          "PlotLineKey": "Peut-être on peut résoudre le mystère caché derrière cette histoire !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

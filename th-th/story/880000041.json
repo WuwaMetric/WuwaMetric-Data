@@ -1,0 +1,295 @@
+{
+  "Id": 880000041,
+  "Name": "ไปตกปลาสักตัว",
+  "Description": "ได้เวลาตามล่าหาปลาแล้ว!",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000041,
+  "ShowQuestList": [],
+  "QuestDesc": "ได้เวลาตามล่าหาปลาแล้ว!",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "ชายชรากับปลาวาฬ"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "ว่าไง{PlayerName}! มาทำความรู้จักกับจูเลียนสิ เขาเป็นแมวที่ไม่อาจต้านทานชีวิตในท่าเรือได้เลย",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "ทุกครั้งที่ฉันให้ปลาและพยายามพูดถึงความปรารถนาอันยิ่งใหญ่ของเขาในฐานะแมว เขาก็มักจะร้อง \"เมี้ยว\" ตอบกลับมา",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "จูเลียน",
+          "PlotLineKey": "เมี้ยว!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "ความปรารถนาอันยิ่งใหญ่ของเขาในฐานะแมวคืออะไร?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 55,
+              "PlotLineKey": "ทำไมเขาถึงร้องเมี้ยวแบบนั้นล่ะ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "\"เขาปฏิญาณว่าจะไปถึงจุดสูงสุดของความเป็นแมว—จับสัตว์เล็กสัตว์น้อยให้หมด! ใช่ไหมล่ะ จูเลียน?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "จูเลียน",
+          "PlotLineKey": "เมี้ยว... เมี้ยว...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "ฟังดูเหมือนเขาเห็นด้วยนะ",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "ฟังดูเหมือนเขาไม่เห็นด้วยกับคุณนะ",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "ไม่ต้องสงสัยเลย! ถ้าเติมเต็มชะตาโดยกำเนิดของตัวเอง เขาจะมีปลากินได้ไม่อั้น!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "เป็นไปไม่ได้… ฉันมั่นใจว่าเขาตั้งใจจะเติมเต็มชะตาโดยกำเนิดของตัวเอง เขาจะมีปลากินได้ไม่อั้น!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "เมื่อได้ยินคำว่า \"ปลา\" จูเลียนเริ่มร้องเมี้ยวด้วยความตื่นเต้น ความปรารถนาอันยิ่งใหญ่ของเขาในฐานะแมวก็ชัดเจนขึ้นทันที",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "เขาร้องเมี้ยวใส่คุณก็เพราะหวังว่าจะได้ปลาเท่านั้นแหล่ะ",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "เขาอยู่แถวท่าเรือก็เพราะมองหาปลาเท่านั้นแหล่ะ",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 60,
+              "PlotLineKey": "เขาปรารถนาจะครอบครองปลาทั้งหมด",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "บ้าไปแล้ว! ฉันคิดว่าเขามองเห็นอะไรบางอย่างในตัวฉัน...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 10,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "มันเป็นไปได้ยังไง?! เรากำลังพูดถึงความฝันของแมวเลยนะ มันต้องไม่ใช่แค่เรื่องปลาแน่ ๆ!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "ก็มีส่วนจริงนะ ปลาเป็นมงกุฎล้ำค่าแห่งชีวิตของแมว!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "โอ้จูเลียน บอกฉันสิว่ามันไม่จริง! จริงเหรอที่ว่ามันเกี่ยวกับปลาเท่านั้นน่ะ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "จูเลียน",
+          "PlotLineKey": "เมี้ยว เมี้ยว!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 61,
+              "PlotLineKey": "เอาสิ ลองให้ปลาเขาดู",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "ความคิดดีมาก... แต่วันนี้ฉันยังตกปลาไม่ได้สักตัวเลยนะ!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 62,
+              "PlotLineKey": "ฉันพอจะมีปลาอยู่บ้าง",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 63,
+              "PlotLineKey": "ฉันก็ไม่มีปลาสักตัวเหมือนกัน",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "โอ้ จริงเหรอ? คุณช่วยฉัน—อ๊ะ ไม่ใช่ ช่วยให้ปลากับจูเลียนได้ไหม?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 16,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "เข้าใจแล้ว... ถ้าคุณเจอปลา ช่วยแบ่งให้จูเลียนบ้างได้ไหม?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "จูเลียนจะจ่ายคุณเอง! เอ่อ… จริง ๆ ฉันนี่แหละที่จะจ่าย แต่คุณก็เข้าใจนะ…",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "แล้ว... คุณจับปลาได้ไหม?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "เอาไปสิ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "โอ้ ขอบคุณมาก เดี๋ยวฉันจะลองให้ดูนะ! โอ้ จูเลียน มานี่สิ จูเลียน มารับปลาของแกไปสิ",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "จูเลียน",
+          "PlotLineKey": "เมี้ยว!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "จูเลียนรับปลาไปอย่างมีความสุขและกินหมดในเวลาไม่กี่วินาทีจนเหลือเพียงก้าง จากนั้นก็ถูตัวกับมือของคุณเพื่อแสดงความขอบคุณ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "โอ้ คุณเห็นวิธีที่เขากินไหม?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 73,
+              "PlotLineKey": "ไม่มีทางปฏิเสธของว่างได้หรอก",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 74,
+              "PlotLineKey": "ปลาคือมงกุฎล้ำค่าแห่งชีวิตของพวกเขานี่นะ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "ใช่ ใช่! ขอบคุณมาก คุณทำให้ฉันรู้ว่าความปรารถนาแท้จริงของจูเลียนฐานะแมวคืออะไร!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "มาร์โก",
+          "PlotLineKey": "เอาไปสิ คุณสมควรได้รับสิ่งนี้!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "จูเลียน",
+          "PlotLineKey": "เมี้ยว เมี้ยว!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

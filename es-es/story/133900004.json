@@ -1,0 +1,434 @@
+{
+  "Id": 133900004,
+  "Name": "Los hermanos extraños",
+  "Description": "Como ayudaste a los tres hermanos a resolver todos sus problemas, ellos quiere darte las gracias en persona.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 133900004,
+  "ShowQuestList": [],
+  "QuestDesc": "Como ayudaste a los tres hermanos a resolver todos sus problemas, ellos quiere darte las gracias en persona.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900001,
+      "PreQuestName": "Los hermanos extraños: Fratellone"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900002,
+      "PreQuestName": "Los hermanos extraños: Fratello"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900003,
+      "PreQuestName": "Los hermanos extraños: Fratellino"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "¡Genial! ¡Todavía estás aquí!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Estábamos hablando y nos dimos cuenta de que no solo me ayudaste a mí, sino también a mis hermanos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fratello",
+          "PlotLineKey": "¡Ha sido impresionante! ¡Eres lo más!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "¡Muchas gracias!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 70,
+              "PlotLineKey": "No fue nada.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 71,
+              "PlotLineKey": "Las palabras no van a llenarme los bolsillos.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "¡Ni en broma! ¡Unirnos a la Asociación de Pioneros es nuestro sueño, y nos has ayudado tanto que debemos agradecerte como corresponde!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "¡Por supuesto que tenemos que mostrarte nuestro agradecimiento! ¡Unirnos a la Asociación de Pioneros es nuestro sueño, y nos has ayudado tanto que debemos agradecerte como corresponde!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fratello",
+          "PlotLineKey": "Y ya que eres {Male=el;Female=la} más fuerte del mundo, ¡tenemos que darte el mejor regalo, el más emocionante!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Por eso, hemos decidido juntar nuestro dinero para construirte... ¡<span style=\"color:#ffd12f;\" class=\"font-bold\">una estatua</span>, aquí mismo!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "¡Venga, posa para que veamos cómo quieres que quede!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "Pensando como un sabio.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 73,
+              "PlotLineKey": "Erguido como un guerrero.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "¡Vale, ya tengo la foto! Se la enviaremos al escultor. ¡Vuelve en unos días y verás tu <span style=\"color:#ffd12f;\" class=\"font-bold\">estatua exclusiva</span>!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Ah, aquí estás. ¡Mira! ¿Qué te parece tu «estatua»? ¡Ja, ja, ja!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 130,
+              "PlotLineKey": "Esto no es para nada una estatua.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 131,
+              "PlotLineKey": "Ni tampoco me puse en esa pose.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Queríamos hacerte una estatua a partir de tu pose, pero, bueno, hubo un pequeño problema.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Me preocupó que alguien robara los materiales, así que me quedé aquí y le pedí a Fratello que entregara tu imagen al escultor.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fratello",
+          "PlotLineKey": "¡Así que corrí y corrí! ¡Y seguí corriendo! ¡Y me perdí! ¡Jaaaa!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Cuando vi que Fratello no regresaba, supe que se había perdido. Pero habíamos hecho una copia de tu foto, así que fui a buscar al escultor yo también.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Pero cuando llegué, había perdido la foto...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Tardaban tanto que me impacienté, así que decidí ir a buscarlos. Pero no podía abandonar los materiales de la estatua, así que los llevé conmigo. Mientras buscaba a mis hermanos, tropecé y se cayó todo por el acantilado...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Sin materiales ni foto, no tuvimos más remedio que usar el dinero que íbamos a pagar al escultor para comprar una proyección y ajustar la pose en función de nuestros recuerdos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fratello",
+          "PlotLineKey": "Pero no queda tan mal, ¿no crees?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "¡Sí, no desentona con el pueblo para nada!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 132,
+              "PlotLineKey": "Supongo que tenéis razón...",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 133,
+              "PlotLineKey": "¡Quiero mi estatua! ¡Quiero mi estatua! ¡Quiero mi estatua!",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "¡Ah, ja, ja! ¡Gracias por ser tan {Male=comprensiva;Female=comprensiva}!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 12,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Bueno, hemos gastado todos nuestros ahorros en esto. Hacer otra estatua se nos antoja complicado...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Fratello",
+          "PlotLineKey": "¿Qué te parece si tratamos de conseguir el dinero antes de unirnos a la Asociación de Pioneros?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Si todo va bien, ¡en tres o cuatro años tendremos ahorrado lo suficiente para construir tu estatua!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Eso no es necesario...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Gracias por tu comprensión, ¡ja, ja!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Nos vamos a la Asociación de Pioneros. ¡Hasta la próxima!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Ah, aquí estás. ¡Mira! ¿Qué te parece tu «estatua»? ¡Ja, ja, ja!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 130,
+              "PlotLineKey": "Esto no es para nada una estatua.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 131,
+              "PlotLineKey": "Ni tampoco me puse en esa pose.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Queríamos hacerte una estatua a partir de tu pose, pero, bueno, hubo un pequeño problema.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Me preocupó que alguien robara los materiales, así que me quedé aquí y le pedí a Fratello que entregara tu imagen al escultor.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fratello",
+          "PlotLineKey": "¡Así que corrí y corrí! ¡Y seguí corriendo! ¡Y me perdí! ¡Jaaaa!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Cuando vi que Fratello no regresaba, supe que se había perdido. Pero habíamos hecho una copia de tu foto, así que fui a buscar al escultor yo también.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Pero cuando llegué, había perdido la foto...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Tardaban tanto que me impacienté, así que decidí ir a buscarlos. Pero no podía abandonar los materiales de la estatua, así que los llevé conmigo. Mientras buscaba a mis hermanos, tropecé y se cayó todo por el acantilado...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Sin materiales ni foto, no tuvimos más remedio que usar el dinero que íbamos a pagar al escultor para comprar una proyección y ajustar la pose en función de nuestros recuerdos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fratello",
+          "PlotLineKey": "Pero no queda tan mal, ¿no crees?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "¡Sí, no desentona con el pueblo para nada!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 132,
+              "PlotLineKey": "Supongo que tenéis razón...",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 133,
+              "PlotLineKey": "¡Quiero mi estatua! ¡Quiero mi estatua! ¡Quiero mi estatua!",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "¡Ah, ja, ja! ¡Gracias por ser tan {Male=comprensiva;Female=comprensiva}!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 12,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Bueno, hemos gastado todos nuestros ahorros en esto. Hacer otra estatua se nos antoja complicado...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Fratello",
+          "PlotLineKey": "¿Qué te parece si tratamos de conseguir el dinero antes de unirnos a la Asociación de Pioneros?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Si todo va bien, ¡en tres o cuatro años tendremos ahorrado lo suficiente para construir tu estatua!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Eso no es necesario...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Gracias por tu comprensión, ¡ja, ja!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Nos vamos a la Asociación de Pioneros. ¡Hasta la próxima!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

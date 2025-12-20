@@ -1,0 +1,993 @@
+{
+  "Id": 880000029,
+  "Name": "Héritage professionnel",
+  "Description": "M. Dong a trouvé un trésor laissé par un ancien. Cela pourrait prouver une merveille incontournable de son kiosque Ainsi parlait la Lune.\nCompléter cette quête pour débloquer un nouveau partenaire.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000029,
+  "ShowQuestList": [],
+  "QuestDesc": "M. Dong a trouvé un trésor laissé par un ancien. Cela pourrait prouver une merveille incontournable de son kiosque Ainsi parlait la Lune.\nCompléter cette quête pour débloquer un nouveau partenaire.",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 1,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Je suis désolée. Bien que je pratique le Taoïsme, la géomancie et la prédiction de l'avenir ne sont pas mon fort.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "En plus, cette question relève du hasard, et on ne peut pas le forcer.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Je vois. *Soupir* Alors je trouverai une autre chose.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "C'est peut-être la meilleure solution.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 780,
+              "PlotLineKey": "Que s'est-il passé ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Oh, salut, {PlayerName}. Rien de bien grave. M. Dong m'a demandé de l'aider à déchiffrer un sort de divination, mais… Je ne suis pas douée pour ça.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "C'est une longue histoire. Bien que je m'y connaisse un peu en divination, je suis autodidacte. Alors, j'ai décidé de trouver quelque chose qui donne de la crédibilité à mes efforts.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 781,
+              "PlotLineKey": "Quelque chose qui vous donne de la crédibilité ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Oui. Il y a longtemps, un devin célèbre est venu à Jinzhou. On disait qu'il avait le don de communiquer avec les esprit et de prédire les destinées. Beaucoup venaient le voir pour avoir des conseils.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "On disait que son don de sélénomancie était exceptionnel. Heu, je suppose que tu ne sais pas de quoi je parle, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Il faut remplir de l'eau à mi-hauteur un bol en porcelaine spécialement fabriqué, réciter une incantation et observer le reflet de la pleine lune dans l'eau pour discerner les fortunes et les infortunes. C'est ça, la divination par sélénomancie.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Lorsque ce devin la pratiquait, l'eau émettait une lueur dorée, ce qui donnait une touche de mystère au reflet de la lune.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Malheureusement, personne ne sait où il est allé. On dit que lorsqu'il est parti de Jinzhou, il a laissé une lettre et un sort de divination.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Dans sa lettre, il parle d'une rencontre avec une personne mystérieuse à Jinzhou. Après une longue conversation sur la divination, il trouva que sa compréhension était trop superficielle et il perdit tout intérêt pour la lecture de livres de divination.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Frustré, il décida d'abandonner sa carrière, mais il ne pouvait supporter de se séparer du bol en porcelaine qui l'avait accompagné de longues années. Donc, il l'a caché quelque part à Jinzhou.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Ensuite, il a laissé un sort de divination comme indice, espérant que quelqu'un le trouverait un jour.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 782,
+              "PlotLineKey": "Est-ce le sort de divination que vous vouliez faire déchiffrer par Jianxin ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Oui. Puisque le bol appartient à ce célèbre maître, il doit convenir parfaitement aux divinations. Du coup je voudrais l'avoir sur mon kiosque pour renforcer ma crédibilité.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Je n'ai jamais entendu parler de ce maître de divination, mais M. Dong a raison. Dans cette profession, la possession des artefacts puissants apporte de la crédibilité.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Je parie que ce maître serait heureux de voir son trésor reconnu de nouveau par les gens.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 783,
+              "PlotLineKey": "Que dit le sort de divination ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Oh, haha, j'ai failli oublier le plus important. Il dit « Pour chercher votre véritable soi, observez le lac depuis un ponton. Donnez votre confiance aux jeunes âmes innocentes. »",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Ce sort ne m'a pas l'air de parler de prédiction de l'avenir. Je suis un peu confuse. Qu'en penses-tu, {PlayerName} ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 784,
+              "PlotLineKey": "Il parle d'un endroit.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Un ponton où les gens peuvent admirer le lac… Y a-t-il un tel endroit à Jinzhou ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Je me suis rendu à plusieurs endroits qui correspondent à la description. Je n'ai rien trouvé jusqu'à maintenant. Ce n'était peut-être pas le bon moment.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Enfin, tant qu'il y a un indice, il y a un moyen de le trouver ! M. Dong, nous allons vous aider à trouver ce bol en porcelaine !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 785,
+              "PlotLineKey": "Oui, vous pouvez compter sur nous.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Formidable ! Je vous donnerai une belle récompense, pour sûr ! Bonne chance, Jianxin et {PlayerName} !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Nomade",
+          "PlotLineKey": "« Observez le lac depuis un ponton »… Ça ressemble à l'endroit dont parle le sort de divination.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Nomade",
+          "PlotLineKey": "Et la ligne d'après… « On ne saurait douter du cœur pur d'un enfant ». Il faudrait qu'on cherche les enfants dans les parages.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Tu as raison. Il y a peut-être des indices par ici.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "La petite fille au bord du lac",
+          "PlotLineKey": "Lalala…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Bonjour, petite.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "La petite fille au bord du lac",
+          "PlotLineKey": "Bonjour ? Comment est-ce que je peux vous aider ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 803,
+              "PlotLineKey": "Est-ce que tu as vu quelque chose de bizarre par ici ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "La petite fille au bord du lac",
+          "PlotLineKey": "Quelque chose de bizarre… ? Je viens souvent ici, mais quelque chose de bizarre...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "La petite fille au bord du lac",
+          "PlotLineKey": "Oh, oui ! Les chats !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Les chats… ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "La petite fille au bord du lac",
+          "PlotLineKey": "Oui, c'est vrai ! Il y a un endroit par ici où les chatons adorent y rester.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "La petite fille au bord du lac",
+          "PlotLineKey": "À chaque fois que je viens ici, je les vois. Maman dit qu'ils essaient d'attraper les poissons du lac, mais je…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Des chats… Qu'en penses-tu, {PlayerName} ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 804,
+              "PlotLineKey": "Ça mérite qu'on s'y intéresse.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 805,
+              "PlotLineKey": "Allons voir ça.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "La petite fille au bord du lac",
+          "PlotLineKey": "E-est-ce que vous êtes des Patrouilleurs ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 806,
+              "PlotLineKey": "{Male=Désolé;Female=Désolée}, mais non.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 807,
+              "PlotLineKey": "Nous sommes là pour une chasse au trésor.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "La petite fille au bord du lac",
+          "PlotLineKey": "V-vous êtes de mauvaises personnes alors... ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Haha, bien sûr que non. On cherche un trésor disparu il y a longtemps.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "La petite fille au bord du lac",
+          "PlotLineKey": "Un trésor ?! Ça a l'air cool !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "La petite fille au bord du lac",
+          "PlotLineKey": "Un trésor ?! Ça a l'air cool !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "La petite fille au bord du lac",
+          "PlotLineKey": "Mais maman ne voudra probablement pas que j'aille avec vous… Je vous encouragerai d'ici !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Merci, jeune demoiselle. Nous allons certainement trouver le trésor !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "La petite fille au bord du lac",
+          "PlotLineKey": "Ouais !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "« Mon chariot couvert de poussière »… Oh, regarde, il y a un vieux chariot là-bas. On dirait qu'il n'a pas été entretenu depuis des années.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Je vais chercher autour !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "J'ai trouvé, {PlayerName} !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Un autre coffret en bois. Mais il est bien trop léger... Ne me dis pas qu'il y a un autre bout de papier dedans…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 834,
+              "PlotLineKey": "Probablement.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 835,
+              "PlotLineKey": "Je suppose que ce maître était un grand farceur.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "« À la recherche de son vrai soi, je voyage large. Dans le kiosque où s'amassent les fortunes, le vide réside. » Ça doit être l'indice suivant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "« Dans le kiosque où s'amassent les fortunes... » C'est probablement la rue marchande ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 836,
+              "PlotLineKey": "Tu es si intelligente, Jianxin !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 837,
+              "PlotLineKey": "Tu commence à être douée pour lire les sorts de divination !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Haha, une simple supposition. On ne sait pas encore si j'ai raison.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 838,
+              "PlotLineKey": "Allons voir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "D'accord ! Nous le saurons bientôt !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Il y a tellement de boutiques sur la rue marchande… Je suppose qu'on va devoir les fouiller une par une.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Nomade",
+          "PlotLineKey": "Attends, Jianxin. Comme il dit « dans le kiosque », on peut sûrement éliminer les grandes boutiques de notre liste.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Tu as raison. On doit se concentrer sur les petits kiosques, n'est-ce pas ?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "{PlayerName}, tu as raison. L'indice mène en effet vers un petit kiosque.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Ce coffret en bois est lourd. Je pense que le bol en porcelaine s'y trouve. Est-ce que l'on l'ouvre, {PlayerName} ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 850,
+              "PlotLineKey": "Bien sûr.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Le trésor laissé par le maître devin est dedans... Rien que d'y penser, ça me rend un peu nerveuse.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Vous et Jianxin ouvrez le coffret en bois. À l'intérieur, se trouve un bol noir en porcelaine, à l'apparence ordinaire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "C'est ça le trésor qu'on cherchait ? Mais il a l'air…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 851,
+              "PlotLineKey": "On dirait un bol en porcelaine ordinaire…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Je vois. Comme le dit le dicton, « La plus belle musique a des notes les plus discrètes, la plus belle façon n'a pas de forme. » Peut-être que plus le trésor est précieux, moins il attire le regard.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Peut-être qu'il brille uniquement lorsqu'on l'utilise pour la divination.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 852,
+              "PlotLineKey": "Tu as peut-être raison.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 853,
+              "PlotLineKey": "Vraiment... ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Enfin bref, ramenons-le à M. Dong.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "On dirait que la question est résolue. Merci pour ton aide, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "...J'espérais voir cette lueur dorée légendaire et être témoin d'une voyance parfaite, mais en fait, c'est juste un bol ordinaire.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1443,
+              "PlotLineKey": "Tu as l'air frustrée.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Oui, un peu. Mais M. Dong est satisfait du résultat. Peut-être que ce bol ordinaire est un vrai trésor à ses yeux.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Pour être honnête je suis plus gênée que frustrée maintenant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Tu m'as accompagnée dans toute cette aventure, tu as trouvé des indices, résolu des énigmes, pour finalement finir avec ce résultat.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1444,
+              "PlotLineKey": "Ça va.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1445,
+              "PlotLineKey": "Ne t'en fais pas.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Non ! Je ne peux pas laisser passer comme ça. Je dois te récompenser d'une manière ou d'une autre pour tout le travail que tu as fait pour moi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Mais comment... bon, laisse-moi réfléchir...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Oh ! Je sais ! Je viens de recevoir ma paie. Je devrais t'inviter à manger !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1446,
+              "PlotLineKey": "Parfait !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1447,
+              "PlotLineKey": "J'ai hâte !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Commande tout ce que tu veux !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Oh, {Male=Vous êtes revenus;Female=Vous êtes revenues} ! Alors, comment ça va ? Vous avez trouvé le bol ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 872,
+              "PlotLineKey": "Oui, on l'a trouvé, mais…",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 873,
+              "PlotLineKey": "Il ne ressemble pas à un trésor.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Merci. Ce n'est pas grave. D'après le document, il faut le remplir d'eau fraîche et réciter l'incantation de sélénomancie…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Lorsque la lune se reflétera sur l'eau, vous pourrez voir sa magie.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Oh, ça a l'air incroyable ! Essayons-le, M. Dong !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "M. Dong remplit le bol d'eau jusqu'à la moitié et récite l'incantation... mais rien ne se passe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Mais, où est la lumière dorée… ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 874,
+              "PlotLineKey": "Je vois seulement la lumière de la lune.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 875,
+              "PlotLineKey": "Tu me prends les mots de la bouche.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "…Eh bien, je suis certain que le bol que vous avez trouvé est celui que le maître devin a laissé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Mais maintenant, il me semble que c'est un bol ordinaire utilisé pour la divination, et rien de plus.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Comment est-ce possible...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Je ne suis pas surpris que le bol n'ait pas fonctionné. Ce genre d'histoire est souvent fait de rumeurs, et on dirait que c'est aussi le cas pour celle-ci.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Ce maître était sûrement doué pour la divination, mais les gens ont exagéré ses compétences.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "J'adore les opéras et les spectacles, mais quand même, les héros qui font des exploits impossibles et les guerriers qui déplacent des montagnes ? C'est enjolivé pour nous divertir.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Alors, vous voulez dire que le bol est inutile ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Non, pas du tout ! Même s'il n'est pas « magique », il reste un trésor à chérir. N'oublie pas que ce qui définit un trésor, ce n'est pas l'aspect pratique, jeune fille !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "C'est son histoire qui est importante. Une bonne histoire. Une histoire riche en rebondissements.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Ah, maintenant, je vois.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Enfin, merci, {PlayerName}, Jianxin. Merci de m'avoir aidé à trouver ce bol.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Oncle Dong",
+          "PlotLineKey": "Grâce à la présence de ce bol en porcelaine, ma réputation de voyant professionnel va certainement prospérer !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Regarde ! Je l'ai trouvé ! C'est un coffret en bois. Hmm ? Qu'est-ce que c'est cette odeur ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 818,
+              "PlotLineKey": "Ça sent le remède médicinal.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Il doit y avoir un truc médicinal qui se conserve longtemps et attire les chats.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "C'est fascinant, mais je ne comprends toujours pas… Quelqu'un a vraiment pu prédire qu'un enfant résoudrait l'énigme des années plus tard ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 819,
+              "PlotLineKey": "Peut-être qu'il avait confiance en la curiosité d'un enfant.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 820,
+              "PlotLineKey": "Il y avait peut-être vraiment un moyen.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "C'est vrai. Les enfants ont un cœur pur, libre des inquiétudes des adultes. Ils remarquent souvent les détails que nous manquons.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Mon maître avait raison ; la divination n'est pas qu'une histoire de mensonges et de trucs… Malheureusement, je n'ai pas assez de talent pour la maîtriser totalement.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Ouvrons-nous ce coffret ? Le bol en porcelaine est peut-être dedans.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Vous ouvrez le coffret avec Jianxin. Mais il n'y a pas de bol. Seulement quelques herbes dans des pochettes en soie et un morceau de papier jaune.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "« Je cherche mon vrai soi, mais les voies sont incertaines. Ma vision se brouille, ma peur est nourrie. J'hésite, je questionne et j'erre. Mon chariot couvert de poussière et pourtant, aucun chemin ne convient, je réfléchis. » Ça a la même énergie que le sort de divination.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 821,
+              "PlotLineKey": "Un autre indice.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "...Je n'ai pas la moindre idée ! Et toi, {PlayerName}, tu as quelque chose ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 822,
+              "PlotLineKey": "En quelque sorte.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jianxin",
+          "PlotLineKey": "Tu ne me déçois jamais !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "Id": 880000041,
+  "Name": "Go Get Some Fish",
+  "Description": "이제 바다로 가서 생선 좀 건져올 때가 됐구만!",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000041,
+  "ShowQuestList": [],
+  "QuestDesc": "이제 바다로 가서 생선 좀 건져올 때가 됐구만!",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "노인, 물고기와 바다"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "마르코",
+          "PlotLineKey": "{PlayerName}! 여기, 이거 봐! 얘는 줄리엔. 부두에 자주 나타나는 착한 고양이야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "마르코",
+          "PlotLineKey": "내가 생선을 들고 냥생의 야망을 논할 때마다 줄리엔도 계속 야옹야옹 대답해 줬어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "줄리엔",
+          "PlotLineKey": "야옹!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "냥생의 야망이라는 게 뭐죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 55,
+              "PlotLineKey": "왜 자꾸 야옹거리는 거죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "마르코",
+          "PlotLineKey": "줄리엔은 쥐랑 물고기는 물론이고 벌레까지 잘 잡는 만능 고양이가 되고 싶은 것 같아. 맞지, 줄리엔?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "줄리엔",
+          "PlotLineKey": "야옹... 야옹!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "동의하는 것 같네요",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "별로 동의하지 않는 것 같네요",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "마르코",
+          "PlotLineKey": "물론이지! 만능 고양이가 되면 생선을 잔뜩 먹을 수 있거든!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "마르코",
+          "PlotLineKey": "그럴 리가... 줄리엔한테는 분명 만능 고양이라는 꿈이 있을 거야. 그러면 생선을 잔뜩 먹을 수 있으니까!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "「생선」이라는 단어를 듣자마자 줄리엔은 갑자기 야옹야옹 울기 시작한다. 진정한 줄리엔의 야망은 이것일지도...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "줄리엔은 그냥 생선을 먹고 싶은 것 같아요",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "줄리엔은 그냥 부두에서 생선을 찾아 먹고 싶은듯한데요",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 60,
+              "PlotLineKey": "줄리엔은 생선들이 자신을 따르길 바라는 게 아닐까요",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "마르코",
+          "PlotLineKey": "뭐? 난 줄리엔이 날 좋아하는 거라고 생각했는데...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 10,
+          "Speaker": "마르코",
+          "PlotLineKey": "말도 안 돼! 우린 멋진 냥생의 야망에 관해 얘기한 거라고. 생선같이 단순한 게 아니란 말야...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "마르코",
+          "PlotLineKey": "그럴지도 모르겠네. 고양이한테 있어서 생선은 최고의 상이자 보물이나 다름없으니까",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "마르코",
+          "PlotLineKey": "줄리엔, 정말 넌 생선만 있으면 좋은 거야?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "줄리엔",
+          "PlotLineKey": "야옹야옹!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 61,
+              "PlotLineKey": "생선을 직접 줘보면 어때요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "마르코",
+          "PlotLineKey": "좋은 생각이긴 한데... 오늘은 한 마리도 낚지 못해서 말야...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 62,
+              "PlotLineKey": "제게 생선이 있어요",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 63,
+              "PlotLineKey": "저도 없긴 해요",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "마르코",
+          "PlotLineKey": "진짜? 그럼 나한테, 아니아니... 줄리엔한테 줄 수 있을까?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 16,
+          "Speaker": "마르코",
+          "PlotLineKey": "그렇구나... 그럼 나중에라도 생선을 얻게 된다면 줄리엔한테 줄 수 있을까?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "마르코",
+          "PlotLineKey": "돈이라면 낼게! 물론, 줄리엔이 아니라 내가 내는 거지만...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "마르코",
+          "PlotLineKey": "어때? 생선은 구했어?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "여기요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "마르코",
+          "PlotLineKey": "고마워, 한번 해볼게! 줄리엔, 착하지? 네가 제일 좋아하는 생선이 왔어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "줄리엔",
+          "PlotLineKey": "야옹!!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "줄리엔은 생선을 받자 신나하며 순식간에 먹어치우고는, 당신의 손에 얼굴을 비비며 감사 표시를 한다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "마르코",
+          "PlotLineKey": "세상에... 엄청 잘 먹잖아!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 73,
+              "PlotLineKey": "생선이니까요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 74,
+              "PlotLineKey": "고양이에겐 최고의 상과 같으니까요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "마르코",
+          "PlotLineKey": "역시 그런 거였어! 줄리엔의 진정한 냥생의 야망을 알려줘서 고마워!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "마르코",
+          "PlotLineKey": "자, 여기 보수야!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "줄리엔",
+          "PlotLineKey": "야옹야옹!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

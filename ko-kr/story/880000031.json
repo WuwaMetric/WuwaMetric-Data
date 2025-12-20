@@ -1,0 +1,1011 @@
+{
+  "Id": 880000031,
+  "Name": "무엇을 위해 싸우는가",
+  "Description": "먼 변방에 있던 기염에게 연락이 왔는데, 도움을 필요로 하는 아주 중요한 일이 있는 것 같다...\n\n해당 임무 완료 후 새로운 경영 파트너가 해제됩니다",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000031,
+  "ShowQuestList": [],
+  "QuestDesc": "먼 변방에 있던 기염에게 연락이 왔는데, 도움을 필요로 하는 아주 중요한 일이 있는 것 같다...\n\n해당 임무 완료 후 새로운 경영 파트너가 해제됩니다",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 5,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100009,
+      "PreQuestName": "멀리 날아가는 군기 · 하"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "기염 (통신 중)",
+          "PlotLineKey": "{PlayerName}, 오랜만에 연락하는 것 같군",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1018,
+              "PlotLineKey": "기염? 변방에 무슨 문제라도 있나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "기염 (통신 중)",
+          "PlotLineKey": "그런 건 아니니 안심해",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "기염 (통신 중)",
+          "PlotLineKey": "명식의 부화를 막았으니 잔상은 한동안 금주에 심각한 위협이 될 만큼 세력을 형성하지 못할 테니까",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "기염 (통신 중)",
+          "PlotLineKey": "이게 다 {PlayerName} 덕분이지, 고맙네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "기염 (통신 중)",
+          "PlotLineKey": "변방의 형세도 안정 궤도에 오른 터라 달맞이 축제를 맞이해 오랫동안 그곳을 지키는 야귀군에게 며칠 간의 휴가를 줬지. 가족들과 좋은 시간 보내라고 말이야",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "기염 (통신 중)",
+          "PlotLineKey": "하지만 난 만일의 사태에 대비해 남은 병사들과 함께 이곳을 계속 지키고 있네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "기염 (통신 중)",
+          "PlotLineKey": "그런데... 휴가를 받은 병사들 중에서... 잔상류가 쳐들어왔을 때 불행하게도 가족을 잃은 자들이 있다고 하더군",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "기염 (통신 중)",
+          "PlotLineKey": "병사들의 상황을 확인할 수 없는 터라 아무래도 걱정이 되는군. 도와줄 일이 있는지 궁금하기도 하고",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1019,
+              "PlotLineKey": "제가 가서 확인해 볼게요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1020,
+              "PlotLineKey": "제가 가서 도와줄게요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "기염 (통신 중)",
+          "PlotLineKey": "그래 줄 수 있겠나? 그럼... 부탁하네, {PlayerName}",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "상냥한 노인",
+          "PlotLineKey": "아, {PlayerName}, 자네구먼",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1007,
+              "PlotLineKey": "어수락(魚水樂)하러 오신 건가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "상냥한 노인",
+          "PlotLineKey": "으음? 아니, 아니라네... 아, 여긴 어수락(魚水樂) 가게였군. 미안하네, 늙어서 앞이 잘 보이지 않는군",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "상냥한 노인",
+          "PlotLineKey": "하지만, 내 아들... 그 녀석은 공명자인데 이런 걸 좋아할지도 모르겠구군",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1008,
+              "PlotLineKey": "아드님이요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "상냥한 노인",
+          "PlotLineKey": "지금 야귀군에서 복무 중이지. 야귀군에서 휴가를 받았다고 하던데, 돌아오는 대로 함께 달맞이 야시장을 돌아볼 생각이라네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "상냥한 노인",
+          "PlotLineKey": "허허, 올해 달맞이 야시장은 유난히 시끌벅적한 게 아들 녀석이 무척 좋아하겠어",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "소락",
+          "PlotLineKey": "——언무 형! 돌아왔구나!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "아진",
+          "PlotLineKey": "——언무 형! 맛있는 거 사 왔어? 저번에 사다 준다고 했잖아!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "언무",
+          "PlotLineKey": "앗... 이, 이런, 깜빡했어...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "아진",
+          "PlotLineKey": "언무 형은 거짓말쟁이야!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "언무",
+          "PlotLineKey": "...하하핫! 농담이야. 너희들 주려고 달맞이 야시장에서 용띠찐빵을 사 왔지. 자, 따뜻할 때 먹어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "아진",
+          "PlotLineKey": "와아... 용띠찐빵이다! 언무형, 고마워!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "소락",
+          "PlotLineKey": "나, 나도 달맞이 야시장에 가면 안 돼...?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "언무",
+          "PlotLineKey": "가도 돼, 아주머니한테 말씀드리고 가자!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "소락",
+          "PlotLineKey": "헤헤, 좋아!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "아진",
+          "PlotLineKey": "나도, 나도 갈래! 소락, 아주머니한테 허락받으러 가자!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "아이들이 용띠찐빵을 들고 앞다투어 달려갔다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "언무",
+          "PlotLineKey": "넘어지지 않게 천천히 가!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 280,
+              "PlotLineKey": "안녕하세요, 언무",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "언무",
+          "PlotLineKey": "아... {PlayerName}! 저번 작전에서 뵌 적 있어요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "언무",
+          "PlotLineKey": "오늘 달맞이 야시장에 안 가는 건가요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 281,
+              "PlotLineKey": "네, 사실...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "언무에게 이곳에 찾아온 이유를 설명했다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "언무",
+          "PlotLineKey": "...아, 그런 거였군요. 정말이지... 기염 장군께서는 다정하시네요. 하지만 전 괜찮아요. 괜한 걱정을 하신 것 같네요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "언무",
+          "PlotLineKey": "저는 이 근처에 있는 복지원에서 자랐어요. 원장 아주머니께서 저희처럼 부모를 잃은 아이들을 돌봐주고 계시죠. 제게 이곳은 집이나 다름없어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "언무",
+          "PlotLineKey": "그러니까 걱정하지 않으셔도 돼요. 가족들과 만났으니까요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 282,
+              "PlotLineKey": "저 아이들은...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "언무",
+          "PlotLineKey": "네, 맞아요. 저 아이들도 복지원의 아이들이에요. 휴가 때가 되면 항상 아이들을 보러 오죠. 온 김에 원장 아주머니와 이야기를 나누기도 하고요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "언무",
+          "PlotLineKey": "소중한 사람들을 지키기 위해 전방에서 잔상과 싸우고 있다고 생각하면 절로 힘이 나요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 283,
+              "PlotLineKey": "제가 도와드릴 게 있나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "언무",
+          "PlotLineKey": "도움이요...? 없을 것 같은데... 아, 맞다! 복지원의 외벽을 다시 칠해야 하는데...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "언무",
+          "PlotLineKey": "하지만 이런 일은 {PlayerName}이(가) 도와주지 않으셔도 돼요. 기껏해야 1시간이면 혼자서도 할 수 있으니까요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "언무",
+          "PlotLineKey": "그래도 정말 감사해요, {PlayerName}! 절 위해 여기까지 와주시다니",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "언무",
+          "PlotLineKey": "그럼 전 이만 일 하러 가볼게요. 나중에 봐요, {PlayerName}!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "가니",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1035,
+              "PlotLineKey": "...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "가니",
+          "PlotLineKey": "...안녕하세요, {PlayerName}. 저기... 여기 잠들어 있는 사람에 대해 아세요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1036,
+              "PlotLineKey": "아뇨, 조문하러 온 게 아니에요",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 1037,
+              "PlotLineKey": "...아뇨, 모르는 사람이에요",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "가니",
+          "PlotLineKey": "그런가요? 여기에 묻힌 사람들은 거의 다... 당신이 금주에 오기 전에 전장에서 사망한 병사인 것 같아요. 아마도 {PlayerName}이(가) 알고 있는 사람은 아닐 것 같네요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "가니",
+          "PlotLineKey": "여기 묻힌 사람 대부분이 전사한 병사들이에요. 금주를 지키기 위해 자신의 목숨을 바친 사람들이죠",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "가니 앞에 있는 묘비에 이름 하나가 적혀 있었다. 가니와 같은 성씨의 이름인 것 같았다",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1038,
+              "PlotLineKey": "이건...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "가니",
+          "PlotLineKey": "우리 오빠예요. 야귀군 후방부대에서 복무했죠. 전우들과 함께 수송 임무를 수행하다가... 갑자기 쏟아져 나온 잔상들을 만났어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "가니",
+          "PlotLineKey": "책임을 다하기 위해 병사들은 자신의 몸을 방패 삼아 방어선을 세워 잔상을 막았대요. 수송 차량이 지나갈 수 있도록 말이에요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "가니",
+          "PlotLineKey": "지원 부대가 도착했을 땐... 이미 모든 것이 끝나있었죠. 그들은 아무도 구할 수 없었어요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1039,
+              "PlotLineKey": "그들 모두가 영웅이네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "가니",
+          "PlotLineKey": "고마워요. 금주를 구한 분이 이런 말을 해주시다니... 하늘에 있는 오빠의 영혼이 위안을 받았을 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "가니",
+          "PlotLineKey": "그런데 조문하러 온 게 아니라면... 무슨 일로 여기까지 오신 거죠?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "가니에게 자신이 여기에 온 이유를 설명한다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "가니",
+          "PlotLineKey": "그렇군요... 아, 확실히 기염 장군답네요. 도움이 필요한 일이라? 어디 보자...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "가니",
+          "PlotLineKey": "괜찮다면 라임그라스를 따다 주실래요? 훗, 오빠는 먹는 걸 엄청 좋아했어요. 꽃을 좋아하진 않았는데 라임그라스향을 유일하게 좋아했죠",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1040,
+              "PlotLineKey": "알겠어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "가니",
+          "PlotLineKey": "고마워요, {PlayerName}",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "가니",
+          "PlotLineKey": "음... 정말 싱그러운 향이네요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "가니",
+          "PlotLineKey": "훗, 저희 엄마가 아직 살아계셨을 때... 라임그라스로 매운탕을 끓여 주셨던 게 생각나네요. 솔직히 말해서... 그렇게 맛있진 않았지만요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "가니",
+          "PlotLineKey": "라임그라스의 싱그러운 향과 생선의 비린내가 섞여서 말로 표현하기 어려울 만큼 끔찍한 맛이었거든요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "가니",
+          "PlotLineKey": "엄마는 매운탕을 먹어야 키가 클 거라고 했어요. 하지만 너무 먹기 싫어서 오빠 그릇에 몰래 부어 버리곤 했는데... 결국 오빠 키가 부쩍 커졌죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "가니",
+          "PlotLineKey": "이따금 그런 생각이 들기도 해요. 오빠가 라임그라스를 좋아한 게 아니라 그저 평온하고 행복한 그 시절을 좋아한 거라고요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "가니",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "가니",
+          "PlotLineKey": "미안해요, {PlayerName}. 제멋대로 집안 사정을 이야기해 버렸네요. 훗... 지금 생각하니 그 매운탕 맛이 정말 그리워요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "가니",
+          "PlotLineKey": "좋아요! 결정했어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "가니",
+          "PlotLineKey": "마침 {PlayerName}이(가) 라임그라스를 잔뜩 가져다주셨으니 이번 휴가 때 매운탕을 한번 끓여봐야겠어요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "가니",
+          "PlotLineKey": "혼자서 먹으면... 맛이 더 없을 것 같지만요...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "영위",
+          "PlotLineKey": "풍경을 감상하러 온 건가, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "영위",
+          "PlotLineKey": "훗, 말하지 않아도 돼. 그게 아닌 걸 알고 있으니까. 나처럼 한가한 사람도 없을 테니",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1399,
+              "PlotLineKey": "얼굴... 부상을 당한 건가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "영위",
+          "PlotLineKey": "별거 아냐. 며칠 전에 잔상과 싸우다가 실수로 조금 긁힌 것뿐이야. 붕대로 단단히 감싸뒀지",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1400,
+              "PlotLineKey": "휴가를 보내는 것 같지 않네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "영위",
+          "PlotLineKey": "으응? 쉬는 중이야. 갓 입대한 햇병아리였다면 좋아서 난리법석을 떨었겠지만",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "영위",
+          "PlotLineKey": "평범한 사람에게 휴가란 가족들과 함께 어울리거나 친구들과 만나서 맛있는 걸 먹으면서 노는 거지. 안 그런가?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1401,
+              "PlotLineKey": "다들 그런 거 아닌가요?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 1402,
+              "PlotLineKey": "당신도 그렇게 할 수 있잖아요",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "영위",
+          "PlotLineKey": "그렇지, 다들 그런 거지. 하, 하, 하...",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "영위",
+          "PlotLineKey": "그런 건가? 하, 역시 됐네",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "영위",
+          "PlotLineKey": "내가 살고 있던 마을은 비명 이상으로 완전히 가라앉아버렸지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "영위",
+          "PlotLineKey": "물수제비를 뜰 때 물속에 던져지는 돌처럼 작은 물보라를 치더니 더는 볼 수 없게 됐지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "영위",
+          "PlotLineKey": "친구들... 가족들... 이 세상에 남겨진 아름다운 추억들까지 모두 물보라처럼 팟하고 사라져 버렸네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "영위",
+          "PlotLineKey": "내가 뭘 어떻게 해야 할지는 모르겠지만 그냥 살고 싶었어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "영위",
+          "PlotLineKey": "바로 그때 기염이 날 찾아왔지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "영위",
+          "PlotLineKey": "하하하, 그 바보는... 쿨럭, 쿨럭... 기염 장군은 뜻밖에도 날 영입하려 했지. 금주를 위협하는 잔상류에 맞서 싸울 것인지 물었거든",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "영위",
+          "PlotLineKey": "나는 잔상류가 비명 이상처럼 교류할 수도 없고 막을 수도 없는 자연재해라고 생각해. 잔상류에 맞서 싸우다니! 사람이 어떻게 자연재해의 상대가 되겠어?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "영위",
+          "PlotLineKey": "하지만 난 결국 그의 제안을 받아들였네. 밖에서 굶어 죽는 것보다 금주를 지키다 명예롭게 죽는 게 더 값져 보였거든",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "영위",
+          "PlotLineKey": "자, 자네도 여기까지 들었으니 내 대답이 뭔지 알았을 테지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "영위",
+          "PlotLineKey": "자네가 궁금한 걸 내가 어떻게 알았는지 묻지 말게. 잔소리꾼 기염은 휴가를 줄 때마다 나이 지긋한 노병들에게 늘 똑같은 질문을 던지거든",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "영위",
+          "PlotLineKey": "올해의 대답 역시 똑같다네—— 필요 없네! 난 도움 따위 전혀 필요 없어. 쓰러뜨릴 잔상이 있고, 내 주먹을 써 줄 일이 있으면 그걸로 충분하다네",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1403,
+              "PlotLineKey": "기염 장군에게 대답을 전해 드릴게요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "영위",
+          "PlotLineKey": "그래, 가보게나. 참, 가는 김에 이걸 가져다주게나",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "영위",
+          "PlotLineKey": "다들 휴가를 가도 기염은 쉬지 않지. 바빠지기 시작하면 끼니를 거르기 일쑤고",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "영위",
+          "PlotLineKey": "이건 나를 비롯해 휴가 나온 전우들이 사냥한 야생 고기와 채소로 만든 찜 요리라네. 이걸 가져다주게나",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1404,
+              "PlotLineKey": "먹음직스러운데요...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "영위",
+          "PlotLineKey": "함부로 넘보지 말라고! 뭐, 됐네. 다 먹어 치우는 게 아니라면 몰래 맛보는 것 정도야 괜찮겠지",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "기염",
+          "PlotLineKey": "내 추측대로... 잔상은 현재 북락 광야 주변에서만 활동하고 있으니 전초 기지의 위치를 변경해야 할 것 같다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "기염",
+          "PlotLineKey": "북락 광야 변경에 새로운 관측소를 설치한다. 잔상류가 다시 생겨날 때 사전 경보를 울리면 전투 준비 시간을 조금이라도 더 확보할 수 있을 테니까",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "전령병",
+          "PlotLineKey": "알겠습니다!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "전령병이 경례한 뒤 잽싸게 자리를 떠났다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "기염",
+          "PlotLineKey": "{PlayerName}, 여긴 어쩐 일이지? 지금은... 도원향에 있어야 할 텐데?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1243,
+              "PlotLineKey": "말씀해 주신 병사들을 만나고 오는 길에 잠시 들렀어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "기염",
+          "PlotLineKey": "...알겠군. 영위를 비롯한 노병들이겠지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "기염",
+          "PlotLineKey": "전선에서 오랫동안 싸운 터라 가장 휴식이 필요한 사람들이야. 강제로 휴가 명령을 내렸는데도 부대에서 멀리 떨어지지 않으려 하더군",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1244,
+              "PlotLineKey": "그분들에게 이곳이 바로 집이니까요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1245,
+              "PlotLineKey": "어떤 심정인지 알 수 있어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "기염",
+          "PlotLineKey": "그런가? {PlayerName} 자네에게 많은 이야기를 들려줬나 보군",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1246,
+              "PlotLineKey": "그분들이 당신을 위해서 선물을 준비했어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "기염",
+          "PlotLineKey": "선물이라니? 혹시...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "가져온 찜 요리를 기염 앞에 내려놨다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "기염",
+          "PlotLineKey": "아, 알겠네. 이건 영위가 전해 주라고 부탁한 거겠지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "기염",
+          "PlotLineKey": "내가 자신을 영입하려던 이야기를 들려주던가? 전부 다 이야기했을 것 같진 않지만",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1247,
+              "PlotLineKey": "자세히 들려주세요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1248,
+              "PlotLineKey": "이야기 듣는 거 좋아해요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "기염",
+          "PlotLineKey": "그때의 난 장군 자리에 오르기 전이라서 변방에서 임무 수행하는 중이었어. 야귀군 후방부대로 복귀하려고 했을 땐 이미 한밤중이었지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "기염",
+          "PlotLineKey": "노숙하다가 허기가 져서 이것저것 적당히 넣고 쪘는데 바로 그때 영위를 만났지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "기염",
+          "PlotLineKey": "그는 자신의 고향이 비명 이상으로 파괴되었고 혼자서 어디로 가야 할지 모르겠다고 말했지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "기염",
+          "PlotLineKey": "그와 찜 요리를 나눠 먹으며 그가 고향을 떠난 후 일어난 일들을 들었지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "기염",
+          "PlotLineKey": "그의 눈에는 혼란과 절망으로 가득 차 있었지. 그는 살아가고 싶었지만, 살아갈 동력을 찾지 못했지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "기염",
+          "PlotLineKey": "그 후의 일은 너도 알겠지만, 나는 그를 야귀군으로 영입했지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "기염",
+          "PlotLineKey": "그 뒤로 휴가를 나갈 때마다 항상 그때 만든 찜 요리를 흉내 내서 내게 보내더군. 아마 그때 밥 한 끼의 신세를 갚으려고 하는 것 같네만?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "기염",
+          "PlotLineKey": "...아니, 어쩌면 그저 자신의 요리 실력을 자랑하고 싶은 걸지도 모르겠군. 솔직히 나보단 요리 실력이 좋거든",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1249,
+              "PlotLineKey": "흥미로운 이야기였어요. 그런데 요리가 식을 것 같은데...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "기염",
+          "PlotLineKey": "...아, 그렇겠군",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "기염",
+          "PlotLineKey": "{PlayerName}도 같이 들지? 먼 곳까지 다녀오느라 분명 배가 고플 테니",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1250,
+              "PlotLineKey": "확실히 좀...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1251,
+              "PlotLineKey": "그럼 잘 먹겠습니다!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

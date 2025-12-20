@@ -1,0 +1,1084 @@
+{
+  "Id": 936850001,
+  "Name": "Rastro bélico",
+  "Description": "Hasta las nubes del cielo guardan los gritos de guerra, las vastas llanuras conservan la determinación de los guerreros, y los ríos embravecidos llevan consigo la sangre de los valientes. Aquí, la naturaleza misma es testigo de una historia gloriosa, pero son las altas murallas, las torres y las fortalezas, construidas por el pueblo de Septimont, las que mejor reflejan su espíritu indomable y su corazón de guerreros.\nEn el puerto te cruzaste con un padre y una hija discutiendo… Quién iba a decir que ese encuentro casual marcaría el inicio de tu viaje para desentrañar la historia de Septimont.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 936850001,
+  "ShowQuestList": [],
+  "QuestDesc": "Hasta las nubes del cielo guardan los gritos de guerra, las vastas llanuras conservan la determinación de los guerreros, y los ríos embravecidos llevan consigo la sangre de los valientes. Aquí, la naturaleza misma es testigo de una historia gloriosa, pero son las altas murallas, las torres y las fortalezas, construidas por el pueblo de Septimont, las que mejor reflejan su espíritu indomable y su corazón de guerreros.\nEn el puerto te cruzaste con un padre y una hija discutiendo… Quién iba a decir que ese encuentro casual marcaría el inicio de tu viaje para desentrañar la historia de Septimont.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100021,
+      "PreQuestName": "Sombra de la gloria"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 11900018,
+      "PreQuestName": "Escama del Pasado"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "¿?",
+          "PlotLineKey": "Tú eres... ¡{PlayerName}, {Male=el gladiador;Female=la gladiadora} que ganó el campeonato junto con la contendiente Lupa!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 238,
+              "PlotLineKey": "Efectivamente, soy yo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 239,
+              "PlotLineKey": "¿Por qué discutís?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Me llamo Nicus. Perdona mi osadía, pero has llegado en el momento perfecto.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Como {Male=campeón;Female=campeona}, debes saber lo que significa ser gladiador en Septimont. Espero que logres persuadirla.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Yo también fui gladiador y esperaba que, una vez que me retirara, mi hija Postumia me tomara el relevo, pero siempre...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Postumia",
+          "PlotLineKey": "¡No quiero ser gladiadora! ¡No tiene sentido hablar de ello!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Postumia le saca la lengua a su padre, echa a correr y desaparece entre la multitud.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Mis disculpas, debo parecer un necio. Siempre que saco este tema con ella, acabamos peleando.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Pero, como he dicho antes, quizás tú puedas disuadirla. El título de {Male=campeón;Female=campeona} significa mucho para los septimontinos, y creo que también significa mucho para Postumia.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Cada vez que discutimos, se marcha hecha una furia a la <span style=\"color:#ffd12f;\" class=\"font-bold\">Llanura Huesotitán</span> a enfurruñarse. Te enviaré las coordenadas.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 240,
+              "PlotLineKey": "¿No vas a ir a buscarla?",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 241,
+              "PlotLineKey": "¿Te preocupa que le pase algo?",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Admito que suelo sacar el tema de los gladiadores con Postumia, así que no es raro que se marche enfadada.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Podría ir a buscarla, pero eso tan solo lo empeoraría todo. Debo darle tiempo para que se calme.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 12,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Aunque Postumia no quiere ser gladiadora, es indudable que tiene habilidades para serlo. Ese hecho hace que me duela aún más su decisión.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Si se comprometiera realmente y entrenara para ser gladiadora, el resultado sería espectacular.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 14,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Mi compensación puede que sea insignificante para {Male=el campeón;Female=la campeona}, pero haré lo que pueda para compensar tu esfuerzo. Tan solo espero que Postumia vuelva al camino correcto.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 242,
+              "PlotLineKey": "¿Y si insiste en que no quiere ser gladiadora?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Pues probaré otros métodos. Rezo para que algún día abra los ojos y acepte el honor de ser gladiadora.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 243,
+              "PlotLineKey": "No pienso obligarla.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 244,
+              "PlotLineKey": "Quiero oír también su versión de la historia.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Entendido. Le digas lo que le digas, tus palabras dejarán una profunda impresión en ella. Al fin y al cabo, tú eres {Male=el campeón;Female=la campeona} de Septimont.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Ah, eres tú... Lo siento, perdí un poco los nervios.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Espero que lo entiendas. Aunque yo no quiero ser gladiadora, siempre he respetado a quien sí lo es, sobre todo a {Male=los gladiadores campeones;Female=las gladiadoras campeonas} como tú.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Deja que vuelva a presentarme: me llamo Postumia, ¡y me convertiré en la historiadora oficial de Septimont!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 192,
+              "PlotLineKey": "¿La historiadora oficial?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 193,
+              "PlotLineKey": "Entonces, ¿no quieres ser gladiadora?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Exacto. Quiero registrar los anales de la historia de Septimont y transmitirlos a las futuras generaciones.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Mi padre te ha pedido que vengas, ¿verdad? Siento que te haya metido en este asunto.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Mira, al principio, pensé que podía seguirle el rollo con el entrenamiento y que, más adelante, ya le diría que no me gustan sus planes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Pero entonces me echó aún más sesiones de entrenamiento encima y se le metió en la cabeza que la senda del gladiador es la única para mí.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 194,
+              "PlotLineKey": "Porque tienes talento natural.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Sí, ya lo sé. Como te he dicho antes, tengo mucho respeto por los gladiadores, pero yo no quiero serlo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Postumia",
+          "PlotLineKey": "De niña, me cautivaba la historia turbulenta de Septimont. Quería que todos los visitantes conocieran aquella época tan sangrienta pero tan gloriosa. ¡Es la que encarna el espíritu inquebrantable de nuestro pueblo!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Ojalá mi padre pudiera entenderlo...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Un momento, ¡a lo mejor puede! Si logro recopilar todas las vistas históricas de Septimont en un libro y mostrárselo a mi padre, ¡seguro que lo entenderá!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Fíjate dónde estamos ahora. Los primeros septimontinos arribaron aquí, a la <span style=\"color:#ffd12f;\" class=\"font-bold\">Llanura Huesotitán</span>.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Aquí se alzan grandes pilares de piedra. Afloramientos rocosos salpican el terreno. Nuestros ancestros se sintieron perfectamente cómodos y en sintonía con este territorio escabroso.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Por eso vengo aquí cuando me enfado, para observar esta tierra y canalizar la alegría que debieron de sentir nuestros ancestros cuando pudieron poner fin a su viaje y asentarse aquí. En momentos así, siento como si el pasado me estuviera dando ánimos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Postumia",
+          "PlotLineKey": "¿Qué me dices? ¿Me ayudarás a tomar fotos para que pueda terminar el libro? Al fin y al cabo, tú eres {Male=nuestro campeón;Female=nuestra campeona}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Je, de tal palo, tal astilla...)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Postumia",
+          "PlotLineKey": "«La marea infame nubla las cumbres y el gran dragón, pálido y marchito, gime con pesar al cubrir la tierra». Esa frase la leí en un libro que escribieron nuestros ancestros. Narra el descubrimiento de la Cripta del Dragón de Ceniza.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Postumia",
+          "PlotLineKey": "{Male=Campeón;Female=Campeona}, a los septimontinos nos gusta hablar de fuerza y de esfuerzo porque son conceptos que han dado forma a nuestra historia hasta los tiempos modernos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Postumia",
+          "PlotLineKey": "El dragón que tenemos delante, una vez, vivió en las montañas fronterizas. Sus alas desplegadas cubrían el cielo y su rugido era tan potente que hacía templar la isla entera. Nunca nadie cuestionó su fuerza.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Pero entonces, la Marea Oscura pasó sobre él y lo único que queda es una trágica Disonancia Tácita.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 259,
+              "PlotLineKey": "Septimont no compartirá su destino.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Postumia",
+          "PlotLineKey": "¡Pues claro que no! Incluso cuando la Marea Oscura trató de engullir Septimont, sus olas rompieron frente a las imponentes e inamovibles montañas fronterizas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Las montañas detuvieron la Marea Oscura, pero esta erosionó el terreno hasta darle esa forma pálida y espantosa. Así fue como el fuego de Septimont se salvó.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Postumia",
+          "PlotLineKey": "{Male=Campeón;Female=Campeona}, ¿lo sientes? En momentos de crisis, los septimontinos no serán los únicos que lucharán para proteger esta tierra, sino que la misma tierra se alzará para hacer frente a la amenaza.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 260,
+              "PlotLineKey": "Eso es lo que hace Septimont tan especial.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Je, je... Recibir un cumplido de {Male=un campeón venido;Female=una campeona venida} de tierras lejanas hace que me sonroje.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Construimos el Valle de la Gloria para honrar a los héroes que cayeron frente a la Marea Oscura. Y tampoco olvidaremos los grandes dragones que sucumbieron a la oscuridad.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Este mundo lo compartimos con los dragones. Debemos recordar que, antaño, tuvieron un poder digno de respeto. Su caída debería servirnos de advertencia.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Dejemos el tema por ahora. Quiero capturar el sacrificio de las montañas fronterizas en esta foto.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Postumia",
+          "PlotLineKey": "{Male=Campeón;Female=Campeona}, ahora... nos dirigiremos al <span style=\"color:#ffd12f;\" class=\"font-bold\">Valle de Luto</span>. Es un lugar algo peligroso, ¡pero seguro que nos apañaremos!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Cuando era pequeña, mi padre me trajo aquí para que viera esta estatua gigante. Me contó lo fuerte que fue este «Rey de los Héroes» y las batallas épicas en las que luchó.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Quizás quería motivarme para que entrenara más, pero yo tenía otras ideas en mente.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Los libros hablan de que Fabius, el Rey de los Héroes, luchó junto con el Centinela Imperator para contener la Marea Oscura. Los pasajes son profundamente conmovedores. Esta estatua encarna a la perfección las grandes hazañas de Fabius.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Sí, preservar la historia es garantizar que las generaciones futuras siempre lo recuerden. Fabius fue un guerrero increíblemente valiente y yo...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Slovik",
+          "PlotLineKey": "Esta muchacha también es una gladiadora formidable, ¿a que sí? ¡Hola, soy Slovik! Estaba asignado en Costa Negra, pero hace poco me mandaron al observatorio de la Marea Oscura, en las montañas fronterizas.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 541,
+              "PlotLineKey": "Casi se me había olvidado que tú también estabas aquí.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 542,
+              "PlotLineKey": "¿Y has venido hasta aquí para escaquearte?",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Slovik",
+          "PlotLineKey": "Me parecía grosero interrumpir mientras la joven estaba sumida en un momento de contemplación.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Slovik",
+          "PlotLineKey": "A mí también me gusta aprender sobre historia y adoro la cultura septimontina, así que me alegré muchísimo cuando me dijeron que me iban a mandar aquí.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 8,
+          "Speaker": "Slovik",
+          "PlotLineKey": "Je, je, tan solo intento gozar de un poco de tiempo libre, ¿sabes? Adoro la cultura septimontina, así que me alegré muchísimo cuando me dijeron que me iban a mandar aquí.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Slovik",
+          "PlotLineKey": "Me gusta darme una vuelta siempre que puedo. Y quiero ir a un enfrentamiento de gladiadores cuando llegue el siguiente día festivo.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 10,
+          "Speaker": "Slovik",
+          "PlotLineKey": "Mi amor por Septimont no ha hecho más que crecer con el tiempo, sobre todo desde que la investigación en el observatorio avanza sin problemas. Y, al mismo tiempo, me he dado cuenta de lo aterradora que es la Marea Oscura.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Slovik",
+          "PlotLineKey": "Por eso admiro tanto que Septimont se enfrente a ella cara a cara. Y también admiro, por supuesto, a los muchos gladiadores de presencia imponente que moran en la ciudad, como Postumia.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Slovik",
+          "PlotLineKey": "Nosotros intentamos apoyaros tanto como podemos redoblando nuestros esfuerzos en las investigaciones para entender la Marea Oscura.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Pero si yo... Sí, yo también me esforzaré al máximo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Bueno, {Male=campeón;Female=campeona}, retrata a Fabius, el Rey de los Héroes que vela eternamente por la tierra de Septimont.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Después, te llevaré al mismísimo corazón de Septimont: la <span style=\"color:#ffd12f;\" class=\"font-bold\">colina Capitolina</span>.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Postumia",
+          "PlotLineKey": "¿{Male=Listo;Female=Lista} para cruzar las tierras salvajes conmigo en nuestro viaje hacia la <span style=\"color:#ffd12f;\" class=\"font-bold\">colina Capitolina</span>?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 376,
+              "PlotLineKey": "Sí, en marcha.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 377,
+              "PlotLineKey": "Necesito tiempo para prepararme.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Postumia",
+          "PlotLineKey": "¡De acuerdo! ¡El verdor de la <span style=\"color:#ffd12f;\" class=\"font-bold\">colina Capitolina</span> nos aguarda!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Postumia",
+          "PlotLineKey": "¡Ningún problema! Nos encontraremos allí cuando estés lista.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Postumia",
+          "PlotLineKey": "«Ciudad de Septimont», «colina Capitolina», «Fortaleza del Grifo»... Este lugar tiene muchos nombres, igual que encarna las muchas cualidades de los septimontinos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Los forasteros que no entienden Septimont nos ven como orgullosos y abrumadores, la misma impresión que causa el perfil de la ciudad desde lejos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Pero, cuando nos conocen, ven que nuestra pasión arde como el sol y que nuestro honor brilla de igual modo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Postumia",
+          "PlotLineKey": "No importa de qué lugar de Solaris sea alguien: siempre será bien recibido en el próspero y vibrante corazón de Septimont.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 565,
+              "PlotLineKey": "Conozco la hospitalidad de la ciudad.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 566,
+              "PlotLineKey": "Lo sé, yo ya soy {Male=un septimontino;Female=una septimontina}.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Postumia",
+          "PlotLineKey": "¿Que «conoces la hospitalidad de la ciudad?» ¡Pero si eres {Male=nuestro campeón;Female=nuestra campeona}! ¡Eres {Male=septimontino;Female=septimontina}!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Sin duda. ¡El campeón es el septimontino que representa nuestros valores!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Todos hemos vivido los tiempos duros de Septimont y, ahora, este bastión magnífico se alza como prueba de nuestro futuro glorioso.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Un futuro que puedo registrar y que, con el tiempo, se convertirá en el pasado sobre el que leerán nuestros descendientes. Esa es mi labor como historiadora.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Pero... ¿será suficiente? Si una crisis amenazara el futuro de Septimont, la ciudad necesitaría más guerreros.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Y si eso ocurriera..., ¿estaría desperdiciando mi talento, tal y como dice mi padre? Si llegara ese momento, ¿lo único que me quedaría sería el arrepentimiento?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 567,
+              "PlotLineKey": "No tienes por qué cargar con ese peso.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 568,
+              "PlotLineKey": "Lo importante es que sigas tu corazón.",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Gracias por tus palabras de consuelo, {Male=campeón;Female=campeona}, pero mi padre...",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 12,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Gracias por consolarme, {Male=campeón;Female=campeona}, pero estoy perdida. ¿Debería ser gladiadora o historiadora? Ya no sé...",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "Postumia",
+          "PlotLineKey": "¿Eh? {Male=Campeón;Female=Campeona}, ¿has oído un ruido raro?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 569,
+              "PlotLineKey": "Sí, sonaba a orejas grandes aleteando.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 570,
+              "PlotLineKey": "Qué buen oído tienes.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Tal y como se espera {Male=del campeón;Female=de la campeona}, ¡no se te ha escapado ese ruido!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Un gladiador debe mantener siempre los ojos bien abiertos y los oídos bien atentos, sobre todo cuando se trata de los ecos. Ese ruido parecía un aleteo, ¿verdad?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Este ta-da seguramente se ha perdido. Deben de gustarle los lugares ruidosos; si no hay nadie a su alrededor, se asusta. Vamos a buscarlo.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Hola, {Male=campeón;Female=campeona}. Te agradezco mucho que te hayas tomado la molestia de acompañar a Postumia por todo Septimont.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 476,
+              "PlotLineKey": "Oh, ¡la forma en la que hemos sobrevolado esta tierra!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 477,
+              "PlotLineKey": "Ha sido un viaje de conocimiento de lo más fructífero.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Sea como sea, debo darte las gracias, sobre todo por las fotografías que has capturado y por las historias que Postumia ha compartido. Nunca había sabido apreciar la riqueza de la historia de Septimont.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Todo septimontino sabe lo que aconteció en aquellos años tan duros, pero lo que Postumia dijo sobre registrar nuestro futuro para que se convierta en el pasado sobre el que leerán nuestros descendientes... Eso me conmovió.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Sus talentos van más allá de ser gladiadora. Si ser historiadora es lo que la hace feliz, entonces debo apoyarla.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Pero... Padre, yo ahora entiendo que ser gladiador encarna el espíritu guerrero de Septimont.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Postumia",
+          "PlotLineKey": "A lo largo del camino, me he dado cuenta de la pasión que sienten los septimontinos por sus gladiadores. No puedo abandonar sin más ese camino.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Nicus",
+          "PlotLineKey": "{Male=Campeón;Female=Campeona}, gracias a ti, soy un hombre nuevo y Postumia es una mujer nueva. ¿Crees que debería ser gladiadora o historiadora?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 478,
+              "PlotLineKey": "Un gladiador es libre de hacer lo que quiera.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 479,
+              "PlotLineKey": "Ser gladiador es un compromiso importante.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Postumia",
+          "PlotLineKey": "¿Libre?... Tienes razón, {Male=campeón;Female=campeona}, ¡un gladiador tiene libertad de elección!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Entonces, ¿debería ser gladiadora?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Ah, ya lo entiendo. Me estás diciendo que ser gladiadora no es un todo o nada, ¿verdad?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "Postumia",
+          "PlotLineKey": "¡Puedo ser gladiadora y mucho más!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Postumia",
+          "PlotLineKey": "¡Puedo ser una gladiadora-historiadora!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Postumia..., ¿significa eso que seguirás con tu entrenamiento de gladiadora?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Sí, si puedo hacer ambas cosas bien, ¿por qué abandonar una?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Puede que el camino sea arduo, pero los septimontinos nos enfrentamos cara a cara a los desafíos. Así somos, ¿verdad, {Male=campeón;Female=campeona}?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 480,
+              "PlotLineKey": "¡Efectivamente, guerrera erudita!",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 481,
+              "PlotLineKey": "Ya eres una gladiadora excelente.",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Je, je, ¡tienes razón, {Male=campeón;Female=campeona}! Quizás hasta llegue a convertirme en la comidilla de Septimont. Si algún día entro en la arena, ¡espero que me animes!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 17,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Guau, si me lo dices así, ¡me henchiré tanto de orgullo que explotaré! ¡Más vale que me animes si algún día entro en la arena!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 18,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Pase lo que pase, {Male=campeón;Female=campeona}, tienes toda mi gratitud.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Gracias por acompañarme a todos los lugares que quería visitar, y también por ayudarme a encontrar el camino a seguir.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Vayamos a tomar la última foto del coliseo. Que la gloria que reverbera en sus muros te acompañe siempre.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "¿?",
+          "PlotLineKey": "Oh, no...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Postumia",
+          "PlotLineKey": "¡Aguanta! ¡Ya vamos!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Gracias por todo tu esfuerzo, {Male=campeón;Female=campeona}.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 608,
+              "PlotLineKey": "Sabía que nos estabas siguiendo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Es difícil ocultarle algo {Male=al campeón;Female=a la campeona}, pero estaba tan preocupado por mi hija que tuve que salir a buscarla. Lamento que te haya llevado de aquí para allá con su curso de historia.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Nicus",
+          "PlotLineKey": "De todos modos, ahora que has visto a Postumia en acción, debes admitir que sería un desperdicio que no entrara en la arena.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Lo mejor para una joven como ella, alguien con tanto amor por Septimont, es dejar su huella en la historia como gladiadora.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 609,
+              "PlotLineKey": "Postumia no solo me llevó a mí por todo Septimont.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 610,
+              "PlotLineKey": "¿No has prestado ninguna atención a sus sentimientos?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Nicus",
+          "PlotLineKey": "¿Que no solo te llevó a ti? ¿Quieres decir... que Postumia sabía que la estaba siguiendo?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Ya sabía que quiere dedicarse a la historia... Un momento, ¿Postumia sabía que la estaba siguiendo?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 611,
+              "PlotLineKey": "Las crónicas que contó fueron para ti.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Nicus",
+          "PlotLineKey": "¿Las crónicas... sobre la historia de Septimont?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Mmm... Ya veo. {Male=Campeón;Female=Campeona}, ¿puedo continuar siguiendo a Postumia? Y, por favor, no le digas que hemos hablado.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Nicus",
+          "PlotLineKey": "Necesito tiempo para pensar y me gustaría terminar su viaje contigo.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Postumia",
+          "PlotLineKey": "Para llegar a la <span style=\"color:#ffd12f;\" class=\"font-bold\">Estatua de Fabius el Héroe</span>, antes debemos cruzar este mar. No será un viaje corto, así que pongámonos en marcha.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 615,
+              "PlotLineKey": "Sí, vamos.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 616,
+              "PlotLineKey": "Necesito tiempo para prepararme.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

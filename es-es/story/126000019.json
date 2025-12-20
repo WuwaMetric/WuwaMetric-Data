@@ -1,0 +1,335 @@
+{
+  "Id": 126000019,
+  "Name": "Escuchar las palabras de los animales: Traducción del lenguaje de los gatos",
+  "Description": "Una investigadora extraña está intentando hablar con gatos a través de una función especial de su Terminal...",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 126000019,
+  "ShowQuestList": [],
+  "QuestDesc": "Una investigadora extraña está intentando hablar con gatos a través de una función especial de su Terminal...",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100005,
+      "PreQuestName": "Verdad eterna"
+    },
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 8
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "¿?",
+          "PlotLineKey": "Tranquilo, gatito. Tu pelaje es tan escaso. ¿Eres de una raza exótica?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gatito pelón",
+          "PlotLineKey": "¡Miau! ¡¡MIAU!!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "¿?",
+          "PlotLineKey": "¡Oye! ¿Cómo puedes regañarme si ni siquiera me dejas acariciarte? Puedo decir que estás hablando mal de mí, ¡gatito travieso!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "¿?",
+          "PlotLineKey": "Déjame usar un traductor para ver qué estás diciendo... Vaya, el programa se ha bloqueado de nuevo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "¿?",
+          "PlotLineKey": "A pesar de que ya lo he optimizado... Parece que la Terminal todavía no puede interpretar estos datos. Es un problema de hardware.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 71,
+              "PlotLineKey": "¿Estás hablando con un gato?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "¿Quién? Eso da miedo. ¡Al menos podrías decir algo antes de aparecer!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "\"Algo.\"",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "...Bueno, olvídalo. ¿Eres esa... esa persona famosa? La gente ha estado hablando de ti últimamente.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 73,
+              "PlotLineKey": "La primera luz aquí para salvar el mundo después del Lamento.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 74,
+              "PlotLineKey": "{PlayerName}.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Jajaja, eres mucho más {Male=humorístico;Female=humorística} de lo que esperaba.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "¡Lo sabía!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 10,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Soy Xuanyin, una científica civil. Mi invención patentada es el Módulo de Traducción de Lenguaje Animal, aunque todavía es un prototipo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "El lenguaje animal es esencialmente frecuencia, y todas las frecuencias son datos que pueden interpretarse. Mi Módulo de Traducción de Lenguaje Animal está tomando forma, y he obtenido información inesperada en los experimentos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Debes estar {Male=interesado;Female=interesada} en este gatito, por eso entablaste una conversación conmigo, ¿verdad? ¡Qué suerte! Hoy traje un Módulo de Traducción de Lenguaje de Gato.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 75,
+              "PlotLineKey": "Solo estoy de paso.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 76,
+              "PlotLineKey": "Sí.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "¡No, por favor espera! ¡Déjame terminar esto!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "¡Felicidades! ¡Llegaste en el momento perfecto!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Escuché que tu Terminal Pangu es bastante especial, así que quiero ver si mi módulo también puede funcionar en ella. ¿Puedes dejarme intentar? ¡Por favor! ¡Definitivamente te incluiré en los agradecimientos de mi artículo!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 77,
+              "PlotLineKey": "¿Causará algún daño a mi Terminal?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 78,
+              "PlotLineKey": "¿Es confiable?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "¡Por favor, dame una oportunidad!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Xuanyin cargó el Módulo de Traducción de Lenguaje de Gato en tu Terminal Pangu.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Gatito pelón (Traducción)",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Gatito pelón",
+          "PlotLineKey": "Purr…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "¡No necesito una traducción para esto! ¡Sé lo que significa! Es contenido y nos está agradeciendo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Gatito pelón (Traducción)",
+          "PlotLineKey": "¡SREVNAT! ¡FSHI! ¡LVEO! *texto ininteligible*",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "¡Uh-oh! El módulo está empezando a lanzar errores. Parece que la compatibilidad sigue siendo un problema. De todos modos, vamos a desinstalarlo por ahora. Me sorprende bastante que haya funcionado sin problemas durante tanto tiempo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Xuanyin desinstaló el Módulo de Traducción de Lenguaje de Gato de tu Terminal Pangu y transmitió los datos relacionados.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "La lógica de mi módulo sigue siendo sencilla. Mi comprensión de la Tecnología Terminal no es rival para los investigadores oficialmente entrenados.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 90,
+              "PlotLineKey": "No interfiere con mi comprensión.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 91,
+              "PlotLineKey": "Ahora sabes cómo mejorarlo.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Gracias. Me costó un gran esfuerzo desarrollar un módulo como este.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Tienes razón. Lo más importante para un científico es el ensayo y el error. ¡El gran éxito se construye sobre el fracaso!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 10,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Gracias por ayudarme a recopilar estos datos. Los analizaré a fondo e intentaré encontrar una manera de mejorar el módulo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Hagámoslo de nuevo alguna vez. Aceleraré el desarrollo de módulos de traducción para otros animales, y seguramente te sorprenderán, ¡jeje!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

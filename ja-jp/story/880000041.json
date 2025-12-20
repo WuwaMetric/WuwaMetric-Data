@@ -1,0 +1,295 @@
+{
+  "Id": 880000041,
+  "Name": "魚スティックの時間",
+  "Description": "さあ、海へ魚スティックを調達しに行こう！",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000041,
+  "ShowQuestList": [],
+  "QuestDesc": "さあ、海へ魚スティックを調達しに行こう！",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "老人と魚と海"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "マルコ",
+          "PlotLineKey": "{PlayerName}、見て、この子はジュリアン！いつも船着き場に現れるいい子なんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "マルコ",
+          "PlotLineKey": "魚スティックを持って「猫生」について語り合うと、いつも「ニャーニャー」って鳴いてくれるんだよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ジュリアン",
+          "PlotLineKey": "ニャーニャー！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "{Male=“猫生”設計を考えてるのか？;Female=“猫生”設計を考えてるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 55,
+              "PlotLineKey": "{Male=どうしていつも鳴いてるんだ？;Female=どうしていつも鳴いてるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "マルコ",
+          "PlotLineKey": "きっとネズミも魚も虫も捕まえられる、できる猫になりたがっているんだ。そうだろ、ジュリアン？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ジュリアン",
+          "PlotLineKey": "ニャー……ニャー！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "同意してるみたい。",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "反対してるみたい。",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "マルコ",
+          "PlotLineKey": "当たり前だろ！この子がそんな猫になったら、食べ切れないほどの魚スティックが食べられるようになるからな！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "マルコ",
+          "PlotLineKey": "まさか……この子はそんな猫になりたがっているに違いないんだ。だって、食べ切れないほどの魚スティックが食べられるようになるから！",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "「魚スティック」という言葉を聞いた途端、ジュリアンが急に激しく鳴き始めた。なるほど、それがジュリアンの猫生設計というわけか。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "この子はただあなたに魚スティックをおねだりしたいだけ。",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "この子はただ船着き場に行って魚スティックを手に入れたいだけ。",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 60,
+              "PlotLineKey": "この子はただ魚スティックにひれ伏してほしいだけ。",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "マルコ",
+          "PlotLineKey": "何だって！？てっきり俺をいい人だと思って懐いてたのかと……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 10,
+          "Speaker": "マルコ",
+          "PlotLineKey": "そんな！猫生設計の最終目標が魚スティックだなんて……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "マルコ",
+          "PlotLineKey": "なるほど、魚スティックの臣下を持つことは、猫にとって誇りだからね……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "マルコ",
+          "PlotLineKey": "ジュリアン、なあジュリアン、君は本当に魚スティックが欲しいだけなのかい？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ジュリアン",
+          "PlotLineKey": "ニャーニャー！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 61,
+              "PlotLineKey": "魚スティックをあげてみたら？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "マルコ",
+          "PlotLineKey": "そうだな……でも、今日は一日中釣りをしてたんだが、一匹も釣れなかったんだ！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 62,
+              "PlotLineKey": "魚なら持ってる。",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 63,
+              "PlotLineKey": "魚は持ってない。",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "マルコ",
+          "PlotLineKey": "本当？じゃあ、俺に……いや、ジュリアンに一尾あげてやってもらっていいかな？",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 16,
+          "Speaker": "マルコ",
+          "PlotLineKey": "そうか……じゃあ、いつか魚を手に入れたら、ジュリアンに一尾あげてやってもらっていいかな？",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "マルコ",
+          "PlotLineKey": "ジュリアンなら、ちゃんとお金を払ってくれるからさ！代わりに俺が、だけど……",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "マルコ",
+          "PlotLineKey": "どう？魚スティックを持ってきたのか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "これあげる。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "マルコ",
+          "PlotLineKey": "ありがとう、さっそく試してみるよ！ジュリアン、ほら、君が大好きな魚スティックだよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ジュリアン",
+          "PlotLineKey": "ニャー！！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "ジュリアンは嬉しそうに魚スティックを受け取り、あっという間に平らげた。その後、ジュリアンは感謝の気持ちを表すかのように手に摺り寄せてきた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "マルコ",
+          "PlotLineKey": "おお、これは……すごく美味しそうに食べてるな！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 73,
+              "PlotLineKey": "{Male=魚スティックだもんな。;Female=魚スティックだもんね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 74,
+              "PlotLineKey": "{Male=猫の誇りだもんな。;Female=猫の誇りだもんね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "マルコ",
+          "PlotLineKey": "そうか、そうか！ありがとう、君のおかげでジュリアンの猫生設計が分かったよ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "マルコ",
+          "PlotLineKey": "ありがとう。これが報酬だ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ジュリアン",
+          "PlotLineKey": "ニャーニャー！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

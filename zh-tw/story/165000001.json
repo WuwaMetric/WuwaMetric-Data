@@ -1,0 +1,442 @@
+{
+  "Id": 165000001,
+  "Name": "水手的遺藏",
+  "Description": "不是所有在大海上留下寶藏的都是海盜，也有可能只是一位普通的水手……或者船長。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 165000001,
+  "ShowQuestList": [],
+  "QuestDesc": "不是所有在大海上留下寶藏的都是海盜，也有可能只是一位普通的水手……或者船長。",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "老人魚海"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "托列托",
+          "PlotLineKey": "教士？你怎麼又來了？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "菲比",
+          "PlotLineKey": "托列托先生，我們想再了解一些「水手的寶藏」的事情。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "托列托",
+          "PlotLineKey": "修會的人也會這麼在乎寶藏嗎？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "菲比",
+          "PlotLineKey": "呃，不，其實是……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "托列托",
+          "PlotLineKey": "哎呀不用說了！來找寶藏的人那麼多，多你們不多，反正也不會有人找到的。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "說不定我們會找到。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "托列托",
+          "PlotLineKey": "你很有自信嘛，但是千島之國時期那麼遙遠，除了流傳下來的故事，幾乎沒有任何痕跡可以證明傳說的真實性。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "托列托",
+          "PlotLineKey": "沒有實際的線索，人們不過都是亂找一通。群島被尋寶者翻了個底朝天，寶藏仍然沒有出現。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 26,
+              "PlotLineKey": "這個水手還有其他故事嗎？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "托列托",
+          "PlotLineKey": "水手的其他故事？我想想…遊蕩的貢多拉、魚王的主人……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 27,
+              "PlotLineKey": "關於游蕩的貢多拉。",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 28,
+              "PlotLineKey": "關於魚王的主人。",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 29,
+              "PlotLineKey": "我沒什麼想知道的了。",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "托列托",
+          "PlotLineKey": "傳說水手是坐著一艘貢多拉來到這裡的。這條船在他消失後仍一直游蕩在群島之間，等待他的主人歸來。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 10,
+          "Speaker": "托列托",
+          "PlotLineKey": "魚王是大多數人很難捕到的魚。傳說水手曾在這片海域釣到過一條魚王。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "托列托",
+          "PlotLineKey": "自他之後，再沒人釣到過魚王。欸，我跟你說啊，島上至今流傳著一個說法：只有和水手一樣偉大的人才會得到魚王的回應。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 12,
+          "Speaker": "托列托",
+          "PlotLineKey": "好，你也已經知道得夠多的了，儘管去試試看吧，看你們能不能找到寶藏，哈哈哈！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 0,
+          "Speaker": "菲比",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "菲比嘗試與聲骸交流，理解它傳遞給你們的資訊。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "菲比",
+          "PlotLineKey": "它好像真的知道什麼，在很努力地為我們指明方向……我們要去它指向的地點看看嗎？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "走吧，去看看。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "亞哈",
+          "PlotLineKey": "朋友們，又見面了，哎，你們拿著的是什麼東西？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "菲比將你們尋寶的經歷告訴了亞哈，並將箱子裡的話展示給他看。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "亞哈",
+          "PlotLineKey": "也就是說這箱子是那位傳說中的水手留下的？！快讓我看看。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "亞哈",
+          "PlotLineKey": "嗯……箱子裡這句話隱藏在了封層之下，所以才看不清。看我的吧。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "亞哈在周圍找到一種特殊植物，將它揉捏出汁水，抹在了箱子上。很快，箱子裡的那句話變得清晰。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "亞哈",
+          "PlotLineKey": "看，這是我們這裡一種古老的隱藏方式。現在可以看清那句話了。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "亞哈",
+          "PlotLineKey": "「沒有什麼是一蹴而就的，真相需要慢慢拼湊。」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "菲比",
+          "PlotLineKey": "聽起來的意思是……想要找到真正的寶藏，我們還要收集齊其他碎片，拼湊出完整的藏寶圖？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "菲比",
+          "PlotLineKey": "{PlayerName}，看來之後要繼續留意了。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "亞哈",
+          "PlotLineKey": "不知道水手最後留下的會是什麼東西，數不盡的財富？古老的寶物？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "菲比",
+          "PlotLineKey": "說不定是魚王……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "亞哈",
+          "PlotLineKey": "啊？哈哈哈，沒想到教士也會說出這麼有趣的話。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 53,
+              "PlotLineKey": "謝謝，找到寶藏我們會帶給你的。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "亞哈",
+          "PlotLineKey": "好意心領了，不過我對自己的現狀很滿足，沒什麼想要的東西，無論你們找到了什麼，自己留著吧！",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 0,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "菲比",
+          "PlotLineKey": "沒想到真能找到東西……這裡面是……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "看起來像是藏寶圖，但不完整。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "菲比",
+          "PlotLineKey": "箱子裡好像還有句話。唔…看不清楚，好奇怪的字。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 39,
+              "PlotLineKey": "找個可靠的在地人問問吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "菲比",
+          "PlotLineKey": "{PlayerName}，我在這裡聽到了一個有趣的故事，你有興趣聽聽看嗎？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "什麼故事？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "菲比",
+          "PlotLineKey": "這個島上的漁民世代口耳相傳，說在黎那汐塔古老的千島之國時期，黎喬利群島由一位流亡的水手掌控。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "菲比",
+          "PlotLineKey": "這位水手擁有永遠也花不完的財富，但沒人知道他的財富從何而來。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "菲比",
+          "PlotLineKey": "他用流水般的黃金建造了堅固的城池，為這裡的人民帶來了富裕而平和的生活。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "菲比",
+          "PlotLineKey": "正當人們打算為他建造廟宇時，他卻突然消失不見了。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "菲比",
+          "PlotLineKey": "人們說他出海去了，去為自己灰暗的過去復仇。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "菲比",
+          "PlotLineKey": "他將自己最珍貴的寶藏留在了黎喬利群島上，然後獨自走上了復仇的道路，再也沒有回來。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "菲比",
+          "PlotLineKey": "不知道這樣一個人，留下的寶藏會是什麼呢？應該是對他來說很重要的東西吧？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 11,
+              "PlotLineKey": "我們去找找看。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 12,
+              "PlotLineKey": "寶藏一定是在等我！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "菲比",
+          "PlotLineKey": "我就覺得你會感興趣的。不如我們再去問問了解這個傳說的人，說不定能知道些新線索呢。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "亞哈的紀錄",
+          "PlotLineKey": "「想必已經有人找到了那份傳說中的水手留下的寶藏吧。」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "亞哈的紀錄",
+          "PlotLineKey": "「如果看不到的話，就用水草弄點水出來擠在上面。」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "亞哈的紀錄",
+          "PlotLineKey": "「什麼？當然是隨便什麼水草都可以啊，水手哪裡有閒心找什麼專門的水草。」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "亞哈的紀錄",
+          "PlotLineKey": "「沒有什麼是一蹴而就的，真相需要慢慢拼湊。」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "亞哈的紀錄",
+          "PlotLineKey": "「去尋找，然後把那些藏寶圖拼在一起吧，不知道……你們會找到什麼東西呢？」",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1011 @@
+{
+  "Id": 880000031,
+  "Name": "戦いの理由",
+  "Description": "遠い辺境にいる忌炎から通信が来た。何か大事な相談があるようで......\n\nクリア後、新しい「経営仲間」を解放。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000031,
+  "ShowQuestList": [],
+  "QuestDesc": "遠い辺境にいる忌炎から通信が来た。何か大事な相談があるようで......\n\nクリア後、新しい「経営仲間」を解放。",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 5,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100009,
+      "PreQuestName": "千里の猛襲・下"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "忌炎（通信中）",
+          "PlotLineKey": "久しぶりだな、{PlayerName}。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1018,
+              "PlotLineKey": "{Male=忌炎？そっちで何かあったのか？;Female=忌炎？そっちで何かあったの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "忌炎（通信中）",
+          "PlotLineKey": "案ずるな。そうではない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "忌炎（通信中）",
+          "PlotLineKey": "<ano=めいしき>鳴式</ano>の孵化が抑制され、しばらくの間、<ano=ざんぞう>残像</ano> は <ano=こんしゅう>今州</ano>を脅かす規模にまで成長できなくなった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "忌炎（通信中）",
+          "PlotLineKey": "これは全て{PlayerName}のおかげだ、本当に感謝している。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "忌炎（通信中）",
+          "PlotLineKey": "ちょうど今は<ano=げっついさい>月追祭</ano>だ。関外の状況が落ち着いていることも考慮し、長く見張りをしている<ano=よき>夜帰</ano>軍も家族と過ごせるよう、数日暇をやることにした。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "忌炎（通信中）",
+          "PlotLineKey": "万全を期すため、俺は他の兵士を率いて引き続き警護に当たる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "忌炎（通信中）",
+          "PlotLineKey": "しかし、休暇をとる兵士の数名は…家族が<ano=ざんぞうちょう>残像潮</ano>が起こったとき不幸にも命を落としている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "忌炎（通信中）",
+          "PlotLineKey": "俺自身で状況を確認できないが、心配だ。何か手伝いが必要かもしれない。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1019,
+              "PlotLineKey": "{Male=じゃあ俺が様子を見てくるよ。;Female=じゃあ私が様子を見てくるわ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1020,
+              "PlotLineKey": "{Male=俺が手伝って来るよ。;Female=私が手伝ってくるわ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "忌炎（通信中）",
+          "PlotLineKey": "いいのか？では…{PlayerName}、感謝する。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "穏やかな老人",
+          "PlotLineKey": "ほう、{PlayerName}じゃないか。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1007,
+              "PlotLineKey": "あなたも<ano=ぎょすいらく>魚水楽</ano>を？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "穏やかな老人",
+          "PlotLineKey": "<ano=ぎょすいらく>魚水楽</ano>？いやいや……そうか、この露店は<ano=ぎょすいらく>魚水楽</ano>だったか。悪いね、老眼でよく見えなくて。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "穏やかな老人",
+          "PlotLineKey": "だが、私の息子は……共鳴者でね。こういうものが好きかもしれない。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1008,
+              "PlotLineKey": "息子さんって？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "穏やかな老人",
+          "PlotLineKey": "あの子は今<ano=よき>夜帰</ano>軍にいてね。数日休暇をもらったようだから、帰ってきたら、一緒に<ano=よいづきかい>宵月会</ano>を見て回るつもりなんだよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "穏やかな老人",
+          "PlotLineKey": "ふふ、今年の賑やかな<ano=よいづきかい>宵月会</ano>を見たら、きっと喜ぶだろうなぁ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ガクちゃん",
+          "PlotLineKey": "——ゲンブ兄ちゃん！おかえり！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "阿進（アシン）",
+          "PlotLineKey": "——ゲンブ兄ちゃん！おいしいものもってきてくれた？この前わかったって言ったよね！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "彦武（ゲンブ）",
+          "PlotLineKey": "うわ…し、しまった、忘れちまった…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "阿進（アシン）",
+          "PlotLineKey": "ゲンブ兄ちゃんのうそつき！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "彦武（ゲンブ）",
+          "PlotLineKey": "…ハハハ、冗談だよ。<ano=よいづきかい>宵月会</ano> で <ano=しょうろんぽう>小龍包</ano>をもらってきたぞ。熱いうちに食え。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "阿進（アシン）",
+          "PlotLineKey": "わぁ…<ano=しょうろんぽう>小龍包</ano>だ！ゲンブ兄ちゃんありがとう！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ガクちゃん",
+          "PlotLineKey": "ぼ、ぼくも<ano=よいづきかい>宵月会</ano>にいけるかな…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "彦武（ゲンブ）",
+          "PlotLineKey": "もちろんだ。おばさんに言えば行けるさ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ガクちゃん",
+          "PlotLineKey": "やったぁ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "阿進（アシン）",
+          "PlotLineKey": "じゃあぼくも行く！ガクちゃん、おばさんに言ってこよう！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "子供たちは<ano=しょうろんぽう>小龍包</ano>を持って、追いかけあいながら遠ざかって行く。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "彦武（ゲンブ）",
+          "PlotLineKey": "気をつけろ、転ぶなよ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 280,
+              "PlotLineKey": "やあ、<ano=ゲンブ>彦武</ano>。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "彦武（ゲンブ）",
+          "PlotLineKey": "お…{PlayerName}！今度の作戦で、お前を見かけたぞ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "彦武（ゲンブ）",
+          "PlotLineKey": "今日は<ano=よいづきかい>宵月会</ano>に行かないのか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 281,
+              "PlotLineKey": "{Male=ああ。実は…;Female=ええ。実は…}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "<ano=ゲンブ>彦武</ano>に自分が来た理由を説明する。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "彦武（ゲンブ）",
+          "PlotLineKey": "…ハッ、なるほどな。まったく…<ano=キエン>忌炎</ano>将軍もずいぶん周到だな。けどな、俺はちっとも問題ないぜ。将軍が心配し過ぎなだけだろ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "彦武（ゲンブ）",
+          "PlotLineKey": "俺はこの近くの養護施設で育ったんだ。院長のおばさんが、俺たちみたいな親を失くした子どもをよく世話してくれて、俺にはすぐ家族ができたんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "彦武（ゲンブ）",
+          "PlotLineKey": "だから、心配ない。俺はもう家族と団らんしてるだろ？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 282,
+              "PlotLineKey": "あの子たち…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "彦武（ゲンブ）",
+          "PlotLineKey": "あぁ、そうだ。あの子らも孤児院の子だ。休暇の時はいつも会いに帰ってくるんだ。ついでに院長とも話をしたりな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "彦武（ゲンブ）",
+          "PlotLineKey": "前線で<ano=ざんぞう>残像</ano>と戦ってたのも、あいつらを守るためだって考えると、力が満ちてくるんだ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 283,
+              "PlotLineKey": "何か手伝えることはある？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "彦武（ゲンブ）",
+          "PlotLineKey": "手伝い…？ないな。いや、そうだ。孤児院の外壁を塗り直さなきゃいけなかったな…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "彦武（ゲンブ）",
+          "PlotLineKey": "だがこんなことで{PlayerName}に面倒をかけるのもな。1時間あれば俺が終わらせられる！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "彦武（ゲンブ）",
+          "PlotLineKey": "でもありがとうな、{PlayerName}！俺のためにわざわざ来てくれて。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "彦武（ゲンブ）",
+          "PlotLineKey": "よし。じゃあ働いてくるよ。{PlayerName}、また後でな！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "コニー",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1035,
+              "PlotLineKey": "……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "コニー",
+          "PlotLineKey": "…こんにちは、{PlayerName}。あの…ここに眠っている方たちのことを知っていますか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1036,
+              "PlotLineKey": "{Male=いや、お参りに来たんじゃないんだ。;Female=いいえ、お参りに来たんじゃないの。}",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 1037,
+              "PlotLineKey": "{Male=…いや、知らないよ。;Female=いいえ。知らないわ。}",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "コニー",
+          "PlotLineKey": "そうだと思いました。ここに埋葬されている人はほとんど…あなたが<ano=こんしゅう>今州</ano>に来る前に、戦地で亡くなった兵士です。{PlayerName}が知る人はいないでしょう。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "コニー",
+          "PlotLineKey": "ここに埋葬されているのは、皆過去の戦役で戦死した兵士です。彼らは<ano=こんしゅう>今州</ano>を守るため、自分の命を捧げたのです。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "コニーの前にある墓標に文字が書いてある。どうやらコニーと同じ姓のようだ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1038,
+              "PlotLineKey": "これは…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "コニー",
+          "PlotLineKey": "私の兄です。兄は<ano=ふくは>伏波</ano>で従軍していました。兄と戦友たちはある輸送任務で…突然多くの<ano=ざんぞう>残像</ano>に遭遇しました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "コニー",
+          "PlotLineKey": "自身の職務を果たすため、彼らは自らの体で防衛線を張り<ano=ざんぞう>残像</ano>を防ぎ止め、輸送車がその場を離れるのを援護しました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "コニー",
+          "PlotLineKey": "援軍が到着した時には…もう遅かったのです。一人も救うことができませんでした。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1039,
+              "PlotLineKey": "{Male=彼らは皆英雄だ。;Female=彼らは皆英雄ね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "コニー",
+          "PlotLineKey": "ありがとう。<ano=こんしゅう>今州</ano>を救ってくれた人にそう言われると…きっと彼らの魂も慰められるでしょう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "コニー",
+          "PlotLineKey": "それで、お参りに来たのではないのなら…どうしてここへ？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "コニーに自分が来た理由を説明する。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "コニー",
+          "PlotLineKey": "そうでしたか…フフ、たしかに<ano=キエン>忌炎</ano>将軍のやり方ね。手伝ってほしいことですか？ええと…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "コニー",
+          "PlotLineKey": "もしよろしければ、レモングラスを持ってきていただけますか？兄は食いしん坊で。お花は好まないのですが、レモングラスの香りだけは気に入っていたんです。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1040,
+              "PlotLineKey": "分かった。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "コニー",
+          "PlotLineKey": "ありがとうございます。{PlayerName}さん。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "コニー",
+          "PlotLineKey": "あぁ…本当に清々しい香り。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "コニー",
+          "PlotLineKey": "フフ。母が生きていた頃を思い出しました…よくレモングラスで魚のスープを作ってくれたんです。でも実は…すごく不味かったんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "コニー",
+          "PlotLineKey": "レモングラスの爽やかな香りと、魚の生臭さが混ざって、言葉にできない変な味だったんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "コニー",
+          "PlotLineKey": "母は、魚のスープをたくさん食べると背が伸びるって言いました。でも私は本当に苦手だったので、こっそり兄のお椀に入れてたんです。そうしたら、フフ、確かに兄は背が高くなりましたね…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "コニー",
+          "PlotLineKey": "時々思うんです。兄もレモングラスが好きじゃなかったのかもって。好きだったのは、あの平凡で幸福な日々だったのかもしれませんね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "コニー",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "コニー",
+          "PlotLineKey": "ごめんなさい、{PlayerName}さん。お構いなしに我が家の話をしてしまいました。フフ…今思い出しても、あのスープの味は本当に懐かしいわ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "コニー",
+          "PlotLineKey": "よし！決めました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "コニー",
+          "PlotLineKey": "ちょうど{PlayerName}さんがこんなにレモングラスをくれましたし、休暇の間にあの魚スープを作ってみましょう！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "コニー",
+          "PlotLineKey": "一人で食べると…いつも余計に不味く感じますが、フフ…",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "{PlayerName}、お前も景色を見に来たのか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "ハハ、言わなくてもわかる。俺みたいに暇な奴はいないだろう。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1399,
+              "PlotLineKey": "{Male=その顔…怪我したのかい？;Female=その顔…怪我したの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "なんでもない。数日前に<ano=ざんぞう>残像</ano>と戦ったときにな。不注意でつけたかすり傷だ。もう手当もした。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1400,
+              "PlotLineKey": "{Male=休暇中には見えないな。;Female=休暇中には見えないわね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "何？休暇か。俺が入隊したばかりのひよっこだったら、きっと喜んだだろうな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "考えてみれば、普通の奴にとっての休暇は、家族団らんや、友達とうまいもんを食ったり遊びに行ったりすることだろ？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1401,
+              "PlotLineKey": "{Male=みんなそうじゃないのか？;Female=みんなそうじゃないの？}",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 1402,
+              "PlotLineKey": "あなたもそうしたらいい。",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "ああ。みんなそうすべきだ。ハハ、ハ…",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "そうか。ハハ、やめておくよ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "俺のいた村は、<ano=かいしょく>海蝕</ano>で全部地下に沈んだんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "まるで、水切りして石ころが水に飲み込まれるみたいにな。小さな水しぶきが起こったあと、二度と見えなくなった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "友達とか家族とか、この世界が残した素晴らしい記憶はな、水しぶきみたくパチンと弾けてなくなっちまったのさ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "俺もどうしたらいいかわからなかったが、やはり生きたかったんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "そんな時に、<ano=キエン>忌炎</ano>が俺を見つけたんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "ハハハハ、あのマヌケは…ゴホン。<ano=キエン>忌炎</ano>将軍はなんと俺を勧誘したんだ。<ano=ざんぞう>残像</ano>にかたき討ちする機会をやるってな！笑えるだろ？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "俺にとってみれば、<ano=ざんぞうちょう>残像潮</ano> と <ano=かいしょく>海蝕</ano>は同じようなもんだ。どっちも話が通じないし、防ぎようのないただの天災だ。奴らに対抗だって？人が天災に対抗できるもんか。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "しかし最終的には俺も同意した。将軍は話が上手くてな。<ano=こんしゅう>今州</ano>を守って戦場で死ぬ方が、外で飢え死にするよりは良さそうだろ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "よし。全部話してやったし、お前も俺がなんて答えるかわかっただろう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "お前が何を聞きたいかどうしてわかったかって？<ano=キエン>忌炎</ano>みたいなくどい奴は、休暇のたびに俺たち老いぼれに全く同じことを聞きにくるんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "今年の答えも同じだ——必要ない！なんの助けもいるもんか。戦える<ano=ざんぞう>残像</ano>がいるなら、俺は拳を休めない。それで十分だ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1403,
+              "PlotLineKey": "{Male=忌炎将軍にそう伝えるよ。;Female=忌炎将軍にそう伝えるわ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "おうよ。さあもう行った行った。そうだ、ついでにこれを渡しといてくれ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "毎回みんなが休暇のときには、<ano=キエン>忌炎</ano>は休まない。忙しくなると飯を食うのも忘れちまうんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "これは俺と他の休暇中の兄弟たちで狩ってきた動物の肉と山菜で作ったシチューだ。ついでに持って行ってやってくれ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1404,
+              "PlotLineKey": "{Male=すごくいい匂いだ…;Female=すごくいい匂いね…}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "寧衛（ネイエイ）",
+          "PlotLineKey": "おい、盗み食いは許さんぞ！いや、こっそり少しだけならいい。全部食わなきゃいいさ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "俺の読みどおり…<ano=ざんぞう>残像</ano>の活動は現在<ano=ほくらくのはら>北落野原</ano>付近に限られている。<ano=ぜんしょう>前哨</ano>の位置を進めることを検討してもいいだろう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "<ano=ほくらくのはら>北落野原</ano>の境に新たな観測所を設置する必要がある。今後<ano=ざんぞうちょう>残像潮</ano>が再発した場合に、早期に警戒し戦闘準備の期間を長くできるようにな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "伝令兵",
+          "PlotLineKey": "はッ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "伝令兵は礼をすると、すぐにせわしなくその場を離れた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "{PlayerName}、どうしたんだ？お前は今…<ano=とうげんきょう>桃源郷</ano>にいるはずでは？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1243,
+              "PlotLineKey": "さっきそこの兵士に会って、ついでにあなたに会いに来たんだ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "…わかった。<ano=ネイエイ>寧衛</ano>とベテランたちだろう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "彼らは前線で長年奮戦している。明らかに最も休暇が必要だ。しかし休暇を強制しても、駐屯地からあまり遠くまで離れないだろうな。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1244,
+              "PlotLineKey": "{Male=彼らにとっては、こここそが家だからな。;Female=彼らにとっては、こここそが家だからね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1245,
+              "PlotLineKey": "{Male=俺も彼らの気持ちがわかる。;Female=私も彼らの気持ちがわかるわ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "そうか。{PlayerName}、どうやら彼らからいろいろと聞いたようだな。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1246,
+              "PlotLineKey": "あなたにプレゼントまでくれた。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "プレゼント？まさか…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "<ano=キエン>忌炎</ano>の前に大きな椀に盛られたシチューを置く。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "ハハ、すぐにわかった。<ano=ネイエイ>寧衛</ano>が俺にと持たせたんだろう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "俺が<ano=ネイエイ>寧衛</ano>を勧誘したときの話を聞かされたんじゃないか？だが、きっと全部は話してないだろう。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1247,
+              "PlotLineKey": "じゃ聞かせて。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1248,
+              "PlotLineKey": "{Male=話を聞くのは好きだ。;Female=話を聞くのは好きよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "あの時俺はまだ将軍じゃなかった。関内の巡察に派遣され、<ano=ふくは>伏波</ano>陣地に戻ると既に深夜だった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "野宿して適当に食うものを探して料理したら、ちょうど<ano=ネイエイ>寧衛</ano>と出会った。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "<ano=ネイエイ>寧衛</ano>は、自分は故郷を<ano=かいしょく>海蝕</ano>に滅ぼされ天涯孤独で、進むべき道がわからないと言った。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "俺たちはシチューを分け合って、<ano=ネイエイ>寧衛</ano>から故郷を離れた後に起こったことをいろいろと聞いた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "<ano=ネイエイ>寧衛</ano>の目は迷いと絶望に染まっていた。生きてはいきたいが、その気持ちを支える動機を見つけられずにいたんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "後は知ってのとおりだ。俺は<ano=ネイエイ>寧衛</ano>を<ano=よき>夜帰</ano>軍に誘った。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "それ以降、彼は休暇になるといつもあの時と同じようなシチューを作って、俺に渡すよう人に託すんだ。その時のことで、後ろめたいんだろう？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "…いや、たぶん自慢したいだけだな。彼の料理の腕は俺よりだいぶ上だからな。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1249,
+              "PlotLineKey": "{Male=いい話だった。けどシチューが冷めるぞ。;Female=いい話だった。けどシチューが冷めちゃう。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "…ハハ、そうだな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "忌炎（キエン）",
+          "PlotLineKey": "{PlayerName}、お前も一緒に食べよう。遠くまでご苦労だった。腹が減っているだろう。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1250,
+              "PlotLineKey": "たしかにちょっと…",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1251,
+              "PlotLineKey": "じゃあお言葉に甘えて！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

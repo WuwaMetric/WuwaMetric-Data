@@ -1,0 +1,295 @@
+{
+  "Id": 880000041,
+  "Name": "A por los pescados",
+  "Description": "¡Vamos a pescar algo!",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000041,
+  "ShowQuestList": [],
+  "QuestDesc": "¡Vamos a pescar algo!",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "El viejo y la ballena"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Marco",
+          "PlotLineKey": "¡Hola, {PlayerName}! Ven a conocer a Julien. Es un gato que adora la vida en el muelle.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Marco",
+          "PlotLineKey": "Cada vez que le doy un pez y le hablo de su propósito como felino, me maúlla.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Julien",
+          "PlotLineKey": "¡*Miau*!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "¿Su... propósito como felino?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 55,
+              "PlotLineKey": "¿Por qué dices que maúlla?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Marco",
+          "PlotLineKey": "¡Quiere cazar a todas las criaturas del muelle! ¡Será el más grande de todos los gatos! ¿No es así, Julien?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Julien",
+          "PlotLineKey": "*Miau*... ¡*Miau*!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "Parece que te sigue el juego.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "Creo que no está muy de acuerdo contigo.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Marco",
+          "PlotLineKey": "¡No hay duda al respecto! ¡Si cumple con su sino felino, tendrá todo el pescado que pueda comer!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Marco",
+          "PlotLineKey": "¡Imposible! No cabe duda de que cumplirá su sino felino. ¡Y tendrá todo el pescado que pueda comer!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Al escuchar la palabra «pescado», Julien comienza a maullar de emoción. Su «sino felino» está bastante claro ahora.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "Él solo maúlla porque espera que le pesques algo.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "Él solo deambula por el muelle buscando peces.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 60,
+              "PlotLineKey": "Su sueño es dominar el mundo de los peces.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Marco",
+          "PlotLineKey": "¡Es indignante! Creí que había visto algo más en mí...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 10,
+          "Speaker": "Marco",
+          "PlotLineKey": "¡¿Cómo puede ser?! Estamos hablando de las aspiraciones de toda una raza. ¡No puede reducirse solo a los peces!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 11,
+          "Speaker": "Marco",
+          "PlotLineKey": "Hay algo de verdad en eso. ¡Los peces son la joya de la corona de la vida de un gato!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 12
+        },
+        {
+          "Id": 12,
+          "Speaker": "Marco",
+          "PlotLineKey": "¡Oh, Julien, dime que no es verdad! ¿Solo te importa el pescado?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Julien",
+          "PlotLineKey": "¡*Miau, miau*!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 61,
+              "PlotLineKey": "Adelante. Dale un pescado y verás.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Marco",
+          "PlotLineKey": "Buena idea... ¡Pero hoy no he conseguido pescar nada!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 62,
+              "PlotLineKey": "Tengo algunos peces por aquí.",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 63,
+              "PlotLineKey": "Yo tampoco llevo ninguno.",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Marco",
+          "PlotLineKey": "Ah, ¿de verdad? ¿Te importaría darme...? Quiero decir, ¿darle un pescado a Julien?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 16,
+          "Speaker": "Marco",
+          "PlotLineKey": "Ya veo... Bueno, si encuentras algún pescado, ¿te importaría compartirlo con Julien?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "Marco",
+          "PlotLineKey": "¡Seguro que te lo agradece! Bueno, seré yo quien te lo agradezca, ya me entiendes...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Marco",
+          "PlotLineKey": "¿Y bien? ¿Has pescado algo?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "Aquí tienes.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Marco",
+          "PlotLineKey": "¡Oh, gracias! ¡Vamos a probar! ¡Julien! ¡Julien! ¡Ven aquí, Julien! ¡Toma tu pescado!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Julien",
+          "PlotLineKey": "¡*Miau*!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Julien toma felizmente el pescado y lo devora en segundos, sin dejar nada más que espinas. Luego se frota contra tu mano para mostrarte su gratitud.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Marco",
+          "PlotLineKey": "¡Vaya! ¿Viste cómo devoró esa cosa?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 73,
+              "PlotLineKey": "No puede decir que no a un buen bocado.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 74,
+              "PlotLineKey": "Es su joya de la corona, después de todo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Marco",
+          "PlotLineKey": "¡Sí, sí! Muchas gracias. ¡Me ayudaste a cumplir el auténtico sino felino de Julien!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Marco",
+          "PlotLineKey": "Toma. ¡Te lo has ganado!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Julien",
+          "PlotLineKey": "¡*Miau, miau*!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

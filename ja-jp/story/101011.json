@@ -1,0 +1,6006 @@
+{
+  "Id": 101011,
+  "Name": "儚い夜の夢",
+  "Description": "カンタレラ",
+  "MaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveRole/T_ArchiveRole_23.png",
+  "FemaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveRole/T_ArchiveRole_23.png",
+  "AreaIcon": "",
+  "ShowQuestList": [
+    880000033
+  ],
+  "QuestDesc": "闇に覆われた過去の片鱗を覗かせる、謎の手紙。\n深淵の底からわずかに聞こえてくるその囁きは、あなたの答えを待ち受けている。",
+  "Unlock": [
+    {
+      "Id": 880000035,
+      "Name": "夢境症候群",
+      "Type": 2
+    },
+    {
+      "Id": 320800006,
+      "Name": "チェリーの薬送りに手伝う",
+      "Type": 2
+    }
+  ],
+  "Chapters": [
+    {
+      "Title": "エグラの町に向かう"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "不審なメールが届いた。<br>怪しいフォントとレイアウトで、少し不気味な感じがする。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（<ano=かんこんさい>還魂祭</ano>……エグラの町で、{Male=また何かイベントをやってるのか？;Female=また何かイベントをやってるのかな？}）",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（このメールは祭りを盛り上げるためのイタズラなのか、それとも何か事情が……）",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "メールを見詰めていると、文字が生き物のように動き出した。<br>不快感が、徐々に強まっていく。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アブ",
+          "PlotLineKey": "うわっ、ひどい臭いだ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アブ",
+          "PlotLineKey": "鼻がもげるかと思った。少し寝るぞ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "アブ",
+          "PlotLineKey": "うぅ、中も臭い……あっ、怪しい周波数汚染だ！たぶん、変なメールのせいだな！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "アブ",
+          "PlotLineKey": "……頭がふらふらするし、眠くなってきた。我は少し寝るから、何かあったら起こしてくれ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=不気味な周波数を帯びた謎のメールが、俺とアブに影響してくるなんて……どうやら、一度町に行ってみたほうが良さそうだ。;Female=不気味な周波数を帯びた謎のメールが、私とアブに影響してくるなんて……どうやら一度、町に行ってみたほうが良さそう。}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 10,
+          "Speaker": "Narrator",
+          "PlotLineKey": "「幽霊少女」からあなたに送られてきた一通のおかしなメール。それはあなたとアブを不快にさせる、歪んだ周波数を帯びていた。<br>メールと不快感の謎を解明するため、二人はメールに記された「還魂祭」が行われる町、エグラへ向かうことに決めた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "「還魂祭」の受付を探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "「還魂祭」の受付",
+          "PlotLineKey": "時間を告げる鐘が鳴り響くと、亡霊が次々と現れる。さあ、お面をつけて、いざ幽霊の群れの中へ――「<ano=かんこんさい>還魂祭</ano>」に参加されますか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 244,
+              "PlotLineKey": "「<ano=かんこんさい>還魂祭</ano>」って？",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 245,
+              "PlotLineKey": "{Male=ああ。;Female=うん。}",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "「還魂祭」の受付",
+          "PlotLineKey": "年に一度の<ano=かんこんさい>還魂祭</ano>！人々はお面をつけて、幽霊たちはこの世に帰る……今夜、一緒に盛り上がっているのは、果たして人なのか、それとも……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "「還魂祭」の受付",
+          "PlotLineKey": "あれ、反応が薄いですね？驚いていただけるかと思いましたが……コホン、では話を戻しましょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "「還魂祭」の受付",
+          "PlotLineKey": "<ano=かんこんさい>還魂祭</ano>は、エグラの町で年に一度行なわれる亡霊を悼む祭りです。人々は亡霊の姿になり、記念のお祭りを……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "「還魂祭」の受付",
+          "PlotLineKey": "ええと、後は何でしたっけ……忘れてしまいました。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "「還魂祭」の受付",
+          "PlotLineKey": "コホン。とにかくお時間があるようでしたら、ご一緒にどうでしょう？お面の準備をしてからになりますが……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "「還魂祭」の受付",
+          "PlotLineKey": "お面のご用意は……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 246,
+              "PlotLineKey": "（お面を見せる）",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=これでいいか？;Female=これでいい？}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "「還魂祭」の受付",
+          "PlotLineKey": "おお――「<ano=げっけいかん>月桂冠</ano>」様じゃありませんか！もちろんですよ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "「還魂祭」の受付",
+          "PlotLineKey": "「<ano=げっけいかん>月桂冠</ano>」様でしたら、主催者と同じように自由に見物してください！さあ、どうぞどうぞ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 14,
+          "Speaker": "Narrator",
+          "PlotLineKey": "「還魂祭」の受付係から簡単な説明を受けた――「還魂祭」とは、エグラの町で年に一度行なわれる亡霊を悼む祭りで、人々は亡霊の姿になり、記念のお祭りを行うのだという。<br>お面をつけなければ会場に入れないと言われたあなたは、月桂冠の仮面を受付に見せる。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "受付と会話して「還魂祭」の会場に戻る"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "「還魂祭」の受付",
+          "PlotLineKey": "<ano=かんこんさい>還魂祭</ano>に参加されますか、「<ano=げっけいかん>月桂冠</ano>」様！",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 250,
+              "PlotLineKey": "参加する。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 251,
+              "PlotLineKey": "また後で来る。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "「還魂祭」の受付",
+          "PlotLineKey": "分かりました、どうぞこちらへ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "「還魂祭」の受付",
+          "PlotLineKey": "分かりました。いつでもいらっしゃってください。私はここでお待ちしています。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "（どうしてここにカンタレラが……？）",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 2,
+          "Speaker": "Narrator",
+          "PlotLineKey": "還魂祭が沸きだつ会場の中、あなたはカンタレラの姿を見かけた。彼女はまるで「ついてきて」と言わんばかりに、振り返り際に微笑みかけてきた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "還魂祭の開催地である広場に向かう"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "また会ったわね、{PlayerName}。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あの「<ano=げっけいかん>月桂冠</ano>」様が、どうしてこんなところに？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "もしかして、この世の景色だけでは飽き足らず、地獄の絶景も堪能して幽霊と戯れたい、と？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1312,
+              "PlotLineKey": "むしろフィサリアファミリーの当主が、どうしてここに？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしは、もともと深海に住まう幽霊だもの。何も不思議じゃないでしょう？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1313,
+              "PlotLineKey": "あなたも……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あら、どういう意味かしら？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "カンタレラに例のメールを見せた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "<ano=かんこんさい>還魂祭</ano>だもの。未練を残した幽霊が、助けを求めにきてもおかしくはないわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "けれど、そのせいで無関係の人に害が及んだらまずいわね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そうね……未練さえ晴らしてあげれば、幽霊による影響も消えるはず。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ここで会ったのも、何かの縁ね。一緒に幽霊の未練を晴らしてあげましょう。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1314,
+              "PlotLineKey": "どうすればいい？",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 1315,
+              "PlotLineKey": "なぜ、わざわざ協力を……？",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そうだった、あなたは初めてよね。大丈夫、わたくしが少しずつ教えてあげるわ……忘れられない夜を、一緒に過ごしましょう。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 12,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしとあなたの間柄よ、協力するのは当たり前じゃない？それに、わたくしもあなたの協力が必要なのよ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "<ano=かんこんさい>還魂祭</ano>は死者を弔う祭り。だからテーマは、いつも亡霊と関係しているのよ。今夜のテーマはちょうど、「幽霊少女」ね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "純白の少女は暗い海に呑み込まれ、恐怖で身が裂かれた。すると魂の半分は岸辺を漂い、もう半分は海底に沈んだ……絶望に食い荒らされ、果てには虚無の化け物になり果ててしまう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふふ。みんな、この手の物語が好きなのよ。少し血が滲んだ、焼きたてのカキラムチョップのようにね。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1316,
+              "PlotLineKey": "{Male=確かに、俺も好きだ。;Female=確かに、私も好き。}",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 1317,
+              "PlotLineKey": "{Male=俺はそこまで好きじゃないな。;Female=私はそこまで好きじゃないかな。}",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 1318,
+              "PlotLineKey": "血が滲む……ちょっと気持ちが悪くなってきた。",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そう……どうやら、わたくしたちの趣向は近そうね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そう？なら気にしないで。少し趣向を凝らした祭りとでも思ってちょうだい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あら、意外ね……気を悪くしたのならごめんなさい。そんなつもりはなかったわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 27,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたはカンタレラに件のメールを見せた。彼女によると、毎年の還魂祭には亡霊に関するテーマがあり、今夜のテーマはちょうど「幽霊少女」だという。カンタレラは、あなたがそのメールの影響を受けていることに気付き、一緒に還魂祭に参加するよう誘ってくれた。テーマさえ解ければ、不快感は消えるようだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "話を戻しましょう。テーマに関する三つの謎は、「<ano=かんこんさい>還魂祭</ano>」の露店に隠されてるわ。その露店はどれも神出鬼没で……裏に潜む経営者は、悪魔という噂まである。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふふ……当然、この世界に悪魔なんて存在しないけれど。そこにあるのは歪んだ周波数と、何かを得ようとして悪魔になりすました人間だけ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "彼らとの取引にお金は不要よ。彼らは人の欲望を覗き見て、その中から自分の欲しているものを対価として得る。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "まあ、悪くない決まりでしょう？何でもお金で買えてしまったら、ちょっとつまらないもの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "すべての謎を集めて正しい答えを導き出し、「幽霊少女」事件の真相を突き止めた人には、「主催者」から秘薬が贈られるわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "どんな秘薬を選んだっていい。石を金に変える秘薬、永遠に若さを保たせる秘薬。そして、生き返りの秘薬……言葉通り、何でもよ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 888,
+              "PlotLineKey": "石を金に変える秘薬が欲しい。",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 889,
+              "PlotLineKey": "生き返りの秘薬が欲しい。",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 890,
+              "PlotLineKey": "{Male=俺は自分が受けた影響を消したいだけだ。;Female=私は自分が受けた影響を消したいだけ。}",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 891,
+              "PlotLineKey": "{Male=何だか怪しいな。;Female=何だか怪しいね。}",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "それじゃあ、一緒に探しに行きましょう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしは……ちょうど極上の秘薬が欲しいの。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 9,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "それじゃあ、一緒に探しに行きましょう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしは……ちょうど極上の秘薬が欲しいの。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 11,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そう……でも、あなたが受けた影響は思っているよりも深い……すっかり幽霊たちに巻き込まれているわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "メールの通りなら、幽霊を生き返らせることができれば、影響は消えるはず。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "それじゃあ、わたくしたちの目的は同じね。「起死回生」の秘薬を手に入れに行きましょう。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 14,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "怪しく感じたのなら、自分の目で確かめるのよ。きっと、楽しい時間になるでしょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "それに、わたくしが知るあなたは、どんな怪しい点も見逃さないはずよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたにしか許さない領域があることを忘れずに。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしは……ちょうど極上の秘薬が欲しいの。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 892,
+              "PlotLineKey": "あなたでも作れない薬はある？",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "薬は材料だけでなく、作る工程も大切……そこには作り手の技術や気持ちがなければいけない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "でも、だからこそあなたと一緒なら、どんなに難しい薬でも作れる気がする。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふふっ……「秘薬」でも「毒薬」でも、あなたが隣にいてくれるなら作ってみせるわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 26,
+          "Speaker": "Narrator",
+          "PlotLineKey": "カンタレラによると、「幽霊少女」のテーマに関する謎は、還魂祭の各露店に分布しており、すべての謎を解き「幽霊少女」事件の真相を突き止めた人には、「主催者」から秘薬が贈られるとのことだ。<br>そしてその秘薬は、どのような願いも叶えてくれると言われており、あなたは半信半疑であったものの、カンタレラが興味深そうにしていたため、一緒に参加することに決めた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "その魂を、肉体を、すべてを捧げ、迷いし霊を呼び戻しましょう……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=不思議な歌だな。;Female=不思議な歌だね。}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "悪かったわ。でも、これが<ano=かんこんさい>還魂祭</ano>の歌なのよ。この奇妙にも感じる周波数を口ずさむことで、飢えた「悪魔」をおびき寄せられる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ああ、感じたわ。一つ目の露店が現れたはず。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "カンタレラがある方向へ歩いていく。彼女のひらひらと動く姿は、幽霊のように見えた。そんなカンタレラの様子は、悪魔をおびき寄せても不思議じゃなかった。遅れないように、あなたは背中を追いかける。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "一つ目の露店に向かう"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "マモン",
+          "PlotLineKey": "そこのお二人は、空の一番星を掴み取りたいかい？それとも、この世で最高の愉悦を楽しみたいかい？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "マモン",
+          "PlotLineKey": "もしくは、何をもってしても叶わぬ望みを持っているのかい？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "相変わらず冗談が好きね……この人はそんな欲張りじゃないわ、マモン。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしたちは「幽霊少女」の一つ目の謎が知りたいだけ。あなたなら分かるでしょう。どんなに小さな魚でも、宴会のオードブルには悪くないわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "マモン",
+          "PlotLineKey": "タダでもらえる物など、この世には存在しない。どんなに取るに足らない物でも、代価はもらうとしよう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "マモン",
+          "PlotLineKey": "例えば、しゃべるパンや水に溶ける油……あるいは、フィサリアファミリーが秘密にしていた過去……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 307,
+              "PlotLineKey": "「<ano=げっけいかん>月桂冠</ano>」の演奏{Male=ではダメか？;Female=じゃダメかな？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "マモン",
+          "PlotLineKey": "おお！「<ano=げっけいかん>月桂冠</ano>」が私のために演奏を？それは光栄だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 9,
+          "Speaker": "Narrator",
+          "PlotLineKey": "露店の店主であるマモンからは、謎が欲しければ大切な物と交換しなければならないと告げられる。<br>「月桂冠」として、あなたは自分の演奏を交換に持ちかけると、マモンは喜んで承諾してくれた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "マモン",
+          "PlotLineKey": "生まれ落ちる音、死にゆく音、永遠に続く山海の音、熱く鼓動する命の音――",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "マモン",
+          "PlotLineKey": "時間の機織り機で、命を織りなすような音……いずれもセイレーンの歌より心に沁みる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "マモン",
+          "PlotLineKey": "約束通り、情報を教えよう。よく覚えておくんだ。一つ目の謎は、「セイレーンの歌」。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "マモン",
+          "PlotLineKey": "「かつて少女たちは、セイレーンの歌に引き寄せられ町を出た。向かった先は、山の頂に座すクラウンと崖の下に墜ちていく大滝」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "マモン",
+          "PlotLineKey": "これが今夜のテーマ、「幽霊少女」の一つ目の謎。天の音を聞かせてもらったお礼に、私からもう一つプレゼントを贈ろう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "マモン",
+          "PlotLineKey": "さあ、このオルゴールを。今は時に蝕まれているが、あなたの奏でる音があれば、再び動き出すはずだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 7,
+          "Speaker": "Narrator",
+          "PlotLineKey": "マモンはあなたの演奏を大いに讃えた。約束通り、彼から「幽霊少女」の謎の一つが出された――「セイレーンの歌」：「かつて少女たちは、セイレーンの歌に引き寄せられ町を出た。向かった先は、山の頂に座すクラウンと崖の下に墜ちていく大滝」<br>謎の他に、マモンは自分の収蔵品の一つであるオルゴールを、あなたに贈った。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=さっきの人、ちょっと大げさだな……;Female=さっきの人、ちょっと大げさだね……}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そうかしら？リナシータの人にとって「<ano=げっけいかん>月桂冠</ano>」の演奏は、神様のご加護を受けるのと同じくらい光栄なことよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そのオルゴールも、演奏を聞いたら思わず歌い出すでしょうね……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "カンタレラはオルゴールを軽く叩いたが、予想していた音は返ってこなかった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あら、拗ねてるのかと思ったら……声帯を切られて、歌えなくなってしまったのね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "優しく、そして的確にカンタレラはオルゴールのパーツをいじる。しかし、それでもオルゴールの音は鳴らなかった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "カンタレラはオルゴールをいじりながら、ふと気づく。オルゴールが妙な形をしていることに。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=上から見ると、何だかリンゴに見えないか？;Female=上から見ると、何だかリンゴに見えない？}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふふ、本当だわ。まるで大きな丸いリンゴみたい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "マモンはオードブルのほかに、甘いアペリティフもくれたようね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "次の行き先に見当がついたわ……二つ目の謎が待っているはずよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 12,
+          "Speaker": "Narrator",
+          "PlotLineKey": "カンタレラがオルゴールをいじっている時、オルゴールがリンゴの形をしていることに、あなたはふと気づいた。<br>カンタレラはその発見からインスピレーションを得る。リンゴの形をしているオルゴールは、二人を二つ目の露店へと導いた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "二つ目の露店に向かう"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ベルゼブル",
+          "PlotLineKey": "ここに来た理由は知っている。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ベルゼブル",
+          "PlotLineKey": "ずば抜けた洞察力と気概がなければ、手に入るのは食べ残しだけ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ベルゼブル",
+          "PlotLineKey": "精々、灰と共に味わうといい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "魚の腹ごしらえにすらならないものなんて、必要ないわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしの隣にいるのは、この世すべてのご馳走に相応しい方よ。ここには最も瑞々しいリンゴを求めに来たの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ベルゼブル",
+          "PlotLineKey": "ならば、試してみるといい。果たして、お望みのリンゴは見つかるかな。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ベルゼブル",
+          "PlotLineKey": "一つ選んでみるといい。その下に、果たしてあなた方が望むものはあるだろうか。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1257,
+              "PlotLineKey": "（選ぶ）",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 1258,
+              "PlotLineKey": "（カンタレラに助けを求める）",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "ベルゼブル",
+          "PlotLineKey": "ほう……これは驚いた。恐ろしい勘か、それともすべてを見通す洞察力か。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ベルゼブル",
+          "PlotLineKey": "答えなくて良い……私には分かる、あなたはただの人ではない。その魂は、まるで永遠に尽きぬ炎のようだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ベルゼブル",
+          "PlotLineKey": "さあ、この最も瑞々しいリンゴに隠されている幸運は、あなたのものだ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 11,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなたが向けた視線の意味を、カンタレラは理解した。<br>三つのリンゴを見つめる視線は、まるで波のようにきらきらと輝く。<br>そして、華奢な指で一つのリンゴを指した。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "それかしら。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ベルゼブル",
+          "PlotLineKey": "噂通り、「毒薬」の目は誤魔化せなかったか。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 14,
+          "Speaker": "ベルゼブル",
+          "PlotLineKey": "この「幸運」は、ただのオードブルだ。メインはこれから。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ベルゼブル",
+          "PlotLineKey": "二つ目の謎は――「真っ赤なリンゴ」。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "ベルゼブル",
+          "PlotLineKey": "列に並んだ少女が受け取ったリンゴは光り出した……いや、なぜ海にリンゴが？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "ベルゼブル",
+          "PlotLineKey": "これは「幸運」なのか、それとも「不運」なのか。真相は自らの目で確かめるといい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 20,
+          "Speaker": "Narrator",
+          "PlotLineKey": "二つ目の露店の店主、ベルゼブルの要求に応え、二人は最も新鮮なリンゴを選び出した。<br>ベルゼブルはリンゴに下にある「ラッキーコイン」をあなたに渡し、二つ目の謎を伝えた――「真っ赤なリンゴ」：<br>「列に並んだ少女が受け取ったリンゴは光り出した……いや、なぜ海にリンゴが？」",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "リナシータの住人は、よくコイントスで占いをするわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "表が出たら幸運と神に従い、裏が出たら不幸と神に背く。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "コインの表は赤い帽子を被った人形で、裏は青い帽子を被った人形だった。<br>ただの円形ではなく、歯車のような形をしている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "この人形たちは、果たして幸運を得られるのか、それとも不幸に見舞われるのか……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "最後の謎から、何かヒントが得られるといいわね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 6,
+          "Speaker": "Narrator",
+          "PlotLineKey": "歯車のような形をしたコイン。正面には赤い帽子の人形、裏には青の帽子を被った人形が描かれている。<br>カンタレラはそれを見てすぐに理解し、あなたを人形の露店へ連れていく……謎集めが、やけにうまくいきすぎてはいないだろうか。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "三つ目の露店に向かう"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "インビディア",
+          "PlotLineKey": "一番きれいな人形はどれだろう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "インビディア",
+          "PlotLineKey": "この子は目がきれい、この子は鼻が高い、この子は口が鮮やか……ダメ、人形たちは醜く作らないと。私よりきれいでどうするの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "インビディア",
+          "PlotLineKey": "うーん。みんなきれいだけど、まだ足りない……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "インビディア",
+          "PlotLineKey": "ねえ、この中で一番きれいな子は誰だと思う？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 950,
+              "PlotLineKey": "（赤い帽子の人形を選ぶ）",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 951,
+              "PlotLineKey": "（青い帽子の人形を選ぶ）",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 952,
+              "PlotLineKey": "（カンタレラに助けを求める）",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 953,
+              "PlotLineKey": "{Male=どれも似てるな。;Female=どれも似てるね。}",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "インビディア",
+          "PlotLineKey": "幸運の赤帽子！そうだわ、ここは神様に従ったほうが賢明ね。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 6,
+          "Speaker": "インビディア",
+          "PlotLineKey": "神様に背くつもり？命知らずなお客さん、ちゃんと自分を大切にしないと。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "インビディアは無理やり赤い帽子の人形を押し付けようとする。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "カンタレラは深海のような目をしていた。その目には、うっすらと海霧がかかっているようで、彼女の喜怒哀楽を隠している。しばらくして、彼女は赤い帽子の人形を受け取った。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "神様に従えば、幸運が訪れるのかしら。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 10,
+          "Speaker": "インビディア",
+          "PlotLineKey": "はははっ、その通りね！私も疑問だわ。人形なんて、みんな一緒じゃない！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "インビディア",
+          "PlotLineKey": "そうね、この子でいいでしょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "インビディアは赤い帽子の人形を押し付けてきた。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "赤い帽子の人形を受け取り、顔の作りを近くで見た。<br>きれいな顔立ちに華やかな服は、まるで命を吹き込まれているように感じる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "インビディア",
+          "PlotLineKey": "大丈夫よ。神様に従ってさえいれば、幸運は自ずと訪れるはずだわ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "インビディア",
+          "PlotLineKey": "じゃあ、最後にデザートを――",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "インビディア",
+          "PlotLineKey": "「幽霊少女」三つ目の謎は、「ボーラーハット」。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "インビディア",
+          "PlotLineKey": "女の子は赤いダンスシューズを履いて、鮮やかなボーラーハットを被り、終幕の演技に備える。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "インビディア",
+          "PlotLineKey": "よし！これで全部の手がかりを手に入れたでしょう。グツグツ煮える大釜から、どんな答えが得られるのか……それは二人の運次第ね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 27,
+          "Speaker": "Narrator",
+          "PlotLineKey": "露店にはたくさんの人形が並べられていた。赤い帽子を被ったものや、青い帽子を被ったもの……店主のインビディアが最も美しい人形を選ぶよう促す。<br>おかしなことに、あなたがどう選んでも、インビディアは赤い帽子をかぶった人形しか渡してこない。彼女の話によると、赤い帽子は神に従うことを象徴しており、そうしてこそ、幸運が手に入るのだという。<br>そして、彼女から最後の「幸運」の謎が語られる――「ボーラーハット」：<br>「女の子は赤いダンスシューズを履き、鮮やかなボーラーハットを被って終幕の演技に備える。」",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "休憩エリアに向かい、手がかりについてカンタレラと話す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "三つの謎は、海を泳ぐ魚のように流れ着いてきたわ。ただ、少しばかり海藻が絡まっているけれど。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "それじゃあ、どうやって解こうかしら？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 968,
+              "PlotLineKey": "判明した謎を整理しよう。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 969,
+              "PlotLineKey": "手に入れた物を整理しよう。",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "「セイレーンの歌」、「真っ赤なリンゴ」、「赤いダンスシューズとボーラーハット」……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "リナシータの伝説では、どの物語もあまりいい結末とは言えないわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ただ、「<ano=げっけいかん>月桂冠</ano>」の助けがあれば、もしかしたら変わってくるのかもしれない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "結末は、現在の延長線上に訪れる……持っているものを、もう一度確認してみましょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "長らく放置されて、パーツが欠けているオルゴール。歯車のような形をしているラッキーコイン。そして、赤い帽子の人形……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "長らく放置されて、パーツが欠けているオルゴール。歯車のような形をしているラッキーコイン。そして、赤い帽子の人形……",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "今、流通しているものではなさそうね。最近のオルゴールに、この旧式の歯車は使われていないわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "このオルゴール、おそらくだいぶ古い物でしょう。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 970,
+              "PlotLineKey": "{Male=人形はオルゴールのパーツじゃないか？;Female=人形はオルゴールのパーツじゃないかな？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 971,
+              "PlotLineKey": "人形とオルゴールを組み合わせれば……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしは小さい頃、よく精巧なおもちゃをいじっていたわ。城で過ごす時間は退屈で、持て余していたのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "まだ仕組みは覚えているかもしれないわ……いえ、きっと覚えているはず。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "カンタレラは人形をオルゴールの台座に据え、歯車のようなコインを隙間に入れる。失われていた歯車が、かたっと元の場所に戻った。魚たちに絡んでいた海藻が解けていく。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あら。「<ano=げっけいかん>月桂冠</ano>」の演奏がなければ、動いてくれそうにないわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 19,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたは鋭く気づいた。オルゴールと歯車のようなコイン、そして赤い帽子の人形を組み合わせることができると。<br>カンタレラがオルゴールを組み合わせ、あなたはもう一度演奏を始める。そして、予想通りオルゴールが回り始めた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "舞台、始まる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "さっきのメロディーは、どこかで聞いたような気がする――確か、<ano=ファミリーの城>ポルトヴィーノ城</ano>だ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "「幽霊少女」は、フィサリアファミリーの城と深い関係があると、あなたは確信した。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "強烈な頭痛に襲われ、思考が遮られた。歪んだ周波数の影響も、ますます強まっていく。<br>突然の痛みで、ふと考えが浮かび上がる。フィサリアファミリーの城に行く理由ができた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "今のは……？うっ、頭が……少し、休みを……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ごめんなさい……わたくしとしたことが、気づけなかったなんて。影響を受けているあなたの体は、幽霊が溢れる地に長居できないんだわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そろそろ戻りましょう……ディサレー海嶺なら、ここから近いわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしの城で少し休みましょう。気持ちを落ち着かせるために、何か用意するわ。少しは楽になるはずよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 9,
+          "Speaker": "Narrator",
+          "PlotLineKey": "オルゴールはおかしなダンスを踊ってみせた――赤い帽子の人形は歪み、壊れるまでずっと回り続けていた。<br>だが先程起きたことは全て幻覚だということに、あなたはハッとする。オルゴールから流れ出た音楽は、ポルトヴィーノ城を思い出させると同時に、カンタレラの顔色が変わったことにあなたは気づく。<br>突然、強烈な頭痛が襲い、あなたは思考を遮られた。歪んだ周波数による不快感がさらに強まったようだ。お城で少し休みたいというあなたの望みを、カンタレラは受け入れてくれた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "カンタレラと忘れられない夜を過ごす"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "少しは楽になったかしら？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1290,
+              "PlotLineKey": "もちろん、助かった。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1291,
+              "PlotLineKey": "{Male=いい香りだな。;Female=いい香りだね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "新鮮なバーナクルリーフを潰し、その上にヴィオラカの汁とシーオクラの粘液をかけて、シーアップルの汁を少し足したら、ガラス瓶で発酵させるのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "この可愛い植物は、この庭で育ててるわ。わたくしは、ここで摘み取った植物を選定し、調合するの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "猛毒を持つ花や汁は混ざり合うことで、悪夢と共に毒も消えていく。代わりに生まれるのは、甘い夢を呼ぶ香り。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "毒はないから、安心してちょうだい。きっと美味しいはずよ。飲んだらゆっくり休んでもらって構わないわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "その身にかけられた「呪い」は、まだ解けそうにないけれど、少し症状を和らげるくらいならできるわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ん……わたくしは植物の面倒を見てくるから、少し失礼するわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "特別な飲み物で、体がだいぶ楽になり頭もすっきりしてきた。<br>あなたは気を取り直し、少しでも多くの手がかりを得るため、ポルトヴィーノ城の観察を始める。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 13,
+          "Speaker": "Narrator",
+          "PlotLineKey": "カンタレラはあなたを自分のガーデンに連れて行き、休ませてくれた。さらに、緊張をほぐす飲み物も作ってもらい、あなたはそれを飲むと、だいぶ楽になった。<br>しばらくして、カンタレラは少し用があると言ってその場を離れた。あなたはその隙に、ポルトヴィーノ城のガーデンを調べ始める。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "花群れに隠れている謎の少女と会話する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "花群れに隠れている少女を見かけた。少女は恥ずかしそうに、あなたを見詰めている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "目が痛くなるほど鮮やかな赤いボーラーハットを被っている少女を見たあなたは、「幽霊少女」の謎に関連するオルゴールの人形のことを思い出した……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "少女が現れたのは偶然ではないと気づき、質問を投げかけてみる。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1024,
+              "PlotLineKey": "あなたは……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1025,
+              "PlotLineKey": "{Male=ここで何をしてるんだ？;Female=ここで何をしてるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1026,
+              "PlotLineKey": "{Male=「幽霊少女」について知ってるか？;Female=「幽霊少女」について知ってるかな？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1027,
+              "PlotLineKey": "カンタレラはどこ？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "少女から声という声は出ず、乾いた息の音しか聞こえてこない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "すると、少女は庭へと走り出し、あなたに付いてくるよう視線を向けた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 10,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたはガーデンで赤いボーラーハットを被った少女を見かけた。その少女はあなたに何かを伝えようとしていた。<br>だが少女は口を利くことができないためか、身振り手振りであなたに「ついてきて」と伝えてきた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "少女の後を追う"
+    },
+    {
+      "Title": "少女の後を追い、リンゴのような植物を調べる"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 682,
+              "PlotLineKey": "{Male=かくれんぼをしてるのか？;Female=かくれんぼをしてるの？}",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 683,
+              "PlotLineKey": "{Male=その植物に気づいてほしいのか？;Female=その植物に気づいてほしいの？}",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "少女は頭を横に振り、そばの植物を指差す。その光る赤い植物は、まるで何かの海洋生物かリンゴに思えた。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "少女は頭を縦に振り、そばの植物を指差す。その光る赤い植物は、まるで何かの海洋生物かリンゴに思えた。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "リンゴ、海の中のリンゴ……シーアップル！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "シーアップルは猛毒を帯びている。あなたは「真っ赤なリンゴ」の謎に近づいた気がした。<br>そして少女は、再び走り出す。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 7,
+          "Speaker": "Narrator",
+          "PlotLineKey": "少女は丸い形をした植物を指差した。その植物は光り輝くほどに赤く、どこか海洋生物のようでもあり、また丸いリンゴのようにも見えた。 <br>あなたはそれが、猛毒を持つシーアップルであることに気づく。あなたは「真っ赤なリンゴ」の謎に近づいた気がした。 <br>気がつくと、少女はすでにガーデンの反対側に向かって走り出していた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "少女の後を追う"
+    },
+    {
+      "Title": "少女の後を追い、クラゲのような植物を調べる"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "人の背丈ほどか、それよりも高く伸びた植物。花冠の位置にはふっくらとしたクラゲが咲いていた。<br>逆さまに咲いたクラゲは、鮮やかな赤色の輝きを放つ。<br>それは少女が被っているボーラーハットに、どこか似ていた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "赤いクラゲ、ボーラーハット……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "「ボーラーハット」の謎で、少女たちが頭に被っているものは、毒を持ったジェリーローズメデューサ？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=「幽霊少女」は、やはりフィサリアファミリーと関係があるようだな。;Female=「幽霊少女」は、やはりフィサリアファミリーと関係があるみたいだね。}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "急いでカンタレラを見つけて、話を聞いてみよう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "少女は頷き、何かを決心したかのような顔をする。<br>今度は角に向かって走り出した。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 7,
+          "Speaker": "Narrator",
+          "PlotLineKey": "少女はクラゲの形をした植物を指差した。あなたは、花冠の位置にある赤いクラゲが丸いボーラーハットに似ていることに気づいた。<br>「ボーラーハット」の謎では、少女が頭に被ろうとしているのは、有毒なジェリーローズメデューサなのだろうか？<br>『幽霊少女』はやはりフィサリアファミリーと深い繋がりがありそうだ。あなたは急いでカンタレラを探し、説明してもらわなければならないと感じた。<br>少女はあなたの意図を理解したようで、角を曲がりながら、ついてきてと示す合図を送った。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "カンタレラを見つけて、直接話す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "そこにいたのはダンスを踊るカンタレラだった……しかし、ただ踊っているのではなく、周波数を抑えるような動きにも見えた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ここまでたどり着いたのなら、もうだいぶ良くなったはずね。安心したわ。これで、やっと少し話ができそうね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "探していたのは、わたくし？それとも、深海に埋もれている謎の答えかしら？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1069,
+              "PlotLineKey": "あなたを探している。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 1070,
+              "PlotLineKey": "謎の答えを探している。",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 1071,
+              "PlotLineKey": "両方だ。",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふふ……安心して、わたくしが勝手に城から出ることはないわ。ましてや、あなたを置き去りにするわけがない。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふふ……賢い魚ちゃんは、もう気づいたのね。謎の答えは、ここにあると。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふふ……安心して、わたくしが勝手に城から出ることはないわ。ましてや、あなたを置き去りにするわけがない。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=庭のシーアップルとジェリーローズは、どんな目的で使うんだ？;Female=庭のシーアップルとジェリーローズは、どんな目的で使うの？}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "赤いシーアップル……別名、美しき死神。口を付けた者は、神経が麻痺して水に溺れるような感覚に陥る。最悪の場合、喉を焼かれ内臓が爛れた挙げ句、死んでしまうわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ジェリーローズからは、ジェリーローズメデューサが生まれる。あの子たちの毒はすごいわ……幻を見せて神経性強直脊椎反応を起こし、体の痙攣によって死に至らしめる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "この二つの植物は、歴代のフィサリアファミリーの当主が育てた猛毒よ。代々受け継がれ、今もポルトヴィーノ城に咲き続けている。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=思った通りだな。二つ目の謎「真っ赤なリンゴ」はシーアップルのことで、三つ目の「ボーラーハット」はジェリーローズメデューサのことだ。;Female=思った通りだね。二つ目の謎「真っ赤なリンゴ」はシーアップルのことで、三つ目の「ボーラーハット」はジェリーローズメデューサのこと。}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "謎の一つ目「セイレーンの歌」にある「山の頂に座すクラウンと崖の下に墜ちていく大滝」は、この城を指す。崖の上に建つクラウンのように尖った形、そして流れ落ちる滝。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "少女たちは何かに騙されておびき寄せられ、ポルトヴィーノ城に来てしまった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=オルゴールで見た幻は、「幽霊少女」の惨状を表す……おそらく、あの少女たちはフィサリアファミリーで毒薬に蝕まれていたはずだ。;Female=オルゴールで見た幻は、「幽霊少女」の惨状を表す……おそらく、あの少女たちはフィサリアファミリーで毒薬に蝕まれていたはず。}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "フィサリアファミリーは、どうしてこんなことを？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=理由もなく、そんな残酷なことはしないはずだ。あなたは人の不幸を喜ぶような人じゃない。;Female=理由もなく、そんな残酷なことはしないはず。あなたは人の不幸を喜ぶような人じゃない。}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=たしか、この「幽霊少女」の事件と関係しているフィサリアの伝統がある……聖女の試練だな。;Female=たしか、この「幽霊少女」の事件と関係しているフィサリアの伝統がある……聖女の試練だよね。}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "<ano=めいしき>鳴式</ano>のささやきに抗うために行われている聖女の試練。意志が極めて固い聖女を選ぶことが目的だとしたら、残酷な手段を取ってもおかしくは……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あら、そこまで推理するなんて……また驚かされたわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "その通りよ。「幽霊少女」の謎が示しているのは……「聖女の試練」の真相。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "これまで聖女の試練で流された血と涙は、この城の中で膨らみ、歪んでいった。今や、<ano=ソノラ>「幽霊の深海」</ano>と化すほどに。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "時は今、動き出そうとしている。フィサリアファミリーが隠し続けてきた傷も、もう限界でしょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "それなら、いっそあなたと一緒にかさぶたを剥がして、過去を明らかにし未来を迎えたほうがいいわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "もし、わたくしの身に傷が残るとしても、目を逸らしたい出来事になったとしても……わたくしはすべて受け止める。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1072,
+              "PlotLineKey": "{Male=なぜそこまで俺を信用してるんだ？;Female=どうしてそこまで私を信用してるの？}",
+              "PlayVoice": false,
+              "JumpToId": 25
+            },
+            {
+              "TextId": 1073,
+              "PlotLineKey": "{Male=信じていいんだな？;Female=信じていいんだよね？}",
+              "PlayVoice": false,
+              "JumpToId": 27
+            }
+          ]
+        },
+        {
+          "Id": 25,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたを聖堂に連れていったあの時から、わたくしに……いえ、フィサリアファミリーに秘密はなくなったわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "この目でしっかりと見たわ。あなたは逆さまの塔の混沌を払い、空と海を正した。このちっぽけなわたくしの過去を審判してくれるというのなら、光栄じゃない。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 29
+        },
+        {
+          "Id": 27,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふふ。もちろん、約束は守るわ。「秘薬」でも「毒薬」でも、一緒に作りたいと言ったのはわたくしだもの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "カンタレラ・フィサリアは、必ず約束を守る。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 29
+        },
+        {
+          "Id": 29,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "謎の答え、海の中。けれど、深海の暗流は荒い……それでも、飛び込めるかしら？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1074,
+              "PlotLineKey": "{Male=泳ぎは得意だから。;Female=泳ぎは得意だからね。}",
+              "PlayVoice": false,
+              "JumpToId": 30
+            },
+            {
+              "TextId": 1075,
+              "PlotLineKey": "{Male=それくらい問題ない。;Female=それくらい問題ないよ。}",
+              "PlayVoice": false,
+              "JumpToId": 31
+            },
+            {
+              "TextId": 1076,
+              "PlotLineKey": "少女たちを助けるほうが大事だから。",
+              "PlayVoice": false,
+              "JumpToId": 32
+            },
+            {
+              "TextId": 1077,
+              "PlotLineKey": "{Male=俺は自分が受けた影響を消したい。;Female=私は自分が受けた影響を消したい。}",
+              "PlayVoice": false,
+              "JumpToId": 34
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふふ、では一緒に泳ぎましょう。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 37
+        },
+        {
+          "Id": 31,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたの実力は、深海の真珠のように輝かしいわ。でも……だからこそ、わたくしはその真珠に傷をつけたくはないの。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 37
+        },
+        {
+          "Id": 32,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そう言うと思ったわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "緻密なロジック、何事も恐れず動じない勇気と意志……そして、何があっても揺るがない優しさ。どれほど深い海でも、たとえ暗い海の底でも、あなたは光り輝き続ける。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 37
+        },
+        {
+          "Id": 34,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ん……あなたの体に影響している異常周波数は、確かに幽霊の深海が原因ね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "歪んだ周波数に満ちたあのメールは、このソノラに由来しているわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "どうしてあなたに届いたのかまでは分からないけれど、間違いなく答えはこの中よ。真相に辿り着けば、影響は消えるはず。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 37
+        },
+        {
+          "Id": 37,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "海に入ったら、ぴったり付き添うわ……毒物に絡まれないようにね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 38,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたはわたくしが見込んだ人なのだから。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1078,
+              "PlotLineKey": "だいぶ良くなった、行こう。",
+              "PlayVoice": false,
+              "JumpToId": 39
+            },
+            {
+              "TextId": 1079,
+              "PlotLineKey": "少し待って。",
+              "PlayVoice": false,
+              "JumpToId": 40
+            }
+          ]
+        },
+        {
+          "Id": 39,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "行きましょう。共に幽霊の深海へ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "深海は危険よ。準備ができたら言ってちょうだい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしはこの庭で待っているわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 55,
+          "Speaker": "Narrator",
+          "PlotLineKey": "曲がり角でカンタレラを見つけた。彼女はダンスのステップで、何かの周波数を抑えているようだった。<br>あなたは自分の推測と疑問を彼女に伝えると、彼女はそれを素直に認めた。「幽霊少女」が指しているのは、フィサリアファミリーによる残酷な「聖女の試練」だと言う。<br>そして、今いるこのポルトヴィーノ城は、歴代の試練で流された血と涙のせいで<ano=ソノラ>「幽霊の深海」</ano>と化してしまった。<br>その深海に至ってこそ、真相を知り、謎が解け、「呪い」を解くことができる。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "カンタレラと会話し、共に幽霊の深海へ"
+    },
+    {
+      "Title": "ランタンを入手する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "ポルトヴィーノ城……？いや、何かおかしい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そうとも言えるし、そうとも言えないわ。ここに留まった「過去」が長い時間を経て、ここに蔓延しているのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "溢れんばかりの周波数が城中を満たして、ソノラを生み出した。ここはもう、名実ともに幽霊の深海だわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "過去からの声に、海の底から聞こえてくる幽霊たちの呼び声に耳を澄ますのよ――ここからだと、水の泡が弾ける程度の声しか聞こえてこないだろうけれど。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "今にも消えそうな泡を集めると、謎の答えがわたくしたちを海上へ連れて行ってくれるわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "暗い海の底を探索する時は、底なしの深淵に吸い込まれないよう気をつけるのよ…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "少し明かりをつけましょう、闇を払うために。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 8,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたはカンタレラと一緒にポルトヴィーノ城に入った。普段馴染み深いこの城も、今となっては見知らぬ場所のように感じた。<br>カンタレラは、これは歪んだ周波数が城中を包み込み、過去と未来が入り交じった結果、そう感じてしまうのだと説明してくれた。<br>この仄暗い深海の中で、カンタレラは最後の明かりを、ランタンに封じ込めておいた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "海が城を丸ごと呑み込んだけれど、無事に最後の明かりを守れたわね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そう簡単に、光は闇に飲み込まれはしないわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "僅かでも、灯火が残っていれば……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "カンタレラ・フィサリアが、{PlayerName}にポルトヴィーノ城で自由に探索する権限を与える。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "過去と未来の狭間で、共に真実を探しましょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 6,
+          "Speaker": "Narrator",
+          "PlotLineKey": "カンタレラは光を象徴しているランタンをあなたに渡し、このポルトヴィーノ城で自由に探索する権限を与えてくれた。<br>このランタンを持っていれば、過去と未来を往復できるようになるのだという。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ランタンで時空を切り替える"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "「過去」の一部に戻れたわね……よくやったわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "幽霊の深海が見せる過去は、必ずしも真実だとは限らないのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "見せるものを選ぶのは、あくまで深海。だからこそ、隠されている真実は自らの手で探さないといけない。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "敵を倒す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "時間の隙間に囚われし幽霊たちよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "長きにわたり閉じ込められ、彷徨う者たちよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "今、この明かりで解き放ちましょう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたが繰り出した振動は、苛立つ歪んだ周波数に僅かな安らぎを与えられる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "つまり、あなたが攻撃を避けるか武器で空間を弾いた時、狭間を彷徨う幽霊たちは姿を現すわ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 16
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "台の上に文字が現れた。周波数が散りゆく前に残された、最後の情報のようだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 5
+    },
+    {
+      "Title": "敵を倒す"
+    },
+    {
+      "Title": "LevelPlay_153000000_ChildQuestTip_153_157"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（「どんな願いも叶えてくれる秘薬」……どこかで聞いたような気が）",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=少女たちはこれに騙されて、城にやってきたのか。;Female=少女たちはこれに騙されて、城にやってきたんだね。}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=カンタレラも試練に参加していたなら、謎の答えを知っているんじゃないのか？;Female=カンタレラも試練に参加していたなら、謎の答えを知っているんじゃないの？}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "しっ……わたくしたちは今、歪んだ周波数の中にいるわ。この周波数は、聖女の試練の真相を自分の手で探してほしいはずよ。でなければ、「幽霊少女」の謎の答えに辿り着いたとは言えない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "試練の間、深淵は闇で監視していたはずよ……感じるわ、ソノラの目を。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしが教えてしまったら、おそらくソノラは崩れ、何もかもを飲み込んでしまうでしょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "安全を守るためにも、リスクの高い選択は避けたいわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ここは地道に探しましょう。この深海が何を伝えたいのか、最後まで耳を傾けながら。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 9,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたは、かつての聖女の試練を記録した告知を見つける。<br>第一試練は、候補者たちに最も毒性の強いシーアップルを三つ選ばせ、そのシーアップルを持ち帰るというものだ。<br>歪んだ周波数は、二人にもう一度あの時の聖女の試練を経験させ、真相を見つけさせようとしている。そして、これは「幽霊少女」の謎の答えでもある。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "1つ目のシーアップルを入手する"
+    },
+    {
+      "Title": "2つ目のシーアップルを入手する"
+    },
+    {
+      "Title": "汚染を除去する"
+    },
+    {
+      "Title": "ミス・ロンリーの能力で汚染を除去"
+    },
+    {
+      "Title": "奇妙な本を入手する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "どこかで見たことあるような本ね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "使い方は知っているはずよ。前と同じように、本棚の正しい位置に戻せばいいわ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "本棚の隠し扉を開ける"
+    },
+    {
+      "Title": "本棚の隠し扉を開ける"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "うん、さすがね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "この世で起きた問題の多くは、本の中に答えがある……そうは思わないかしら？",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "3つ目のシーアップルを入手する"
+    },
+    {
+      "Title": "シーアップルを持ち帰る"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "静寂、暗闇、沈黙。「認められぬ」は、このまま闇に呑み込まれてしまうということ、そして「認められる」は、更なる闇に立ち向かわなければならないということを意味している。<br>毒薬に憐れみなどなく、この試練には勝者などない。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "くる、しい……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "？？？",
+          "PlotLineKey": "うぅっ……あぁ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "安らかに眠りなさい。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "敵を倒す"
+    },
+    {
+      "Title": "敵を倒す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "まだ答えは浮かんでこない……でも過去の波から、どこか懐かしい扉が現れた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "かつての少女たちに倣って、扉を三回ノックするのよ――トン、トン、トンって。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 9,
+          "Speaker": "Narrator",
+          "PlotLineKey": "どこかで見たことがあるような扉が現れた。かつての少女たちのように三回ノックすれば、何か予想外のことが起きるかもしれない。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ドアを調べる"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 434,
+              "PlotLineKey": "扉を三回ノックする",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 435,
+              "PlotLineKey": "扉に一発パンチする",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 436,
+              "PlotLineKey": "シェルコインを投げ入れる",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "奇妙な触感が指の関節から伝わってきた。三回ノックすると、周りの周波数が少し変わったことに、あなたは鋭く気付いた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "扉の向こう側からページが海水に浸かっているような湿っぽい気配が伝わってくる。そして、クラゲの柔らかな触手が波を掠める時の微かな鼓動も聞こえてきた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなたの手はそのまま扉をすり抜けた――扉は存在するようでいて、実際には存在しないようだ。<br>海に向けてパンチをするように、どれだけの力があっても、果てなき海水に吸い込まれてしまうだけ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "目を覚まして、ここは願いの池じゃないよ。それに、幽霊の深海に願いをかけることは危険だ。<br>深淵はまだあなたを呑み込む気はないようだ、投げ入れたシェルコインはそのまま返されてきた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "聖女の試練はフィサリアの伝統よ。ファミリーの者には、自分の娘を捧げる義務があったわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "試練の危険性を聞いたファミリーの者は、様々な手を使って、自分の娘と似た少女を探してきたの……替え玉として。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "けれど、少女たちの家族に大金を支払うか、別の条件を約束して用意したところで……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "元当主は、すべてを見抜いていた。替え玉になった少女は、皆「劣石」だと。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "それでも参加を黙認された少女たちは、つまり資質を持った「原石」だったのよ。磨けば光る見込みがあった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "彼はどんなチャンスも逃がさなかったわ。たとえ何があろうと、フィサリアファミリーの手で聖女を誕生させなければならなかったから。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 7,
+          "Speaker": "Narrator",
+          "PlotLineKey": "一つ目のシーアップルと、昔のメモを見つけた。そこには、チェリーという平民の少女の不安が記されていた。<br>聖女の試練はフィサリアファミリーの伝統であり、試練の危険性を知るファミリーの者は様々な手を使って、自分の娘と似た少女を替え玉として参加させていたのだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "常に監視の目がある以上、こうやって自分たちで合図を決めていたのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "「特定のメロディーを口ずさむ」、「異なる色で真偽を見極める」、「二秒ごとにドアを三回叩く」……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "冷たい深海で、温め合うような時間だったわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "魚たちは寄り添って生きているのよ。いつ、誰がいなくなってもおかしくない状況で。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 5,
+          "Speaker": "Narrator",
+          "PlotLineKey": "二つ目のシーアップルと、ここでもメモを見つけた。試練に参加したチェリーの、その過程が記されていた。<br>試練に参加する少女たちは、常にある監視の目から逃れるため、自分たちで合図を決めていた：<br>例えば「特定のメロディーを口ずさむ」、「異なる色で真偽を見極める」、「二秒ごとにドアを三回叩く」……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "フィサリアは毒薬でファミリーを大きくしてきた。宗家も分家も、自分の子が幼い頃から毒薬に触れさせる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "長年、毒に晒され続けた結果、いつの間にか耐性ができていたわ。最初の苦痛さえ耐えれば、わたくしたちファミリーに毒は通用しない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "フィサリアの者は、自分の体そのものが「猛毒」なのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 4,
+          "Speaker": "Narrator",
+          "PlotLineKey": "三つ目のシーアップルと、案の定ここにもメモが。試練に参加したチェリーの、心構えが変わったことが記されていた。<br>フィサリアは毒薬でファミリーを大きくしてきた。宗家も分家も、子どもたちが耐性をつけるため、幼い頃から毒薬に触れさせていた。<br>フィサリアファミリーの人間であれば、毒薬に蝕まれている絶体絶命の状況下でもそれに耐え、毒薬に関する共鳴能力を目覚めさせることがあるが、それ以外の者は難しい。<br>ただおかしなことに、アンニスという平民の少女にも共鳴能力が目覚めたようだ。喉が毒薬に焼かれ、二度としゃべることができなくなることを代価に。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ホールには大きさの違う足跡がたくさんある。その中の一つは際立って見えるが、他のははっきりしない。大きさからすると、おそらくすべて女性の足跡だ。その中にはカンタレラの足跡も混じっている。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 12
+    },
+    {
+      "Title": "ジェリーローズメデューサを観察"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "うん……ここは大丈夫そうね。暗流の流れる深海でも、一息つけそうだわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "どんな嵐にも、比較的安全な目はある。それは、この深海も同じ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "少し見て回りましょうか。一度、手に入れた情報を整理するのも大切よ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ジェリーローズメデューサが、のんきに漂いながら細い触手を揺らしている。その丸い体は、まるで動くボーラーハットのようだった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "それは触手で、あなたの後ろを指差す。振り返ってみると――怪しい扉が部屋の真ん中に立っていた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "部屋を出る"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "扉を開ける前に、このような光景を思い浮かべたことはある？海水が扉から湧き出し、目の前のすべてを呑み込む様を……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "でも、それはこの扉じゃないわ。まだ最深部ではないもの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "クラゲたちが何を言っているのか、見に行く気かしら？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 73,
+              "PlotLineKey": "行こう。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 74,
+              "PlotLineKey": "もう少しここにいたい。",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ええ、三回ノックするのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "分かったわ。ここにいると優しく抱かれているような感じがして、離れづらいわね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 8,
+          "Speaker": "Narrator",
+          "PlotLineKey": "扉の向こう側は別の世界であり、そこではクラゲがあなたを待っていた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ドアを調べる"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 409,
+              "PlotLineKey": "扉を三回ノックする",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 410,
+              "PlotLineKey": "扉に一発パンチする",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 411,
+              "PlotLineKey": "シェルコインを投げ入れる",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "奇妙な触感が指の関節から伝わってきた。三回ノックすると、周りの周波数が少し変わったことに、あなたは鋭く気付いた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなたの手はそのまま扉をすり抜けた――扉は存在するようでいて、実際には存在しないようだ。<br>海に向けてパンチをするように、どれだけの力があっても、果てなき海水に吸い込まれてしまうだけ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "目を覚まして、ここは願いの池じゃないよ。それに、幽霊の深海に願いをかけることは危険だ。<br>深淵はまだあなたを呑み込む気はないようだ、投げ入れたシェルコインはそのまま返されてきた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(任意）メモを確認する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "年季の入った日記がある。中には女の子たちが交わした言葉が記されている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "可愛い記号とぐちゃぐちゃの文字を見て、あの残酷な試練のことを思い出してしまった。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(任意）シーアップルを観察する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "シーアップルが独りでに生えている。眩しいほどに赤い。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "（任意）カンタレラと会話する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 87,
+              "PlotLineKey": "あの少女たちは……",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 88,
+              "PlotLineKey": "チェリーは……",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 89,
+              "PlotLineKey": "ここでは昔、何が……",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "それぞれ出身や個性こそ違うけれど、みんな強い子だったわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "毒薬に蝕まれても、自由への憧れを諦めたことはなかった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "チェリーちゃんも……きっと、どこかで安らかに暮らしてるでしょう。もう毒薬に苦しまずに済むのだから。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ごめんなさい。わたくしは深海の中にいる身だから、これ以上は何も語れないの。でも、この海を隅々まで探索すれば、自ずと浮かび上がってくるはずよ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "（任意）絵本を確認する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "小さい女の子は、想像力が豊かね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "檻に閉じ込められていても、心の羽を忘れず、自分が作った幻と共に外へ飛び出していく。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "少女たちは想いを紙に記した。その言葉一つひとつが、痛みを和らげる飴になったはず。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "この本棚には、包み紙に包まれた飴のように、いくつもの幻想が並んでいたのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 6,
+          "Speaker": "Narrator",
+          "PlotLineKey": "おとぎ話の絵本を見つけた。昔の少女たちが書いたもののようだ。<br>檻に閉じ込められていても、心の羽を忘れず、自分が作った幻と共に外へ飛び出していく。<br>少女たちはそれぞれの想いを紙に記す。その言葉一つひとつが、痛みを和らげる飴となって。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "（任意）絵本を本棚に戻す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "過ごした時間が色褪せようと、少女たちの活気は隠しきれなかった。かつて思い描かれた未来が、ここには広がっているようだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "しかし、憧れは憧れのままで終わってしまった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 4,
+          "Speaker": "Narrator",
+          "PlotLineKey": "絵本に残したメッセージも見つけた。過ごした時間が色褪せようと、少女たちの活気は隠しきれなかった。かつて思い描いた未来が、ここに広がっているようだ。<br>でも、それは紙に留まったままだった。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ランタンで時空を切り替える"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "闇とは、つまり未知。そして恐怖は、未知から生まれる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "このような環境で、あなたが唯一信用できるものは、僅かな光だけ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "その光で払うのよ――この闇と恐怖を。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 4,
+          "Speaker": "Narrator",
+          "PlotLineKey": "ここは城の書斎のようだ。あなたは見上げてみると、天井には光に照らされた煌めく波が……まるで海底にいるかのようだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ランタンで時空を切り替える"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ゆらゆらとしたクラゲたちの僅かな光で、海を照らせるかしら？",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "広い部屋の中には、あなたとカンタレラの二人しかいない。カンタレラは底なしのその瞳で、あなたを見詰めている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "どうやら、ここはわたくしたちで一組になるしかないようね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "強い毒性といえば、ジェリーローズメデューサね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ん……懐かしい匂い。ジェリーローズメデューサが一匹、下に隠れているわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "でも、このクラゲは仲間とはぐれてしまうと、敏感になってしまうのよ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "大丈夫、やり方は分かっているわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 7,
+          "Speaker": "Narrator",
+          "PlotLineKey": "聖女の試練を記録した二つ目の告知を見つけた。<br>第二試練は、深海で最も毒性の強いクラゲを捕り、互いにそれを交換し、そのクラゲの毒に耐え抜いて生き残った者が勝利する、というものだ。<br>広い部屋の中には、あなたとカンタレラの二人しかいない。もっと深く潜るためにも、二人は試練に参加することに。カンタレラはあなたを連れてジェリーローズメデューサを探しに行く。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ジェリーローズメデューサを探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "クラゲは部屋の向こう側で漂っている。<br>本棚の隔たりが、クラゲに勇気を与えたのかもしれない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "どこかで見たような本棚だわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "今度は一度に二冊も呑み込む気のようね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "……「過去」だけでなく、「現在」も。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 5,
+          "Speaker": "Narrator",
+          "PlotLineKey": "クラゲは隣の部屋にいるが、本棚はそこへ通じる道を塞いでいた。<br>どうやら、二冊の本を本棚に戻さなければいけないようだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "このまま進む"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "知識の檻……それとも、膨れ上がり続ける虚無かしら？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたの瞳なら、この小細工も見抜けるはずよ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "どの本にも、めくられた形跡があった。違う筆跡で書かれた注釈もあれば、可愛く描かれた落書きもある。<br>おそらく、さほど昔のものでもないようだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 6
+    },
+    {
+      "Title": "敵を倒す"
+    },
+    {
+      "Title": "「過去」の本を入手する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "これは、「過去」の抜け殻ね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "残るは、「現在」の虚影よ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "もう一冊の本を探す"
+    },
+    {
+      "Title": "もう一冊の本を探す"
+    },
+    {
+      "Title": "もう一冊の本を探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "この子は好き嫌いしないわ。歪んだ時間から生まれた存在でしょうね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "本を一冊渡せば、その勇気に報いてくれるはずよ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "本棚の隠し扉を開ける"
+    },
+    {
+      "Title": "「現在」の本を入手する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "二冊とも手に入れたようね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "「過去」と「現在」を手にしたら、今度は扉の向こうで「未来」が待っているわ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "本棚の隠し扉を開ける"
+    },
+    {
+      "Title": "クラゲに近づく"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あっ、もう少しだったのに……繊細な子なのかしら。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "まずは目の前の邪魔者を排除しないといけないようね。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "敵を倒す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "クラゲのいた場所が微かに光っている。何か伝えたいようだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "へべノン……ウサギのように臆病で優しい子。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "いつもマンダラの後ろで恥ずかしそうに隠れていたから、少ししか顔を合わせて話したことはなかったけれど……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "涙もろい子だったわ。水銀の入った紅茶をわたくしに渡す時、ぽろぽろと泣きながら涙を紅茶に落としてしまうくらいよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "優しい彼女の好意を無下にはできなかった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "それに、もしわたくしが受け取らなかったら、深淵が二人とも呑み込んでいたでしょうね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あの紅茶……味は悪くなかったかしら。少なくとも、シーアップルよりはマシね。少し舌を火傷して、めまいや頭痛を感じた程度。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "彼女の涙に含まれていた毒素が水銀を中和したおかげか、それともわたくしの体がどんな毒にも慣れていたからか、すぐに回復したわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "試練に参加していた少女たちは、こんな時間しか休息を取れなかったのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ごめんなさい、過去に浸りすぎてしまったわ。大事なのは今と未来だというのに……そうでしょう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 12,
+          "Speaker": "Narrator",
+          "PlotLineKey": "小さな一つのメモ。そこには、へべノンという名前のフィサリアファミリーの少女の、姉妹たちで殺し合うことへのためらいが記されていた。<br>彼女はフィサリアファミリーの本家の次女であり、臆病な性格をしている。<br>たとえ殺し合いを望まなくとも、深淵の監視下では、互いに毒を盛らなければ、一時の安らぎを得ることもままならなかった。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ん……あの子、上に逃げていったようね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "……考えがあるわ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 23
+    },
+    {
+      "Title": "上に行くための道を作る"
+    },
+    {
+      "Title": "このまま進む"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "見えた。あそこよ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "敵を倒す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "みんな、あの猛毒を持つクラゲが欲しいようね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "執念は、いつまでも影響を及ぼしてくる。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "すべての道が塞がれたわけじゃないはずよ。迂回してみましょう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 15
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "この壁……水流の浸食に耐えられないはずよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "水中の世界へ戻りましょう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 16
+    },
+    {
+      "Title": "クラゲを捕獲する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "マンダラ……名前の通り、鮮やかで猛毒を持つ花のような子。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あっ、勘違いしないでちょうだい。「猛毒」はフィサリアにとって、最高の褒め言葉よ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "彼女は自分の心を殺して当主の教えに従い続け、ファミリーの掟に忠実だった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "どれほどの対価を払ったことか……そこまでする必要なんてなかったというのに。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "だから、ジェリーローズの汁が付いたスコーンを彼女から受け取った時、わたくしは何も言わずに食べたわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "彼女はへべノンより強かったけれど、冷酷な眼差しの裏にためらいが潜んでいた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "溺れるような窒息感と抑えられない痙攣で、意識が徐々に遠のいていった……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "一瞬、みんな自由な鳥になって、日が照るビーチでじゃれ合う幻が見えたわ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "でも、しばらくしてわたくしは目を覚ました……依然として、この冷たい海の底で。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 11,
+          "Speaker": "Narrator",
+          "PlotLineKey": "小さな一つのメモ。そこには、マンダラというフィサリアファミリーの少女の決然とした覚悟が記されていた。<br>彼女はフィサリアファミリーの本家の長女であり、性格が強く、当主の教えに忠実で、ファミリーの掟を己の骨に刻んでいるような娘であった。<br>そんな彼女でも、その裏には微かなためらいと疑念が垣間見えていたようだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "クラゲを連れ帰る"
+    },
+    {
+      "Title": "クラゲを連れ帰る"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "どうやら、その子は毒を滲み出させて「決闘」しようとしているようだわ……不必要な争いは嫌いなのよ。その子をわたくしに渡してちょうだい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そのまま、わたくしの手に。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 155,
+              "PlotLineKey": "そんなことはできない……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 156,
+              "PlotLineKey": "あなたは一度経験して……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "大丈夫、わたくしならどんな毒にも耐えられるわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "過去のクラゲが、今のわたくしを傷付けることはできない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "{PlayerName}、優しいのね。そんな苦しそうにしているのに。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "大丈夫よ……ここはわたくしに任せて。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ほら、もう大丈夫よ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "先に進みましょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 11,
+          "Speaker": "Narrator",
+          "PlotLineKey": "二人は毒性の最も強いクラゲを持ち帰り、いよいよ互いに毒を盛る時が来た。<br>毒薬に疎いあなたを見て、毒に詳しいカンタレラは落ち着いて手を差し伸べ、自分でクラゲの猛毒に耐えようとする。<br>あなたは戸惑うも、カンタレラは笑いながら、クラゲを自分の元へと呼んだ。毒に耐性を持っているから大丈夫と、あなたを慰めるように言った。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "クラゲは口が利けない。波に流されながら、僅かな光で深海の闇を照らしているだけ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "でも、その小さな光が今、過去の海から差し込んでわたくしたちの目に届いた。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ドアを調べる"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 496,
+              "PlotLineKey": "扉を三回ノックする",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 497,
+              "PlotLineKey": "この扉はどこかで見たことがあるようだ",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 524,
+              "PlotLineKey": "ノックすることがちょっと面倒くさい",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "扉の向こう側から波のようなざわつきが聞こえてきた。まるで、扉を突き破ろうとしているようだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "そう、扉は三回か四回現れた？それとも、現れては消えることを何度も繰り返していた？<br>扉もあなたのことを懐かしく思っているようだ。だから、有無を言わせずそのままあなたを扉の中へと引っ張り込んでいった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "深淵はあなたのことを面倒くさいとは思っていないようだ。すでに深海にいる以上、ノックしてもしなくても、もう逃げ道はない。<br>情熱溢れる扉はあなたを抱き締め、深海の波であなたを巻き込んだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "人形を観察する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "どこか微妙に変化が……危険な匂いがするわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "部屋に何か増えていないか、きちんと調べてみましょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 3,
+          "Speaker": "Narrator",
+          "PlotLineKey": "どこか見覚えのある部屋に、些細な変化が生じていた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "赤い帽子を被った人形が急に机の上に現れ、思わず目が向いてしまう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "この人形は幸運を象徴している、と誰かが言っていた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "神に従ってさえいれば、幸運は訪れるらしい。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "果たして、そうなのだろうか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "考え込んでいると、突然背後に扉が現れた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "警戒しながらここを出よう"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "扉の向こう側から重苦しい気配が伝わってくる。深海を漂う囁きに風化した涙、暗く固まった血の匂いが混じっている……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "この海の最深部よ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "荒れ狂う海と向き合う準備はできてるかしら？海の底に光は届かない。まるで星なき夜空のように、すべてを吸い寄せてしまう。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 174,
+              "PlotLineKey": "行こう。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 175,
+              "PlotLineKey": "もう少しここにいたい。",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしから、あまり離れないようにするのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "準備はしっかりしておくべきね……心も、体も。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 8,
+          "Speaker": "Narrator",
+          "PlotLineKey": "扉の向こう側は深海の最深部となっている。しっかり準備をしてから向かおう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ドアを調べる"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 502,
+              "PlotLineKey": "扉を三回ノックする",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 503,
+              "PlotLineKey": "この扉はどこかで見たことがあるようだ",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 504,
+              "PlotLineKey": "ノックすることがちょっと面倒くさい",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "扉の向こう側から波のようなざわつきが聞こえてきた。まるで、扉を突き破ろうとしているようだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "そう、扉は三回か四回現れた？それとも、現れては消えることを何度も繰り返していた？<br>扉もあなたのことを懐かしく思っているようだ。だから、有無を言わせずそのままあなたを扉の中へと引っ張り込んでいった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "深淵はあなたのことを面倒くさいとは思っていないようだ。すでに深海にいる以上、ノックしてもしなくても、もう逃げ道はない。<br>情熱溢れる扉はあなたを抱き締め、深海の波であなたを巻き込んだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "（任意）ジェリーローズメデューサを観察する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ジェリーローズメデューサが独りでに漂っていた。長い触手が幸運と不幸を織りなしている。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(任意）メモを確認する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "年季の入った日記だ。中には女の子たちが交わした言葉が記されている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "可愛い記号とぐちゃぐちゃの文字を見て、あの残酷な試練のことを思い出してしまった。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(任意）シーアップルを観察する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "無秩序に生えたシーアップルは、水面に映ると余計凶悪に見える。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "（任意）カンタレラと会話する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 195,
+              "PlotLineKey": "へべノンは……",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 196,
+              "PlotLineKey": "マンダラは……",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 197,
+              "PlotLineKey": "{Male=大丈夫か？;Female=大丈夫？}",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "へべノンは気が弱い。<ano=めいしき>鳴式</ano>の囁きに最後まで耐えられなったわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "彼女は聖女に相応しくなかった。たとえ聖女になったとしても、務まらなかったでしょうね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "落選して良かったのよ。でも、あの試練でマンダラと消えて以降、二人の行方は誰も知らない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "おそらく、誰かが目くらましの術でも使って、二人を当主の監視下から隠したはず。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "マンダラは正直すぎたわ。掟が合理的でなかったとしても、従おうとした。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "この世には、掟より大切なものがあるというのに。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あの試練でへべノンと消えて以降、二人の行方は誰も知らない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "おそらく、誰かが目くらましの術でも使って、二人を当主の監視下から隠したはず。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしは大丈夫よ。この通り、目の前にいるわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "泣きわめくだけでは、何の役にも立たない。理不尽な掟にも従うつもりはなかった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "だからこそ、わたくしは主導権を握れた。そのおかげで、あなたと共にいられるのよ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "汚染を除去する（任意）"
+    },
+    {
+      "Title": "（任意）絵本を確認する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "荒立つ暗流が、すべての光を消そうとしていた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そして毒薬と囁きが、すべての羽を折ろうとする。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "飴の包み紙に包まれているような幻想は本棚に追いやられ、徐々に風化し乾いた涙となった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 5,
+          "Speaker": "Narrator",
+          "PlotLineKey": "一冊の絵本を見つけた。そこには、歪な文字で不気味な童謡が書かれていた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "（任意）絵本を本棚に戻す"
+    },
+    {
+      "Title": "敵を倒す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "本棚から禍々しい気配がする。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "突然、その気配が実体となって現れた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "消えかかる混沌とした周波数から、何かが落ちてきた。<br>捻じ曲げられた周波数に包まれた一冊の本。まるで、深淵から零れ落ちた血肉のようだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "女の子たちの絶望が紙から伝わってきた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなたは胸が締め付けられるような感じがした。深く息を吸って、本を閉じる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 3,
+          "Speaker": "Narrator",
+          "PlotLineKey": "絵本には乱雑なメッセージも残されていた――歪な文字が無言の叫びを発しているかのようだ。<br>女の子たちの絶望は紙からひしひしと伝わってきた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "人形と会話する"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "人形は生気のない顔をあなたに向けている。あの気持ち悪さに再び侵されるような感じがした。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "人形A",
+          "PlotLineKey": "最後の舞台、始まる。ボーラーハット、いない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "人形A",
+          "PlotLineKey": "ボーラーハット、探す。助けて。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 440,
+              "PlotLineKey": "最後の舞台？",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 441,
+              "PlotLineKey": "{Male=「ボーラーハット」の最後の舞台なのか……;Female=「ボーラーハット」の最後の舞台なんだ……}",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 442,
+              "PlotLineKey": "分かった。",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 443,
+              "PlotLineKey": "探すの、手伝う。",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "人形は佇んだまま、何も反応しない。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "人形は一瞬ぽかんとしてから、頭を垂れて何も話さなくなった。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "人形は佇んだまま、優しさに沈黙で答えているようだ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "人形は佇んだまま、からかいに沈黙で答えているようだ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふぅ……",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 449,
+              "PlotLineKey": "{Male=どうしたんだ？;Female=どうしたの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 450,
+              "PlotLineKey": "やっぱり、さっきのクラゲが……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "少し、昔話を思い出しただけよ……大丈夫。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ここに踏み入れると、嫌な記憶も蘇ってしまうわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしも、まだまだ未熟なようね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 20,
+          "Speaker": "Narrator",
+          "PlotLineKey": "おかしな人形が行く手を阻む。どうやら、自分に合うボーラーハットを探すのを手伝ってほしいらしい。<br>カンタレラは少し気分が悪いようだが、あなたに心配をかけまいと、無理にでもしっかりしようとしている。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ボーラーハットを探す"
+    },
+    {
+      "Title": "舞台裏に向かってボーラーハットを探す"
+    },
+    {
+      "Title": "敵を倒す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ここは過去と未来、夢と現が絡み合っているわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "混乱した周波数に、光が纏わりついているのね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "もう一度、優しく撫でながら励ましてあげてちょうだい。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "電気のスイッチは……たしか、別の部屋にあったはず。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 3
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "部屋は再び光で満たされた。しかし、どこかで小さな変化が生じたことに、あなたは気づく。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 4
+    },
+    {
+      "Title": "ボーラーハットを探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "「最後の舞台」の内容を告げているような変なポスター。<br>そこに描いてある二人の人形は、どこかで見たことがあるような気がする。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ボーラーハットを探す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "隅々まで探したはずだけど……どこにあるのかしら。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "どうやら、ボーラーハットはここにないようね。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "色々な絵が並べてあった。カンバスに描かれている絵の具は、柔らかな艶を持っている。どうやら、描かれてからそこまで時間は経っていないようだ。しかし、忙しいカンタレラに絵を描く時間はあるだろうか……？",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 6
+    },
+    {
+      "Title": "人形を追う"
+    },
+    {
+      "Title": "人形を追う"
+    },
+    {
+      "Title": "敵を倒す"
+    },
+    {
+      "Title": "人形を追う"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "最後の舞台が、間もなく始まる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "？？？",
+          "PlotLineKey": "踊れ、そして奪え。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "？？？",
+          "PlotLineKey": "聖女は必ず誕生する。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "？？？",
+          "PlotLineKey": "――あなたたちの中から。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "正しい人形を見つけ出す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "人形C",
+          "PlotLineKey": "ボーラーハット、ある。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "人形C",
+          "PlotLineKey": "あげる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "突然現れた人形が、ボーラーハットを押し付けてきた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ボーラーハットの輝く赤いベルベットは、もしかすると少女の涙に浸されていたのだろうか。まるでケーキに添えられたドレンチェリーのように、甘くてほろ苦い。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 5,
+          "Speaker": "Narrator",
+          "PlotLineKey": "人形は有無を言わさず、赤いボーラーハットをあなたに押し付けた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ボーラーハットを渡す"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "人形A",
+          "PlotLineKey": "ボーラーハット、ありがとう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "人形A",
+          "PlotLineKey": "ちょっと変。でも、ありがとう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "人形A",
+          "PlotLineKey": "始まる、最後の舞台。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "人形A",
+          "PlotLineKey": "前に、行く。近い、見える、安心。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "人形が途切れ途切れの言葉で伝えようとしている。舞台の近くに行ったほうが見やすくなる、と。<br>「安心」の言葉が指すのは、あなたの安心か……それとも人形の安心か。舞台が始まれば、分かるかもしれない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 6,
+          "Speaker": "Narrator",
+          "PlotLineKey": "赤いボーラーハットをもらった人形は礼を言うと、あなたを舞台へと招き、まもなく始まる最後の舞台を一緒に見ようと誘った。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "舞台に近づく"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "人形？？？",
+          "PlotLineKey": "開演時間。光、必要。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "人形は無表情のままだったが、あなたのそばにいるランタンを見ていることが、はっきりと分かった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "人形？？？",
+          "PlotLineKey": "明かり、つけて。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "ランタンを使う"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "周波数が乱れすぎだわ……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "深呼吸を……よし、もう一度試してみましょう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "もう一度ランタンを使う"
+    },
+    {
+      "Title": "舞台に近づく"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふぅ……",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=あなたがアンニスだな。;Female=あなたがアンニスだね。}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=俺にメールを送ってきた少女Aだな、声が出ないのか？;Female=私にメールを送ってきた少女Aだね、声が出ないの？}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=彼女のところに連れていきたいんだよな？;Female=彼女のところに連れていきたいんだよね？}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 4,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたは目の前にいる赤い帽子を被った少女の正体を突き止めた――彼女こそアンニスであり、口の利けない少女A、そしてメールを送ってきた人物でもある。<br>ただ、何年も時が過ぎているのに、なぜ彼女が未だに少女の姿でいるのかは謎だ。しかし、考える暇もなく、あなたはまずカンタレラを救うことに集中する。<br>アンニスは自分も協力したいと申し出てくる。彼女がランタンを手に取り、両目を閉じると、強い光が放たれた。消えていたランタンの光が戻り、赤い帽子を被った少女はどこかへと姿を消してしまった。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "彼女のもとへ駆けつける"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "気をつけるに越したことはない。フィサリアファミリーの者は、どんな手を使ってくるか分かったもんじゃない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "？？？",
+          "PlotLineKey": "そうよ。うちの町にあんなひどい仕打ちをしておいて、よくもノコノコと！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "？？？",
+          "PlotLineKey": "彷徨う亡霊は、本当に帰ってこられるのか？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "？？？",
+          "PlotLineKey": "くる、しい……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "？？？",
+          "PlotLineKey": "うぅ……ああ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "何もかも振り切って、彼女のもとへ"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "気をつけるに越したことはない。フィサリアファミリーの者は、どんな手を使ってくるか分かったもんじゃない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "？？？",
+          "PlotLineKey": "うぅ……ああ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "？？？",
+          "PlotLineKey": "くる、しい……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "？？？",
+          "PlotLineKey": "そうよ。うちの町にあんなひどい仕打ちをしておいて、よくもノコノコと！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "？？？",
+          "PlotLineKey": "彷徨う亡霊は、本当に帰ってこられるのか？",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "あなたは信頼でクラゲの閉ざされた心の扉を開いた"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=俺の知るカンタレラは強い。;Female=私の知るカンタレラは強いよ。}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "騒々しい囁きに呑み込まれても、その心は揺さぶられない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=もちろん、俺の心も。;Female=もちろん、私の心も。}",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "ゆらゆらとしたクラゲたちの僅かな光で、海を照らせるかしら？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "？？？",
+          "PlotLineKey": "そのまま、わたくしの手に。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "？？？",
+          "PlotLineKey": "カンタレラ・フィサリアは、必ず約束を守る。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "？？？",
+          "PlotLineKey": "あなたにしか許さない領域があることを忘れずに。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "？？？",
+          "PlotLineKey": "先に進みましょう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "チャンスよ、元当主の執念を囁きから解放しましょう。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "元当主の歪んだ執念に終止符を打つ"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "お前は苦心しながら私を騙してまで、長年一人で試練の真相を秘密にしてきた。だが、それで何を得た？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "？？？",
+          "PlotLineKey": "悪名しか得ていないだろう？そもそも背負う必要などなかったのだ。にもかかわらず、お前は自ら受け入れたではないか、カンタレラよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "？？？",
+          "PlotLineKey": "幼い頃のお前をよく覚えている。誰よりも小さく、誰よりも孤立していたろう。いつも一人で釜を弄っていたな……窓から鳥が見えた時だけ、笑顔を見せる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "？？？",
+          "PlotLineKey": "ここが嫌いなのだろう？だが、自分の体に流れている血には抗えない。こうして悪夢の檻のような場所に居残っているのが、その証拠だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "？？？",
+          "PlotLineKey": "お前がフィサリアファミリーの掟を破ろうと、掟はお前に嚙みついて離さない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "？？？",
+          "PlotLineKey": "いい加減、諦めるのだ。お前が背負っている重荷を、私に預けるといい……さすれば、自分の人生を生きられるようになる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "元当主様……わたくしは甘い夢を与えたというのに、なぜまだ離してくれないのでしょう？",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "彼女たちの屍を越え、栄光の階段を登り、ソーンドクラウンを被った……それで満足していたはず。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "元当主の執念",
+          "PlotLineKey": "幻の術を毒とは呼べない。まやかしは、いつか見破られる定め……それが、今だ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "まやかしでも、幸せな真実に違いはない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "囁きによって歪められたあなたの執念こそ、この城を取り巻く影。それがいつしか、この世にあってはならない虚構にまで膨らんでしまったのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "感じるわ、囁きに囚われた苦痛を。もう一度、楽にしてあげましょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 13,
+          "Speaker": "Narrator",
+          "PlotLineKey": "かつてカンタレラは幻術を使って元当主を欺き、その座を奪い取ったのち、この残酷な試練に終止符を打った。<br>しかし元当主の、あの囁きによって歪められた執念は、城の中に留まったまま決して去ろうとはせず、結果としてこの地は「幽霊の深海」と化してしまった。<br>あなたはカンタレラとともに、今一度、元当主の哀れな執念を楽にしようと決意する……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "深淵は影に潜んでいる。影が最も恐れているのは光よ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "信頼してくれてありがとう。ランタンに力が満ちたわ。これでより強い光が放てるはずよ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "今よ。このランタンで、これまでにない強い光を放つの。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 3
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "くっ、どうやら混乱した囁きは、そう簡単に取り除けないようね……気をつけて、歪んだ執念が影の守りに入ってしまうわ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "元当主の歪んだ執念に終止符を打つ"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "元当主様。甘い夢をお与えしてから時間こそ経ってしまいましたが、生前、最も気にされていた問題は解決しました。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "フィサリアファミリーの本当の信仰は、最も信頼する人に託しました。逆さまの塔で、<ano=めいしき>鳴式</ano>の嘘も暴かれています。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "もう、わたくしたちの耳元で囁く声は消えました。フィサリアの子どもたちも、あのような試練に参加する必要はありません。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたも、<ano=めいしき>鳴式</ano>の囁きから解き放たれる時です。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 378,
+              "PlotLineKey": "{Male=彼女たちは幽霊じゃないだろう？;Female=彼女たちは幽霊じゃないでしょう？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 379,
+              "PlotLineKey": "これが謎の答え？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "さすがね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "チェリー",
+          "PlotLineKey": "私たちは生きているよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "チェリー",
+          "PlotLineKey": "カンタレラお姉さんは、あの地獄のような試練から私たちを幻術で救い出してくれたんだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 11,
+          "Speaker": "Narrator",
+          "PlotLineKey": "元当主の執念を囁きから解放してあげたことで、幽霊の深海も崩れていく。<br>深海が消えていくにつれ、周りからアンセムが聞こえてきた。あなたは自分が聖堂の中にいることに気付き、そして「死んで」いったはずの少女たちが、今生きているかのように目の前に立っている。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "チェリー",
+          "PlotLineKey": "最初から",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "チェリー",
+          "PlotLineKey": "期待したのが間違いだったの",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "チェリー",
+          "PlotLineKey": "どんな願いも叶えてくれる",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "チェリー",
+          "PlotLineKey": "この城に隠された秘薬",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "チェリー",
+          "PlotLineKey": "私たちは闇に挑み",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "チェリー",
+          "PlotLineKey": "恐怖を飲み込んだ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "チェリー",
+          "PlotLineKey": "ここには何もない 死と静寂と 私たち以外に",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "チェリー",
+          "PlotLineKey": "「秘薬」",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "チェリー",
+          "PlotLineKey": "血の涙で作られ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "チェリー",
+          "PlotLineKey": "「毒薬」",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "チェリー",
+          "PlotLineKey": "すべてを甘い夢に変える",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "チェリー",
+          "PlotLineKey": "私たちはやがて",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "チェリー",
+          "PlotLineKey": "闇を切り抜け",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "チェリー",
+          "PlotLineKey": "階段を登った",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 9
+    },
+    {
+      "Title": "LevelPlay_153000000_ChildQuestTip_153_180"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "チェリー",
+          "PlotLineKey": "カンタレラお姉さんが当主になってから、私たちはここにずっと隠れてるの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "チェリー",
+          "PlotLineKey": "教団の連中は過去について探ってるから、外に出たら危ない目に遭うって分かってる。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "チェリー",
+          "PlotLineKey": "でも、チェリーは本当の家に帰りたい……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "チェリー",
+          "PlotLineKey": "カンタレラお姉さんが<ano=かんこんさい>還魂祭</ano>を行ってくれるおかげで、この季節は毎年、お面をつけて故郷の家族を見に行けるの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "チェリー",
+          "PlotLineKey": "ジョジョちゃんの元気な姿を見て、やっと胸を撫で下ろした。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "今夜が終われば、もういつまでも家族と過ごせるわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "「<ano=げっけいかん>月桂冠</ano>」が、テーマを解いてくれたのよ。{Male=彼;Female=彼女}はわたくしと共に、この「起死回生」の秘薬を作るわ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 461,
+              "PlotLineKey": "どういうこと？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 462,
+              "PlotLineKey": "事の全容が分かった気がする。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "逆さまの塔で<ano=めいしき>鳴式</ano>の嘘が暴かれてから、外の周波数と状況が変わったわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたがリナシータに来て以降、教団は昔の勢いを失いつつあった。彼らは内部の問題だけで手一杯。フィサリアファミリーに構っている余裕はないわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "この城は<ano=めいしき>鳴式</ano>の囁きの影響を最も深く受けている場所。ここに閉じ込められていた歴代の当主に、試練で命を落とした可哀相な少女たち……その周波数は全部、鳴式と同時に消えてしまったわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "彼らを閉じ込めた囁きは消えた。けれど、長年の恐怖や痛み、悔しさが一瞬にして広がり、新しい檻を作ってしまった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "外の状況より、内なる枷のほうが重かったのかもしれない。でも幸い、それは今わたくしたちの手で解消された。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "みんなをそろそろ帰らせてあげましょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたを危険に晒すつもりはなかった。最初は自分一人で成し遂げようとしたわ。だから主催者として、テーマを「幽霊少女」に決めて自ら<ano=かんこんさい>還魂祭</ano>に参加したのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "「幽霊の深海」で謎を解き、起死回生の秘薬を手に入れたことにしようと思ったの。そして、<ano=かんこんさい>還魂祭</ano>の時に「秘薬」を使って、みんなを「復活」させようと思ったわけよ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 471,
+              "PlotLineKey": "あのメールは？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 472,
+              "PlotLineKey": "{Male=俺が受けた影響は？;Female=私が受けた影響は？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたが現れたのは偶然のようで、必然だったわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あのメールを送ったのは、わたくしではない。でも、おそらく差出人は知っているはずよ。あなたをわたくしの元へ送ってきてくれたのは、あの子だもの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "異常周波数の影響が出たのは、彼女の本意ではないはず。でも、彼女は歪んだソノラの中に留まりすぎたせいで……周波数と一体化してしまった。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あのメールを見て、あなたが受けた影響をわたくしは察知した。巻き込まずに済ませるのは不可能だと。幽霊の深海から溢れだした周波数は、すでに特殊な体質を持ったあなたに影響を及ぼしていたから。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "振り返ってみると、身の程知らずだったわ……あっ、こんな姿を見せるつもりじゃ……ごめんなさい。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "海底の暗流は荒く、海藻は絡み合っている。わたくしでも、そこから抜け出せない時があるわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "でも、あなたは海藻を解き、荒立つ暗流を乗り越えてくれた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたのおかげで、起死回生の秘薬を作る成功率は大幅に上がったわ……材料だけでなく、工程や気持ちも重要だと伝えたでしょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたに心から感謝するわ――わたくしの元に来てくれて、ありがとう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "チェリー",
+          "PlotLineKey": "カンタレラお姉さん、何でも一人で抱え込まないでね。時には信頼できる仲間も頼らないと。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そうね。では{PlayerName}、もう一つお願いを聞いてくれないかしら？この「起死回生」の秘薬を使って、彼女たちを家まで送り届けてほしいの。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "悪名高いフィサリアファミリーが顔を出すと、面倒事が起きてしまうかもしれないわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "それに、逆さまの塔を正した「<ano=げっけいかん>月桂冠</ano>」のあなたには、不可能を可能にする力がある。あなたの言葉なら、みんな信じて疑わないでしょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "おそらく教団も、あなたの身分と能力を憚り、深く追及してこないでしょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "何より、あなたが参加してくれたおかげで、「起死回生」の秘薬が完成した。この役目は、誰よりあなたに相応しいわ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 488,
+              "PlotLineKey": "最後まで付き合うよ。",
+              "PlayVoice": false,
+              "JumpToId": 31
+            },
+            {
+              "TextId": 489,
+              "PlotLineKey": "{Male=自分の汚名をそそぎたいとは思わないのか？;Female=自分の汚名をそそぎたいとは思わないの？}",
+              "PlayVoice": false,
+              "JumpToId": 32
+            }
+          ]
+        },
+        {
+          "Id": 31,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ありがとう。わたくしが……いえ、フィサリアファミリーが全力で支援するわ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 34
+        },
+        {
+          "Id": 32,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふふ、名声なんて気にしても仕方ないわ。それに、わたくしたちのことは警戒しておくくらいでちょうどいいのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "大きなファミリーには、古い問題も多いから……昔から続く風習や伝統も、少しずつ改めていかないといけないわね。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 34
+        },
+        {
+          "Id": 34,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "みんな、荷物をまとめてきて。{PlayerName}と一緒に家まで送るわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 41,
+          "Speaker": "Narrator",
+          "PlotLineKey": "カンタレラはあなたに、事の経緯を説明した：逆さまの塔の中にあった鳴式の嘘が暴かれてから、外の世界の周波数や状況は大きく変わった。今こそ、少女たちを現実へと帰す最も良いタイミングであると。<br>元々、カンタレラあなたを巻き込むつもりはなく、一人で解決しようとしていた。そこで彼女は「主催者」として、「幽霊少女」というテーマを選び、自ら「還魂祭」に参加した。<br>自ら「幽霊の深海」に赴き、テーマを解いて起死回生の秘薬を手に入れたと宣言するつもりだった。そして夜中に幽霊たちが現れるその時に乗じて、「秘薬」を使って少女たちを送り帰そうと決めていたのだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "カンタレラと会話し、共に幽霊の深海へ"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "準備はできたかしら？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1236,
+              "PlotLineKey": "できた。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 1237,
+              "PlotLineKey": "もう少し待って。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "行きましょう。共に幽霊の深海へ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "なら、もう少しヴィオラカの香りを楽しんでおくわ。",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "城のホールに戻り、彼女たちと最後の別れを告げる"
+    },
+    {
+      "Title": "挑戦開始"
+    },
+    {
+      "Title": "「演算領域」を出る"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "チェリー",
+          "PlotLineKey": "カンタレラお姉さん、今まで本当にありがとう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "チェリー",
+          "PlotLineKey": "でも、私たちがいなくなったらお姉さんが一人になっちゃう……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "チェリー",
+          "PlotLineKey": "お姉さんだけ、こんな寂しい思いをする必要ないのに。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "チェリー",
+          "PlotLineKey": "試練の時、言ってたよね。ここを離れて、誰も知らない場所へ行きたい。名前を隠して、自由に生きていきたい、って。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "チェリー",
+          "PlotLineKey": "なのに、この冷たいお城で全部を背負わなくていいんだよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしが当主である限り、過去は過去のままよ。誰にも深堀りはさせない。試練の再開もあり得ない。これ以上、命を傷つけさせやしないわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくし一人の自由と引き換えに、みんなが自由を取り戻せるのなら、それでいいのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "さあ、行きましょう。そろそろ時間だわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 9,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたたちは少女たちを故郷へ送り届ける準備を進める。出発前、少女たちは長年にわたって自分たちを支えてくれたカンタレラに感謝の言葉を述べ、最後の別れを告げた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=今夜のテーマは解かれた これが「起死回生」の秘薬だ;Female=今夜のテーマは解かれた これが「起死回生」の秘薬}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "本当に 忘れられない夜になったわ",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "還魂祭が終わると、いつもの静かな町に戻った。<br>風車は独りでに回り、のんびりと夜明けの涼風を撫でている。<br>さっきまでの出来事が、一夜の夢幻のように儚く消えた。<br>でも、あなたは分かっている、あれは幻なんかじゃない。その理由は、カンタレラの熱を感じているからだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アブ",
+          "PlotLineKey": "うはぁ……よく寝た。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アブ",
+          "PlotLineKey": "クンクン……変な匂いはもう消えたぞ。いつものいい匂いがする。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アブ",
+          "PlotLineKey": "今日はすごく甘い夢を見たんだ！夢の中で、たくさんの可愛い<ano=おんがい>音骸</ano>たちとダンスをしたぞ、へへっ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アブ",
+          "PlotLineKey": "あっ……まだ寝てたかったか？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1092,
+              "PlotLineKey": "そうだね……おやすみ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1093,
+              "PlotLineKey": "{Male=やっと気づいたか？;Female=やっと気づいたの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "アブ",
+          "PlotLineKey": "分かった……我はまた寝るよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふふ、どうやら回復したようね。良かったわ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そろそろ時間ね。もしよければ、わたくしの城で少し休んでいかないかしら？",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1094,
+              "PlotLineKey": "疲れてるから助かる。",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 1095,
+              "PlotLineKey": "カンタレラもお疲れ、城まで送るよ。",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "カンタレラは微笑んでみせた。穏やかな海のような瞳から、優しさと温もりを感じる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "彼女は知っている、あなたが自分よりも強いことを。それでも彼女は、あなたをずっと守り続けたいと心から思っている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "光栄だわ、マイ{Male=ジェントルマン;Female=レディー}。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 16,
+          "Speaker": "Narrator",
+          "PlotLineKey": "還魂祭が終わり、少女たちも故郷へ帰った。あなたとアブへの影響もなくなり、いつもの平穏な暮らしに戻った。<br>さっきまでの出来事は、一夜の夢幻のように儚く消え去った。しかし、それは幻などではないとあなたは知っている。ずっと傍に、カンタレラの温もりを感じていたからだ。<br>カンタレラは、あなたが自分よりもずっと強いことを理解していたものの、それでも心配せずにはいられず、穏やかさを取り戻したお城で休息をとるようにと誘ってくれた。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたがいてくれると、この無駄に広い城も寂しく感じないわね。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 858,
+              "PlotLineKey": "フィサリアは、いったい……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 859,
+              "PlotLineKey": "聖女の試練は……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "フィサリアファミリーは、これまでずっと己の大義を忘れなかった。つまり、<ano=めいしき>鳴式</ano>の精神干渉に抗い、<ano=さいしゅ>歳主</ano>という本当の信仰を貫いてきたのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "でも、最も意志の強い聖女を選出するために、残酷な試練が繰り返されてきた。意志の強い人だけが、深海のささやきに耐え、希望の光を掴めると信じて。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "歴代の当主がしてきたことは、どれも大義のため。だからといって、そのために、あれほどの罪なき命を犠牲にしなければならないなんて……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしはどんな事情があれ、犠牲を正しく思ってはいない。それは強者の弱者に対する、ただのいじめよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "もちろん、火起こしは重要。でも、燃料となる薪は無限にあるわけじゃない――無駄な消耗は避けるべきよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ましてや、わたくしたちは薪などではない。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 860,
+              "PlotLineKey": "だから、あなたは自分の力を……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 861,
+              "PlotLineKey": "だから、あなたはもう一つの可能性を見つけた。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ええ、神権の剣を握り締めた瞬間に感じたの、わたくしよりも、<ano=フルールドリス>もっと強力な共鳴者</ano>がいることを。あの時、別の可能性が見えた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そこでわたくしは、自分の二次共鳴の力を彼女に渡してほしいと、<ano=さいしゅ>歳主</ano>にお願いしたのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "「分断」の力を持つ<ano=さいしゅ>歳主</ano>が、初めてわたくしの「融合」の提案に賛同してくれた。わたくしの力を彼女の力と融合させれば、<ano=めいしき>鳴式</ano>と戦える。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしたちは小さい勝利こそ得ていたけれど、<ano=めいしき>鳴式</ano>は想像以上に手強かった……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "再び聖女の試練が行なわれないように、そして、本当の勝利を手にするために、わたくしは当主になった。フィサリアファミリーの権力を、わたくしが使えるすべてを使うために。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "表では教団と協力するふりをして、<ano=めいしき>鳴式</ano>の気を紛らわす。その裏で、<ano=さいしゅ>歳主</ano>を完全に救出する方法や鳴式を打ち倒す方法を探っていたのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "そんな時、あなたが現れた。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 862,
+              "PlotLineKey": "{Male=だから俺を神権の剣のところに……;Female=だから私を神権の剣のところに……}",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 863,
+              "PlotLineKey": "{Male=大変だったんだな。;Female=大変だったね。}",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ふふ……リナシータの地にあなたが足を踏み入れてから、あらゆる方法でわたくしは観察していたのよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたのことなら、な～んだって知っているわ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 17,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "ただあなたと同じように、わたくしは自分の歩むべき道を選んだだけ。そして一度決めた道を、最後まで突き進んだ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "それに、あなたに比べたら大したことないわ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 19,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "あなたは逆さまの塔に巣くう<ano=めいしき>鳴式</ano>を倒して、リナシータの人々を、少女たちを……わたくしを救ってくれた。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "無事、少女たちは故郷に帰った。フィサリアの城から、二度と<ano=めいしき>鳴式</ano>の囁きが聞こえることはない。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "教団も譲歩するでしょう。リナシータの空を覆う暗雲は晴れたわ。すぐに穏やかな日常が戻ってくるはずよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "もう、誰も傷つかずに済むのね……この平和な暮らしは、あなたの手によって生まれた奇跡。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "リナシータのために尽くしてくれたあなたに、フィサリアファミリーの当主として秘薬を贈りましょう。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "永遠の若さを保つ秘薬？けど、あなたの共鳴能力なら、実現できているような……",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "それなら、石を金に変える秘薬にしましょうか。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "カンタレラ・フィサリアは、{PlayerName}にすべての秘薬を……ファミリーのすべてを、あらゆる秘密を贈るわ。",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 864,
+              "PlotLineKey": "{Male=多すぎだ。;Female=多すぎだよ。}",
+              "PlayVoice": false,
+              "JumpToId": 27
+            },
+            {
+              "TextId": 865,
+              "PlotLineKey": "すべてを？じゃあ……",
+              "PlayVoice": false,
+              "JumpToId": 28
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "これくらい、お安いご用よ。あなたに捧げられるのなら、むしろ光栄だわ。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 29
+        },
+        {
+          "Id": 28,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしたちは、もはや一心同体。",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 29
+        },
+        {
+          "Id": 29,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "今日は本当に助かったわ。今のあなたに必要なのは、甘い夢ね。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "わたくしが新しく調合した秘薬よ。いい香りのネムノキを入れてみたわ。あなたを現実から夢に誘ってくれるはずよ。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "カンタレラ",
+          "PlotLineKey": "おやすみなさい、{PlayerName}。",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 41,
+          "Speaker": "Narrator",
+          "PlotLineKey": "あなたとカンタレラの二人しかいない広大な城の中で、彼女は隠すことなくすべてを打ち明けてくれた。<br>フィサリアファミリーが今までずっと守ってきた大義は、鳴式の精神干渉に抗い、本当の信仰対象である歳主への信奉を貫くことなのだ。<br>残酷な試練も、揺るぎない意志を持つ聖女を選出するため。意志が堅固でなければ、鳴式の囁きによる侵食から身を守ることはできない。<br>カンタレラは、この「必要な犠牲」として他人の意志を奪うことに賛同できなかったものの、最終的な勝利を確実にするためにはそれが必要だと理解していた。<br>だから、彼女は自ら進んで二次共鳴の力を捧げ、自分一人しか傷つくことのない世界を選んだのだ。<br>彼女は表では教団と協力するふりをして、鳴式の警戒を弱め、裏では歳主を完全に解き放ち、鳴式を打ち破ることのできる方法を模索していた。<br>そしてやっと、あなたという答えに辿り着いた――このような静かで穏やかな日常こそ、カンタレラがあなたとともに創り上げた、奇跡なのだ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

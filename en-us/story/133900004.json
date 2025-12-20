@@ -1,0 +1,434 @@
+{
+  "Id": 133900004,
+  "Name": "The Bizarre Brothers",
+  "Description": "You helped the three brothers with their respective troubles, and they want to thank you in person.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 133900004,
+  "ShowQuestList": [],
+  "QuestDesc": "You helped the three brothers with their respective troubles, and they want to thank you in person.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900001,
+      "PreQuestName": "The Bizarre Brothers: Fratellone"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900002,
+      "PreQuestName": "The Bizarre Brothers: Fratello"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900003,
+      "PreQuestName": "The Bizarre Brothers: Fratellino"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Awesome, you're still here!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "We were just chatting and realized you've actually lent a hand to all three of us!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fratello",
+          "PlotLineKey": "Yeah! You are on fire! No wonder you're the strongest in the world!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Thank you so much!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 70,
+              "PlotLineKey": "Don't mention it.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 71,
+              "PlotLineKey": "Well, I need more than just compliments.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Such modesty! Joining the Pioneer Association is a dream come true, and you've helped us so much! We'll thank you properly for sure!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Of course! Joining the Pioneer Association is a dream come true, and you've helped us so much! We'll thank you properly for sure!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fratello",
+          "PlotLineKey": "The strongest deserves the finest! We'll give you something blazing!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Hear hear! We're planning to commission a <span style=\"color:#ffd12f;\" class=\"font-bold\">statue</span> in your honor, and it will be placed right here!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Alright, hit us with your coolest pose!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "Ponder like a thinker.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 73,
+              "PlotLineKey": "Stand tall like a warrior.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Okay, I've got the picture! We'll send it to the sculptor. Come back in a few days, and you'll see your <span style=\"color:#ffd12f;\" class=\"font-bold\">exclusive statue</span>!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Ah... here you are. L-look at the \"statue\" we prepared for you! Hahaha...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 130,
+              "PlotLineKey": "This isn't a statue at all.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 131,
+              "PlotLineKey": "This isn't the pose I struck.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "It was supposed to be a statue, but, well, something went a little wrong.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "After the stone arrived, I was worried someone would steal it, so I stayed here and had Fratello deliver your portrait to the sculptor.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fratello",
+          "PlotLineKey": "That's right. I almost ran my life out delivering it, and then... I got lost! Haha!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "I figured Fratello was lost when he didn't come back, so I grabbed the backup portrait and went to find the sculptor.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "But I dropped the portrait somewhere along the way...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "I got really worried waiting around, so I decided to go looking for them. But I couldn't leave the stone behind, so I carried it with me, and in the end, I tripped and the stone fell off a cliff...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "With the stone gone, we had no choice but to use the commission fee to buy a projector and display your pose here instead.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fratello",
+          "PlotLineKey": "It's actually not that bad, right?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Yeah, it does match the vibe of the town!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 132,
+              "PlotLineKey": "Alright...",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 133,
+              "PlotLineKey": "I still want my statue!",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Thanks for being understanding, haha!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 12,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Well, we spent all of our savings on this, so making a new statue might be a bit too much to handle...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Fratello",
+          "PlotLineKey": "Or maybe we should put our plan to join the Pioneer Association on hold for now and focus on saving up!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "If everything goes smoothly, we should have enough money in three or four years to build your statue!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "That's not necessary...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Thank you for your understanding, haha.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Now, if you'll excuse us, we're heading off to the Association. Till we meet again!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Ah... here you are. L-look at the \"statue\" we prepared for you! Hahaha...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 130,
+              "PlotLineKey": "This isn't a statue at all.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 131,
+              "PlotLineKey": "This isn't the pose I struck.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "It was supposed to be a statue, but, well, something went a little wrong.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "After the stone arrived, I was worried someone would steal it, so I stayed here and had Fratello deliver your portrait to the sculptor.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fratello",
+          "PlotLineKey": "That's right. I almost ran my life out delivering it, and then... I got lost! Haha!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "I figured Fratello was lost when he didn't come back, so I grabbed the backup portrait and went to find the sculptor.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "But I dropped the portrait somewhere along the way...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "I got really worried waiting around, so I decided to go looking for them. But I couldn't leave the stone behind, so I carried it with me, and in the end, I tripped and the stone fell off a cliff...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "With the stone gone, we had no choice but to use the commission fee to buy a projector and display your pose here instead.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fratello",
+          "PlotLineKey": "It's actually not that bad, right?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "Yeah, it does match the vibe of the town!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 132,
+              "PlotLineKey": "Alright...",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 133,
+              "PlotLineKey": "I still want my statue!",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Thanks for being understanding, haha!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 12,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Well, we spent all of our savings on this, so making a new statue might be a bit too much to handle...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Fratello",
+          "PlotLineKey": "Or maybe we should put our plan to join the Pioneer Association on hold for now and focus on saving up!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Fratellino",
+          "PlotLineKey": "If everything goes smoothly, we should have enough money in three or four years to build your statue!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "That's not necessary...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Thank you for your understanding, haha.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "Fratellone",
+          "PlotLineKey": "Now, if you'll excuse us, we're heading off to the Association. Till we meet again!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

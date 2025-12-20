@@ -1,0 +1,1084 @@
+{
+  "Id": 936850001,
+  "Name": "전장의 흔적을 찾아서",
+  "Description": "하늘의 구름조차 울부짖음을 기록하고, 광활한 황야엔 전사들의 발걸음이 여전히 남아있다. 휘몰아치는 급류는 용사의 열정을 담고 있고, 이곳 만물은 영광스러운 역사를 새겼다. 일곱 언덕 사람들이 손수 세운 높은 성, 뾰족한 탑, 높고 큰 성벽은 그들의 용맹함을 숭배하는 정신을 증명하고 있다.\n항구에서 말다툼하는 부녀를 만나게 되었다. 예상치 못하게도 이를 계기로 일곱 언덕의 역사를 찾아 헤매는 여정이 시작되었다…",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 936850001,
+  "ShowQuestList": [],
+  "QuestDesc": "하늘의 구름조차 울부짖음을 기록하고, 광활한 황야엔 전사들의 발걸음이 여전히 남아있다. 휘몰아치는 급류는 용사의 열정을 담고 있고, 이곳 만물은 영광스러운 역사를 새겼다. 일곱 언덕 사람들이 손수 세운 높은 성, 뾰족한 탑, 높고 큰 성벽은 그들의 용맹함을 숭배하는 정신을 증명하고 있다.\n항구에서 말다툼하는 부녀를 만나게 되었다. 예상치 못하게도 이를 계기로 일곱 언덕의 역사를 찾아 헤매는 여정이 시작되었다…",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100021,
+      "PreQuestName": "영광 속 그림자"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 11900018,
+      "PreQuestName": "먼길에 남겨진 비늘의 흔적"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "{PlayerName} 선수시죠? 루파 선수와 함께 우승을 차지한 그 검투사 맞죠!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 238,
+              "PlotLineKey": "네, 맞아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 239,
+              "PlotLineKey": "왜 다투고 있는 거죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "안녕하세요, 저는 니쿠스라고 해요. 조금 갑작스럽지만, 마침 잘 오셨네요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "우승자님이시라면 검투사의 의미를 잘 이해하고 계시겠죠. 제발 이 아이를 좀 설득해 주세요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "사실 저도 검투사였는데 은퇴 후 제 딸 포스투미아가 이 영광스러운 전통을 이어가길 바랐지만 항상——",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "누가 저를 설득하더라도 소용없거든요! 더 이상 검투사는 하고 싶지 않다고요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "포스투미아는 아버지에게 혀를 내밀고는 달려나가 군중 속으로 사라졌다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "죄송해요, 못 볼 꼴을 보였네요. 이 화제를 이야기할 때마다 항상 불쾌하게 헤어지곤 해요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "하지만 아까 말씀드렸듯, 우승자님이시라면 그 아이를 설득할 수 있을 거예요. 우승자라는 타이틀은 모든 일곱 언덕 사람들에게 특별한 의미가 있으니까요. 그 아이에게도 분명 그럴테죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "그 아이는 싸우고 나면 늘 <span style=\"color:#ffd12f;\" class=\"font-bold\">거석 평원</span>에 가서 혼자 화를 삭히고 있더라구요. 그곳의 위치를 알려드릴까요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 240,
+              "PlotLineKey": "직접 그녀를 찾으러 가지 않으실 건가요?",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 241,
+              "PlotLineKey": "그녀의 안전은 걱정되지 않으세요?",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "저는 포스투미아와 검투사의 의의를 자주 이야기하곤 하지만, 부끄럽게도 그 아이는 이렇게 싸우고 도망치는 경우가 많았어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "제가 직접 찾아가면 상황을 악화시킬 뿐이에요. 차라리 시간을 주는 게 나을 거예요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 12,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "포스투미아가 아무리 싫어해도 그 아이는 검투사로서의 재능을 분명히 가지고 있어요. 그 점이 오히려 안타까울 정도예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "온 마음을 다해 검투사 훈련에 집중한다면 분명 큰 성과를 이룰 텐데...",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 14,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "제 보답이 필요하지 않으시더라도, 최대한 많은 보상을 준비해 둘게요. 제발 포스투미아가 마음을 돌리게 도와주세요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 242,
+              "PlotLineKey": "만약 그녀가 끝까지 거부한다면요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "그럼 다른 방법을 찾아야겠죠. 저는 여전히 그 아이가 검투사의 의의를 이해하고 이 영광을 이어가길 바라니까요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 243,
+              "PlotLineKey": "그녀를 강요하지 않을 거예요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 244,
+              "PlotLineKey": "먼저 그녀의 생각을 알고 싶어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "알겠어요. 하지만 결과가 어떻든 우승자님의 말씀은 분명 그 아이에게 영향을 줄 거예요. 당신은 일곱 언덕의 우승자이시니까요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "당신이군요... 죄송해요. 아까 너무 흥분했어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "오해하지 마세요. 저는 검투사는 되기 싫지만, 검투사에 대한 존경심은 누구보다 커요. 특히 당신 같은 우승자는 더 말할 필요도 없고요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "제 소개 다시 한번 할게요. 저는 포스투미아라고 해요. 장래희망은 일곱 언덕의 사관이 되는거예요!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 192,
+              "PlotLineKey": "사관?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 193,
+              "PlotLineKey": "검투사는 정말 하기 싫어요?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "네. 일곱 언덕의 역사를 기록해서 후세 사람에게 전하고 싶어요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "아버지가 당신을 보내서 설득하려는 거죠? 이런 일까지 남에게 맡기다니... 불편을 끼쳐드려 정말 죄송해요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "사실 아버지와 싸운 이유가 바로 이것이었어요. 처음엔 그냥 대충 검투사 훈련을 받고 나서 하기 싫다고 말하면 될 줄 알았는데...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "예상치 못하게 아버지는 점점 더 집착하시더라고요. 꼭 저를 검투사로 만들려고요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 194,
+              "PlotLineKey": "당신은 재능이 있으니까요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "알아요. 제가 방금 말했듯이 저는 검투사에 대한 존경심만 가지고 있지, 그게 제가 하고 싶은 일은 아니에요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "어렸을 때 일곱 언덕의 힘든 역사를 읽고 큰 감동을 받았어요. 일곱 언덕을 찾아온 모든 이들이 그 고난과 전투, 영광, 그리고 일곱 언덕 사람들의 강인함으로 가득 찬 역사를 알아주셨으면 좋겠어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "아버지도 이해해 주신다면——",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "아, 알겠어요! 일곱 언덕 각지에 남겨진 역사의 흔적을 기록해서 아버지께 보여 드리면 분명 이해해 주실 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "보세요. 이곳 <span style=\"color:#ffd12f;\" class=\"font-bold\">거석 평원</span>도 아주 좋아요. 여기는 일곱 언덕의 선조들이 처음 발을 디딘 곳이에요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "여기 우뚝 서 있는 웅장한 돌기둥들과 힘차게 펼쳐진 돌 우산, 돌단들이 보이시죠? 선조들은 이 황량하지만 장엄한 풍경 속에서 우리의 굳센 마음을 읽으셨다고 하네요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "그래서 기분이 안 좋을 때면 이곳에 와서 이 경치를 바라보곤 해요. 선조들이 망명 생활을 마치고 이 땅을 밟았을 때의 기쁨을 상상하면, 과거로부터 위로받는 것 같거든요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "그럼, 저와 함께 일곱 언덕 각지의 기이한 경치를 기록해보시겠어요? 당신은 일곱 언덕의 우승자잖아요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(아버지와 딸이 똑같은 말을 하네...)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "「사악한 파도가 산을 휩쓸고, 거대한 용이 울부짖네, 죽음의 기운이 휘돌며, 대지를 뒤덮는구나.」 선조들이 석룡의 무덤을 보고 남긴 시예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "아시다시피, 일곱 언덕 사람들은 늘 힘과 투쟁을 말해요. 예로부터 이게 우리 역사의 큰 흐름이니까요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "눈앞의 거대한 용들은 예전에 칼날처럼 서 있는 경계의 산에 서식했죠. 활짝 펼친 용의 날개는 해를 가렸고, 울음소리는 섬 전체를 뒤흔들 정도로 강력했어요. 그 힘을 의심하는 사람은 없었어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "하지만 <ano=검은 파도>흑조(黑潮)</ano>가 휩쓸고 지나간 후, 그 거대한 용들도 결국 비참한 유해만 남았어요...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 259,
+              "PlotLineKey": "일곱 언덕은 이런 운명을 맞이하지 않을 거예요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "당연하죠! 이 산을 보세요. <ano=검은 파도>흑조(黑潮)</ano>가 일곱 언덕을 삼킬 기세로 대지를 휩쓸 때, 우뚝 솟은 경계의 산에 부딪혔어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "그 산체는 <ano=검은 파도>흑조(黑潮)</ano>를 막아 하얀 모습으로 부식되었지만 일곱 언덕의 뿌리는 지켜냈죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "우승자님, 느껴지시나요? 위기가 닥치면 일곱 언덕 사람들뿐만 아니라 이 땅까지도 일곱 언덕을 지키기 위해 목숨을 걸고 싸울 거예요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 260,
+              "PlotLineKey": "이게 바로 일곱 언덕의 가장 고귀한 특성이죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "헤헤, 이방인이신 우승자님께 칭찬을 들으니 좀 부끄럽네요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "그리고 <ano=검은 파도>흑조(黑潮)</ano>와의 싸움에서 희생된 영웅들을 기리기 위해 영광의 골짜기를 세운 것처럼, <ano=검은 파도>흑조(黑潮)</ano>에 휩쓸려 사라진 이 거대한 용들도 잊지 않을 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "그들도 우리와 같은 땅, 같은 하늘을 공유했으니까요. 그들을 기억하는 건 후손들에게 경고하는 것일 뿐만 아니라, 한때 강력한 힘을 가졌던 거대한 용에 대한 존경심을 나타내는 것이기도 하죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "그럼 여기까지 할게요. 경계의 산이 헌신한 모습을 기록으로 남기고 싶어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "다음은... 아! 우승자님 우리 <span style=\"color:#ffd12f;\" class=\"font-bold\">탄식의 협곡</span>으로 가요. 거긴 조금 위험하긴 하지만, 우리에게는 문제될 것 없어요!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "어릴 때 아버지는 이 거대한 조각상 앞에 절 데려와서는 「영웅의 왕」의 강력한 힘과 역사에 기록된 전투 장면을 열심히 설명하셨죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "아마도 제가 그 이야기에 감동받아 검투사 훈련에 더욱 힘쓰길 바라셨던 거겠죠? 하지만 당시 제 마음은 다른 감정으로 가득 차 있었어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "「영웅의 왕」 파비우스가 수호신 임페라토르와 함께 사나운 <ano=검은 파도>흑조(黑潮)</ano>에 맞섰다는 기록은 한때 저에게 큰 충격을 주었고, 이 조각상은 그의 위대한 업적을 증명하죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "이게 바로 역사를 계승하는 의미예요. 후세 사람들이 그를 영원히 기억할 수 있도록 말이죠. 하지만 뛰어난 실력에 용맹하기까지 한 전사 파비우스와 비교하면 저는...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "슬로빅",
+          "PlotLineKey": "아가씨도 위풍당당한 검투사잖아요! 안녕하세요, 저는 슬로빅이라고 해요. 얼마 전 검은 해안에서 경계의 산 <ano=검은 파도>흑조(黑潮)</ano> 관측탑으로 파견됐어요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 541,
+              "PlotLineKey": "당신도 계셨군요. 깜빡 잊을 뻔 했네요",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 542,
+              "PlotLineKey": "경계의 산에서 여기까지 놀러 오신 건가요?",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "슬로빅",
+          "PlotLineKey": "이 아가씨가 감성에 젖어 계시는데 끼어들 수야 없죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "슬로빅",
+          "PlotLineKey": "그리고 역사 이야기를 더 듣고 싶거든요. 저는 일곱 언덕 문화를 정말 좋아해서, 이곳에 파견된다는 소식을 들었을 때 정말 기뻤어요!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 8,
+          "Speaker": "슬로빅",
+          "PlotLineKey": "히힛, 바쁜 와중에 잠깐 쉬는 거예요. 게다가 저는 일곱 언덕 문화를 정말 좋아해서, 이곳에 파견된다는 소식을 들었을 때 정말 기뻤어요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "슬로빅",
+          "PlotLineKey": "이제 여유가 생기면 여기저기 구경 다니고, 휴가에는 검투 대회도 보러 갈 거예요!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 10,
+          "Speaker": "슬로빅",
+          "PlotLineKey": "요즘은 일곱 언덕을 더욱 사랑하게 되었어요. 왜냐하면 관측탑에 있는 동안 연구는 순조로웠지만, <ano=검은 파도>흑조(黑潮)</ano> 의 무서움도 더욱 더 실감했거든요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "슬로빅",
+          "PlotLineKey": "그래서 직접 <ano=검은 파도>흑조(黑潮)</ano>에 맞선 일곱 언덕이 더 대단하게 느껴졌어요. 게다가 일곱 언덕에는 포스투미아 씨처럼 당당한 검투사들이 아직도 많잖아요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "슬로빅",
+          "PlotLineKey": "우리도 더 열심히 노력해서 <ano=검은 파도>흑조(黑潮)</ano>에 대한 의미있는 연구 성과를 내야겠어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "하지만 저는... 네. 노력할게요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "자, 우승자님, 이제 일곱 언덕을 영원히 지켜보는「영웅의 왕」 파비우스를 기록하세요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "그럼 바로 다음 목적지인 일곱 언덕의 심장, 즉 <span style=\"color:#ffd12f;\" class=\"font-bold\">카피톨리누스 언덕</span>을 향해 출발하시죠",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "어때요? 황야를 건너 <span style=\"color:#ffd12f;\" class=\"font-bold\">카피톨리누스 언덕</span>까지 함께 가실래요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 376,
+              "PlotLineKey": "네, 같이 가요",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 377,
+              "PlotLineKey": "아직 준비를 좀 해야 해요",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "좋아요! <span style=\"color:#ffd12f;\" class=\"font-bold\">카피톨리누스 언덕</span>의 절경이 우릴 기다리고 있어요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "알겠어요. 평소처럼 거기서 만나도 괜찮아요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "일곱 언덕 성, 카피톨리누스 언덕 도시, 혹은 그리핀의 요새... 이곳은 많은 이름을 가졌어요. 마치 일곱 언덕 사람들의 다채로운 특성을 상징하듯이요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "일곱 언덕을 모르는 이들은 우리를 오만하고 거만하다 생각하죠. 마치 멀리서 일곱 언덕 성의 웅장한 모습을 바라보는 것처럼요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "하지만 한 번 친해지면, 우리의 열정이 태양처럼 뜨겁고, 영광이 눈부시게 빛난다는 걸 알게 될 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "일곱 언덕 성에 발을 들여놓으시는 순간, 번화하고 활기찬 기운이 넘쳐흐르며 사방에서 모인 이들을 따뜻하게 맞이하죠",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 565,
+              "PlotLineKey": "저도 깊이 공감해요",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 566,
+              "PlotLineKey": "저도 일곱 언덕의 일원이 되었어요",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "우승자님은 「공감」정도가 아니에요! 이미 일곱 언덕의 일원이자, 일곱 언덕 정신을 가장 잘 나타내는 분이시죠!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "당연하죠! 우승자님은 일곱 언덕의 진정한 상징이에요!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "이 길을 걸어오면서 일곱 언덕의 비참한 과거를 목격했지만, 지금 앞에 있는 이 웅장한 도시는 일곱 언덕의 영광스러운 미래를 상징하죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "이 「미래」는 제가 기록하게 될 거고, 언젠가는 후세 사람들이 동경하는 「과거」가 되겠죠. 이게 바로 제가 사관이 되고 싶은 이유예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "하지만... 이걸로 충분할까요? 만약 이「미래」에 일곱 언덕이 새로운 위기를 맞이한다면, 더 많은 전사들이 필요할 텐데...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "그때가 되면 제가 아버지 말씀대로 재능을 낭비하고 후회만 하는 사람이 되는 걸까요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 567,
+              "PlotLineKey": "이 모든 것을 혼자 짊어질 필요 없어요",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 568,
+              "PlotLineKey": "하고 싶은 일을 하면 돼요",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "위로해 주셔서 고마워요, 우승자님. 하지만 아버지는——",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 12,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "위로해 주셔서 고마워요, 우승자님. 하지만 저는 되게 막막해요. 검투사가 될지, 사관이 될지——",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "어? 우승자님, 이상한 소리 안 들리세요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 569,
+              "PlotLineKey": "네, 큰 귀를 퍼덕이는 소리 같아요",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 570,
+              "PlotLineKey": "정말 살짝 들렸는데, 귀가 참 밝으시네요!",
+              "PlayVoice": false,
+              "JumpToId": 15
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "역시 우승자님이네요. 바로 알아채셨군요! 확실히 파닥의 소리예요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "검투사는 눈치가 빠르고 기민해야죠. 특히 에코의 움직임에 예민해야 하고요. 이건 파닥이 날개를 퍼덕이는 소리예요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "길을 잃은 것 같아요. 파닥은 시끌벅적한 걸 좋아하니까, 혼자 있으면 겁먹을 수밖에 없어요. 어서 찾으러 가죠",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "안녕하세요, 우승자님. 포스투미아와 함께 일곱 언덕 곳곳을 함께 다니느라 정말 고생 많으셨어요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 476,
+              "PlotLineKey": "사실 같이 일곱 언덕 전체를 활보했어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 477,
+              "PlotLineKey": "저도 이 여정에서 많은 걸 배웠어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "정말 어떻게 표현해야 할지 모르겠어요. 특히 우승자님이 찍은 사진과 포스투미아가 들려준 이야기들은 제게 일곱 언덕 역사의 깊이를 생생히 느끼게 해 줬어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "물론 모든 일곱 언덕 사람들이 그 고난의 시절을 알지만, 우리의 「미래」를 기록해서 후세 사람이 동경할 만한 「과거」로 만들자는 포스투미아의 말에 깊은 감동을 받았어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "이 아이의 재능을 검투사에만 국한할 순 없죠. 만약 사관이 되는 것이 이 아이를 행복하게 만들 수 있는 일이라면, 지지해 줘야죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "하지만... 아버지, 저도 이해했어요. 아버지는 제가 검투사의 길뿐만 아니라 일곱 언덕 검투사의 정신을 계승하길 바라셨던 거죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "게다가 이번 여정을 통해, 일곱 언덕 사람들이 검투사에게 바라는 기대가 얼마나 큰지 깨달았어요. 그래서 이 길을 쉽게 포기할 수 없어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "음... 우승자님, 저와 포스투미아의 변화는 모두 당신 덕분이에요. 이 아이는 사관이 되어야 할까요, 아니면 검투사가 되어야 할까요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 478,
+              "PlotLineKey": "검투사는 자유로운 존재예요",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 479,
+              "PlotLineKey": "검투사란 그렇게 속박받는 존재가 아니예요",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "자유... 알겠어요! 우승자님 말씀대로 검투사도, 저도 자유로운 존재예요!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "검, 검투사라고요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "아, 알겠어요. 우승자님은 검투사라는 신분이 속박이 아니라고 말씀하시는 거죠!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "저는 검투사일 수도, 검투사뿐만이 아닐 수도 있거든요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "저는 사관이 될 수 있는 검투사예요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "포스투미아, 그 말은... 검투사 수련을 계속하겠다는 말이야?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "맞아요. 두 분야 모두에 재능이 있으니까, 그냥 낭비할 순 없죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "힘든 길이 될 수도 있겠지만, 일곱 언덕 사람으로서 도전에 맞서야 해요. 그렇죠, 우승자님?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 480,
+              "PlotLineKey": "문무를 겸비한 검투사, 아주 좋네요!",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 481,
+              "PlotLineKey": "당신은 이미 훌륭한 검투사예요",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "헤헤, 우승자님 말이 맞아요. 어쩌면 일곱 언덕에서 화제가 될지도 몰라요! 아 참, 제가 검투 대회에 참여한다면 꼭 응원하러 오세요!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 17,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "우승자님의 그 말씀, 제게는 자부심으로 남을거예요! 검투 대회 나갈 때 꼭 와주셔야 해요!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 18,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "아무튼 다시 한번 감사드립니다, 우승자님",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "제가 가고 싶은 곳을 함께해 주시고, 미래의 방향을 깨닫게 해주셔서 정말 감사합니다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "마지막으로 콜로세움의 모습을 기록하세요. 그 영광, 그리고 여기서 울려 퍼진 함성이 영원히 당신과 함께하길",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "아... 큰일 났네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "버텨요! 우리가 도와줄게요!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "우승자님, 수고 많으셨어요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 608,
+              "PlotLineKey": "정말 당신이었군요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "숨길 수 없을 걸 알았지만, 걱정이 되어 따라왔어요. 그 아이가 우승자님을 끌고 다니며 이런 역사적인 이야기를 들려줄 줄은 몰랐네요. 정말 죄송해요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "하지만 우승자님도 포스투미아의 검투 재능을 보셨을 텐데요. 그 아이가 경기장에서 자신을 뽐내지 않는다면 정말 아깝지 않나요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "게다가 그 아이는 일곱 언덕을 이렇게 사랑하는데... 검투사가 된다면 역사에 남을 수도 있을 거예요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 609,
+              "PlotLineKey": "그녀의 목적은 저에게 일곱 언덕을 소개해주려던 게 아니었어요",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 610,
+              "PlotLineKey": "포스투미아의 생각을 정말 모르시나요?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "그게 무슨 말인지... 설마, 설마 제가 들킨 건가요?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "포스투미아의 생각? 알아요. 그 아이 되고 싶어 하는 건—— 잠깐, 그 아이가 이미 저를 발견했다는 말씀이신가요?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 611,
+              "PlotLineKey": "사실 그녀는 당신에게 이야기를 들려주려던 거예요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "그 이야기... 일곱 언덕의 역사 이야기를 말씀하시는 건가요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "음... 알겠어요, 우승자님. 포스투미아와 계속 함께해 주실 수 있나요? 우리가 대화한 건 비밀로 해주세요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "니쿠스",
+          "PlotLineKey": "저는 생각할 시간도 좀 필요하고 당신들과 함께 이 여행을 마무리하고 싶어요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "포스투미아",
+          "PlotLineKey": "<span style=\"color:#ffd12f;\" class=\"font-bold\">파비우스 영웅 조각상</span>에 가려면 이 바다를 건너야 하는데 갈 길이 멀어요. 우리 함께 가죠!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 615,
+              "PlotLineKey": "네, 같이 가요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 616,
+              "PlotLineKey": "아직 준비를 좀 해야 해요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

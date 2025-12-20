@@ -1,0 +1,458 @@
+{
+  "Id": 135000009,
+  "Name": "Historia Perdida",
+  "Description": "Encuentra cinco faros en Huanglong, recoge información, y ayuda al historiador a encontrar la verdad.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 135000009,
+  "ShowQuestList": [],
+  "QuestDesc": "Encuentra cinco faros en Huanglong, recoge información, y ayuda al historiador a encontrar la verdad.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 135000007,
+      "PreQuestName": "Reparar el faro en la Bahía Wuming"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 135000008,
+      "PreQuestName": "Repara el faro en las Tierras altas de Desoroca."
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 135000054
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 135000046
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 135000038
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historiador",
+          "PlotLineKey": "¡Hola, hola! Debes ser el que resolvió los misterios de los faros.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 262,
+              "PlotLineKey": "Ese soy yo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Por favor, descríbeme tus hallazgos en las consolas. Estoy realmente intrigado.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Le contaste al historiador todo lo que encontraste dentro de las consolas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Hmm... No esperaba que ocurrieran tales historias...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Historiador",
+          "PlotLineKey": "¿Cuál fue el destino final del \"Mantarraya\"? Una pregunta que realmente despertaría el interés de uno... Siento que esto haría un maravilloso tema de investigación.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Habiendo estudiado los registros históricos, he aprendido que hay un total de cinco de estos faros idénticos dentro de Jinzhou.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Obtener los registros de todas las consolas de los faros podría revelar el paradero del \"Mantarraya\".",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Historiador",
+          "PlotLineKey": "¿Podría pedirte un favor de encontrar los registros de los faros restantes? ¡Serás grandemente recompensado!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 263,
+              "PlotLineKey": "No hay problema, déjamelo a mí.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 264,
+              "PlotLineKey": "No importa. Solo estoy aquí por la parte de la historia.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Jaja. ¡Entonces confiaré la tarea a ti!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historiador",
+          "PlotLineKey": "¡Hola, hola! Debes ser el que resolvió los misterios de los faros.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 281,
+              "PlotLineKey": "Sí.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Por favor, descríbeme tus hallazgos dentro de las consolas. Estoy realmente intrigado.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Le contaste al historiador lo que encontraste dentro de las consolas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historiador",
+          "PlotLineKey": "¿¡Cómo podría ser esto!? ¡Lograste encontrar información de todas las consolas de los cinco faros, dices...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Tu pasión por la historia es mucho mayor que la de mis propios alumnos. Esto me trae lágrimas a los ojos.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 282,
+              "PlotLineKey": "¿Ahora podemos encontrar la ubicación de la Mantarraya?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Por supuesto, esta información es más que adecuada para que yo pueda calcular el paradero de la Mantarraya. Pero hay algo extraño en esto...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 283,
+              "PlotLineKey": "¿Qué es? ¿No puedes encontrarlo?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Historiador",
+          "PlotLineKey": "No. Es solo que ya no vale la pena buscarlo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Según esas coordenadas, puedo decir con confianza que esta Mantarraya es el mismo barco que rescatamos cerca del puerto del Pantano de Aix hace unos años.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Dentro de los escombros, encontramos algunos de los registros de la tripulación, aunque estaban rotos en pedazos, aún logramos vincularlos con las historias encontradas en las consolas.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 284,
+              "PlotLineKey": "¿Estaban Moak y su tripulación a salvo?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Desafortunadamente, también descubrimos seis cuerpos en el interior... Según la información que tenemos, pertenecen a Moak y a los miembros de su tripulación.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 285,
+              "PlotLineKey": "¿Cómo pudo suceder esto?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Investigaciones posteriores encontraron que las muertes de los otros cinco miembros datan de incluso antes de que Moak hiciera su primera grabación en el faro.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Historiador",
+          "PlotLineKey": "En otras palabras, Moak había estado navegando en el mar solo todo este tiempo, y los miembros de su tripulación ya habían caído víctimas de las DT...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Experimentando tales pérdidas, Moak se negó a aceptar tal final. Así que cayó en una fantasía, que él y los miembros de su tripulación encontraron los faros uno por uno, encontraron sus propios hogares, y dejaron la Mantarraya a salvo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Al final, solo él mismo completó el viaje y se quedó para siempre en ese lecho marino con la Mantarraya.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 286,
+              "PlotLineKey": "¿Estás seguro de que esto es lo que realmente sucedió...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Historiador",
+          "PlotLineKey": "No puedo dar ninguna garantía, ya que estas son solo mis propias especulaciones. Sin embargo, desentrañar historias olvidadas, es lo que hace que la historia sea fascinante.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Historiador",
+          "PlotLineKey": "En cualquier caso, estoy muy agradecido contigo por permitirme presenciar la historia completa en su totalidad. Te mereces estas recompensas por tu pasión por la historia.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Saludos, Errante. ¿Encontraste los faros restantes?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Le contaste al historiador lo que encontraste dentro de las consolas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Historiador",
+          "PlotLineKey": "¿Es eso cierto? ¿Lograste encontrar información de todas las cinco consolas de los faros, dices...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Tu pasión por la historia es mucho mayor que la de mis propios alumnos. Esto me trae lágrimas a los ojos.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 302,
+              "PlotLineKey": "¿Ahora podemos encontrar la ubicación de la Mantarraya?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Por supuesto, esta información es más que adecuada para que yo pueda calcular la ubicación de la Mantarraya. Pero hay algo extraño en esto...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "¿Qué es? ¿No puedes encontrarlo?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Historiador",
+          "PlotLineKey": "No. Es solo que ya no vale la pena buscarlo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Según esas coordenadas, puedo decir con confianza que esta Mantarraya es el mismo barco que rescatamos cerca del puerto del Pantano de Aix hace unos años.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Dentro de los restos, encontramos algunos de los registros de la tripulación, aunque rotos en pedazos, aún logramos vincularlos con las historias encontradas en las consolas.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "¿Entonces Moak y su tripulación estaban todos a salvo?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Desafortunadamente, también descubrimos seis cuerpos dentro... Basándonos en la información que tenemos, pertenecen a Moak y a los miembros de su tripulación.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 305,
+              "PlotLineKey": "¿Cómo podría ser esto?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Investigaciones posteriores encontraron que las muertes de los otros cinco miembros se remontan aún más que el momento en que Moak hizo su primera grabación en el faro.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Historiador",
+          "PlotLineKey": "En otras palabras, Moak había estado navegando en el mar solo todo este tiempo, y sus miembros de la tripulación habían caído víctimas de las DT hace mucho tiempo...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Tras sufrir tales pérdidas, Moak se negó a aceptar tal final. Así que se sumergió en una fantasía, en la que él y su tripulación encontraban los faros uno a uno, encontraban sus propios hogares y abandonaban la Mantarraya a salvo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Al final, solo él mismo completó el viaje y se quedó para siempre en ese lecho marino con la Mantarraya.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 306,
+              "PlotLineKey": "¿Estás seguro de que esto es realmente lo que sucedió...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Historiador",
+          "PlotLineKey": "No puedo dar ninguna garantía, ya que estas son solo mis propias especulaciones. Sin embargo, desentrañar historias olvidadas es lo que hace que la historia sea fascinante.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Historiador",
+          "PlotLineKey": "En cualquier caso, estoy muy agradecido contigo por permitirme presenciar la historia completa en su totalidad. Mereces estas recompensas por tu pasión por la historia.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Hola Errante, ¿aún me recuerdas? Soy un historiador de la Academia Imperial.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Parece que has activado los cinco faros. Estoy seguro de que debes haber aprendido mucho sobre la Mantarraya.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Historiador",
+          "PlotLineKey": "Por favor, vuelve a la ciudad y cuéntame todo sobre ellos cuando tengas tiempo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historiador",
+          "PlotLineKey": "¡Quizás esta vez, finalmente podamos resolver esta pieza desconocida de la historia!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

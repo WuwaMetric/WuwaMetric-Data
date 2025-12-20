@@ -1,0 +1,6006 @@
+{
+  "Id": 101011,
+  "Name": "고요한 밤의 환상",
+  "Description": "칸타렐라",
+  "MaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveRole/T_ArchiveRole_23.png",
+  "FemaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveRole/T_ArchiveRole_23.png",
+  "AreaIcon": "",
+  "ShowQuestList": [
+    880000033
+  ],
+  "QuestDesc": "신비스러운 편지가 과거를 뒤덮고 있던 밤의 베일의 한끝을 가볍게 들어 올렸다.\n심연의 밑바닥에 잠긴 낮은 외침은 당신의 대답을 기다리고 있다",
+  "Unlock": [
+    {
+      "Id": 880000035,
+      "Name": "꿈의 증후군",
+      "Type": 2
+    },
+    {
+      "Id": 320800006,
+      "Name": "체리를 도와 약 전달하기",
+      "Type": 2
+    }
+  ],
+  "Chapters": [
+    {
+      "Title": "에글라 타운으로 이동하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "미친 듯 장난질을 하는 듯한 편지이다. <br>이상한 글씨체와 배열이 꺼림칙하다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(회혼의 밤...? 에글라 타운에 또 무슨 특별한 행사가 있나?)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(이 편지는... 분위기를 띄우려는 장난인 걸까? 아니면... 뭔가 또 다른 사정이 있는 걸까...)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "편지를 쳐다볼수록 위쪽에 쓰인 글씨가 더 삐뚤어져 보였고, <br> 특유의 꺼림칙한 느낌은 점점 더 심해졌다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "포포",
+          "PlotLineKey": "윽, 이게 무슨 냄새야!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "포포",
+          "PlotLineKey": "냄새 때문에 기절할 것 같아... 잠시 피해서 숨을 쉬어야겠어...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "포포",
+          "PlotLineKey": "우욱, 왠지 안에서까지도 나는 것 같은데... 아! 이상한 주파수 오염이 있어. 그 편지 때문이야!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "포포",
+          "PlotLineKey": "어지러우니까... 괜히 졸리네... 난 먼저 잘게. 무슨 일 생기면 그때 깨워줘",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "이 꺼림칙한 주파수의 편지 때문에 나와 포포까지 영향을 받게 됐어... 에글라 타운에 가서 자세히 알아봐야겠어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 10,
+          "Speaker": "Narrator",
+          "PlotLineKey": "「유령 소녀」가 전해 온 이상한 편지를 받고서, 당신과 포포는 편지 속의 뒤틀린 주파수의 영향을 받게 되었다.<br>편지의 비밀을 풀고, 이 영향을 없애기 위해, 당신은 편지에 언급된 「회혼의 밤」이 열리고 있는 에글라 타운으로 가서 조사해 보기로 결정했다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "회혼의 밤 접대원 찾기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "「회혼의 밤」 접대원",
+          "PlotLineKey": "종소리가 울리면, 「망령」들이 세상에 나타납니다. 어서 가면을 쓰고 유령들 사이로 몸을 숨기시지요. 혹시 「회혼의 밤」에 참석하러 오셨나요?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 244,
+              "PlotLineKey": "「회혼의 밤」이 무엇인가요?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 245,
+              "PlotLineKey": "네",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "「회혼의 밤」 접대원",
+          "PlotLineKey": "일 년에 단 한 번뿐인 「회혼의 밤」! 이날만큼은 유령들이 인간 세상으로 돌아오고, 사람들은 가면을 쓰게 됩니다... 오늘 밤 함께 노는 이가 사람인지, 또 다른 존재인지 영원히 알 수 없게 되죠...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "「회혼의 밤」 접대원",
+          "PlotLineKey": "음? 별 반응이 없네요? 별로 안 놀라우신가요? 그럼 좋습니다. 본론부터 말씀드리죠",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "「회혼의 밤」 접대원",
+          "PlotLineKey": "「회혼의 밤」은 1년에 한 번씩 에글라 타운에서 열리는 망령을 추모하는 축제입니다. 이날이 되면 사람들은 유령 분장을 하고, 기념행사도 하고... 어...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "「회혼의 밤」 접대원",
+          "PlotLineKey": "어, 다음은 뭐였더라... 제대로 외우질 않아서 다음에 할 말을 까먹었네요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "「회혼의 밤」 접대원",
+          "PlotLineKey": "흠흠, 이왕 오신 김에 한 번 참가해 보세요. 잊지 말고 가면도 준비하시고요",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "「회혼의 밤」 접대원",
+          "PlotLineKey": "참가하고 싶으시다면 꼭 가면을 챙기는 것, 잊지 마세요",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 246,
+              "PlotLineKey": "(가면을 꺼낸다)",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "이런 가면도 괜찮나요?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "「회혼의 밤」 접대원",
+          "PlotLineKey": "오오—— 새로운 「월계관을 쟁취한 자」시군요? 당연히 가능하죠!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "「회혼의 밤」 접대원",
+          "PlotLineKey": "「월계관을 쟁취한 자」는 「주최자」와 같은 권한을 가진 분이니까, 어디든 자유롭게 다니실 수 있거든요! 어서 들어오시죠!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 14,
+          "Speaker": "Narrator",
+          "PlotLineKey": "접대원은 당신에게 「회혼의 밤」에 대해 간단하게 소개하였다—— 에글라 타운에서 1년에 한 번 진행되는 망령을 추모하는 축제이다. 매년 이날마다 사람들은 유령 분장을 하고 기념행사를 진행하고 있다.<br>접대원이 가면이 있어야만 행사 현장에 입장할 수 있다고 했고, 당신이 월계관 가면을 꺼내자, 바로 통과되었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "접대원과 대화 후, 「회혼의 밤」 행사장으로 돌아가기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "「회혼의 밤」 접대원",
+          "PlotLineKey": "「월계관」을 쟁취한 손님! 「회혼의 밤」에 참가하시겠어요?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 250,
+              "PlotLineKey": "참가할게요",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 251,
+              "PlotLineKey": "잠시만요",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "「회혼의 밤」 접대원",
+          "PlotLineKey": "네, 저를 따라오세요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "「회혼의 밤」 접대원",
+          "PlotLineKey": "네, 참가를 원하시면 언제든 오세요. 전 항상 이곳에 있으니까요",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "(칸타렐라가 왜 여기 있는 거지?)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 2,
+          "Speaker": "Narrator",
+          "PlotLineKey": "떠들썩한 「회혼의 밤」의 현장에서 당신은 칸타렐라를 발견하였다. 그녀는 뒤돌아 웃으며 따라오라고 손짓하였다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "회혼의 밤 행사장인 중앙 광장으로 이동하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "또 만났네, {PlayerName}",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "귀하신 「월계관을 쟁취한 자」께서 왜 이런 유령들이 가득한 곳에 나타나셨을까?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "높은 하늘에 있다 보니, 지옥의 절경을 보며 망령들과 함께 놀고 싶어졌나 봐?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1312,
+              "PlotLineKey": "피살리아의 가주가 왜 여기에 나타난 거죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "난 원래 심해의 유령이라, 망령들과 함께 있으면 기쁨을 느끼거든",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1313,
+              "PlotLineKey": "당신도 심해의 유령인가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "음? 「당신도」라니?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "칸타렐라에게 이상한 편지를 보여주었다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "회혼의 밤이잖아. 소원을 이루지 못한 유령이 인간 세상으로 돌아와 도움을 청하는 게 이상한 일은 아니지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "유령이 도움을 요청한다고 이승의 무고한 사람들까지 영향을 받는 건 좋지 않지만 말이야...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "개인적인 생각이지만... 우연히 유령과 얽힌 사람이 못다 한 원한을 풀어준다면, 그 영향을 없앨 수 있을 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "만남은 곧 인연이라는 말도 있는데... 이왕 여기까지 온 거, 유령의 원한을 풀어주는 건 어때?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1314,
+              "PlotLineKey": "어떻게요?",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 1315,
+              "PlotLineKey": "왜 저를 도와주려는 거죠?",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "참, 너는 처음 참가하는 거지. 괜찮아... 내가 조금씩 가르쳐 줄 테니까. 함께 잊지 못할 밤을 보내면서...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 12,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그렇게 말할 필요 없어. 그렇게 선 그을 필요도 없고. 게다가, 누가 누굴 돕게 될지도 아직 모르지 않아?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "회혼의 밤은 추모를 위해 시작된 날이야. 매번 망령과 관련된 주제를 가지고 열리지. 오늘 밤의 주제는 바로 「유령 소녀」야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "어두컴컴한 바다에 삼켜진 순백의 소녀, 두려움으로 인해 찢겨 나간 영혼과 육체. 영혼은 해안을 떠돌고, 육체는 바다 아래에서 침묵을 지킨다... 절망과 무기력에 갉아 먹혀 부풀어 오른 소녀는, 결국 허무의 괴물이 되고야 만다...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "후후, 사람들은 이런 이야기를 아주 좋아하거든. 살짝 구운 굴과 양갈비를 맛보는 느낌이랄까. 칼로 썰면 붉은 육즙이 배어 나오는 별미처럼 말이야",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1316,
+              "PlotLineKey": "맞아요, 저도 좋아해요",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 1317,
+              "PlotLineKey": "저는 이런 이야기를 좋아하지 않아요",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 1318,
+              "PlotLineKey": "말씀하신 내용이 좀 불편하네요",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "오... 우리 서로 할 얘기가 많을 것 같은걸?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그래? 그냥 말해본 거야. 오늘 밤의 흥을 돋우기 위한 거라고 생각해",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "호오, 의외로 순진한걸? 내가 실례했어. 귀한 손님의 흥을 깨지 않았길 바랄게",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 27,
+          "Speaker": "Narrator",
+          "PlotLineKey": "칸타렐라에게 이상한 편지를 보여주자, 그녀는 「회혼의 밤」에는 항상 유령에 관한 테마가 있는데, 이번 테마가 바로 「유령 소녀」라고 말한다.<br>그녀는 당신이 영향을 받은 걸 알아차렸고, 함께 「회혼의 밤」에 참가하자고 제안한다. 그녀는 오늘 밤 테마의 수수께끼를 풀면 그 영향도 사라질 것이라고 한다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "본론으로 돌아가서, 주제와 관련된 세 가지 수수께끼는 「회혼의 밤」의 노점에 흩어져 있어. 이 노점들은 소리 없이 나타났다가 홀연히 사라져서, 악마가 운영한다는 소문도 있지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "후후... 물론, 이 세상에 악마 같은 건 없지만 말이야. 뒤틀린 주파수, 그리고 악마를 가장해 무언가를 얻어내려는 사람들만 존재할 뿐이지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그들과 거래할 때 돈 같은 건 당연히 필요 없어. 그들은 타인의 욕망을 들여다보면서 자신이 원하는 것을 투영해 요구하거든",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "뭐, 괜찮은 규칙인 것 같아. 모든 걸 돈으로 살 수 있다면, 좀 재미없을 테니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "중요한 건 지금부터야. 모든 수수께끼를 모으고 그 해답을 찾아 「유령 소녀」 사건의 진실을 밝혀내는 사람은, 「주최자」에게 비약을 얻을 수 있어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "어떤 비약이든 전부 가능해. 돌을 금으로 만드는 것부터 영원한 젊음을 유지하는 것, 심지어 죽은 사람을 살리는 것까지... 뭐든 줄 수 있다나?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 888,
+              "PlotLineKey": "돌을 금으로 만드는 비약이 갖고 싶네요",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 889,
+              "PlotLineKey": "죽은 사람을 살리는 비약이 갖고 싶네요",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 890,
+              "PlotLineKey": "전 그냥 편지의 영향에서 벗어나면 돼요",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 891,
+              "PlotLineKey": "뭔가 수상한 것 같은데요",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그럼 같이 참가해 볼래?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "난... 마침 세상에 둘도 없는 비약을 원하던 참이었거든",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 9,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그럼 같이 참가해 볼래?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "난... 마침 세상에 둘도 없는 비약을 원하던 참이었거든",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 11,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "만족할 줄 아는 것도 일종의 미덕이지. 하지만 넌 편지의 영향을 너무 많이 받은 것 같은데... 이미 유령들의 「근원」에 깊이 얽혀 있어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "편지의 내용대로, 유령들이 회생할 수 있게 돕는다면 그 영향을 없앨 수 있을 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그럼 「죽은 사람을 살리는 비약」을 찾아볼까? 난 마침 그걸 원하던 참이었거든",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 14,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "의심되는 건 자신의 손으로 직접 풀어보는 것도 일종의 즐거움이지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그리고... 내가 아는 넌 조금의 「의심」도 놓치지 않는 사람이잖아?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "오직 너만이 닿을 수 있는 곳들이 있을 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "난... 마침 세상에 둘도 없는 비약을 원하던 참이었거든",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 892,
+              "PlotLineKey": "당신이 만들 수 없는 약도 있나요?",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "약이라는 건 들어가는 재료와 달이는 순서가 중요해... 물론 약을 만드는 사람의 기술과 감정도 아주 중요하지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "너와 함께라면 이 세상에서 가장 까다로운 약도 만들 수 있을 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "후후... 그게 「비약」이든 「독약」이든, 전부 너랑 같이 탐구해 보고 싶어지네",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 26,
+          "Speaker": "Narrator",
+          "PlotLineKey": "칸타렐라 말에 따르면, 「유령 소녀」에 대한 세 개의 수수께끼가 「회혼의 밤」의 여러 노점에 흩어져 있다고 한다.<br>만약, 모든 수수께끼를 모아 답을 맞혀 「유령 소녀」의 진실을 알아내면, 「주최자」에게 비약 하나를 요구할 수 있다.<br>소문에는 그 비약이 모든 소원을 이뤄준다고 한다. 당신은 반신반의했지만, 칸타렐라가 좋아하는 것 같아 함께 참가하기로 한다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "영혼을 바쳐라, 육체를 바쳐라. 모든 걸 바쳐서 헤매는 혼 불러오라...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "좀 미묘하게 들리네요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "...실례했어. 이건 「회혼의 밤」의 노래야. 기괴한 주파수의 선율로 배고픈 「악마」를 유인하는 거지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "아, 첫 번째 노점이 나타난 것 같아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "칸타렐라가 침착하게 한 방향으로 걸어갔다. 그녀의 몸은 마치 유령처럼 떠있었다. 이런 칸타렐라에게 악마를 불러올 수 있는 능력이 있는 것이 조금도 이상하지 않아 그녀를 따라갔다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "첫 번째 노점으로 이동하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "마멘",
+          "PlotLineKey": "두 사람이 얻고자 하는 것은 무엇인가. 하늘에서 가장 아름다운 별인가, 아니면 세상에서 가장 큰 행복인가?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "마멘",
+          "PlotLineKey": "아니면 그 무엇도 두 사람의 무한한 욕심을 채울 수는 없을 것인가?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "넌 항상 이런 농담을 잘한다니까... 마멘, 내 친구는 욕심이 없어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "우린 단지 「유령 소녀」의 첫 번째 수수께끼를 얻어서, 순조롭게 시작해 보고 싶은 것뿐이야. 너도 알겠지만, 때로는 작은 물고기도 성대한 잔치의 훌륭한 애피타이저가 될 수 있으니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "마멘",
+          "PlotLineKey": "세상에 공짜 점심은 없는 법. 아무리 조촐한 애피타이저라도 내 마음을 열 수 있는 열쇠와 맞바꿔야만 하지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "마멘",
+          "PlotLineKey": "예를 들어, 말하는 빵이나, 물과 섞이는 기름, 아니면 피살리아의 그 비밀스러운 과거라든지...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 307,
+              "PlotLineKey": "「월계관을 쟁취한 자」의 연주는 어떤가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "마멘",
+          "PlotLineKey": "오! 나만을 위한 「월계관을 쟁취한 자」의 연주라고? 당연히 영광이지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 9,
+          "Speaker": "Narrator",
+          "PlotLineKey": "노점 주인 마멘은 첫 번째 수수께끼를 얻고 싶으면 귀중한 물건을 내놓아야 한다고 말했다.<br>당신은 「월계관을 쟁취한 자」로서, 자신의 연주를 내놓겠다고 하였고, 그도 받아들였다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "마멘",
+          "PlotLineKey": "...탄생의 요람과 무덤, 영원한 산과 바다, 타오르는 생명의 소리라...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "마멘",
+          "PlotLineKey": "그야말로 생명의 노래를 자아내는군! 세이렌의 노래보다 더 마음을 움직이는 선율이었어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "마멘",
+          "PlotLineKey": "난 지금까지 한 입으로 두말을 한 적이 없지. 잘 들어, 첫 번째 수수께끼는 바로 세이렌의 노래야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "마멘",
+          "PlotLineKey": "「옛날 옛적, 한 무리의 소녀들이 세이렌의 노래를 따라다니며 마을을 떠났다. 산꼭대기에 박아 넣은 왕관을 향해, 절벽 아래로 떨어지는 폭포를 향해 나아갔다」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "마멘",
+          "PlotLineKey": "이것이 바로 오늘 밤 주제 「유령 소녀」의 첫 번째 수수께끼야. 그리고... 이 마멘, 천상의 소리를 위해 내가 간직해 온 물건을 바치도록 하지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "마멘",
+          "PlotLineKey": "이 오르골을 가져가도록 해. 이미 시간의 먼지에 침식됐지만, 그 선율이 다시 노래를 부를 수 있도록 해 줄지도 모르니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 7,
+          "Speaker": "Narrator",
+          "PlotLineKey": "마멘은 당신의 연주를 극찬하며, 약속대로 「유령 소녀」의 수수께끼 중 하나인 「세이렌의 노래」를 주었다.<br>「옛날 옛적, 한 무리의 소녀들이 세이렌의 노래를 따라 마을을 떠났네. 산꼭대기에 박아 넣은 왕관을 향해, 절벽 아래로 떨어지는 폭포를 향해 나아갔네」<br>게다가, 자신이 간직하고 있던 오르골도 함께 주었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "방금 저 사람 조금 오버한 거 아니에요...?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그럴 리가. 「월계관을 쟁취한 자」의 연주를 듣는 건 리나시타 사람들에게 있어 신의 축복과도 같은 영광인걸",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "오르골도 네 연주를 듣고, 도무지 참을 수가 없어서 흥얼댈거야...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "칸타렐라는 오르골을 가볍게 두드리지만, 예상과는 다르게 소리가 나지 않는다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "흠? 말을 듣질 않네... 누군가가 성대를 잘라내서 노래를 부를 수 없게 만든 거구나",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "칸타렐라는 손가락으로 우아하게, 그리고 조금 힘을 주어 오르골의 부품을 만지작 거렸지만, 오르골은 여전히 아무 소리도 내지 않는다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "칸타렐라가 위아래를 뒤집어보자, 당신은 이 오르골의 모양이 조금 독특한 것 같다는 것을 알아차렸다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "위에서 보니까, 꼭 사과 같네요?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "훗, 이렇게 보니까 정말 그렇네. 커다랗고 둥근 사과 같아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "마멘이 애피타이저에 더해서 달콤한 식전주까지 한잔 대접해 준 셈이네",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이제 어디로 가야 할지 알 것 같아... 두 번째 수수께끼가 우리를 기다리고 있어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 12,
+          "Speaker": "Narrator",
+          "PlotLineKey": "칸타렐라가 오르골을 뒤집어 볼 때, 당신은 위에서 보면 오르골이 사과와 형태가 비슷하다는 걸 발견한다.<br>칸타렐라는 당신의 발견에 단서를 잡아, 함께 두 번째 노점으로 향했다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "두 번째 노점으로 이동하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "베엘제붑",
+          "PlotLineKey": "당신들이 왜 왔는지 알고 있어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "베엘제붑",
+          "PlotLineKey": "뚜렷한 통찰력과 강한 기백 없이는, 먹다 남은 찌꺼기만 얻게 될 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "베엘제붑",
+          "PlotLineKey": "그걸로 잡탕 한 그릇 정도는 끓여줄 수 있어. 잿더미와 함께 먹으면 딱이겠지만",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "물고기 밥으로는 괜찮겠네... 그래도 그런 건 식탁에 내지 않는 게 좋겠어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "내 옆에 있는 이 귀한 친구는 세상의 모든 산해진미나 가장 신선한 사과와 어울리는 사람이거든",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "베엘제붑",
+          "PlotLineKey": "그렇다면, 시도해 보든가. 가장 신선한 사과를 찾길 바라지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "베엘제붑",
+          "PlotLineKey": "하나 골라 봐. 과연 어떤 사과가, 당신들이 원하는 것을 숨기고 있을지...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1257,
+              "PlotLineKey": "(선택)",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 1258,
+              "PlotLineKey": "(머리가 아프다, 칸타렐라에게 도움을 청한다)",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "베엘제붑",
+          "PlotLineKey": "오... 어떻게 판단한 거지? 놀라울 만큼 정확한 직감인 건가, 아니면 모든 것을 꿰뚫는 통찰력인 건가?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "베엘제붑",
+          "PlotLineKey": "대답할 필요 없어. 당신은 평범한 사람이 아니라는 걸 잘 알고 있으니까. 당신의 영혼은 마치... 영원히 재로 덮이지 않는 불길 같아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "베엘제붑",
+          "PlotLineKey": "확실히, 가장 신선한 이 사과에 숨겨진 행운과 당신의 영혼은 정말 잘 어울리는군",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 11,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "칸타렐라는 당신이 눈치를 주자 곧 알아차렸다.<br>그녀는 눈을 치켜뜨고 살펴보았다. 그 시선은 마치 바다 위에 반짝이는 윤슬처럼 사과에 집중되었다. 그리고는 가느다란 손가락을 들어 가볍게 가리켰다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이걸로 할게",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "베엘제붑",
+          "PlotLineKey": "역시 「독약」 칸타렐라의 눈을 속일 수는 없군... 소문대로야",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 14,
+          "Speaker": "베엘제붑",
+          "PlotLineKey": "이 「행운」은 애피타이저일 뿐이야. 이번에야말로 메인 디시지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "베엘제붑",
+          "PlotLineKey": "자, 두 번째 수수께끼는 「빨간 사과」야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "베엘제붑",
+          "PlotLineKey": "「탐스럽고 빨갛게 윤이 나는 사과를 받기 위해 줄을 선 소녀들... 그런데, 왜 사과가 바다에 있을까?」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "베엘제붑",
+          "PlotLineKey": "「행운」일까 「불행」일까. 어느 쪽이든, 당신들이 맛보기만을 기다리고 있을 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 20,
+          "Speaker": "Narrator",
+          "PlotLineKey": "노점 주인 베엘제붑의 요구에 응하여, 두 번째 노점에서 마음대로 가장 신선해 보이는 사과를 골랐다.<br>베엘제붑은 당신에게 사과 밑에 깔려있던 「행운의 동전」과 함께 두 번째 수수께끼인 「빨간 사과」를 주었다.<br>「탐스럽고 빨갛게 윤이 나는 사과를 받기 위해 줄을 선 소녀들... 그런데, 왜 사과가 바다에 있을까?」",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "리나시타의 사람들은 종종 코인 던지기로 점을 보곤 해",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "앞면이 나오면 행운과 신을 따르는 것을, 뒷면이 나오면 불행과 신을 거스르는 것을 의미하지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "코인 앞면에는 빨간 모자를 쓴 인형이, 뒷면에는 파란 모자를 쓴 인형이 그려져 있다. <br>코인의 모양은 흔히 볼 수 있는 원형이 아닌 톱니바퀴의 모양이다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이 코인의 인형들이 얻은 것은 행운일까, 불행일까?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "마지막 수수께끼가 우리에게 힌트를 줄지도 몰라",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 6,
+          "Speaker": "Narrator",
+          "PlotLineKey": "코인의 모양은 톱니바퀴 모양이며, 앞면에는 빨간 모자를 쓴 인형이, 뒷면에는 파란 모자를 쓴 인형이 그려져 있다.<br>칸타렐라는 바로 알아차리고, 당신을 데리고 인형 노점으로 향했다... 수수께끼를 수집하는 과정이 생각보다 순조로운 듯하다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "세 번째 노점으로 이동하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "이비",
+          "PlotLineKey": "이 많은 인형들 중에, 가장 아름다운 건 뭘까?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "이비",
+          "PlotLineKey": "이 인형은 눈이 맑고, 그 인형은 코가 오똑하고, 저 인형은 입술이 예쁘고... 아니, 안 돼. 이건 좀 더 못생겨야지. 나보다 예쁘면 안 되니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "이비",
+          "PlotLineKey": "아이, 참. 다 예쁜 것 같으면서도, 또 안 예쁜 것 같고...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "이비",
+          "PlotLineKey": "이 인형들 중에, 어떤 게 가장 예쁜 것 같아?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 950,
+              "PlotLineKey": "(빨간 모자를 고른다)",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 951,
+              "PlotLineKey": "(파란 모자를 고른다)",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 952,
+              "PlotLineKey": "(머리가 아프다, 칸타렐라에게 도움을 청한다)",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 953,
+              "PlotLineKey": "다 비슷해요",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "이비",
+          "PlotLineKey": "행운의 빨간 모자! 맞아! 신을 따르는 게 현명한 선택이니까!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 6,
+          "Speaker": "이비",
+          "PlotLineKey": "신을 거스르려고? 괜한 목숨을 걸면 안 돼, 손님. 목숨을 소중히 해야지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "이비는 다짜고짜 빨간 모자 인형을 주었다",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "칸타렐라의 눈 속에는 그윽한 바다가 출렁이는 듯했고, 얇은 안개가 끼어 슬픔과 기쁨, 그리고 분노를 가리는 것 같았다. 잠시 후, 그녀는 빨간 모자 인형을 집어 들었다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "신을 따른다면 행운을 얻을 수 있겠지",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 10,
+          "Speaker": "이비",
+          "PlotLineKey": "아하하하, 맞아, 그게 바로 진실이야! 난 진실을 듣는 걸 정말 좋아하거든. 사실 이 인형들은 다 비슷비슷해!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "이비",
+          "PlotLineKey": "자, 너한테도 「비슷한」 걸 줄게",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "이비가 빨간 모자 인형을 집어 들어 당신에게 던진다",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "빨간 모자 인형이 당신의 손에 들어오자 놀랍게도 얼굴이 또렷해진다.<br>생김새가 정교하고, 옷차림이 화려한게, 한순간에 생명을 얻은 듯하다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "이비",
+          "PlotLineKey": "좋아, 신을 따르는 한 행운은 자연스럽게 너희들에게 돌아갈 거야!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "이비",
+          "PlotLineKey": "메인 디쉬 다음에 나올 디저트와 포츈 쿠키는 내가 대접하도록 할게",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "이비",
+          "PlotLineKey": "세 번째 「유령 소녀」의 수수께끼는 바로 「페도라」야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "이비",
+          "PlotLineKey": "「소녀는 빨간 무용구두를 신고서는, 화려한 페도라를 골라 피날레를 장식할 준비를 했다」",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "이비",
+          "PlotLineKey": "자! 수수께끼는 전부 드러났어. 펄펄 끓는 마녀의 가마솥에서 정답을 찾아내고 비약을 얻을지는... 이제 너희한테 달려 있는 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 27,
+          "Speaker": "Narrator",
+          "PlotLineKey": "노점에는 많은 인형들이 있다. 빨간 모자를 쓴 인형, 파란 모자를 쓴 인형... 주인 이비는 가장 이쁜 걸 고르라고 하였다.<br>이상한 건, 어떤 걸 고르던, 항상 빨간 모자를 쓴 인형을 건네주었다. 빨간 모자는 신을 따르는 것을 뜻하니, 그걸 골라야만 행운을 얻을 수 있다고 하였다.<br>그 후에, 마지막 「행운」 수수께끼인 「페도라」를 주었다.<br>「소녀는 빨간 무용 슈즈를 신고, 화려한 페도라를 고르며  피날레를 장식할 준비를 하네」",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "쉼터로 이동하여 칸타렐라와 함께 단서에 대해 논의하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "수수께끼가 물고기 떼처럼 바다로 흘러들어왔네. 하지만 지금은 해초들 사이에 얽혀있는 상태야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이 해초들을 어떻게 풀어나가면 좋을까?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 968,
+              "PlotLineKey": "수수께끼의 주제에서요",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 969,
+              "PlotLineKey": "물건과의 관계에서요",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "「세이렌의 노래」, 「빨간 사과」, 그리고 「빨간 무용구두와 페도라」...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "리나시타 전설 속에서 모두 좋지 않은 결말을 맞는 이야기들이야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "하지만... 「월계관을 쟁취한 자」가 참여한다면 달라질지도 모르지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "현재가 결말을 낳는 법이니까... 일단 우리가 갖고 있는 것들부터 확인해 보자",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "부품이 빠진 채 오랫동안 먼지투성이가 된 오르골... 특이한 톱니바퀴가 달린 행운의 코인... 그리고 빨간 모자를 쓴 인형...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "부품이 빠진 채 오랫동안 먼지투성이가 된 오르골... 특이한 톱니바퀴가 달린 행운의 코인... 그리고 빨간 모자를 쓴 인형...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "요즘 물건들은 아니야. 지금의 오르골은 이런 구식 톱니바퀴를 쓰지 않으니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "어쩌면 과거의 시간 속에서 몰래 도망쳐 나온 것들일 수도 있겠어",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 970,
+              "PlotLineKey": "맞다. 인형 오르골!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 971,
+              "PlotLineKey": "그것들을 함께 조립해보죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "어린 시절, 난 저택의 공허한 시간을 흘려보내기 위해 정교하고 복잡한 장난감들을 가지고 놀곤 했어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "아직 기억이 나는 것 같기도... 아니, 분명히 기억해",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "칸타렐라는 인형을 들고 오르골 받침대 위에 올려놓은 채, 작은 틈새로 톱니바퀴 코인을 집어넣었다. 「탁」 하는 소리와 함께 떨어진 톱니바퀴는 제자리로 되돌아갔고, 얽힌 해초와 같은 수수께끼가 모두 풀렸다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "좋아. 이제 이 녀석이 노래하고 춤을 추려면, 「월계관을 쟁취한 자」의 연주가 조금 필요할 것 같은데?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 19,
+          "Speaker": "Narrator",
+          "PlotLineKey": "당신은 오르골, 동전, 빨간 모자 인형으로 인형 오르골을 조합할 수 있다는 걸 발견한다.<br>칸타렐라가 오르골을 맞추자, 당신이 다시 연주를 시작했다. 그러자, 인형 오르골이 움직이기 시작한다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "공연, 시작",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "인형의 춤을 추는 선율은 어딘가 익숙한 장소, <ano=귀족 저택>「포르티비노 성」</ano>을 연상케 한다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "당신은 「유령 소녀」와 「귀족 저택」 사이 어떤 깊은 연관이 있다는 확신이 더욱 들었다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "갑자기 심한 두통으로 인해 생각을 멈추며, 뒤틀린 주파수의 영향이 깊어짐을 느낀다. <br>갑작스러운 통증으로 인해 무언가를 떠올렸고, 귀족 저택에 가야 할 이유를 느꼈다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "방금 그건... 윽, 두통이 점점 심해지는데... 탁 트인 곳을 찾아서 좀 쉬어야겠어요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "미안, 내가 경솔했네. 가뜩이나 편지의 영향을 받은 상태에서 유령이 가득한 곳에 오래 머무르기까지 했으니까 무리가 왔을 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "지금은 푹 쉬어야겠어... 여기서 가까운 곳에 「테살레오 해저 산맥」이 있어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "내 저택에 가서 휴식을 좀 취하자. 내가 마음을 안정시키는 방법들을 알고 있거든. 네가 편해질 수 있도록 도와줄게",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 9,
+          "Speaker": "Narrator",
+          "PlotLineKey": "오르골은 괴상한 음악을 연주했고—— 빨간 모자 인형은 뒤틀려 망가질 때까지 끊임없이 돌았다.<br> 정신을 차려보니, 방금의 모든 것은 환각이었다. 흘러나오는 음악은 당신으로 하여금 포르티비노 성을 연상케 하였고, 칸타렐라의 낯빛도 이상한 기색을 띠었다.<br> 이때, 심한 두통으로 당신은 생각을 멈추었고, 뒤틀린 주파수의 영향이 점차 심해졌다. 저택에 가서 쉬고 싶다고 하자, 칸타렐라도 동의하였다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "칸타렐라와 함께 잊지 못할 밤을 보내기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "좀 괜찮아졌어?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1290,
+              "PlotLineKey": "좀 나아졌어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1291,
+              "PlotLineKey": "향기가 좋네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "갓 따온 따개비 잎을 으깬 다음 비올라카즙과 바다 오크라 점액을 배합하고, 거기에 바다사과즙을 더해서 유리병에 숙성한 거야...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이 귀여운 아이들은 모두 화원에서 정성껏 키운 거야. 그다음 직접 내 손으로 따고, 선별한 다음, 배합하지...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "독이 있는 꽃들이 서로 뒤엉키고, 그 즙이 섞이면 독은 악몽과 함께 사라지고 부드러운 향기가 달콤한 꿈을 불러와",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "안심해. 맛있고 안전하니까. 마시고 푹 쉬어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "아직 너에게 걸린 「저주」를 완전히 풀지는 못했지만, 조금 더 편안하게 해 줄 수는 있으니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "아, 여기서 조금만 기다려 주겠어? 꽃을 돌볼 시간이거든",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "특별 주스를 마시고 나니 불편함이 많이 줄고 머리가 맑아졌다.<br>정신을 차리고 포르티비노 성의 화원을 관찰하며 약간의 단서를 찾으려고 한다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 13,
+          "Speaker": "Narrator",
+          "PlotLineKey": "칸타렐라는 당신을 그녀의 화원에 데려와, 진정제를 만들어 주었고, 그걸 마시니 한결 편안해졌다.<br>잠시 후, 칸타렐라는 일 때문에 먼저 떠났고 당신은 기회를 틈타, 포르티비노 성의 화원을 조사하기 시작한다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "꽃밭에 숨어 있는 신비한 소녀와 대화하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "꽃밭에 숨어 있는 한 소녀가 쭈뼛쭈뼛 당신을 바라보고 있는 걸 발견했다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "그녀가 머리에 쓴 페도라의 붉은색이 눈이 부실 지경이다. 「유령 소녀」의 수수께끼가 언급한 오르골 속, 그 춤추는 빨간 모자 인형이 떠올랐다...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "소녀가 우연히 여기에 나타난 것이 아님은 분명하다. 당신은 먼저 그녀에게 다가가 물어보기로 결심했다",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1024,
+              "PlotLineKey": "당신은 누구인가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1025,
+              "PlotLineKey": "당신은 여기서 뭘 하고 있나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1026,
+              "PlotLineKey": "「유령 소녀」와 관련이 있는 거죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1027,
+              "PlotLineKey": "칸타렐라는 어디에 있나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "소녀는 조금의 숨소리만 낼 수 있을 뿐, 제대로 된 말은 하지 못한다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "이어서 그녀는 돌아서서 화원으로 달려갔고, 당신에게 따라오라고 신호를 보냈다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 10,
+          "Speaker": "Narrator",
+          "PlotLineKey": "꽃밭에서 빨간 페도라를 쓴 소녀를 발견하였는데, 뭔가 할 말이 있어 보인다.<br>하지만 그녀는 제대로 된 언어를 말할 수 없었고, 손짓으로 따라오라는 신호를 보냈다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "소녀 따라가기"
+    },
+    {
+      "Title": "소녀를 따라가 사과 모양의 식물 조사하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 682,
+              "PlotLineKey": "숨바꼭질하자는 건가요?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 683,
+              "PlotLineKey": "이 식물을 살펴봐 달라고 하는 건가요?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "소녀는 고개를 젓더니 식물을 가리켰다. 이 붉은색의 식물은 윤기가 났으며, 해양 생물 같기도 하고, 또 약간 둥근 사과 같기도 했다",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "소녀는 고개를 끄덕였다. 이 붉은색의 식물은 윤기가 났으며, 해양 생물 같기도 하고, 또 약간 둥근 사과 같기도 했다",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "사과... 바다의 사과... 바다사과?!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "바다사과에는 맹독이 있다고 들었다. 당신은 수수께끼 속 「빨간 사과」의 의미를 이해한 기분이었다. 정신을 차렸을 때 소녀는 이미 반대편으로 달려가고 있었다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 7,
+          "Speaker": "Narrator",
+          "PlotLineKey": "소녀는 통통한 식물을 가리켰다. 그 식물은 빨간빛의 해양 생물 또는 동그란 사과처럼 생겼다.<br>맹독을 가진 바다사과였는데, 이로써 수수께끼 「빨간 사과」의 뜻을 깨닫게 되었다.<br>정신을 차려보니, 소녀는 화원의 반대쪽으로 뛰어가고 있었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "소녀 계속 따라가기"
+    },
+    {
+      "Title": "소녀를 따라가 해파리 모양의 식물 조사하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "무려 성인 한 명의 키만 한 이 식물의 화관에는 통통한 해파리가 자라고 있었다. <br>이 해파리는 화관 위에 엎드린 모양새였고, 선명하고 눈부신 붉은빛으로 반짝이고 있었다. <br>당신은 그것이 소녀의 머리에 쓴 페도라와 매우 유사하다는 것을 알아차린다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "붉은 해파리... 페도라...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "수수께끼 속 「페도라」에서 소녀가 머리에 쓰려고 하는 건 독이 있는 붉은 해파리라는 건가?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "「유령 소녀」는 역시 피살리아 가문과 복잡하게 얽혀있어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "빨리 칸타렐라를 찾아서, 직접 얘기해 줘야 돼",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "소녀는 무언가 결심한 듯 고개를 끄덕였고, 또다시 모퉁이 방향으로 달려갔다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 7,
+          "Speaker": "Narrator",
+          "PlotLineKey": "소녀는 해파리처럼 생긴 식물을 가리켰다. 화관 위치에 있는 빨간 해파리가 페도라와 비슷한 걸 발견하였다.<br>수수께끼 속 「페도라」 에서, 소녀가 쓰려고 했던 게 설마 독이 있는 붉은 해파리인가?<br>소녀는 당신의 뜻을 알겠다는 뜻, 모퉁이 방향으로 달려가면서 따라오라고 손짓했다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "칸타렐라를 찾아, 직접 대화하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "칸타렐라는 이제 막 춤을 다 춘 것 같았다... 잠깐, 춤이라기보다 마치 부드러운 스텝으로 특정 주파수를 억누르려는 듯 했다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이 깊은 곳까지 찾아냈다는 건, 네 상태가 많이 나아졌다는 얘기겠네. 이제 안심해도 되겠어. 드디어 제대로 얘기를 나눌 수 있겠는걸",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그래서... 나를 찾으러 온 거야? 아니면 바다 깊은 곳에 잠긴 수수께끼를 찾으러 온 거야?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1069,
+              "PlotLineKey": "당신을 찾으러 온 거예요",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 1070,
+              "PlotLineKey": "수수께끼를 찾으러 온 거예요",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 1071,
+              "PlotLineKey": "둘 다요",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "후후... 걱정 마. 이 저택을 떠나지 않을 테니까. 너 혼자 둘 수는 없으니 말이야",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "후후... 참 똑똑한 물고기네. 여기도 수수께끼가 숨겨져 있다는 걸 눈치챈 거겠지?",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "후후... 걱정 마. 떠나지 않을 테니까. 저택은 물론이고, 너 혼자 둘 수는 없으니 말이야",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "화원의 바다사과와 붉은 해파리 꽃은 어디에 쓰이나요?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "붉은 바다사과는 아름다운 사신이라고도 불리지. 그 사신에게 가벼운 키스라도 받는다면 가볍게는 신경 마비나 익사하는 듯 숨이 막히는 증상으로 끝나지만, 심한 경우 목구멍이 타고 장이 꿰뚫려서... 한순간에 목숨을 잃게 돼",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "해파리 꽃은 붉은 해파리를 열매처럼 맺는 아이야. 아주 작은 해파리들이지만, 그 독성은 아주 강력하지... 가볍게는 환각을 일으키는 정도로 끝나지만, 심하면 척추 신경계에 반응을 일으켜 몸을 움직일 수 없게 되다가... 멋대로 경련을 일으키게 돼. ...심장이 멈추는 순간까지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이 두 가지 식물은 모두 역대 피살리아의 가주들이 정성껏 길러낸 가장 치명적인 식물들이야. 대대로 전해져 지금도 포르티비노 성의 화원을 끝없이 수놓고 있어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "제 추측이 맞는 것 같네요. 두 번째 수수께끼의 「빨간 사과」는 바다사과, 세 번째 수수께끼의 「페도라」는 붉은 해파리예요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "첫 번째 수수께끼의 「세이렌의 노래」에서, 「산꼭대기에 박아 넣은 왕관」, 「절벽 아래로 떨어지는 폭포」는 저택을 암시해요. 성은 절벽 위에 있고, 왕관처럼 날카로운 윤곽의 지형 사이로 폭포가 흐르죠",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "소녀들은 뭔가에 속아서 포르티비노 성으로 향했어요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "오르골의 뒤틀린 주파수는 「유령 소녀」의 참상을 뜻하는 거예요... 그 소녀들은 피살리아의 저택에서 독약에 의해 희생된 거겠죠",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "그런데 피살리아는 왜 그런 짓을 한 거죠?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "제가 아는 당신 또한 이유 없이 이런 잔인한 일을 저지를 리 없고요. 당신은 타인의 불행을 즐거움으로 삼을 만한 사람이 아니니까요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "모든 일에는 원인이 있을 텐데... 아, 그러고 보니 「유령 소녀」 이야기와 완벽히 일치하는 피살리아의 전통—— 「성녀의 시련」이 있었죠",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "성녀의 시련은 명식의 속삭임에 저항하기 위해 진행되는 의식이에요. 그 누구보다 강한 의지를 지닌 성녀를 뽑아야 하니까, 분명 특별한 방법을 사용할 테고요...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "오... 여기까지 추리해 낼 줄이야... 또 한 번 나를 놀라게 하는구나",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "맞아. 「유령 소녀」의 수수께끼는 바로 「성녀의 시련」의 진상이야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "역대 성녀의 시련에서 배어 나온 피눈물은 저택에서 뒤틀리고 숙성돼 「유령의 바다」로 변했어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그 시간들은 이곳에 겹겹이 얽히게 됐고, 피살리아의 비밀스러운 과거는 상처처럼 그 틈새 사이를 기어오르지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "난 기꺼이 너와 함께 이 썩어빠진 흉터를 파헤치고, 이곳에 봉인된 과거와 미래를 펼쳐 자세히 살펴볼 생각이야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "만약에, 정말 만약의 일이지만... 그 흉터가 나한테 손을 뻗쳐서, 내 피와 살을 함께 뜯어내는 한이 있더라도 제거해야 한다면... 네가 원하는 대로 해도 좋아",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1072,
+              "PlotLineKey": "왜 이렇게까지 절 믿는 거죠?",
+              "PlayVoice": false,
+              "JumpToId": 25
+            },
+            {
+              "TextId": 1073,
+              "PlotLineKey": "당신을 믿어도 될까요?",
+              "PlayVoice": false,
+              "JumpToId": 27
+            }
+          ]
+        },
+        {
+          "Id": 25,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "내가 널 성당으로 데려간 후부터... 넌 나와 피살리아 전체를 다 꿰뚫어 봤을 거라고 생각하니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "난 네가 거꾸로 선 탑의 혼돈을 씻어내고 거꾸로 매달린 하늘과 바다를 바로잡은 걸 직접 봤어. 게다가 보잘것없는 나를 네가 심판해 준다는 것만으로도 더없이 큰 영광이거든",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 29
+        },
+        {
+          "Id": 27,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "후후, 당연하지. 우린 「비약」이든 「독약」이든... 함께 탐구하기로 한 사이잖아?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "나, 칸타렐라 피살리아. 그대와의 모든 약속을 중시하고 지킬 것을 맹세한다",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 29
+        },
+        {
+          "Id": 29,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "수수께끼는 심해에 있고, 그 해류는... 아주 거셀 거야. 어때, 함께 바다로 뛰어들어 보겠어?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1074,
+              "PlotLineKey": "저는 수영을 잘해요",
+              "PlayVoice": false,
+              "JumpToId": 30
+            },
+            {
+              "TextId": 1075,
+              "PlotLineKey": "별의별 일을 다 겪어온 제가 고작 이런 걸 두려워할까요?",
+              "PlayVoice": false,
+              "JumpToId": 31
+            },
+            {
+              "TextId": 1076,
+              "PlotLineKey": "사람을 살리는 게 우선이에요",
+              "PlayVoice": false,
+              "JumpToId": 32
+            },
+            {
+              "TextId": 1077,
+              "PlotLineKey": "저는 그냥 제가 받은 영향에서 벗어나고 싶을 뿐이에요",
+              "PlayVoice": false,
+              "JumpToId": 34
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "후후, 좋아. 그럼 함께 둘러보자",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 37
+        },
+        {
+          "Id": 31,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "네 실력은 심해의 진주처럼 빛이 나지만... 흠잡을 데 없이 완벽한 진주에 조금이라도 흠이 나는 건 원치 않거든",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 37
+        },
+        {
+          "Id": 32,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그렇게 말할 줄 알았어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "치밀한 논리, 강인한 용기, 적당한 배려심... 그리고 그 어떤 어려움에도 결코 사라지지 않는 선량함까지. 아무리 깊고 어두운 바다에서도 넌 반짝반짝 빛이 날 거야",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 37
+        },
+        {
+          "Id": 34,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그래, 네 오염 주파수는 분명 유령의 바다에서 온 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "뒤틀린 주파수로 가득한 구조요청 편지는 바로 눈앞에 있는 이 소노라의 창조물이고",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "왜 그 편지를 너한테 보내려고 했는지는 아직 모르겠지만, 수수께끼는 분명 그 안에 있어. 정확히 조사해 보면 그 영향은 저절로 사라질 거야",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 37
+        },
+        {
+          "Id": 37,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "바다에 들어가면 항상 네 곁에 바짝 붙어 있을게. 다른 독이 네 발목을 붙잡게 하진 않을 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 38,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "넌 내 눈에 든 사람이니까",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1078,
+              "PlotLineKey": "이제 상태가 많이 좋아졌어요. 가죠",
+              "PlayVoice": false,
+              "JumpToId": 39
+            },
+            {
+              "TextId": 1079,
+              "PlotLineKey": "잠시만요",
+              "PlayVoice": false,
+              "JumpToId": 40
+            }
+          ]
+        },
+        {
+          "Id": 39,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "가자, 유령의 바다로",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "위험한 심해를 헤엄치기 전에는, 충분한 준비를 하는 게 현명한 행동이지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "난 화원에서 기다리고 있을게. 언제까지나...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 55,
+          "Speaker": "Narrator",
+          "PlotLineKey": "모퉁이를 돌자 칸타렐라를 마주쳤고, 그녀는 춤으로 어떤 주파수를 누르고 있는 것 같았다.<br>그녀에게 당신의 추리와 풀리지 않는 부분을 얘기하자, 「유령 소녀」가 가리키는 건 바로 피살리아 가문의 잔혹한 성녀 시련이라는 걸 인정하였다.<br>하지만, 눈앞에 보이는 포르티비노 성은 역대 시련으로 누적된 피눈물로 인해 <ano=소노라>「유령의 바다」</ano>가 되었다.<br>그 속 깊이 들어가야만 진실을 밝혀 답을 찾고 「저주」를 풀 수 있다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "칸타렐라와 대화 후 유령의 바다로 함께 이동하기"
+    },
+    {
+      "Title": "등불사도 얻기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "여기가 포르티비노 성? 아냐, 아닌 것 같은데...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "반은 틀리지만 반은 맞아. 이곳의 과거는 오랜 「숙성」을 거쳐 현재에 이르렀으니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "넘쳐흐르는 주파수는 온 성을 적시고 하나의 소노라를 잉태하게 되지. 이곳은 이미 명실상부한 유령의 바다야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "잘 들어봐. 과거에서 오는 소리와 바닷속 유령들의 울부짖음을. 심해의 작은 물거품이 터지는 것처럼, 아주 미묘한 소리겠지만...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그 물거품들을 모으면, 수수께끼는 우리를 태우고 바다 위로 떠오르겠지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "어두운 바닷속을 헤매다가, 자칫하면 끝없는 심연으로 떨어질 수도 있어...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그래서 어둠을 몰아내기 위해서는 약간의 빛이 필요해",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 8,
+          "Speaker": "Narrator",
+          "PlotLineKey": "당신과 칸타렐라는 포르티비노에 함께 들어갔다. 원래 익숙했던 저택이 뭔가 낯설게 느껴진다.<br>칸타렐라는, 뒤틀린 주파수가 전체 성을 덮어, 과거와 미래가 이곳에서 합쳐지며 이상한 모양을 만들었다고 했다.<br>어둡고 깊은 바닷속에서, 그녀는 마지막으로 조금 남은 빛의 힘을 등불 속에 봉인시켰다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "끝없는 바닷물이 저택을 침몰시켰지만, 난 최후의 희미한 빛을 지켜냈어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "빛이라는 건 완전히 어둠에 삼켜지기 어려운 법이지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "단 한 줄기의 빛이라도, 어둠을 뚫고 나갈 수 있으니까...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "나, 칸타렐라 피살리아. {PlayerName}에게 포르티비노 성을 자유롭게 드나들 것을 허락한다",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "나와 함께 과거와 미래를 넘나들면서 수수께끼의 답을 찾아보자",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 6,
+          "Speaker": "Narrator",
+          "PlotLineKey": "칸타렐라는 빛을 상징하는 등불을 당신에게 건넸고, 포르티비노 성을 마음껏 드나들 수 있는 권한을 주었다.<br>이 등불로 당신들은 과거와 미래를 넘나들면서 답을 찾을 수 있다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "등불사도를 사용하여 시공간 전환하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "어느 정도는 「과거」로 돌아왔군... 잘했어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "유령의 바다에 드러난 과거가 완전한 진실인 것만은 아니야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "유령의 바다는 보여주고 싶은 것만 보여주거든. 그 안에 감춰진 진실은 우리 스스로 찾아야 돼",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "적 처치"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "시간의 틈새에 갇힌 유령이여, 더 이상 방황하지 않기를",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "유령들이 빛으로 떠날 수 있게끔 도와주자",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "여기에 너무 오랫동안 갇혀 있었어",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "네가 만드는 떨림은 초조하고 불안하게 뒤틀린 주파수를 잠시나마 평온하게 만드는 힘이 있어...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그러니까... 네가 순간적으로 몸을 피하고, 무기가 공간을 튕기는 순간마다, 그 틈새에 있는 유령들이 네 앞에 모습을 드러낸다는 거지",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 16
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "탁자에는 주파수가 사라지기 전에 마지막으로 새겨진 듯한 글씨 몇 줄이 나타났다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 5
+    },
+    {
+      "Title": "적 처치"
+    },
+    {
+      "Title": "LevelPlay_153000000_ChildQuestTip_153_157"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(「모든 소원을 이뤄준다」라... 뭔가 익숙한데)",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "소녀들은 이런 말도 안 되는 약속에 속아 저택에 온 거군요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "칸타렐라, 당신은 직접 참가했던 사람이면서 왜 수수께끼에 대해 알려주지 않은 거죠?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "쉿... 우리는 이미 뒤틀린 주파수 속에 있어. 우리가 그때 있었던 성녀의 시련에 대한 진실을 찾길 바라는 것 같아. 이것 역시 「유령 소녀」의 수수께끼인 거지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "성녀의 시련이 진행되면, 그 어디에든 존재하는 심연이 은밀하게 모든 것을 감시해... 그리고 소노라가 그 감시의 눈도 복원해 냈다는 게 느껴져",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "내가 과거를 전부 털어놓는다면, 소노라에 혼란이 생겨 붕괴로 모든 것을 덮어버릴지도 몰라",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "난 모두의 안전을 보장해야 하는 사람이니까, 너무 위험한 시도는 할 수 없어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이 바다가 무엇을 말하고 싶은 건지... 함께 자세히 알아가 보자",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 9,
+          "Speaker": "Narrator",
+          "PlotLineKey": "공지를 발견하였는데 과거 성녀의 시련에 관해 적혀있었다.<br>1차 시련. 후보자가 독성이 가장 강한 바다사과 세 개를 고른 뒤, 모든 방법을 동원해 이곳으로 갖고 오세요.<br>뒤틀린 주파수는 당신들이 다시 한번 성녀의 시련을 겪어 진실을 찾길 원하였고, 그건 바로 「유령 소녀」의 답이기도 했다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "첫 번째 바다사과 수집하기"
+    },
+    {
+      "Title": "두 번째 바다사과 수집하기"
+    },
+    {
+      "Title": "오염물 제거하기"
+    },
+    {
+      "Title": "쓸쓸한 아가씨의 능력으로 오염물 제거하기"
+    },
+    {
+      "Title": "이상한 책 찾기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "어디서 본 듯한 책이네",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "어떻게 해야 하는지 알고 있지? 전처럼 알맞은 책장에 꽂아주면 돼",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "책장 속 비밀문 열기"
+    },
+    {
+      "Title": "책장 속 비밀문 열기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "음, 넌 역시 내 기대를 저버리지 않는다니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이 세상의 문제들은 대부분 책에서 답을 찾을 수 있지. 안 그래?",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "세 번째 바다사과 수집하기"
+    },
+    {
+      "Title": "바다사과 가져오기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "고요함, 어둠, 침묵. 「인정되지 않음」은 이대로 어둠 속으로 들어가는 것을 의미했고, 「인정됨」은 곧 더 깊은 어둠 속으로 빠져들 것임을 의미했다.<br>독에는 연민의 감정따윈 없으며, 이 시련에 승자는 없었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "너무... 괴로워...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "???",
+          "PlotLineKey": "으으... 아아아...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이제 괜찮아. 편히 쉬렴...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "적 처치"
+    },
+    {
+      "Title": "적 처치"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "수수께끼는 아직 바다 위로 떠오르지 않았지만, 과거의 파도 속에서 어딘가 본 듯한 문이 떠올랐다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "과거의 소녀들이 그랬던 것처럼 노크를 세 번 해보자. 똑, 똑, 똑 하고...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 9,
+          "Speaker": "Narrator",
+          "PlotLineKey": "어디서 본 듯한 문이 나타났다. 전에 소녀들이 했던 것처럼 세 번 노크하면 생각지도 못한 일이 발생할지도...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "문 조사하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 434,
+              "PlotLineKey": "세 번 노크하기",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 435,
+              "PlotLineKey": "주먹으로 내리치기",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 436,
+              "PlotLineKey": "클램 코인 던져 넣기",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "이상한 촉감이 손끝을 타고 올라왔다. 문을 세 번 노크하고 나니, 주변 주파수의 변화가 예리하게 느껴진다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "문 뒤에서 바닷물에 잠긴 책장의 습한 기운과 해파리의 부드러운 촉수가 파도를 스쳐 지나가는 부드러운 소리가 전해져온다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "당신의 손이 바로 문을 통과했다—— 그 문은 존재하면서도 존재하지 않았다.<br>마치 주먹으로 물을 내리치면, 아무리 강하게 내리치더라도 끝이 없는 바다에 녹아들듯이...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "정신 차려야 한다. 이곳은 소원을 비는 연못이 아니니까. 게다가, 유령의 바다에 소원을 비는 건 아주 위험한 행동이다.<br>모든 글램 코인을 그대로 돌려주는 걸 보니, 심연은 아직 당신을 삼킬 생각이 없어 보인다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "성녀의 시련은 피살리아의 전통으로, 가문의 모든 사람들은 자신의 딸을 바쳐야 할 의무가 있었지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그중 일부는 시련의 위험성을 듣고, 온갖 수단을 동원해 자신의 딸과 비슷하게 생긴 소녀를 구해 대신 참가시켰어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "아이들의 가족에게 목돈을 쥐여 주거나, 솔깃한 약조를 하는 방법으로 말이야...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "「늙은 가주」는 그 모든 걸 암암리에 통제했어. 그 사람은 바꿔치기한 피살리아의 사람들을 모두 「열등한 돌」이라고 불렀지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "암묵적으로 참여를 승낙받은 대체자들은 어느 정도 잠재력을 가진 「원석」이었고, 그들을 잘 다듬어 「다이아몬드」로 만드는 것이 목적이었어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그는 아무리 작은 기회라도 놓치지 않으려고 했어. 반드시 피살리아 가문에서 성녀를 탄생시켜야만 했으니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 7,
+          "Speaker": "Narrator",
+          "PlotLineKey": "첫 번째 바다사과와 한 장의 쪽지를 발견하였다. 쪽지는 체리라는 평민 소녀의 두려움이 적혀 있었다.<br>성녀 시련은 피살리아의 전통이지만, 시련의 험난함을 아는 일부 가문 사람들은 온갖 수단을 동원해 자신의 딸과 닮은 평민 소녀가 대신 나가게 하였다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "어디에나 존재하는 감시의 눈길을 피하기 위해, 소녀들은 자신들만의 비밀 신호를 정했어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "「특별한 노래를 흥얼거리기」, 「색깔로 진짜와 가짜를 구분하기」, 「2초 간격으로 세 번 노크하기」...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "모두 차가운 심해 속에서 서로를 보듬으며 이겨낸 시간이었지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "빽빽하게 모여 있는 작은 물고기들 중, 내일 또 누가 떠나게 될지 모르는 일이니까...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 5,
+          "Speaker": "Narrator",
+          "PlotLineKey": "두 번째 바다사과와 또 한 장의 쪽지를 발견하였다. 쪽지에는 체리라는 소녀가 시련에 참가하게 된 과정과 이유가 적혀 있다.<br>어디서도 존재하는 관찰과 감시를 피하고자, 시련에 참가한 소녀들은 그들만의 암호를 정하였다.<br>예를 들면, 「특별한 노래를 흥얼거리기」, 「색깔로 진짜와 가짜를 구분하기」, 「2초 간격으로 세 번 노크하기」...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "피살리아는 독약의 대가로, 종가와 분가를 막론하고 어릴 때부터 아이에게 독약을 접하게 해",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "오랜 세월 동안 독을 가까이하게 해서 내성을 기르는 거지. 처음 고통을 견뎌내면, 그 후에는 웬만한 독극물론 우릴 죽일 수 없게 돼",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "우리들 자체가 독을 주입해 만들어진 「독약」이니까...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 4,
+          "Speaker": "Narrator",
+          "PlotLineKey": "세 번째 바다사과와 또 한 장의 쪽지를 발견하였다. 쪽지에는 체리라는 소녀가 시련에 참가하면서 겪은 심경의 변화가 적혀 있었다.<br>피살리아는 독약의 고수 가문으로, 종가와 방계를 막론하고 어릴 때부터 아이에게 독약을 접하게 해서 내성을 길렀다.<br>피살리아 가문의 사람들은 다른 사람들보다 쉽게 독약의 침식이 만든 극한의 상황에서 독약과 관련된 특이 능력을 각성한다.<br>이상한 건, 아녜스라는 소녀도 특이 능력을 각성했다는 것. 대신 목구멍이 독약에 의해 화상을 입어 더 이상 말을 할 수 없게 되었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "로비에 다양한 크기의 발자국이 많이 있다. 크기로 볼 때 모두 여성의 것으로 보인다. 이 중 칸타렐라의 발자국도 있는 듯하다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 12
+    },
+    {
+      "Title": "붉은 해파리 관찰하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "음... 위험한 건 없어. 거친 해류 사이에서 숨을 돌리기엔 충분할 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "몰아치는 폭풍이라 해도 그 중심에는 고요한 태풍의 눈이 있지? 바닷속도 마찬가지야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "여긴 한번 돌아봐도 괜찮겠어. 생각을 정리하거나 잠시 쉬기엔 나쁘지 않은 곳이니까",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "해파리들이 유유자적하게 떠다닌다. 한 마리의 붉은 해파리가 가느다란 촉수를 흔들고 있으며, 둥그스름한 몸은 마치 떠다니는 페도라 같다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "해파리가 당신의 뒤를 가리키는 것 같았다. 당신이 뒤를 돌아보자, 이상한 문이 방 한가운데에 우뚝 서 있다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "방에서 나가기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "잠깐. 문을 열기 전에... 이런 장면을 상상해 본 적 있어? 바닷물이 문으로 밀려와서, 모든 것을 덮치는 모습...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "지금 그렇게 되지는 않을 거야. 우린 아직 심해에 온 건 아니니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그럼, 해파리가 무슨 말을 할지 확인하러 가 볼까?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 73,
+              "PlotLineKey": "그러죠",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 74,
+              "PlotLineKey": "저는 여기에 좀 더 있고 싶어요",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그래, 노크 세 번, 잊지 마",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그래. 부드러운 품속 같은 곳이지? 정말 떠나고 싶지 않아진다니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 8,
+          "Speaker": "Narrator",
+          "PlotLineKey": "문 뒤의 또 다른 세상에서 해파리가 당신을 기다리고 있다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "문 조사하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 409,
+              "PlotLineKey": "세 번 노크하기",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 410,
+              "PlotLineKey": "주먹으로 내리치기",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 411,
+              "PlotLineKey": "클램 코인 던져 넣기",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "이상한 촉감이 손끝을 타고 올라왔다. 문을 세 번 노크하고 나니, 주변 주파수의 변화가 예리하게 느껴진다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "당신의 손이 바로 문을 통과했다—— 그 문은 존재하면서도 존재하지 않았다.<br>마치 주먹으로 물을 내리치면, 아무리 강하게 내리치더라도 끝이 없는 바다에 녹아들듯이...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "정신 차려야 한다. 이곳은 소원을 비는 연못이 아니니까. 게다가, 유령의 바다에 소원을 비는 건 아주 위험한 행동이다.<br>모든 글램 코인을 그대로 돌려주는 걸 보니, 심연은 아직 당신을 삼킬 생각이 없어 보인다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(옵션) 쪽지 다시 확인하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "세월의 흔적이 다소 느껴지는 일기장. 안에는 소녀들이 주고받은 쪽지가 끼워져 있다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "귀여운 기호들과 어지러운 글씨체가 당신을 견딜 수 없는 시련의 과거로 데려간다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(옵션) 바다사과 관찰하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "바다사과는 스스로 자라나고 있다. 바다사과의 붉은색이 조금 눈이 부실 지경이다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(옵션) 칸타렐라와 대화하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 87,
+              "PlotLineKey": "이 소녀들은...",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 88,
+              "PlotLineKey": "체리는...",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 89,
+              "PlotLineKey": "과거에는 대체...",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "출신과 성격은 각자 다를지언정, 모두 굳센 아이들이었어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "독약에 희생되는 순간까지도 아름다운 자유라는 꿈을 포기하지 않을 정도로 강인했지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "체리는... 어딘가에서 잘 지내고 있을 거야. 적어도 더 이상 고통받지 않아도 되겠지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "미안, 이 심연 속에서는 많은 말을 할 수 없어. 바닷속을 전부 탐색하고 나면 모든 게 물 위로 드러나게 될 거야",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(옵션) 그림책 보기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "어린 소녀들은 늘 생각이 많은 법이지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "몸은 감옥에 있어도, 마음만은 날개를 달고 머릿속에 가득한 환상과 함께 날아올랐을 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그런 생각을 종이에 적고, 단 한 마디, 단 한 글자도 놓치지 않고 전부 녹여서 상처를 보듬어 줄 사탕으로 만들었을 테지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그래서 이렇게 달콤한 환상으로 가득한 책장이 있었던 거고...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 6,
+          "Speaker": "Narrator",
+          "PlotLineKey": "그림 동화책을 발견하였는데, 과거 소녀들이 만든 것 같다.<br>그들은 비록 몸은 갇혀있지만, 마음의 날개로 머릿속의 환상과 함께 자유롭게 날았다.<br>그들은 자신들의 생각을 기록했고, 그 한 글자 한 글자가 전부 상처를 쓰다듬는 달콤한 사탕이 되어 녹아들었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(옵션) 책장에 동화책 넣기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "누렇게 퇴색된 시간으로도 과거의 생기를 완전히 가릴 수 없었다... 소녀들의 기쁜 감정이 여전히 종이 위에 생생하게 느껴졌다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "다만, 그 생생함은 오직 종이 위에만 머물러 있다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 4,
+          "Speaker": "Narrator",
+          "PlotLineKey": "동화책에 적힌 메모를 발견하였다.<br>누렇게 퇴색된 시간으로도 과거의 생기를 완전히 가릴 수 없었다... 소녀들의 기쁨이 종이 위에서 여전히 생생하게 느껴졌다<br>다만, 그 생생함은 오직 종이 위에만 머물러 있다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "등불사도를 사용하여 시공간 전환하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "어둠은 미지의 것이고, 두려움은 미지에 대한 구체적 표현이지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이런 환경에서 믿을 수 있는 것은 곁에 있는 희미한 빛뿐이야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "어둠과 두려움을... 빛으로 몰아내자",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 4,
+          "Speaker": "Narrator",
+          "PlotLineKey": "이곳은 저택의 서재 같았지만, 고개를 들고 바라본 천장의 반짝이는 물결은 마치 바다 밑에 있는 듯한 착각을 불러일으킨다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "등불사도를 사용하여 시공간 전환하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "흔들리는 작은 해파리들아, 이 희미한 빛으로 해역 전체를 환하게 비춰 주겠어?",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "이 거대한 방 속엔 당신과 칸타렐라만이 있고, 그녀는 깊이를 알 수 없는 눈빛으로 당신을 바라보고 있다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "보아하니, 우리 둘이 한 조가 돼야 할 것 같은데",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "독성이라면 붉은 해파리를 떠올리지 않을 수가 없지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "익숙한 냄새야... 붉은 해파리 한 마리가 저 아래쪽에 숨어 있어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "해파리는 무리를 벗어나 홀로 남으면 조심스럽고 예민해지는 동물이지만...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "걱정할 것 없어. 어떻게 해야 될지 잘 아니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 7,
+          "Speaker": "Narrator",
+          "PlotLineKey": "성녀 시련의 두 번째 공지이다.<br>2차 시련. 후보자들은 2인 1조로 독성이 가장 강한 해파리를 잡은 후, 서로 교환하고, 해파리의 독성을 견뎌낸 자가 승리한다.<br>거대한 방에는 당신과 칸타렐라 둘 뿐이었고, 조사를 지속하기 위해, 당신들은 한 팀이 되기로 하였다. 칸타렐라는 당신을 데리고 붉은 해파리를 찾으러 갔다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "붉은 해파리 찾기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "방 너머로 해파리가 돌아다니고 있다<br> 책장의 칸막이 덕분에 해파리가 여유로운 상태를 유지하는 듯하다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "익숙한 책장이네",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그런데 이번엔 욕심이 좀 많은 것 같아. 책을 두 권이나 요구하다니",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "「과거」 한 권, 그리고 「현재」 한 권...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 5,
+          "Speaker": "Narrator",
+          "PlotLineKey": "해파리는 바로 방에 있었고, 책장이 길을 막고 있었다.<br>책 두 권을 찾아 책장에 넣어야만 길이 열린다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "계속 전진하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "여기는 지식의 감옥일까... 아니면 부풀어 오른 허무의 공간일까...?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "너라면 두 눈으로 여기 숨겨진 계략을 간파할 수 있을 거야",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "훑어본 흔적이 있는 책들이 많고, 다른 필체로 주석이 적힌 책도 많으며 귀여운 그림이 그려져 있는 책도 있다.<br> 잉크의 마른 정도로 보아, 그린지 오래되지 않은 것으로 보인다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 6
+    },
+    {
+      "Title": "적 처치"
+    },
+    {
+      "Title": "책 「과거」 수집하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "「과거」가 벗고 남은 허물이야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이제 한 권 남았네. 「현재」가 투영된 허영을 찾으면 돼",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "다른 책 찾기"
+    },
+    {
+      "Title": "다른 책 찾기"
+    },
+    {
+      "Title": "다른 책 찾기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이 녀석은 어떤 책이든 가리지 않아. 그저 굴곡진 삶의 시간 속 우연 같은 존재거든",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "아무 책이나 한 권 주면 네 용기에 보답할 거야",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "책장 속 비밀문 열기"
+    },
+    {
+      "Title": "책 「현재」 수집하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "두 권을 다 모았네",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "「과거」와 「현재」의 책을 찾았으니까, 이제 문 뒤에 숨겨진 「미래」를 찾아보자",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "책장 속 비밀문 열기"
+    },
+    {
+      "Title": "해파리에게 다가가기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "오, 놀라서 도망쳐버렸네... 독성은 강한데, 예민하고 나약해 빠졌어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "어쩔 수 없지, 이 장애물들부터 해결해야겠어",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "적 처치"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "해파리가 머물렀던 곳에서는 희미한 빛이 반짝거리며, 당신에게 무언가를 알려주고 싶어하는 것 같다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "헤페논은 토끼처럼 겁이 많았지만, 또 그만큼 부드러운 아이였어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "늘 만드라 뒤에 숨은 채로 새빨개진 얼굴을 딱 절반만 쭈뼛거리며 내밀곤 했지...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "눈물이 많은 아이였어. 수은이 든 홍차를 나한테 가져다주는 순간에도, 울음을 참지 못하는 바람에 눈물이 찻잔 속에 떨어졌지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "난 헤페논을 거절할 수가 없었어. 그 애는 착한 아이였으니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "내가 그 홍차를 마시지 않는다면, 어디든 존재하는 심연이 우리 둘을 통째로 삼켰을 테니까...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "나쁘지 않은 맛이었어. 바다사과보다 조금 약한 정도였지. 약간의 작열감과 어지러움, 그리고 두통이 전부였거든",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그 애의 눈물 속 독소가 수은을 중화시킨 건지, 내 몸이 독에 익숙해진 건지는 모르겠지만, 나는 금방 회복했어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그래야만 시련에 참가한 소녀들이 잠시나마 숨을 쉴 수 있었으니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "미안, 추태를 보였네. 과거에 너무 연연하면 안 되는데. 중요한 건 현재와 미래잖아. 안 그래?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 12,
+          "Speaker": "Narrator",
+          "PlotLineKey": "한 장의 쪽지. 헤페논이라는 피살리아 소녀의 안타까움이 적혀 있다.<br>그녀는 피살리아 가주의 차녀이자, 유약한 성격으로, 서로 상처 입히길 원하지 않았다.<br>하지만 소녀들은 심연의 감시하에 서로 독약을 마시게 해야만 잠시나마 숨을 돌릴 수 있었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "음... 느껴져. 그 해파리는 위로 도망쳤어...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "나한테 방법이 있어",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 23
+    },
+    {
+      "Title": "위쪽으로 향하는 길 만들기"
+    },
+    {
+      "Title": "계속 전진하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "작은 해파리가 보여. 점점 가까워지고 있어",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "적 처치"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "다들 가장 독한 해파리를 원하는 모양이구나",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "때늦은 집착은 판단을 흐리게 하지",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "완전히 막힌 길이란 없어. 다른 곳을 찾아보자",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 15
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이 벽은 물의 침식을 견딜 수 없을 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "다시 물속으로 돌아가자",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 16
+    },
+    {
+      "Title": "해파리 잡기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "만드라... 역시 이름만큼이나 곱고 치명적인 꽃이었구나",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "아, 오해하지 마. 「치명적」이라는 건 피살리아에게 있어 최고의 칭찬이니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "만드라는 가주의 모든 가르침을 따랐고, 심지어 피와 살을 깎는 인내심으로 가문의 규칙을 준수하며 틀에 박힌 삶을 살았지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "난 그 아이가 가문을 위해 얼마나 많은 희생을 치렀는지 알고 있었어... 비록 전부 무의미한 일이었다고 해도 말야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그래서 그 애가 붉은 해파리꽃 즙을 묻힌 스콘을 가져다줬을 때, 난 망설임 없이 입에 넣었어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "헤페논보다 강인하고 결의에 찬 그 눈빛 뒤에 망설임과 회피가 스쳐 지나가는 것이 보였지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "익사하는 것처럼 숨이 막히더니, 걷잡을 수 없이 몸이 떨리면서 의식이 희미해진 순간...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "환각처럼, 햇살 가득한 해변에서 아무 걱정 없이 노니는 자유로운 새가 된 우릴 봤던 것 같아...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그 후에 난 깨어났어. 그리고는 깨달았지. 아직도 차디찬 바닷속에 있다는 걸",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 11,
+          "Speaker": "Narrator",
+          "PlotLineKey": "한 장의 쪽지. 만드라라는 피살리아 소녀의 결심이 기록되어 있다.<br>그녀는 피살리아 종가의 장녀였고, 강인한 성격으로, 가주의 모든 가르침을 흡수하여 가문의 규칙을 몸에 새겨두었다.<br>하지만 그녀의 결심에도 회피와 주저가 보였다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "해파리 데려오기"
+    },
+    {
+      "Title": "해파리 데려오기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "독이 배어 나오는 걸 보니, 이제 「결투」를 벌일 준비가 된 것 같네... 그런데 난 불필요한 싸움은 좋아하지 않아서 말이야. 나한테 그 아이를 넘겨주겠어?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "조심스럽게, 내 손 위에 올려놔 줘",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 155,
+              "PlotLineKey": "아니, 전 할 수 없어요...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 156,
+              "PlotLineKey": "당신은 이 고통을 이미 알고 있잖아요...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "괜찮아, 나한테 독이란 전부 무의미하니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "과거의 해파리가 지금의 나한테 해를 끼칠 리 없잖아?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "후후... 착한 아이구나, {PlayerName}. 분명 너도 많이 아플 텐데",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "걱정하지 마... 이런 일은 어른한테 맡기면 돼",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이것 봐, 괜찮을 거라고 했지?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "자, 이제 계속 가보자",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 11,
+          "Speaker": "Narrator",
+          "PlotLineKey": "당신들도 공지대로 독이 가장 강한 해파리를 갖고 와, 서로의 독으로 대결할 때가 되었다.<br>당신은 독에 관해 전혀 몰랐고, 대신 독에 대해 잘 알고 있는 칸타렐라는 자원하여 해파리의 맹독을 견디기로 하였다.<br>차마 그냥 보고만 있을 순 없었지만, 그녀는 웃으면서 직접 해파리를 불렀다. 자신은 이미 독에 대해 내성이 있다면서 아무 일 없을 거라고 했다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "해파리들은 말을 할 수 없어. 그저 물결을 따라 떠다니면서 자신의 희미한 빛으로 끝없는 어둠을 밝히려 노력하지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그리고 이젠 그 작은 빛이 먼 옛날 바닷속 어둠을 뚫고 우리 눈앞을 비추고 있어",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "문 조사하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 496,
+              "PlotLineKey": "세 번 노크하기",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 497,
+              "PlotLineKey": "문이 왠지 익숙하다",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 524,
+              "PlotLineKey": "문을 노크하는 것을 귀찮다고 생각한다",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "문 뒤에서 혼란스러운 소리가 문을 뚫을 기세로 파도처럼 밀려왔다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "그래, 문은 세 번? 아니면 네 번 나타났다. 나타났다 사라지고, 또다시 나타나기를 끊임없이 반복했다.<br>문도 당신이 익숙해서인지, 스스로 문을 열고, 갑자기 당신을 안쪽으로 끌고 갔다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "심연은 당신을 귀찮아하지 않는다. 이미 바닷속에 들어간 이상, 문을 두드릴지 말지는 상관없다. 더 이상 물러설 곳이 없으니...<br>문은 뜨겁게 당신을 끌어안아, 깊은 바다의 파도에 휘말리게 한다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "인형 관찰하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "미묘한 변화가 생긴 것 같아... 위험한 것 같은데...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "뭐가 달라졌는지 자세히 살펴볼까?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 3,
+          "Speaker": "Narrator",
+          "PlotLineKey": "낯설지 않은 방에 작은 변화들이 생겼다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "갑자기 책상 위에 나타난 빨간 모자를 쓴 인형이 당신의 눈길을 끈다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "누군가 행운을 상징하는 인형이라고 말한 것 같다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "신을 따르는 한 행운을 누릴 수 있다고 했다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "과연 그럴까...?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "당신은 깊은 생각에 잠겼고, 당신의 뒤에 문 하나가 조용히 나타났다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "외출하기 전에 잘 준비하세요"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "문 뒤에서 답답한 숨결이 느껴져. 깊은 바닷속을 떠도는 속삭임과, 희미한 피 냄새가 섞인 마른 눈물자국...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "심해에 도달했어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "밀려오는 바닷물을 맞이할 준비는 됐어? 어두운 심해는 별 하나 없는 밤하늘처럼 모든 것을 삼킬 수 있거든",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 174,
+              "PlotLineKey": "갑시다",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 175,
+              "PlotLineKey": "여기에 좀 더 있고 싶어요",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "바닷속은 아주 어두우니까, 나한테서 멀리 떨어지면 안 돼",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그래, 심해로 모험을 떠나기 전에... 확실히 준비를 하는 게 좋아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 8,
+          "Speaker": "Narrator",
+          "PlotLineKey": "이 문 뒤에는 깊은 물 구역이니 준비를 출발하시기 바랍니다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "문 조사하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 502,
+              "PlotLineKey": "세 번 노크하기",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 503,
+              "PlotLineKey": "문이 왠지 익숙하다",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 504,
+              "PlotLineKey": "문을 노크하는 것을 귀찮다고 생각한다",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "문 뒤에서 혼란스러운 소리가 문을 뚫을 기세로 파도처럼 밀려왔다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "그래, 문은 세 번? 아니면 네 번 나타났다. 나타났다 사라지고, 또다시 나타나기를 끊임없이 반복했다.<br>문도 당신이 익숙해서인지, 스스로 문을 열고, 갑자기 당신을 안쪽으로 끌고 갔다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "심연은 당신을 귀찮아하지 않는다. 이미 바닷속에 들어간 이상, 문을 두드릴지 말지는 상관없다. 더 이상 물러설 곳이 없으니...<br>문은 뜨겁게 당신을 끌어안아, 깊은 바다의 파도에 휘말리게 한다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(옵션) 붉은 해파리 관찰하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "붉은 해파리가 떠다닌다. 긴 촉수가 행운과 불행을 엮은 듯 보인다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(옵션) 쪽지 다시 확인하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "세월의 흔적이 다소 느껴지는 일기장. 안에는 소녀들이 주고받은 쪽지가 끼워져 있다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "귀여운 기호들과 어지러운 글씨체가 당신을 견딜 수 없는 시련의 과거로 데려간다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(옵션) 바다사과 관찰하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "바다사과는 스스로 자라나고 있다. 물빛이 비추자 유달리 흉악하게 붉은색을 띤다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(옵션) 칸타렐라와 대화하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 195,
+              "PlotLineKey": "헤페논은...",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 196,
+              "PlotLineKey": "만드라는...",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 197,
+              "PlotLineKey": "괜찮아요?",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "헤페논은 마음이 여려서 명식의 속삭임을 견디기 어려웠어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "성녀의 자질이 있는 애도 아니었지. 성녀가 되는 일은 그리 쉽지 않거든",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그러니까, 시련에서 탈락한 건 오히려 잘된 일이었어. 헤페논과 만드라는 성녀의 시련 도중 사라졌고, 그 아이들의 행방을 아는 사람은 아무도 없었어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "아마, 누군가 속임수를 써서 두 사람을 가주의 시야에서 빼돌린 거겠지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "만드라는 너무 올곧은 성격이라, 제아무리 불합리한 규칙이라도 억지로 견디는 아이였어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이 세상에는 규칙 말고도 더 중요한 게 많은데 말이지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그 아이와 헤페논은 성녀의 시련 도중 사라졌고, 둘의 행방을 아는 사람들은 아무도 없었어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "아마, 누군가 속임수를 써서 두 사람을 가주의 시야에서 빼돌린 거겠지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "괜찮아. 지금 네 앞에 멀쩡하게 서 있잖아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "운다고 해서 돌이킬 수 있는 일은 아무것도 없다는 것도, 불합리한 규칙에 눈감을 수 없다는 것도 잘 알고 있어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "내 방식대로 여기까지 왔으니까, 지금 네 앞에 서 있을 수 있는 거야",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(옵션) 오염물 제거하기"
+    },
+    {
+      "Title": "(옵션) 그림책 보기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "세찬 파도는 모든 빛을 집어삼키려 했고",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "맹독의 속삭임은 날개를 부러뜨리려 했지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "사탕발림 같던 환상은 책장에 갇힌 채, 천천히 메말라 버린 눈물이 된 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 5,
+          "Speaker": "Narrator",
+          "PlotLineKey": "동화책 한 권에는 비뚤어진 글씨체로 기괴한 가요가 적혀있었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "(옵션) 책장에 동화책 넣기"
+    },
+    {
+      "Title": "적 처치"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "책장에서 불길한 냄새가 나기 시작했다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "곧바로 그 불길한 냄새가 당신 앞에서 형상화되었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "무언가 곧 사라지는 혼돈의 주파수로부터 떨어졌다.<br>그 물건에는 뒤틀린 주파수가 가득했는데, 마치 심연으로부터 굴러떨어진 육체 같았다.<br>사실 한 권의 책이었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "소녀들의 절망이 종이를 뚫고 당신을 덮쳤다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "당신은 가슴이 약간 답답해지는 것을 느끼며, 심호흡을 하고, 힘을 주어 책을 덮었다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 3,
+          "Speaker": "Narrator",
+          "PlotLineKey": "동화책에는 어수선한 말이 적혀 있었는데—— 마치 소리 없이 외치는 아우성 같았다.<br>소녀들의 절망이 종이를 넘어 당신을 향해 돌진했다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "인형 댄서와 대화하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "생기가 없는 인형은 당신을 멀뚱멀뚱 향하고 있고, 당신은 다시 불편함을 느낀다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "인형 댄서 A",
+          "PlotLineKey": "마지막 공연, 곧 시작돼. 딱 맞는 페도라, 없어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "인형 댄서 A",
+          "PlotLineKey": "찾아줘, 페도라",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 440,
+              "PlotLineKey": "마지막 공연이라뇨?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 441,
+              "PlotLineKey": "「페도라」의 마지막 공연인가요...?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 442,
+              "PlotLineKey": "그럴게요",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 443,
+              "PlotLineKey": "네, 에",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "인형은 당신의 말에 반응하지 않고, 그 자리에 멀뚱멀뚱 서 있다",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "인형은 잠시 멍하니, 아무 말도 없이 고개를 숙인다",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "인형은 그 자리에 서서, 당신의 관대함에 침묵으로 응답한다",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "인형은 그 자리에 서서, 당신의 장난에 침묵으로 응답한다",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "윽...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 449,
+              "PlotLineKey": "왜 그래요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 450,
+              "PlotLineKey": "방금 그 해파리는 역시...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그냥 옛날 일이 떠올랐을 뿐이야. 괜찮아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이곳에 들어서면 기억하고 싶지 않은 과거에 사로잡힐 수밖에 없어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "어쩌면 나는 아직 너무 약한 걸지도 모르겠네...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 20,
+          "Speaker": "Narrator",
+          "PlotLineKey": "괴상한 인형 하나가 당신을 가로막고, 그녀에게 어울리는 페도라를 찾아달라 했다.<br>칸타렐라는 뭔가 불편해 보였지만, 당신을 걱정시키지 않기 위해 정신을 차리려 애썼다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "페도라 찾기"
+    },
+    {
+      "Title": "무대 뒤로 이동하고 페도라 찾기"
+    },
+    {
+      "Title": "적 처치"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이곳은 과거와 미래, 꿈과 현실이 깊게 뒤섞인 곳이야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그 빛은 혼란스러운 주파수에 얽혀 있어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "인내심이 필요해. 다시 한번 쓰다듬으면서 격려해 줘",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "내 기억이 맞다면... 전기 스위치는 다른 방에 있었을 거야",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 3
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "방 전체가 다시 빛의 혜택을 받게 되었지만, 당신은 뭔가 미묘한 변화가 있는 것을 눈치챈다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 4
+    },
+    {
+      "Title": "페도라 찾기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "이상한 포스터  한 장. 「최종 공연」의 내용을 알리는 듯 했다.<br>포스터에 그려져 있는 두 인형이 왠지 낯이 익었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "페도라 찾기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "무대 뒤를 샅샅이 뒤져봤어. 작은 틈새도 빠짐없이 찾아봤고",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "페도라는 아무래도 여기 없는 것 같아",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "작업실에는 형형색색의 그림들이 쌓여 있다. 캔버스의 유채물감이 부드러운 빛을 띠고 있는 게 모두 최근에 그린 것 같다. 그렇게나 바쁜 칸타렐라가 그림을 그릴 시간이 있다니？",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 6
+    },
+    {
+      "Title": "인형 쫓기"
+    },
+    {
+      "Title": "인형 쫓기"
+    },
+    {
+      "Title": "적 처치"
+    },
+    {
+      "Title": "인형 쫓기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "마지막 공연의 막이, 곧 오른다",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "???",
+          "PlotLineKey": "춤을 춰라, 그리고 싸워라——",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "???",
+          "PlotLineKey": "머잖아 성녀의 왕관이——",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "너희 중 한 사람에게 내려질 테니",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "정확한 인형 찾기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "인형 댄서 C",
+          "PlotLineKey": "페도라, 있어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "인형 댄서 C",
+          "PlotLineKey": "가져가",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "인형은 아무 설명도 없이 페도라를 당신의 손에 넘겼다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "벨벳 페도라는 붉고 윤이 나며, 소녀의 눈물에 젖은 듯 얇은 껍질이 맺히고 있다. 마치 케이크 위의 체리 절임처럼 달콤 씁쓸함이 느껴진다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 5,
+          "Speaker": "Narrator",
+          "PlotLineKey": "인형은 아무 설명도 없이 빨간 페도라를 당신의 손에 넘겼다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "페도라 제출하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "인형 댄서 A",
+          "PlotLineKey": "페도라, 고마워",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "인형 댄서 A",
+          "PlotLineKey": "이상하지만, 그래도, 고마워",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "인형 댄서 A",
+          "PlotLineKey": "마지막 공연, 이제 시작해도 돼",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "인형 댄서 A",
+          "PlotLineKey": "앞으로 가. 가까워. 잘 보여. 마음, 편해",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "인형이 더듬거리며 하는 말은 공연이 더 잘 보이도록 앞으로 나아가 무대에 좀 더 가까이 다가가라고 말하는 듯하다.<br> 마음이 편해진다는 말은 당신이 안심할 수 있다는 말일까, 아니면 인형 자신이 안심할 수 있다는 말일까? 공연이 시작되면 알게 될 것이다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 6,
+          "Speaker": "Narrator",
+          "PlotLineKey": "빨간 페도라를 받은 인형은 감사의 인사와 함께 곧 시작되는 마지막 공연에 당신을 초대하였다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "무대로 이동하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "인형???",
+          "PlotLineKey": "공연 시간이야. 조명, 필요해...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "인형은 표정이 없지만, 당신 곁의 등불사도를 바라보고 있다는 것이 확연이 느껴진다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "인형???",
+          "PlotLineKey": "켜 줘, 불",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "등불사도 사용하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "주파수가... 너무 혼란스러운걸",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "숨을 가다듬고, 다시 시도해 보자",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "등불사도를 다시 사용해 보기"
+    },
+    {
+      "Title": "무대로 이동하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "후...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "당신이 아녜스군요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "편지를 보낸... 말 못 하는 소녀 A이기도 하고요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "저를 칸타렐라한테 데려가고 싶은 거죠...?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 4,
+          "Speaker": "Narrator",
+          "PlotLineKey": "당신은 빨간 모자 소녀가 바로 말은 못 하는, 편지를 보낸 소녀 A 아녜스라는걸 알아차렸다. <br>이미 시간이 많이 흘렀는데 그녀는 왜 아직도 소녀의 모습이지? 이를 생각할 겨를조차 없이, 우선 칸타렐라부터 구출해야 한다.<br>아녜스가 도와주겠다고 나섰고, 그녀가 등불을 들고 눈을 감자, 거대한 빛이 흘러 지나가며, 꺼졌던 등불이 다시 켜졌다. 하지만, 빨간 모자 소녀는 보이지 않았다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "그녀에게 달려가기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "조심하는 게 좋아. 피살리아 가문은 보통이 아니잖아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "???",
+          "PlotLineKey": "그러게 말이야. 에글라 타운에 그런 짓을 하고도 감히 여길 오다니!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "???",
+          "PlotLineKey": "길을 잃은 망령이 정말 돌아올 수 있을까?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "너무... 괴로워...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "???",
+          "PlotLineKey": "으으... 아아아...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "망설임 없이 그녀에게 달려가기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "조심하는 게 좋아. 피살리아 가문은 보통이 아니잖아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "???",
+          "PlotLineKey": "으으... 아아아...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "너무... 괴로워...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "???",
+          "PlotLineKey": "그러게 말이야. 에글라 타운에 그런 짓을 하고도 감히 여길 오다니!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "???",
+          "PlotLineKey": "길을 잃은 망령이 정말 돌아올 수 있을까?",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "당신의 믿음이 굳게 닫힌 해파리의 마음의 문을 열었다"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "제가 아는 칸타렐라는 아주 강인한 사람이에요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "혼란스러운 속삭임에 빠져도, 그 사람이라면 흔들리지 않을 거예요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "제 마음도, 결코 흔들리지 않겠어요",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "흔들리는 작은 해파리들아, 이 희미한 빛으로 해역 전체를 환하게 비춰 주겠어?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "???",
+          "PlotLineKey": "조심스럽게, 내 손 위에 올려놔 줘",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "???",
+          "PlotLineKey": "나, 칸타렐라 피살리아. 그대와의 모든 약속을 중시하고 지킬 것을 맹세한다",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "오직 너만이 닿을 수 있는 곳들이 있을 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "???",
+          "PlotLineKey": "자, 이제 계속 가보자",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "지금이야, 늙은 가주의 집착을 속삭임에서 벗어나게 해 주자",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "늙은 가주의 변이된 집념 없애기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "넌 온갖 방법으로 나를 속였다. 그렇게 고심해서 계획한 끝에 얻은 게 무엇이냐?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "???",
+          "PlotLineKey": "오명만 얻었지, 안 그런가? 네가 감당하지 말았어야 하는 오명 말이다, 칸타렐라",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "???",
+          "PlotLineKey": "아직도 네 어린 시절이 기억에 선하다. 가장 어리고 가장 사랑받지 못한 채로, 늘 외롭게 가마솥을 만지작거리던 피살리아의 구성원이었지... 창가를 스쳐 지나가는 새를 보고 나서야 비로소 미소 짓던 아이 말이다",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "이곳이 싫은 게지? 하지만 피살리아라는 혈통에서 벗어날 길이 없으니, 넌 악몽 속 감옥 같은 이곳에 평생 갇혀있어야 할 거다",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "???",
+          "PlotLineKey": "피살리아의 규칙이 죽도록 싫으면서도, 어쩔 수 없이 그 규칙을 지켜야 하겠지...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "???",
+          "PlotLineKey": "떠날 생각을 해본 적은 없나? 어깨가 무겁지는 않으냐? 나한테 맡기거라... 그러면 곧 홀가분하게 너 자신만의 삶을 살 수 있을 거다",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "기껏 좋은 꿈을 꾸도록 도와줬는데, 왜 아직도 날 괴롭히는 거지?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "당신도 흐뭇하게 지켜봤잖아. 내가 그들을 짓밟고 영광의 계단을 올라 가시관을 쓰는 모습을... 아직도 만족하지 못했나?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "늙은 가주의 집념",
+          "PlotLineKey": "환상은 독이라고 부를 수 없다. 거짓된 거품도 언젠간 꺼지겠지. 바로 지금처럼 말이다...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "...거짓된 환상이라도 아름다운 진실을 만들어낼 수 있어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "속삭임으로 일그러진 당신의 집념은 저택을 뒤덮는 그늘을 만들어내서... 존재해서는 안 될 허망함으로 그 안을 가득 채웠지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "나한테는 속삭임에 빠져든 당신의 고통이 느껴져. 다시 한번 도와줄게. 그 고통에서 빠져나오도록...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 13,
+          "Speaker": "Narrator",
+          "PlotLineKey": "사실, 과거에 칸타렐라가 환술로 가주를 속여, 그 자리를 빼앗은 후 이 잔인한 시련을 끝냈던 것이었다.<br>가주는 속삭임에 의해 뒤틀린 집념으로 여전히 저택을 맴돌고 있으며, 이곳을 유령의 바다로 만들었다.<br>당신은 칸타렐라와 함께 다시 한번 가주를 해방했다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "심연이 그늘에 몸을 숨겼어. 그리고 그늘이 가장 두려워하는 것은 밝은 빛이지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "날 믿어줘서 고마워. 작은 등불사도에 힘이 가득 찼어. 다시 강렬하게 빛날 수 있을 거야",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "지금이야, 이제 등불사도를 더 강렬하게 빛내 줘!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 3
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "혼돈의 속삭임이 아직 사라지지 않은 것 같아... 조심해. 변이된 집념이 다시 그늘 속으로 숨을 거야",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "늙은 가주의 변이된 집념 없애기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "늙은 가주여, 난 당신에게 좋은 꿈을 선사했을 뿐 아니라, 당신이 가장 중요시 여기던 일들도 잘 완수해 냈어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "내가 가장 신뢰하는 이에게 피살리아의 진정한 믿음을 맡겼고, 거꾸로 선 탑에 있는 명식의 거짓말도 밝혀졌지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그 속삭임은 더 이상 우리 귀를 맴돌지 않을 거야. 아이들도 더 이상 시련으로 고통받을 일 없을 거고",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "...그러니 당신도, 이제 명식의 속삭임에서 벗어나길 바라",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 378,
+              "PlotLineKey": "이 소녀들은 유령이 아니죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 379,
+              "PlotLineKey": "이게 바로 정답이겠죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "아무래도 네 눈을 속일 순 없겠네",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "체리",
+          "PlotLineKey": "우린 모두 인간들이야. 눈도 있고, 코도 있잖아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "체리",
+          "PlotLineKey": "그 지옥 같은 시련 속에서 칸타렐라 언니가 환상으로 우릴 구해줬어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 11,
+          "Speaker": "Narrator",
+          "PlotLineKey": "당신들이 가주의 집념을 속삭임으로부터 풀어주자, 유령의 바다도 함께 무너졌다.<br>유령의 바다는 사라지면서 주변에서 찬송가가 울려 퍼졌다. 당신은 자신이 성당에 있다는 걸 발견하였고, 「사망」한 소녀들이 당신의 앞에 서 있었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "체리",
+          "PlotLineKey": "애초에",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "체리",
+          "PlotLineKey": "그건 잘못된 기대였어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "체리",
+          "PlotLineKey": "모든 소원을 들어주는 비약이",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "체리",
+          "PlotLineKey": "숨겨진 곳",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "체리",
+          "PlotLineKey": "우린 공포를 삼키며",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "체리",
+          "PlotLineKey": "어둠에 빠졌어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "체리",
+          "PlotLineKey": "여긴 아무것도 없어. 어두운 심연과 우리 자신뿐",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "체리",
+          "PlotLineKey": "「비약」은",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "체리",
+          "PlotLineKey": "피눈물에 젖고",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "체리",
+          "PlotLineKey": "「독약」은",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "체리",
+          "PlotLineKey": "꿈처럼 달콤해지지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "체리",
+          "PlotLineKey": "마침내",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "체리",
+          "PlotLineKey": "우린 어둠을 뚫고",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "체리",
+          "PlotLineKey": "계단을 올랐어",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 9
+    },
+    {
+      "Title": "LevelPlay_153000000_ChildQuestTip_153_180"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "체리",
+          "PlotLineKey": "칸타렐라 언니는 가주가 된 이후로 우릴 저택 깊숙한 곳에서 보호해 줬어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "체리",
+          "PlotLineKey": "밖에는 수도회 사람들이 돌아다니면서 과거에 일어난 일을 조사하고 있었지. 섣불리 나가면 위험할 수도 있다는 건 잘 알고 있었지만...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "체리",
+          "PlotLineKey": "체리는... 집이 너무 그리워...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "체리",
+          "PlotLineKey": "다행히 칸타렐라 언니가 우리를 위해 회혼의 밤을 열어줬어. 매년 이날 밤이 돌아오면, 우린 가면을 쓰고 조용히 고향 집으로 돌아가 사랑하는 가족을 살짝 볼 수 있었지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "체리",
+          "PlotLineKey": "활기차고 건강한 탁이의 모습을 볼 때마다 항상 마음이 놓였어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "모두들, 오늘 밤만 지나면 영원히 가족과 함께 할 수 있을 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "「월계관을 쟁취한 자」가 오늘 밤의 주제를 해결했고, 나와 함께 「죽은 사람을 살리는 비약」을 만들어 줄 거야",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 461,
+              "PlotLineKey": "도대체 일이 어떻게 돼가는 거죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 462,
+              "PlotLineKey": "점점 모든 것이 이해되는군요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "거꾸로 선 탑에 있는 명식의 거짓말이 밝혀진 후로, 외부의 주파수와 정세가 바뀌기 시작했어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "네가 리나시타에 온 다음부터 수도회는 자신들의 앞가림조차 하기 어려울 정도로 기세가 꺾였지. 당분간은 피살리아 가문을 지켜볼 힘이 없을 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "저택은 명식의 속삭임에 가장 큰 영향을 받은 곳이야. 여기 갇혀있던 역대 가주들과 시련에 의해 목숨을 잃은 죄 없는 소녀들... 그 주파수들은... 모두 명식이 소멸하는 순간에 폭발했어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그들을 가둔 속삭임은 이미 사라졌지만, 오랜 시간 동안 쌓인 두려움과 고통, 원망과 깊은 슬픔은 그 한순간의 폭발과 함께 뒤틀리면서 새로운 감옥을 만들었지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "내면의 굴레는 외부보다 더 무겁기 마련이야. 하지만 다행히도, 우리는 힘을 모아 그 굴레를 깨뜨렸어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이제 아이들을 집에 돌려보낼 때가 된 것 같아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "널 위험에 빠뜨릴 생각은 없었어. 나 혼자 모든 것을 처리하고 싶었지. 그래서 난 「주최자」의 자격으로 「유령 소녀」라는 주제를 정하고 직접 회혼의 밤에 참가한 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그렇게... 혼자서 「유령의 바다」를 뚫고 나가 수수께끼를 푼 다음, 죽은 사람을 살리는 비약을 손에 넣었다고 말하려고 했어. 그리고 한밤중에 유령의 춤을 추는 동안, 「비약」을 사용해서 그 아이들을 돌려보내려고 했었고",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 471,
+              "PlotLineKey": "그러면 그 편지는...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 472,
+              "PlotLineKey": "그러면 제가 받았던 「영향」은...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "네가 나타난 건 얼핏 우연처럼 보이지만, 사실 필연이었어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그 편지는 내가 보낸 게 아니야. 하지만... 누가 널 데려온 건지 알 것 같기도 해",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "네가 이상 주파수의 피해를 받는 걸 그 애도 바라진 않았을 거야... 하지만 그 애는 왜곡된 소노라에 너무 오래 머물러 있었어. 그래서 주파수와 일체화된 지 이미 오래였고",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "처음 그 편지와 네 이상 증세를 봤을 때, 난 네가 이 일에서 빠져나갈 수 없다는 걸 느꼈어. 유령의 바다에서 넘쳐나는 주파수가 특수한 체질을 가진 너한테까지 영향을 미친 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "생각해 보니 내가 너무 자만했던 것 같네... 아, 미안해. 나도 모르게 나약한 모습을 보여서",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "깊은 바닷속은 물살이 아주 급해. 해초들도 복잡하게 얽혀 있어서 나조차도 거기 얽매여 빠져나올 방도가 없지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그 해초에서 날 풀어주고, 함께 거친 해류를 건널 사람이... 바로 너였던 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "네가 있어 주니까 비약을 만드는 것도 훨씬 더 쉬워졌어. 내가 말했지? 재료나 공정도 중요하지만, 약을 만드는 사람이 더 중요하다고",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "진심으로 감사하다는 말을 전하고 싶어. 내 곁에 와줘서 정말 고마워",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "체리",
+          "PlotLineKey": "칸타렐라 언니, 모든 걸 혼자 짊어지려고 하지 마. 이젠 믿을 만한 사람한테 의지할 때도 됐잖아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그래. {PlayerName}, 하나만 더 부탁하고 싶어. 「죽은 사람을 살리는 비약」을 써서 아이들을 돌려보내 줄 수 있을까?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "피살리아라는 이름이 가진 악명 때문에 사람들은 나한테 많은 반감을 가지고 있어. 난 불필요한 문제가 생기길 바라지 않아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "너는 「월계관을 쟁취한 자」라는 명성을 가지고 있는 데다, 올바르지 않은 일을 바로잡고, 불가능한 것들을 가능하게 만드는 힘도 가지고 있어. 네 손을 거친다면, 사람들의 신뢰도 분명 더 높아질 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "만약 수도회가 나중에 이의를 제기하려고 해도, 네 정체와 능력 때문에 더 따지지도 못하게 되겠지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "가장 중요한 건 네가 있어야 「죽은 사람을 살리는 비약」 이야기가 완성될 수 있다는 거야. 네가 사람들이 보는 앞에서 직접 비약을 쏟아붓는 게 더 그럴듯하게 보일 테니까",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 488,
+              "PlotLineKey": "그래요, 돕는 김에 끝까지 도와야죠",
+              "PlayVoice": false,
+              "JumpToId": 31
+            },
+            {
+              "TextId": 489,
+              "PlotLineKey": "당신의 악명을 지우고 싶지 않나요?",
+              "PlayVoice": false,
+              "JumpToId": 32
+            }
+          ]
+        },
+        {
+          "Id": 31,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "고마워. 나와 온 피살리아 가문이 너에게 모든 지원을 아끼지 않을 거야",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 34
+        },
+        {
+          "Id": 32,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "후후, 명성은 파도 위의 물거품일 뿐, 나한테는 전혀 중요하지 않아. 게다가, 사람들이 피살리아에 대해 경각심을 갖는 건 그리 나쁜 일이 아니거든",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이 가문에는 거대하고 뿌리 깊은 어둠이 있어... 그 관습과 전통을 조금씩 고쳐나가야 해",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 34
+        },
+        {
+          "Id": 34,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "얘들아, 짐을 챙겨. 언니랑 {PlayerName}(이)가 집에 데려다줄게",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 41,
+          "Speaker": "Narrator",
+          "PlotLineKey": "칸타렐라는 당신에게 자초지종을 말해주었다. 거꾸로 선 탑의 거짓말이 들통난 뒤, 외부의 주파수와 상황에 변화가 생겼다. 지금이 바로 소녀들을 돌려보낼 적기이다.<br>칸타렐라는 당신이 위험에 빠지지 않도록, 홀로 모든 걸 끝내려고 하였다. 그래서, 「주최자」의 신분으로 「유령 소녀」라는 테마를 선정한 후, 직접 회혼의 밤에 참가하기로 하였다.<br>그녀는 홀로 「유령의 바다」를 뚫어 수수께끼를 풀어 회생의 비약을 손에 넣으려 하였다. 그리고 한밤중에 유령의 춤을 추는 동안, 「비약」을 사용해 소녀들을 돌려보내려고 했다.<br>하지만 아녜스가 보낸 신비한 편지가 당신을 그녀 곁으로 보냈고, 둘이 함께 유령의 바다로 가서 모든 일을 마칠 수 있었다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "칸타렐라와 대화 후 유령의 바다로 함께 이동하기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "준비됐어?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1236,
+              "PlotLineKey": "준비됐어요",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 1237,
+              "PlotLineKey": "잠시만요",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "가자. 유령의 바다로",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그래, 비올라카의 향기를 조금 더 맡는 것도 좋지",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "저택 로비로 돌아가, 소녀들과 마지막 인사 나누기"
+    },
+    {
+      "Title": "도전 오픈"
+    },
+    {
+      "Title": "「신작로」 나가기"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "체리",
+          "PlotLineKey": "칸타렐라 언니, 늘 돌봐줘서 고마웠어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "체리",
+          "PlotLineKey": "우리가 떠나면, 언니 혼자만 남을 텐데...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "체리",
+          "PlotLineKey": "언니 혼자 항상 이 부담을 짊어질 필요는 없어. 그래선 안 된다고 생각해",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "체리",
+          "PlotLineKey": "같이 시련을 겪었을 때, 우리 둘이 얘기했었잖아. 여기서 멀리 떠나 아무도 모르는 곳으로 가서, 이름을 숨기고 자유롭게 살고 싶다고...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "체리",
+          "PlotLineKey": "그런데 이젠... 이 차가운 저택에 홀로 남아서 언니 혼자 모든 걸 짊어져야 하니까...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "...내가 가주인 한, 수도회가 과거의 일을 따지기는 어려울 거야, 「시련」의 전통도 다시 생기지 않을 거고, 다시는 무고한 생명을 해칠 일도 없겠지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "나 한 사람의 자유를 대가로 많은 사람이 자유를 얻는다면, 절대 손해 보는 일이 아니야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "가자. 시간이 됐어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 9,
+          "Speaker": "Narrator",
+          "PlotLineKey": "당신들은 소녀들을 고향으로 돌려보내기로 하였다. 떠나기 전, 소녀들은 칸타렐라를 향해 작별 인사를 하며, 오랫동안 보살펴준 것에 감사의 마음을 전했다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "수수께끼는 풀렸어요. 이게 바로... 「죽은 사람을 살리는 비약」이에요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "오늘 밤은, 잊지 못할 것 같네",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "회혼의 밤이 무사히 끝났고, 타운은 한산한 일상을 되찾았다.<br>풍차가 여유롭게 돌아가고, 잎사귀가 새벽의 서늘한 바람에 따라 천천히 떨어졌다.<br>마치 아무 일도 없었던 것처럼, 방금까지의 일들은 단지 고요한 밤의 환상이었던 듯하다.<br>하지만 당신은 이 모든 일들이 실제로 일어났다는 것을 알고 있다. 왜냐하면 칸타렐라가 바로 당신 옆에 있기 때문이다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "포포",
+          "PlotLineKey": "하암... 진짜 원 없이 잤네",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "포포",
+          "PlotLineKey": "킁킁... 이상한 냄새가 사라졌잖아? 이제 좋은 향기만 남았어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "포포",
+          "PlotLineKey": "있잖아, 내가 엄청 멋있는 꿈을 꿨거든? 꿈속에서 귀여운 에코들이랑 춤을 췄어. 헤헤...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "포포",
+          "PlotLineKey": "어, 미안 미안. 아직 내가 나타나면 안 될 때였나?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1092,
+              "PlotLineKey": "괜찮아, 계속 좋은 꿈 꿔라",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1093,
+              "PlotLineKey": "이제야 알아차렸어?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "포포",
+          "PlotLineKey": "알았어... 다시 자러 갈게...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "하아... 다 회복된 것 같네. 다행이야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "밤이 이미 깊었는데, 괜찮다면... 내 저택에서 하룻밤 쉬는 게 어때?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1094,
+              "PlotLineKey": "좋아요, 저도 마침 쉬고 싶었어요",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 1095,
+              "PlotLineKey": "오늘 밤 정말 고생했어요, 집까지 데려다 줄게요",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "칸타렐라의 입가에 미소가 번지고, 바닷물처럼 잔잔한 눈동자에 약간의 부드러움이 묻어났다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "그녀는 당신이 자신보다 더 강하다는 사실을 잘 알고 있지만, 그렇다고 그녀가 본능적으로 당신을 돌보려는 마음은 사라지지 않는다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "물론, 나야 영광이지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 16,
+          "Speaker": "Narrator",
+          "PlotLineKey": "회혼의 밤은 막을 내렸고, 소녀들도 고향으로 돌아갔다. 당신과 포포가 받은 영향도 사라졌고, 모든 건 다시 평화로움을 되찾았다.<br>마치 아무 일도 없었던 것처럼, 방금까지의 일들은 단지 고요한 밤의 환상이었던 것 같다.<br>하지만 당신은 이 모든 일들이 실제로 일어났다는 것을 알고 있다. 왜냐하면 칸타렐라가 바로 당신 곁에 있기 때문이다.<br>그녀는 당신이 그녀보다 강하다는 걸 알고 있지만, 본능적으로 당신을 보살피려 했다. 그녀는 다시 평온을 되찾은 귀족 저택으로 당신을 초대하였다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "네가 있어 주니까, 이 큰 저택이 덜 외롭게 느껴지네",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 858,
+              "PlotLineKey": "피살리아는 결국...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 859,
+              "PlotLineKey": "성녀의 시련은...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "피살리아가 지켜온 대의는 명식의 정신적 간섭에 저항하고 수호신에 대한 진정한 신앙을 지키는 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "시련이 그토록 잔혹했던 것도, 의지가 굳은 성녀를 뽑기 위해서였지. 강한 의지를 지닌 사람만이 심해의 속삭임을 뚫고 한 줄기 희미한 빛을 볼 수 있을 테니까",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "역대 가주들의 소행은 모두 대의를 위해서였지만, 그 대의를 위해 수많은 무고한 사람들이 희생되어야만 했어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "하지만 난 「필요한 희생」이라는 이름 하에 타인의 의지와 어긋나는 행위를 반복하는 일을 인정할 수 없었어. 그건 강자가 약자를 괴롭히는 일이잖아",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "불을 피우는 것도 중요하지만, 그렇다고 이유 없이 장작을 태워 버려서는 안 되지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "인간은... 장작이 아니니까",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 860,
+              "PlotLineKey": "그래서 당신은 자신의 힘을 바쳤죠...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 861,
+              "PlotLineKey": "그래서 당신은 다른 가능성을 찾았죠...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "맞아, 신권의 검을 꽉 잡고 나<ano=플뢰르 드 리스>보다 더 강력하고 적합한 공명자의 존재를 감지했을 때, 난 또 다른 가능성을 봤어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "나는 수호신에게 내 2차 공명의 힘을 그 사람에게 넘겨달라고 부탁했지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "「분리」의 힘을 가진 수호신은 처음으로 내 「융합」 제안에 동의했고, 그렇게 내 힘을 그 공명자와 융합시켜 명식과 사투를 벌이도록 한 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그렇게 우리는 짧은 승리를 거두었지만, 명식은 생각보다 상대하기 어려운 존재였어...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "난 성녀의 시련 없이도 최후의 승리를 보장하기 위해 가주가 됐고... 그렇게 피살리아의 가주로서, 힘으로 지배할 수 있는 모든 자원을 장악하고 있어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "명식이 경계심을 풀도록 수도회에 협력하는 척하면서, 수호신을 완전히 해방시키고 명식을 물리칠 방법을 찾고 있었지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "...널 찾을 때까지 말이야",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 862,
+              "PlotLineKey": "그래서 직접 저를 데리고 신권의 검을 가지러 간 거였군요",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 863,
+              "PlotLineKey": "많이 힘들었겠어요",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "네가 리나시타의 영토에 발을 들여놓은 순간부터, 난 여러 가지 방법으로 널 관찰하고 있었거든",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이젠... 너에 대해 아주 잘 알게 됐고",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 17,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "나도 너처럼 자신만의 길을 선택했을 뿐이야. 이미 선택한 이상, 끝까지 가야겠지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "게다가 네가 겪은 일에 비하면, 이 정도 수고는 아무것도 아닌걸",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 19,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "넌 거꾸로 선 탑의 명식을 물리치고, 리나시타 사람들과 소녀들... 그리고 날 구해냈어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "소녀들은 고향으로 돌아갔고, 명식의 속삭임이 피살리아 저택에 울리는 일도 이제는 없게 됐지",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "수도회가 물러났으니, 리나시타의 하늘을 가리던 그림자도 점차 사라지고... 모든 것이 평온을 되찾았어",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그 누구도 다치지 않는... 평온하고 평화로운 일상이, 바로 네가 만들어낸 기적이야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이 정도의 노고를 베풀어 주었으니, 피살리아의 가주로서 너한테 어울리는 비약을 주는 게 당연하겠지?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "영원한 젊음을 유지하는 비약? 공명 정도로 봐선, 너한테 이런 비약은 더 이상 필요하지 않을 것 같고...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "그럼, 돌을 금으로 만드는 비약은 어떨까?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "나, 칸타렐라 피살리아. 가문의 모든 것을 {PlayerName}에게 바칠 것을 맹세한다. 모든 비약과, 모든 비밀까지도",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 864,
+              "PlotLineKey": "너무 많은 거 아니에요?",
+              "PlayVoice": false,
+              "JumpToId": 27
+            },
+            {
+              "TextId": 865,
+              "PlotLineKey": "모든 것이요? 그럼...",
+              "PlayVoice": false,
+              "JumpToId": 28
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "피살리아는 결코 밑지는 장사를 하지 않아. 오히려 너한테 바칠 수 있다는 게 나한테는 큰 영광인걸",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 29
+        },
+        {
+          "Id": 28,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "우리 사이에 서로가 가진 걸 구별할 필요는 없다고 생각하거든",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 29
+        },
+        {
+          "Id": 29,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "하루 종일 바빴으니까, 지금 너한테 제일 필요한 건 달콤한 꿈이겠지?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "이건 내가 새로 만든 정신을 안정시키는 비약이야. 자엽 자귀나무의 꽃잎을 더해서, 은은한 향이 꿈에서도 오랫동안 여운을 남길 거야",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "칸타렐라",
+          "PlotLineKey": "자장, 자장...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 41,
+          "Speaker": "Narrator",
+          "PlotLineKey": "이 큰 저택엔 당신과 칸타렐라 둘 뿐이었고, 그녀는 당신에게 마음을 열었다.<br>피살리아가 지켜왔던 대의는 바로 명식의 정신적 간섭에 저항하고 수호신에 대한 진정한 신앙을 지키는 것이었다.<br>시련이 그토록 잔혹했던 것도, 의지가 굳은 성녀를 뽑기 위해서였고, 강한 의지를 지닌 사람만이 명식의 속삭임의 침식을 막을 수 있었다.<br>칸타렐라는 「필요한 희생」이라느 이름 아래 타인의 뜻에 어긋나는 행위는 인정하지 않았지만, 어쨌든 승리할 수 있는 방법을 찾아야만 했다.<br>그래서, 그녀는 자신의 2차 공명의 힘을 희생하며, 그녀 외에 누구도 다치지 않는 또 다른 답안을 찾고 있었다.<br>명식이 경계심을 풀도록 수도회에 협력하는 척하면서, 수호신을 완전히 해방하고 명식을 물리칠 방법...<br>결국, 그녀는 당신을 찾아냈고—— 이토록 평온하고 평화로운 일상은 바로 당신과 그녀와 함께 만들어낸 기적이다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

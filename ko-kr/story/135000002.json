@@ -1,0 +1,868 @@
+{
+  "Id": 135000002,
+  "Name": "주둔지 배급 도난 사건 조사",
+  "Description": "잃어버린 주둔지 배급을 찾으세요",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 135000002,
+  "ShowQuestList": [],
+  "QuestDesc": "잃어버린 주둔지 배급을 찾으세요",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100005,
+      "PreQuestName": "첫 마주치는 잔성"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "북고",
+          "PlotLineKey": "방랑자?! 오, 이렇게 귀한 손님께서, 영광입니다!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "북고",
+          "PlotLineKey": "저는 북고라고 해요. 주둔지의 리더에요. 주둔지의 도난 사건을 조사하고 있어요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 121,
+              "PlotLineKey": "제 도움이 필요한 건가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "북고",
+          "PlotLineKey": "일정 시간마다 무무물류가 주둔지에 배급을 해다 주는데, 이 배급은 먹는 것과 입는 것 모두 포함되어 있어요. 무무물류가 나르는 수량도 매번 동일하고요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "북고",
+          "PlotLineKey": "그러다 저녁에 배급을 점검하는데 담당 팀원이 소포 한 상자가 부족한 것을 발견했어요. 중요한 것은 아니지만...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 122,
+              "PlotLineKey": "중요한 것 같은데요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "북고",
+          "PlotLineKey": "그렇죠! 성내의 따뜻한 고향 음식이 그립지 않은 사람이 어딨겠어요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "북고",
+          "PlotLineKey": "주둔지를 지키는 대원들을 위로하기 위해 제가 몰래 판화에게 부탁해서 미리 준비한 요리를 준비했어요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 123,
+              "PlotLineKey": "거기까지만 말하세요！",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 124,
+              "PlotLineKey": "듣고 있으니 저도 배고프네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "북고",
+          "PlotLineKey": "죄송해요, 오랫동안 금주로 돌아가지 못한지라 고향 음식이 그리워서요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "북고",
+          "PlotLineKey": "어쨌든, 일단 방랑자만 알고 있어요. 하지만 제가 또 직접 가서 조사할 수도 없는 상황이네요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "북고",
+          "PlotLineKey": "전선의 장병에게 있어 신뢰와 믿음은 밤낮으로 생사고락을 함께 하며 얻은거예요. 전 어렵게 얻은 이 신뢰와 믿음을 무너뜨리고 싶지 않아요. 그래서...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 125,
+              "PlotLineKey": "저에게 의뢰하고 싶은 건가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 126,
+              "PlotLineKey": "사례금만 있으면 돼요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "북고",
+          "PlotLineKey": "답례로 판화 반점에서 거하게 한 끼 쏠게요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 127,
+              "PlotLineKey": "약속해요!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "북고",
+          "PlotLineKey": "본론으로 들어갈게요. 먼저 근무 중인 보초부터 시작해서 어제 오후부터 지금까지의 캠프 출입 상황을 조사해 주세요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "도영",
+          "PlotLineKey": "방랑자! 무슨 일이에요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 135,
+              "PlotLineKey": "(이곳에 온 이유를 말한다)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "도영",
+          "PlotLineKey": "주둔지 출입 내용을 알고 싶으신 건가요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "도영",
+          "PlotLineKey": "제가 오늘 아침에야 교대를 해서 당직 일지 조회해 드릴게요. 일지에는 모든 인원의 출입 기록을 기록했거든요. 잠시만 기다려 주세요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "......",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "도영",
+          "PlotLineKey": "무무물류 배송원 외에는 출입 기록이 없네요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 136,
+              "PlotLineKey": "저에게 이렇게 다 알려줘도 되나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 137,
+              "PlotLineKey": "조사 이유가 궁금하지 않나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "도영",
+          "PlotLineKey": "기염 장군께서 방랑자를 최대한 도우라고 말씀하셨어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "도영",
+          "PlotLineKey": "이유 여하를 막론하고 방랑자를 도울 수만 있다면 된 거예요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 138,
+              "PlotLineKey": "경의를 표해요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 139,
+              "PlotLineKey": "당신은 정직한 사람이에요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "무청",
+          "PlotLineKey": "대체 누구야!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 164,
+              "PlotLineKey": "무슨 일 있나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "무청",
+          "PlotLineKey": "누가 음식을 흘렸는지... 회색머리갈매기가 냄새를 맡고 떼로 몰려와서 쫓아낼 수가 없어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "무청",
+          "PlotLineKey": "겨우 청소해놨어요. 제가 얼마나 쪼였는지 보세요!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 165,
+              "PlotLineKey": "당신이 이곳의 책임자인가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "무청",
+          "PlotLineKey": "아니요. 이곳은 주둔지에 속한 창고 구역으로, 밍이가 책임자예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "무청",
+          "PlotLineKey": "일반적으로는 밍이가 입고 점검을 담당하고 천랑과 무형은 배급 나르는 작업을 해요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "무청",
+          "PlotLineKey": "나중에 저도 밍이한테 물어봐야겠어요. 대체 누가 한 짓인지 꼭 알아낼 거예요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "야귀 대원",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "야귀 대원",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "야귀 대원",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "유난히 무거워 보이는 발자국은 보폭이 크지 않는 걸로 보아 무거운 물건을 옮긴 것 같다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "발뒤꿈치에 있는 신발 자국이 균열로 가득 차 있고, 뒤꿈치가 심하게 마모되어 있는 게 보행 시 무게 중심이 뒤쪽에 있음을 알 수 있다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 183,
+              "PlotLineKey": "여쭤보고 싶은 게 있어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "천랑",
+          "PlotLineKey": "말씀하세요. 지금 저는 새로 들어온 외근복을 점검하고 있어요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 184,
+              "PlotLineKey": "어제 배급과 함께 배송된 건가요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "천랑",
+          "PlotLineKey": "네, 맞아요. 병사들의 외근복은 정기적으로 새것으로 갈아입어요. 얼마 전에 새 옷 신청서를 모아놨는데, 신청 이유 때문에 골치가 아프네요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "천랑",
+          "PlotLineKey": "예를 들어, 임무를 수행하다가 쇄아멧돼지의 송곳니에 바지를 찢겼거나, 암흑 밀림의 까부는 원숭이가 모자를 훔쳐 갔다거나...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "천랑",
+          "PlotLineKey": "제가 신청서를 구석 테이블 위에 올려놨으니, 궁금하면 직접 확인해 보세요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 185,
+              "PlotLineKey": "입고되었을 때 무슨 일이 있었나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "천랑",
+          "PlotLineKey": "당시 밍이는 일이 있어서 잠시 자리를 비웠고, 그동안 제가 임시로 창고 정리를 도왔어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "천랑",
+          "PlotLineKey": "또 다른 팀원인 무형은 창고 밖에서 혼자서 화물을 나르고 있었어요. 창고에는 별다른 이상이 없었어요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 186,
+              "PlotLineKey": "이 신청서가 돌파구일지도 모르겠네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 199,
+              "PlotLineKey": "......",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "젊은 야귀",
+          "PlotLineKey": "무... 무슨 일인가요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 200,
+              "PlotLineKey": "옷에 묻은 기름방울...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "젊은 야귀",
+          "PlotLineKey": "아... 금주에 다녀왔는데, 판화반점에서 밥을 먹다가 실수로 튀었어요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 201,
+              "PlotLineKey": "더 이상 물어볼 필요가 없을 것 같다",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "밍이",
+          "PlotLineKey": "방... 방랑자? 북고 대장이 부탁해서 왔나요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "밍이",
+          "PlotLineKey": "배급 분실은 제가 보고한 거예요. 제가 입고할 때 잠깐 자리를 비운 사이에 이런 일이 생겼어요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "잠깐 자리를 비웠다고요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 174,
+              "PlotLineKey": "어디 가셨었나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "밍이",
+          "PlotLineKey": "저.... 전 천랑에게 임시 대리 근무를 부탁했어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "밍이",
+          "PlotLineKey": "천랑과 도영이가 증언해 줄 거예요. 전 알리바이가 있어요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 175,
+              "PlotLineKey": "도영은 또 무슨 일이죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "밍이",
+          "PlotLineKey": "배... 배급에 도영에게 온 우편물이 있었는데, 전 그냥 가는 길에 그에게 전해줬을 뿐이에요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "밍이",
+          "PlotLineKey": "다른 뜻은 절대 없었어요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "젊음이 좋네요...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "이제 천랑을 찾으러 가자",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "무무물류의 배송함이다. 여는 순간 매운 향기가 코를 찔렀지만, 상자 안은 텅텅 비어 있다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "상자 바닥에 희미한 기름기가 돌고 있다. 이 향기는... 틀림없다! 이건 판화 반점의 특제 소스 찜닭이다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "냄새를 맡을수록 배가 고파지니 이곳에 오래 머물면 안될 것 같다... 근처 야귀대원한테 기억에 남는 일이 있는지 물어보자",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "주둔지 대장",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "주둔지 대장",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "주둔지 대장",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "북고",
+          "PlotLineKey": "주둔지에 출입한 사람이 없었나요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "북고",
+          "PlotLineKey": "어쩌면 전 최악의 경우를 대비해야 할 것 같네요... 그렇다면 주둔지에 있는 사람들의 소행일 수밖에 없어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "북고",
+          "PlotLineKey": "방랑자가 출입 기록을 알아보는 동안 저도 배급 나를 때의 감시 영상을 확인했어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "북고",
+          "PlotLineKey": "밍이, 천랑, 무형이 배급 나르고 입고했어요. 그들한테 물어보세요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "북고",
+          "PlotLineKey": "참, 보급 입고 위치는 감시 사각지대에요. 그곳에서 숨겨진 단서를 발견할 수 있을지도 몰라요. 방랑자, 그곳을 부탁해요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "신청인: 도영 <br>신청 내용: 상의 교체가 필요함 <br>사유: 추방자에게 납치된 연구원을 구할 때 상의가 유탄에 관통당함",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "신청인: 병훈 <br>신청 내용: 군모 교체가 필요함 <br>사유: 실수로 회색머리갈매기를 화나게 하여 일방적으로 하늘에서 내려온 선물을 맞게 됨",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "무청도 고생 많았겠구나...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "신청인: 무형 <br>신청 내용: 군화 교체가 필요함 <br>사유: 무거운 물건을 운반하여 굽이 심하게 마모되어 자주 넘어짐",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "물류 박스 옆 신발자국 특징이랑 거의 맞는다. 혹시 모르니 당사자를 찾아가서 확인해 보자",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 206,
+              "PlotLineKey": "(북고에게 자신의 추측을 전한다)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "북고",
+          "PlotLineKey": "네, 저도 대략적인 추측은 했어요. 방랑자는 누가 배급을 훔쳐 갔다고 생각하나요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "밍이",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 208,
+              "PlotLineKey": "천랑",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 209,
+              "PlotLineKey": "무형",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "북고",
+          "PlotLineKey": "제가 예상한 것과 조금 어긋나네요, 다른 사람일 수도 있어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "북고",
+          "PlotLineKey": "제가 예상한 것과 조금 어긋나네요, 다른 사람일 수도 있어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "북고",
+          "PlotLineKey": "보아하니 저와 생각이 같네요. 같이 가서 무형과 이야기해 보죠",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "북고",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "북고",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "젊은 야귀",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "젊은 야귀",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "젊은 야귀",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "젊은 야귀",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "젊은 야귀",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 212,
+              "PlotLineKey": "",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "북고",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "북고",
+          "PlotLineKey": "도와주셔서 감사해요. 방랑자",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 219,
+              "PlotLineKey": "무형에 관해서...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "북고",
+          "PlotLineKey": "어린 나이에 고향을 떠나 오랜 세월 동안 주둔지를 지키다 보니 일을 처리하는 방식도 비교적 강직해지고, 무슨 일이 생기면 마음속에 숨기는 것을 좋아하죠",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "북고",
+          "PlotLineKey": "하지만 주둔하고 있는 장병으로서 쉽게 자리를 비워선 안되고, 동료한테도 더 솔직해야 하죠. 무형도 아직 배울게 많아요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "북고",
+          "PlotLineKey": "부족한 요리는 무형이 직접 요리할 거예요!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "북고",
+          "PlotLineKey": "참, 금주로 가게 되면 판화반점에서 다시 밥 한 끼 하며 이야기해요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

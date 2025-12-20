@@ -1,0 +1,299 @@
+{
+  "Id": 161000000,
+  "Name": "Las aventuras de la Banda de Peluches",
+  "Description": "Recibiste una llamada de Fulmine, parece que unas cuantas personas que prefieren mantenerse en el anonimato le pidieron que te enviara una invitación...",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 161000000,
+  "ShowQuestList": [],
+  "QuestDesc": "Recibiste una llamada de Fulmine, parece que unas cuantas personas que prefieren mantenerse en el anonimato le pidieron que te enviara una invitación...",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900005,
+      "PreQuestName": "Reconstruir la Villa Peluchona I"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100019,
+      "PreQuestName": "La Doncella, la Desafiadora y el Llorón"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Hola, {Male=Sr.;Female=Srta.} {PlayerName}. ¡Cuánto tiempo! Desde que ayudaste con la restauración, cada vez más ecos llegan a Villa Peluchona.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "No recuerdo cuándo fue la última vez que todo el mundo estaba tan alegre y vivaz.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 9,
+              "PlotLineKey": "Todo parece genial.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Sí, sí. Y en nombre de aquellas personas cuyos nombres mantendré en secreto por ahora, me gustaría extenderte una invitación formal.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "Espera, ¿qué es ese ruido?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "De repente escuchas el delicado sonido de campanillas. Al intentar ubicar la fuente del sonido, descubres que proviene de las Campanas del Corazón Resonante, que te otorgaron los peluches Eco.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Parece que quieren verte cuanto antes. Bueno, ¡te esperamos en Villa Peluchona!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Bueno, tranquilícense. Ya les dije que {PlayerName} está en camino... ¡Ah, estás aquí!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 231,
+              "PlotLineKey": "Aquí estoy.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 232,
+              "PlotLineKey": "¿Qué me perdí?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "¡Al fin! La salvación de Villa Peluchona nos agasaja con su presencia una vez más.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Ah, no. Nada. Aquí estamos esperando para que comiences la aventura.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 233,
+              "PlotLineKey": "¿Esto es para mí...?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "¡Es la primera flor de la mañana! Estas personitas no querían nada hasta que finalmente florecieran.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Querían que recibieras la primera flor.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Peluches",
+          "PlotLineKey": "(Sonidos de felicidad y timidez).",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 234,
+              "PlotLineKey": "Gracias. Significa mucho para mí.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Peluches",
+          "PlotLineKey": "(Sonidos de felicidad extrema).",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "¡Se alegran mucho de que te guste! Por cierto, quisiera hacerte otra pregunta, {Male=Sr.;Female=Srta.} {PlayerName}. ¿Alguna vez viste una luminospina?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Como puedes ver, Villa Peluchona, ahora reconstruida, florece, y los ecos intentan cosas nuevas todos los días.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Especialmente hace unos días, después de que los peluches me escucharan a Enzo y a mí hablar de las luminospinas, que son flores que brillan como las medusas. Tenían gran curiosidad y emoción, querían verla por su cuenta.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "No tendrás alguna de esas flores de aspecto mágico contigo, ¿no?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Buscas una luminospina en tu bolso y se lo entregas a Fulmine.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Eso es... Este es el tipo de belleza que encuentras una vez en la vida. Ah, gracias. ¡Muchas gracias, {Male=Sr.;Female=Srta.} {PlayerName}! Enzo juraba que las luminospinas se extinguieron hace mucho, ¡y casi le creí hasta ahora!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "¿En dónde los encontraste, {PlayerName}? ¿Le puedes mostrar a los peluches? Si te parece bien.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Nuestra Banda de Peluches, conformada por los mejores Ecos, se moría de ganas de tener una aventura nueva desde que Villa Peluchona resurgió de las cenizas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "En lugar de quedarse en el pueblo todo el día, no hay nada más emocionante que descubrir formas de vida exóticas y visitar lugares divertidos.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 235,
+              "PlotLineKey": "Parece emocionante.",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 236,
+              "PlotLineKey": "Parece mucho trabajo.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "¡Correcto! Esto se inspira en todas las historias de tus mejores aventuras. ¡Tendrán un regalo nuevo para ti al final de esta nueva aventura!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 24
+        },
+        {
+          "Id": 18,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "No, no, no. Explorar nuevos paisajes es solo una parte. También quieren presenciar personalmente la valentía de {PlayerName} en acción. ¡También habrá un regalo para nuestra salvación al final!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 293,
+              "PlotLineKey": "Parece agradable.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "¡Por supuesto! Mientras te encargas, ¿te importaría tomar algunas fotos en el camino?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Pompa y Hornoviejo siempre se arrepienten cuando se trata de visitar lugares nuevos. Quizás presenciar algunos paisajes únicos fuera del pueblo puede ayudar a que cambien de parecer.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Pan comido.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "¡Qué bueno! Entonces...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Aquí vamos, aventuras nuevas.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

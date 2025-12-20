@@ -1,0 +1,827 @@
+{
+  "Id": 139700002,
+  "Name": "Énigme des énigmes",
+  "Description": "L'Association pionnière offre de généreux prix pour La Chance de Hsin, parmi eux se trouve le jackpot surprise, et Changli parvient à le tirer. Pour rendre les choses plus dramatiques, le prix est une carte au trésor concernant un héritage de la Cour de Savantae...\n\nCompléter cette quête pour débloquer un nouveau partenaire.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700002,
+  "ShowQuestList": [],
+  "QuestDesc": "L'Association pionnière offre de généreux prix pour La Chance de Hsin, parmi eux se trouve le jackpot surprise, et Changli parvient à le tirer. Pour rendre les choses plus dramatiques, le prix est une carte au trésor concernant un héritage de la Cour de Savantae...\n\nCompléter cette quête pour débloquer un nouveau partenaire.",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 7,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "Hmm...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 500,
+              "PlotLineKey": "Qu'est-ce que tu regardes, Changli ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "Oh, c'est toi, {PlayerName}. Je regarde ces gens tentent leur chance au tirage.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 501,
+              "PlotLineKey": "Tu ne vas pas essayer ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Changli",
+          "PlotLineKey": "Ouais, je suppose que ça ne peut pas faire de mal d'essayer.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Changli va au kiosque et fait tourner la roue nonchalamment.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "...Et voilà. Mme Changli gagne encore une fois. Exactement comme l'année dernière, enfin, exactement comme toutes les fois où tu as participé au tirage.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 502,
+              "PlotLineKey": "As-tu utilisé une stratégie pour réussir ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Changli",
+          "PlotLineKey": "Pas vraiment... C'est probablement la chance, et c'est tout. Les résultats de ce tirage sont basés sur le hasard uniquement, c'est donc impossible de les prévoir, même avec la meilleure des stratégies.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "Attends, Mme Changli ! Je viens de vérifier la liste - tu as gagné le seul et unique grand prix surprise du Marché de la lune de cette année !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 503,
+              "PlotLineKey": "Grand prix surprise... ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 504,
+              "PlotLineKey": "Seul et unique... ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "Absolument. Eh bien, je dirais... que c'est plutôt une carte au trésor ? Ou des indices pour trouver le véritable prix ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Changli",
+          "PlotLineKey": "...Vraiment ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "Pour donner un peu de contexte : notre équipe de l'Association pionnière a trouvé une mystérieuse plate-forme à proximité de Jinzhou.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "Elle était scellée par des énigmes complexes. C'est probablement l'œuvre de l'insaisissable Cour de Savantae. Nous avons tout essayé, mais aucune des énigmes n'a bougé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "Ensuite, quelqu'un a fait une blague en proposant de s'appuyer sur la chance pour les résoudre.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 505,
+              "PlotLineKey": "Et tu as pris cette blague au sérieux.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "Oui. Je me suis rendue compte que c'était la candidate parfaite pour le grand prix de « La chance de Hsin ». Seule une personne ridiculement chanceuse pourrait le gagner.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "Et qui sait ? Cette personne utilisera peut-être sa chance pour découvrir ces secrets cachés.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 506,
+              "PlotLineKey": "Eh bien, Changli serait peut-être bien capable de...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 507,
+              "PlotLineKey": "Es-tu intéressée, Changli ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Changli",
+          "PlotLineKey": "Ça m'a l'air intéressant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Changli",
+          "PlotLineKey": "Veux-tu te joindre à moi, {PlayerName} ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 508,
+              "PlotLineKey": "Avec plaisir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 509,
+              "PlotLineKey": "Superbe, j'arrive !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "Très bien. Je vais importer le code clé que nous avons trouvé et les coordonnées de cette plate-forme dans vos Bornes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "Bonne chance à vous deux !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "...Ces mécanismes me rappellent la technique de la Cour de Savantae.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "Intéressant. Ils ont utilisé des couches superposées à la place de leurs conceptions habituelles.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 519,
+              "PlotLineKey": "Des couches superposées ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Changli",
+          "PlotLineKey": "Il y a quatre mécanismes… il faut trouver le bon ordre et résoudre l'énigme dans le temps imparti.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 520,
+              "PlotLineKey": "Et si nous échouons ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Changli",
+          "PlotLineKey": "Dans le pire des cas, cette plate-forme pourrait déclencher son mécanisme d'autodestruction, ce qui ne serait pas génial pour nous...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Changli",
+          "PlotLineKey": "Je plaisante. Je parie que l'Association pionnière a essayé de résoudre cette énigme de nombreuses fois.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Changli",
+          "PlotLineKey": "S'ils savaient qu'il y a une sécurité, ils n'auraient pas décidé de donner une récompense à ceux qui ont trouvé cette place.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Changli",
+          "PlotLineKey": "Je suppose que ça reviendra à son état initial.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 521,
+              "PlotLineKey": "Eh bien, ça facilite les choses. Essayons les combinaisons une par une.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 522,
+              "PlotLineKey": "Nous devrions chercher des indices autour de nous...",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Changli",
+          "PlotLineKey": "Une approche viable. J'estime un total de 24 combinaisons... Si cela ne t'ennuie pas, {PlayerName}, nous pourrions les tester une par une.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 10,
+          "Speaker": "Changli",
+          "PlotLineKey": "En effet, nous devrions le faire.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "Bien joué, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "Je me demande ce qui nous attend.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "Il semblerait qu'il n'y a pas de trésors ici.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 542,
+              "PlotLineKey": "Ouais. Pas de trésor, seulement un livre.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "Hmm... intéressant. Ça doit être « Les derniers énigmes d'horreur de D le Maître de casse-tête - La collection ultime » mentionnés dans les documents.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Changli",
+          "PlotLineKey": "Comme je l'avais supposé... Le livre est plein de codes et de diagrammes sur les mécanismes d'automate. C'est complexe, mais on dirait que c'est un guide pour créer des machines.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 543,
+              "PlotLineKey": "Alors, ce sont des énigmes dans les énigmes.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 544,
+              "PlotLineKey": "Le Maître de casse-tête ne nous rend pas la tâche facile.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Changli",
+          "PlotLineKey": "Rien d'autre à voir ici. Repartons.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "{PlayerName}. Tu es {Male=revenu;Female=revenue} ! Alors ? As-tu trouvé le trésor ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 639,
+              "PlotLineKey": "Seulement un livre.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "Un livre ? Attends... Est-ce que... Puis-je le regarder ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Vous tendez le livre à Xianchen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "Je... Je le connais, c'est la dernière œuvre à découvrir de D le Maître de casse-tête !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "C'est... C'est incroyable ! Je pensais que ces livres n'étaient qu'une légende !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 640,
+              "PlotLineKey": "Ces livres ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "« Les énigmes magiques super cool de D le Maître de casse-tête », « Les énigmes populaires de D le Maître de casse-tête », « Les énigmes ultimes de remue-méninges de D le Maître de casse-tête »...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "Ces livres sont des trésors remplis des chefs d'œuvre de D le Maître de casse-tête, qui était un membre de la Cour de Savantae.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "Nos ingénieurs rêvent de déchiffrer son travail. Cela pourrait aider les explorateurs à naviguer les pièges anciens.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "Accepterais-tu de confier ce livre aux soins de l'Association pionnière ? S'il te plaît !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 641,
+              "PlotLineKey": "Bien sûr.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Changli",
+          "PlotLineKey": "Tu peux les avoir, puisque tu as l'air d'y tenir énormément.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Qianchen",
+          "PlotLineKey": "Oh, merci ! Merci mille fois ! Nous te payerons généreusement pour ton aide !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Xiancheng vous fait la révérence, à vous et à Changli, avant de partir avec le livre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Changli",
+          "PlotLineKey": "Hmm... À en juger par le résultat final, nous avons réussi à trouver le trésor, n'est-ce pas ? Seulement... d'une manière un peu différente.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 642,
+              "PlotLineKey": "Quelque chose me dit que tu l'avais vu venir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Changli",
+          "PlotLineKey": "...Alors tu as remarqué ? Oui, j'ai déjà rencontré ce D, le Maître de casse-tête avant, dans des archives.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Changli",
+          "PlotLineKey": "Les documents mentionnent ses nombreuses créations et œuvres littéraires. L'Association pionnière devrait être bien informée à son sujet, puisqu'elle a la tâche d'explorer Huanglong.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Changli",
+          "PlotLineKey": "Cela dit, je n'étais pas vraiment intéressée par ce prétendu trésor depuis le départ.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Changli",
+          "PlotLineKey": "Pour moi, le gain le plus important n'est pas le trésor, ni les œuvres précieuses de D le Maître de casse-tête.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 643,
+              "PlotLineKey": "Alors, qu'est-ce que c'est ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Changli",
+          "PlotLineKey": "Eh bien... Je me demande ce que ça pourrait être...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Changli",
+          "PlotLineKey": "Je te laisse le découvrir, {PlayerName}. Jusqu'à notre prochaine rencontre.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "Qu'y a-t-il, {PlayerName} ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 578,
+              "PlotLineKey": "J'aimerais revoir les indices.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 580,
+              "PlotLineKey": "Donne-moi juste la réponse.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 579,
+              "PlotLineKey": "Je vais réessayer.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 581,
+              "PlotLineKey": "J'abandonne. Changli, aide-moi.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "Il faut vaincre les Tacets Discords dans l'ordre suivant : jaune, bleu, violet, puis rouge. Ça devrait résoudre l'énigme.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 584,
+              "PlotLineKey": "Je vois.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Changli",
+          "PlotLineKey": "Hmm. Veux-tu que je la résolve pour toi ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 587,
+              "PlotLineKey": "Volontiers !",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 586,
+              "PlotLineKey": "Je vais peut-être réessayer.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Changli résout l'énigme pour vous.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "Changli",
+          "PlotLineKey": "Ce n'est pas le bon ordre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "Essayons à nouveau, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 590,
+              "PlotLineKey": "J'aimerais revoir les indices.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 591,
+              "PlotLineKey": "Donne-moi juste la réponse.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 592,
+              "PlotLineKey": "Je vais réessayer.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "Le bon ordre devrait être : jaune, bleu, vert et enfin, rouge.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 596,
+              "PlotLineKey": "Je vois !",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "Changli",
+          "PlotLineKey": "Ce n'est pas le bon ordre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "Essayons à nouveau, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 590,
+              "PlotLineKey": "J'aimerais revoir les indices.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 591,
+              "PlotLineKey": "Donne-moi juste la réponse.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 592,
+              "PlotLineKey": "Je vais réessayer.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "Le bon ordre devrait être : jaune, bleu, vert et enfin, rouge.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 596,
+              "PlotLineKey": "Je vois !",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "Changli",
+          "PlotLineKey": "Ce n'est pas le bon ordre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Changli",
+          "PlotLineKey": "Essayons à nouveau, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 590,
+              "PlotLineKey": "J'aimerais revoir les indices.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 591,
+              "PlotLineKey": "Donne-moi juste la réponse.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 592,
+              "PlotLineKey": "Je vais réessayer.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Changli",
+          "PlotLineKey": "Le bon ordre devrait être : jaune, bleu, vert et enfin, rouge.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 596,
+              "PlotLineKey": "Je vois !",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

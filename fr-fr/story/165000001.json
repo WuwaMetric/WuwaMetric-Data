@@ -1,0 +1,442 @@
+{
+  "Id": 165000001,
+  "Name": "Trésor du marin",
+  "Description": "Tous les trésors n'ont pas été laissés par les pirates, il est possible que son ancien propriétaire est un marin ordinaire...ou un capitaine.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 165000001,
+  "ShowQuestList": [],
+  "QuestDesc": "Tous les trésors n'ont pas été laissés par les pirates, il est possible que son ancien propriétaire est un marin ordinaire...ou un capitaine.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "Le Vieil Homme et la Baleine"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Mlle l'acolyte ? Déjà de retour ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "M. Toretto, nous sommes ici pour en savoir plus sur le « Trésor du Marin ».",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Et depuis quand l'Ordre s'intéresse-t-il aux trésors ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Euh. Non, en fait...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Bah, je m'en fiche ! Des chasseurs de trésors qui vont et viennent, on en a à la pelle. Vous finirez les mains vides comme les autres de toute façon.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "Peut-être que nous le trouverons. On ne sait jamais.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Vous avez l'air bien {Male=sûr;Female=sûre} de vous, hein ? Vous savez combien de temps s'est écoulé depuis l'époque des Mille Îles. À part cette vieille légende, il n'y a pas la moindre preuve que tout cela soit vrai.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Sans indices concrets, autant courir après la lune. Les îles ont déjà été retournées par tous ces chasseurs de trésors, et pas une seule pièce n'a été trouvée.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 26,
+              "PlotLineKey": "Y a-t-il d'autres histoires sur ce marin ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Toretto",
+          "PlotLineKey": "D'autres histoires, hein ? Voyons voir... Il y a la Gondole Vagabonde. Le Maître du Roi des Poissons...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 27,
+              "PlotLineKey": "Parlez-nous de la Gondole Vagabonde.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 28,
+              "PlotLineKey": "Parlez-nous du Maître du Roi des Poissons.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 29,
+              "PlotLineKey": "Je n'ai plus de question.",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Toretto",
+          "PlotLineKey": "La légende dit qu'un marin est arrivé ici dans une gondole. Même après sa disparition, elle dérive encore parmi ces îles en attendant son retour.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 10,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Le Roi des Poissons est l'ennemi de tout pêcheur. La légende prétend qu'un jour, un marin en a pêché un dans ces mêmes eaux.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Personne n'en a attrapé un depuis. On dit que le Roi des Poissons ne répond qu'à l'appel de quelqu'un d'aussi puissant que ce marin.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 12,
+          "Speaker": "Toretto",
+          "PlotLineKey": "D'accord, vous savez déjà ce dont vous avez besoin. Allez-y, je regarderai de loin pour voir si vous trouvez ce trésor, ha ha !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 0,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Phoebe tente de communiquer avec l'Écho et de déchiffrer ce qu'il dit.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Elle semble savoir quelque chose ! Elle essaie peut-être de nous guider dans une certaine direction... On va jeter un coup d'œil ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "En avant !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ah, salut, mes {Male=amis;Female=amies} ! Qu'est-ce que vous trimbalez là ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Phoebe raconte l'histoire de la chasse au trésor à Ahab et lui montre le coffre avec les inscriptions.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ce coffre appartenait donc à ce marin légendaire ?! Laissez-moi jeter un œil.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Hmm... il y a un sceau qui recouvre ces inscriptions. Je ne peux pas bien les voir. Mais donnez-moi une seconde !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Ahab cherche dans les environs et revient avec une plante étrange. Il la presse pour en extraire la sève et l'applique sur le coffre. Presque immédiatement, les inscriptions deviennent claires.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Voyez ça ? C'est un vieux truc qu'on utilisait pour écrire des messages cachés. Maintenant, on peut lire ce que ça dit.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ahab",
+          "PlotLineKey": "« Aucune victoire n'est instantanée. La vérité doit être assemblée morceau par morceau. »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Il semble que... nous devons rassembler le reste de cette carte pour trouver le trésor.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Gardons les yeux ouverts à partir de maintenant, {PlayerName}.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Je me demande ce que ce marin a laissé derrière lui. Des richesses infinies ? Des reliques anciennes ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Ou peut-être... un Roi des Poissons ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Hein ? Ha ha ha. Je n'aurais jamais pensé entendre ça de la part d'une acolyte !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 53,
+              "PlotLineKey": "Merci, Ahab. Nous nous assurerons de partager le trésor une fois que nous l'aurons trouvé.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Ahab",
+          "PlotLineKey": "C'est très généreux, mais je suis satisfait de mon sort. Quoi que vous trouviez, gardez-le pour vous !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 0,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je ne m'attendais pas à trouver quoi que ce soit... Cela semble être...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "On dirait une carte au trésor. Ou en tout cas une partie.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Il semble y avoir quelque chose d'inscrit à l'intérieur du coffre. Hmm... C'est difficile à déchiffrer. L'écriture m'est inconnue.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 39,
+              "PlotLineKey": "Demandons conseil à quelqu'un du coin.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "J'ai entendu une histoire fascinante pendant notre séjour ici, {PlayerName}. Ça te dit de l'écouter ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "Quel genre d'histoire ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Une légende de pêcheurs transmise depuis des générations sur cette île. Elle parle de Rinascita durant l'époque des Mille Îles, quand les îles Riccioli étaient gouvernées par un marin chassé de sa patrie.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Ce marin possédait des richesses incommensurables, mais personne ne connaissait la source de sa fortune.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Il a utilisé sa richesse pour construire une citadelle qui a apporté paix et prospérité aux habitants de la région.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Juste au moment où ils se préparent à construire un monument en son honneur, il disparut sans laisser de trace.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Selon les rumeurs, il était parti en mer pour se venger d'un sombre passé.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Avant de partir, il a laissé derrière lui ses trésors les plus précieux sur ces îles et s'est engagé sur un chemin de vengeance, sans jamais revenir.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je me demande quel genre de trésor un homme comme lui aurait pu laisser derrière. Cela devait avoir une grande importance pour lui.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 11,
+              "PlotLineKey": "On part à sa découverte ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 12,
+              "PlotLineKey": "J'entends le trésor m'appeler !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je savais que cela t'intriguerait ! Nous devrions peut-être chercher quelqu'un qui s'y connaît sur ces légendes ? Ça pourrait nous donner la clé de notre quête.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Note d'Ahab",
+          "PlotLineKey": "« Quelqu'un a sûrement déjà dû trouver le trésor de ce marin légendaire. »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Note d'Ahab",
+          "PlotLineKey": "« Si tu ne peux pas le voir, essaie juste de presser un peu de jus d'algues marines dessus. »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Note d'Ahab",
+          "PlotLineKey": "« Quoi ? N'importe quelle algue fera l'affaire. Tu crois qu'un marin a le temps d'être exigeant ? »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Note d'Ahab",
+          "PlotLineKey": "« Aucune victoire n'est instantanée. La vérité doit être assemblée morceau par morceau. »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Note d'Ahab",
+          "PlotLineKey": "« Cherche tous les morceaux de cette carte au trésor. Assemble-les, et qui sait ce que tu pourrais découvrir ? »",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,851 @@
+{
+  "Id": 880700001,
+  "Name": "コードネーム：月下双勇",
+  "Description": "正義の化身となり、月追祭が始まると同時に、闇に潜む邪悪を消滅させよう——行動開始！\n\nクリア後、新しい「経営仲間」を解放。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880700001,
+  "ShowQuestList": [],
+  "QuestDesc": "正義の化身となり、月追祭が始まると同時に、闇に潜む邪悪を消滅させよう——行動開始！\n\nクリア後、新しい「経営仲間」を解放。",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 6,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "――{PlayerName}、私のところに来るなんて……何か用？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1083,
+              "PlotLineKey": "{Male=そう構えるなって。;Female=そう構えないでってば。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1084,
+              "PlotLineKey": "{Male=手伝ってほしいことがあるだけなんだ。;Female=手伝ってほしいことがあるだけなの。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "元々<ano=よいづきかい>宵月会</ano>で人形劇を披露するはずの人が来られなくなったから、私に代わりにお願いしたい……そういうことね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "それならお安いご用よ。最近は特にやることもないし、数日助っ人で披露してあげてもかまわないわ――私の出演費を払えるなら、だけど。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "そうそう、せっかく公演するなら、<ano=よいづきかい>宵月会</ano>にピッタリの人形があれば最高ね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "何か良いアイデアはあるかしら、{PlayerName}？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1085,
+              "PlotLineKey": "キツネとタヌキがウサギを追いかける人形とか？",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 1086,
+              "PlotLineKey": "漂泊者と<ano=めいしき>鳴式</ano>が大戦を繰り広げる人形とか？",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "そう……<ano=こうりゅう>瑝瓏</ano>の伝説かしら？可愛い小動物を作れば、子供たちが喜ぶでしょうね。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "そうね……ヒーローショーみたいなものかしら？悪くはないけど……正義と悪との戦い、気に入る人もいるかもしれないわね……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "今から人形を作り始めたところで間に合わないわ。でもね、私、人形の完成品を売っている場所を知ってるのよ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1087,
+              "PlotLineKey": "{Male=そんな場所があるのか？;Female=そんな場所があるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "ええ、もちろんよ。<ano=こんしゅう>今州</ano>の裏口ルートなら、何だって手に入るわ……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1088,
+              "PlotLineKey": "{Male=闇市みたいな？;Female=闇市みたいな？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1089,
+              "PlotLineKey": "{Male=なんだか……怪しそうだな。;Female=なんだか……怪しそう。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "ふふ、冗談に決まってるじゃない。連れていってあげるわ、行きましょ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "甘雪（カンセツ）",
+          "PlotLineKey": "「<ano=せんくじょうやく>先駆条約</ano>」ショップへようこそ！あっ……{PlayerName}さんに<ano=インリン>吟霖</ano>さん、何かお求めで？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "人形はあるかしら？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "甘雪（カンセツ）",
+          "PlotLineKey": "ええ、ございますよ！ちょうど新しいのが入荷したばかりなんです！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 547,
+              "PlotLineKey": "{Male=人形……？そんなのまで売ってるのか？;Female=人形……？そんなのまで売ってるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "甘雪（カンセツ）",
+          "PlotLineKey": "ええ、<ano=せんくじょうやく>先駆条約</ano>には優れた人形職人がおりましてね。グッズみたいにして、お店で売っているんですよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "甘雪（カンセツ）",
+          "PlotLineKey": "ですが、普通のお客さんはあまり興味がないんですよ。それで、普段は店頭に並べていないんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "甘雪（カンセツ）",
+          "PlotLineKey": "それでも、コレクターの方や<ano=インリン>吟霖</ano>さんのようなプロの方が買ってくださるので助かっています。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 548,
+              "PlotLineKey": "{Male=そういうことだったのか。;Female=そういうことだったんだ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "甘雪（カンセツ）",
+          "PlotLineKey": "お待ちくださいね、倉庫へ行って探してきますから……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "<ano=カンセツ>甘雪</ano>はすぐに<ano=インリン>吟霖</ano>の求めた人形を手にして戻り、それを<ano=インリン>吟霖</ano>に渡した。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "甘雪（カンセツ）",
+          "PlotLineKey": "——いつもありがとうございます、またどうぞお越しくださいませ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 549,
+              "PlotLineKey": "{Male=これで準備は万端だな、桃源郷に戻ろう。;Female=これで準備は万端だね、桃源郷に戻ろう。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "待って……今さっき、知り合いを見た気がするの。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 550,
+              "PlotLineKey": "知り合い？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "へぇ、不思議ね……こんなところにいるはずなんてないのに。一緒に追いかけるわよ、{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "追いかけてる人ってまさか……追放者？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "その通り。追放者が<ano=こんしゅうじょう>今州城</ano>に足を踏み入れることは禁止されているわ。<ano=こんしゅうじょう>今州城</ano>に侵入するために、いわゆる追放者の「制服」を着ずに変装していたの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "奴は<ano=ロウライ>老雷</ano>、常に悪事を働いている男で、数日前に出所したばかりよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "私が潜入捜査員を始める前、少しの間だけあの男は私の情報提供者となったの。でも肝心な時に、跡形もなく姿をくらましたのよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "追放者が堂々と<ano=こんしゅうじょう>今州城</ano>に姿を現すなんて、きっと裏には何か隠れているはずよ……今は誰かと話しているみたいね。何を話しているのか、聞きに行きましょ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "舎弟",
+          "PlotLineKey": "――雷兄、それってつまり……新しい金儲けの手段を見つけたってことすか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "そうさ、俺が昔どこにいたのか知ってるだろ……あの野獣団だぜ！心配すんなって、この俺がいれば、今回のビジネスだって安泰だ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "舎弟",
+          "PlotLineKey": "すげぇや、雷兄！詳しく聞かせてくださいよ、オレたち、最近は懐がちょっと寂しいんですわ……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "ふふん、<ano=よいづきかい>宵月会</ano>は知ってるよな？あそこはいい金づるだぜ。本当によ、見渡す限り金持ちだらけで嫌になるぜ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "俺なんて、数日前にやっとシャバの空気を吸ったばかりよ。前に話したあの兄貴は人脈もあって義侠心に厚い、それに何でも知ってて頼りになる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "あの兄貴についていけば、<ano=よいづきかい>宵月会</ano>で金はがっぽがっぽ、俺らも金持ちの仲間入りってことよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "舎弟",
+          "PlotLineKey": "雷、雷兄、オレらもその兄貴に紹介してくださいよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "なんだ？この俺をないがしろにして、そのままあの兄貴についていく気か？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "舎弟",
+          "PlotLineKey": "そんなはずないじゃないっすか……オレだってそれなりに義理堅い男っすよ、たんなる好奇心っすから……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "それなら、俺と一緒に来い。間違っても他の奴に言うんじゃねぇぞ！このビッグビジネスを知られたら、たまったもんじゃねぇ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "兄貴とは、深夜2時から明け方の4時頃に<ano=とうげんきょう>桃源郷</ano>東の木の下で取引する約束をしている。ちゃんと準備しとけよ、兄貴の機嫌を損ねることになったら大変だからな！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "舎弟",
+          "PlotLineKey": "うっす！安心してくださいよ、雷兄！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "私たち、偶然にも組織的な犯罪の瞬間を目の当たりにしてしまったみたいね……{PlayerName}、どうしたらいいと思う？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 576,
+              "PlotLineKey": "{Male=軽はずみな行動は取らない方がいい。;Female=軽はずみな行動は取らない方がいいよ。}",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 577,
+              "PlotLineKey": "{Male=そのまま捕まえに行こう。;Female=そのまま捕まえに行こう。}",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 578,
+              "PlotLineKey": "専門家でしょ、<ano=インリン>吟霖</ano>の意見に従うよ。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "ええ、私もそう思っていたところよ。<ano=ロウライ>老雷</ano>は謎の「兄貴」について話してたわね。話を聞く限り、この兄貴って人はこの手の犯罪の黒幕だと思うわ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "話を聞く限り、<ano=ロウライ>老雷</ano>はこの手の犯罪の黒幕じゃなさそうね。おそらく、あの謎の「兄貴」って人が黒幕なんでしょ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "私は、<ano=ロウライ>老雷</ano>が言っていた謎の「兄貴」って人が黒幕だと思うの。こいつの尻尾をつかまないとね。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "ちょうど、奴らが取引する場所と時間の情報は手に入れたわ。じゃあ……私たちで奴らのところに行きましょ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 579,
+              "PlotLineKey": "<ano=じゅんい>巡尉</ano>に知らせてくる。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "待ってちょうだい、人が多すぎたら取り逃がしてしまうわ……まずは私たちで様子を見ましょ、それから決めても遅くないわ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "舎弟",
+          "PlotLineKey": "――はぁ……雷兄、その兄貴って人はいつになったら来るんすか。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "これこそが兄貴の風格ってやつだろ！大物は最後に登場するんだ！大人しく待ってろ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "――あっ、兄貴が来た！兄貴を迎えるぞ、起立、気をつけーっ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "見慣れた人影が、木の陰から姿を現した。それは、あまりにも……見慣れた人物だった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "待って、あれってもしかして……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 600,
+              "PlotLineKey": "まさか……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 601,
+              "PlotLineKey": "そんな……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "<ano=レイ>黎</ano>じい……？落ち着いて、まずは何を話しているのか聞きましょ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "黎じい",
+          "PlotLineKey": "――待ちくたびれただろ、雷坊？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "あっ……あはは、そんなはずないじゃないですか。俺らも今着いたばかりですよ。おい、<ano=レイ>黎</ano>兄貴に挨拶しろ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "舎弟",
+          "PlotLineKey": "<ano=レイ>黎</ano>兄貴！ちわっす！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "黎じい",
+          "PlotLineKey": "うむ……ははは、若者は威勢が良くていいねぇ。私がもう数十歳若ければ、あんたらに手間をかけなくて済んだんだが。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "手間だなんて、何をおっしゃいますか。どれもこれも、金儲けのためでしょう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "黎じい",
+          "PlotLineKey": "私は金儲けのつもりじゃないんだが……まあ、信じてはくれないだろ。ところで雷坊、私の荷物はどこへやった？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "ブツはあの箱の中ですよ。俺が野獣団のところで頑張ってたのはご存知でしょう。我ながらよくやったと思うんですわ……なんなら兄貴、もう一度確認してみます？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "黎じい",
+          "PlotLineKey": "うむ、大事なことだから、やはり——",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "この時、<ano=ざんぞう>残像</ano>の叫ぶ声が、そう遠くない場所から聞こえた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "――この声は……まずい、<ano=くろとげぐま>黒棘熊</ano>だ！あのブツにつられてやって来たんだ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "舎弟",
+          "PlotLineKey": "<ano=レイ>黎</ano>……<ano=レイ>黎</ano>兄貴、ここは兄貴が……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "黎じい",
+          "PlotLineKey": "わ、私がもう20歳若ければ、こんな輩など相手にもならなかったぞ！しかし、今は……ゲホッ、ゲホッゲホッ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 602,
+              "PlotLineKey": "{Male=……どうやら、残像に襲われたみたいだ。;Female=どうやら、残像に襲われたみたい。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "面白いことになってきたわね……<ano=レイ>黎</ano>じいは悪い人じゃないと思っていたけど、もしかしたら……私より、人の目をあざむくのが上手なのかしら？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "彼らを問い詰める前に、まずは<ano=ざんぞう>残像</ano>を片付けましょ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "黎じい",
+          "PlotLineKey": "{PlayerName}、それに……<ano=インリン>吟霖</ano>？どうしてここに？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "2人の勇士に感謝するぞ――待ってくれ、あんたは……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "{PlayerName}、奴らを見張っておいてちょうだい。私は奴らの取引品を見てくるわ。もしかしたら……危険物かもしれない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "ほどなくして、<ano=インリン>吟霖</ano>が帰ってきた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1493,
+              "PlotLineKey": "{Male=箱の中は爆弾？それとも銃？;Female=箱の中は爆弾？それとも銃？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "……そのどちらでもないわ、獣肉よ。新鮮で、質も良さそうに見えたわ。何度も確認したけど、仕掛けのない普通の箱で、獣肉に毒も仕込まれてなかった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "言いなさい、あんたたち。これは一体……どういうことなの？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "……おっ、俺が正直に言いますから！これは、兄貴が俺のために用意してくれたものなんです！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "黎じい",
+          "PlotLineKey": "{PlayerName}、ちょっといいかな……獣肉の売買は、今の法律で禁止されているのか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 626,
+              "PlotLineKey": "{Male=獣肉の売買……？;Female=獣肉の売買……？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "黎じい",
+          "PlotLineKey": "そうだよ。近頃「特製<ano=こんしゅう>今州</ano>串焼き」を開発中で、<ano=よいづきかい>宵月会</ano>の露店で売るつもりなのさ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "黎じい",
+          "PlotLineKey": "だが、焼いた後の味がどうも気に食わなくてね。ここ数日悩んだ末に、新鮮で上等な獣肉を炭火で焼いたらどうかと思って。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 627,
+              "PlotLineKey": "{Male=けど、それと追放者とは何の関係があるんだ？;Female=けど、それと追放者とは何の関係があるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "ん？追放だって？刑期を終えたら、それはもう追放者とは呼ばないだろ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "兄貴は、俺らがシャバで真っ当に暮らすのがどれだけ大変なのか分かってる。俺が昔野獣団にいて狩りに詳しいのを知ってて、雇ってくれたんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 628,
+              "PlotLineKey": "{Male=じゃあ、なんでそんな服を着てるんだ？;Female=じゃあ、なんでそんな服を着てるの？}",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 629,
+              "PlotLineKey": "「<ano=よいづきかい>宵月会</ano>でがっぽがっぽ」ってどういうこと？",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 630,
+              "PlotLineKey": "{Male=なんで深夜に街の外れで取引を？;Female=なんで深夜に街の外れで取引を？}",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 631,
+              "PlotLineKey": "他に質問はない。",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "狩りをするのに、汚くて破けた服を着るわけにもいかないだろ。やっぱり、こういう服の方が仕事に向いてるからさ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 16,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "<ano=よいづきかい>宵月会</ano>はいい金づる……そりゃあ、金持ちの客相手なら、兄貴の串焼きは大繁盛に決まってるぜ！それに、兄貴は俺らに多めに取り分をくれるんだ！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 17,
+          "Speaker": "黎じい",
+          "PlotLineKey": "それは、深夜になってようやく客が引けて、荷物を仕入れに行けるからさ……それに、若者たちが追放者の格好をしていたら、中へ入れてもらえないだろ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 18,
+          "Speaker": "吟霖（インリン）",
+          "PlotLineKey": "そう……証言も証拠も十分ね。お2人とも、調査へのご協力ありがとう。ごめんなさい、私、勘違いしていたみたい。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "そっ……そんなことありませんって。状況は分かりました、俺の言い方に問題があったんですよ。なにしろヤクザ言葉に慣れちまっていて、なかなか抜けないんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "舎弟",
+          "PlotLineKey": "そうっすね、{PlayerName}さんと<ano=インリン>吟霖</ano>の姉御だけじゃないっす、オレですら……雷兄が不法行為をすると思ってたんで。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 632,
+              "PlotLineKey": "{Male=合法なことなら大丈夫だよ。;Female=合法なことなら大丈夫だよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 633,
+              "PlotLineKey": "{Male=更生するのは勇気のいることだよ。これからも頑張って！;Female=更生するのは勇気のいることだよ。これからも頑張って！}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "{PlayerName}の言う通りだ。ムショに入って分かったよ、やっぱり自分で稼いだ金の方が安心して使える。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "老雷（ロウライ）",
+          "PlotLineKey": "兄貴は<ano=よいづきかい>宵月会</ano>の露店に戻るんですか？俺が荷物運ぶの手伝いますよ。けど、俺らは会場の中には入れねぇ。あとのことは……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 634,
+              "PlotLineKey": "{Male=俺たちに任せろ。;Female=私たちに任せて。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "黎じい",
+          "PlotLineKey": "そうか、そりゃあ良かった！ありがたい！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

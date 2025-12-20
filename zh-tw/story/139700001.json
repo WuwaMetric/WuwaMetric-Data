@@ -1,0 +1,705 @@
+{
+  "Id": 139700001,
+  "Name": "安可的火熱大冒險！",
+  "Description": "西沙委託你製作傳說中的煙火，這聽起來似乎是個很簡單的任務……\n\n完成此任務後解鎖新的經營夥伴。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700001,
+  "ShowQuestList": [],
+  "QuestDesc": "西沙委託你製作傳說中的煙火，這聽起來似乎是個很簡單的任務……\n\n完成此任務後解鎖新的經營夥伴。",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 4,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "——黎爺爺，這是什麼啊？ 看起來好好吃！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "黎叔",
+          "PlotLineKey": "這個叫團圓餅，是今州城傳承了幾千年的傳統點心。嚐嚐看，它很好吃的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "安可",
+          "PlotLineKey": "幾千年……那它肯定有什麼有趣的故事吧？ 黎爺爺，你知道嗎？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "黎叔",
+          "PlotLineKey": "唔……還真有個和團圓餅相關的故事。我想想啊……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "黎叔",
+          "PlotLineKey": "這事啊，還要從瑝瓏的兩位歲主說起……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "西沙",
+          "PlotLineKey": "……呵。 {PlayerName}。 我女兒也是這樣子，那孩子……一提到故事什麼的，簡直停不下來。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "西沙",
+          "PlotLineKey": "不過最近，她又開始對煙火感興趣了。 整天纏著我要看煙火。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "西沙",
+          "PlotLineKey": "正好我確實也會這手藝，就在這擺了個攤。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "當父親還真是辛苦呢……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "西沙",
+          "PlotLineKey": "哈哈，誰說不是呢。不過看到女兒在煙火映照下的笑臉，就感覺……也沒那麼累了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "西沙",
+          "PlotLineKey": "不過，她這幾天說是要看最大最漂亮的煙火。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "西沙",
+          "PlotLineKey": "我這幾天一直在試，但是你也看到了，後面堆了一大堆的實驗品，沒一個能達到她的標準的。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 32,
+              "PlotLineKey": "請繼續努力！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "西沙",
+          "PlotLineKey": "那是當然。不過……我最近好像弄到了一個煙火古方。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "西沙",
+          "PlotLineKey": "它上面用的原料都稀奇古怪的，但常言說得好。 越怪的東西就越厲害……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "這叫哪門子常言……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 34,
+              "PlotLineKey": "也有那麼幾分道理。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "西沙",
+          "PlotLineKey": "嗯……所以我覺得那玩意兒有戲！ 雖然根據我的經驗，那配方倒不像是煙火，而像是……爆竹。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "西沙",
+          "PlotLineKey": "配方中的轟鳴硫晶我這還有存貨，但剩下兩種原料就弄不到了……{PlayerName}，能麻煩你幫忙找找看嗎？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "沒問題。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 36,
+              "PlotLineKey": "正好我現在有空。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "西沙",
+          "PlotLineKey": "真的嗎？ 謝……謝謝你！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "就在這時，原本正在聽故事的安可突然從{PlayerName}身後冒了出來。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "安可",
+          "PlotLineKey": "你要去冒險嗎，{PlayerName}，安可都聽到了，安可也想去！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "西沙",
+          "PlotLineKey": "安可，{PlayerName}要去的地方可很危險喔。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "安可",
+          "PlotLineKey": "放心，安可很厲害！ 安可會保護{PlayerName}的，絕對安全！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "我相信安可的力量。",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 38,
+              "PlotLineKey": "謝謝你。",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "安可",
+          "PlotLineKey": "嗯嗯！ 還是{PlayerName}了解我！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 17,
+          "Speaker": "安可",
+          "PlotLineKey": "嘿嘿，不用謝，因為{PlayerName}是我的朋友嘛！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 18,
+          "Speaker": "安可",
+          "PlotLineKey": "而且，去尋找秘密煙火的大冒險……一聽就是一個很不錯的故事！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "西沙",
+          "PlotLineKey": "……呵，那……就拜託你了，安可。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "安可",
+          "PlotLineKey": "交給我們吧！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "首先，我們要在這個地方找爆燃火硝！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "等等，爆燃火硝……這是什麼東西啊。 聽上去就很危險。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "木炭的話，篝火附近應該能找到吧？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "{PlayerName}，我們一起找吧！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "原來這就是爆燃火硝啊……看起來和普通的土也差不多嘛。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "它真能用來做煙火嗎？",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "這就是低頻木炭嗎……嗯，收集完成！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "這樣應該就都搞定了，{PlayerName}！ 我們回去找西沙叔叔吧！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "西沙",
+          "PlotLineKey": "哦，你們回來了？ 這麼快就找到原料了嗎？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "對啦，任務完成！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "西沙",
+          "PlotLineKey": "呵……在這裡稍等一下吧，{PlayerName}。 我去製作煙火。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "過了一會，西沙謹慎地把做好的煙火交給了你。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "西沙",
+          "PlotLineKey": "奇怪……感覺……它不太像我之前做過的煙火，但也不像爆竹。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "西沙",
+          "PlotLineKey": "保險起見，{PlayerName}……能請你們去沒人的地方放幾個試試嗎？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "西沙",
+          "PlotLineKey": "一定要注意安全。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 189,
+              "PlotLineKey": "交給我們吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "安可",
+          "PlotLineKey": "耶，去放煙火咯！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "嗯……{PlayerName}，就在這裡試試吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "放在地上，然後點火……然後就有美麗的煙火看啦，嗯哼哼～",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "等等，好像不太對……把它扔出去，安可！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "咳咳……{PlayerName}，你……你沒事吧！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 201,
+              "PlotLineKey": "這威力……有點強得過分了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 202,
+              "PlotLineKey": "你怎麼樣，安可？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "嗯，安可好好的，並沒有受傷。也沒有被嚇到。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "安可",
+          "PlotLineKey": "但是……煙火應該是這樣的嗎？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "不，這是威力很強的爆竹。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "大概是西沙搞錯了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "安可",
+          "PlotLineKey": "是這樣啊……看來西沙叔叔沒辦法向他家裡的妹妹交差了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "安可",
+          "PlotLineKey": "……{PlayerName}，你聽到什麼聲音了嗎？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "是殘象，它們大概是被爆炸引來的。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 208,
+              "PlotLineKey": "而且，它們的數量好像還不少。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "安可",
+          "PlotLineKey": "{PlayerName}，安可有個好主意。 你那裡還有沒放完的爆竹嗎？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 209,
+              "PlotLineKey": "你是說……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "安可",
+          "PlotLineKey": "沒錯！ 嘗試沒試過的新事物，也是冒險最重要的一環！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "安可",
+          "PlotLineKey": "……爆竹都用得差不多了，不過殘象也被解決掉了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "安可",
+          "PlotLineKey": "我們回去吧，{PlayerName}。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "西沙",
+          "PlotLineKey": "{PlayerName}，安可！煙火怎麼樣，是不是非常華麗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 227,
+              "PlotLineKey": "有點過於「華麗」了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 228,
+              "PlotLineKey": "那不是煙火……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "西沙",
+          "PlotLineKey": "怎……怎麼回事？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "{PlayerName}向西沙講述了剛才發生的事。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "西沙",
+          "PlotLineKey": "……原來如此。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "西沙",
+          "PlotLineKey": "抱歉啊，{PlayerName}。 你和安可……沒受傷吧？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "安可",
+          "PlotLineKey": "沒有沒有，是{PlayerName}保護了我！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "西沙",
+          "PlotLineKey": "那就好。 唉。 我果然還是毀掉那個配方好了。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 229,
+              "PlotLineKey": "且慢。 說不定……它還有別的用處。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "西沙",
+          "PlotLineKey": "你是說……它可以用來對付殘象？ 不錯的主意，這倒是個意外收穫……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "西沙",
+          "PlotLineKey": "我去找我們嗚嗚物流的快遞員，讓他們也用用看看……謝謝你們了，{PlayerName}！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "安可",
+          "PlotLineKey": "不用謝！ 安可也收獲了超級有趣的故事！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "安可",
+          "PlotLineKey": "{PlayerName}和羊咩幹掉了森林中的大怪物，雖然沒能找到公主最喜歡的花，但是森林還是恢復了往日的平靜！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "西沙",
+          "PlotLineKey": "……你聽懂了嗎，{PlayerName}？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 230,
+              "PlotLineKey": "大概聽懂了。",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 231,
+              "PlotLineKey": "我也沒搞懂。",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "西沙",
+          "PlotLineKey": "唉，如果我也有這種本事就好了……這樣我就能弄明白我女兒那些稀奇古怪的願望都是從哪來的了。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "西沙",
+          "PlotLineKey": "哈……小孩的心思有時候確實也挺難弄明白的。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "西沙",
+          "PlotLineKey": "說到女兒，我還以為這次準能行……看起來，還得找點新配方出來……對，我可不能放棄啊。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "安可",
+          "PlotLineKey": "加油，西沙叔叔……！ 你一定能做出最好看的煙火的！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "西沙",
+          "PlotLineKey": "嗯嗯，謝謝你，安可！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "Id": 880000042,
+  "Name": "Défi de Crabe sans cloche multi-saveurs",
+  "Description": "Quand un Crabe perd sa cloche, comment doit-on le cuire ? A la vapeur, à la l'huile d'olive citron, ou... à la surprise ?",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000042,
+  "ShowQuestList": [],
+  "QuestDesc": "Quand un Crabe perd sa cloche, comment doit-on le cuire ? A la vapeur, à la l'huile d'olive citron, ou... à la surprise ?",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 880000037,
+        "ChildQuestId": 23
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Salut ! Vous avez déjà essayé le « Crabe sans cloche surprise » ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 84,
+              "PlotLineKey": "En effet, ça m'est arrivé.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 85,
+              "PlotLineKey": "Qu'est-ce que c'est que ça ?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Vous l'avez vraiment essayé ? Ouah, vous êtes {Male=un vrai héros;Female=une vraie héroïne} !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Sarah",
+          "PlotLineKey": "C'est un plat fait avec des Crabes sans cloches ! Je pense que quiconque ayant suffisamment de courage pour le manger est un vrai héros !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Eugène dit qu'il veut être un grand héros, alors je lui ai dit qu'il doit passer le test du « Crabe cloche surprise ».",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Mais comme on ne sait pas le cuisiner, Eugène ne deviendra pas un héros de sitôt.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Adieu l'idée de devenir un héros...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Excusez-moi, mais vous savez où on pourrait manger ce plat ? On peut se le payer !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 86,
+              "PlotLineKey": "Je peux me renseigner.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Vraiment ? Merci beaucoup, {Male=monsieur;Female=madame}. On vous attend juste ici !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Eugene",
+          "PlotLineKey": "On vous attend ! Prenez votre temps...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Comment ça s'est passé, {Male=monsieur;Female=madame} ? Vous avez trouvé ce plat ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 110,
+              "PlotLineKey": "Voilà.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Vas-y, Eugène. Goûte !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Je me demande quel goût a ce « Crabe sans cloche surprise ». J'espère que ce n'est pas comme du poisson-lune cru…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Ça pourrait avoir le goût d'une Étoile Goober. Vas-y !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 111,
+              "PlotLineKey": "Ça a le goût de poisson-lune cru.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 112,
+              "PlotLineKey": "Ça a le goût d'Étoile Goober.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 113,
+              "PlotLineKey": "Ça a le goût de crabe cloche.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Ah ?! Ça semble louche...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Hein... Ça a l'air plutôt difficile à mâcher...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Ça ne répond pas vraiment à la question...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Mais tu vas le bouffer oui, Eugène !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Je... je ne peux pas faire ça. Je n'ai plus envie être un héros.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Oh, non, pas question, Eugène ! Tu as dit que tu voulais être un héros !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Humph, Eugène est un vrai froussard. Mais j'ai une idée !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Sarah",
+          "PlotLineKey": "On va l'essayer d'abord. Et on lui montre à quel point c'est bon et ensuite il voudra l'essayer aussi !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 114,
+              "PlotLineKey": "Bien sûr, je vais goûter.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 115,
+              "PlotLineKey": "Je passe mon tour. Allez, c'est à vous.",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Les enfants vous regardent en silence tandis que vous avalez une bouchée du « Crabe cloche surprise ».",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous notez les saveurs fraîches de la mer, salées et légèrement poissonneuses. Dans l'ensemble, c'est assez agréable.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Sarah",
+          "PlotLineKey": "C'est comment ? Quel goût ça a ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 116,
+              "PlotLineKey": "Ça a le goût de la mer.",
+              "PlayVoice": false,
+              "JumpToId": 19
+            },
+            {
+              "TextId": 117,
+              "PlotLineKey": "C'est délicieux.",
+              "PlayVoice": false,
+              "JumpToId": 19
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Sarah",
+          "PlotLineKey": "D'accord, c'est mon tour.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Sarah hésite un instant avant de finalement prendre une grosse bouchée.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Hmm... C'est... pas mal. Ça a le goût de la mer. Miam !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 19,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Tu es sûre ? Laisse-moi goûter...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Bon... P-pas bon... Bon à nouveau...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Sarah et vous regardez Eugène faire des grimaces en mâchant, mais à la fin, il termine sa bouchée. Il est maintenant un héros !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Ouf... C'était délicieux. Merci, je suis un héros !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 118,
+              "PlotLineKey": "Un vrai héros.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 119,
+              "PlotLineKey": "Ne force pas trop d'un coup.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Merci beaucoup, {Male=monsieur;Female=madame} ! Prenez ceci. Vous avez réalisé le rêve d'Eugene de devenir un héros !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+  "Id": 139700003,
+  "Name": "Rätsel und Wiedervereinigung",
+  "Description": "Laternenrätsel bietet einen limitierten Spezialpreis an! Mach mit bei Yangyang\n\nEine/einen Gefährtin/Gefährten wird nach Abschluss dieser Quest freigeschaltet",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700003,
+  "ShowQuestList": [],
+  "QuestDesc": "Laternenrätsel bietet einen limitierten Spezialpreis an! Mach mit bei Yangyang\n\nEine/einen Gefährtin/Gefährten wird nach Abschluss dieser Quest freigeschaltet",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 9,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Die Laternenrätsel sehen lustig aus. Willst du es mal ausprobieren?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Also, {PlayerName}? Traust du dir zu, die Herausforderung anzunehmen?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Ich habe ein paar brandneue schwierige Rätsel. Löse drei von ihnen, und du gewinnst den Jackpot. Es ist ein Sammelobjekt, vertrau mir!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Schwere Rätsel ...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 369,
+              "PlotLineKey": "Sollen wir eine Mannschaft bilden, Yangyang?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 370,
+              "PlotLineKey": "Ich bräuchte da vielleicht etwas Unterstützung!",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Gemeinsam? Erlauben die Regeln das?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Wenn es erlaubt ist ... Ich würde diese Herausforderung gerne gemeinsam mit {PlayerName} annehmen.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Natürlich, schließlich ist das hier ein Fest. Was könnte wichtiger als, als sich zu amüsieren? Yangyang, du scheinst unsere Rätsel sehr zu mögen. Ich wette, es würde dir Spaß machen, sie zu lösen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Und meine Rätsel sind obendrein schwierig! Ich will ja nicht, dass {PlayerName} sich blamiert, oder?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 371,
+              "PlotLineKey": "Da wäre ich mir nicht so sicher.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 372,
+              "PlotLineKey": "Stell mich auf die Probe!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Also gut! Wie wäre es, wenn wir euch mit einer kleinen Vorspeise aufwärmen? Rätsel Nummer 1: Rund wie der Mond, mit einem genauso weißen Bauch. In der Luft könnte es springen, im Wasser könnte es kriechen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Benenne diese Tacet-Dissonanz!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Es ist rund, hat einen weißen Bauch und kann in Wasser schwimmen ... Könnte das ...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 373,
+              "PlotLineKey": "... Eine Hoartoise sein?",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 374,
+              "PlotLineKey": "... Ein Gulpuff sein?",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 375,
+              "PlotLineKey": "... Ein Tick Tack sein?",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 376,
+              "PlotLineKey": "... Ein Clang Bang sein?",
+              "PlayVoice": false,
+              "JumpToId": 13
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Nicht wirklich. Versucht es nochmal!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 13,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Nicht wirklich. Versucht es nochmal!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Nicht wirklich. Versucht es nochmal!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Richtig. Ihr habt es erraten. Es ist ein Gulpuff!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Ein Gulpuff erinnert wirklich an den Mond, wenn er in die Luft springt, nicht wahr?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Als ich noch klein war ... habe ich das Mondjagdfestival geliebt. Wir haben Yumyum-Kuchen in allen Formen gemacht, meist niedliche dicke Tiere ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Wir alle liebten die Gulpuff-Yumyum-Kuchen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Haha, ein echter Kinderklassiker! Und nun ... auf zum nächsten Rätsel! Das könnte etwas schwieriger sein!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Du erhältst einen Käfig voller Hühner und Hasen. Du zählst 14 Köpfe und 38 Beine ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Frage: Wie viele Hühner und Hasen gibt es insgesamt? Eure fünf Minuten laufen ... jetzt!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 377,
+              "PlotLineKey": "... Ist das überhaupt ein Rätsel?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Ja ... Ist das nicht eher eine Matheaufgabe als ein Rätsel ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Ähem ... also, das ist eine Frage mit einer spezifischen Antwort. Und da sie unter einer Laterne hängt, nennen wir es einfach Laternenrätsel.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "... Wenn du meinst. Kommt mir trotzdem etwas schräg vor ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Ich erinnere mich, dass wir Lösungswege dafür in der Schule gelernt haben, zum Beispiel die „die Hälfte der Beine-Methode“ ...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 378,
+              "PlotLineKey": "Das schüttelst du dir aus dem Ärmel. Stimmt’s, Yangyang?",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 379,
+              "PlotLineKey": "(Die Antwort geben.)",
+              "PlayVoice": false,
+              "JumpToId": 28
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Okay, ich schaue, was ich machen kann ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Fertig! Die Antwort lautet ... 5 Hasen und 9 Hühner!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 30
+        },
+        {
+          "Id": 28,
+          "Speaker": "Rover",
+          "PlotLineKey": "(Man unterstellt zunächst, dass alles Hühner wären, und berechnet dann die Differenz der Anzahl der Beine, um die Anzahl der Hasen zu erhalten ... Ich verstehe.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Rover",
+          "PlotLineKey": "Es gibt 5 Hasen und 9 Hühner.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 30
+        },
+        {
+          "Id": 30,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Korrekt! Ihr habt das noch schneller herausbekommen als Herr Bosong. Sehr Beeindruckend.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Wie wäre es, wenn wir für das letzte Rätsel einen Gang höher schalten? Ihr könnt eins von jeder beliebigen Laterne wählen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "(Xieyang weist nach oben auf eine Reihe Laternen, an denen kleine Rätselstreifen befestigt sind.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Mh ... Ich sehe irgendwie keine Rätsel ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Oh, die Rätsel hier sind mit einer Spezialtinte geschrieben. Du musst sie nah an eine Laterne halten, um sie sehen zu können.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 380,
+              "PlotLineKey": "Also wählen wir blind ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 35,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Natürlich. Je mehr Spannung, umso besser! Laternenrätsel lösen ist wie eine Entdeckungsreise. Man muss seinen Instinkten vertrauen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Verstehe ... Das macht es interessanter.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 381,
+              "PlotLineKey": "Ich überlasse dir das, Yangyang.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 37,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Hä? Ich? Nun ... dann nehme ich dieses da.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 38,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Alles klar! Mal sehen ... Das Rätsel hat sich offenbart!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 39,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Ich kann nur eins sein und bestehe doch aus vielen. Ich vereine die Menschen, dass sie sich amüsieren. Was bin ich?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Betitelt diesen Satz!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Ich kann nur eins sein und bestehe doch aus vielen ...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 382,
+              "PlotLineKey": "Ist es ... „Mondjagdfestival“?",
+              "PlayVoice": false,
+              "JumpToId": 42
+            },
+            {
+              "TextId": 383,
+              "PlotLineKey": "Ist es ... „Familie“?",
+              "PlayVoice": false,
+              "JumpToId": 44
+            }
+          ]
+        },
+        {
+          "Id": 42,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Oh. Nah dran, aber nicht nah genug!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 43,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "... Ich weiß es. Es ist „Familie“, richtig?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 44
+        },
+        {
+          "Id": 44,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Korrekt!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 45,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Bravo. Ihr habt alle 3 Rätsel gelöst. Der Sonderpreis gehört euch!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 46,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Xieyang bringt eine wunderschön gearbeitete Laterne, die mit Bildern aus der Geschichte „Der Fuchs und der Mond“ verziert ist.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Sie ist so schön ...!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 384,
+              "PlotLineKey": "Ist das nicht einfach nur eine Laterne?",
+              "PlayVoice": false,
+              "JumpToId": 48
+            },
+            {
+              "TextId": 385,
+              "PlotLineKey": "Sie scheint dir sehr zu gefallen, Yangyang.",
+              "PlayVoice": false,
+              "JumpToId": 49
+            }
+          ]
+        },
+        {
+          "Id": 48,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Na ja, das ist nicht irgendeine Laterne.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 50
+        },
+        {
+          "Id": 49,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Als ich das letzte Mal so eine Laterne bekommen habe, war ich noch klein ... Mir fehlen diese Zeiten wirklich sehr.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 50
+        },
+        {
+          "Id": 50,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Wir hatten großes Glück, für diesen Anlass eine besondere Laterne von einem namhaften Sammler zu bekommen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 51,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Es heißt, dass das Hütende „Hsin“ sie selbst gefertigt und noch viele mehr in den Wäldern versteckt hat, daher sind es begehrte Objekte. Eine zu finden ist so, als würde man den Segen für ein ganzes Jahr erhalten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 52,
+          "Speaker": "Xieyang",
+          "PlotLineKey": "Das ist doch mal ein Erinnerungsstück, oder? Glückwunsch! Endloses Glück sei mit dir!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "{PlayerName}, hast du kurz Zeit?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Können wir ... spazieren gehen?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Als Kind habe ich mich immer auf das Mondjagdfestival gefreut.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Feuerwerk erhellt den Nachthimmel, Laternen leuchten an jeder Straßenecke, und wir stopfen uns mit hausgemachten Prallkuchen voll. Alle haben ein Lachen im Gesicht ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "... Diese Erinnerungen sind jetzt verschwommen, aber ich sehe noch das herzliche Lächeln meiner Lieben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Ich habe mich den Mitternachtsrangern angeschlossen, um ihr glückliches Lächeln zu beschützen ... Meine Kraft allein macht keinen großen Unterschied, aber ich werde tun, was ich kann.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 616,
+              "PlotLineKey": "Sieh nur, alle haben eine schöne Zeit.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 617,
+              "PlotLineKey": "... Hast du Heimweh?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Ja! Deshalb liebe ich Jinzhou. Ich liebe das, wofür wir kämpfen.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Vielleicht ein bisschen ... Aber ist schon in Ordnung.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Auch wenn ich heute nicht bei meiner Familie sein kann, macht mir der Klang des Gelächters in der Luft viel Freude.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Wenn ich den hellen Mond ansehe, weiß ich, dass sie irgendwo Spaß haben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Danke, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Ich freue mich so über diesen Moment und über alles, was du getan hast.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Das diesjährige Mondjagdfestival ... es ist dank dir für mich ganz besonders.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 618,
+              "PlotLineKey": "Es gibt noch viel auf dem Mondlichtmarkt zu erleben.",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 619,
+              "PlotLineKey": "Ich bin mir sicher, dass zukünftige Feste sogar noch besser werden.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "In der Tat! Gibt es noch andere Orte, die du besuchen möchtest, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Lass uns hier eine kleine Pause machen, bevor wir zum nächsten Ort weitergehen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Yangyang",
+          "PlotLineKey": "Danke, {PlayerName}. wäre es schön, wenn wir auch die Festivals danach gemeinsam verbringen könnten.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "Id": 880000042,
+  "Name": "Herausforderung: Klingellose Krabbe",
+  "Description": "Wenn eine Klingelkrabbe ihr Klingelchen verloren hat, würdest du die klingellose Krabbe dampfen, braten oder… etwas Besonderes damit machen?",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000042,
+  "ShowQuestList": [],
+  "QuestDesc": "Wenn eine Klingelkrabbe ihr Klingelchen verloren hat, würdest du die klingellose Krabbe dampfen, braten oder… etwas Besonderes damit machen?",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 880000037,
+        "ChildQuestId": 23
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Hallöchen! Hast du jemals „Klingellose Krabbe jedes Geschmacks“ probiert?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 84,
+              "PlotLineKey": "Habe ich in der Tat.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 85,
+              "PlotLineKey": "Was ist das?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Hast du wirklich? Wow, dann bist du echt heldenhaft!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Es ist ein Gericht zubereitet aus Klingelkrabben! Wer tapfer genug ist, das zu essen, muss ein wahrer Held sein!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Eugene sagt, er will ein ruhmreicher Held sein, also sagte ich, er muss sich der „Klingellose Krabbe jedes Geschmacks“ stellen.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Weil wir aber nicht wissen, wie man sie zubereitet, wird Eugene so bald kein Held werden.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Eugene",
+          "PlotLineKey": "So viel zum Heldenleben …",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Entschuldigung, weißt du zufällig, wo ich dieses Gericht probieren kann? Wir können auch zahlen!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 86,
+              "PlotLineKey": "Ich kann es für dich finden.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Wirklich? Vielen Dank, {Male=Bruder;Female=Schwester}. Wir warten hier auf dich, bis du zurückkommst!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Lass dir Zeit …",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Wie lief es, {Male=Bruder;Female=Schwester}? Hast du das Gericht gefunden?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 110,
+              "PlotLineKey": "Hier.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Komm schon, Eugene. Probier es!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Frage mich, wie die „Klingelkrabbe jeden Geschmacks“ schmeckt. Hoffentlich nicht wie roher Sonnenfisch.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Schmeckt vielleicht wie ein Tölpelstern. Los jetzt!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 111,
+              "PlotLineKey": "Schmeckt wie roher Sonnenfisch.",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 112,
+              "PlotLineKey": "Schmeckt wie Tölpelstern.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 113,
+              "PlotLineKey": "Schmeckt wie Klingelkrabbe.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Hä?! Da muss was faul sein …",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Hm … Klingt ziemlich zäh …",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Beantwortet die Frage nicht wirklich …",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Iss es endlich, Eugene!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Ich-ich kann nicht. Ich will kein Held mehr sein.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Oh, das lasse ich nicht zu, Eugene! Du hast gesagt, dass du ein Held sein willst!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Hmph, Eugene ist so ein Feigling. Ich hab aber eine Idee!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Wir sollten sie probieren. Wir zeigen ihm, wie toll sie schmeckt, dann will er sie auch probieren!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 114,
+              "PlotLineKey": "Klar, ich nehme einen Bissen.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 115,
+              "PlotLineKey": "Lieber nicht. Probier du es.",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Die Kinder schauen dich erwartungsvoll an, wie du einen Bissen von „Klingellose Krabbe jedes Geschmacks“ nimmst.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Du schmeckst die frischen Aromen des Meeres, salzig mit etwas Fischgeschmack. Alles in allem recht schmackhaft.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Wie ist es? Wie schmeckt es?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 116,
+              "PlotLineKey": "Schmeckt wie das Meer.",
+              "PlayVoice": false,
+              "JumpToId": 19
+            },
+            {
+              "TextId": 117,
+              "PlotLineKey": "Es ist lecker.",
+              "PlayVoice": false,
+              "JumpToId": 19
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Okay, dann probiere ich es.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Sarah zögert einen Moment, bevor sie endlich einen großen Bissen nimmt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Hmm … Ist … nicht schlecht. Schmeckt wie das Meer. Lecker!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 19,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Bist du sicher? Ich will auch probieren …",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Gut … N-nicht gut … Wieder gut …",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Sarah und du schauen zu, wie Eugene beim Kauen lustig das Gesicht verzieht, doch am Ende ist alles gegessen. Jetzt ist er ein Held!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Eugene",
+          "PlotLineKey": "Puh … Das war lecker. Danke, jetzt bin ich ein Held!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 118,
+              "PlotLineKey": "Ein wahrer Held.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 119,
+              "PlotLineKey": "Übertreibe es nur nicht.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Sarah",
+          "PlotLineKey": "Vielen Dank, {Male=Bruder;Female=Schwester}! Nimm das hier. Du hast Eugenes Traum, ein Held zu werden, wahr gemacht!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

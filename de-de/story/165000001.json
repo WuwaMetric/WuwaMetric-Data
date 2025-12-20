@@ -1,0 +1,442 @@
+{
+  "Id": 165000001,
+  "Name": "Schatz eines Seemanns",
+  "Description": "Nicht jeder, der einen Schatz ins Meer verbirgt, ist ein räuberischer Pirat. Es könnte auch ein gewöhnlicher Seemann oder ein Kapitän sein.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 165000001,
+  "ShowQuestList": [],
+  "QuestDesc": "Nicht jeder, der einen Schatz ins Meer verbirgt, ist ein räuberischer Pirat. Es könnte auch ein gewöhnlicher Seemann oder ein Kapitän sein.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100018,
+      "PreQuestName": "Der alte Mann und der Wal"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Die Akolythin? Schon wieder da?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Herr Toretto, wir sind hier, um mehr über den Schatz des Seemanns zu erfahren.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Seit wann interessiert der Orden sich für Schätze?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Äh. Nein, eigentlich …",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Ach, erspart mir die Details! Schatzjäger kommen und gehen, euresgleichen gibt es geschenkt. Ihr kommt mit leeren Händen zurück, wie alle anderen.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "Vielleicht finden wir ihn. Man weiß es nie.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Ziemlich von dir überzeugt, wie? Du weißt, wie weit das Zeitalter der Tausend Inseln zurückliegt. Außer der Legende gibt es keine Beweise, dass irgendetwas davon wahr ist.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Ohne echte Hinweise, ist es ein vergeblicher Versuch. All diese Schatzjäger haben die Inseln schon auf den Kopf gestellt und keine einzige Münze haben sie gefunden.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 26,
+              "PlotLineKey": "Gibt es noch andere Geschichten über den Seemann?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Andere Geschichten, sagst du? Mal überlegen … Es gibt die Wandernde Gondel. Der Meister des Fischkönigs …",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 27,
+              "PlotLineKey": "Erzähle uns von der Wandernden Gondel.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 28,
+              "PlotLineKey": "Erzähle uns vom Meister des Fischkönigs.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 29,
+              "PlotLineKey": "Ich habe keine weiteren Fragen.",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Die Legende besagt, ein Seemann soll in einer Gondel hier angekommen sein. Auch nach seinem Verschwinden treibt sie weiter zwischen den Inseln umher und wartet auf seine Rückkehr.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 10,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Der Fischkönig ist ein berüchtigter Gegner jedes Fischers. Den Legenden zufolge, soll ein Seefahrer einst einen in diesen Gewässern gefangen haben.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Toretto",
+          "PlotLineKey": "Seitdem hat niemand einen gefangen. Es heißt, der Fischkönig folgt nur dem Ruf jener, die diesem Seemann ebenbürtig sind.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 12,
+          "Speaker": "Toretto",
+          "PlotLineKey": "In Ordnung, du weißt bereits, was du wissen musst. Dann los mit dir, ich schaue zu, ob du diesen Schatz finden kannst, ha!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 0,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Phoebe versucht, mit dem Echo zu kommunizieren und seine Worte zu entschlüsseln.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Es scheint etwas zu wissen! Vielleicht will es uns in eine bestimmte Richtung führen … Sollen wir nachschauen?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "Vorwärts!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ah, seid gegrüßt, Freunde! Was haben wir denn hier?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Phoebe teilt die Geschichte eurer Schatzsuche mit Ahab und zeigt ihm die Truhe mit der Inschrift.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Du willst mir also erzählen, dass die Truhe hier dem legendären Seemann gehört hat?! Lass mich einen Blick drauf werfen.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Hmm … ein Siegel verdeckt diese Inschriften. Kann sie nicht gut lesen. Heh, das wird aber!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Ahab schaut sich in der Nähe um und kehrt mit einer einzigartigen Pflanze zurück. Er quetscht sie aus, um ihr den Saft zu entringen und wendet ihn auf die Truhe an. Unmittelbar danach werden die Inschriften lesbar.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Seht ihr das? Mit dem alten Trick haben wir geheime Botschaften geschrieben. Jetzt können wir lesen, was da steht.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ahab",
+          "PlotLineKey": "„Kein Sieg ist selbstverständlich. Die Wahrheit wird Stück für Stück zusammengefügt.“",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Wie es scheint … müssen wir die Karte zusammenfügen, um den Schatz zu finden.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Wir müssen ab jetzt die Augen offen halten, {PlayerName}.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ich frage mich, was der Seemann zurückgelassen hat. Unermesslichen Reichtum? Uralte Relikte?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Oder vielleicht … einen Fischkönig?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Hä? Hahaha. Dass ich so etwas von einer Akolythin höre!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 53,
+              "PlotLineKey": "Danke, Ahab. Wir werden den Schatz mit dir teilen, sobald wir ihn gefunden haben.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Das ist sehr großzügig, ich bin mit meinem Leben aber sehr zufrieden. Was immer ihr findet, solltet ihr behalten!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 0,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Ich hatte gar nicht erwartet, etwas zu finden … Das ist glaube ich …",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "Es sieht aus wie ein Schatzkarte. Jedenfalls ein Teil davon.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Im Inneren der Truhe steht etwas geschrieben. Hmm … Es ist schwer zu lesen. Die Schriftzeichen sind mir nicht bekannt.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 39,
+              "PlotLineKey": "Wir sollten einen Einheimischen um Rat bitten.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Ich habe bei unserem Aufenthalt einen faszinierende Geschichte gehört, {PlayerName}. Möchtest du sie hören?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "Was für eine Geschichte?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Es ist eine Legende, von Seeleuten dieser Inseln von Generation zu Generation weitergegeben. Sie erzählt von Rinascita während des antiken Zeitalters der Tausend Inseln, als die Riccioli-Inseln unter der Herrschaft eines Seemanns standen, der aus seiner Heimat vertrieben wurde.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Dieser Seefahrer besaß unbeschreiblichen Reichtum, doch kannte niemand die Quelle dieses Wohlstands.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Er nutzte seinen enormen Reichtum, um eine Zitadelle zu bauen, die den Bewohnern des Landes Frieden und Wohlstand bescherte.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Gerade als sie ein Monument zu seinen Ehren errichten wollten, verschwand er spurlos.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Gerüchte flüsterten, es sei in See gestochen, um sich für eine dunkle Vergangenheit zu rächen.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Vor seiner Abreise ließ er seine wertvollsten Schätze auf den Inseln zurück und begab sich auf den Pfad der Rache, von dem er nie zurückkehrte.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Ich frage mich schon, welche Schätze solch ein Mann zurücklassen könnte. Sie müssen ihm sehr wichtig gewesen sein.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 11,
+              "PlotLineKey": "Sollen wir losziehen, das Geheimnis lüften?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 12,
+              "PlotLineKey": "Ich kann den Ruf des Schatzes schon hören!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Ich wusste, das würde deine Aufmerksamkeit wecken! Sollen wir jemanden suchen, der mit den Legenden vertraut ist? So könnten wir den Schlüssel zu diesem Rätsel finden.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ahabs Notizen",
+          "PlotLineKey": "„Inzwischen hat bestimmt jemand den Schatz des legendären Seemanns gefunden.“",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ahabs Notizen",
+          "PlotLineKey": "„Wenn du es nicht lesen kannst, quetsche einfach etwas Wasserkraut darüber aus.“",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ahabs Notizen",
+          "PlotLineKey": "„Was? Jedes Wasserkraut geht. Glaubt ihr, ein Seemann hat Zeit, wählerisch zu sein?“",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ahabs Notizen",
+          "PlotLineKey": "„Kein Sieg ist selbstverständlich. Die Wahrheit wird Stück für Stück zusammengefügt.“",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ahabs Notizen",
+          "PlotLineKey": "„Sucht nach den Fetzen dieser Schatzkarte. Setzt sie zusammen und wer weiß, was ihr entdeckt?“",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

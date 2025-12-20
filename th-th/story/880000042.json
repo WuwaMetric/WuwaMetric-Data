@@ -1,0 +1,345 @@
+{
+  "Id": 880000042,
+  "Name": "ท้าทายปูไร้กระดิ่งรวมรส",
+  "Description": "พอคุณถอดกระดิ่งออกจากปูกระดิ่งแล้ว คุณนึ่งมัน ย่างมัน หรือ... จะทำเป็นเมนูพิเศษอะไรหรือเปล่า?",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000042,
+  "ShowQuestList": [],
+  "QuestDesc": "พอคุณถอดกระดิ่งออกจากปูกระดิ่งแล้ว คุณนึ่งมัน ย่างมัน หรือ... จะทำเป็นเมนูพิเศษอะไรหรือเปล่า?",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 880000037,
+        "ChildQuestId": 23
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "สวัสดีจ้า! คุณเคยลองกิน \"ปูไร้กระดิ่งรวมรส\" มาก่อนไหม?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 84,
+              "PlotLineKey": "แน่นอน เคยสิ",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 85,
+              "PlotLineKey": "มันคืออะไรน่ะ?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "คุณเคยลองมันแล้วจริง ๆ เหรอ? ว้าว งั้นคุณนี่แหละฮีโร่ตัวจริงเลย!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "มันคืออาหารที่ทำจากปูไร้กระดิ่ง! ฉันว่าคนที่กล้ากินสิ่งนี้ได้ ต้องเป็นฮีโร่ที่แท้จริงแน่นอน!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "ยูจีนบอกว่าเขาอยากเป็นฮีโร่ผู้ยิ่งใหญ่ ฉันก็เลยบอกเขาว่าต้องผ่านการทดสอบ \"ปูไร้กระดิ่งรวมรส\" ให้ได้ก่อน",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "แต่เพราะพวกเราไม่รู้วิธีทำอาหารจานนี้ ยูจีนก็เลยยังไม่ได้เป็นฮีโร่สักที",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ยูจีน",
+          "PlotLineKey": "คงหมดสิทธิ์ได้เป็นฮีโร่แล้วล่ะ...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "เอ่อ ไม่ทราบคุณพอจะรู้ไหมว่าจะหาอาหารจานนี้กินได้ที่ไหนบ้าง? พวกเรายินดีจ่ายนะ!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 86,
+              "PlotLineKey": "ฉันจะไปหามาให้พวกเธอเอง",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "จริงเหรอ? ขอบคุณมากนะ{Male=พี่ชาย;Female=พี่สาว} พวกเราจะรอคุณอยู่ตรงนี้จนกว่าคุณจะกลับมา!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ยูจีน",
+          "PlotLineKey": "ฉันจะรอนะ...",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "เป็นยังไงบ้าง{Male=พี่ชาย;Female=พี่สาว}? เจออาหารจานนั้นไหม?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 110,
+              "PlotLineKey": "เอาไปสิ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "เอาสิยูจีน ลองกินเลย!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ยูจีน",
+          "PlotLineKey": "ฉันสงสัยมาตลอดว่า \"ปูไร้กระดิ่งรวมรส\" จะมีรสชาติเป็นยังไง หวังว่าจะไม่เหมือนปลาแสงอาทิตย์ดิบนะ...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "มันอาจจะรสเหมือนปลาดาวอวบอั๋นก็ได้ ลองเลย!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 111,
+              "PlotLineKey": "มันรสชาติเหมือนกับปลาแสงอาทิตย์ดิบ",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 112,
+              "PlotLineKey": "มันรสชาติเหมือนกับปลาดาวอวบอั๋น",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 113,
+              "PlotLineKey": "มันรสชาติเหมือนกับปูไร้กระดิ่ง",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "ยูจีน",
+          "PlotLineKey": "หา?! ฟังดูเหม็นคาวนะ...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "ยูจีน",
+          "PlotLineKey": "หืม... ฟังดูเหมือนจะเหนียวเคี้ยวยาก...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "ยูจีน",
+          "PlotLineKey": "นั่นมันไม่ช่วยตอบคำถามอะไรเลยนะ...",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "กินเข้าไปเถอะน่า ยูจีน!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ยูจีน",
+          "PlotLineKey": "ฉ-ฉันทำไม่ได้ ฉันไม่อยากจะเป็นฮีโร่แล้ว",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "ไม่ได้หรอกนะ ยูจีน! นายบอกเองว่าอยากจะเป็นฮีโร่นี่นา!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "ฮึ่ม ยูจีนขี้ขลาดจริง ๆ แต่ฉันมีไอเดียแล้ว!",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "งั้นเราลองกินกันก่อนดีไหม? ถ้าเราแสดงให้เห็นว่ามันอร่อย ยูจีนก็จะอยากลองเอง!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 114,
+              "PlotLineKey": "ได้สิ ฉันจะลองกินสักคำ",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 115,
+              "PlotLineKey": "ฉันขอผ่าน เธอลองเองเถอะ",
+              "PlayVoice": false,
+              "JumpToId": 16
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "เด็ก ๆ จ้องมองคุณด้วยความคาดหวังขณะที่คุณกำลังเอา \"ปูไร้กระดิ่งรวมรส\" เข้าปาก",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "คุณลิ้มรสชาติสดชื่นจากท้องทะเล ทั้งความเค็มและกลิ่นคาวอ่อน ๆ โดยรวมแล้วค่อนข้างพอใจ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "เป็นยังไงบ้าง! รสชาติมันเป็นยังไง?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 116,
+              "PlotLineKey": "รสชาติเหมือนน้ำทะเล",
+              "PlayVoice": false,
+              "JumpToId": 19
+            },
+            {
+              "TextId": 117,
+              "PlotLineKey": "มันอร่อยมาก",
+              "PlayVoice": false,
+              "JumpToId": 19
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "โอเค ฉันจะลองก็ได้",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ซาราห์ลังเลอยู่ครู่หนึ่ง ก่อนจะกินคำโตเข้าไป",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "ฮึ่ม... ก็ไม่แย่นะ รสชาติเหมือนน้ำทะเลเลย!",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 19,
+          "Speaker": "ยูจีน",
+          "PlotLineKey": "จริงเหรอ? งั้นขอฉันลองบ้าง...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "ยูจีน",
+          "PlotLineKey": "อร่อย... ม-ไม่อร่อย... อร่อยอีกแล้ว...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "คุณกับซาราห์มองยูจีนทำหน้าตาตลกตอนเคี้ยว แต่สุดท้ายเขาก็กินจนหมด เขากลายเป็นฮีโร่แล้ว!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "ยูจีน",
+          "PlotLineKey": "เฮ้อ... อร่อยจริง ๆ ขอบคุณนะ ตอนนี้ฉันเป็นฮีโร่แล้ว!",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 118,
+              "PlotLineKey": "ฮีโร่ตัวจริงเลย",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 119,
+              "PlotLineKey": "อย่าฝืนตัวเองเกินไปล่ะ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "ซาราห์",
+          "PlotLineKey": "ขอบคุณมากนะ{Male=พี่ชาย;Female=พี่สาว}! รับสิ่งนี้ไปสิ คุณทำให้ความฝันของยูจีนที่อยากจะเป็นฮีโร่เป็นจริงแล้ว!",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

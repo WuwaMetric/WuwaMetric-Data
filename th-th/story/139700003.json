@@ -1,0 +1,666 @@
+{
+  "Id": 139700003,
+  "Name": "ปริศนาและการกลับมาพบกัน",
+  "Description": "ปริศนาโคมหมุนมีรางวัลพิเศษในช่วงเวลาจำกัด! ร่วมมือกับหยางหยางแล้วพยายามคว้ามาให้ได้!\n\nเพื่อนร่วมทางใหม่จะปลดล็อกหลังจากที่ทำเควสต์นี้เสร็จสมบูรณ์",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700003,
+  "ShowQuestList": [],
+  "QuestDesc": "ปริศนาโคมหมุนมีรางวัลพิเศษในช่วงเวลาจำกัด! ร่วมมือกับหยางหยางแล้วพยายามคว้ามาให้ได้!\n\nเพื่อนร่วมทางใหม่จะปลดล็อกหลังจากที่ทำเควสต์นี้เสร็จสมบูรณ์",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 9,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ปริศนาตะเกียงนี่ดูน่าสนุกดี อยากลองดูหน่อยไหมล่ะ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "ว่าไง {PlayerName}? พร้อมจะรับคำท้าทายหรือเปล่า?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "คืองี้ ฉันมีปริศนายาก ๆ ที่เพิ่งได้มาสด ๆ ร้อน ๆ เลยเนี่ย แก้ให้ได้สามข้อ แล้วคุณจะได้รางวัลแจ็กพอต เป็นของสะสมเชียวนะ เชื่อฉันเถอะ!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ปริศนายาก ๆ…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 369,
+              "PlotLineKey": "มาร่วมมือกันไหม หยางหยาง?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 370,
+              "PlotLineKey": "ฉันอาจต้องการกำลังเสริมหน่อย!",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ช่วยกันเหรอ? ตามกฎแล้วอนุญาตหรือเปล่า?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ก็ถ้าอนุญาตให้ตามกฎนะ… ฉันขอรับความท้าทายนี้ร่วมกับ {PlayerName}",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "ได้อยู่แล้ว เพราะยังไงนี่มันก็คือเทศกาล อะไรจะสำคัญไปกว่าความสนุกสนานกันล่ะ? หยางหยาง ดูท่าทางคุณจะชอบปริศนาของเรามาก ฉันว่าคุณต้องอยากแก้เองแน่เลย!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "อีกอย่าง ปริศนาของฉันมันยากจริง ๆ! คงไม่อยากให้ {PlayerName} ขายหน้าหรอกนะ จริงไหม?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 371,
+              "PlotLineKey": "เอาอะไรมามั่นใจล่ะ",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 372,
+              "PlotLineKey": "ก็ลองดูสิ!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "ได้เลย! งั้นเริ่มอุ่นเครื่องด้วยคำถามเรียกน้ำย่อยกันก่อน ปริศนาข้อที่ 1: ตัวกลมเหมือนดวงจันทร์ หน้าท้องสีขาวพอกัน กระโจนได้ในอากาศ คืบคลานได้ในน้ำ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "บอกชื่อทาเซ็ตดิสคอร์ดที่ว่านี้มา!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "รูปร่างกลม ท้องสีขาว ว่ายน้ำได้… ได้แก่…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 373,
+              "PlotLineKey": "...เต่าน้ำค้างแข็ง?",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 374,
+              "PlotLineKey": "...กัลพัฟฟ์?",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 375,
+              "PlotLineKey": "...คิกคิก?",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 376,
+              "PlotLineKey": "...ก๊อกก๊อก?",
+              "PlayVoice": false,
+              "JumpToId": 13
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "ยังไม่ถูกต้อง ลองอีกครั้ง",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 13,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "ยังไม่ถูกต้อง ลองอีกครั้ง",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 14,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "ยังไม่ถูกต้อง ลองอีกครั้ง",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "ใช่แล้ว คุณเข้าใจถูกต้อง กัลพัฟฟ์นั่นเอง!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "กัลพัฟฟ์นี่ทำให้นึกถึงดวงจันทร์จริง ๆ เลยนะ เวลาที่มันกระโจนขึ้นฟ้า ว่าไหม?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ฉันจำได้ว่าตอนเด็ก ๆ… ฉันชอบเทศกาลล่าพระจันทร์มาก เรามักทำขนมไหว้พระจันทร์กันหลายแบบเลย ส่วนมากจะเป็นรูปสัตว์ตัวกลม ๆ น่ารัก ๆ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "เราต่างก็ชอบขนมไหว้พระจันทร์รูปกัลพัฟฟ์กันทั้งนั้น",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "ฮ่า ๆ ของโปรดของเด็ก ๆ เลยนะนั่น ทีนี้ก็… ไปต่อกันที่ปริศนาข้อถัดไป! ข้อนี้อาจยากขึ้นอีกหน่อยนะ!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "คุณได้สัตว์มากรงหนึ่ง โดยมีทั้งไก่และกระต่าย คุณลองนับดูได้ 14 หัว แล้วก็มีขา 38 ข้าง…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "ถามว่า… มีไก่และกระต่ายรวมทั้งหมดกี่ตัว? คุณมีเวลาห้านาที… จับเวลา!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 377,
+              "PlotLineKey": "…นั่นมันใช่ปริศนาด้วยเหรอ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "นั่นสิ… มันเหมือนโจทย์คณิตศาสตร์มากกว่าปริศนาไม่ใช่เหรอ…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "อะแฮ่ม... คือว่า มันก็เป็นคำถามที่มีคำตอบชัดเจน และเพราะว่ามันแขวนอยู่ใต้ตะเกียง ก็เรียกว่าปริศนาไปแล้วกัน",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "...ถ้าจะว่างั้นก็ได้ แต่ยังไงก็ยังรู้สึกแปลก ๆ อยู่ดี...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ฉันจำได้ว่าเคยเรียนวิธีแก้โจทย์นี้ในชั้นเรียน อย่างเช่น \"วิธีครึ่งขา\" อะไรงี้…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 378,
+              "PlotLineKey": "ข้อนี้ไม่ยากสำหรับคุณใช่ไหมหยางหยาง?",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 379,
+              "PlotLineKey": "(ตอบคำถาม)",
+              "PlayVoice": false,
+              "JumpToId": 28
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "โอเค ฉันจะลองดู…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "เสร็จแล้ว! คำตอบคือ… กระต่าย 5 ตัว ไก่ 9 ตัว!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 30
+        },
+        {
+          "Id": 28,
+          "Speaker": "ผู้พเนจร",
+          "PlotLineKey": "(ก่อนอื่น ให้สมมุติว่าทั้งหมดเป็นไก่ จากนั้นก็คำนวณจำนวนขาที่แตกต่างกัน ก็จะได้จำนวนกระต่าย… อ๋อ เข้าใจแล้ว)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "ผู้พเนจร",
+          "PlotLineKey": "มีกระต่าย 5 ตัว และไก่ 9 ตัว",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 30
+        },
+        {
+          "Id": 30,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "ถูกต้อง! คุณหาคำตอบได้เร็วกว่าคุณป๋อซงเสียอีก เก่งมากเลยนะ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "สำหรับปริศนาข้อสุดท้าย คราวนี้มาเปลี่ยนบรรยากาศกันหน่อยดีไหม? อนุญาตให้คุณสองคนเลือกจากตะเกียงดวงไหนก็ได้",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "(เสียหยางชี้ไปที่ตะเกียงแถวบน ที่มีแผ่นปริศนาโบกสะบัด)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "เอ่อ… ไม่เห็นมีปริศนาเลย…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "อ๋อ ปริศนาพวกนี้เขียนด้วยหมึกพิเศษ ต้องเอาไปส่องใกล้ ๆ ตะเกียงถึงจะเห็น",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 380,
+              "PlotLineKey": "งั้นเท่ากับว่าเราเลือกแบบไม่ได้เห็นก่อน…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 35,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "แน่นอน ยิ่งลุ้นยิ่งสนุกนะ! การแก้ปริศนาตะเกียงก็เหมือนการออกเดินทางไปค้นพบอะไรสักอย่าง คุณต้องเชื่อสัญชาตญาณตัวเอง!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "อ๋อ… แบบนั้นก็ทำให้น่าสนใจขึ้นนะ",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 381,
+              "PlotLineKey": "งั้นฉันยกหน้าที่ให้คุณเลือกเลยนะหยางหยาง",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 37,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "หา? ฉันเหรอ? อืม… งั้นฉันเลือก อันนี้ละกัน",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 38,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "ได้เลย! ไหนดูซิ… ปริศนาเผยออกมาแล้ว!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 39,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "ตัวฉันประกอบขึ้นจากหลายสิ่ง แต่ก็เป็นหนึ่งเดียวได้เช่นกัน ฉันทำให้ผู้คนเข้าหากันและสร้างความสนุกสนาน ฉันคืออะไร?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "คำตอบเป็นวลี!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ประกอบขึ้นจากหลายสิ่ง แต่ก็เป็นหนึ่งเดียวได้...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 382,
+              "PlotLineKey": "ใช่... \"เทศกาลล่าพระจันทร์\" หรือเปล่า?",
+              "PlayVoice": false,
+              "JumpToId": 42
+            },
+            {
+              "TextId": 383,
+              "PlotLineKey": "ใช่... \"ครอบครัว\" หรือเปล่า?",
+              "PlayVoice": false,
+              "JumpToId": 44
+            }
+          ]
+        },
+        {
+          "Id": 42,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "โอ้โห ใกล้เคียง แต่ยังไม่ใช่!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 43,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "...ฉันรู้แล้ว \"ครอบครัว\" ใช่ไหม?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 44
+        },
+        {
+          "Id": 44,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "ถูกต้อง!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 45,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "เยี่ยมมาก คุณไขปริศนาได้ครบทั้ง 3 ข้อ รับรางวัลพิเศษไปเลย!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 46,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "เสียหยางหยิบตะเกียงที่ประดิษฐ์ขึ้นอย่างประณีตออกมา ตะเกียงนั้นประดับด้วยภาพวาดจากนิทาน \"จิ้งจอกกับพระจันทร์\"",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "น่ารักจังเลย...!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 384,
+              "PlotLineKey": "ก็แค่ตะเกียงไม่ใช่เหรอ?",
+              "PlayVoice": false,
+              "JumpToId": 48
+            },
+            {
+              "TextId": 385,
+              "PlotLineKey": "หยางหยาง ท่าทางคุณชอบมากเลยนะ",
+              "PlayVoice": false,
+              "JumpToId": 49
+            }
+          ]
+        },
+        {
+          "Id": 48,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "ก็นี่มันไม่ใช่ตะเกียงธรรมดานี่นา",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 50
+        },
+        {
+          "Id": 49,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ฉันยังเด็กอยู่เลยตอนที่ได้รับตะเกียงแบบนี้มาครั้งล่าสุด… คิดถึงช่วงเวลาแบบนั้นจัง",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 50
+        },
+        {
+          "Id": 50,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "เราโชคดีนะที่ได้ตะเกียงนี้มาจากนักสะสมชื่อดังเพื่อใช้ในโอกาสพิเศษ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 51,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "ว่ากันว่าเซนติเนล \"ซิน\" ประดิษฐ์ขึ้นมาเองกับมือ และนำไปซ่อนไว้ในป่าอีกหลายดวง ทำให้ตะเกียงนี้เป็นของที่ควรค่าแก่การครอบครอง ถ้าหาเจอสักดวง ก็เหมือนได้พรแบบฉ่ำ ๆ ตลอดทั้งปีนั่นแหละ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 52,
+          "Speaker": "เสียหยาง",
+          "PlotLineKey": "เป็นไงล่ะ ได้ของที่ระลึกแบบนี้? ยินดีด้วยนะ! ขอให้คุณได้รับโชคลาภไม่สิ้นสุด!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "{PlayerName} พอจะมีเวลาสักหน่อยไหม?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "เรา... ไปเดินเล่นด้วยกันได้ไหม?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ฉันจำได้ว่าตอนเด็ก ๆ ฉันเฝ้ารอคอยเทศกาลล่าพระจันทร์อยู่เสมอเลย",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ดอกไม้ไฟที่สว่างไสวบนท้องฟ้ายามค่ำคืน ตะเกียงที่ประดับอยู่ทุกหัวถนน และพวกเราที่ได้ลิ้มรสขนมไหว้พระจันทร์ที่ครอบครัวทำเอง ใบหน้าของทุกคนที่ฉันเห็นเต็มไปด้วยความสุข…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "…ความทรงจำเหล่านั้นอาจเลือนรางไปบ้าง แต่ฉันยังจำรอยยิ้มจากใจจริงของผู้คนที่ฉันรักได้เสมอ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ฉันเข้าร่วมกับมิดไนต์เรนเจอร์เพื่อปกป้องรอยยิ้มแห่งความสุขของพวกเขา… ถึงแม้พลังความแข็งแกร่งของฉันเพียงคนเดียวจะสร้างความแตกต่างได้ไม่มากนัก แต่ฉันก็ทำเท่าที่ทำได้",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 616,
+              "PlotLineKey": "เห็นไหม ทุกคนสนุกกันใหญ่เลย",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 617,
+              "PlotLineKey": "…นี่คุณคิดถึงบ้านเหรอ?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ใช่แล้ว! นี่แหละคือเหตุผลที่ฉันรักจินโจว ฉันรักในสิ่งที่เราต่อสู้เพื่อปกป้องเอาไว้",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ก็นิดหน่อยแหละมั้ง… แต่ฉันไม่เป็นไรหรอก",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ถึงฉันจะไม่ได้อยู่กับครอบครัวในวันนี้ แต่เสียงหัวเราะรอบตัวก็เริ่มทำให้ฉันรู้สึกเบิกบานแล้ว",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "เมื่อฉันมองดูพระจันทร์ที่สว่างไสว ฉันก็รู้ว่าพวกเขากำลังมีช่วงเวลาที่ดีอยู่ที่ไหนสักแห่ง",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ขอบคุณนะ {PlayerName}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ฉันรู้สึกมีความสุขมากจริง ๆ กับช่วงเวลานี้ และกับทุกสิ่งที่คุณทำเพื่อฉัน",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "เทศกาลล่าพระจันทร์ในปีนี้… คุณทำให้มันพิเศษสำหรับฉันมาก",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 618,
+              "PlotLineKey": "เทศกาลแสงจันทร์ยังมีอะไรให้สนุกอีกเยอะเลยนะ",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 619,
+              "PlotLineKey": "ฉันมั่นใจว่างานเทศกาลในอนาคตจะยิ่งดีขึ้นกว่านี้อีก",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "นั่นสินะ! คุณอยากไปที่ไหนอีกบ้างไหม {PlayerName}?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "พักตรงนี้กันสักหน่อย แล้วค่อยไปที่อื่นกันต่อนะ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "หยางหยาง",
+          "PlotLineKey": "ขอบคุณนะ {PlayerName} ฉันหวังว่า… เราจะได้ฉลองด้วยกันเป็นประจำ ในทุก ๆ เทศกาล เหมือนกับในวันนี้",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "Id": 133900004,
+  "Name": "変わった三兄弟",
+  "Description": "三兄弟それぞれの難題を解決したため、彼らはあなたに感謝の気持ちを直接伝えたいようだ……",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 133900004,
+  "ShowQuestList": [],
+  "QuestDesc": "三兄弟それぞれの難題を解決したため、彼らはあなたに感謝の気持ちを直接伝えたいようだ……",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900001,
+      "PreQuestName": "変わった三兄弟-ウォードタロー"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900002,
+      "PreQuestName": "変わった三兄弟-ウォードジロウ"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900003,
+      "PreQuestName": "変わった三兄弟-ウォードサブロウ"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "良かったぁ、まだここにいたんだな！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "兄弟たちに話しててわかったんだが、お前は俺だけじゃなく、弟たちも助けてくれてたんだな！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ウォードジロウ",
+          "PlotLineKey": "さすがソラリスのナンバーワンだ！これは燃えるぜ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ウォードサブロウ",
+          "PlotLineKey": "ほんとにほんとにありがとう～！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 70,
+              "PlotLineKey": "そんな大した事は……",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 71,
+              "PlotLineKey": "{Male=感謝を形で示してくれよ。;Female=感謝は物で表してくれないかな。}",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "大した事だ！先駆条約に入るのは俺たち三兄弟の夢なんだ。俺たちはお前に大恩があるんだから、ちゃんと感謝しなきゃな！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "それはもちろんだ！先駆条約に入るのは俺たち三兄弟の夢なんだ。お前は俺たちにこんなに大恩があるんだからな！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "ウォードジロウ",
+          "PlotLineKey": "ソラリスで一番のヒーローに感謝するんだから、ソラリスで一番グレイトで、一番燃えるプレゼントを贈らないと！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ウォードサブロウ",
+          "PlotLineKey": "だから、ここに、君のために立派な<span style=\"color:#ffd12f;\" class=\"font-bold\">石像</span>を建てることにしたんだ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "さあ、最高のキメポーズを取るんだ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "賢者のように深く考えるポーズ",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 73,
+              "PlotLineKey": "勇者のように力強く振る舞うポーズ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "よし、よく撮れた。これを職人に送る。また数日後に来い。<span style=\"color:#ffd12f;\" class=\"font-bold\">お前そっくりの石像</span>が拝めるぞ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "ああ、来てくれたんだな。見てくれ、俺たちが作った「石像」を！ハハハ……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 130,
+              "PlotLineKey": "{Male=これは石像じゃないだろ。;Female=これは石像じゃないでしょ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 131,
+              "PlotLineKey": "{Male=それに、まるっきりポーズも違うし。;Female=それに、私がしたポーズと全然違う。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "皆まで言うな。無論お前のポーズ通りに作るつもりだった。ちょっとトラブルがあってな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "到着した石材を放置したら盗まれちまう。そこで俺が見張りに残り、職人のところまでジロウにお前の写真を届けさせた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ウォードジロウ",
+          "PlotLineKey": "それでミーはラン・アンド・ラン！で、まさかの迷子だ。アハハ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ウォードサブロウ",
+          "PlotLineKey": "兄貴が戻ってこないって事は迷子だと思って。だから僕は予備の画像を持って職人のところに行ったんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ウォードサブロウ",
+          "PlotLineKey": "でも、到着した時には持ってたはずの画像がどこにもなくって……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "全然戻ってこない二人が心配で、ついに俺は探しに出た。盗まれたくないから石材を背負ってな。その道中、躓いて石材を崖の下に落としてしまって……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "石材と画像をなくしてしまい、仕方なく職人に頼む予算で投影装置を買って、適当にポーズを設定したんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ウォードジロウ",
+          "PlotLineKey": "でもまあ、グッドな感じだろ、な！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ウォードサブロウ",
+          "PlotLineKey": "うんうん、なんかこの町に合ってるし！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 132,
+              "PlotLineKey": "まあ、いいか……",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 133,
+              "PlotLineKey": "石像がいい！石像！石像だってば！",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "わかってくれるか、うんうん。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 12,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "ええと、最後の貯金は全部これに使っちまったから、改めて石像ってのはちょっとな……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ウォードジロウ",
+          "PlotLineKey": "そうだな、先駆条約に行くのは先送りして、まずはバイトでお金を貯めよう！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ウォードサブロウ",
+          "PlotLineKey": "うまく行けば、3、4年で資金が貯まるよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "それならやめておこう……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "わかってくれたか、うんうん。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "じゃあ俺たちは遂に先駆条約へ！またどこかでな！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "ああ、来てくれたんだな。見てくれ、俺たちが作った「石像」を！ハハハ……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 130,
+              "PlotLineKey": "{Male=これは石像じゃないだろ。;Female=これは石像じゃないでしょ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 131,
+              "PlotLineKey": "{Male=それに、まるっきりポーズも違うし。;Female=それに、私がしたポーズと全然違う。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "皆まで言うな。無論お前のポーズ通りに作るつもりだった。ちょっとトラブルがあってな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "到着した石材を放置したら盗まれちまう。そこで俺が見張りに残り、職人のところまでジロウにお前の写真を届けさせた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ウォードジロウ",
+          "PlotLineKey": "それでミーはラン・アンド・ラン！で、まさかの迷子だ。アハハ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ウォードサブロウ",
+          "PlotLineKey": "兄貴が戻ってこないって事は迷子だと思って。だから僕は予備の画像を持って職人のところに行ったんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ウォードサブロウ",
+          "PlotLineKey": "でも、到着した時には持ってたはずの画像がどこにもなくって……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "全然戻ってこない二人が心配で、ついに俺は探しに出た。盗まれたくないから石材を背負ってな。その道中、躓いて石材を崖の下に落としてしまって……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "石材と画像をなくしてしまい、仕方なく職人に頼む予算で投影装置を買って、適当にポーズを設定したんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ウォードジロウ",
+          "PlotLineKey": "でもまあ、グッドな感じだろ、な！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ウォードサブロウ",
+          "PlotLineKey": "うんうん、なんかこの町に合ってるし！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 132,
+              "PlotLineKey": "まあ、いいか……",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 133,
+              "PlotLineKey": "石像がいい！石像！石像だってば！",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "わかってくれるか、うんうん。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 12,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "ええと、最後の貯金は全部これに使っちまったから、改めて石像ってのはちょっとな……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ウォードジロウ",
+          "PlotLineKey": "そうだな、先駆条約に行くのは先送りして、まずはバイトでお金を貯めよう！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ウォードサブロウ",
+          "PlotLineKey": "うまく行けば、3、4年で資金が貯まるよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "それならやめておこう……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "わかってくれたか、うんうん。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 17
+        },
+        {
+          "Id": 17,
+          "Speaker": "ウォードタロー",
+          "PlotLineKey": "じゃあ俺たちは遂に先駆条約へ！またどこかでな！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+  "Id": 139700003,
+  "Name": "団らんの日が来るよう",
+  "Description": "「灯ろうクイズ」は期間限定の特別賞品を追加したらしい。さっそく秧秧と一緒に参加してみよう。\n\nクリア後、新しい「経営仲間」を解放。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700003,
+  "ShowQuestList": [],
+  "QuestDesc": "「灯ろうクイズ」は期間限定の特別賞品を追加したらしい。さっそく秧秧と一緒に参加してみよう。\n\nクリア後、新しい「経営仲間」を解放。",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 9,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "ここの灯ろうクイズはおもしろいですね。{PlayerName}さんもやりませんか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "どうですか、{PlayerName}さん？挑戦してみませんか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "ほら、新しく作った難しいクイズがあるんですよ。3問正解したら本日の大当たり。お宝級の特別景品を差し上げます。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "難しいクイズ……？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 369,
+              "PlotLineKey": "<ano=ヤンヤン>秧秧</ano>も、一緒にやらない？",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 370,
+              "PlotLineKey": "それなら、二人で挑戦しよう！",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "一緒に？すみません、二人でも大丈夫ですか？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "わかりました……すみません、{PlayerName}さんと二人で挑戦してもいいですか？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "いいですよ。お祭りですからね。楽しいのが何より大事！それに<ano=ヤンヤン>秧秧</ano>さんはさっきずっと見入ってたから、こういう遊びが好きなんでしょう？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "うちの超難問に{PlayerName}さんを一人で挑戦させるのは、ちょっとかわいそうですしね。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 371,
+              "PlotLineKey": "{Male=すごい自信だね。;Female=すごい自信ね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 372,
+              "PlotLineKey": "さあ、はやく問題を！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "よし！では、まず手始めに、第1問。まんまるお月様、おなかが真っ白け、たまに飛び跳ねながら、自在に水中を泳ぐ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "ある<ano=ざんぞう>残像</ano>のことですよ。さあ、何でしょう？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "まんまるで、おなかが白くて、水中を泳ぐものって……もしかして……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 373,
+              "PlotLineKey": "……<ano=かんそうかめ>寒霜亀</ano>？",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 374,
+              "PlotLineKey": "……グルッポ？",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 375,
+              "PlotLineKey": "……ウカカ？",
+              "PlayVoice": false,
+              "JumpToId": 14
+            },
+            {
+              "TextId": 376,
+              "PlotLineKey": "……チリン？",
+              "PlayVoice": false,
+              "JumpToId": 13
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "残念。もう少し考えますか？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 13,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "残念。もう少し考えますか？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 14,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "残念。もう少し考えますか？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 15,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "正解！グルッポです！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 16
+        },
+        {
+          "Id": 16,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "飛び跳ねたときのグルッポって、遠くから見ると、空にかかる満月みたいでしょう？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "そういえば子どものころ……<ano=げっついさい>月追祭</ano>がくると、家族のみんなが団らん餅をいろいろな形にしていました。とくに、まんまるの動物の形に……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "あのころは、みんなグルッポの形の団らん餅が大好きでした。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "ははは、子どもはみんなそういうものが好きなんですねぇ。それでは、第2問です！難易度を上げますよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "同じ小屋にニワトリとウサギ、頭を数えりゃ14、足を数えりゃ38……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "さて、ニワトリとウサギはそれぞれ何羽？今から5分以内に答えてください！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 377,
+              "PlotLineKey": "クイズとはちょっと違うような……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "そうですね……クイズというより、学校でやる算数の問題に似ています……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "コホン……問題の短冊がちゃんと花灯ろうの下に吊してあるでしょう。それなのに灯ろうクイズじゃないとでも？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "……確かにそうですが、やはりなんだか変です……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "そういえば算数の本にこういう問題の解き方が載っていたような……確か「<ano=つるかめざん>鶴亀算</ano>」……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 378,
+              "PlotLineKey": "<ano=ヤンヤン>秧秧</ano>に任せた！",
+              "PlayVoice": false,
+              "JumpToId": 26
+            },
+            {
+              "TextId": 379,
+              "PlotLineKey": "（答えを言う）",
+              "PlayVoice": false,
+              "JumpToId": 28
+            }
+          ]
+        },
+        {
+          "Id": 26,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "了解です。計算してみます……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "わかりました！答えは……ウサギが5羽、ニワトリが9羽です！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 30
+        },
+        {
+          "Id": 28,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "（まず小屋の中にいるのが全部ニワトリだと仮定した場合の足の数を出し、その数と実際の足の数との差を計算し、その差をもとにウサギの数を導き出す……よし、わかった）",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "ウサギが5羽、ニワトリが9羽。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 30
+        },
+        {
+          "Id": 30,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "正解！<ano=ハクショウ>柏松</ano>先生よりも頭の回転が速いですね。恐れ入りました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "どうでしょう。第3問はやり方を変えて、クイズをご自分たちで選んでみては？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "そう言って<ano=シャヨウ>斜陽</ano>は、たくさんぶら下がっている花灯ろうのほうに視線を向けた。灯ろうとともに下の短冊がゆらゆら揺れている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "あれ……短冊に書いてあるクイズが見えない……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "ええ。このクイズは特殊な墨汁で書かれているんです。花灯ろうで近くから照らさないと見えません。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 380,
+              "PlotLineKey": "見ないで運まかせで選ぶのかぁ……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 35,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "そのほうがおもしろいですよ。灯ろうクイズもビビッとくる運命的な要素が大事です！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "なるほど……それもおもしろいですね。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 381,
+              "PlotLineKey": "それなら<ano=ヤンヤン>秧秧</ano>が選んで。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 37,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "えっ、私がですか？どれにしよう……よし、これにします。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 38,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "かしこまりました！どれどれ……文字が見えてきました！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 39,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "月が壁を照らし、提灯が町を彩る。一家そろって笑顔で食卓を囲み、みんなで再会を喜ぶ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "これはある言葉を表わしていますよ！何でしょう？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "「月」「一家そろって」……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 382,
+              "PlotLineKey": "もしかして……「<ano=げっついさい>月追祭</ano>」？",
+              "PlayVoice": false,
+              "JumpToId": 42
+            },
+            {
+              "TextId": 383,
+              "PlotLineKey": "もしかして……「団らん」？",
+              "PlayVoice": false,
+              "JumpToId": 44
+            }
+          ]
+        },
+        {
+          "Id": 42,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "ああ、惜しいですね！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 43,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "……わかりました。「団らん」でしょう。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 44
+        },
+        {
+          "Id": 44,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "正解！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 45,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "お二人が3問正解しましたから、この特別景品を差し上げます！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 46,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "<ano=シャヨウ>斜陽</ano>は美しく輝く花灯ろうを取り出した。<ano=しんこのげっつい>心狐の月追</ano>の模様が描かれている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "きれいですね！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 384,
+              "PlotLineKey": "それってただの花灯ろうじゃ？",
+              "PlayVoice": false,
+              "JumpToId": 48
+            },
+            {
+              "TextId": 385,
+              "PlotLineKey": "<ano=ヤンヤン>秧秧</ano>がすごく気に入っているみたいだね。",
+              "PlayVoice": false,
+              "JumpToId": 49
+            }
+          ]
+        },
+        {
+          "Id": 48,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "ご存じないようですね。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 50
+        },
+        {
+          "Id": 49,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "はい……<ano=げっついさい>月追祭</ano>で花灯ろうをもらったのは、子どものころ以来ですから……なつかしくて。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 50
+        },
+        {
+          "Id": 50,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "この花灯ろうはですね、有名な収集家の方がわざわざ<ano=げっついさい>月追祭</ano>のために急いで送ってくださったものなんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 51,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "<ano=さいしゅ>歳主</ano>「<ano=シン>心</ano>」が自ら作ったものと言われています。<ano=さいしゅ>歳主</ano>「<ano=シン>心</ano>」はたくさんの花灯ろうを森に隠していたそうです。その花灯ろうを見つけた人はその一年幸運に恵まれると信じられています。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 52,
+          "Speaker": "斜陽（シャヨウ）",
+          "PlotLineKey": "ね、とても素敵な景品でしょう。お二人ともおめでとうございます！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "{PlayerName}さん、まだお時間ありますか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "よかったら……一緒に少し歩きませんか。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "子どものころは、いつも<ano=げっついさい>月追祭</ano>を楽しみにしていました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "きれいな花火が見られて、素敵な花灯ろうがもらえて、家の人が作ってくれた団らん餅が食べられて、誰もが楽しそうな笑顔で。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "……多くのことはもうぼんやりとしか覚えていないのですが、家族や友だちのあの心からの笑顔ははっきりと覚えています。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "私が<ano=よき>夜帰</ano>に入って<ano=とうはく>踏白</ano>になったのは、みんなの笑顔を取り戻すために微力を尽くしたいと思ったからでもあるんです……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 616,
+              "PlotLineKey": "ほら、みんな楽しそうだよ。",
+              "PlayVoice": false,
+              "JumpToId": 5
+            },
+            {
+              "TextId": 617,
+              "PlotLineKey": "……家族に会いたくなった？",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "はい。ですから……私、今の今州が好きです。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "はい……でも、大丈夫です。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "今は家族と会うことはできませんが……風に乗って伝わってくる笑い声や喜びに触れるだけでも、とても幸せな気持ちになります。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "この月を見ていると、家族が無事に楽しくやっていることがわかるんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "{PlayerName}さん、私、うれしいです。ありがとうございます。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "今もそうですが、これまであなたが今州やみんなのためにいろいろしてくださったおかげで……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "今年の<ano=げっついさい>月追祭</ano>が私にとって……すごく特別なものになりました。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 618,
+              "PlotLineKey": "<ano=よいづきかい>宵月会</ano>はまだ終わってないよ。",
+              "PlayVoice": false,
+              "JumpToId": 12
+            },
+            {
+              "TextId": 619,
+              "PlotLineKey": "今後はどのお祭りもよくなっていくよ。",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "そうですね！では……{PlayerName}さん、ほかにどこか回りたいところはありますか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "ここで少し休んでから、一緒に行ってみましょう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "秧秧（ヤンヤン）",
+          "PlotLineKey": "はい、そうなるといいですね。それに……今後のお祭りも今日のように{PlayerName}さんと一緒に過ごせるといいですね。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

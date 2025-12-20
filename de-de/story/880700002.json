@@ -1,0 +1,485 @@
+{
+  "Id": 880700002,
+  "Name": "Wünschte, du wärst hier",
+  "Description": "Dianxiao eröffnet endlich seinen Fächerstand. Besuche ihn.\n\nEine/einen Gefährtin/Gefährten wird nach Abschluss dieser Quest freigeschaltet",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880700002,
+  "ShowQuestList": [],
+  "QuestDesc": "Dianxiao eröffnet endlich seinen Fächerstand. Besuche ihn.\n\nEine/einen Gefährtin/Gefährten wird nach Abschluss dieser Quest freigeschaltet",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 8,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Halt! Zhezhi, sag mir, dass du das nicht alles alleine machen willst.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Doch.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Aber es gibt so viele Anfragen ... Liebes, ich kann dich das nicht alleine machen lassen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Schon in Ordnung, Dianxiao. Ich schaffe das rechtzeitig.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Daran habe ich nie gezweifelt. Ich weiß, dass du für ein anderes Projekt die Nächte durchgearbeitet hast. Das ist nur ein paar Tage her, du brauchst eine Pause ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Und wenn du diesen Auftrag annimmst, musst du auf der Suche nach Inspiration herumreisen ... das wird keine leichte Aufgabe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Sicher, dass du das schaffst?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "J-ja. Bitte lass mich den Auftrag annehmen ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Ich ... ich fange sofort an mit der Arbeit. Danke dir, Dianxiao.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Zhezhi verschwindet eilig.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Halt, Zhezhi ...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Oh, hallo, {PlayerName}. Bist du gekommen, um einen Fächer zu kaufen?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "Ich habe gesehen, wie Zhezhi eilig verschwunden ist ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "Stimmt irgendetwas nicht?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Na ja, es ist so. Ich habe auf dem Mondlichtmarkt einen Fächerstand aufgebaut und wollte einige meiner Künstlerfreunde bitten, ein paar Fächer zu bemalen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Aber, bei diesen Malern steht nichts auf dem Stundenplan...... Gerade als ich nicht wusste, was ich tun sollte, meldete sich Zhezhi freiwillig, alle Aufträge zu übernehmen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 205,
+              "PlotLineKey": "So viele Aufträge ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 206,
+              "PlotLineKey": "Das klingt nach viel Arbeit.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Zhezhi verpasst nie einen Abgabetermin, aber ich will nicht, dass sie sich überarbeitet.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "Kann ich irgendwie behilflich sein?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Du willst uns helfen? Wirklich? Lass mich nachdenken ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Wie wäre es, wenn du Fotos von den Landschaften machst, die sie ausgesucht hat? Dann kann sie die Fotos als Vorlage benutzen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Dann kann sie zu Hause bleiben und sich auf das Malen konzentrieren, anstatt herumzureisen. Das spart Zeit und Energie!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Kannst du uns damit helfen? Ich bezahle natürlich dafür!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 208,
+              "PlotLineKey": "Sicher, warum nicht?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 20,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Großartig! Vielen Dank! Zhezhi sollte gerade Pfirsichbäume auf einem Abhang bei der Kommune Taoyuan malen, diesen Ort könntest du also auslassen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Nun ... wir brauchen noch Fotos vom Wasserfall im Glockenklamm und eine Stadtansicht von Jinzhou.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Wenn du fertig bist, bring sie mir bitte, ich reiche sie an Zhezhi weiter.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 209,
+              "PlotLineKey": "Du kannst dich auf mich verlassen!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 210,
+              "PlotLineKey": "Ein Kinderspiel.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Was für eine Erleichterung. Danke, Zhezhi wird sich sehr über diese Fotos freuen!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Wie lief es, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1209,
+              "PlotLineKey": "Hier die Vorlagen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1210,
+              "PlotLineKey": "Kinderleicht.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Fantastisch! Großartiger Winkel, super Details. Ja, das sind hervorragende Vorlagen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Vielen Dank. Ich reiche sie an Zhezhi weiter, sobald sie zurück ist!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1211,
+              "PlotLineKey": "Bis zum nächsten Mal.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Bis später, {PlayerName}!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Einige Minuten später ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Hey, Zhezhi! Gute Nachrichten!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Gute Nachrichten ...?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Du musst diesmal nicht unter freiem Himmel malen. Schau, was wir hier haben!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Das sind ... Bildvorlagen? Der Wasserfall im Glockenklamm, eine Stadtansicht von Jinzhou ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "D-das ist genau, was ich brauche ... Danke, Dianxiao!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Nein, bei mir musst du dich nicht bedanken. Eine gewisse freundliche Person hat Hilfe angeboten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Eine freundliche Person ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Ja, {Male=er;Female=sie} hat diese Fotos für dich gemacht. Ich würde mich nie an Orte wie den Glockenklamm trauen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(Könnte das ... die Person sein, die ich bei den Pfirsichbäumen gesehen habe ...)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Dianxiao",
+          "PlotLineKey": "Was ist los, Zhezhi?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "N-nichts! Entschuldige, i-ich muss an meinem Gemälde arbeiten ...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "(... Ich werde mich bei {Male=ihm;Female=ihr} bedanken, wenn wir uns das nächste Mal treffen.)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Rover",
+          "PlotLineKey": "„Der Wasserfall beim Glockenklamm“ ... das müsste der Ort sein.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Rover",
+          "PlotLineKey": "Ich suche noch einen guten Platz für mein Foto.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Rover",
+          "PlotLineKey": "Von hier aus kann ich die gesamte Stadt Jinzhou überblicken.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Rover",
+          "PlotLineKey": "Ich sollte hier ein Foto machen.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Hmm ... ich sollte mehr Platz lassen für einen knalligen Kontrast. Und vielleicht noch etwas Nass-in-Nass, hier ein Hauch von Zinnober, um die Pfirsichbäume hervorzuheben?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Nein, dann wird es vielleicht zu undeutlich. Die Kunden auf dem Mondlichtmarkt bevorzugen realistische Details ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "(Zhezhi scheint hochkonzentriert zu sein. Sie sollte keine Probleme damit haben, an ihren Gemälden zu arbeiten. Ich mache mich los und erledige Dianxiaos Auftrag ...)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Während du dich entfernst, wirft Zhezhi einen verwirrten Blick nach hinten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Äh ... habe ich gerade jemanden in meinem Augenwinkel gesehen?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "{Male=Er;Female=Sie} kommt mir ... vertraut vor?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zhezhi",
+          "PlotLineKey": "Egal ... wahrscheinlich habe ich schon Visionen, weil ich zu lange wach bleibe.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

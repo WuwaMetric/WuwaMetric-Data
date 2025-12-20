@@ -1,0 +1,458 @@
+{
+  "Id": 135000009,
+  "Name": "Verlorene Geschichte",
+  "Description": "Finde fünf Leuchttürme in Huanglong, sammle Informationen und hilf dem Historiker, die Wahrheit zu finden",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 135000009,
+  "ShowQuestList": [],
+  "QuestDesc": "Finde fünf Leuchttürme in Huanglong, sammle Informationen und hilf dem Historiker, die Wahrheit zu finden",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 135000007,
+      "PreQuestName": "Repariere den Leuchtturm an der namenlosen Bucht"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 135000008,
+      "PreQuestName": "Repariere den Leuchtturm im Hochland von Desorock"
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 135000054
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 135000046
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 135000038
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Hallo, hallo! Du musst {Male=derjenige sein, der;Female=diejenige sein, die} die Geheimnisse der Leuchttürme gelöst hat.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 262,
+              "PlotLineKey": "Das bin ich.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Bitte beschreibe mir deine Entdeckungen in den Konsolen. Ich bin wirklich fasziniert.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Du hast dem Historiker alles erzählt, was du in den Konsolen gefunden hast.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Hmm... Ich hätte nicht erwartet, dass solche Geschichten passiert sind...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Was war das endgültige Ziel des \"Stachelrochen\"? Eine Frage, die wirklich das Interesse weckt... Es scheint, dass dies ein wunderbares Forschungsthema wäre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Nach dem Studium der historischen Aufzeichnungen habe ich erfahren, dass es insgesamt fünf dieser identischen Leuchttürme in Jinzhou gibt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Wenn man die Aufzeichnungen aus allen Konsolen der Leuchttürme erhält, könnte man vielleicht den Aufenthaltsort des \"Stachelrochen\" herausfinden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Könnte ich dich bitten, die Aufzeichnungen der verbleibenden Leuchttürme zu finden? Du wirst großzügig belohnt!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 263,
+              "PlotLineKey": "Kein Problem, ich kümmere mich darum.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 264,
+              "PlotLineKey": "Ist egal. Ich bin nur wegen des Geschichtsteils hier.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Haha. Dann werde ich dir die Aufgabe anvertrauen!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Hallo, hallo! Du musst die Person sein, die die Geheimnisse der Leuchttürme gelöst hat.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 281,
+              "PlotLineKey": "Ja.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Bitte, beschreibe mir, was du in den Konsolen gefunden hast. Ich bin wirklich fasziniert.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Du hast dem Historiker erzählt, was du in den Konsolen gefunden hast.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Wie kann das sein?! Du hast es geschafft, Informationen von allen fünf Leuchtturmkonsolen zu finden, sagst du...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Deine Leidenschaft für Geschichte ist viel größer als die meiner eigenen Schüler. Das bringt mir Tränen in die Augen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 282,
+              "PlotLineKey": "Können wir jetzt den Standort des Stachelrochens finden?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Natürlich sind diese Informationen mehr als ausreichend, um den Aufenthaltsort des Stachelrochens zu berechnen. Aber es gibt etwas Seltsames daran...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 283,
+              "PlotLineKey": "Was ist es? Du kannst es nicht finden?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Nein. Es ist nur so, dass es nicht mehr wert ist, danach zu suchen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Anhand dieser Koordinaten kann ich mit Sicherheit sagen, dass dieser Stachelrochen dasselbe Schiff ist, das wir vor einigen Jahren in der Nähe des Hafens des Jaulenden Sumpfes geborgen haben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Im Wrack fanden wir einige der Logbücher der Besatzung, obwohl sie in Stücke gebrochen waren, gelang es uns dennoch, sie mit den Geschichten in den Konsolen zu verknüpfen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 284,
+              "PlotLineKey": "Also waren Moak und seine Besatzung alle sicher?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Leider haben wir auch sechs Körper darin entdeckt... Basierend auf den Informationen, die wir haben, gehören sie zu Moak und seinen Besatzungsmitgliedern.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 285,
+              "PlotLineKey": "Wie konnte das passieren?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Weitere Untersuchungen ergaben, dass die Todesfälle der anderen fünf Mitglieder noch weiter zurückliegen als die Zeit, als Moak seine erste Aufnahme im Leuchtturm machte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Mit anderen Worten, Moak war die ganze Zeit allein auf See unterwegs, und seine Crewmitglieder waren schon lange den TDs zum Opfer gefallen...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Mit solchen Verlusten konfrontiert, weigerte sich Moak, ein solches Ende zu akzeptieren. Also verfiel er in eine Fantasie, dass er und seine Crewmitglieder alle nacheinander die Leuchttürme fanden, ihre eigenen Häuser fanden und den Stachelrochen sicher verließen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Am Ende war nur er selbst derjenige, der die Reise vollendete und für immer auf dem Meeresgrund mit dem Stachelrochen lag.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 286,
+              "PlotLineKey": "Bist du sicher, dass das wirklich passiert ist...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Ich kann keine Garantien geben, da dies nur meine eigenen Spekulationen sind. Doch vergessene Geschichten zu entfalten, das ist es, was die Geschichte faszinierend macht.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Wie dem auch sei, ich bin dir sehr dankbar, dass du es mir erlaubt hast, die ganze Geschichte in ihrer Gesamtheit zu erleben. Du hast dir diese Belohnungen für deine Leidenschaft für die Geschichte verdient.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Grüße, Rover. Hast du die verbleibenden Leuchttürme gefunden?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Du hast dem Historiker erzählt, was du in den Konsolen gefunden hast.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Ist das so? Du hast es geschafft, Informationen von allen fünf Leuchtturmkonsolen zu finden, sagst du...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Deine Leidenschaft für Geschichte ist viel größer als die meiner eigenen Schüler. Das bringt mir Tränen in die Augen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 302,
+              "PlotLineKey": "Können wir jetzt den Standort des Stachelrochens finden?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Natürlich, diese Informationen sind mehr als ausreichend, um den Aufenthaltsort des Stachelrochens zu berechnen. Aber es gibt etwas Seltsames daran...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "Was ist es? Du kannst es nicht finden?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Nein. Es ist nur so, dass es nicht mehr wert ist, danach zu suchen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Gemäß diesen Koordinaten kann ich mit Sicherheit sagen, dass dieser Stachelrochen dasselbe Schiff ist, das wir vor einigen Jahren in der Nähe des Hafens des Jaulenden Sumpfes geborgen haben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Im Wrack fanden wir einige der Logbücher der Besatzung, obwohl in Stücke gebrochen, konnten wir sie dennoch mit den Geschichten in den Konsolen verknüpfen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "Also waren Moak und seine Besatzung alle sicher?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Leider haben wir auch sechs Körper im Inneren entdeckt... Basierend auf den Informationen, die wir haben, gehören sie zu Moak und seinen Besatzungsmitgliedern.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 305,
+              "PlotLineKey": "Wie konnte das passieren?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Weitere Untersuchungen ergaben, dass der Tod der anderen fünf Mitglieder noch weiter zurückliegt als die Zeit, als Moak seine erste Aufnahme im Leuchtturm machte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Mit anderen Worten, Moak war die ganze Zeit allein auf See unterwegs, und seine Besatzungsmitglieder waren schon lange den TDs zum Opfer gefallen...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Nach solchen Verlusten konnte Moak ein solches Ende nicht akzeptieren. Also verfiel er in eine Fantasie, in der er und seine Crewmitglieder nacheinander alle Leuchttürme fanden, ihre eigenen Häuser fanden und den Stachelrochen sicher verließen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Am Ende war er der Einzige, der die Reise beendete und für immer auf dem Meeresgrund mit dem Stachelrochen lag.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 306,
+              "PlotLineKey": "Bist du sicher, dass das wirklich passiert ist...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Ich kann keine Garantien geben, da das nur meine eigenen Vermutungen sind. Doch das Aufdecken vergessener Geschichten, das ist es, was die Geschichte faszinierend macht.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Historiker",
+          "PlotLineKey": "In jedem Fall bin ich dir sehr dankbar, dass du es mir erlaubt hast, die gesamte Geschichte in ihrer Gesamtheit zu beobachten. Du hast dir diese Belohnungen für deine Leidenschaft für die Geschichte verdient.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Hallo Rover, erinnerst du dich noch an mich? Ich bin ein Historiker der Kaiserlichen Akademie.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Es scheint, du hast alle fünf Leuchttürme aktiviert. Ich bin sicher, du hast eine Menge über den Teufelsfisch gelernt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Bitte, komm zurück in die Stadt und erzähl mir alles, wenn du Zeit hast.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Historiker",
+          "PlotLineKey": "Vielleicht können wir dieses Mal endlich dieses unbekannte Stück Geschichte lösen!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

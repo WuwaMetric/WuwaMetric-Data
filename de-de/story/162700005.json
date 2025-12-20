@@ -1,0 +1,312 @@
+{
+  "Id": 162700005,
+  "Name": "Fantasien der Tausend Tore",
+  "Description": "Eine vertraute Stimme hallt durch die Frequenzen der Traumlandschaft und stellt sich als „Ebenholz-Torwächter“ vor. Du entscheidest dich, ihn zu suchen und herauszufinden, was er vorhat.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 162700005,
+  "ShowQuestList": [],
+  "QuestDesc": "Eine vertraute Stimme hallt durch die Frequenzen der Traumlandschaft und stellt sich als „Ebenholz-Torwächter“ vor. Du entscheidest dich, ihn zu suchen und herauszufinden, was er vorhat.",
+  "Conditions": [
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 30
+    },
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 114000027,
+        "ChildQuestId": 24
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 31000
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "Hallo, {PlayerName}. Kannst du mich hören? Es bin ich, der Ebenholz-Torwächter.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 9,
+              "PlotLineKey": "Bitte?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 10,
+              "PlotLineKey": "Warum rufst du mich?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 11,
+              "PlotLineKey": "Hallo, ich bin {Male=Elfenbein-Torwächter;Female=Elfenbein-Torwächterin}.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Ähem. Ich bin der Verwalter von <ano=Gefäß zur Aufbewahrung von Träumen>Somnoire</ano>, der Ebenholz-Torwächter.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Nun ... selbstverständlich geht es um Angelegenheiten in Bezug auf Somnoire.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Ähem. Vielleicht heb dir deine Scherze für später auf, {Male=Traumwandler;Female=Traumwandlerin}.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Vielleicht hast du schon bemerkt, dass auf dem Land von Rinascita ein Zugang nach Somnoire erschienen ist.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "(Verschwommene Stimme)",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 12,
+              "PlotLineKey": "Hallo？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 13,
+              "PlotLineKey": "Du brichst ab.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Das Traumreich scheint von einer Art Störung betroffen zu sein ... Ah, jetzt funktioniert es wieder.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ebenholz-Torwächter",
+          "PlotLineKey": "Wenn möglich, besprechen wir es unter vier Augen. Ich warte auf dich, {Male=Traumwandler;Female=Traumwandlerin}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "Ah. {PlayerName}. Da bist du.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "Ähm ... Ich kann mir vorstellen, dass dich mein jetziges Erscheinungsbild verwirrt. Ich versichere dir, ich bin der Ebenholz-Torwächter, der dich vorhin kontaktiert hat.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "Du bist in Encores Cosmos?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 32,
+              "PlotLineKey": "Aha! Ich verstehe. Also damals warst du es!",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "Ich muss sagen, Fraulein Encore hat damit nichts zu tun. Dieses Wesen ist eine Replik aus Erinnerungsfragmenten der Somnoire. Ich leihe mir lediglich vorübergehend ihr Aussehen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "In Ordnung ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "Nun denn. Allerdings steht das in keinem Zusammenhang mit dem, was wir gleich besprechen werden.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 5,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "D-damals?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 34,
+              "PlotLineKey": "Damals, als ich Echoiden gegen die TDs eingesetzt habe.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 35,
+              "PlotLineKey": "Und damals, als ich „Dorothy“ traf ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "Ähem ... also ... genaug, du hast vollkommen recht. Ich war es.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "Ich schulde dir tatsächlich eine Entschuldigung dafür, dass ich dich unter falscher Identität in das Experiment zur Erprobung des neuen Zugangs hineingezogen habe. Es war Teil meines Plans, diese Träume zu retten ... ein Plan, den du durchkreuzt hast.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 36,
+              "PlotLineKey": "Raus damit. Was hast du dieses Mal vor?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "Bitte, {Male=Traumwandler;Female=Traumwandlerin}. Ich versichere dir, dass ich keine Geheimnisse verberge.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "Ich habe die Speicherlogik einiger Erinnerungszonen optimiert. Wenn alles nach Plan verläuft, kann Somnoire in seinem derzeitigen Raum mehr Träume aufnehmen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "Allerdings habe ich Böswilligkeiten in den Träumen von Rinascita entdeckt. Als die Traumknoten in Rinascita aktiviert wurden, strömten diese Böswilligkeiten zusammen mit den Träumen in Somnoire.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "Was sind diese Böswilligkeiten?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "Im Gegensatz zu dem, womit wir bisher zu tun hatten, bestehen sie aus etwas Finstererem als bloßen negativen Gefühlen in Albträumen. Es gleicht einer geistigen Seuche. Allerdings habe ich noch keine endgültige Antwort gefunden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "Immer mehr Erinnerungszonen fallen gerade unter ihren Einfluss. Lässt man sie ungehindert wuchern, könnten sie nicht nur meine Arbeit aufhalten, sondern auch die Stabilität von Somnoire selbst gefährden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "{Male=Traumwandler;Female=Traumwandlerin}, ich bitte dich um deine Hilfe, diese Böswilligkeiten zu beseitigen.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "Ach. Ist ja nicht das erste Mal.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 39,
+              "PlotLineKey": "Ich arbeite nicht umsonst.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "Mach dir keine Sorgen, in den Traumwelten warten jede Menge Belohnungen auf dich. Außerdem stehe ich dir jederzeit zur Verfügung.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "Bezüglich des Somnoire-Zugangs in Rinascita, den ich dir zuvor erwähnte ... Um eine weitere Ausbreitung zu verhindern, habe ich die Böswilligkeiten in den dahinterliegenden Erinnerungszonen versiegelt.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "Anschließend werde ich <span class=\"font-bold\">nach und nach weitere Zugänge in verschiedenen Gebieten öffnen. Somnoire wird dir und deinen Gefährten dort auch die Unterstützung bieten.</span>",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "„Cosmos“",
+          "PlotLineKey": "{Male=Traumwandler;Female=Traumwandlerin}, begib dich bitte zu dem Zugang und stelle die von Böswilligkeiten befallenen Erinnerungszonen wieder her.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

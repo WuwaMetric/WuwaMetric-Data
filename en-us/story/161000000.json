@@ -1,0 +1,299 @@
+{
+  "Id": 161000000,
+  "Name": "The Adventures of Plushie Squad",
+  "Description": "You receive a call from Fulmine, who was asked by a few mysterious \"people\" to send you an invitation...",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 161000000,
+  "ShowQuestList": [],
+  "QuestDesc": "You receive a call from Fulmine, who was asked by a few mysterious \"people\" to send you an invitation...",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900005,
+      "PreQuestName": "Restore Plushie Village I"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100019,
+      "PreQuestName": "The Maiden, The Defier, The Death Crier"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Hello, {Male=Mr.;Female=Ms.} {PlayerName}. It's been so long! Ever since you helped with the restoration, more and more Echoes have been flocking to the Plushie Village.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "I can't remember the last time everyone's gotten so cheery and zippy.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 9,
+              "PlotLineKey": "Everything sounds great.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Yes, yes. And on behalf of those whose names I shall keep a secret for now, I would like to extend a formal invitation to you…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "Wait, what's the sound?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "You suddenly hear the delicate sound of silvery chimes. As you try to pinpoint the source, you realize it's coming from the Bell of Echoing Heart gifted by the Plushie Echoes before.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Sounds like they want to see you as soon as possible. Well then, we'll be waiting for you at the Plushie Village!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Now, settle down everyone. I've already told you {Male=Mr.;Female=Ms.} {PlayerName} is on their way... Oh, you're here!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 231,
+              "PlotLineKey": "Here I am.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 232,
+              "PlotLineKey": "What did I miss?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "At last! The hero of the Plushie Village graces us with {Male=his;Female=her} presence yet again.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Oh, no. Not at all. We were all waiting for you to start the adventure.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 233,
+              "PlotLineKey": "This is for me...?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "It's our first bloom of the morning! These little guys wouldn't want anyone close to it until it finally blossomed.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "They said they wanted you to have the very first flower.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "The Plushies",
+          "PlotLineKey": "(Sounds of being happy and shy.)",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 234,
+              "PlotLineKey": "Thanks. It means a lot to me.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "The Plushies",
+          "PlotLineKey": "(Extremely happy sounds.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "They're really glad you like it! By the way, there's something else I'd like to ask you, {Male=Mr.;Female=Ms.} {PlayerName}. Have you ever seen a Seaside Cendrelis before?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "As you can see, the rebuilt Plushie Village is now thriving, and the Echoes have been trying out new things every day.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Especially after the Plushies overhead Enzo and I chatted about the Cendrelis, which are flowers that glow like jellyfish, a few days back. They got really curious and excited, they wanted to see it for themselves!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "You don't happen to have some of those magical-looking flowers on you, do you?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "You find a Seaside Cendrelis from your bag and hand it over to Fulmine.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "This is it... This is the kind of beauty you find once in a lifetime. Oh, thank you. Thank you so much, {Male=Mr.;Female=Ms.} {PlayerName}! Enzo swore that Seaside Cendrelis were long extinct, and I almost believed that until now!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Where did you find it, {Male=Mr.;Female=Ms.} {PlayerName}? Can you show the Plushies? If that's okay.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Our Plushie Squad, made up of the best of the best Echoes, was chomping at the bit for a new adventure ever since the Plushie Village was reborn from the ashes!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Instead of hanging around the village all day, there's nothing more exciting than discovering exotic lifeforms and visiting exciting places!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 235,
+              "PlotLineKey": "Sounds exhilarating.",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 236,
+              "PlotLineKey": "Sounds like a lot of work.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "That's right! This is all inspired by the stories of your greatest adventures. They'll have a present ready for you at the end of this new adventure!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 24
+        },
+        {
+          "Id": 18,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "No, no, no. Exploring new views is just part of it. They also want to witness the valiant {PlayerName} in action with their own eyes. And, there will be a present ready for our hero at the end of it as well!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 293,
+              "PlotLineKey": "Sounds nice.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Why yes! While you're at it, do you mind helping them take a few pictures along the way?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Bubble and Old Bake always get cold feet when it comes to visiting new places. Maybe seeing some of the unique views beyond the village would help them change their minds.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Easy peasy, lemon squeezy.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "That's great! So...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "New adventures, here we come.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

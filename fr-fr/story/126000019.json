@@ -1,0 +1,335 @@
+{
+  "Id": 126000019,
+  "Name": "Écouter la voix des animaux : Chat",
+  "Description": "Vous avez croisé une chercheuse étrange qui tente de parler à des chats via une fonction spéciale de sa borne...",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 126000019,
+  "ShowQuestList": [],
+  "QuestDesc": "Vous avez croisé une chercheuse étrange qui tente de parler à des chats via une fonction spéciale de sa borne...",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100005,
+      "PreQuestName": "Les étoiles sinistres"
+    },
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 8
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "Doucement, petit chat. Ta fourrure est si clairsemée. Es-tu une race exotique ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Chaton sans poils",
+          "PlotLineKey": "Miaou ! MEOW !!!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "???",
+          "PlotLineKey": "Hé ! Comment peux-tu me gronder alors que tu ne me laisses même pas te caresser ! Je vois bien que tu dis du mal de moi, vilain chaton !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "Laissez-moi utiliser un traducteur pour comprendre ce que vous dites... Oups, le programme a encore planté.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "???",
+          "PlotLineKey": "Même si je l'ai déjà optimisé... Il semble que le terminal ne puisse toujours pas interpréter ces données. C'est un problème.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 71,
+              "PlotLineKey": "Parlez-vous à un chat ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Qui ? C'est effrayant. Vous pourriez au moins dire quelque chose !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "« Quelque chose. »",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "...Eh bien, oubliez ça. Êtes-vous cette... cette personne célèbre ? Les gens parlent de vous depuis quelque temps.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 73,
+              "PlotLineKey": "La première lumière ici pour sauver le monde après la Lamentation.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 74,
+              "PlotLineKey": "{PlayerName}.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Hahaha, vous avez de l'humeur.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Hélas, c'est vous !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 10,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Je m'appelle Xuanyin et je suis un amateur de science. Mon invention brevetée est le module de traduction du langage animal. Voici mon prototype.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Le langage des animaux est composé des ondes, qui portent des informations. Je crois que nous pouvons interpréter ces informations. De cette façon, j'ai mon invention et j'ai obtenu des informations inattendues lors d'expériences.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Vous devez être intéressé par ce chaton, alors vous avez entamé une conversation avec moi, n'est-ce pas ? Vous avez de la chance ! J'ai apporté aujourd'hui un module de traduction linguistique pour chats.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 75,
+              "PlotLineKey": "Je ne fais que passer.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 76,
+              "PlotLineKey": "Oui.",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Non, attendez s'il vous plaît ! Laissez-moi finir ça !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Félicitations ! Vous arrivez à point nommé !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "J'ai entendu dire que votre Borne est spéciale, j'aimerais donc examiner mon prototype avec cela. Pouvez-vous me laisser essayer ? Je vous en prie ! Je ne manquerai pas de vous inclure dans les remerciements de mon article !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 77,
+              "PlotLineKey": "Cela va-t-il nuire à mon appareil ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 78,
+              "PlotLineKey": "Est-il fiable ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "S'il vous plaît, donnez-moi une chance !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Xuanyin a installé le module de traduction : langage de chat.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 0,
+          "Speaker": "Chaton sans poils (Traduction)",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Chaton sans poils",
+          "PlotLineKey": "*Ronronner*...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Je n'ai pas besoin de traduction pour cela ! Je sais ce que cela signifie ! Il s'agit d'un contenu et d'un remerciement.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Chaton sans poils (Traduction)",
+          "PlotLineKey": "SREVNAT ! PO%^&ON ! B%N! *texte brouillé*",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Hélas ! Les erreurs ! Il semble que la compatibilité soit toujours un problème. Quoi qu'il en soit, désinstallons-le pour l'instant. Je suis assez surpris qu'il ait fonctionné sans problème aussi longtemps.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Xuanyin a désinstallé le module de la Borne Pangu et a transmis les données.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Mon module est probablement trop simple. J'ai beaucoup de chose à apprendre...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 90,
+              "PlotLineKey": "Du moins cela fonctionne.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 91,
+              "PlotLineKey": "Vous savez maintenant comment l'améliorer.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Je vous remercie. Il m'a fallu beaucoup d'efforts pour développer un tel module.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Vous avez raison, il faut qu'on essaie. Les grandes réussites se construisent sur l'échec !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 10
+        },
+        {
+          "Id": 10,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Merci de m'avoir aidé à rassembler ces données. Je vais les analyser en profondeur et essayer de trouver un moyen d'améliorer le module.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Xuanyin",
+          "PlotLineKey": "Recommençons un jour. J'accélérerai le développement de modules de traduction pour d'autres animaux ! Il y aura des surprises agréables, héhé.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

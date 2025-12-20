@@ -1,0 +1,3611 @@
+{
+  "Id": 100018,
+  "Name": "Le Vieil Homme et la Baleine",
+  "Description": "Interlude",
+  "MaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_14a.png",
+  "FemaleTexture": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/Common/Image/ArchiveView/T_ArchiveView_14b.png",
+  "AreaIcon": "https://api-v2.encore.moe/resource/Data/Game/Aki/UI/UIResources/UiArchive/Atlas/SP_ArchiveAreaLinaxita.png",
+  "ShowQuestList": [
+    880000034,
+    880000036,
+    880000037,
+    880700011,
+    880000038,
+    880000039
+  ],
+  "QuestDesc": "Le soleil, la plage, l'océan… et les poissons ! Rinascita, entièrement entourée par la mer, prospère grâce à son amour de la pêche. Un jeune homme nommé Ismaël vous guidera jusqu'aux Îles Riccioli, un paradis de la pêche incomparable...\nUn Matelot qui s'appelle Starbuck est tombé dans la tourmente mentale, et la rumeur dit que c'est la faute d'un poisson...\nOn dit que tous les poissons se rassemblent ici, et si on considère les baleines comme des poissons...\nUn capitaine depuis longtemps mort et un navire qui ne peut plus voyager... Ce capitaine a emprunté un chemin inévitable, et le navire doit à nouveau partir...\nLors d'une tempête il y a longtemps, un capitaine et une baleine ont sombré ensemble. Maintenant, une tempête similaire arrivent, et la baleine erre à nouveau sur les mers…\nLa mer s'est apaisée, mais le capitaine Ahab et son équipage ont disparu. Ismaël, qui vous a d'abord conduit aux Îles Riccioli, est en train d'étudier les affaires laissées par le légendaire capitaine…",
+  "Unlock": [
+    {
+      "Id": 880000041,
+      "Name": "Chasser les poissons",
+      "Type": 2
+    },
+    {
+      "Id": 880000043,
+      "Name": "Incident de pêche",
+      "Type": 2
+    },
+    {
+      "Id": 165000001,
+      "Name": "Trésor du marin",
+      "Type": 2
+    },
+    {
+      "Id": 165000002,
+      "Name": "La Masquée sur les îles",
+      "Type": 2
+    }
+  ],
+  "Chapters": [
+    {
+      "Title": "Trouver le pêcheur"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Ah, vous pouvez m'appeler Ismaël. Eh bien, qu'avons-nous là ! {Male=Le Lauréat;Female=La Lauréate}, je présume ? Vous avez déjà essayé la pêche ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Le secret, c'est une ligne flexible et un appât subtil.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Envie d'essayer la pêche en haute mer ? C'est l'une des nombreuses traditions ancestrales de Rinascita, comme le Carnaval.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "Bien sûr, je veux devenir {Male=un pêcheur professionnel;Female=une pêcheuse professionnelle}.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 11,
+              "PlotLineKey": "J'aimerais bien essayer.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Super, alors je connais l'endroit parfait pour vous. Les îles Riccioli, au nord de Ragunna. C'est là que les courants de la Mer des Tempêtes se rencontrent et attirent des bancs de poissons.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Et si vous êtes {Male=seul;Female=seule}, pêcher à la ligne sur un bateau vous conviendrait mieux. Un filet ne ferait que vous causer des ennuis.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Une fois que vous atteignez les îles, allez voir un vieux capitaine appelé Ahab. Il sera plus qu'heureux de vous montrer les ficelles.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Je dois moi-même y retourner. Il y a un bateau au port qui vous y emmènera directement. Faites savoir au batelier que vous partez pêcher !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Parler au gondolier et partir pour les îles Riccioli"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gondolier",
+          "PlotLineKey": "Vous cherchez un moyen de transport pour Riccioli ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1105,
+              "PlotLineKey": "Allons-y.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1106,
+              "PlotLineKey": "J'ai d'autres affaires à régler. Peut-être plus tard.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gondolier",
+          "PlotLineKey": "Asseyez-vous, et nous nous mettons en route !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Trouver le Vieux Capitaine, Ahab"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gondolier",
+          "PlotLineKey": "Vous cherchez le vieil Ahab, n'est-ce pas ? Il devrait être au port là-bas.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Gondolier",
+          "PlotLineKey": "Ce n'est pas un homme ordinaire, je vous le dis. Vous le remarquerez à des kilomètres.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "Zzz... Zzz...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "???",
+          "PlotLineKey": "Hein ? Hmm... D'accord... C'est bon... Arrête ça...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "???",
+          "PlotLineKey": "Oh ! Ohé ! Du poisson ! On a une prise !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "Eh bien, reste pas {Male=planté;Female=plantée} là, {Male=mon gars;Female=ma petite} ! Donne-moi un coup de main avec ce truc !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "???",
+          "PlotLineKey": "Oh, attends ! Doucement...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "???",
+          "PlotLineKey": "Ça doit être un sacré poisson...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "Dommage qu'il se soit échappé...",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 38,
+              "PlotLineKey": "Ça va ?",
+              "PlayVoice": false,
+              "JumpToId": 8
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "???",
+          "PlotLineKey": "Un grand gaillard comme ça ? Il m'échappera pas, c'est juste une question de temps.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 8,
+          "Speaker": "???",
+          "PlotLineKey": "Quoi, ça ? Bah, c'était rien. Dans ma jeunesse, je pouvais chasser une baleine pendant toute une journée, croix de bois croix de fer !",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "???",
+          "PlotLineKey": "Tu dois être {Male=le;Female=la} jeune dont Ismaël a parlé.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 39,
+              "PlotLineKey": "Oui, je cherche à devenir {Male=pêcheur professionnel;Female=pêcheuse professionnelle}.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 40,
+              "PlotLineKey": "Oui, je suis ici pour essayer la pêche en haute mer.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Oui, bien ! T'es au bon endroit. Je m'appelle Ahab, et je traîne mes guêtres sur ce port depuis des lustres.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Le poulpe marchand là-bas, c'est Planck. Il a tout ce dont tu as besoin, des équipements de pêche aux réparations de bateaux.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Mais... je vois que t'as pas de bateau. On peut arranger ça ! Je te laisse utiliser le mien !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 41,
+              "PlotLineKey": "Vous parlez d'une autre gondole ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Oui, celles qu'on utilise pour la pêche sont différentes de celles de la ville. On les traite comme notre famille ; on vit et on meurt ensemble, croix de bois croix de fer.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Elle s'appelle <span class=\"italic\">Rachel</span>. Elle prend de l'âge, mais elle a encore la niaque.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Depuis que je suis à la retraite, ça fait un bail qu'on a pas affronté les vagues ensemble. Je pense que les vieux jours de pêche lui manquent autant qu'à moi.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Bon, maintenant qu'on a pêché ensemble, je dirais qu'on a forgé un lien, non ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Que dis-tu de poursuivre ce grand gaillard qui nous a échappé ? Allons directement en mer !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Ahab",
+          "PlotLineKey": "J'aimerais voir quel genre de poisson ose s'enfuir devant le vieil Ahab !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 24,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Grâce aux conseils d'Ismaël, vous avez retrouver le vieux capitaine, Ahab, au quai. Il vous laisse emprunter sa vieille Gondole et vous pouvez aller pêcher en mer avec ce « bateau ».",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Parler à Planck et préparez-vous pour le départ"
+    },
+    {
+      "Title": "Parler à Planck pour améliorer les capacités"
+    },
+    {
+      "Title": "Vous avez capturé le poisson. Parler à Ahab."
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ohé ! C'était une sacrée traversée !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ahab",
+          "PlotLineKey": "T'apprends vite, dis donc ！",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ah, n'oublie pas de passer au marché quand t'auras du temps libre.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Tenir la barre, ça suffit pas. Tu dois aussi savoir faire du négoce !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Se rendre au marché du port des îles Riccioli"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Commerçant des produits de la mer",
+          "PlotLineKey": "Hé, l'Ordre n'a aucune autorité ici. Alors dégagez.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Jeune pêcheur",
+          "PlotLineKey": "Allons, Monsieur Coffin. Elle vient juste de vous aider à réparer votre Écho...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Commerçant des produits de la mer",
+          "PlotLineKey": "Qui diable sait ce qu'elle mijote !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Vieille Dame",
+          "PlotLineKey": "Oh, calme-toi, Coffin. La petite demoiselle te demandait juste des directions, pour l'amour de l'Imperator.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 848,
+              "PlotLineKey": "Phoebe ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je suis désolée…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je cherche seulement Cetus le Brise-marée. Il a été blessé à Ragunna…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Vieille Dame",
+          "PlotLineKey": "Cetus le Brise-marée, dites-vous ? Eh bien…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Coffin",
+          "PlotLineKey": "L'Ordre n'est pas le bienvenu ici ! Pigé ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Jeune pêcheur",
+          "PlotLineKey": "Hé, regardez. N'est-ce pas {Male=le Résonateur qui est apparu;Female=la Résonatrice qui est apparue} à Ragunna il y a quelque temps ? {Male=Le Lauréat;Female=La Lauréate}…",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ça suffit comme ça !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Ahab",
+          "PlotLineKey": "L'Ordre nous a laissés tranquilles pendant des années. S'ils voulaient vraiment se mêler de nos affaires maintenant, tu crois qu'ils enverraient juste une petite fille ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Nous devons notre commerce aux bénédictions de Cetus le Brise-marée et à ces mers. La mer est assez grande pour tout le monde, et tu dis qu'on peut pas accepter une petite demoiselle avec un chapeau d'acolyte ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Ahab",
+          "PlotLineKey": "En plus, tu penses vraiment qu'elle a des idées derrière la tête pour t'aider ? L'ingratitude, c'est pas ce qui nous définit, hein ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Coffin",
+          "PlotLineKey": "Mais Ahab...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Bon, alors ça suffit comme ça. Les affaires ont été difficiles ces derniers temps. Dispersez-vous, les amis.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Si vous avez plus de plaintes, envoyez-les-moi. Ça vous va ? Allez, ouste.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Merci.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je suis venue pour parler aux villageois du Brise-marée. Personne ne l'a vu depuis le Carnaval...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Une amie à toi, {Male=gamin;Female=gamine} ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 849,
+              "PlotLineKey": "Oui, depuis fort longtemps.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 850,
+              "PlotLineKey": "Nous nous connaissons, oui.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Très bien, alors. Mais sache que l'Ordre a laissé ces îles dériver sans guide, donc les gens ici ne sont pas trop enclins à voir quelqu'un portant ce genre de chapeau se promener tranquillement.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Mon chapeau ? Euh...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Ahab",
+          "PlotLineKey": "De toute façon, t'as qu'à dire que t'es là pour affaires personnelles et tout ira bien. Mais j'entends dire que tu cherches Cetus le Brise-marée. Eh bien, quel heureux hasard, car moi aussi.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Oui ! Cetus le Brise-marée a montré des signes inquiétants pendant le Carnaval il n'y a pas longtemps. Je pense que j'ai ressenti sa douleur et sa colère...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Eh bien, navigue dans ces eaux et tu finiras par le croiser tôt ou tard. Mais si tu cherches le moyen le plus simple... Tu vois ce phare là-bas ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Il y en a quatre à travers les îles Riccioli. Tant que leurs lumières sont allumées, le Brise-marée répondra à nos appels calmement, comme d'habitude.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Trois d'entre eux se sont éteints quand le Brise-marée a disparu. Les rallumer devrait faire l'affaire.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Tu sais quoi ? Tu devrais emmener mam'zelle Chapeau Blanc pour une petite balade en bateau, hein, {PlayerName} ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Une balade en bateau ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 851,
+              "PlotLineKey": "On va pêcher !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Qu-Quoi ? Tout ce que je sais de la pêche dans les îles Riccioli, je l'ai lu dans la bibliothèque de l'Ordre, mais je n'ai jamais pêché en mer...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Comment tu veux que la mer te réponde si tu te jettes pas dans ses bras ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Oh, et tiens bien ton « chapeau » pendant le trajet. S'il se passe quelque chose, venez me trouver.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Que voulait-il dire par là, {PlayerName} ? Y a-t-il... quelque chose d'étrange avec mon chapeau ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 852,
+              "PlotLineKey": "Sois simplement toi-même !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 34,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je vois...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Alors je vais aider dans la mesure du possible à attraper du poisson pendant que nous localisons le Brise-marée !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 42,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Après avoir récupéré le poisson échappé, Ahab vous suggère d'aller jeter un œil au marché. Et c'est une surprise que Phoebe est aussi là. Étant donné que les habitants n'ont pas une bonne réputation envers l'Ordre des Profondeurs, vous aidez Phoebe à sortir de sa situation délicate. Phoebe révèle qu'elle est venue ici à la recherche d'une grande baleine, « Cetus le Brise-marée ». Ahab remarque que vous croiserez sûrement cette bête en allant pêcher.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Se rendre au port et préparer pour le départ"
+    },
+    {
+      "Title": "Compléter les demandes pour augmenter la Réputation au NV. 3"
+    },
+    {
+      "Title": "Compléter les demandes ou débloquer les guides, augmenter la Réputation au NV. 3"
+    },
+    {
+      "Title": "Rencontrer Ahab au port des îles Riccioli"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ma jambe... Où est ma jambe... Apportez-moi le harpon...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ahab",
+          "PlotLineKey": "...Second... Huile... Où est mon huile... ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ohé. Comment ça s'est passé ? Tu as fait une belle prise ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Je me rapproche du Brise-marée moi-même. Rendez-vous au Hameau des Timoniers et cherchez... Comment il s'appelait déjà... ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ah, oui ! Starbuck !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ahab",
+          "PlotLineKey": "L'homme a les fils qui se touchent ces derniers temps. Les gens disent qu'il a commencé à agir bizarrement après avoir aperçu le Brise-marée. Dites-lui que je t'envoie.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Et aussi, tu as remarqué ce navire ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Si on veut attraper une vraie prise, on aura besoin de celui-là. Il attend toujours d'être réparé, mais les marins peuvent vous en parler.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Parler du grand navire avec le constructeur naval"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Queequeg",
+          "PlotLineKey": "Ah, {PlayerName} ? Ahab a parlé de vous.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Queequeg",
+          "PlotLineKey": "Apportez-moi du bois.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 941,
+              "PlotLineKey": "Pardon ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Queequeg",
+          "PlotLineKey": "Du bois. Pour réparer le navire.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Donner les matériaux et le tronc à Queequeg"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Queequeg",
+          "PlotLineKey": "Mais ce n'est pas suffisant.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Queequeg",
+          "PlotLineKey": "Apporte-moi des matériaux. Queequeg sait réparer le navire.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Se rendre au port et partir pour le Hameau des Timoniers"
+    },
+    {
+      "Title": "Se rendre au Hameau des Timoniers"
+    },
+    {
+      "Title": "Trouver Starbuck"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Hé hé... Oh, ma douce...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Personne d'autre ne le sait... C'est juste entre nous...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Attends mon retour... ma chérie... ma fiancée...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Euh, excusez-moi, monsieur ? Êtes-vous celui qui avez vu Cetus le Brise-marée ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Hmm ? Oui, c'est moi ! Vous êtes les témoins de notre union ? Merveilleux ! Venez, selon la tradition, un témoin de mariage doit être présent.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Un témoin de mariage ? Eh bien, le Codex permet effectivement aux acolytes de servir de témoins lors des mariages.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 741,
+              "PlotLineKey": "Qu'est-ce qui vous donne envie d'épouser un poisson ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 742,
+              "PlotLineKey": "Son comportement est très étrange...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Hé hé... Hé hé hé...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Est-il... sous une sorte d'enchantement ? J'ai lu des symptômes comme celui-ci dans les archives de l'Ordre auparavant !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Ô bénédictions de l'Imperator...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "A-attends...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Hein ? C'est comme ça que le fait l'Ordre...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Aïe !? Vous... Je suis...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Blanc doré... Méduse... Noir de jais... Un gros poisson... Hein ? Vous êtes humain... Je suis un poisson... Non, attendez... Mon poisson...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Aïe, j'ai mal à la tête... Qui êtes-vous ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 743,
+              "PlotLineKey": "Je pense que ça a marché !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 744,
+              "PlotLineKey": "Ça te dérange si je lui donne une autre claque ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Où est passé mon bateau ? Et comment je suis arrivé ici... Quoi ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Le poisson... Oh là là... De la Baie de sérénité... Le poisson... Hi hi hi...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Il recommence ! C'est parti pour une autre !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Pêluche du pêcheur",
+          "PlotLineKey": "... !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Oh ? C'est toi.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Est-ce que ta jambe va mieux ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 745,
+              "PlotLineKey": "Tu connais ce petit gars ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "C'est celui avec la jambe cassée que j'ai soigné après un accident de gondole au marché.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Pêluche du pêcheur",
+          "PlotLineKey": "... !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Est-ce que... Monsieur Coffin t'a demandé de venir ici ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je crois qu'il essaie de dire que la gondole de Monsieur Starbuck échouée sur un récif pas loin pourrait savoir quelque chose.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Et que Monsieur Starbuck est comme ça depuis deux semaines maintenant...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Pêluche du pêcheur",
+          "PlotLineKey": "... ! ... !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Tu veux qu'on s'en serve pour libérer la gondole ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "{PlayerName}, je crains que Monsieur Starbuck ne supporte pas plus de désenchantements de l'Ordre.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 746,
+              "PlotLineKey": "Ça semble plutôt douloureux.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 747,
+              "PlotLineKey": "C'est pour son bien.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 29,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Durant ce bref instant où Monsieur Starbuck semblait lucide, il a mentionné sa gondole et un endroit appelé Baie de sérénité.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Trouver ce bateau et découvrir la cause de son enchantement sera un bon point de départ.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 748,
+              "PlotLineKey": "Bonne idée.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 749,
+              "PlotLineKey": "Aller trouver la gondole !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 31,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Hi hi... Nous devons avoir des feux d'artifice à notre mariage... « Feux d'artifice sucrés »...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 42,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Suivant les instructions du capitaine Achab, vous et Phoebe parvenez à retrouver son ancien bras droit, Starbuck, mais il semble être sous l'emprise d'un enchantement. Pour aider Starbuck à retrouver ses esprits, vous décidez de localiser sa Gondole pour trouver des indices.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Aller retrouver la Gondole abandonnée"
+    },
+    {
+      "Title": "Trouver la Gondole piégée"
+    },
+    {
+      "Title": "Détruire les décombes et libérer la Gondole"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Là-bas !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Hein ? Il flotte comme une odeur sucrée...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "La gondole revient vers nous !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Gondole abandonnée",
+          "PlotLineKey": "... ! ... !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "La gondole secourue semble hurler quelque chose.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Tu es tombée sur... une créature avec un corps humain et une queue de poisson ? Une « sirène » ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 918,
+              "PlotLineKey": "On parle de Lorelei, peut-être ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 919,
+              "PlotLineKey": "Mais elle devrait être au Sanctuaire du Nimbus, non ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Il pourrait y avoir une autre entité comme elle ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Gondole abandonnée",
+          "PlotLineKey": "... ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je pense que le poisson que nous avons vu est lié à cette « sirène ».",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Il doit bien y avoir une raison pour laquelle il est resté frais après autant de semaines.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Il faut donc que nous trouvions un moyen d'enlever ce poisson des mains de Monsieur Starbuck.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 920,
+              "PlotLineKey": "Alors je propose...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 921,
+              "PlotLineKey": "Il est temps de faire un petit changement.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 922,
+              "PlotLineKey": "Attrapons-en-un qui lui ressemble, ni vu ni connu.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Tu es {Male=sûr;Female=sûre} que ça va marcher ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 923,
+              "PlotLineKey": "On commence à manquer d'options.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 924,
+              "PlotLineKey": "Tous les poissons se ressemblent, non ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Si tu le dis, {PlayerName}. Il n'y a qu'un moyen d'être {Male=fixés;Female=fixées}.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 18,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Avec Phoebe, vous avez trouvez la Gondole perdue de Starbuck. Ayant supposé que l'enchantement de Starbuck a un lien avec le poisson qu'il tenait, vous commencez à élaborer un plan pour le lui faire lâcher.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Compléter les demandes ou débloquer les guides, augmenter la Réputation au NV. 6"
+    },
+    {
+      "Title": "Compléter les demandes ou débloquer les guides, augmenter la Réputation au NV. 6"
+    },
+    {
+      "Title": "Compléter toutes les Demandes prioritaires"
+    },
+    {
+      "Title": "Compléter toutes les Demandes prioritaires"
+    },
+    {
+      "Title": "Aller pêcher et capturer le grand poisson demandé"
+    },
+    {
+      "Title": "Attendre jusqu'à la nuit ou configurer le temps (19h à 5h)"
+    },
+    {
+      "Title": "Capturer le grand poisson au point indiqué"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Un grand poisson gris foncé vole jusqu'à votre navire...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Il ressemble à celui que Starbuck tient. Vous pouvez peut-être échanger le poisson dans les mains de Starbuck avec celui-ci.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Trouver Starbuck au Hameau des Timoniers"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Hé hé hé...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Oh ? {Male=Mes chers;Female=Mes chères} témoins, vous avez vu ma fiancée dans les parages ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Hé hé hé... Mais... Qu'est-ce que vous faites ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "À l'aide ! Au secours !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Phoebe ! Attrape sa queue !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Ça glisse trop ! Désenchantement !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "{Male=Voleurs;Female=Voleuses} ! Sales {Male=voleurs;Female=voleuses} !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Argh... Vous... Ma tête...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Qui êtes-vous ? Je faisais quoi avec ce poisson ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Monsieur Starbuck ? Le capitaine Ahab nous a dit de venir vous trouver.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Le vieil Ahab ? Attendez, qu'est-ce qui se passe ici ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 891,
+              "PlotLineKey": "Vous savez quelque chose sur ce poisson bleu ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 892,
+              "PlotLineKey": "Vous vous souvenez de ce qui est arrivé à Cetus le Brise-marée ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Tout ce dont je me souviens, c'est d'avoir été pêcher en mer il n'y a pas longtemps.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Et il y avait cette chanson qui m'attirait, je n'entendais rien d'autre. J'avais l'impression que tout mon corps devait suivre cette mélodie.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Avant de m'en rendre compte, je dérivais loin de la Baie de sérénité, où le Brise-marée est censé dormir.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Le chant persiste comme s'il jaillissait des profondeurs. Je suis sûr d'avoir aperçu l'ombre du Cetus... et celle d'un autre poisson énorme.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Oh, les courbes de cette ombre. Une vraie beauté...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "J'ai jeté tout ce que j'avais à la mer, tout ce qui pouvait servir d'appât, mais malgré tout, il ne mordait pas.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Puis, j'ai senti une traction sur la ligne alors que le chant s'intensifiait... et tout est devenu flou après ça.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 893,
+              "PlotLineKey": "Et puis vous avez attrapé ce poisson bleu ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Oui ! C'est ça !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Mais, une seconde... Où est...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "La clé ! Bon sang, où est passée la clé ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "La clé... Je l'ai utilisée comme appât...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 894,
+              "PlotLineKey": "Wouah, Wouah ! Vous n'allez pas...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Starbuck plonge la main dans le poisson bleu et en sort une clé...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Ah ! Je le savais ! Molto bene ! Le poisson l'avait gobé !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Le vieil Ahab me l'avait confiée. Vous en aurez besoin, je me doute ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Starbuck vous tend la clé rouillée du phare couverte de bave de poisson...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Je ne me souviens pas de grand-chose après ça, mais il ne fait aucun doute que le Brise-marée a fait une apparition dans la Baie de sérénité.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Si vous le cherchez, allez jeter un coup d'œil autour de la baie. Oh, et merci pour votre aide...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Vous êtes...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "J'aurai quarante-sept ans cette année. Après tout ce temps passé en mer, j'ai attrapé plus de poissons que vous ne pouvez l'imaginer.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Mais je n'ai encore croisé ni le bon poisson ni la bonne personne.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Mais cette belle jeune femme ici-même...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 895,
+              "PlotLineKey": "Euh.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 896,
+              "PlotLineKey": "Nous devrions y aller, Phoebe.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 33,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Au revoir, Monsieur Starbuck.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je vous souhaite bien du succès ! Que l'Imper... Que la mer vous apporte ses bénédictions !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Euh, d'accord... Bon bah...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 44,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Vous et Phoebe parvenez enfin à récupérer le poisson de Starbuck et il retrouve sa lucidité. Starbuck affirme avoir vu un jour le Cetus le Brise-marée à la Baie de sérénité, avec un gros poisson nageant à ses côtés. Il vous remet la clé du phare que le capitaine Ahab lui avait confiée avant votre départ.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Allumer le phare au Hameau des Timoniers avec la clé"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Allumons les phares de cette île comme le capitaine Ahab l'a demandé.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Après ça, nous irons visiter cette Baie de sérénité que Monsieur Starbuck a mentionné.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Vous avez le plan de navire. Parler à Planck."
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Les débris d'autrefois commencent à ressembler à un navire maintenant.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Queequeg",
+          "PlotLineKey": "Le navire est presque réparé. Merci. Il ne reste plus que la moitié à faire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Queequeg",
+          "PlotLineKey": "C'est fait ! Les instructions du capitaine vont pouvoir prendre forme.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Queequeg",
+          "PlotLineKey": "Tant que le navire est réparé, tout ira bien. Tout ira bien.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Queequeg",
+          "PlotLineKey": "Au fait, ce gros « poisson » se trouve à la Baie de sérénité.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Queequeg",
+          "PlotLineKey": "Nous avons échoué auparavant. Fais attention.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Cetus le Brise-marée renverse votre navire, et vous êtes {Male=projeté;Female=projetée} sur la rive par les vagues puissantes...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Se rendre au port et partir pour le Baie de sérénité"
+    },
+    {
+      "Title": "Se rendre à la Baie de sérénité"
+    },
+    {
+      "Title": "Éliminer les TDs"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Phoebe !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Dégage de là !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "{PlayerName} ! Ça va ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 529,
+              "PlotLineKey": "Toujours en un seul morceau.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 530,
+              "PlotLineKey": "Mes poissons...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "C'est le Brise-Marée qui nous attaque ! Grâce à l'Imperator, nous sommes {Male=sains et saufs;Female=saines et sauves}.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Vite, regarde si tu n'as rien perdu !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Vous vérifiez vos affaires...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous trouvez un poisson bizarre, sa couleur est étrange, et ses yeux brillent d'un éclat inquiétant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Tout est là, et même un peu plus...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Quel étrange poisson...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "On devrait le montrer à Planck. Il saura peut-être ce que c'est.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Parler à Planck au port de la Baie de sérénité"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Planck",
+          "PlotLineKey": "... !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "La pieuvre Écho agite ses tentacules en vous tendant une note d'Ahab.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ahab",
+          "PlotLineKey": "« Quand tout sera sûr, Planck pourra nager jusqu'à la Baie de sérénité. »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ahab",
+          "PlotLineKey": "« Puisque le phare sur l'île de Starbuck fonctionne, nous pouvons reprendre la mer. On compte sur toi et mam'zelle Chapeau Blanc. »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ahab",
+          "PlotLineKey": "« Les monstres vont affluer dans ces eaux maintenant que le Cetus a disparu. »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ahab",
+          "PlotLineKey": "« Il paraît que la clé du phare de la Baie de sérénité a été perdue il y a longtemps. On sait juste qu'elle est quelque part au fond de la mer. »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ahab",
+          "PlotLineKey": "« Mais je parie que vous rencontrerez quelques poissons étranges en chemin. »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ahab",
+          "PlotLineKey": "« Je vais continuer à fouiller et voir ce que je peux trouver d'autre. Je vous enverrai un message via Planck dès que j'aurai des nouvelles. »",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Il y a des rochers sur le chemin.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "{PlayerName}, nous pouvons les dégager avec les compétences d'Écho !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 11
+    },
+    {
+      "Title": "Compléter la demande de Planck"
+    },
+    {
+      "Title": "Compléter les demandes pour augmenter la Réputation au NV. 9"
+    },
+    {
+      "Title": "Compléter les demandes ou débloquer les guides, augmenter la Réputation au NV. 9"
+    },
+    {
+      "Title": "Aller capturer le « Maquereau Titane »"
+    },
+    {
+      "Title": "Allumer le phare de la Baie de sérénité"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "{PlayerName} ! Regarde, c'est le Brise-marée !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Il se dirige vers cette île à l'ouest !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Ses blessures ont l'air de guérir, mais je ressens toujours sa colère intense dans ses cris.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 4,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Le Brise-marée erre effectivement à proximité de la Baie de sérénité. Après que le phare ait été rallumé, la bête a nagé vers une petite île enveloppée par la tempête...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Vous avez le nouveau plan de navire. Parler à Planck."
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Les réparations du navire semblent presque terminées.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Queequeg",
+          "PlotLineKey": "Le navire est réparé. Merci. Il est temps.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Queequeg",
+          "PlotLineKey": "Pequod a besoin d'un capitaine.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Queequeg",
+          "PlotLineKey": "Si Ahab n'est plus capitaine, alors… Il faudra quelqu'un d'autre pour prendre le relai.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Acteur No. 1",
+          "PlotLineKey": "Le navire est en meilleur état, mais Ahab a perdu son harpon.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Acteur No. 1",
+          "PlotLineKey": "Ahab dit qu'une fois le navire réparé, nous pourrons tous rentrer chez nous.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Acteur No. 1",
+          "PlotLineKey": "Ahab est le capitaine. Il a raison.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 3
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Acteur No. 1",
+          "PlotLineKey": "Pequod est prêt, Ahab.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Acteur No. 1",
+          "PlotLineKey": "Tu peux nous ramener chez nous, Ahab.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Acteur No. 1",
+          "PlotLineKey": "Retourne chez toi, chez toi...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 4
+    },
+    {
+      "Title": "Parler à Ahab au sujet de la dernière île"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Je me fais vieux... Starbuck... vieux...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Laisse-le prendre l'Albatros... Cette fois, je vais...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ah, bonjour.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Cette île où s'est enfui le Brise-marée est aussi connue sous le nom de Ruines de Reyes. On dit qu'elle est pleine de mystères.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Une tempête y fait rage et empêche les gens d'y mettre les pieds. Comme sa propre protection, si vous voulez.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Mais soyons tranquille, j'ai déjà trouvé un moyen de passer au travers.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Si Starbuck m'embobine pas, cette tempête et la sirène sont de mèche. Ce qui signifie...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Allez, on se grouille ! Toi et mam'zelle Chapeau Blanc ferez équipe, et je serai avec Starbuck.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Il y a une petite île juste à l'est des ruines. Rendez-vous là-bas.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Se rendre à l'île dont parlait d'Ahab"
+    },
+    {
+      "Title": "Se rendre à l'île dont parlait d'Ahab"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Voilà, capitaine. Qu'est-ce que je vous avais dit ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Ça dit : « Riccioli, illumine Neptunia de ta lumière. L'usurpateur sommeille dans les profondeurs de Reyes. Offre ton amour aux descendants de Reyes et à la vie éternelle de la mer. »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ahab",
+          "PlotLineKey": "C'est quoi ce charabia ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Riccioli correspond à Neptunia dans l'astrologie rinascitaine. En d'autres termes, l'île est entourée des eaux les plus profondes de toute Rinascita.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Eh beh. Tu t'y connais en astrologie, mam'zelle Chapeau Blanc.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je ne fais que dire ce que tout le monde à Rinascita sait. C'est aussi mentionné dans les légendes de l'Imperator Sentinelle.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 706,
+              "PlotLineKey": "Et la deuxième moitié ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je... Je ne suis pas sûre.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ahab",
+          "PlotLineKey": "« Offre ton amour... »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Alors ça nous demande de tomber amoureux d'un truc ? C'est vraiment pas net !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Pff.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ô grands et nobles descendants de Reyes, écoutez mes paroles ! Je vous offre mon amour !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Euh... Je t'offre mon amour ! Les vagues incessantes seront ma promesse de loyauté envers toi pour l'éternité !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Bah, je suis trop vieux pour ces sottises ! Quelle belle idée pourrie !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Bon, {Male=gamin;Female=gamine}, à ton tour !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 707,
+              "PlotLineKey": "Moi ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ouais, toi. Proclame ton amour pour la mer en quelques mots ! Quoi, t'as besoin d'un stylo et de papier ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 708,
+              "PlotLineKey": "Ô grands et nobles descendants de Reyes...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 709,
+              "PlotLineKey": "Je t'offre mon sincère...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Non, non, non ! Tu t'y prend tout mal !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "C'est quoi l'amour pour toi ? Une blague ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Écartez-vous !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Oh, mon amour. Tu es la lumière de ma vie.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Aucune tempête ne pourra nous séparer, car en ta présence, la force de mon amour peut résister à n'importe quel ouragan, car elle sera toujours plus forte !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Mon âme aspire à se libérer, car elle a trouvé sa direction, mais je suis tourmenté par mon incapacité à t'atteindre...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ça marche ! Nom de nom !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Oh, mon tendre amour...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Ça suffit comme ça ! Allons-y ! On a assez perdu de temps !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 31,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Comme il vous est impossible de traverser la tempête qui menace les îles Reyes, vous vous dirigez vers l'île sans nom dont Ahab a parlé. Vous essayez de dissiper la tempête en suivant l'inscription sur les stèles anciennes, mais sans succès. Finalement, c'est la méthode particulière de Starbuck, « offrir son amour » à l'île, qui apaise la tempête.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Parler à Phoebe au sujet de l'île et commencer l'enquête"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "{PlayerName}, tu as remarqué que quelque chose ne va pas avec le capitaine Ahab ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je ne peux pas dire ce que c'est avec certitude... Mais j'ai l'impression qu'il nous cache quelque chose.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Pourquoi ne pas nous séparer pour nos recherches ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "S'il y a un lien entre cette île et le Brise-marée, je suis sûre que nous trouverons quelque chose, surtout avec toutes les ruines aux alentours.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je peux déchiffrer ces anciens textes de Rinascita. Nous saurons bientôt la vérité.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Ça dit ici que la clé du phare des ruines est scellée dans le trésor de cette île.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Peut-être que c'est là-bas ?",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 14
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Splendide ! Maintenant qu'on est débarrassés de cette tempête, Planck peut nager jusqu'ici !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ahab",
+          "PlotLineKey": "On ne peut pas en dire autant pour Queequeg, par contre. Le <span class=\"italic\">Pequod</span> retapé attend son nouveau capitaine avant de pouvoir prendre la mer.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Jetons un coup d'œil aux alentours. Je connais pas grand-chose sur le phare ici à Reyes, mais j'aurai cette sirène accrochée au bout de mon mât avant la fin de la journée, crois-moi.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Tu t'es bien {Male=débrouillé;Female=débrouillée} là-bas, {PlayerName}.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Tout le monde peut pas survivre au poids de la mer. C'est une maîtresse miséricordieuse, mais elle sait aussi être impitoyable.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Même dans mes rêves, je me vois lancer des harpons aiguisés dans l'eau. Ils doivent s'enfoncer profondément avant de frapper avec véritable puissance et précision.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ahab",
+          "PlotLineKey": "On a beau être bénis par la mer, on se tient quand même prêts à pointer nos harpons vers elle... et vers ce truc.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Querelle, chaos... conflit sans fin. C'est le destin de ceux qui vivent avec les marées.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Comme c'est agréable... Tu le savais ? Certaines personnes meurent quand la marée descend, d'autres à marée basse...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Ahab",
+          "PlotLineKey": "D'autres au plein de la marée montante. Et je ne suis qu'une vague qui embrasse la tempête.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Ahab",
+          "PlotLineKey": "Vas-y, capitaine. Fais ce que tu dois faire et tout ce que ton cœur désire.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Argh. Bonjour...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Oh, en fait, je devrais te remercier.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Sans toi, je ne serais pas allé si loin.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Eh bien... Le capitaine Ahab a ses propres ambitions. Moi aussi.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "*Soupir* Ma bien-aimée. Attends-moi, veux-tu ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Quand bien même, il n'est pas trop tard pour renoncer... Regarde !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Ahab, vieux fou ! Il ne te cherche pas ! C'est toi, toi, qui le cherches comme une âme damnée !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Chercher des indices autour du phare"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "« Présentez les trois cadeaux de la mer, et ainsi la lumière brûlera éternellement. »",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Cela signifie... que nous devons trouver trois « cadeaux » de la mer pour briser ce sceau ?",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Là où les Réverbérations convergent. Qu'ils reposent en paix.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ],
+      "State": 16
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Là-bas !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "Mon amour !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ha ha ha ! Accrochez-vous bien !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Brant",
+          "PlotLineKey": "Bats-toi jusqu'au bout, <span class=\"italic\">Pequod</span> !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Brant",
+          "PlotLineKey": "Allons explorer l'abysse !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 8
+    },
+    {
+      "Title": "Partir et trouver les « Cadeaux » de la mer"
+    },
+    {
+      "Title": "Quest_880000038_ChildQuestTip_880_27"
+    },
+    {
+      "Title": "Quest_880000038_ChildQuestTip_880_39"
+    },
+    {
+      "Title": "Livrer les poissons au premier point indiqué"
+    },
+    {
+      "Title": "Résoudre la première casse-tête du fantôme"
+    },
+    {
+      "Title": "Quest_880000038_ChildQuestTip_880_54"
+    },
+    {
+      "Title": "Quest_880000038_ChildQuestTip_880_56"
+    },
+    {
+      "Title": "Livrer les poissons au deuxième point indiqué"
+    },
+    {
+      "Title": "Résoudre la deuxième casse-tête du fantôme"
+    },
+    {
+      "Title": "Quest_880000038_ChildQuestTip_880_61"
+    },
+    {
+      "Title": "Livrer les poissons au troisième point indiqué"
+    },
+    {
+      "Title": "Résoudre la casse-tête du troisième fantôme"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "L'esprit mystérieux semble avoir apprécié le poisson et repart, l'air bien content...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "L'esprit mystérieux semble avoir entendu les appels de la mer et s'est évanoui...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "L'esprit mystérieux fixe le dernier phare, comme s'il espérait qu'il brille à nouveau...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Allumer le Phare de Reyes"
+    },
+    {
+      "Title": "Discuter les indices obtenus avec Phoebe"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Nous avons réussi à rallumer les quatre phares, {PlayerName} !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Tu entends les cris du Brise-marée ? Ils ne semblent pas aussi tristes, blessés et en colère qu'avant.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 799,
+              "PlotLineKey": "Tu as trouvé quelque chose, Phoebe ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 800,
+              "PlotLineKey": "Les cris de la baleine semblent très émouvants.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "J'ai réussi à déchiffrer les inscriptions de quelques tablettes de pierre que j'ai trouvées dans les ruines.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Cetus le Brise-marée... est profondément lié à l'Imperator Sentinelle.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 7,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Quand le dernier phare est de nouveau opérationnel, Cetus le Brise-marée redevient paisible. Pendant ce temps, Phoebe a également fait des progrès dans son enquête sur l'île.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Dans les légendes",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Cetus le Brise-marée guide les navires et marins noyés",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Vers le royaume de l'au-delà",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Pourtant, il était instable",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Quand il chantait tristesse et fureur",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Les tempêtes faisaient rage",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Les cieux s'assombrissaient",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Jusqu'à ce que l'Imperator l'éclaire avec la lumière des lanternes",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "En faisant de lui un souverain de la vie marine",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Et Gardien de la Mer",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 2
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Certaines de ces anciennes tablettes de pierre racontent des histoires antérieures à l'existence de l'Ordre.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "En plus de Cetus le Brise-marée, j'ai également trouvé des informations sur la « sirène » qui a peut-être enchanté Monsieur Starbuck.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "C'est une Créature vestigiale qui vit dans les profondeurs de Riccioli. Elle pourrait même être de la même espèce que Lorelei, que nous avons rencontrée dans le Sanctuaire du Nimbus.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "En l'absence du Brise-marée, les Réverbérations agitées des défunts se sont probablement accumulées dans son corps. Ces âmes perdues l'incitaient à enchanter les pêcheurs.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Le Brise-marée et elle partagent une relation symbiotique. Cependant, elle est encore fragile et n'a pas atteint sa forme complète comme Lorelei.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je crois que c'est elle qui soignait les blessures du Brise-marée...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 812,
+              "PlotLineKey": "Nous devons l'aider.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Il est temps de mettre à profit notre expérience dans le Sanctuaire du Nimbus. Je suis certaine que nous pouvons y arriver.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "C'est juste...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "{PlayerName}, tu parles la langue des baleines, par le plus grand des hasards ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 813,
+              "PlotLineKey": "Peut-être qu'Abby peut communiquer avec elle.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "J'aimerais m'asseoir et discuter tranquillement avec le Brise-marée une fois que tout sera terminé.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Mais pour l'instant, allons retrouver le capitaine Ahab.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 14,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Après avoir déchiffré les inscriptions anciennes, Phoebe pense que Cetus le Brise-marée a pour mission de guider les âmes perdues vers le royaume d'au-delà, et la « sirène » qui envahit ces eaux pourrait être une créature similaire à Lorelei. Avec ces informations, vous cherchez l'aide du Capitaine Ahab pour s'occuper de la « sirène ».",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Trouver Ahab"
+    },
+    {
+      "Title": "Vérifier la note d'Ahab"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Message de Ahab",
+          "PlotLineKey": "Espèce de monstre à sang froid, je te maudis ! J'ai tellement souffert pour te vaincre...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Message de Ahab",
+          "PlotLineKey": "Je suis vieux, et la malédiction que tu m'as lancée prend fin aujourd'hui... Mais je te combattrai jusqu'au bout.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Message de Ahab",
+          "PlotLineKey": "Je te retrouverai, quoi qu'il arrive !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Message de Ahab",
+          "PlotLineKey": "Ô vagues, déchaînez votre fureur sur moi ! Renforcez votre puissance jusqu'à la tempête qui m'emporte vers ma destinée tragique !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Message de Ahab",
+          "PlotLineKey": "Hommes de Pequod ! Notre repos promis est proche !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Message de Ahab",
+          "PlotLineKey": "Les tourbillons qui ont failli me coûter la vie, et la tempête qui a gonflé mes voiles, je vous invoque maintenant ! Et cette bête aussi !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Message de Ahab",
+          "PlotLineKey": "Viens ! Brisons ces liens qui nous retiennent et plongeons dans l'abîme pour embrasser notre destin !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "{PlayerName} ! Vous êtes de retour !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 658,
+              "PlotLineKey": "Ismaël ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 659,
+              "PlotLineKey": "Où sont le capitaine Ahab et les autres ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "J'ai entendu dire que le <span class=\"italic\">Pequod</span> était prêt à partir, alors je suis allé jeter un coup d'œil.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Mais quand je suis arrivé, la plage était vide, et je n'ai trouvé que Planck là-bas.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "Eh bien, si ce n'est pas mon second, {PlayerName} ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 663,
+              "PlotLineKey": "Brant ?!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est un sacré navire que tu as là. Même si on dirait qu'il a connu des jours meilleurs.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 665,
+              "PlotLineKey": "J'ai assemblé ce navire, planche par planche !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Brant",
+          "PlotLineKey": "J'ai l'impression que tu as développé un lien fort avec lui.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Brant",
+          "PlotLineKey": "Il y a quelques jours, Ahab m'a convoqué pour prendre la barre de ce beau vaisseau...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 668,
+              "PlotLineKey": "Alors, où est le capitaine Ahab ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Brant",
+          "PlotLineKey": "Je n'en ai pas la moindre idée, honnêtement. Au fait, tu es où maintenant ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Brant",
+          "PlotLineKey": "C'est ta gondole qui s'éloigne dans les vagues ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Brant",
+          "PlotLineKey": "Bonjour ! Hé ho !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "???",
+          "PlotLineKey": "J'arrive pour te voir, mon amour !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "C'est Starbuck !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Le vaurien s'enfuit avec le bateau !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Brant",
+          "PlotLineKey": "Toi là-bas ! Arrête !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Starbuck",
+          "PlotLineKey": "La force de mon amour peut résister à n'importe quel ouragan, car elle est toujours plus forte !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ça alors... Il se dirige droit vers la tempête ! Arrêtons-le ! Il a perdu la tête !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Planck",
+          "PlotLineKey": "Bloop...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Planck a l'air effrayé par quelque chose. On dirait que la boutique est fermée pour l'instant...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Rencontrer Brant à Pequod et préparer pour le départ"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Ce navire n'a pas besoin d'un équipage complet pour naviguer. Un capitaine suffirait.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Tout est prêt pour mettre les voiles ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 607,
+              "PlotLineKey": "Oui, capitaine Brant !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 608,
+              "PlotLineKey": "Pas encore.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Acteur No. 1",
+          "PlotLineKey": "Comment les cordes se sont-elles resserrées toutes seules ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Acteur No. 1",
+          "PlotLineKey": "Préparons à lever l'ancre !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ],
+      "State": 18
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Brant",
+          "PlotLineKey": "Il semble que le Pequod n'ait pas pu échapper à son destin après tout...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Brant",
+          "PlotLineKey": "Hélas, mon devoir en tant que capitaine intérimaire est accompli. Je vous laisse, mes {Male=amis;Female=amies} !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Phoebe doit se reposer. Attendons un peu ou configurons le temps (4h à 9h)"
+    },
+    {
+      "Title": "Enquêter sur le « Cetus le Brise-marée » à proximité de l'Île de Reyes"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Le Brise-marée...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Cetus le Brise-marée",
+          "PlotLineKey": "... !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Abby",
+          "PlotLineKey": "Oh, salut, mon grand ! Contente de te revoir !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Abby",
+          "PlotLineKey": "Je me souviens encore quand tu as retourné notre bateau, tu sais. Mais étant donné que tu viens de nous sauver, je dirai que nous sommes quittes ! Bon... Comme dit le vieux dicton de Jinzhou : « Les grands laissent passer les petites choses ! »",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 642,
+              "PlotLineKey": "Il est évidemment beaucoup plus grand que toi.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Cetus le Brise-marée",
+          "PlotLineKey": "... !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Abby",
+          "PlotLineKey": "Il dit que la « sirène » a soigné ses blessures, mais qu'elle est ensuite devenue folle après avoir absorbé trop de Réverbérations.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Abby",
+          "PlotLineKey": "C'est pourquoi il ne voulait pas se battre avec elle plus tôt. Maintenant on lui a donné une leçon, peut-être qu'elle comprendra mieux.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Brise-marée. J'ai... j'ai quelque chose à te demander !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Tu es complètement rétabli ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Cetus le Brise-marée",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Abby",
+          "PlotLineKey": "Bien sûr que oui ! Regarde-le, en chair et en os. Il n'a jamais été aussi bien portant.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Tu as été trompé et dupé pendant le Carnaval... Je sais qu'une acolyte comme moi n'est pas en position de parler au nom de l'Ordre...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Mais je souhaite tout de même te présenter mes excuses, Cetus le Brise-marée, même si ce ne sont que les miennes.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Cetus le Brise-marée",
+          "PlotLineKey": "... ? ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Cetus le Brise-marée",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Abby",
+          "PlotLineKey": "Il dit de ne pas se culpabiliser pour ça.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Abby",
+          "PlotLineKey": "Tu as suivi sa trace tout ce temps, en aidant les pêcheurs et recevant toi-même des cadeaux de la mer. Il essaie aussi de les protéger.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Abby",
+          "PlotLineKey": "Oh ! Il veut aussi te dire bravo pour avoir attrapé ce gros poisson plus tôt !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Cetus le Brise-marée",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Abby",
+          "PlotLineKey": "« Sois simplement toi-même, en donnant ou recevant, avec croyance ou espoir, » dit-il.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Je vois. Je te remercie du fond du cœur !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Cetus le Brise-marée",
+          "PlotLineKey": "... ?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Abby",
+          "PlotLineKey": "Évidemment ! Rien ne nous arrête quand nous faisons équipe !",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 643,
+              "PlotLineKey": "Si seulement un jour j'arrive...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 644,
+              "PlotLineKey": "À t'attraper ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 25,
+          "Speaker": "Cetus le Brise-marée",
+          "PlotLineKey": "...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Abby",
+          "PlotLineKey": "Euh, qu'est-ce qui se passe, mon grand ? T'as perdu ta langue ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Cetus le Brise-marée",
+          "PlotLineKey": "... !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Phoebe",
+          "PlotLineKey": "Est-ce qu'il... rit ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Abby",
+          "PlotLineKey": "Ouah !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Abby",
+          "PlotLineKey": "Tu crois que tu vas où comme ça ? Oh, je vais attraper cette baleine un de ces jours. Vous allez voir !",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Type": "Outline",
+          "Id": 37,
+          "Speaker": "Narrator",
+          "PlotLineKey": "Alors que la tempête se calme, vous retrouvez à nouveau Cetus le Brise-marée après qu'il vous a ramené des profondeurs de la mer. Phoebe souhaite présenter ses excuses à la baleine pour ce qui s'est passé pendant le Carnaval, mais la bête ne garde aucune rancune. Peut-être qu'un jour, en tant qu'un {Male=pêcheur;Female=pêcheuse} pro, vous pouvez attraper ce grand gars...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Bouton de Rose",
+          "PlotLineKey": "... !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "La gondole chargée de marchandises semble dire : « Donne-moi de l'argent et je te donnerai des trésors ! »",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Compléter les demandes ou débloquer les guides, augmenter la Réputation au NV. 10"
+    },
+    {
+      "Title": "Trouver Ismaël au port des îles Riccioli"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Hmm...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Je me demande si vous l'avez remarqué, {PlayerName}.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Quand vous avez réglé le problème du Brise-Marée, le capitaine Ahab, Monsieur Starbuck et Monsieur Queequeg ont tous disparu...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Je suis en train de feuilleter le vieux journal du capitaine Ahab, et il semble qu'ils cherchaient ce « dernier port ».",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Le capitaine Ahab a passé toute sa vie sur les vagues. Il était le meilleur capitaine et pêcheur que cet endroit ait jamais connu.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Si nous suivons le cap tracé par Ahab, nous pourrions découvrir des choses, voire des trésors qu'il a laissés derrière lui...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1087,
+              "PlotLineKey": "Pourrons-nous attraper Cetus le Brise-marée ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Peut-être. Le capitaine Ahab a toujours eu une obsession pour Cetus, mais la raison demeure un mystère.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Alors, continuons en se le fixant comme objectif !",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Title": "Compléter les demandes ou débloquer les guides, augmenter la Réputation au NV. 12"
+    },
+    {
+      "Title": "Trouver Ismaël au port des îles Riccioli"
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "La mer semble si calme, et les tourbillons se sont enfin apaisés.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Tout est revenu comme avant... Pour être honnête, {PlayerName}, le capitaine Ahab et son équipage ont rencontré leur destin en mer il y a des décennies.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "C'est leur amour de la mer et leur promesse à Cetus le Brise-marée qui ont maintenu leurs esprits ici.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Et maintenant, les eaux paisibles de Riccioli marquent leur dernier lieu de repos. C'est leur « dernier port ».",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Mais <span class=\"italic\">Rachel</span>, son navire navigue toujours, et il semble qu'il se soit pris d'amitié pour vous.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Je crois que le capitaine Ahab espérait aussi vous voir perpétuer son héritage...",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 1096,
+              "PlotLineKey": "Et toi ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Moi ? Je ne suis qu'un simple marin pêcheur. Je suis né ici, et je vais probablement me marier, avoir des enfants et trouver ma paix dans ces mêmes eaux.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Ismaël",
+          "PlotLineKey": "Alors mettez les voiles, capitaine {PlayerName} ! Votre voyage vous mène au bout du monde.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "Id": 162700005,
+  "Name": "Fantasías de las mil puertas",
+  "Description": "Una voz familiar llegó desde la frecuencia del sueño. La persona al otro lado se presentó como Portero de ébano... En fin, vamos a ver qué quiere.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 162700005,
+  "ShowQuestList": [],
+  "QuestDesc": "Una voz familiar llegó desde la frecuencia del sueño. La persona al otro lado se presentó como Portero de ébano... En fin, vamos a ver qué quiere.",
+  "Conditions": [
+    {
+      "Type": "ExploreLevel",
+      "ExploreLevel": 30
+    },
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 114000027,
+        "ChildQuestId": 24
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 31000
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "¿?",
+          "PlotLineKey": "Hola, {PlayerName}. ¿Puedes oírme...? Soy el Portero de ébano.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 9,
+              "PlotLineKey": "¿Quién?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 10,
+              "PlotLineKey": "¿Por qué me llamas?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 11,
+              "PlotLineKey": "Hola, yo soy el Portero de marfil.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "Ejem. Soy el administrador de la <ano=dominio de los sueños>Somnolencia</ano>, el Portero de ébano.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "Bueno... Es por cuestiones relacionadas con Somnolencia.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "Ejem. Tal vez deberías guardar las bromas para después, Trotasueños.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "Me preguntaba si habías notado que... las puertas hacia Somnolencia han comenzado a aparecer en Rinascita.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "(Voz amortiguada)",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 12,
+              "PlotLineKey": "¿Hola?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 13,
+              "PlotLineKey": "¿Se ha cortado?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "Parece que está experimentando algún tipo de interferencia... Ah, ahí está, ya funciona de nuevo.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Portero de ébano",
+          "PlotLineKey": "Si es posible, me gustaría hablar contigo en persona. Te estaré esperando, Trotasueños.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "Ah, {PlayerName}. Has llegado.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "Eh... quizás te sorprenda mi apariencia actual, pero soy el Portero de ébano que se puso en contacto contigo antes.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "¿Estás dentro del Cosmos de Encore?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 32,
+              "PlotLineKey": "Ya veo. ¡Así que eras tú con quien hablé aquella vez!",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "Me temo que la señorita Encore no tiene nada que ver en esto. Esta entidad es una réplica de fragmentos de memoria de Somnolencia. Solo estoy tomando prestada su apariencia por ahora.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "Está bien...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "Ahora, esto no tiene relación con el tema que estamos por discutir.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 5,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "¿Aquella vez?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 34,
+              "PlotLineKey": "Esa vez que usé Ecoides contra las Disonancias Tácitas.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 35,
+              "PlotLineKey": "Esa vez que conocí a «Dorothy»...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "Ejem... Bueno... Sí, tienes toda la razón. Yo fui quien habló contigo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "Te debo una disculpa por involucrarte en el experimento para probar la nueva puerta bajo una identidad falsa. Todo era parte de mi plan... Uno que tú frustraste.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 36,
+              "PlotLineKey": "Está bien, dilo. ¿Qué tramas esta vez?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "Por favor, Trotasueños. Prometo que no tengo secretos que esconder.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 9
+        },
+        {
+          "Id": 9,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "He estado optimizando la lógica de almacenamiento de memoria de algunas zonas de memoria, y si todo sale según lo planeado, Somnolencia debería poder albergar más sueños con su espacio actual.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "Sin embargo, he descubierto impurezas persistentes dentro de los sueños en Rinascita. Cuando se activaron los nodos del sueño en Rinascita, estas impurezas se infiltraron en Somnolencia a través de los sueños.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "¿Cuál es la fuente de la impureza?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "Supongo que son más que simples pesadillas nacidas de emociones negativas, sino una influencia espiritual oculta que toma la forma de una plaga. Aunque aún no tengo una respuesta definitiva.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "Más zonas de memoria caen bajo su influencia mientras hablamos. Si no se tratan, no solo se detendrán mis mejoras, sino que la integridad de Somnolencia también estará en peligro.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "Trotasueños, deseo pedir tu ayuda para lidiar con estas impurezas. No por mí, sino por toda la Somnolencia.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 38,
+              "PlotLineKey": "Está bien. No es la primera vez que hago esto.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 39,
+              "PlotLineKey": "No trabajaré gratis.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "Hay muchas recompensas esperándote en el mundo onírico. También estaré disponible para asistirte de cualquier manera que mis habilidades permitan.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "Sobre las puertas en Rinascita que mencioné antes... Para evitar que la propagación continúe, he sellado las impurezas tras sus respectivas zonas de memoria.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "A medida que avances, <span class=\"font-bold\">iré abriendo más puertas en diferentes áreas. Somnolencia también tendrá herramientas necesarias a tu disposición y la de tus compañeros.</span>",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "«Cosmos»",
+          "PlotLineKey": "Dirígete a las puertas y restaura las zonas de memoria afectadas por las impurezas, Trotasueños.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

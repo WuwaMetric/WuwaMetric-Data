@@ -1,0 +1,851 @@
+{
+  "Id": 880700001,
+  "Name": "Operación: Dúo Lunar",
+  "Description": "Aplica justicia y limpia los crímenes que acechan en las sombras antes de que llegue el Festival de la Caza de la Luna, ¡ahora!\n\nDesbloquea un nuevo compañero después de completar esta misión.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880700001,
+  "ShowQuestList": [],
+  "QuestDesc": "Aplica justicia y limpia los crímenes que acechan en las sombras antes de que llegue el Festival de la Caza de la Luna, ¡ahora!\n\nDesbloquea un nuevo compañero después de completar esta misión.",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 6,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "{PlayerName}, ¿qué necesitas?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1083,
+              "PlotLineKey": "Tranquila, no es nada importante.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1084,
+              "PlotLineKey": "Solo quiero pedirte un favor.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Ya veo. Así que la Feria de la Luna se ha quedado sin espectáculo de marionetas y ahora me necesitas para que solucione el entuerto.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "No hay problema. No estoy muy liada ahora mismo, así que puedo ir varios días..., si me pagas lo suficiente, claro.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Oh, si vamos a actuar en la Feria de la Luna, será mejor que preparemos varias marionetas a juego con el ambiente festivo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "{PlayerName}, ¿se te ocurre algo?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1085,
+              "PlotLineKey": "¿Una persecución entre un zorro y un conejo?",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 1086,
+              "PlotLineKey": "¿{Male=El;Female=La} Errante y el Trenodiano recreando la batalla legendaria?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "¿Es un cuento tradicional de Huanglong? Buena idea. Seguro que las marionetas de animales adorables les gustan a los más pequeños.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "¿Cómo un Drama de Héroe? Podría funcionar. Puede que la batalla entre el bien y el mal sea todo un éxito...",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Probablemente ya sea demasiado tarde para crear marionetas desde cero. Afortunadamente, conozco un sitio en el que venden marionetas prefabricadas.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1087,
+              "PlotLineKey": "¿De verdad?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Así es. En Jinzhou se puede comprar DE TODO, siempre y cuando tengas los contactos adecuados...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1088,
+              "PlotLineKey": "¿Es un mercado negro o algo así?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 1089,
+              "PlotLineKey": "Oh, tiene pinta de ser peligroso...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Es broma. Venga, te voy a llevar a conocer mundo.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ganxue",
+          "PlotLineKey": "¡Bienvenid{Male=os;Female=as} a la Tienda de la Asociación de Pioneros! ¡Pero si sois {PlayerName} y Yinlin! ¿En qué os puedo ayudar hoy?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "¿Tienes marionetas?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ganxue",
+          "PlotLineKey": "¡Pues claro! Acabamos de recibir un nuevo cargamento.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 547,
+              "PlotLineKey": "¿Aquí se venden marionetas?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Ganxue",
+          "PlotLineKey": "¡Sí! En la Asociación de Pioneros hay fabricantes de marionetas con muchísimo talento, y exhiben sus increíbles creaciones justo aquí, en nuestra tienda.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ganxue",
+          "PlotLineKey": "Pero no hay mucha gente que quiera comprar sus propias marionetas, así que guardamos la mayoría en el almacén.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Ganxue",
+          "PlotLineKey": "Normalmente las marionetas acaban en manos de coleccionistas o profesionales en la materia como Yinlin.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 548,
+              "PlotLineKey": "Ya veo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Ganxue",
+          "PlotLineKey": "Voy a comprobar el stock en un momento. Vuelvo enseguida...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Ganxue encuentra en un abrir y cerrar de ojos las marionetas que necesita Yinlin y se las entrega.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Ganxue",
+          "PlotLineKey": "¡Muchísimas gracias! ¡Espero que nos volvamos a ver pronto!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 549,
+              "PlotLineKey": "¡Listo! Volvamos a la Aldea Taoyuan.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Un momento. Creo que he visto una cara conocida.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 550,
+              "PlotLineKey": "¿Una cara conocida?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Interesante... No debería estar aquí. {PlayerName}, vamos a seguirle para ver qué se trae entre manos.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Errante",
+          "PlotLineKey": "¿La persona a la que buscas es un Exiliado?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Exactamente. A los Exiliados no se les permite entrar en Jinzhou, así que para poder colarse se disfrazó y no lleva uniforme de Exiliado.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Se llama Lei. Solía ser un criminal de poca monta, y salió hace unos días de la cárcel.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Antes de empezar a trabajar como investigadora encubierta le contraté como informante, pero desapareció en el momento más importante.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Que esté aquí me huele a cuerno quemado... Parece que está hablando con alguien. Vamos a ver de qué se trata.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Exiliado",
+          "PlotLineKey": "Señor Lei, ¿quieres decir... que descubriste una nueva forma para ayudarnos a ganar dinero?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lei",
+          "PlotLineKey": "Ya te digo. Ya sabes por dónde solía moverme, ¿verdad? Las Bestias Salvajes. Confía en mí, conmigo al frente esto va a ser algo gordo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Exiliado",
+          "PlotLineKey": "¡Impresionante, señor Lei! Soy todo oídos. Últimamente el dinero escasea.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lei",
+          "PlotLineKey": "Je, ¿has oído hablar de la Feria de la Luna? Hay tipos ricos por todas partes esperando con carteras llenas de billetes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lei",
+          "PlotLineKey": "Acabo de salir del trullo. ¿Te acuerdas del jefazo del que te estaba hablando? Tiene contactos, lealtad y sabiduría callejera.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lei",
+          "PlotLineKey": "Si trabajas con él, desplumaremos a todos en la Feria de la Luna, ¡y muy pronto estaremos nadando entre dinero!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Exiliado",
+          "PlotLineKey": "S-señor Lei, permítame que le introduzca al jefazo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lei",
+          "PlotLineKey": "¿Qué? ¿Me has dejado tirado por él?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Exiliado",
+          "PlotLineKey": "¡Déjate de bromas! Soy un tipo leal. Tan solo tenía curiosidad.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Lei",
+          "PlotLineKey": "Entonces ven conmigo y compruébalo por ti mismo. ¡Y cierra el pico! Esta oferta es solo para nosotros.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lei",
+          "PlotLineKey": "El jefazo quiere que estemos de dos a cuatro de la mañana en el árbol del lado este de la Aldea Taoyuan. ¡Prepárate y no la pifies!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Exiliado",
+          "PlotLineKey": "¡Entendido! ¡Siempre puedes confiar en mí!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 1,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Parece que están tramando algo. {PlayerName}, ¿qué crees que deberíamos hacer?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 576,
+              "PlotLineKey": "Tenemos que actuar con cuidado.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 577,
+              "PlotLineKey": "Vamos a arrestarles directamente.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 578,
+              "PlotLineKey": "Tú eres la experta. Haré lo que tú me digas.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Opino lo mismo. Lei mencionó a un «jefazo». A juzgar por su conversación, debe ser el cerebro en la sombra.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "A juzgar por su conversación, Lei no es el cerebro en la sombra. El auténtico artífice debe ser ese hombre misterioso.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 4,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Creo que deberíamos dar con la pista de ese «jefazo». El cerebro en la sombra debe ser él.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Afortunadamente sabemos cuándo y dónde se van a reunir. ¿Qué tal si... nos divertimos un poco l{Male=os;Female=as} dos?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 579,
+              "PlotLineKey": "Voy a llamar a los Patrulleros.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Un momento, si hay demasiada gente vamos a alertarles. Tenemos que comprobar la situación antes de actuar.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Exiliado",
+          "PlotLineKey": "Señor Lei, ¿cuándo va a aparecer el jefe?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lei",
+          "PlotLineKey": "¡Espera un poco más! ¡Los peces gordos siempre aparecen los últimos!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lei",
+          "PlotLineKey": "¡Oh, el jefe está ahí! ¡Quiero veros bien rectos y saludándole!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Una figura familiar aparece desde detrás del árbol y se acerca a Lei. Es alguien a quien conoces muy bien.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Un momento. ¿Ese es...?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 600,
+              "PlotLineKey": "No puede ser...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 601,
+              "PlotLineKey": "¿Cómo es posible...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "¿Es el señor Li...? Vamos a escuchar antes de precipitarnos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Lei, siento haberte hecho esperar.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lei",
+          "PlotLineKey": "Jeje, para nada, señor Li. Nosotros también acabamos de llegar. ¡Vamos, saludad al señor Li!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Exiliado",
+          "PlotLineKey": "¡Hola, señor Li!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Jeje, chicos. Si fuese unas cuantas décadas más joven no tendría que molestaros.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Lei",
+          "PlotLineKey": "Qué va, no es ninguna molestia. Al final, todo se trata de dinero, ¿no?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Bueno, yo no hago esto por el dinero... Da igual, no me creerías por mucho que te lo dijera. Lei, ¿dónde está lo mío?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lei",
+          "PlotLineKey": "En esa caja de ahí. Yo también estuve un tiempo con las Bestias Salvajes, así que me sé un par de cosas... Pero echa un vistazo tú mismo si quieres.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Sí, dado la importancia de esto, será mejor que...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "El señor Li está a punto de hablar cuando de repente unos rugidos de las Disonancias Tácitas le interrumpen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lei",
+          "PlotLineKey": "Ese sonido... ¡Maldita sea, es un Osezno Aflechado! ¡Debe haber olido la mercancía!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Exiliado",
+          "PlotLineKey": "S-señor Li, dado que tú eres el jefe, tienes que protegernos, ¿verdad...?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Si fuera veinte años más joven, me ocuparía de él sin despeinarme, pero ahora... ¡Cof, cof!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 602,
+              "PlotLineKey": "Les están atacando las Disonancias Tácitas.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Qué interesante... Hasta donde yo sé, el señor Li no es mala persona. Si ha estado fingiendo todo este tiempo, desde luego que es digno de admiración.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Vamos a ocuparnos primero de este incordio. Ya tendremos una conversación como es debido con él más tarde.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "¿{PlayerName} y... Yinlin? ¿Qué hacéis por aquí?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lei",
+          "PlotLineKey": "Gracias... Oye, ¿quién eres tú?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "{PlayerName}, no les quites el ojo de encima. Voy a comprobar la mercancía... Puede que sea algo peligroso.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Yinlin regresa poco después.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 1493,
+              "PlotLineKey": "¿Bombas o armas?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Solo hay carne fresca. No hay compartimentos secretos, y no está envenenada.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Entonces, contadme, ¿qué está pasando aquí?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lei",
+          "PlotLineKey": "¡Te lo diré todo! ¡Fue cosa del señor Li!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Un momento, {PlayerName}... ¿Acaso comprar carne ahora es ilegal?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 626,
+              "PlotLineKey": "¿Comprar carne...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Sí. Llevo un tiempo trabajando en unas Brochetas Especiales de Jinzhou con la intención de venderlas en la Feria de la Luna.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Pero el sabor no me convencía, así que después de darle vueltas unos días, se me ocurrió la idea de usar carne fresca de la mejor calidad asada al carbón.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 627,
+              "PlotLineKey": "¿Qué tiene todo eso que ver con los Exiliados?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Lei",
+          "PlotLineKey": "¿Qué? ¿Exiliados? Dejé esa vida atrás cuando salí de la cárcel.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Lei",
+          "PlotLineKey": "El señor Li sabe que los tipos con un pasado como el mío no tenemos las cosas fáciles. Yo solía juntarme con las Bestias Salvajes y sé cazar, así que me contrató a mí y a mis hombres para que le consiguiéramos carne.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 628,
+              "PlotLineKey": "¿A qué viene entonces esa ropa?",
+              "PlayVoice": false,
+              "JumpToId": 15
+            },
+            {
+              "TextId": 629,
+              "PlotLineKey": "¿A qué os referíais con que «desplumaríais» la Feria de la Luna?",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 630,
+              "PlotLineKey": "¿Por qué hacéis tratos a medianoche en un lugar tan remoto?",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 631,
+              "PlotLineKey": "No tengo más preguntas.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Lei",
+          "PlotLineKey": "Para ir a cazar no podemos llevar ropa que se desgarre fácilmente, ¿no te parece? Es la ropa apropiada para el trabajo.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 16,
+          "Speaker": "Lei",
+          "PlotLineKey": "Hay presas fáciles por todas partes... Quiero decir, tipos con dinero. ¡Las brochetas del señor Li se van a vender solas, y va a darnos una buena tajada!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 17,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "Tengo un puesto que atender, así que tengo que esperar hasta las tantas a que no haya clientes para ir a por la mercancía. Además, fíjate en ellos, no les dejarían entrar con esas pintas.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 14
+        },
+        {
+          "Id": 18,
+          "Speaker": "Yinlin",
+          "PlotLineKey": "Ya veo... Las respuestas no tienen lagunas. Gracias por colaborar con la investigación. Lo sentimos, parece que estábamos equivocad{Male=os;Female=as}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Lei",
+          "PlotLineKey": "Ahh... La verdad ha salido a la luz. Sigo esforzándome en dejar atrás la jerga de mi antigua vida, pero no es fácil.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Exiliado",
+          "PlotLineKey": "Sí, hasta yo me pensaba que te traías algo sospechoso entre manos, por no hablar de {PlayerName}... y señorita Yinlin.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 632,
+              "PlotLineKey": "Me alegra saber que no estáis haciendo nada ilegal.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 633,
+              "PlotLineKey": "¡Seguro que conseguís dejar vuestra antigua vida atrás y empezar de nuevo!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "Lei",
+          "PlotLineKey": "Sí, después de tanto tiempo en la trena, llegué a la conclusión de que el dinero ganado honestamente me mantendría alejado de los problemas y me permitiría llevar una vida tranquila.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Lei",
+          "PlotLineKey": "Señor Li, ¿vas a volver al puesto? Nosotros nos ocupamos de las cajas. Te las dejaremos cerca, pero tú te tendrás que encargar del resto.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 634,
+              "PlotLineKey": "Nosotr{Male=os;Female=as} le ayudaremos.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Señor Li",
+          "PlotLineKey": "¡Perfecto! ¡Muchas gracias a todos!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

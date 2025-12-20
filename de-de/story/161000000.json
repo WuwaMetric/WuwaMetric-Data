@@ -1,0 +1,299 @@
+{
+  "Id": 161000000,
+  "Name": "Die Abenteuer der Plüschie-Truppe",
+  "Description": "Du hast eine Nachricht von Fulmine erhalten. Sie stammt offenbar von mehreren „Personen“, die ihre Identität geheim halten möchten – und Fulmine damit beauftragt haben, dir eine Einladung zu überbringen …",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 161000000,
+  "ShowQuestList": [],
+  "QuestDesc": "Du hast eine Nachricht von Fulmine erhalten. Sie stammt offenbar von mehreren „Personen“, die ihre Identität geheim halten möchten – und Fulmine damit beauftragt haben, dir eine Einladung zu überbringen …",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 133900005,
+      "PreQuestName": "Wiederaufbau des Plüschtier-Dorfes I"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100019,
+      "PreQuestName": "Die Jungfrau, Die Herausforderin, Die Todesruferin"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Hallo, {PlayerName}. Lange ist es her! Seit du uns mit dem Wiederaufbau geholfen hast, treffen immer mehr Echos im Plüshdorf ein.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Kann mich nicht erinnern, wann alle zuletzt so fröhlich und voller Energie waren.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 9,
+              "PlotLineKey": "Das klingt großartig.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Das tut es. Und im Namen aller, deren Namen ich vorerst nicht verraten werde, möchte ich dich feierlich einladen …",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 10,
+              "PlotLineKey": "Moment, was ist dieses Geräusch?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Du hörst plötzlich den silbrigen Klang eines Glockenspiels. Du versuchst, den Ursprung auszumachen und erkennst, dass er von der Glocke des Widerhallenden Herzens ausgeht, dem Geschenk der Echo-Plüschtiere.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Wie es scheint, möchten sie dich so bald wie möglich sehen. Nun, wir erwarten dich dann also im Plüschdorf!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Kommt bitte zur Ruhe. Ich habe euch bereits gesagt, dass {PlayerName} auf dem Weg ist … Oh, du bist da!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 231,
+              "PlotLineKey": "Da bin ich~",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 232,
+              "PlotLineKey": "Was hab ich verpasst?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Endlich! {Male=Der Held;Female=Die Heldin} des Plüschdorfes ehrt uns erneut mit {Male=seiner;Female=ihrer} Anwesenheit.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Oh, nein. Überhaupt nichts. Wir haben alle darauf gewartet, dass du das Abenteuer startest.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 233,
+              "PlotLineKey": "Das ist für mich …?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Es ist unsere erste Blüte des Morgens! Die kleinen Kerlchen wollten niemanden in ihre Nähe lassen, bevor sie endlich aufblüht.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Sie wollten die allererste Blume für dich schenken.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Die Plüschtiere",
+          "PlotLineKey": "(Geräusche des Glücks und der Zurückhaltung.)",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 234,
+              "PlotLineKey": "Danke. Das bedeutet mir sehr viel.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Die Plüschtiere",
+          "PlotLineKey": "(Geräusche extremen Glücks.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Sie sind sehr froh, dass sie dir gefällt! Übrigens wollte ich dich noch etwas fragen, {PlayerName}. Hast du jemals eine Küsten-Cendrelis gesehen?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Du siehst, wie das wiederaufgebaute Plüschdorf jetzt aufblüht und die Echos probieren sich jeden Tag an neuen Dingen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Besonders nachdem die Plüschtiere vor ein paar Tagen dem Gespräch über die Cendrelis zwischen Enzo und mir gelauscht haben. Es sind Blumen, die wie Quallen leuchten. Sie waren richtig interessiert und aufgeregt und wollten sie selber sehen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Du hast nicht zufällig einige dieser magisch anmutenden Blumen dabei, oder?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Du holst eine Küsten-Cendrelis aus deiner Tasche und übergibst sie Fulmine.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Das ist sie … Solch eine Schönheit erlebst du nur einmal im Leben. Oh, vielen Dank. Größten Dank, {PlayerName}! Enzo schwor, die Küsten-Cendrelis wären längst ausgestorben und bis jetzt glaubte ich fast daran!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Wo hast du sie gefunden, {PlayerName}? Kannst du es den Plüschtieren zeigen? Wenn das in Ordnung ist.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Unsere Plüschtiere-Bande, die aus den Besten der Besten Echos besteht, konnte kaum auf neue Abenteuer warten, seitdem das Plüschdorf aus der Asche auferstanden ist!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Anstatt den ganzen Tag im Dorf herumzuhängen, ist es viel aufregender, neue, exotische Lebensformen zu entdecken und interessante Orte zu besuchen!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 235,
+              "PlotLineKey": "Klingt aufregend.",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 236,
+              "PlotLineKey": "Klingt nach einer Menge Arbeit.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Stimmt! Es ist alles von den Geschichten über deine großartigsten Abenteuer inspiriert. Am Ende dieses neuen Abenteuers werden sie ein Geschenk für dich haben!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 24
+        },
+        {
+          "Id": 18,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Nein, nein, nein. Neue Orte zu erkunden ist nicht alles. Sie wollen auch {Male=den tapferen;Female=die tapfere} {PlayerName} mit eigenen Augen in Aktion sehen. Und außerdem gibt es für {Male=unseren Helden;Female=unsere Heldin} am Ende noch ein Geschenk!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 293,
+              "PlotLineKey": "Klingt gut.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Aber ja! Wenn du schon dabei bist, kannst du ihnen nebenbei noch helfen, ein paar Fotos zu machen?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Bubble und Opa Öfchen kriegen immer kalte Füße, wenn sie neue Orte besuchen sollen. Vielleicht ändern sie ihre Meinung, wenn sie sehen, wie toll es außerdem des Dorfs aussieht.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Überhaupt kein Problem.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Fulmine",
+          "PlotLineKey": "Das ist großartig! Also …",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Auf zu neuen Abenteuern.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

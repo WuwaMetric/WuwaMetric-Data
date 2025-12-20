@@ -1,0 +1,705 @@
+{
+  "Id": 139700001,
+  "Name": "アンコのドッカン大冒険！",
+  "Description": "西砂から伝説の花火の制作を頼まれた。これは造作もないはず......\n\nクリア後、新しい「経営仲間」を解放。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 139700001,
+  "ShowQuestList": [],
+  "QuestDesc": "西砂から伝説の花火の制作を頼まれた。これは造作もないはず......\n\nクリア後、新しい「経営仲間」を解放。",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "TrackMoonBuilding",
+        "BuildingId": 4,
+        "IsBuilt": true
+      }
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アンコ",
+          "PlotLineKey": "<ano=レイ>黎</ano>おじいさん、これなあに？とってもおいしそう！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "黎じい",
+          "PlotLineKey": "「団らん餅」という、何千年も前から今州城に伝わる食べ物だよ。食べてごらん。おいしいぞ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アンコ",
+          "PlotLineKey": "何千年も……それならこの食べ物、おもしろいおはなしもきっとあるんでしょ？ねぇ、<ano=レイ>黎</ano>おじいさん、アンコにも教えて！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "黎じい",
+          "PlotLineKey": "えっ……うん、確かに団らん餅にまつわるおはなしがある。そうだなぁ……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "黎じい",
+          "PlotLineKey": "このおはなしは、<ano=こうりゅう>瑝瓏</ano>の二人の<ano=さいしゅ>歳主</ano>様のことから話さないといけないな……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "……いやあ、うちの娘もああなんですよ、{PlayerName}さん。おはなしのたぐいのこととなると、もう夢中で。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "でも最近は、花火にも興味を持ち始めましてね。花火が見たいって一日中せがむんですよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "ちょうど私も花火づくりを少しばかり学んでいるから、事のついでにここに店を出したってわけです。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "{Male=お父さんは大変そうだな……;Female=お父さんは大変そうだね……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "ははは、確かにたいへんです。でも、花火に照らされた娘の笑顔を見ると、苦労も吹き飛びます。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "ただここ数日は、娘がいちばん大きくてきれいな花火が見たいってうるさいから……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "試作してみたんですが、結果はこの試作品の山を見ても分かるでしょう。娘が満足する花火は一つもできてないんです。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 32,
+              "PlotLineKey": "あきらめずにがんばって！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "ええ、もちろん。ただ……このあいだ、花火の古い製法みたいなのを入手しましてね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "それに書かれてる材料が変わったものばかりだったんです。でも、変わったものほどすごいってことわざもあるじゃないですか……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "それのどこがことわざ……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 34,
+              "PlotLineKey": "一理はあるかも。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "まあ……それで「こりゃおもしろい！」って思ったんです。自分の経験からすると、花火というより、爆竹の材料のような感じもしたんですが。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "材料のうち、<ano=ごうめいりゅうしょう>轟鳴硫晶</ano>はまだ在庫があるんですが、他の二つが手に入らなくて……{PlayerName}さん、よかったら探してきてくれませんか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "{Male=任せてくれ。;Female=任せて。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 36,
+              "PlotLineKey": "ちょうど手があいてる。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "ほんとうですか？あ、ありがとうございます！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "このとき、あちらでおはなしを聞いていたはずのアンコが{PlayerName}の後ろからひょっこり現れた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "アンコ",
+          "PlotLineKey": "{PlayerName}は冒険に行くんでしょ。聞こえたよ。アンコも行きたい！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "アンコちゃん、{PlayerName}さんはね、危ないところに行くんだよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "アンコ",
+          "PlotLineKey": "大丈夫、アンコ強いから！{PlayerName}のことも守ってあげる！だから心配はいらないよ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "アンコがいれば安心だ。",
+              "PlayVoice": false,
+              "JumpToId": 16
+            },
+            {
+              "TextId": 38,
+              "PlotLineKey": "ありがとう。",
+              "PlayVoice": false,
+              "JumpToId": 17
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "アンコ",
+          "PlotLineKey": "うん！やっぱり{PlayerName}はわかってるね！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 17,
+          "Speaker": "アンコ",
+          "PlotLineKey": "えへへっ、「ありがとう」なんて。{PlayerName}とアンコはお友だちでしょ！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 18
+        },
+        {
+          "Id": 18,
+          "Speaker": "アンコ",
+          "PlotLineKey": "それに、謎の花火を探す大冒険って……わくわくするおはなしみたいだし！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "はは、じゃあ、頼んだよ、アンコちゃん。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "アンコ",
+          "PlotLineKey": "うん、任せて！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アンコ",
+          "PlotLineKey": "最初は、ここで<ano=ばくねんしょうさん>爆燃硝酸</ano>を探そう！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アンコ",
+          "PlotLineKey": "……っていうか、<ano=ばくねんしょうさん>爆燃硝酸</ano>って、どんなものなのかな。すごく危なそうな名前だけど。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アンコ",
+          "PlotLineKey": "木炭は、たき火の近くならあるんじゃない？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アンコ",
+          "PlotLineKey": "{PlayerName}、一緒に探してみようよ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アンコ",
+          "PlotLineKey": "これが<ano=ばくねんしょうさん>爆燃硝酸</ano>かぁ……なんだか、ふつうの土とおんなじみたい。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アンコ",
+          "PlotLineKey": "これでほんとうに花火つくれるの？",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アンコ",
+          "PlotLineKey": "これが、<ano=ていしゅうはもくたん>低周波木炭</ano>かぁ……よし、しゅーしゅー完了！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アンコ",
+          "PlotLineKey": "これでぜんぶオッケーだね。{PlayerName}、<ano=セイサ>西砂</ano>おじさんのところに戻ろう！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "あっ、おかえりなさい。はやかったですね。もう見つけたんですか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アンコ",
+          "PlotLineKey": "うん。任務完了だよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "では、ここで少々お待ちください、{PlayerName}さん。花火を作りますので。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "しばらくして花火ができあがると、<ano=セイサ>西砂</ano>はそれを慎重な手つきであなたに渡した。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "なんでだろう……どことなく、これまでに作ってきた花火と違うし、爆竹とも違うんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "{PlayerName}さん、念のために、ひとけのない場所で何発か試し打ちしてきてくれませんか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "くれぐれも気をつけて。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 189,
+              "PlotLineKey": "{Male=任せてくれ。;Female=任せて。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "アンコ",
+          "PlotLineKey": "やったー！花火ができるー！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アンコ",
+          "PlotLineKey": "うーんと……{PlayerName}、ここでやってみよう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アンコ",
+          "PlotLineKey": "地面に置いて、火をつければ……きれいな花火が見られる、うっフフー！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "漂泊者",
+          "PlotLineKey": "{Male=ちょっと待った、なんだかおかしい……アンコ、それを投げ捨てるんだ！;Female=ちょっと待って、なんだかおかしい……アンコ、それを投げ捨てて！}",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アンコ",
+          "PlotLineKey": "ゴホゴホ……{PlayerName}、大丈夫？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 201,
+              "PlotLineKey": "この威力は……ちょっと尋常じゃない。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 202,
+              "PlotLineKey": "アンコ、大丈夫？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "アンコ",
+          "PlotLineKey": "うん、大丈夫だよ。ケガもしなかったし、ビックリもしなかった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アンコ",
+          "PlotLineKey": "でも……花火ってこういうものなの？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "威力のすごい爆竹か。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "おそらく<ano=セイサ>西砂</ano>が間違えたんだ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "アンコ",
+          "PlotLineKey": "そっかぁ……これじゃあ、<ano=セイサ>西砂</ano>おじさん、娘さんに花火見せてあげられないね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アンコ",
+          "PlotLineKey": "あれっ？{PlayerName}、何か聞こえなかった？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "<ano=ざんぞう>残像</ano>だ。今の爆発が引き寄せたんだと思う。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 208,
+              "PlotLineKey": "しかも、結構な数だ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "アンコ",
+          "PlotLineKey": "アンコ、いい考えがあるよ。{PlayerName}はまだ使ってない爆竹もってるでしょ？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 209,
+              "PlotLineKey": "いい考えってもしかして……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "アンコ",
+          "PlotLineKey": "当たり！新しいことを試してみるの。冒険にはぜったい欠かせないものでしょ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アンコ",
+          "PlotLineKey": "……爆竹はほとんど使っちゃったけど、<ano=ざんぞう>残像</ano>は全部倒せたね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アンコ",
+          "PlotLineKey": "{PlayerName}、帰ろう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "{PlayerName}さん、アンコちゃん！花火、どうでした？すごかったでしょ？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 227,
+              "PlotLineKey": "ちょっとすごすぎた。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 228,
+              "PlotLineKey": "花火じゃなかった……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "えっ……どういうことですか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "{PlayerName}は<ano=セイサ>西砂</ano>に先ほどの出来事を詳しく説明した。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "……そうだったんですか。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "申し訳ありませんでした、{PlayerName}さん。お二人ともおケガは？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アンコ",
+          "PlotLineKey": "アンコ大丈夫。{PlayerName}が守ってくれたの！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "それならよかった。はあ、あの調合法はやはり処分したほうがいいな。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 229,
+              "PlotLineKey": "ちょっと待って。もしかしたら……別の使い道があるかも。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "ひょっとして……<ano=ざんぞう>残像</ano>退治に使えるってことですか？うん、いい考えですね。まさに怪我の功名だ……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "ブブ物流の配達員たちのところに行って、彼らにも護身用に使ってみてもらいます……{PlayerName}さん、アンコちゃん、ありがとうございました！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "アンコ",
+          "PlotLineKey": "お礼なんていいよ！アンコもすっごくおもしろい経験ができたし、これでおはなしも作れるね！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "アンコ",
+          "PlotLineKey": "{PlayerName}とメェが森の大っきなカイブツをやっつけた。お姫様の大好きな花は見つからなかったけど、森がまた平和になったんだって！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "……{PlayerName}、今のわかりましたか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 230,
+              "PlotLineKey": "だいたいは。",
+              "PlayVoice": false,
+              "JumpToId": 13
+            },
+            {
+              "TextId": 231,
+              "PlotLineKey": "ぜんぜん。",
+              "PlayVoice": false,
+              "JumpToId": 14
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "はあ、うらやましいです……そういう理解力があれば、娘がどうしてああいう変わったことばかりせがんでくるのかがわかるのになぁ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 14,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "ははっ、子どもの考えてることってわけがわからないときありますよね。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "あーあ、今回は絶対に娘を満足させられると思ってたのに……新しい調合法を探さないとダメかぁ……もちろん、あきらめるわけにはいきませんし。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "アンコ",
+          "PlotLineKey": "<ano=セイサ>西砂</ano>おじさん、がんばってね！おじさんなら、いちばんきれいな花火、きっと作れるよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "西砂（セイサ）",
+          "PlotLineKey": "うん、がんばるよ。ありがとう、アンコちゃん！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

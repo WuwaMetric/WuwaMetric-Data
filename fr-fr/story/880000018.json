@@ -1,0 +1,554 @@
+{
+  "Id": 880000018,
+  "Name": "La lune sera mon invitée",
+  "Description": "Vous rencontrez à nouveau Xiangli Yao sous l'Arbre à vœux. Cependant, cette fois vous partagez une promenade non pour les vœux des autres mais pour la gloire de la lune et la vie animée des gens.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000018,
+  "ShowQuestList": [],
+  "QuestDesc": "Vous rencontrez à nouveau Xiangli Yao sous l'Arbre à vœux. Cependant, cette fois vous partagez une promenade non pour les vœux des autres mais pour la gloire de la lune et la vie animée des gens.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 880700004,
+      "PreQuestName": "Chasser la lune, ici et maintenant"
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 182,
+              "PlotLineKey": "Xiangli Yao ? Que fais-tu ici...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 183,
+              "PlotLineKey": "Tu t'en occupes encore des vœux non exaucés de la Loge de l'Arbre-lune ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Pas exactement. Grâce à toi, chaque vœu a été exaucé.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Quant à ce que je fais... Considère cela comme un service après-vente.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "J'allume et accroche les vœux exaucés. Quand le demandeur ne peut pas le faire lui-même, je le fais pour lui.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 184,
+              "PlotLineKey": "Tu aurais dû me demander l'aide !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 185,
+              "PlotLineKey": "Laisse-moi t'aider.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Alors nous pourrons le faire ensemble l'année prochaine. Je venais juste de finir le dernier avant ton arrivée.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "La plupart des vœux avaient déjà été accrochés pendant la fête. Il n'en restait plus beaucoup depuis le début.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "T'inquiète, tu as déjà été d'une grande aide. C'est ta première fois à célébrer la Fête de Chasser la lune à Jinzhou, tu mérites de t'amuser davantage.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Je m'occuperai du reste moi-même.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 186,
+              "PlotLineKey": "Génial ! À plus tard, alors !",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 187,
+              "PlotLineKey": "Laisse-moi t'aider. J'ai justement un peu de temps libre.",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Oui, tu mérites de t'amuser et de te détendre. Prendre une pause nécessaire n'est pas une perte de temps. Ne gâche pas cette opportunité.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 11,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Eh bien, tu as été {Male=occupé;Female=occupée} depuis ton premier jour à Jinzhou. Si tu as un peu de temps libre, tu devrais le garder pour toi-même.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Le temps fuit quand on s'amuse.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Les kiosques du Marché de la lune restent ouverts jusqu'au dernier moment de la fête. Aimerais-tu y faire un dernier tour ? Peut-être tu y trouves des offres et des promos de dernière minute.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 188,
+              "PlotLineKey": "Tu en sais vraiment beaucoup sur le Marché.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 189,
+              "PlotLineKey": "Maintenant, tu as l'air d'un vrai pro à ce sujet.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Me rendant chaque année au Marché, je prends toujours le temps d'explorer les kiosques qui m'intéressent.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Reste avec nous à Jinzhou encore quelques années, et je suis sûr que tu connaîtras le marché par cœur toi aussi.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 190,
+              "PlotLineKey": "Vraiment ? Je pensais que tu ferais plutôt des recherches.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Haha, en effet, je trouve du plaisir dans la recherche scientifique. Me plonger dans les données et les théories, vérifier les différentes possibilités... C'est une expérience heureuse.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Mais parfois, faire une pause dans le travail pour se joindre à la foule en liesse apporte un autre type de joie.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 191,
+              "PlotLineKey": "Alors, quel est ton kiosque préféré jusqu'à présent ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 192,
+              "PlotLineKey": "Des recommandations personnelles ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Mon kiosque préféré ? Tu y es probablement déjà allé. Hmm, mais si je dois en choisir un... si on y va directement ?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Xiangli Yao t'emmène à un certain endroit...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 193,
+              "PlotLineKey": "Là-bas, c'est le Tir Lunaire non ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Oui. Je me souviens que tu l'as bien aimé la dernière fois.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "{PlayerName}, avec ton exceptionnelle prouesse au combat, je parie que tu es bon en tir aussi ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 194,
+              "PlotLineKey": "Il y a encore des progrès à faire. Je ne suis même pas à la hauteur.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 195,
+              "PlotLineKey": "Oui, je suis confiant dans mes compétences de tir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Alors, puis-je te proposer quelque chose de plus difficile ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 196,
+              "PlotLineKey": "Raconte-moi.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Le Tir lunaire est très populaire. Bien que le propriétaire du kiosque change les cibles tous les jours, l'usage fréquent a causé de l'usure.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "C'est pourquoi nous devons baisser un peu le canon. Rendre plus facile d'atteindre le centre de la cible.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Maintenant, la partie excitante : tourne légèrement le fusil et aligne-le avec l'oreille du lapin, puis tu pourrais toucher deux cibles simultanément. Tout est question de trouver le bon angle, et la balle pourrait rebondir vers la suivante.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 197,
+              "PlotLineKey": "Toucher deux cibles... en même temps ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Oui, il faut utiliser le bon angle et profiter de l'élan. C'est un peu comme faire des ricochets.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 198,
+              "PlotLineKey": "Ça c'est nouveau.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 199,
+              "PlotLineKey": "Ça a l'air plutôt fou. Tu es sûr c'est possible ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Je l'ai essayé pour la première fois il y a deux ans. Un beau jour, je pouvais toucher trois cibles à la fois.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Ils ont utilisé mon record comme un argument publicitaire, offrant un souvenir exclusif à quiconque peut le battre.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 200,
+              "PlotLineKey": "Un souvenir exclusif ? Là, ça m'intéresses...",
+              "PlayVoice": false,
+              "JumpToId": 30
+            },
+            {
+              "TextId": 201,
+              "PlotLineKey": "Donc le détenteur du record est juste devant moi.",
+              "PlayVoice": false,
+              "JumpToId": 31
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Bien. J'avais un peu peur que ça ne t'intéresse pas.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 32
+        },
+        {
+          "Id": 31,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Avec {PlayerName} comme nouveau challenger, je risque de ne pas garder ce record longtemps.",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 32
+        },
+        {
+          "Id": 32,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 202,
+              "PlotLineKey": "As-tu déjà essayé de toucher toutes les cibles d'un seul coup ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 33,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Hmm... Si je devais essayer ça, il faudrait que je calcule la trajectoire des balles à deux décimales près.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "C'est techniquement possible avec ma main prothétique... mais je serai probablement banni de la compétition.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "{PlayerName}, je vais me contenter d'utiliser ma main gauche pour que ce soit une compétition sûre et équitable.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Bon, sérieux, j'accorde plus d'importance au processus qu'au résultat. Pour moi, il s'agit avant tout de passer un bon moment.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 37,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Après tout, ce n'est pas une enquête scientifique, et il n'y a pas d'objectif final. Nous sommes ici pour nous amuser, et je veux en profiter au maximum. Qu'en penses-tu, {PlayerName} ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "Tout à fait !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "Bien sûr. C'est tout l'intérêt !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 38,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Ravi qu'on soit sur la même longueur d'ondes. Puis-je alors te faire une demande ? Me rejoindras-tu pour la Fête de Chasser la Lune l'année prochaine, {PlayerName} ?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 205,
+              "PlotLineKey": "Sérieux ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 206,
+              "PlotLineKey": "On fait déjà des plans pour l'année prochaine ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 39,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Tu m'as bien entendu. L'idée m'est venue en regardant la lune, côte à côte. Même si je ne sais pas où tu seras, ni ce que tu feras à ce moment-là... je veux quand même t'inviter.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Je ne compte pas te faire aider à nouveau avec les vœux à la Loge de l'Arbre-lune. Peut-être qu'on essaiera un autre jeu de Tir lunaire, ou qu'on goûtera des nouvelles friandises au Havre de Yumyum. Ou on suivra simplement la foule, et on verra où ça nous mène...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Bien qu'il reste encore beaucoup de temps avant la célébration de l'année prochaine, je ne peux m'empêcher d'imaginer ce qu'on pourrait faire ensemble.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 42,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Je n'ai pas encore de plan précis, mais avec toi, {PlayerName}... j'ai le sentiment que ce sera amusant.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 43,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "Puisque tu le présentes ainsi...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 208,
+              "PlotLineKey": "Maintenant, j'ai quelques idées pour l'année prochaine.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 44,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 209,
+              "PlotLineKey": "(Je veux essayer quelque chose de différent...)",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 210,
+              "PlotLineKey": "(J'accepte l'invitation de Xiangli Yao...)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 45,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Je vois. Donc c'est le vœu que tu as formulé pour la Fête de Chasser la Lune de l'année prochaine.",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 46,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "En tant que gardien de la Loge et en tant que Xiangli Yao...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "Xiangli Yao",
+          "PlotLineKey": "Je promets de faire tout ce qu'il faut pour qu'il se réalise.",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "Id": 880000018,
+  "Name": "다가오는 밝은 달",
+  "Description": "소원나무 아래에서 다시 상리요를 만났습니다. 두 사람은 다시 동행하지만 이번엔 다른 사람의 소원 때문이 아닌 달빛을 맞으며 평범하면서도 시끌벅적한 거리에서 천천히 산책합니다",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 880000018,
+  "ShowQuestList": [],
+  "QuestDesc": "소원나무 아래에서 다시 상리요를 만났습니다. 두 사람은 다시 동행하지만 이번엔 다른 사람의 소원 때문이 아닌 달빛을 맞으며 평범하면서도 시끌벅적한 거리에서 천천히 산책합니다",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 880700004,
+      "PreQuestName": "달맞이 축제 진행 시"
+    },
+    {
+      "Type": "OpenDate",
+      "DateId": 1810,
+      "OpenType": "InTimeRange"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 182,
+              "PlotLineKey": "상리요? 지금 뭐 하고 있어요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 183,
+              "PlotLineKey": "달나무집에 아직 처리하지 못한 소원이라도 있나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "상리요",
+          "PlotLineKey": "{PlayerName} 덕분에 올해 달나무집에 들어온 소원들은 전부 처리했어요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "상리요",
+          "PlotLineKey": "이건 달나무집의 애프터서비스라고 할 수 있겠네요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "상리요",
+          "PlotLineKey": "소원이 이뤄진 소원지가 달린 등불을 밝히고, 나무에 매달아 놓는 거예요. 소원의 주인이 바쁘거나, 여기 오고 싶어 하지 않는 경우에는 제가 대신하고 있어요",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 184,
+              "PlotLineKey": "이런 일에 왜 절 부르지 않은 거죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 185,
+              "PlotLineKey": "유종의 미를 거두는 거라면 저도 도울게요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "상리요",
+          "PlotLineKey": "글쎄요, 내년까지 기다리셔야 될 것 같네요. {PlayerName}이(가) 오기 전에 마지막 종이를 걸어 버려서요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "상리요",
+          "PlotLineKey": "달맞이 축제 기간 동안 이뤄진 소원 종이가 이미 많이 걸려 있었어요. 지각하거나 참석하지 못한 사람이 적어서, 남은 것도 많지 않았고요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "상리요",
+          "PlotLineKey": "게다가, 올해 달맞이 축제 전후로 이미 많이 도와주셨잖아요. 금주에서 처음으로 보내는 달맞이 축제인데, 본인을 위한 시간을 많이 가지셔야죠",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "상리요",
+          "PlotLineKey": "마무리 작업은 저 혼자서도 충분해요",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 186,
+              "PlotLineKey": "알겠어요. 그럼 전 편하게 축제를 즐길게요!",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 187,
+              "PlotLineKey": "괜찮아요, 마침 시간이 있거든요",
+              "PlayVoice": false,
+              "JumpToId": 11
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "상리요",
+          "PlotLineKey": "네. 노동과 휴식을 적당히 조절하는 것도, 시기를 놓치지 않고 즐기는 것도 시간을 합리적으로 사용하는 방법이니까요. 모처럼의 휴가인데 아깝게 흘려보내지 마세요",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 11,
+          "Speaker": "상리요",
+          "PlotLineKey": "금주에 온 다음부터 {PlayerName}은(는) 쉴 틈이 없으셨잖아요. 모처럼 생긴 여가 시간은 잘 계획해서 써야 돼요. 안 그러면 순식간에 끝나거든요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "상리요",
+          "PlotLineKey": "즐거운 시간은, 유난히 빨리 지나가니까",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 13
+        },
+        {
+          "Id": 13,
+          "Speaker": "상리요",
+          "PlotLineKey": "올해 달맞이 축제도 벌써 저물어가고 있네요. 다행히 아직 달맞이 야시장 가게들은 남아 있어요. 충분히 구경하지 못했다면 지금이 추억을 쌓을 기회일 것 같네요. 막바지 할인 행사를 하는 가게들도 있으니까요.",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 188,
+              "PlotLineKey": "달맞이 야시장에 대해 잘 알고 있네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 189,
+              "PlotLineKey": "이 방면에 경험이 많군요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "상리요",
+          "PlotLineKey": "사소한 경험들을 잘 쌓은 덕분이죠. 저도 몇 년 전에야 시간을 내서 관심 있는 가게에 가 봤거든요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "상리요",
+          "PlotLineKey": "{PlayerName}도 금주에 조금만 더 일찍 왔었다면, 저만큼 많이 알고 계셨을 거예요",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 190,
+              "PlotLineKey": "진짜요? 연구하느라 바빠서 시간이 없는 줄 알았어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "상리요",
+          "PlotLineKey": "하하, 혼자서 이론이나 데이터, 검증을 기다리는 수많은 가능성에 혼자 몰두하는 건 즐거운 일이죠. 부인하지는 않을게요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "상리요",
+          "PlotLineKey": "하지만 가끔 연구에서 눈을 떼고 떠들썩한 사람들 속으로 들어가 보면, 또 다른 순수한 즐거움을 맛볼 수 있거든요",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 191,
+              "PlotLineKey": "상리요는 어떤 가게를 제일 좋아해요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 192,
+              "PlotLineKey": "특별히 추천할 만한 것이 있나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "상리요",
+          "PlotLineKey": "글쎄요... 달맞이 야시장은 {PlayerName}도 많이 보셨을 텐데. 말보다는, 직접 보는 게 어떠실까요?",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "상리요가 방랑자를 데리고 달맞이 야시장을 돌아다닌다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 193,
+              "PlotLineKey": "저쪽이 달병 맞히기죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 21,
+          "Speaker": "상리요",
+          "PlotLineKey": "맞아요. 저번에 엄청 집중해서 하셨죠",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "상리요",
+          "PlotLineKey": "{PlayerName}은(는) 실전 경험도 많고, 이것저것 잘 하시니까, 사격 솜씨도 나쁘지 않으시겠죠?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 194,
+              "PlotLineKey": "괜찮은 편이죠! 1등보다 조금 부족하네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 195,
+              "PlotLineKey": "네, 자신 있어요!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "상리요",
+          "PlotLineKey": "그럼, 좀 더 어려운 것도 알려드릴 수 있겠네요",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 196,
+              "PlotLineKey": "들어볼게요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 24,
+          "Speaker": "상리요",
+          "PlotLineKey": "달병 맞히기는 인기가 너무 많아서 사장님이 매일 과녁판을 교체해도 항상 새것 같은 상태는 아니에요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "상리요",
+          "PlotLineKey": "총구를 살짝 내리면 과녁 중심에 좀 더 잘 맞힐 수 있어요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "상리요",
+          "PlotLineKey": "물론 이게 어렵다는 건 아니에요. 핵심은 아래를 향한 상태에서, 표적판에 있는 토끼의 왼쪽 귀와 수평이 되도록 총신을 왼쪽으로 살짝 조정하는 거예요. 이렇게 총알이 맞으면 그 힘으로 다음 과녁까지 명중할 수 있거든요",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 197,
+              "PlotLineKey": "한 번에... 과녁을 두 개나 맞춘다고요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 27,
+          "Speaker": "상리요",
+          "PlotLineKey": "네. 입사각을 조정해서, 튕겨 나가도록 치는 거예요. 어릴 때 하던 물수제비랑 같은 원리죠",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 198,
+              "PlotLineKey": "저에게 새로운 기술을 알려주셨네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 199,
+              "PlotLineKey": "듣자니 좀 아슬아슬한데, 이게 정말 가능할까요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 28,
+          "Speaker": "상리요",
+          "PlotLineKey": "재작년 달맞이 축제 때 직접 해 봤는데, 각만 잘 잡으면 한 번에 세 개도 맞힐 수 있어요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "상리요",
+          "PlotLineKey": "나중에는 가게 사장님이 이 기록으로 홍보도 하시더라고요. 이 기록을 달성하거나 추월하는 사람은 달맞이 한정 수첩도 받을 수 있었죠",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 200,
+              "PlotLineKey": "보상도 주나요? 약간 흥이 나네요...",
+              "PlayVoice": false,
+              "JumpToId": 30
+            },
+            {
+              "TextId": 201,
+              "PlotLineKey": "알고 보니 제 앞에 서 있는 사람이 바로 그 기록 보유자였군요",
+              "PlayVoice": false,
+              "JumpToId": 31
+            }
+          ]
+        },
+        {
+          "Id": 30,
+          "Speaker": "상리요",
+          "PlotLineKey": "그렇게 말씀하시니까 안심이 되네요. 이런 도전에 관심이 없으실까 걱정했거든요",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 32
+        },
+        {
+          "Id": 31,
+          "Speaker": "상리요",
+          "PlotLineKey": "글쎄요. {PlayerName}(이)라면 금방 절 뛰어넘고 신기록을 세울지도 모르죠",
+          "PlayVoice": true,
+          "Options": [],
+          "JumpToId": 32
+        },
+        {
+          "Id": 32,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 202,
+              "PlotLineKey": "한 번에 모든 과녁을 쓰러뜨려 본 적이 있나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 33,
+          "Speaker": "상리요",
+          "PlotLineKey": "쉽지는 않아요. 그 정도면 소수점 아래 두 자리까지 궤적을 계산해야 되거든요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 34,
+          "Speaker": "상리요",
+          "PlotLineKey": "의수를 사용하면 할 수야 있겠지만, 아마 규칙 위반으로 가게 사장님한테 바로 출입 금지를 당할 거예요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "상리요",
+          "PlotLineKey": "{PlayerName}의 형평성과 제 안전을 위해서라도 왼손만 쓰는 게 좋을 것 같네요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "상리요",
+          "PlotLineKey": "좋아요. 진지하게 말하면, 사실 전 이럴 때 결과보다는 미지의 결과가 도출되는 과정에 더 관심이 많아요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 37,
+          "Speaker": "상리요",
+          "PlotLineKey": "연구까지 동원해서 승패에 목숨을 거는 것보다는, 근본적으로 재미있게 놀고 즐기는 게 가장 중요하다고 생각하거든요. {PlayerName}은(는) 어떠세요?",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "제 생각도 같아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "당연하죠! 재미없게 노는 게 무슨 의미가 있겠어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 38,
+          "Speaker": "상리요",
+          "PlotLineKey": "{PlayerName}도 그렇게 느끼셨다니, 다음 달맞이 축제 땐 같이 놀 수 있도록 미리 약속을 해 두고 싶네요",
+          "PlayVoice": true,
+          "Options": [
+            {
+              "TextId": 205,
+              "PlotLineKey": "네?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 206,
+              "PlotLineKey": "약속의 기간이 엄청 기네요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 39,
+          "Speaker": "상리요",
+          "PlotLineKey": "네. 그때 당신이 어디서, 무엇을 하고 있을지 지금으로서는 확신할 수 없지만, 방금 달빛이 저무는 걸 보니까 갑자기 생각이 나서요. 그래서 말해 본 거예요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 40,
+          "Speaker": "상리요",
+          "PlotLineKey": "물론, 계속 모두의 소원을 들어달라는 건 아니에요. 달나무집과는 상관없어요. 제가 고안한 새로운 놀이법을 같이 해보자는 것일 수도 있고, 가게에서 나온 새 과자를 맛보자는 걸 수도 있고, 무작정 사람들을 따라 돌아다니는 걸 수도 있죠...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 41,
+          "Speaker": "상리요",
+          "PlotLineKey": "내년은 아직 오지도 않았는데, 벌써부터 떠오르는 게 많네요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 42,
+          "Speaker": "상리요",
+          "PlotLineKey": "아직 확실한 건 없지만, {PlayerName}와(과) 함께 달맞이 축제를 즐긴다면 저희 둘 다 재미있게 보낼 수 있을 거예요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 43,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 207,
+              "PlotLineKey": "이렇게까지 말한다면...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 208,
+              "PlotLineKey": "내년 달맞이 축제 일정을 꼭 비워둘게요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 44,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 209,
+              "PlotLineKey": "(한 번도 안 해본 새로운 것을 시도해 볼 기회가...)",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 210,
+              "PlotLineKey": "(상리요의 약속에 동의를...)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 45,
+          "Speaker": "상리요",
+          "PlotLineKey": "좋아요. 그럼 이건 {PlayerName}이(가) 저한테 비는 내년 달맞이 축제 소원이라고 생각할게요",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 46,
+          "Speaker": "상리요",
+          "PlotLineKey": "달나무집을 물려받는다는 사명감으로든, 제 개인적인 뜻으로든...",
+          "PlayVoice": true,
+          "Options": []
+        },
+        {
+          "Id": 47,
+          "Speaker": "상리요",
+          "PlotLineKey": "당신의 소원은 제가 반드시 이루어 드릴 테니까",
+          "PlayVoice": true,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

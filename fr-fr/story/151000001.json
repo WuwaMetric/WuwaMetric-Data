@@ -1,0 +1,119 @@
+{
+  "Id": 151000001,
+  "Name": "Échos azurés dans le vent - II",
+  "Description": "Descendre à l'étage inférieur et sauver l'Aetherfin piégé avec KU-Clé",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 151000001,
+  "ShowQuestList": [],
+  "QuestDesc": "Descendre à l'étage inférieur et sauver l'Aetherfin piégé avec KU-Clé",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 151000000,
+      "PreQuestName": "Échos azurés dans le vent - I"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "KU-Clé",
+          "PlotLineKey": "Si vous êtes {Male=prêt;Female=prête}, {PlayerName}, allons-y.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "KU-Clé",
+          "PlotLineKey": "Ça nous prendrait une éternité d'y aller à pied, alors j'ai demandé un accès temporaire aux portails de la Gardienne du littoral.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "KU-Clé",
+          "PlotLineKey": "Ça nous permettra de nous déplacer beaucoup plus rapidement.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 442,
+              "PlotLineKey": "Tu peux faire ça ?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 443,
+              "PlotLineKey": "Où est-ce que je peux apprendre à faire ça ?",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "KU-Clé",
+          "PlotLineKey": "Bien entendu ! Je suis votre premier assistant, il faut que je sache faire ce genre de choses.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 5,
+          "Speaker": "KU-Clé",
+          "PlotLineKey": "Si vous souhaitez acquérir cette capacité, vous devrez connecter votre esprit au système Tethys, et...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 444,
+              "PlotLineKey": "Laisse tomber.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "KU-Clé",
+          "PlotLineKey": "Vous pouvez aussi activer les portails à l'aide de votre autorisation spéciale, comme la dernière fois.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "KU-Clé",
+          "PlotLineKey": "Quoi qu'il en soit, j'ai ouvert le portail pour vous. Allons-y !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 16,
+          "Speaker": "KU-Clé",
+          "PlotLineKey": "De rien ! Pour tout vous dire, j'en avais déjà pris une dans la zone supérieure ! Je vais l'imprimer aussi !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "KU-Clé",
+          "PlotLineKey": "Et n'oublions pas que la Gardienne du littoral nous a aidés... Nous devrions la remercier en personne.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "KU-Clé",
+          "PlotLineKey": "Elle n'a pas dû voir les aetherfins depuis bien longtemps.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}
