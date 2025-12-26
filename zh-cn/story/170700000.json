@@ -1,0 +1,803 @@
+{
+  "Id": 170700000,
+  "Name": "遗愿清单",
+  "Description": "你收到一条未知联系人的飞讯",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 170700000,
+  "ShowQuestList": [],
+  "QuestDesc": "你收到一条未知联系人的飞讯",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 10,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "罗比",
+          "PlotLineKey": "前方就是我提到的海底隧道了，就麻烦你带我一同进入了……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "罗比",
+          "PlotLineKey": "这……还是我第一次见到海底下的世界，这幅景象比系统中存储的图片要美丽许多。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "涂装工程师",
+          "PlotLineKey": "这个型号的天帷机兵出现在这里，怎么？是身体结构哪里出问题了吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "罗比",
+          "PlotLineKey": "不，我只是想拜托您帮我换一套机身涂装。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "涂装工程师",
+          "PlotLineKey": "这样啊，不过涂装的染色材料已经用光了，下一批物资要等下周才能送到，你们下周再来吧。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 354,
+              "PlotLineKey": "如果要等一周，它早就……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "现在还缺哪些染色材料呢，我们可以自己去收集。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "涂装工程师",
+          "PlotLineKey": "我想想……这样吧，你们急着用的话，我开一份清单给你们。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "罗比",
+          "PlotLineKey": "{PlayerName}，麻烦您把我带到那把巨剑的顶端吧。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 79,
+              "PlotLineKey": "你要干什么？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 80,
+              "PlotLineKey": "你可不要想不开啊。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "罗比",
+          "PlotLineKey": "不，我只是想通过坠入湖中的方式体验在空中飞行的感觉。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "罗比",
+          "PlotLineKey": "在我的数据库中，我查询到人类在各类复杂的行为中多次提及到了一个词语——征服……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "罗比",
+          "PlotLineKey": "人类曾惧怕火，于是发明了工具学会了控制火。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "罗比",
+          "PlotLineKey": "人类不能在海上行走，于是制造了船只跨越汪洋。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "罗比",
+          "PlotLineKey": "人类向往天空，于是设计出了各类装置，完成了翱翔天际的梦想。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "罗比",
+          "PlotLineKey": "渺小却又不断地在征服自己未曾踏足的领域，所以……在最后这个时刻，我也想突破一下自己的极限。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "罗比",
+          "PlotLineKey": "即便要付出一些代价……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "罗比",
+          "PlotLineKey": "{PlayerName}，像我这个型号的机兵，已经没有机会装配上飞行模块了，我也从未踏足过天空。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "罗比",
+          "PlotLineKey": "所以我只有这个办法，别担心，我的缓冲模块会保护我的安全……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 117,
+              "PlotLineKey": "但那不会加速你的能量使用吗……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "罗比",
+          "PlotLineKey": "这就是我说的代价，我们走吧。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "罗比",
+          "PlotLineKey": "{PlayerName}，能帮我装配上这块零件吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "（尝试装配零件）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "你尝试了好几次，装配零件都失败了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "罗比",
+          "PlotLineKey": "……零件的接口端似乎已经变形了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "罗比",
+          "PlotLineKey": "但至少我找回它了，即使把它握在手中，我也感觉身上缺失的那部分漏洞被填上了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "罗比",
+          "PlotLineKey": "谢谢您的帮忙，走了这么久，您累了吗？我知道这附近有一处地热温泉，跟我来吧。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "系统提示音",
+          "PlotLineKey": "天帷机兵，代号——罗比，压力、温度模块的数据参数维持在正常范围内，核心能源模块严重受损。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "系统提示音",
+          "PlotLineKey": "剩余能源59%，预计还能支撑系统……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "罗比",
+          "PlotLineKey": "够了，关闭自检系统。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 318,
+              "PlotLineKey": "你看上去受损了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 319,
+              "PlotLineKey": "要我帮忙叫学院的工程师吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "罗比",
+          "PlotLineKey": "谢谢您，不过没有必要了，学院的工程师已经帮我检修过，我的核心模块遭到虚质磁暴严重影响。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "罗比",
+          "PlotLineKey": "再无完全修复的可能，只能看着供给系统的能源一点一点往外流失。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 320,
+              "PlotLineKey": "这跟等待死亡有什么区别！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "罗比",
+          "PlotLineKey": "机器的概念中不存在死亡，只有“开启”与“关闭”两种状态。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "罗比",
+          "PlotLineKey": "我的职责是保护这片区域，我因这个目标而被开启，现在也将因这个目标将能源耗尽到最后一刻。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "罗比",
+          "PlotLineKey": "即便我的大部分功能模块已经无法启动……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 321,
+              "PlotLineKey": "这样的等待毫无价值。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "罗比",
+          "PlotLineKey": "价值……我的系统并不明白您口中的价值是什么意思？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "与其在原地等待能源无止尽地流失，不如依靠仅剩的能源去做些更有意义的事。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "除开你的任务目标外，对你来说有意义的事情。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "罗比",
+          "PlotLineKey": "意义……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 322,
+              "PlotLineKey": "比如你一直想做但未做的事。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "罗比",
+          "PlotLineKey": "系统显示您的说法类似于人类的遗愿清单，未经死亡的机器无法享用这个权利。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "罗比",
+          "PlotLineKey": "但……系统并未阻止我深度查询这一词汇。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 323,
+              "PlotLineKey": "创造你的人也许也希望你享受这个权利。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "罗比",
+          "PlotLineKey": "我……我想先去海底隧道看看，但我现有的能源支撑不了我到那里。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 324,
+              "PlotLineKey": "我来帮你吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "罗比",
+          "PlotLineKey": "沿着这条路继续向前吧，放心，剩余的能源足以支撑我完成最后的愿望。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "你沿着道路带着罗比一同前进，来到了坠剑湖的最高处。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "系统提示音",
+          "PlotLineKey": "剩余能源不足5%……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "你的能源……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "罗比",
+          "PlotLineKey": "关闭系统提示音，不用在意，把注意力都放在我们要做的事情上吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "罗比",
+          "PlotLineKey": "看来，这是我的起点，也将是我的终点了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "罗比",
+          "PlotLineKey": "到现在为止，其实我也无法理解你最初所说的做更有意义的事情。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "罗比",
+          "PlotLineKey": "在你们人类眼中，意义时常与“爱”挂钩，我的造物主甚至把爱写进了我的底层代码里，但我无法理解“爱”这一行为。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "罗比",
+          "PlotLineKey": "经过这短短的一天，我似乎有点理解了“爱”的表达，我今天做了许多与自己有关的事情。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "罗比",
+          "PlotLineKey": "当我再次回顾数据库里关于“爱”的案例时，我会把自己也代入其中。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "罗比",
+          "PlotLineKey": "我开始理解拥抱、亲吻，甚至一些强烈情绪的文字语言。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "罗比",
+          "PlotLineKey": "所以我把最后1%的能源花在了上面提到的行为解析，系统的运算结果为：",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "罗比",
+          "PlotLineKey": "真正地学会表达爱意，也许要先学会爱自己，就像罗比今天做的一切。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "罗比",
+          "PlotLineKey": "我不会拥抱、亲吻，也不会使用复杂优美的文字语言，我表达爱意的方式只有一种。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "罗比",
+          "PlotLineKey": "3+10i，在虚数轴上，我对这个世界完整的爱，想要守护这个世界的爱。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "系统提示音",
+          "PlotLineKey": "强制启动系统提示音，剩余能源不足1%，……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "罗比",
+          "PlotLineKey": "总有人类说希望机器代替他们前行，但对我来说，现在……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "罗比",
+          "PlotLineKey": "我希望你能代替我前行，带着机器对这个世界虚数的爱前行……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "罗比",
+          "PlotLineKey": "好了，{PlayerName}，我该走了，之后我的事，以及这个世界的事，就拜托你了。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "罗比",
+          "PlotLineKey": "怎么样？温度合适吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 471,
+              "PlotLineKey": "还好。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 472,
+              "PlotLineKey": "堪比七丘浴场的体验了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "罗比",
+          "PlotLineKey": "嗯，老实说我也想体验一下温泉，但我们是机器，对温度没有任何实体感觉。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "罗比",
+          "PlotLineKey": "对水也只有黏糊糊的触感。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 473,
+              "PlotLineKey": "试试在系统查询温泉词汇？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "罗比",
+          "PlotLineKey": "收到，正在查询结果，数据库显示温泉的灼热感，实质上人类在水中的感受也就是温度刺激皮肤引发的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "罗比",
+          "PlotLineKey": "对机器来说，类似结构内部的电流刺激。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 474,
+              "PlotLineKey": "也许噼啪啪能帮上忙？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 475,
+              "PlotLineKey": "也许机麋能帮上忙？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 476,
+              "PlotLineKey": "也许岩蛛S4型能帮上忙？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "罗比",
+          "PlotLineKey": "怎么样？温度合适吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 471,
+              "PlotLineKey": "还好。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 472,
+              "PlotLineKey": "堪比七丘浴场的体验了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "罗比",
+          "PlotLineKey": "嗯，老实说我也想体验一下温泉，但我们是机器，对温度没有任何实体感觉。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "罗比",
+          "PlotLineKey": "对水也只有黏糊糊的触感。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 473,
+              "PlotLineKey": "试试在系统查询温泉词汇？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "罗比",
+          "PlotLineKey": "收到，正在查询结果，数据库显示温泉的灼热感，实质上人类在水中的感受也就是温度刺激皮肤引发的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "罗比",
+          "PlotLineKey": "对机器来说，类似结构内部的电流刺激。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 474,
+              "PlotLineKey": "也许噼啪啪能帮上忙？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 475,
+              "PlotLineKey": "也许机麋能帮上忙？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 476,
+              "PlotLineKey": "也许岩蛛S4型能帮上忙？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "你召唤出了噼啪啪，噼啪啪对着温泉释放了电流。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "罗比的状态发生了一些变化，噼啪啪的效果似乎极佳。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "罗比",
+          "PlotLineKey": "……很明显的刺痛感，这种感觉时不时地沿着我体内各个管线传递到身体各个部位。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 9,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "紧接着，你尝试利用各类声骸帮助它去感受温泉真实的触感……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "罗比",
+          "PlotLineKey": "好了，这段难得的体验我会记录在数据库中，即使我陷入休眠后，这段数据也会共享于其他机兵。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "罗比",
+          "PlotLineKey": "我想……所有机器人都应该试试泡温泉，不管是天然的温泉，还是末日后的酒店温泉。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "罗比",
+          "PlotLineKey": "我还想做更多系统设定外的事情，比如，换一套机身涂装……{PlayerName}，您能带我回学院一趟吗？",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 9,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "你召唤出了矿岩机麋，它似乎把温泉当作了矿石，不断将激光射向温泉。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "罗比的状态有一点点变化，矿岩机麋的效果似乎一般。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "罗比",
+          "PlotLineKey": "……有点点刺痛感，这种感觉时不时地沿着我体内各个管线传递到身体各个部位。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 12,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "你召唤出了岩蛛S4型，它似乎不知道该做什么。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "罗比望着它，状态没有任何变化，而岩蛛也似乎没有起到任何作用。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "罗比",
+          "PlotLineKey": "好像……没什么变化，我们再想想其它办法吧。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

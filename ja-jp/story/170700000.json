@@ -1,0 +1,803 @@
+{
+  "Id": 170700000,
+  "Name": "最期の願い",
+  "Description": "突然届いた差出人不明のメッセージ。送信先を間違えたというが、果たして偶然なのか、それとも狙われたのか――相手の目的とは……",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 170700000,
+  "ShowQuestList": [],
+  "QuestDesc": "突然届いた差出人不明のメッセージ。送信先を間違えたというが、果たして偶然なのか、それとも狙われたのか――相手の目的とは……",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 10,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ロビ",
+          "PlotLineKey": "前方が、私が言っていた海底トンネルです。どうか、一緒に入っていただけませんか……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ロビ",
+          "PlotLineKey": "この眺め……海底の世界を見るのは初めてです。システムに保存されている画像よりも、ずっと美しいですね。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "塗装エンジニア",
+          "PlotLineKey": "このモデルのメカスカウトがどうしてここに……？どこか、不具合でもあったのか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ロビ",
+          "PlotLineKey": "いいえ。ただ、機体の塗装を変えていただきたく、参りました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "塗装エンジニア",
+          "PlotLineKey": "そうか。あいにく、塗装のスプレーに使う素材がもう切れてしまってるんだ。次の物資は来週に届くから、その時にまた来てくれ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 354,
+              "PlotLineKey": "{Male=一週間も待っていたら、こいつはもう……;Female=一週間も待っていたら、この子はもう……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=足りない素材を教えてくれないか。自分たちで集めてくる。;Female=足りない素材を教えて。自分たちで集めてくるから。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "塗装エンジニア",
+          "PlotLineKey": "そうだな……よし、急いでいるのならリストを渡そう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ロビ",
+          "PlotLineKey": "{PlayerName}様、どうか私をあの巨剣の頂上まで連れて行ってくれませんか。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 79,
+              "PlotLineKey": "{Male=何をするつもりだ？;Female=何をするつもりなの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 80,
+              "PlotLineKey": "{Male=まさか……早まるなよ。;Female=まさか……早まらないで。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ロビ",
+          "PlotLineKey": "いいえ、違います。ただ、湖に落下することで、空中を飛ぶ感覚を体験したいのです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ロビ",
+          "PlotLineKey": "データベースで検索したところ、人間は数多くの複雑な行動の中で、ある言葉を繰り返し口にしていることがわかりました――「征服」。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ロビ",
+          "PlotLineKey": "人類は火を恐れながらも、それを操る術を発明しました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ロビ",
+          "PlotLineKey": "海の上を歩けない人類は船を造り、大海原を越えました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ロビ",
+          "PlotLineKey": "空に憧れた人類は装置を設計し、ついには大空を翔ける夢を叶えました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ロビ",
+          "PlotLineKey": "小さな存在でありながら、未踏の領域に挑み続ける……ですから……最期の時、私も自分の限界を突破してみたいのです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ロビ",
+          "PlotLineKey": "たとえ、代償を払うことになっても……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ロビ",
+          "PlotLineKey": "{PlayerName}様、私のようなモデルには飛行モジュールが装備されることはなく、空へ踏み出す機会も与えられませんでした。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ロビ",
+          "PlotLineKey": "ですから、この方法しかないのです。どうかご心配なく。緩衝モジュールが私を守ってくれます……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 117,
+              "PlotLineKey": "{Male=だが、それはエネルギーの消費を早めることになるんじゃないか……;Female=でも、それはエネルギーの消費を早めることになるんじゃ……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "ロビ",
+          "PlotLineKey": "それが、私の言った代償です。さあ、行きましょう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ロビ",
+          "PlotLineKey": "{PlayerName}様、このパーツの取り付けを手伝っていただけますか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "（パーツを取り付けてみる）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなたは何度か試みたが、パーツを取り付けることはできなかった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ロビ",
+          "PlotLineKey": "……接続端子が変形してしまっているようですね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ロビ",
+          "PlotLineKey": "少なくとも、取り戻すことができました。手に握るだけでも、私の欠けた部分が埋まったように感じます。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ロビ",
+          "PlotLineKey": "ご協力いただき、ありがとうございます。長い道のりを歩かれて、お疲れではありませんか？この近くに地熱温泉があります。私についてきてください。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "システム",
+          "PlotLineKey": "メカスカウト、コードネーム——ロビ。圧力、温度モジュールのデータパラメータは正常範囲内。コアエネルギーモジュールに深刻な損傷あり。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "システム",
+          "PlotLineKey": "残存エネルギー59%。システムを維持できる時間は、推定……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ロビ",
+          "PlotLineKey": "もういい、セルフチェックを停止。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 318,
+              "PlotLineKey": "{Male=かなりダメージを受けているようだが……？;Female=かなりダメージを受けているようだけど……？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 319,
+              "PlotLineKey": "学園のエンジニアを呼んでこようか？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ロビ",
+          "PlotLineKey": "ありがとうございます。ですが、その必要はありません。既に学園のエンジニアには点検していただいたので。私のコアモジュールは、ヴォイドストームによって修復不可能な影響を受けています。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ロビ",
+          "PlotLineKey": "完全に修復する方法は、もはやありません。ただ、システムに供給されるエネルギーが少しずつ失われていくのを、見ていることしかできないのです。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 320,
+              "PlotLineKey": "{Male=それは、死を待つのと何が違うんだ！;Female=それは、死を待つのと何が違うと言うの！}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "ロビ",
+          "PlotLineKey": "機械の思考回路に、死は存在しません。あるのは「起動」と「停止」という、二つの状態だけです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ロビ",
+          "PlotLineKey": "私の役目は、この区域を守ること。私はその目標のために起動され、今また、その目標のために最後のエネルギーを使い果たすだけです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ロビ",
+          "PlotLineKey": "たとえ、ほとんどの機能が既に使えなくなっていても……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 321,
+              "PlotLineKey": "そんなやり方に価値はない。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "ロビ",
+          "PlotLineKey": "価値……私のシステムでは、あなたの仰る「価値」の意味を理解できません。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=その場でエネルギーが尽きるのを待つよりも、残されたエネルギーでもっと意味のあることをするべきだ。;Female=その場でエネルギーが尽きるのを待つよりも、残されたエネルギーでもっと意味のあることをするべきよ。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=与えられた任務とは別に、あなたにとって意味のあることをな。;Female=与えられた任務とは別に、あなたにとって意味のあることをね。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ロビ",
+          "PlotLineKey": "意味……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 322,
+              "PlotLineKey": "{Male=例えば、ずっとやりたかったが、できなかったこととか。;Female=例えば、ずっとやりたかったけど、できなかったこととか。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "ロビ",
+          "PlotLineKey": "システムによると、あなたの仰ることは人間の「最期の願い」に似ています。死を経験できない機械に、その権利を持つことは許されていません。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ロビ",
+          "PlotLineKey": "ですが……なぜかシステムは、私が検索するのを止めませんでした。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 323,
+              "PlotLineKey": "{Male=あなたを創った人も、あなたがその権利を持つことを望んでいるかもしれないぞ。;Female=あなたを創った人も、あなたがその権利を持つことを望んでいるかもしれない。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "ロビ",
+          "PlotLineKey": "私……まずは、海底トンネルへ行ってみたく思います。ですが、残されたエネルギーでは、そこまでは持ちません。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 324,
+              "PlotLineKey": "{Male=俺が手伝おう。;Female=私が手伝おう。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ロビ",
+          "PlotLineKey": "この道を進みましょう。エネルギーは充分です、ご安心を。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "あなたはロビと共に歩み、サンダーミール全体を一望できる高所に到達した。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "システム",
+          "PlotLineKey": "残存エネルギー5%未満……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "もう、エネルギーが……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ロビ",
+          "PlotLineKey": "システムの音声通知を停止します。どうかお気になさらず。ただ、今私たちがやるべきことに集中しましょう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ロビ",
+          "PlotLineKey": "どうやらここが私のスタート地点であり、そして同時に私の終着点となるようですね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ロビ",
+          "PlotLineKey": "実は、私は今もあなたが最初に仰った、「意味のあることをする」というお言葉がよくわかっていません。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ロビ",
+          "PlotLineKey": "あなた方人間の目には、「意味」は、しばしば「愛」と結びつけられます。私の創造主も、私のプログラムの根幹に「愛」を書き込みましたが、私にはそれを理解できませんでした。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ロビ",
+          "PlotLineKey": "短い一日でしたが……私は少し、「愛」の表現を理解したように思います。私は今日、多くのことを自分のためにしました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ロビ",
+          "PlotLineKey": "データベースにある「愛」に関する情報を振り返る時、私は、それに感情移入できました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ロビ",
+          "PlotLineKey": "私は、抱擁、接吻、そして強い感情を伴う、いくつかの言葉の持つ意味を理解し始めました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ロビ",
+          "PlotLineKey": "ですから、最後の1%のエネルギーを、それらの行為の解析に費やしました。その結果は：",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ロビ",
+          "PlotLineKey": "本当に愛の表現を身につけたいのであれば、まずは自分自身を愛さなければなりません。このロビが今日したように。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ロビ",
+          "PlotLineKey": "私には、抱擁も接吻もできません。複雑で美しい言葉を使うこともできません。愛を表現するなら、私にとってやり方は一つしかありません。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ロビ",
+          "PlotLineKey": "3+10i。それは虚軸の上で、私がこの世界に抱く、完全な愛。この世界を守りたいと願う、愛。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "システム",
+          "PlotLineKey": "システム音声通知を強制起動。残存エネルギー1%未満……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ロビ",
+          "PlotLineKey": "いつも、機械が人間の代わりに文明を進めてほしいと願う人がいます。ですが、私は逆に……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "ロビ",
+          "PlotLineKey": "{PlayerName}様が私の代わりに、前へ進むよう願います。機械が抱く、この世界への虚数の愛を持ちながら……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "ロビ",
+          "PlotLineKey": "さて、{PlayerName}様、私はもう行かなければ……その後の私のこと、そしてこの世界のことは、あなたにお任せします。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ロビ",
+          "PlotLineKey": "温度はいかがですか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 471,
+              "PlotLineKey": "{Male=まあまあかな。;Female=まあまあね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 472,
+              "PlotLineKey": "{Male=セブン・ヒルズの浴場に匹敵する快適さだ。;Female=セブン・ヒルズの浴場に匹敵する快適さね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ロビ",
+          "PlotLineKey": "ええ。実を言うと、私も温泉を体験してみたいのですが、機械ですので温度をうまく感じ取ることができません。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ロビ",
+          "PlotLineKey": "水に対しても、粘ついた感触しか感じられません。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 473,
+              "PlotLineKey": "システムで、温泉という言葉を調べてみたら？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ロビ",
+          "PlotLineKey": "そうですね。検索を実行中……データベースによれば、温泉の熱さとは、人間が感じる熱い水による皮膚への刺激とのことです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ロビ",
+          "PlotLineKey": "機械にとっては、内部を走る電流の刺激に近いかもしれません。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 474,
+              "PlotLineKey": "{Male=ビリリなら役に立つかもしれない。;Female=ビリリなら役に立つかも。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 475,
+              "PlotLineKey": "{Male=メカレインディアなら役に立つかもしれない。;Female=メカレインディアなら役に立つかも。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 476,
+              "PlotLineKey": "{Male=イワグモS4型なら役に立つかもしれない。;Female=イワグモS4型なら役に立つかも。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ロビ",
+          "PlotLineKey": "温度はいかがですか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 471,
+              "PlotLineKey": "{Male=まあまあかな。;Female=まあまあね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 472,
+              "PlotLineKey": "{Male=セブン・ヒルズの浴場に匹敵する快適さだ。;Female=セブン・ヒルズの浴場に匹敵する快適さね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ロビ",
+          "PlotLineKey": "ええ。実を言うと、私も温泉を体験してみたいのですが、機械ですので温度をうまく感じ取ることができません。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ロビ",
+          "PlotLineKey": "水に対しても、粘ついた感触しか感じられません。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 473,
+              "PlotLineKey": "システムで、温泉という言葉を調べてみたら？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "ロビ",
+          "PlotLineKey": "そうですね。検索を実行中……データベースによれば、温泉の熱さとは、人間が感じる熱い水による皮膚への刺激とのことです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ロビ",
+          "PlotLineKey": "機械にとっては、内部を走る電流の刺激に近いかもしれません。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 474,
+              "PlotLineKey": "{Male=ビリリなら役に立つかもしれない。;Female=ビリリなら役に立つかも。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 475,
+              "PlotLineKey": "{Male=メカレインディアなら役に立つかもしれない。;Female=メカレインディアなら役に立つかも。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 476,
+              "PlotLineKey": "{Male=イワグモS4型なら役に立つかもしれない。;Female=イワグモS4型なら役に立つかも。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなたはビリリを召喚した。ビリリは温泉に向かって電流を放った。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ロビがすぐに反応を示した。効果は絶大なようだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ロビ",
+          "PlotLineKey": "チクチクとした痛みを感じます。その感覚が体内の配線を伝わって、各部位へと届いています。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 9,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "続いて、あなたは様々な音骸を利用して、彼に温泉のリアルな感触を伝えようと試みる……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ロビ",
+          "PlotLineKey": "はい。この貴重な体験は、データベースに記録しておきます。たとえ私が休眠状態に入った後も、このデータは他のメカスカウトと共有されます。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ロビ",
+          "PlotLineKey": "思うに……全てのロボットは温泉に一度は入ってみるべきです。天然の温泉であれ、終末を迎えた世界のホテルの温泉であれ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ロビ",
+          "PlotLineKey": "私は、もっとシステム指定外のことをしてみたいです。例えば、機体の塗装を変えるとか……{PlayerName}様、私を学園へ一度連れて帰っていただけませんか？",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 9,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなたはマイニング・メカレインディアを召喚した。どうやら温泉を鉱石と勘違いしたらしく、そちらへ向けてレイザーを撃ち続けた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ロビがわずかに反応を示した。効果は普通のようだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ロビ",
+          "PlotLineKey": "微弱な痛みを感じます。その感覚が体内の配線を伝わって、各部位へと届いています。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 12,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなたはイワグモS4型を召喚した。それは何をすべきかわかっていないようだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ロビはそれを見つめているが、変化はない。イワグモは役に立たなかったようだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ロビ",
+          "PlotLineKey": "どうやら……変化はないようです。他の方法を考えましょう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

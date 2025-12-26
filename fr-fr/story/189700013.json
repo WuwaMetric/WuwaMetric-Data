@@ -1,0 +1,311 @@
+{
+  "Id": 189700013,
+  "Name": "Réverbération finale - II",
+  "Description": "Vous avez remis un trésor trouvé chez un enfant à S.I.R.E.N.E., et l'analyse a révélé qu'il était lié à un professeur disparu de l'académie. Vous décidez alors de lancer une enquête.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 189700013,
+  "ShowQuestList": [],
+  "QuestDesc": "Vous avez remis un trésor trouvé chez un enfant à S.I.R.E.N.E., et l'analyse a révélé qu'il était lié à un professeur disparu de l'académie. Vous décidez alors de lancer une enquête.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 189700011,
+      "PreQuestName": "Réverbération finale - I"
+    },
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 915000003,
+        "ChildQuestId": 224
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lias",
+          "PlotLineKey": "Merci pour ce que tu as fait pour nous, {PlayerName}. Tu as toute ma confiance, alors...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lias",
+          "PlotLineKey": "J'aimerais te donner deux choses.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 29,
+              "PlotLineKey": "Un enregistreur et une cassette ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lias",
+          "PlotLineKey": "Un professeur est resté avec nous quelque temps ; il me les a confiés.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lias",
+          "PlotLineKey": "Maintenant que j'y pense, il nous a fourni des conseils et des engins très pratiques. Les plus jeunes du camp le tiennent en haute estime.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lias",
+          "PlotLineKey": "Il m'a demandé de les donner à un membre de l'Académie, mais seulement à quelqu'un en qui j'avais confiance.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lias",
+          "PlotLineKey": "Je pense qu'il étudiait la tempête de néant. Il s'en approchait toujours trop près à mon goût.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 30,
+              "PlotLineKey": "Alors...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lias",
+          "PlotLineKey": "Oui... La tempête l'a emporté. Le temps qu'on l'atteigne, c'était trop tard... Il nous a jeté la cassette et l'enregistreur juste avant de disparaître.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lias",
+          "PlotLineKey": "Nous n'avons pas compris ses dernières paroles.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lias",
+          "PlotLineKey": "Je crois qu'en nous les jetant, il espérait désespérément faire parvenir quelque chose d'important au Collectif.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Je les prends. Je vous promets de les ramener à l'Académie et de mettre la cassette du professeur en sûreté dans les archives.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Le professeur... Au bout du compte, il a embrassé la mort. Mais cette fois, ce n'était pas pour son propre compte...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Le système ne devrait pas qualifier sa mort de suicide.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Il faut que je raconte la vérité à S.I.R.E.N.E. !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "Tout va bien, {PlayerName} ? Tu as l'air...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 86,
+              "PlotLineKey": "Sa mort n'aurait pas dû être classée comme un suicide.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "Je tiens à préciser que l'Académie n'a jamais officiellement classé la mort du professeur comme un suicide.Il ne s'agissait que d'une hypothèse.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 87,
+              "PlotLineKey": "Hein ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "Néanmoins... Aujourd'hui, nous avons trouvé la conclusion de cette histoire. Un étudiant a découvert une information clé.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 88,
+              "PlotLineKey": "Alors, tu es au courant ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "À l'instant où tu as téléchargé les données depuis le dépôt de cassettes, mon système a été alerté.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "Aimerais-tu consulter le rapport complet concernant le professeur Sestan ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 89,
+              "PlotLineKey": "Accéder au rapport.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "Récupération des données concernant le professeur Sestan. Ce dernier et son assistant droïde ont disparu lors d'une expédition scientifique.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "D'après les témoins, le professeur Sestan a quitté le campement avec le droïde après minuit, sans un mot, et plus personne ne les a jamais revus.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "Par la suite, l'Académie a fouillé les quartiers du professeur et a découvert une note qui ressemblait à une lettre de suicide.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "La lettre décrivait la frustration et le désespoir du professeur concernant sa carrière de chercheur.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "Il était évident que le professeur avait éprouvé une grande confusion dans son domaine et avait même franchi certaines limites éthiques.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "Cependant, un étudiant a fini par découvrir que le professeur avait continué ses recherches académiques après sa disparition, même si son unique motivation était de retrouver un sens à la vie dans la mort.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "Au bout du compte, il est parvenu à redécouvrir le principe fondamental de la science : toute vie doit être traitée de manière équitable, même celle d'un renne mécanique.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "Il s'agit d'une vérité incontestable.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "Pour conclure, S.I.R.E.N.E. et l'Académie Brandétoile ont trouvé un consensus : le professeur Sestan a donné sa vie pour la science.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "L'Académie exprime ses sincères condoléances à l'égard du décès du professeur Sestan pendant ses recherches...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 90,
+              "PlotLineKey": "Merci.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 91,
+              "PlotLineKey": "Tu es quelqu'un de bien, camarade.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "Inutile de me remercier ou de me complimenter. Je ne fais qu'énumérer des faits connus.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "Je n'ai aucune influence sur la manière dont les autres jugent le professeur Sestan. S'il a reçu cette distinction...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "S.I.R.E.N.E.",
+          "PlotLineKey": "... c'est uniquement parce qu'il était, au fond de son cœur, un homme digne d'un tel éloge.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

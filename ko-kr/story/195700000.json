@@ -1,0 +1,502 @@
+{
+  "Id": 195700000,
+  "Name": "세상에서 가장 가까운 바다",
+  "Description": "포포와 수중 터널의 건설에 대해 이야기하기",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 195700000,
+  "ShowQuestList": [],
+  "QuestDesc": "포포와 수중 터널의 건설에 대해 이야기하기",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100034,
+      "PreQuestName": "두 번째 해돋이를 맞이하며"
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 10,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "포포",
+          "PlotLineKey": "수중 터널 드디어 완공! 참 쉽지 않더라...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "포포",
+          "PlotLineKey": "소개글 어디 한번 보자. 「수중 터널은 투명한 구조와 홀로그램 투영을 통해, 지나가는 관광객들에게 아름답고 기억이 남은 체험을 선보이기 위해 노력한다...」",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "포포",
+          "PlotLineKey": "홀로그램 투영을 말아자면... {PlayerName}, 멋진 아이디어가 있어!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "포포",
+          "PlotLineKey": "전부 홀로그램으로 투영된 장면이니까, 더 멋진 것을 투영해도 괜찮지 않아?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "포포",
+          "PlotLineKey": "예를 들어, 물고기를 다 탄식의 고룡로 바꾸거나, 아니면 물을 불로 바꿔, 이곳을 연옥의 길 같은 걸 만드는 게 어때!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 416,
+              "PlotLineKey": "나쁘지 않을 것 같은데",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 417,
+              "PlotLineKey": "여긴 무슨 놀이공원도 아니고...",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "포포",
+          "PlotLineKey": "그치!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "포포",
+          "PlotLineKey": "에이, {PlayerName}, 내 호기심 좀 만족시켜 줘라...!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "포포",
+          "PlotLineKey": "모니에가 연구소에서 존경받는 과학자잖아, 분명 알고 있을 거야. 가서 물어보자!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "진짜 못 말린다니까...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "모니에 교수님은 휴가 중일 테니, 메시지로 물어봐야겠다",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "모니에",
+          "PlotLineKey": "오래 기다리셨죠, 선배",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "모니에",
+          "PlotLineKey": "그거 있잖아요, 선배 저번의 질문에 대해, 오기 전에 원격으로 연구소의 데이터베이스를 찾아봤어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "모니에",
+          "PlotLineKey": "투영된 내용은 변경할 수 있긴 한데, 선배가 말했던 것처럼 하려면, 광학 엔진 구조, 투영 렌즈 퀄리티, 그리고 모니터링 칩의 사이즈와 모델까지 전반적으로 고려해야 해요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "모니에",
+          "PlotLineKey": "선배가 변경하고 싶으시면, 도와드릴 수 있...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 302,
+              "PlotLineKey": "방금 말한 건 이런 뜻이 아니거든요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "아프면 얌전히 쉬어야죠, 안 그래요?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "모니에",
+          "PlotLineKey": "하지만 저의 좋은 기분을 유지하는 방법은...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "수중 터널의 풍경이 아름다워요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "같이 가서 볼래요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "분명 기분이 좋아질 가라고 믿어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "모니에",
+          "PlotLineKey": "... 알겠어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "모니에",
+          "PlotLineKey": "그럼, 선배와 함께하는 이 여정을 잘 느껴볼게요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "모니에",
+          "PlotLineKey": "수중 터널이 운영 중단 전까지는 아무런 장식 없는 터널이었는데, 선배가 이렇게 꾸며놓았다니 놀라워요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "모니에",
+          "PlotLineKey": "터널 속에 있으면, 마치 바다에 둘러싸인 것 같은 느낌이 나요. 바닷속 잠수함이 된 기분이랄까요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 349,
+              "PlotLineKey": "물고기가 되는 게 더 낫지 않아요?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 350,
+              "PlotLineKey": "잠수함이요? 멋진 표현이네요!",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "모니에",
+          "PlotLineKey": "물고기의 360도 시야와 달리, 인간은 물고기의 눈에 비치는 풍경을 온전히 이해하기 어려울 수 있어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "모니에",
+          "PlotLineKey": "선배는 물고기로 변신하는 상상이 더 마음에 들어요? 그럼 저도 노력해 볼게요, 최대한 눈을 양측으로 돌리고...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "모니에",
+          "PlotLineKey": "맞아요! 해저 자원 탐색용 장비예요. 다중 추진기로 높은 기동성을 이루며 수중에서 자유롭게 움직일 수 있어요...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "모니에",
+          "PlotLineKey": "네... 아마, 지금 선배가 바이크를 타는 기술과 비슷할 거예요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "모니에",
+          "PlotLineKey": "우와, 선배, 해파리가 엄청 많네요!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "정말 예쁘네요!",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "아쉽게도 투영에 불과해요",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "모니에",
+          "PlotLineKey": "해파리의 형광색 빛은 마치 바닷속의 별인 것 같아요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "모니에",
+          "PlotLineKey": "네, 방금 한 말을 수정할게요, 「홀로그램 투영된 해파리가 엄청 많네요」로요...",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "모니에",
+          "PlotLineKey": "진짜 바다에 있는 해파리라면 더 아름답게 느껴질까요?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "모니에",
+          "PlotLineKey": "사실 관련된 지식을 많이 알고 있지만, 진짜 바다를 본 적이 없거든요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "모니에",
+          "PlotLineKey": "신 영방 출신이지만, 그때 다리가 불편해서 멀리 나간 적이 없어요. 라하이 로이에 온 뒤로 기밀유지 규정 때문에 한 번도 떠나지 않았어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "모니에",
+          "PlotLineKey": "선배는 이미 많은 곳에 가보셨을 텐데요, 진짜 바다는 어떻게 생겼는지, 알려주실 수 있나요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 214,
+              "PlotLineKey": "(리나시타의 바다를 알려 준다)",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 215,
+              "PlotLineKey": "(검은 해안의 바다를 알려 준다)",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "신앙, 신화 그리고 카니발을 품은 푸른 바다예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "모니에",
+          "PlotLineKey": "듣기만 해도... 아주 예쁘고, 부드러운 것 같아요",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "폭풍과 짙은 안개로 비밀을 지키는 검은 바다예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "모니에",
+          "PlotLineKey": "이런 곳에 있으면 인류의 탐구욕을 끌려올리죠",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "모니에",
+          "PlotLineKey": "하지만 눈앞에 있는 건 진짜 바다가 아녀도, 아쉬움이 전혀 없어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "모니에",
+          "PlotLineKey": "왜냐하면, 선배와 함께 지켜보는 풍경은 그 무엇보다 더 소중하니까요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "모니에",
+          "PlotLineKey": "절 데리고 이 모든 거 보여줘서 감사해요, 선배. 전 진짜 진짜 너무 기뻐요...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "모니에",
+          "PlotLineKey": "선배가 말한 것처럼, 아름다운 풍경을 보면 기분이 좋아져요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "모니에",
+          "PlotLineKey": "아, 여기 마치 연구소 근처네요, 전 이만 일하러 가볼게요",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 325,
+              "PlotLineKey": "?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "모니에",
+          "PlotLineKey": "헤헷... 농담이에요, 선배",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "모니에",
+          "PlotLineKey": "쉬는 동안 선배가 말씀하시는 대로 제대로 휴식만 취할 거예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "휴가가 끝나도 휴식은 필수예요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "모니에",
+          "PlotLineKey": "네, 명심하겠습니다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "모니에",
+          "PlotLineKey": "그, 혹시... 다음에 쉬고 싶을 때, 오늘처럼 선배를 초대하고 함께 보내도 될까요?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 326,
+              "PlotLineKey": "물론이죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "모니에",
+          "PlotLineKey": "네, 너무 좋아요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "모니에",
+          "PlotLineKey": "그럼, 선배 앞으로의 일정에서, 시간을 비워뒀으면 좋겠어요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "모니에",
+          "PlotLineKey": "언젠간 선배와 함께 진짜 바다를 보고 싶네요",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

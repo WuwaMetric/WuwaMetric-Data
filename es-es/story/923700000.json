@@ -1,0 +1,909 @@
+{
+  "Id": 923700000,
+  "Name": "Mechaguardia imbatible",
+  "Description": "Ayuda a Zeon a encontrar las cuatro piezas de Mechaguardia y completar la estatua.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 923700000,
+  "ShowQuestList": [],
+  "QuestDesc": "Ayuda a Zeon a encontrar las cuatro piezas de Mechaguardia y completar la estatua.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 923700001,
+      "PreQuestName": "Quest_923700001_QuestName_923_1"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Un paquete de suministros de la Academia...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Debería llevarlo de vuelta.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Comerciante preocupado",
+          "PlotLineKey": "Qué voy a hacer con este muchacho...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "Disculpa, ¿tienes brazos de mecha?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 55,
+              "PlotLineKey": "En realidad, me vale cualquier tipo de brazo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Comerciante preocupado",
+          "PlotLineKey": "¿Eh? ¿Brazos? Lo siento, pero no estoy de humor para hacer negocios.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Comerciante preocupado",
+          "PlotLineKey": "Mi hijo, el muy pillo, ¡ha resultado ser muy quisquilloso con la comida y le da por montar berrinches cuando no quiere comer!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Comerciante preocupado",
+          "PlotLineKey": "Si quiere crecer en condiciones, tiene que alimentarse. ¿Por qué se niega a hacerlo?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "¿Y si se ha cansado de comer tan bien todos los días?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "¿Suele picotear antes de comer?",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Comerciante preocupado",
+          "PlotLineKey": "¿Cansarse, dices?... ¡No lo había pensado!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Comerciante preocupado",
+          "PlotLineKey": "Su madre y yo le preparamos lo mejor de lo mejor y, aun así, ¡se niega a probarlo! ¡Seguro que nuestra comida le aburre!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "Comerciante preocupado",
+          "PlotLineKey": "Conque picotear, ¿eh?... ¡No lo había pensado!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Comerciante preocupado",
+          "PlotLineKey": "Pues claro, si no hace más que picotear entre horas, normal que luego no valore lo que le preparamos.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "Comerciante preocupado",
+          "PlotLineKey": "Tengo entendido que la comida de la Academia tiene un sabor... único. ¿Es verdad lo que dicen? ¿Podrías echarme un cable?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Comerciante preocupado",
+          "PlotLineKey": "Tráeme el manjar más icónico de la Academia, ¡y los brazos a por los que venías serán tuyos! ¡Va siendo hora de que mi niño descubra lo variada que es la gastronomía de este mundo!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "Sin problema.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "Trato hecho.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(La comida por excelencia de la Academia... ¿Será la Gelatina Chupi Nutritiva o el gel energético Bright & Brisk?)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Será mejor que vaya a buscarla.)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Según la ubicación que me ha dado, deberían estar por aquí...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Investigador cansado",
+          "PlotLineKey": "Vienes a por los materiales de parte de Zeon, ¿verdad?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 117,
+              "PlotLineKey": "Efectivamente.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Investigador cansado",
+          "PlotLineKey": "No tiene ni idea de lo complicado que ha sido esto... Técnicamente está desmantelada, pero hacerme con ella ha sido una pesadilla.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Investigador cansado",
+          "PlotLineKey": "Presta atención: se trata de un componente clasificado, así que no abras la caja. Y no permitas que nadie la vea. De lo contrario, todos nos meteremos en un buen lío, sin excepción.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Investigador cansado",
+          "PlotLineKey": "Ah, y cuando lo veas, ¡échale una buena bronca de mi parte, anda!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Lo logramos... ¡No me lo puedo creer!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¡Mira, {PlayerName}! ¡Se mueve! ¡Se ha puesto en pie!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¡Gracias por ayudarme! ¡Es el primer meca totalmente operativo que monto en mi vida! ¡Lo hemos conseguido!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 140,
+              "PlotLineKey": "Ah, o sea que era tu primera vez...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 141,
+              "PlotLineKey": "Es impresionante que hayas llegado hasta aquí.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "¿?",
+          "PlotLineKey": "O sea, ¿que por eso no hacías más que hurgar entre los restos? Ya veo, has creado una chatarra andante.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Líder de los Proscritos",
+          "PlotLineKey": "Algunas de las piezas las has robado de nuestro campamento...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Líder de los Proscritos",
+          "PlotLineKey": "Gracias por ahorrarnos el trabajo, ¡ahora podremos vender la máquina entera! ¡Sacaremos un buen pico por ella!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¡No! ¡Que nadie le ponga un dedo encima a mi meca! ¡No es más que un recién nacido!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mechaguardia (¿?)",
+          "PlotLineKey": "Intención hostil... detectada. Iniciando... protocolo de defensa.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Líder de los Proscritos",
+          "PlotLineKey": "Pero ¿qué...? ¿Se mueve? ¡¿Funciona de verdad?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mechaguardia (¿?)",
+          "PlotLineKey": "Peligro... Evacuad inmediatamente. Iniciando la cuenta atrás... 5... 4...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mechaguardia (¿?)",
+          "PlotLineKey": "1... Iniciando ataque.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Líder de los Proscritos",
+          "PlotLineKey": "¡¿Por qué ha pasado tan rápido al 1?! ¡Eso no val...!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Ha activado... la autodestrucción...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Líder de los Proscritos",
+          "PlotLineKey": "Je, ¡menudo susto me ha pegado ese manojo de hierros!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Líder de los Proscritos",
+          "PlotLineKey": "Pero ¡ya no es más que un montón de pedazos! A ver quién te protege a ti ahora...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "¿Hola? Que yo aún sigo aquí, ¿te has olvidado de mí?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¿Eh? ¿No eres... {PlayerName}, de la Academia? ¿Acaso lo quieres? ¡Ni hablar! ¡Quien lo encuentra se lo queda! ¡No le pongas un dedo encima!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 18,
+              "PlotLineKey": "¿Desde cuándo los profesores trabajáis de chatarreros?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 19,
+              "PlotLineKey": "¿Quién ha dicho que fuera a llevármelo?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¡¿Chatarrero?! ¡¿Cómo te atreves a llamar algo así a un apasionado de las máquinas?!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Ah, ¿no eres {Male=un apasionado;Female=una apasionada} de las máquinas como yo? Uf, qué alivio.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Como puedes ver, lo han desmantelado todo. Este grandullón ya no es más que un montón de metal frío e inservible.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeon",
+          "PlotLineKey": "De todos modos, no se merece un final como este. Dado que la extinción de su núcleo ya ha sellado su destino, ¡ninguna norma nos limita!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 20,
+              "PlotLineKey": "Has sonado un tanto villanesco...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 21,
+              "PlotLineKey": "Esa frase podría haberla dicho un científico loco.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¿E-en serio? Y yo que creía que sonaba guay... Llevaba un tiempo queriendo decirlo, ¡ja, ja!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Sinceramente, aunque formo parte del Departamento de Agronomía, siempre he soñado con unirme al Club de las Multitorretas y diseñar mis propios mecas. El problema es que... no pasé la prueba.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Pero acaba de venirme la inspiración de golpe. Puede que esta sea la oportunidad de seguir mi sueño y reacondicionar este meca. ¡Imagínatelo en pie, una vez más!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¡Crearé un mecha único en su especie! Y bien..., ¿estás {Male=dispuesto;Female=dispuesta} a ayudarme?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 22,
+              "PlotLineKey": "Solo si me pagas.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 23,
+              "PlotLineKey": "Venga, al lío.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Por eso no te preocupes, ¡te aseguro que te recompensaré con creces!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Zeon",
+          "PlotLineKey": "El torso está prácticamente intacto. De tener las piezas adecuadas, podríamos empezar con las modificaciones de inmediato.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Zeon",
+          "PlotLineKey": "De hecho, hace un par de días encargué de mi propio bolsillo un lote de piernas robóticas, pero los Proscritos me las robaron. ¿Y si tratamos de recuperarlas?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 24,
+              "PlotLineKey": "Pero si el Mechaguardia...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "no tiene encajes para piernas...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¡Eso es lo de menos! No podemos permitir que el diseño actual nos limite. ¡Debemos zafarnos de las convenciones!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Zeon",
+          "PlotLineKey": "El campamento de los Proscritos no será moco de pavo. Te recomiendo que crees una distracción y, entonces, te cueles para recuperar las piezas. Y recuerda: ¡la seguridad es lo primero!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 26,
+              "PlotLineKey": "Tranquilo, me las apañaré.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 27,
+              "PlotLineKey": "¡Espera a que vuelva con novedades!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Comerciante preocupado",
+          "PlotLineKey": "Un sabor que te arrebata el apetito... con un regusto científico... ¡Es lo que buscaba!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Comerciante preocupado",
+          "PlotLineKey": "Pienso darle un buen uso a este regalo tan «generoso». Espero que sirva para acabar con las exigencias de mi niño.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Comerciante preocupado",
+          "PlotLineKey": "Como te prometí, aquí tienes los brazos. Muchas gracias.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Estudiante arrogante",
+          "PlotLineKey": "Las has reventado... ¡¿todas?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Estudiante arrogante",
+          "PlotLineKey": "Menudo manejo, ¡debes de ser una leyenda! ¿No serás {Male=el;Female=la} jinete Fuegostelar de quien tanto hablan?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Estudiante de mal genio",
+          "PlotLineKey": "Has ganado..., así que las piezas son tuyas. Pero ¡con una condición!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 100,
+              "PlotLineKey": "Dime.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 101,
+              "PlotLineKey": "¿Qué condición?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Estudiante de mal genio",
+          "PlotLineKey": "Q-quiero que me des tu contacto. ¡Me gustaría competir contigo en algún momento!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Estudiante arrogante",
+          "PlotLineKey": "¡A mí también! ¡Tienes que venir a nuestra próxima carrera!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 102,
+              "PlotLineKey": "¡Trato hecho!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Ostras, ¡las modificaciones han quedado mejor de lo que pensaba! Ya no me cabe ninguna duda: ¡podemos conseguirlo!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 40,
+              "PlotLineKey": "Primero, a ver cómo funciona...",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 41,
+              "PlotLineKey": "La carrocería parece innovadora.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¡Tú sí que sabes! He escogido piezas de diversas fuentes, específicamente, para sacarle el máximo rendimiento a la versatilidad.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Ay, ¡para! Solo he aprovechado lo que tenía a mano. ¡Gracias, de todos modos!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Ahora que puede tenerse en pie, ¡va siendo hora de ponerle unos brazos bien fuertes!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeon",
+          "PlotLineKey": "En el campamento royano, hay un comerciante que se especializa en reciclar las piezas dañadas de los mechas de la Academia. Seguro que tiene lo que buscamos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Y no te preocupes por el precio, ¡te lo reembolsaré!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¡Ya has vuelto! ¿Cómo ha ido? ¿Has encontrado las piezas?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 32,
+              "PlotLineKey": "Sí, pero...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 33,
+              "PlotLineKey": "¿Seguro que servirán?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¡Eso ni lo dudes! ¡Fueron creadas para mi Mechaguardia! Se las pondré ahora mismito.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Venga, que ya llevamos la mitad. ¡Ya veo la luz al final del túnel!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "El siguiente paso es importantísimo. Quiero instalarle un potente sistema armamentístico, ¡algo fiel a la filosofía del Club de las Multitorretas!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Hay un refrán en Huanglong que dice algo así como: «Si quieres hacer algo bien, necesitarás un arma afilada».",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 77,
+              "PlotLineKey": "Creo que querías decir...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 78,
+              "PlotLineKey": "«Si un artesano quiere hacer algo bien, primero debe afilar sus herramientas».",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¡Sí! ¡Eso es! Vaya, no esperaba que conocieras tan bien la cultura de Huanglong.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Qué sería de unas multitorretas sin unos buenos cañones, ¿eh? ¡¿A que sí?! Me muero por ponerle un cañón de riel electromagnético al Mechaguardia.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Por desgracia, no es fácil encontrar esa clase de armas. El Equipo de Expedición tiene unos cuantos Exploradores Intergalácticos desmantelados que se están echando a perder. He marcado su ubicación en el mapa. ¿Podrías ayudarme a buscarlos?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 79,
+              "PlotLineKey": "¿A esto hemos llegado?...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 80,
+              "PlotLineKey": "Cuenta conmigo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Uuuuh, ¡son los brazos de mecha de mis sueños! ¡Cuantísimo poder! Tienen potencial, ¡lo noto!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¡Mírame instalarlos! Mmm, creo que los puertos de conexión no encajan bien...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 69,
+              "PlotLineKey": "¡No los metas a la fuerza!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 70,
+              "PlotLineKey": "Recuerda, la seguridad es lo primero...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Nada que no tenga solución, ¡{Male=tranquilo;Female=tranquila}!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Lleno de alegría, Zeon instala el cañón de riel electromagnético en un tiempo récord...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¡Es lo más cerca que he estado de cumplir mi sueño en todos estos años!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¡Ya solo queda el último paso! Necesitamos una buena fuente de energía, es decir, la cabeza, ¡y habremos terminado!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Le he pedido un favor a un colega que trabaja en el sector y me ha encontrado la cabeza perfecta. ¿Te importaría pasarte a por ella por mí?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 109,
+              "PlotLineKey": "Dime que no será peligroso...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 110,
+              "PlotLineKey": "No irá a explotar por el camino, ¿no?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeon",
+          "PlotLineKey": "¡En absoluto! Le he pedido que la guarde en un contenedor de protección especial, ¡la seguridad está garantizada!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Te he enviado la dirección al Terminal. Buen viaje, ¡y date prisa!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

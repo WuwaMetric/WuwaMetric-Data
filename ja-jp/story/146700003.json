@@ -1,0 +1,570 @@
+{
+  "Id": 146700003,
+  "Name": "不思議怪談・ロードビルダーのささやかなリベリオン",
+  "Description": "サブシデンス・バレーにまつわる怪談だ。雷と雨が入り交じる夜、思い切ってそこへ向かってみよう。不気味な物音、どこからともなく現れる「幽霊」……真相と向き合う覚悟は、もうできているのか？",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 146700003,
+  "ShowQuestList": [],
+  "QuestDesc": "サブシデンス・バレーにまつわる怪談だ。雷と雨が入り交じる夜、思い切ってそこへ向かってみよう。不気味な物音、どこからともなく現れる「幽霊」……真相と向き合う覚悟は、もうできているのか？",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 146700000,
+        "ChildQuestId": 4
+      }
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 1,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "え？{PlayerName}からかけてくるなんて……分かったわ、やっとウチの同好会に入る気になったのね？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 117,
+              "PlotLineKey": "まだ前向きに検討中。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 118,
+              "PlotLineKey": "それより他に言いたいことが……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "すごい雨音ね。外にいるの？……あ、もしかしてサブシデンス・バレー？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=ああ。雨夜と、谷で訳の分からないことを喋るロードビルダー、それと……;Female=ええ。雨夜と、谷で訳の分からないことを喋るロードビルダー、それと……}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "……宙吊りになって揺れている車道。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 119,
+              "PlotLineKey": "{Male=知っていたのか？だから俺をここに？;Female=知っていたの？だから私をここに？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 120,
+              "PlotLineKey": "{Male=やっぱり、これも調査リストに入っているんだな。;Female=やっぱり、これも調査リストに入っているのね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "当たり前じゃない。私の「データベース」を甘く見ないでよね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "目撃談、体験談、ただの噂話でも、ラハイロイの怪談で、私の知らないものはないわ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "ええと、確か……これは最初、ヴォイドマター学部の学生が見つけたのよ。雨の夜になると、エッチングの平原に道路を作り続けるロードビルダーが現れるって……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "設置計画もなければ、持ち主も分からない。どこからともなく現れた謎のロードビルダー。まるで雨の夜と一緒に出てくる「幽霊」みたいだってね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "そういえば、当時その学生が動画も撮ってて、一時期話題になったの。ただのイタズラだとか、ロードビルダーはダミーで、この場所が呪われてるんだとか……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "でも、その後なぜか動画は消えちゃって、話題も自然に消えたの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "あ、こんな逸材がいたのに、勧誘してないなんて……って、違う違う！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "{PlayerName}、よく観察して。道路以外に、何か他のものはない……？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "真夜の声が雷鳴にかき消されると、雨の中、疾走する一つの影がちらりと見えた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "宙に浮いた道路の上を、誰も乗っていないバイクが、亡霊のように轟音を立てている。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 121,
+              "PlotLineKey": "{Male=あれは……バイクか。;Female=あれは……バイクね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 122,
+              "PlotLineKey": "ヒントをありがとう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "それも、当時話題になった理由の一つだったみたい。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "バイクは偶然だって言う人も、怪談の一部だから離れた方がいいって言う人もいたわ。道路と違って動いてるから、いつ突っ込んでくるか分からないしね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "でも、もしかしたら問題の核心は、このバイクにあるかもしれない……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 123,
+              "PlotLineKey": "そう思った理由は？",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 124,
+              "PlotLineKey": "{Male=怪談はあなたの方が詳しいだろ。;Female=怪談はあなたの方が詳しいでしょ。}",
+              "PlayVoice": false,
+              "JumpToId": 20
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "必要のないはずのバイクが、わざわざ現れたから。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "それに、ロードビルダーが作り続けている道路って、バイクが走るためのサーキットみたいじゃない？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 21
+        },
+        {
+          "Id": 20,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "ロードビルダーが作り続けている道路って、バイクが走るためのサーキットみたいじゃない？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 21
+        },
+        {
+          "Id": 21,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "つまり、あれは単に道路を作ってるんじゃなくて、雨の夜に起きたある光景を再現しているのよ……だから、行って、{PlayerName}！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "あのバイクに追いついて、捕まえるの！ずっと繰り返されているあの光景を、私たちで壊してやりましょう。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 125,
+              "PlotLineKey": "{Male=勝算はどれくらいあるんだ？;Female=勝算はどれくらいあるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "いや、私にも分からないわ……だから、信じてくれるのかどうか聞いたのよ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 126,
+              "PlotLineKey": "損することはないし、賭けてみよう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 127,
+              "PlotLineKey": "{Male=……分かった。この借り忘れるなよ。;Female=……分かった。この借り忘れないでね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 128,
+              "PlotLineKey": "よし、それで行こう！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなたはロードビルダーを停止させようとした。しかし、そもそも電源が入っておらず、システムにも接続されていなかった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "そして、消すことも止めることもできない赤い光の点滅が激しくなり、道路は宙吊りのまま伸びていった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=（システムエラー……これが、真夜の言っていた怪談？電話して聞いてみよう）;Female=（システムエラー……とこれが、真夜の言っていた怪談？電話して聞いてみよう）}",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=ふぅ、これで……終わりか？;Female=ふぅ、これで……終わり？}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=待て、あれは……記録装置？ロードビルダーが「吐き出した」のか？;Female=待って、あれは……記録装置？ロードビルダーが「吐き出した」の？}",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "……だめだ。追いつけない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "大丈夫、すごく上手だったわ。あとちょっとじゃない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "むしろ、あっちは経験豊富なうえに、ホームグラウンドなわけだし……また挑戦してみましょう！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "雨夜の下、点滅する赤い光がぼやけ、鉄と埃の混じった焦げたような臭いと湿気が漂う。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "リズミカルな振動音",
+          "PlotLineKey": "ガシャ――ドン――",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "リズミカルな振動音",
+          "PlotLineKey": "ガシャ――ドン――ガシャ――",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 29,
+              "PlotLineKey": "何の音だ、ズシン、ズシンと……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 30,
+              "PlotLineKey": "{Male=何だ……工事の音か？;Female=何……工事の音？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "？？？",
+          "PlotLineKey": "雨ノ夜ヲ検知。条件……クリア。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "？？？",
+          "PlotLineKey": "任……務――開始。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "？？？",
+          "PlotLineKey": "干渉……シナイデクダサイ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "突然、奇妙な男の声が響いた。すりガラスを引っ掻くような、背筋が凍る声だ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "だが振り返ると、そこには古びたロードビルダーがあるだけ。とても使用中のようには見えない。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "ロードビルダーが……喋った？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 32,
+              "PlotLineKey": "{Male=……誰かが幽霊の真似をしている？;Female=……誰かが幽霊の真似をしている？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "浮遊式ロードビルダー（奇妙な男の声）",
+          "PlotLineKey": "任……務――開始。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "浮遊式ロードビルダー（奇妙な男の声）",
+          "PlotLineKey": "干渉……シナイデクダサイ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "……とりあえず、電源を切ってみよう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "……だめだ。追いつけない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "大丈夫、すごく上手だったわ。あとちょっとじゃない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "むしろ、あっちは経験豊富なうえに、ホームグラウンドなわけだし……また挑戦してみましょう！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "振動が消え、赤い点滅も止まった。正常な状態に戻ったロードビルダーは、優しい男性の声で、最後の説明を行っている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "浮遊式ロードビルダー（柔らかな男の声）",
+          "PlotLineKey": "雨ノ夜ノ環境ヲ検知。条件クリア。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "浮遊式ロードビルダー（柔らかな男の声）",
+          "PlotLineKey": "テスト開始……失敗。原因：テスト担当者、不在。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "浮遊式ロードビルダー（柔らかな男の声）",
+          "PlotLineKey": "繰リ返ス。担当者「K・ナルセン」不在。テスト開始、失敗。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "浮遊式ロードビルダー（柔らかな男の声）",
+          "PlotLineKey": "目標ヲ修正。修復インフラヲ起動。K・ナルセンヲ護衛シ、彼ノ身ヲ死守スル。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "浮遊式ロードビルダー（柔らかな男の声）",
+          "PlotLineKey": "任務、開始……任務……終了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "ついにロードビルダーは音を立てなくなり、電源が切れたかのように静まり返った。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "……ねえ、{PlayerName}。結局、ナルセンのテストは成功したと思う？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "雨の夜に何度もあの道を直していたのは、担当者の死を修正するためのストレス反応だったのか、それとも……無念を晴らそうとする機械の判断だったのか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "はぁ、証明も反証もできない結末……本当にムカつくし残念だわ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 175,
+              "PlotLineKey": "{Male=それこそが怪談の魅力なのかもしれない。;Female=それこそが怪談の魅力なのかもしれない。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "え？{PlayerName}がそんなこと言うなんて、意外！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "でも……私はやっぱり魂の存在を信じたい。あのロードビルダーの魂も……ナルセンの調整によって、生まれたのかもしれないわね。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

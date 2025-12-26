@@ -1,0 +1,909 @@
+{
+  "Id": 923700000,
+  "Name": "제일 대단한 메카스카우트",
+  "Description": "제온을 도와 메카스카우트 조립에 필요한 부품 4개를 수집하세요",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 923700000,
+  "ShowQuestList": [],
+  "QuestDesc": "제온을 도와 메카스카우트 조립에 필요한 부품 4개를 수집하세요",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 923700001,
+      "PreQuestName": "Quest_923700001_QuestName_923_1"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "이건 아카데미 물자 상자인데...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "... 이걸 가져가자",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "고민하는 상인",
+          "PlotLineKey": "이 아이 참, 너무 걱정이 되네...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "실례하지만, 혹시 메카스카우트에 맞는 팔 부품이 있나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 55,
+              "PlotLineKey": "딱 맞지 않는 팔 부품도 괜찮아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "고민하는 상인",
+          "PlotLineKey": "어? 부품? 오늘은 정말 장사할 기분이 아니야",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "고민하는 상인",
+          "PlotLineKey": "우리 애가 나이가 어리지만 입맛이 너무 까다로워! 이거 때문에 가족들이랑 기싸움도 하고, 밥도 안 먹고...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "고민하는 상인",
+          "PlotLineKey": "자라나는 시기인데, 왜 이렇게 밥을 안 먹을까?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "맛있는 게 너무 많아서 질렸나요?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "간식을 너무 많이 먹어서 배부른 건가?",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "고민하는 상인",
+          "PlotLineKey": "질렸다고? 일리가 있는 말이네!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "고민하는 상인",
+          "PlotLineKey": "애 엄마랑 맛있는 걸 어떻게든 해줘도, 아예 안 봐. 분명히 질린 거겠지!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "고민하는 상인",
+          "PlotLineKey": "배부른다고? 일리가 있는 말이네!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "고민하는 상인",
+          "PlotLineKey": "맛있는 게 너무 많으니까, 그게 소중히 여기지 않는 거지",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "고민하는 상인",
+          "PlotLineKey": "근데, 너네 아카데미 식당 음식이 엄청 독특하다고 들었는데, 그게 사실이라면 부탁 하나 해도 될까?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "고민하는 상인",
+          "PlotLineKey": "너네 아카데미에서 가장 대표적인 음식으로 내가 가진 팔 부품이랑 바꾸자! 우리 애도 세상 맛을 좀 봐야지!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "문제없어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "약속할게요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(아카데미 대표적인 음식... 「영양 만점 키득키득 젤리」? 아니면 「급속 에너지 보충 젤」일까?)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(준비하고 다시 와서 교환하자)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "그가 표시한 위치를 보면, 바로 이 근처일 텐데...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "피곤한 연구원",
+          "PlotLineKey": "제온 대신 부품을 받으러 온 사람은 너지?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 117,
+              "PlotLineKey": "네, 맞아요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "피곤한 연구원",
+          "PlotLineKey": "저 녀석 때문에 진짜 골치 아프게 하네... 폐기된 부품이라지만, 이거 찾느라 꽤 고생했어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "피곤한 연구원",
+          "PlotLineKey": "잘 기억해. 이건 극비야. 돌아가는 길에 절대 열지 말고, 아무한테도 보이지 마. 안 그러면 큰일 나",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "피곤한 연구원",
+          "PlotLineKey": "저 녀석 만나면 꼭 내 불만도 좀 전해줘!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "제온",
+          "PlotLineKey": "성공했어... 우리가 정말 성공했어!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "제온",
+          "PlotLineKey": "{PlayerName}, 봐봐, 진짜 움직여, 일어섰어!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "제온",
+          "PlotLineKey": "다 네 덕분이야. 이렇게 움직이는 메카스카우트를 조립한 건 처음이야! 우리가 성공했어!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 140,
+              "PlotLineKey": "처음이었군요...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 141,
+              "PlotLineKey": "이 정도까지 만들어내다니, 정말 대단하네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "너희가 부품을 모은 이유가 뭔지 궁금했는데, 결국 다 이 고철 덩어리에 박아 넣은 거였네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "유랑민 두목",
+          "PlotLineKey": "이 부품들 중엔, 우리 캠프에서 훔쳐 간 것도 있잖아...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "유랑민 두목",
+          "PlotLineKey": "네가 다 고쳐놨으니 우리도 편해졌네——통째로 팔아서 꽤 돈을 벌 수 있겠어!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "제온",
+          "PlotLineKey": "안 돼! 누구도 내 메카를 건드리지 마! 얘는 아직 어린애라고!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "메카스카우트(?)",
+          "PlotLineKey": "적대적 의도... 감지됨, 방위 프로토콜... 가동",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "유랑민 두목",
+          "PlotLineKey": "잠깐! 이게 왜 공격을 해? 이거 실패작 아니었어?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "메카스카우트(?)",
+          "PlotLineKey": "경고... 즉시 철수. 카운트다운... 5... 4...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "메카스카우트(?)",
+          "PlotLineKey": "...1, 공격 개시",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "유랑민 두목",
+          "PlotLineKey": "어째서 5에서 바로 1로 넘어가냐고?! 규칙도 없냐, 이 녀석——",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "제온",
+          "PlotLineKey": "자, 자폭했다니...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "유랑민 두목",
+          "PlotLineKey": "에참, 이 고철 덩어리 때문에 괜히 놀랐잖아!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "유랑민 두목",
+          "PlotLineKey": "그래, 이 고철 덩어리가 완전히 망가졌어! 이젠 누가 너희를 지켜주겠어——",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "제가 있잖아요. 왜, 잊었어요?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "제온",
+          "PlotLineKey": "어? 넌 그... {PlayerName} 학생 맞지? 너도 이거 원해? 안 돼, 순서를 지켜야지. 절대 뺏으면 안 된다고!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 18,
+              "PlotLineKey": "선생님도 쓰레기 줍기 하러 오셨나요?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 19,
+              "PlotLineKey": "... 누가 뺏겠다고 한 거죠!",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "제온",
+          "PlotLineKey": "쓰레기 줍기라니! 이건 메카 마니아들이 하는 일이지, 쓰레기 줍기라고 부르지 마!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "제온",
+          "PlotLineKey": "너 부품 찾으러 온 게 아니었군... 나 괜히 긴장했네",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "제온",
+          "PlotLineKey": "보다시피 여기 쌓인 물건들은 다 폐기 처리된 거야. 이 커다란 녀석도 이제는 그냥 차가운 금속 더미일 뿐이지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "제온",
+          "PlotLineKey": "하지만 「폐기」가 이 녀석의 종착점이어선 안 돼. 데이터 코어가 꺼지며 이미 사망 선고가 내려졌다면, 오히려 지금이 우리가 모든 규칙의 틀에서 벗어날 기회야!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 20,
+              "PlotLineKey": "이 대사, 악당 느낌이 물씬 나네요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 21,
+              "PlotLineKey": "무슨 미친 과학자가 할 말처럼 들리네요...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "제온",
+          "PlotLineKey": "그런가? 꽤 멋진 대사인 줄 알았는데, 한번 말해보고 싶었어, 하하",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "제온",
+          "PlotLineKey": "솔직히 말하면, 나 농학부 출신이지만 오래전부터 다포탑 동아리에 들어가서 직접 메카 스카우트 본체를 설계해 보고 싶었어... 안타깝게도 시험을 통과하진 못했지만",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "제온",
+          "PlotLineKey": "근데 요즘 영감이 계속 떠오르고 있어. 어쩌면 꿈을 되찾을 수 있을지도 몰라. 이 녀석도 새 형태로 다시 서게 할 수 있을 거야...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "제온",
+          "PlotLineKey": "난 지금까지 아무도 본 적 없는, 멋진 메카스카우트를 만들어낼 거야——나 좀 도와주겠어?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 22,
+              "PlotLineKey": "보수를 주신다면요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 23,
+              "PlotLineKey": "도와줄게요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "제온",
+          "PlotLineKey": "걱정 마. 보수는 널 만족시킬 수 있을 만큼 줄게!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "제온",
+          "PlotLineKey": "본체는 거의 멀쩡해. 적당한 부품만 찾으면 바로 개조를 시작할 수 있어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "제온",
+          "PlotLineKey": "사실 며칠 전에 내가 사비를 털어 다리 부품을 주문해놨는데, 근처 유랑민들에게 뺏겼어. 아니면, 다시 그 부품들을 돌려받는 게 어때?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 24,
+              "PlotLineKey": "그런데 메카스카우트는...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "다리가 없는 것 같은데요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "제온",
+          "PlotLineKey": "세세한 건 신경 쓰지 마. 원래 설계에 얽매이지 말고, 기존의 모든 걸 부숴야 해!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "제온",
+          "PlotLineKey": "유랑민 캠프는 꽤 위험해. 먼저 그들의 주의를 끌고, 그다음에 부품들을 가져오면 돼. 안전이 가장 중요하다는 거, 절대 잊지 마!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 26,
+              "PlotLineKey": "걱정 마세요. 전 강해요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 27,
+              "PlotLineKey": "좋은 소식을 갖고 돌아올게요!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "고민하는 상인",
+          "PlotLineKey": "이런 식욕을 떨어뜨리는 과학적인 맛... 그래, 바로 이 맛이야!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "고민하는 상인",
+          "PlotLineKey": "이 「특별한 선물」을 잘 활용해서, 애의 편식 고쳐보겠어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "고민하는 상인",
+          "PlotLineKey": "이 부품들은 약속한 보수야. 진심으로 감사해!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "오만한 학생",
+          "PlotLineKey": "설마... 너 진짜 다 부숴버렸다니?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "오만한 학생",
+          "PlotLineKey": "운전 기술 정말 대단한데, 보통 사람이 아니네! 혹시 전설 속 아카데미의 운전 고수인 거야?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "성급한 학생",
+          "PlotLineKey": "... 네가 이겼으니까, 부품은 네 거다. 하지만 조건 하나가 있어",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 100,
+              "PlotLineKey": "뭐든 말해봐요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 101,
+              "PlotLineKey": "무슨 조건인데요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "성급한 학생",
+          "PlotLineKey": "연, 연락처 좀 알려줘. 다음에 기회가 되면 같이 레이싱하자!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "오만한 학생",
+          "PlotLineKey": "나도 같이 할래! 다음 또 시합하면 너 꼭 와야 해!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 102,
+              "PlotLineKey": "좋아요!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "제온",
+          "PlotLineKey": "어머, 개조 후에 이렇게 멋져질 줄은 상상도 못 했어! 이제 완성할 자신감이 생겼어!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 40,
+              "PlotLineKey": "성능은 일단 제쳐두고...",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 41,
+              "PlotLineKey": "... 외형은 확실히 독창적이네요",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "제온",
+          "PlotLineKey": "너, 진짜 잘 아는구나! 성능을 다양화하려고 다른 출처의 부품을 섞어서 메카스카우트를 조립한 거야",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "제온",
+          "PlotLineKey": "에이, 그냥 기존 자원을 잘 활용한 거지, 이렇게 칭찬받으니까 좀 부끄럽네",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "제온",
+          "PlotLineKey": "이제 메카스카우트가 대지 위에서 서 있을 다리가 생겼으니, 강력한 팔을 추가할 시간인 것 같아!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "제온",
+          "PlotLineKey": "로야인 캠프에 있는 상인에게 가면, 분명히 적합한 부품을 구할 수 있을 거야. 그 사람은 파손된 아카데미 메카스카우트의 부품을 전문적으로 회수하고 있어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "제온",
+          "PlotLineKey": "걱정 마, 그 상인이 얼마를 불러도 내가 전액 지불할게!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "제온",
+          "PlotLineKey": "드디어 돌아왔구나! 어떻게 됐어? 부품은 찾았어?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 32,
+              "PlotLineKey": "찾긴 했는데...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 33,
+              "PlotLineKey": "이게 정말 맞는 부품일까요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "제온",
+          "PlotLineKey": "맞아, 딱 맞아! 완벽한 조합이거든! 지금 바로 조립해 볼게!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "제온",
+          "PlotLineKey": "조립 진도가 벌써 절반이나 왔어! 승리는 코앞이야!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "제온",
+          "PlotLineKey": "다음은 아주 중요한 단계야—— 다포탑 동아리의 이념대로 녀석에게 더 강력한 무기를 달아주려고 해",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "제온",
+          "PlotLineKey": "황룡에 이런 옛말이 있어, 「무언가를 잘하려면 먼저 충분히 날카로운 무기를 가져야 한다」",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 77,
+              "PlotLineKey": "그 옛말 혹시...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 78,
+              "PlotLineKey": "「일을 잘하려면 먼저 그 연장을 날카롭게 해야 한다」는 말인가?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "제온",
+          "PlotLineKey": "맞아! 바로 그 말이야! 네가 황룡 문화까지 알고 있다니 놀랍네",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "제온",
+          "PlotLineKey": "「다포탑」인데 포가 없으면 안 되지? 오래전부터 메카스카우트에 전자기포를 달아보고 싶었어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "제온",
+          "PlotLineKey": "근데 이건 좀 구하기 어려워. 탐사대에 폐기된 스페이스트렉 탐색기 몇 대가 야외에 남아있다는데, 내가 지도에 대략 위치를 표시해 놨어. 가서 좀 확인해 줄 수 있나?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 79,
+              "PlotLineKey": "이렇게 된 이상...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 80,
+              "PlotLineKey": "저한테 맡기세요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "제온",
+          "PlotLineKey": "오오, 이게 바로 내가 꿈꾸던 메카스카우트 팔이야! 강하고 힘이 넘쳐!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "제온",
+          "PlotLineKey": "바로 조립해 보겠어! 음, 연결 부분이 좀 안 맞는 거 같지만...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 69,
+              "PlotLineKey": "맞지 않는 팔은 억지로 조립하면 안 돼요!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 70,
+              "PlotLineKey": "안전이 가장 중요하죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "제온",
+          "PlotLineKey": "작은 문제야, 다 해결할 수 있어! 걱정하지 마!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "기쁨에 겨운 제온이 최단 시간 안에 전자기포 조립을 끝냈다...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "제온",
+          "PlotLineKey": "지난 몇 년 동안, 이렇게 꿈에 이렇게 가까워진 건 처음이야!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "제온",
+          "PlotLineKey": "이제 마지막 단계만 남았어——충분히 강력한 동력원, 즉 머리 부품가 있으면 바로 움직일 수 있어!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "제온",
+          "PlotLineKey": "관련 연구를 하고 있는 동료에게 부탁해서 가장 적합한 머리 부품을 찾았어. 그거 가져와 줄 수 있을까?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 109,
+              "PlotLineKey": "위험물은 아니겠죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 110,
+              "PlotLineKey": "돌아오는 길에 갑자기 터지진 않겠죠?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "제온",
+          "PlotLineKey": "걱정 마! 특별 제작한 방호 용기에 담아 달라고 부탁했으니까, 안전할 거야!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "제온",
+          "PlotLineKey": "주소는 네 단말기로 보냈어. 빨리 다녀오고, 안전하게 돌아와!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

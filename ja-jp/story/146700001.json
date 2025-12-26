@@ -1,0 +1,426 @@
+{
+  "Id": 146700001,
+  "Name": "不思議怪談・行き先のわからない列車",
+  "Description": "荒野に潜む不思議が迫り来る。 真夜中、「幽霊」を乗せた列車は、行き先も分からず走り続ける…… すべては真夜の言う通りなのか？ 勇気を出して、真相を確かめに行こう！",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 146700001,
+  "ShowQuestList": [],
+  "QuestDesc": "荒野に潜む不思議が迫り来る。 真夜中、「幽霊」を乗せた列車は、行き先も分からず走り続ける…… すべては真夜の言う通りなのか？ 勇気を出して、真相を確かめに行こう！",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 146700000,
+        "ChildQuestId": 4
+      }
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 146700011
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "錆びた匂いと湿気が立ち込める闇夜の中、遠くの線路は影がちらついている。どうやら、不気味な青い光が灯っているようだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "真夜……「真夜中の列車」を見つけたかもしれない。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "{PlayerName}、そっちはどう？聞こえる？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "「真夜中の列車」を追跡中――",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "もしもし？もしもし……さっきからそっちの電波が不安定で……無茶しないでよ！聞こえ――！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "裂け目は……ヴォイドマター？それとも、別の何か？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "まずは、全部片付けよう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "――{PlayerName}？大丈夫？聞こえる？もう、通信が完全に途絶えるなんて！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "はぁ、ずっと反応ないし……もし何かあったら、わ、私……最初からもっと人を呼んでおけばよかった……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 49,
+              "PlotLineKey": "問題ない。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 50,
+              "PlotLineKey": "無事ミッション・コンプリート！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "え、え！？もう、君って人は……びっくりさせないでよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "それで、列車は見たんでしょ？あの時の私より、もっと近くではっきりと。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 51,
+              "PlotLineKey": "{Male=ああ、写真も撮ってきたぞ。;Female=ええ、写真も撮ってきたよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなたは写真を真夜に送信し、通信が途絶えていた間の出来事を伝えた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "つまり、あの列車は、怪物を吐き出し続ける裂け目と、私たちの世界を行ったり来たりしてるってこと？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "でも、一体誰が何の目的であの列車を操ってるの？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "この怪談の危険度と調査の優先順位は、さらに引き上げる必要があるわね。結論を出すには、もっと詳しい研究と検証が必要よ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "もしかしたら、あの列車は幽霊を乗せているんじゃなくて……どこか別の場所へ行くための「扉」を乗せているのかもしれない。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 52,
+              "PlotLineKey": "{Male=（急に真面目になったな）;Female=（急に真面目になったね）}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 53,
+              "PlotLineKey": "{Male=（こういうことには、意外と真剣なんだな……）;Female=（こういうことには、意外と真剣なのね……）}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "夜風は吹き、遠く線路の果ては、依然として微かに光っている。列車はまだ、走り続けているのかもしれない。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "ハローハロー{PlayerName}、聞こえてる～？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "あれ……調子悪いわね。駅の近くの電波いいとこに着いたら、折り返してくれる？",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなたは真夜に通信を繋いだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "……{PlayerName}？今度は大丈夫そう！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 71,
+              "PlotLineKey": "{Male=真夜か？今、何時だと思ってるんだ。;Female=真夜？今、何時だと思ってるの。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "時間？もうすぐ真夜中でしょ？それがどうかした？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "普通、こんな時間には電話しない。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 73,
+              "PlotLineKey": "{Male=普通の人なら、もう寝てる時間だぞ。;Female=普通の人なら、もう寝てる時間よ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "でも、{PlayerName}は普通じゃないでしょ？それに真夜中は、怪異が出やすいの。有名な怪談だって、みんなそうでしょ？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "真夜中はドキドキ……あれ？そっちから、風と金属が擦れる音が聞こえるんだけど。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 74,
+              "PlotLineKey": "{Male=随分、耳がいいんだな。;Female=随分、耳がいいのね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 75,
+              "PlotLineKey": "{Male=今外で、線路の近くにいる。;Female=今外で、線路の近くにいる。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "じゃあ、ちょうどいいわ。時間OK、場所OK。ジャジャーン！超リアル怪談調査タイム！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "聞いたことある？「決して止まらず、行き先も分からない真夜中の列車」の話。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "真夜中、「幽霊」だけが乗った満員列車が、音もなく駅に停まるの。もし乗ってしまったら、きっとあの世行きね……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "実際に生きて帰ってきた人が誰もいないのよ、この話には。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 76,
+              "PlotLineKey": "{Male=それはまた、どこの大家の新作だ？;Female=それはまた、どこの大家の新作なの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 77,
+              "PlotLineKey": "{Male=そもそも、誰も乗ったことがないからでは……;Female=そもそも、誰も乗ったことがないからでは……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "いいえ、あの列車は実在する……この目で見たわ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "前に他の件の調査をしてた時にね。濃霧の中、列車の青白い光が私を呼んでいるみたいに灯っていたわ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 78,
+              "PlotLineKey": "{Male=それで、どうなったんだ？;Female=それで、どうなったの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "どうなったかって？えっと……私は遠くから見てただけだから、近づく前に、列車が行っちゃったの！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "本当よ、もうちょっとだったのに！とっても悔しかったわ。だから、{PlayerName}……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 79,
+              "PlotLineKey": "{Male=まさか、俺に調査しろと？;Female=まさか、私に調査しろと？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "ふふっ、察しがいいわね。もちろん「お願いしたい」ってことよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "安心して。会長として、私が通信でサポートしてあげるから。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 80,
+              "PlotLineKey": "{Male=真夜、あまり公私混同させるのは良くないぞ。;Female=真夜、あまり公私混同させるのは良くないよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 81,
+              "PlotLineKey": "まさか、心配してくれるなんて。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "そ、そういうつもりじゃないわよ！怪談を調査するのは、元々私たち同好会の役目なんだから！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "ほら、場所教えてあげるから……あ、そうだ。もし、スゴイ瞬間に出くわしたら、絶対写真撮ってよ！勧誘用の素材にするから！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=真夜、もしもし？切れた……ここは、どこだ？;Female=真夜、もしもし？切れた……ここは、どこ？}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=……これも「衝撃的な瞬間」だな。一枚、撮っておこう。;Female=……これも「衝撃的な瞬間」ね。一枚、撮っておこう。}",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

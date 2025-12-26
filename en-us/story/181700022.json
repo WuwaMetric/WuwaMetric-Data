@@ -1,0 +1,1113 @@
+{
+  "Id": 181700022,
+  "Name": "Urban Legend: No-Escape Classroom",
+  "Description": "Somewhere in the Academy, a mystery takes shape. A classroom that becomes a no-escape zone after class.... Is it truly as Mayo claimed? Gather your courage and go take a look!",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 181700022,
+  "ShowQuestList": [],
+  "QuestDesc": "Somewhere in the Academy, a mystery takes shape. A classroom that becomes a no-escape zone after class.... Is it truly as Mayo claimed? Gather your courage and go take a look!",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 146700000,
+        "ChildQuestId": 4
+      }
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 146700012
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Hellooo, {PlayerName}…? You around Rabelle College right now?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 244,
+              "PlotLineKey": "How do you know that? Are you actually psychic?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 245,
+              "PlotLineKey": "Nope, not there. Boo.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mayo",
+          "PlotLineKey": "I wish! That would've been so cool to say. But... gotta be honest with a fellow fan club member. That's rule number one!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mayo",
+          "PlotLineKey": "And you're someone I'm working very hard to recruit, you know. Gotta stay completely honest!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Pfft, no way I'm wrong. I'm an expert on the paranormal, you know. Maybe I do have a few... hidden talents.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Mayo",
+          "PlotLineKey": "…Wow, you're not playing along at all. <span class=\"italic\">Kuso</span>. Was I that unconvincing?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Alright, fine, truth time. Another member saw you there earlier. Figured you couldn't have gone far.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Speaking of which, there's a rumor going around Rabelle College. After class, when the whole campus goes quiet, the second classroom from the corridor becomes an inescapable zone...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Anyone who goes in gets stuck, almost as if the room eats you. No matter what you do, you always wind up right where you started... staring at the same door.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 246,
+              "PlotLineKey": "That sounds way too dramatic.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 247,
+              "PlotLineKey": "Seriously? What kind of B-grade urban legend is this…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Mayo",
+          "PlotLineKey": "I'm just repeating what the survivor said. Flickering blue-white lights, a weird, staticky hum, and… a cursed, vengeful spirit.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 248,
+              "PlotLineKey": "Is this a Sonoro incursion on campus?",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 249,
+              "PlotLineKey": "Wait, but someone did get out, right?",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Yeah, but he said he was so scared he passed out. Woke up outside. No idea how he escaped.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Maybe it really is some kind of inexplicable paranormal event. Or maybe there's a perfectly logical explanation waiting to be uncovered. Since you're this close... Come on, doesn't it pique your interest?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Not saying you have to go, but it <span class=\"italic\">is</span> one of the hottest topics in our club right now. Who knows, today might be the day you write your first legend.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 250,
+              "PlotLineKey": "Fine, fine, you've sold me. I'll go check it out.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 251,
+              "PlotLineKey": "I'll check it out if I have time.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Mayo",
+          "PlotLineKey": "That's the spirit, {PlayerName}!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Go on, be brave! See for yourself what's really in there!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "The second one from the corridor… Is this it? Looks like a normal classroom from the outside.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "The moment you step inside, bright white lights snap on. The air freezes for a second, taking on a grainy quality.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 34,
+              "PlotLineKey": "…Did the lights just turn on by themselves?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "???",
+          "PlotLineKey": "Yes. Because this classroom… doesn't like the dark.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "???",
+          "PlotLineKey": "Too dark. I can't find my things… Come, come help me…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "A bitter voice whispers into your ear. You spin around and come face-to-face with a nearly transparent figure—",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "A girl glowing with a faint, phosphorescent blue floats by your side.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "Who... No, <i>what</i> are you?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 36,
+              "PlotLineKey": "Well, there really is something weird here.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "???",
+          "PlotLineKey": "Something weird? Hehe... Do. You. Mean. Me?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "???",
+          "PlotLineKey": "The one trapped here forever… Unless I find them again… Stay with me.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "I mean, the door's right there.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "???",
+          "PlotLineKey": "Oh… You mean the one behind you?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "???",
+          "PlotLineKey": "It's useless. That door… is temperamental. Unless I'm pleased.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "???",
+          "PlotLineKey": "Seems like you still don't understand what's happening… If you don't believe me, go ahead. See for yourself...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "You explain the truth behind the \"ghost\" to Mayo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mayo",
+          "PlotLineKey": "So... it was just a giant chain of misunderstandings?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Or someone was just too scared to face reality.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Ha! Then that means… you've officially debunked another urban legend.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Mayo",
+          "PlotLineKey": "But you know, urban legends… they sometimes grow back on their own.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 277,
+              "PlotLineKey": "Then we'll just keep investigating them.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Exactly! Otherwise, what's the point of the Paranormal Fan Club?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Actually, Shion's story gave me an idea. I'm totally starting a forum series… \"The Midnight Hologram Haunting.\" Catchy, right?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 278,
+              "PlotLineKey": "Don't tell me you're out here creating urban legends yourself.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Shh! You shouldn't draw such a clear line between urban legends and the truth.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "...You're starting to sound like the real Mindbending Herder.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Alright, alright! I'll post the real investigation results at the end. But we need a good hook to recruit new members, don't we?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Anyway, Mindbending Herder or whatever else comes up, if you run into another urban legend, just call me anytime!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "Well? You tried it already? I told you, it's useless.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "???",
+          "PlotLineKey": "You can only leave if you please that \"door.\"",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 48,
+              "PlotLineKey": "Are you the \"door\"?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Shion",
+          "PlotLineKey": "No, that's just a metaphor… My name is Shion. As expected, no one ever understands me.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Shion",
+          "PlotLineKey": "If only I were the door… A door doesn't need anyone. It doesn't care... It doesn't worry about being loved.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 49,
+              "PlotLineKey": "Ugh, why are you suddenly so blue?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 50,
+              "PlotLineKey": "Then… how exactly am I supposed to please you?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Shion",
+          "PlotLineKey": "Bring them back… The feelings I poured into them… The things I gave them… The pieces of me I attached. Everything. Only then…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Shion",
+          "PlotLineKey": "Only then will I be satisfied. Only then… can I leave.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Shion",
+          "PlotLineKey": "And only then can you leave.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 51,
+              "PlotLineKey": "Them? Feelings? Everything?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Shion",
+          "PlotLineKey": "Please, kind stranger. Help me.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Shion",
+          "PlotLineKey": "In this never-ending classroom… help me gather the three things that carry my feelings—",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Shion",
+          "PlotLineKey": "My \"gifts.\"",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "Yes, that's the one!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "See? Someone does understand me, after all.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "No… not this one. This isn't my gift!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "I told you what I wanted!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "No… not this one. This isn't my gift!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "I told you what I wanted!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "…I knew you would help me. Help me collect them.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "There's no turning back now.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 289,
+              "PlotLineKey": "So what are we looking for this time?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Shion",
+          "PlotLineKey": "I hate things that look too clean and shiny. Pretty on the outside… but with a taste as cold as ice.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Shion",
+          "PlotLineKey": "But no one else felt the same except for <span class=\"italic\">him</span>...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Shion",
+          "PlotLineKey": "That afternoon, when I was so exhausted I nearly fainted, he was the one who gave me something that could actually warm me from the inside...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Shion",
+          "PlotLineKey": "Steam fogged up my glasses. The broth was so rich and heavy. When he set it on the table, the smell filled the room… salty and savory.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Shion",
+          "PlotLineKey": "He had to understand how I felt. So I started giving him the same thing, every single day. But then... why did he stop opening them?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Shion",
+          "PlotLineKey": "He just put them aside… and said he'd <span class=\"italic\">share</span> them with others!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Shion",
+          "PlotLineKey": "He went too far, too far, TOO FAR!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Shion",
+          "PlotLineKey": "Find it. Bring it back to me!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "Yes, that's it!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "Looks like… you're getting better at understanding me…",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "No, this isn't it… This isn't my gift…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "You're so close…",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "No, this isn't it… This isn't my gift…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "You're so close…",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "Well… this is the last one. Are you sure you want to?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 307,
+              "PlotLineKey": "Yes. Tell me what you're looking for.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 308,
+              "PlotLineKey": "Go on! Just give it to me straight!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "If that's how you feel… then I'll pull myself together. This time, I can definitely, absolutely move on!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Shion",
+          "PlotLineKey": "You might not guess it, but I'm actually a musician. Even the coldest keys sound warm when I play them.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Shion",
+          "PlotLineKey": "Even so, if <span class=\"italic\">he</span> had asked, I would have given him the instrument that's been with me for years…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Shion",
+          "PlotLineKey": "He didn't say yes. But he didn't refuse either. He only told me—",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Shion",
+          "PlotLineKey": "\"This is really too heavy.\"",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Shion",
+          "PlotLineKey": "No. Help me find it. My precious treasure with black-and-white keys. I'm not leaving it with someone like that!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "No, this isn't it… This isn't my gift…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "You're so close…",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "No, this isn't it… This isn't my gift…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "You're so close…",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "They're all back... all of my \"gifts\"... But what about my feelings?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "My feelings for him... Could I...? No, I can't. If I put them back...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Shion",
+          "PlotLineKey": "If he saw them, maybe he'd remember me. Maybe he'd change his mind…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 353,
+              "PlotLineKey": "You took them back, and now you want to give them again?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 354,
+              "PlotLineKey": "Isn't that just going in circles?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Shion",
+          "PlotLineKey": "I... I...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Sure, the things you gave were a little… unusual. But someone who really liked you would get your vibe, no matter how strange.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "And someone who truly cared wouldn't blow hot and cold like that.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "The girl freezes at your words. The blue glow around her sharpens. You glance at a nearby data interface and decide to call her bluff.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 355,
+              "PlotLineKey": "You're just a projection, aren't you?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Shion",
+          "PlotLineKey": "Eh? Y-you noticed…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Shion",
+          "PlotLineKey": "Strictly speaking, yes. I'm not really here. It's just a little trick with holographic tech.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 356,
+              "PlotLineKey": "Then why the whole spooky ghost act?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Shion",
+          "PlotLineKey": "I-I didn't mean to scare anyone! I just… I just couldn't bring myself to come in person, so I gambled that someone brave might help me.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 357,
+              "PlotLineKey": "Why someone brave?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 358,
+              "PlotLineKey": "Why didn't you dare to come yourself?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Shion",
+          "PlotLineKey": "For one, I really, really don't want that guy to see me... skulking around to take back my gifts. Just thinking about it is mortifying!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Shion",
+          "PlotLineKey": "If-if he asked me why, or tried to say hi, I couldn't just pretend I don't know him… I just haven't figured out how to face him yet.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Shion",
+          "PlotLineKey": "And also, the Mindbending Herder is terrifying.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 359,
+              "PlotLineKey": "The Mindbending Herder?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Shion",
+          "PlotLineKey": "You don't know her?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Shion",
+          "PlotLineKey": "She never makes a sound. She just walks through empty classrooms, hunting down lone students.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Shion",
+          "PlotLineKey": "She puts a curse on them and feeds them to this... this thing she summoned! If you're still inside a classroom, you'll be eaten whole!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Shion",
+          "PlotLineKey": "So I don't want to be her next target. And also… Shh—listen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Shion",
+          "PlotLineKey": "Thump... thump... Creak—CREAK— Footsteps! And... and chewing! It's her! The Mindbending Herder is here!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 360,
+              "PlotLineKey": "Shion, don't scare yourself—",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Zahira",
+          "PlotLineKey": "(The moment your eyes meet, she looks a bit surprised to find you here.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Zahira",
+          "PlotLineKey": "(Then she raises her hand, tracing slow circles in the air, as though weaving an obscure spell. The space around her shimmers faintly.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Shion",
+          "PlotLineKey": "I KNEW IT! It's a real curse! I'm done for!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Shion",
+          "PlotLineKey": "Should I cut the projection? B-but you helped me… I can't just leave you alone here…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Calm down, Shion. This is Zahira, my friend. And that's not a curse. It's just her Forte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Shion",
+          "PlotLineKey": "…What?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "She can't speak, so her Forte works a bit differently. This is all a misunderstanding.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Zahira",
+          "PlotLineKey": "(She puffs her cheeks slightly, as if annoyed at being misunderstood.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Shion",
+          "PlotLineKey": "A m-misunderstanding?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Shion",
+          "PlotLineKey": "So the rumors were wrong… and I mistook a good person for an urban legend?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Zahira",
+          "PlotLineKey": "(She crosses her arms, pretending to be angry, and nods.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Shion",
+          "PlotLineKey": "I'm sorry—!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Zahira",
+          "PlotLineKey": "(Seeing how genuinely contrite Shion is, she sighs and gently pats her shoulder.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "Shion",
+          "PlotLineKey": "Don't be so nice all of a sudden! You'll make my heart skip a beat!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Shion",
+          "PlotLineKey": "I-I fall in love at the drop of a hat, okay?! And I just got my feelings back, so I'm emotionally vulnerable right now...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 361,
+              "PlotLineKey": "Shion, you…",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 362,
+              "PlotLineKey": "You were terrified a second ago!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 34,
+          "Speaker": "Shion",
+          "PlotLineKey": "Girl stuff. You wouldn't understand...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "So that's how it is. You got so scared of the Mindbending Herder that you ended up becoming an urban legend yourself, creating a real one...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "Shion",
+          "PlotLineKey": "What? You mean <span class=\"italic\">me</span>?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 37,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Yeah, the \"ghost\" trapping people in an inescapable classroom.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

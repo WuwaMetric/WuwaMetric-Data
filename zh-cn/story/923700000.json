@@ -1,0 +1,909 @@
+{
+  "Id": 923700000,
+  "Name": "最了不起的机兵",
+  "Description": "帮助基恩寻找机兵的4个部件，将其完成",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 923700000,
+  "ShowQuestList": [],
+  "QuestDesc": "帮助基恩寻找机兵的4个部件，将其完成",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 923700001,
+      "PreQuestName": "Quest_923700001_QuestName_923_1"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "是学院物资的包裹……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "……把它带回去吧。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "烦恼的商人",
+          "PlotLineKey": "这孩子，可真是太愁人了……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "请问，有适合机兵的手臂零件吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 55,
+              "PlotLineKey": "不那么适合的手臂也可以。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "烦恼的商人",
+          "PlotLineKey": "啊？零件啊……今天实在没心情做生意。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "烦恼的商人",
+          "PlotLineKey": "我家那小崽子，年纪不大，倒学会了挑食！为了这个，和家里人闹别扭，不肯吃饭……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "烦恼的商人",
+          "PlotLineKey": "明明正在长身体的阶段，怎么就不爱吃东西呢？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "好吃的太多，有点吃腻了？",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "吃太多零食，提前吃饱了？",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "烦恼的商人",
+          "PlotLineKey": "吃腻了……你这话有点道理！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "烦恼的商人",
+          "PlotLineKey": "我和他妈妈想尽办法给他做好吃的，他连看都不看一眼。可不就是吃腻了吗！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "烦恼的商人",
+          "PlotLineKey": "吃饱了……你这话有点道理！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "烦恼的商人",
+          "PlotLineKey": "好吃的东西随处可得，那自然也就不怎么珍惜了。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "烦恼的商人",
+          "PlotLineKey": "那个，听说你们学院的食堂，味道特别……独特？要是真的，那能不能帮个忙？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "烦恼的商人",
+          "PlotLineKey": "就用你们学院最有代表性的食物，来换我这儿的手臂零件！让我家那小子，见识一下世界的多样性！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "没问题。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "一言为定。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（最有学院风格的食物……是「全营养嘻嘻果冻」还是「速醒能量补充胶」呢？）",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（准备一下，再来跟他交换吧。）",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "按照他的标记，应该就在这附近了……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "疲惫的研究员",
+          "PlotLineKey": "是基恩让你来取材料的吧？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 117,
+              "PlotLineKey": "是我。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "疲惫的研究员",
+          "PlotLineKey": "那家伙真会给人添麻烦……虽然是废弃的零件，但找他要的这东西可还是费了我不少工夫。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "疲惫的研究员",
+          "PlotLineKey": "记住，此物绝密，万万不可在途中打开，也别给任何人看见，否则必会出大事。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "疲惫的研究员",
+          "PlotLineKey": "等你见到他，记得替我好好念叨他几句！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "基恩",
+          "PlotLineKey": "成功了……我们真的成功了！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "基恩",
+          "PlotLineKey": "{PlayerName}，你看，它真的在动，它站起来了！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "基恩",
+          "PlotLineKey": "多亏了你帮忙，这是我第一次成功组装出能动的机甲！我们做到了！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 140,
+              "PlotLineKey": "原来是第一次啊……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 141,
+              "PlotLineKey": "能做到这个程度，你真的很棒了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "？？？",
+          "PlotLineKey": "我还以为你们收集零件，是用来干什么呢，结果居然把它们都拼进了这台破铜烂铁里。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "流民头目",
+          "PlotLineKey": "这些零件里，本来就有你从我们营地抢走的那一份……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "流民头目",
+          "PlotLineKey": "既然你都把它修好了，我们也省事了——直接卖整机，能多捞不少钱！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "基恩",
+          "PlotLineKey": "不行！谁都不能碰我的机甲！它还是个孩子啊！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "天帷机兵（？）",
+          "PlotLineKey": "检测到……敌对意图，启动……防卫协议。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "流民头目",
+          "PlotLineKey": "等等！这东西怎么还会攻击……这不是个失败品吗！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "天帷机兵（？）",
+          "PlotLineKey": "警告……立即撤离。倒计时……5……4……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "天帷机兵（？）",
+          "PlotLineKey": "……1，开始攻击。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "流民头目",
+          "PlotLineKey": "怎么直接从5跳到1了？！你不讲武德啊——",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "基恩",
+          "PlotLineKey": "居、居然自爆了……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "流民头目",
+          "PlotLineKey": "好啊，这台破铜烂铁，居然害我虚惊一场！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "流民头目",
+          "PlotLineKey": "但它已经彻底完蛋了！现在看看还有谁能护着你们——",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "还有我。怎么，你是忘了吗？",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "基恩",
+          "PlotLineKey": "唉？你不是学院的……{PlayerName}同学？你也想要这个？不、不行，要讲先来后到，你可不许抢啊！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 18,
+              "PlotLineKey": "老师也来拾荒吗？",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 19,
+              "PlotLineKey": "……到底谁会抢啊！",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "基恩",
+          "PlotLineKey": "拾荒什么的！机械爱好者的事，能叫拾荒么！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "基恩",
+          "PlotLineKey": "原来你不是同道中人啊……害我白紧张一场。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "基恩",
+          "PlotLineKey": "如你所见，这里堆放的东西，都已经完成了报废手续。这台大家伙，现在也只是一堆冰冷的金属了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "基恩",
+          "PlotLineKey": "但“报废”不该是它的终点。既然数据核心的熄灭已经宣判了它的死亡，我们正好可以摆脱所有规则！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 20,
+              "PlotLineKey": "这台词，反派味儿有了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 21,
+              "PlotLineKey": "听起来像疯狂科学家说的……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "基恩",
+          "PlotLineKey": "是、是吗？我觉得这台词还挺帅的，一直想说说看，哈哈。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "基恩",
+          "PlotLineKey": "不瞒你说，我虽然出身农学部，却一直想加入多炮塔社，亲手设计机械机体……可惜，没能通过他们的考核。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "基恩",
+          "PlotLineKey": "但现在，灵感正在源源不断地从我的脑中涌现。说不定，我能够重拾梦想，而它也能获得全新的形态，站立于大地……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "基恩",
+          "PlotLineKey": "我一定会造出所有人都前所未见的、了不起的机兵——你愿意帮我吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 22,
+              "PlotLineKey": "如果有报酬的话。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 23,
+              "PlotLineKey": "这个忙我帮了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "基恩",
+          "PlotLineKey": "放心，报酬绝对让你满意！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "基恩",
+          "PlotLineKey": "它的躯干基本完好，只要找到合适的零件，就能马上开始改装。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "基恩",
+          "PlotLineKey": "其实，我前几天自掏腰包订了一批腿部零件，但被附近的流民给抢走了。要不，我们再去把它给取回来？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 24,
+              "PlotLineKey": "但天帷机兵……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "好像没有腿。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "基恩",
+          "PlotLineKey": "不要在意这些细节。我们不能局限于原有的设计，要打破既有的一切！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "基恩",
+          "PlotLineKey": "流民的营地还挺危险的，你引开他们的注意，趁机取货就好。记住，安全第一！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 26,
+              "PlotLineKey": "放心吧，我很强的。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 27,
+              "PlotLineKey": "等我的好消息！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "烦恼的商人",
+          "PlotLineKey": "这种令人食欲全无的科技感……没错，就是这个味儿！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "烦恼的商人",
+          "PlotLineKey": "这份“厚礼”我会好好利用，愿它能治好孩子的挑食。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "烦恼的商人",
+          "PlotLineKey": "这箱零件是答应你的报酬，向你致以最诚挚的感谢！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "高傲的学生",
+          "PlotLineKey": "居然……居然真让你全撞碎了？！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "高傲的学生",
+          "PlotLineKey": "这神乎其技的控车技术，必不是无名之辈！难道你就是传说中的星炬车神吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "暴躁的学生",
+          "PlotLineKey": "……既然你赢了，零件就是你的。但你得先答应我一个条件！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 100,
+              "PlotLineKey": "说说看。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 101,
+              "PlotLineKey": "什么条件？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "暴躁的学生",
+          "PlotLineKey": "留、留个联系方式吧。下次有机会的话，一起去赛车啊！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "高傲的学生",
+          "PlotLineKey": "还有我的！下次再办比赛的话，你也一定要来！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 102,
+              "PlotLineKey": "没问题！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "基恩",
+          "PlotLineKey": "哎呀，没想到改造之后的效果这么棒！我现在对完成它充满了信心！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 40,
+              "PlotLineKey": "先不提性能如何……",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 41,
+              "PlotLineKey": "……外形确实很有新意。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "基恩",
+          "PlotLineKey": "你很懂嘛！我正是考虑到性能的多样化，才用不同来源的部件组装机兵的。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "基恩",
+          "PlotLineKey": "哎呀，只是合理利用现有资源而已，你夸得我都不好意思了。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "基恩",
+          "PlotLineKey": "既然它已经有了可以自立于大地的双腿，那么是时候给它增添一双足够强壮的手臂了！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "基恩",
+          "PlotLineKey": "罗伊人营地有一位商人，专门回收学院机兵破损的零件，他那儿肯定有适合的商品。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "基恩",
+          "PlotLineKey": "放心，无论他开出怎样的价码，我全款报销！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "基恩",
+          "PlotLineKey": "你总算回来了！怎么样，有没有找到零件？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 32,
+              "PlotLineKey": "虽然找到了……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 33,
+              "PlotLineKey": "但你确定合适吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "基恩",
+          "PlotLineKey": "合适，太合适了，简直是绝配！我这就把它组装起来！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "基恩",
+          "PlotLineKey": "组装进度已经过半，我们胜利在望！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "基恩",
+          "PlotLineKey": "接下来是非常关键的一步——我准备按照多炮塔社的理念，给它配装更强大的武器。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "基恩",
+          "PlotLineKey": "瑝珑有句老话，大意是“如果你希望做好一件事，就需要先有足够锋利的武器。”",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 77,
+              "PlotLineKey": "这句老话莫非是……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 78,
+              "PlotLineKey": "“工欲善其事，必先利其器”？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "基恩",
+          "PlotLineKey": "没错！就是这句话！没想到你对瑝珑文化也这么了解。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "基恩",
+          "PlotLineKey": "“多炮塔”，没炮可怎么行呢？我早就想给机兵装上电磁炮试试了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "基恩",
+          "PlotLineKey": "不过这东西不太好找。科考队有几台报废的探隧重机遗落在野外，我已经在地图上标出大概位置，能麻烦你去探查一下吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 79,
+              "PlotLineKey": "事已至此……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 80,
+              "PlotLineKey": "交给我吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "基恩",
+          "PlotLineKey": "噢噢，这就是我梦想中的机兵手臂！强而有力，强而有力啊！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "基恩",
+          "PlotLineKey": "看我把它安装上去！唔，虽然接口可能有点不太适配……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 69,
+              "PlotLineKey": "强扭的手臂不适配啊！",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 70,
+              "PlotLineKey": "安全第一，安全第一。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "基恩",
+          "PlotLineKey": "小问题，能解决的，都能解决的，放心！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "欣喜若狂的基恩，以最快的速度完成了电磁炮的装配……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "基恩",
+          "PlotLineKey": "这么多年来，这是我最接近完成梦想的一刻！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "基恩",
+          "PlotLineKey": "现在只差最后一步——只需要一个足够强大的动力源，也就是俗称的头部，它就可以动起来了！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "基恩",
+          "PlotLineKey": "我拜托了做相关研究的同事，找到了最适合它的头部。能不能拜托你走一趟，帮我把它带过来？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 109,
+              "PlotLineKey": "不会是什么危险品吧？",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 110,
+              "PlotLineKey": "不会在半路炸了吧？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "基恩",
+          "PlotLineKey": "放心！我拜托他准备了特制的防护容器，绝对保证安全！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "基恩",
+          "PlotLineKey": "地址已经发到你的终端了，早去早回， 一路平安！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

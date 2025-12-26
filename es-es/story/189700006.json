@@ -1,0 +1,464 @@
+{
+  "Id": 189700006,
+  "Name": "Leyendas del duelo en las tinieblas I",
+  "Description": "Se rumorea que, a medianoche, en la estación, la gente participa en «duelos en las tinieblas», batallas entre almas y vidas. Decides investigarlo tú {Male=mismo;Female=misma}…",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 189700006,
+  "ShowQuestList": [],
+  "QuestDesc": "Se rumorea que, a medianoche, en la estación, la gente participa en «duelos en las tinieblas», batallas entre almas y vidas. Decides investigarlo tú {Male=mismo;Female=misma}…",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 192700021,
+      "PreQuestName": "Duelo reavivado: Torneo regional de Lahai-Roi"
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 8,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Plínio",
+          "PlotLineKey": "*Mmm*... Si mi información es correcta... este debería ser el sitio.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 172,
+              "PlotLineKey": "¿Buscas algo?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Plínio",
+          "PlotLineKey": "¿Eh? Oh, eres tú, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Plínio",
+          "PlotLineKey": "¿Has venido también por el rumor?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "¿Qué rumor?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Plínio",
+          "PlotLineKey": "El de los túneles. Algo sobre alguien que organiza «duelos en las tinieblas» de Cumbre Gloriosa.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Se dice que aquí se reúnen duelistas resentidos por haber sido derrotados. Se dice que han abandonado el espíritu noble del duelo y que harán cualquier cosa para ganar fuerza, aunque signifique caer en la oscuridad.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Plínio",
+          "PlotLineKey": "A medianoche, se enfrentan entre sí en un lugar secreto de los túneles. Y el perdedor... Bueno, he escuchado varias versiones.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Plínio",
+          "PlotLineKey": "La más creíble es que al perdedor le quitan su mazo, para que nunca pueda volver a batirse en duelo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Y la versión más aterradora dice que los participantes apuestan sus propias almas, y el perdedor debe entregar la suya para que el ganador se alimente de ella.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 174,
+              "PlotLineKey": "Eso seguramente será una exageración.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 175,
+              "PlotLineKey": "Lahai-Roi no es una tierra sin ley.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Yo también opino que suena ridículo, pero los rumores no surgen de la nada. Varios miembros del club de fans recibieron invitaciones de una figura misteriosa.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Plínio",
+          "PlotLineKey": "«¿Quieres más poder? ¡Entonces ven a la estación a medianoche!»",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "Eso merece la pena investigarlo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 177,
+              "PlotLineKey": "Déjamelo a mí, yo me encargo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Ten cuidado, {PlayerName}... porque dudo que ningún duelista pueda derrotarte jugando limpio.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Si los rumores son ciertos, y en estos duelos en las tinieblas se juegan vidas y almas... podrían utilizar métodos despreciables.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Plínio",
+          "PlotLineKey": "¡Por cierto! Hay un Roya llamado Alkain en la estación. Parece saber algo sobre esos «duelos en las tinieblas».",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Pero él desconfía de mí y no pude sacarle información útil. Tal vez tú tengas más suerte que yo.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 178,
+              "PlotLineKey": "Gracias.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 179,
+              "PlotLineKey": "Lo tendré en mente.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Una cara nueva. ¿Quién eres?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 141,
+              "PlotLineKey": "Estoy aquí para el duelo.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 142,
+              "PlotLineKey": "Quiero más poder.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Alkain",
+          "PlotLineKey": "¿Duelo...? Pero en tus ojos ya veo una fuerza incalculable.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Solo aceptamos a aquellos... que no tienen nada. No deberías estar aquí. Ve a batirte en duelo a otro lado.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Alkain te estudia, reflexionando un momento antes de asentir ligeramente.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Más poder... Por {Male=poderoso;Female=poderosa} que seas, el deseo de más poder... es eternamente insaciable.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Dime, ¿qué es lo que darías para obtener más poder?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 143,
+              "PlotLineKey": "... ¿Mi alma?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 144,
+              "PlotLineKey": "... ¿Mi vida?",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 145,
+              "PlotLineKey": "Todo.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 146,
+              "PlotLineKey": "Entrenaré todos los días.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Alkain",
+          "PlotLineKey": "¿Entregarías tu alma por un juego? No digas tonterías.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 8,
+          "Speaker": "Alkain",
+          "PlotLineKey": "¿Entregarías tu vida por un juego? ¿Realmente es necesario?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "Alkain",
+          "PlotLineKey": "¿Entregarías todo lo que tienes? Pero si es solo un juego... No te lo tomes tan en serio.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 10,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Esta respuesta es... razonable. Acepto.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Verás, yo también fui un perdedor. Enfréntate a mí primero y demuéstrame cuánto poder ostentas.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Para... Es suficiente. No me equivoqué contigo... Eres realmente {Male=poderoso;Female=poderosa}.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 108,
+              "PlotLineKey": "¿Así que eso era un duelo en las tinieblas?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 109,
+              "PlotLineKey": "Entonces, ¿ahora tu vida y alma me pertenecen?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Alkain",
+          "PlotLineKey": "¿Qué? ¿Duelo en las tinieblas...? ¿De dónde sacaste una idea tan ridícula?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Basta de bromas. ¿De dónde sacaste una idea tan ridícula?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Alkain",
+          "PlotLineKey": "No existe un duelo en las tinieblas como tal, y tampoco hay apuestas.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 110,
+              "PlotLineKey": "Bueno, me habían dicho que...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Le explicas a Alkain por qué estás aquí.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Ya veo. Qué rumores tan descabellados.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Algunos de ellos son ciertos, como que buscamos poder porque todos somos perdedores.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Queríamos competir en un torneo regional y fuimos eliminados en las preliminares por ser demasiado flojos... Pero no nos rendimos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Así que venimos aquí después de trabajar para compartir técnicas de duelo, practicar entre nosotros y perfeccionar nuestras habilidades.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Ser derrotado es bastante vergonzoso, así que no lo hicimos público. En su lugar, planeamos redimirnos una vez terminemos nuestro entrenamiento.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Y ahora, el asunto ha escalado hasta convertirse en historias descabelladas sobre duelos en las tinieblas.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 111,
+              "PlotLineKey": "Entiendo.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 112,
+              "PlotLineKey": "Es increíble cómo se descontrolan los rumores.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Oh, cierto, también hay dos duelistas poderosos aquí. Ellos no son unos perdedores como yo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Quisieron ayudar a entrenarnos al enterarse de que estábamos practicando Cumbre Gloriosa. También evalúan si nuestras habilidades han mejorado lo suficiente como para vengarnos de nuestros antiguos oponentes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Probablemente les interese {Male=un buen;Female=una buena} duelista como tú... Si buscas oponentes que puedan igualar tu habilidad y te ayuden a aumentar tu ventaja, seguro que te vienen bien.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 113,
+              "PlotLineKey": "Vale.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 114,
+              "PlotLineKey": "Iré a buscarlos.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Que la fuerza te acompañe, {Male=poderoso;Female=poderosa} duelista.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "Id": 189700011,
+  "Name": "ラスト・エコー（1）",
+  "Description": "子供から受け取った「宝物」をI.R.I.S.に渡したところ、システム分析により、この「宝物」が行方不明の教授に関係していることが判明した。あなたはこの件を調査することにした。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 189700011,
+  "ShowQuestList": [],
+  "QuestDesc": "子供から受け取った「宝物」をI.R.I.S.に渡したところ、システム分析により、この「宝物」が行方不明の教授に関係していることが判明した。あなたはこの件を調査することにした。",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 189700008,
+      "PreQuestName": "秘められた幼き日々"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "上にある番号は、学園のフォーマットだ。I.R.I.S.なら、何か知っているかもしれない。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "あら、{PlayerName}さん。また何かお困りごとですか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 16,
+              "PlotLineKey": "このパーツの情報を調べてほしい。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "もう少し近くまで持ってきてください。ふーん……なるほど。これは学園で昔使われていた、旧式のアシスタントロボットのコアパーツですね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "このタイプのロボットには、それぞれ専用の使用者が割り当てられています。少々お待ちを。データを掘ってみますね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "……ありました。パーツの番号から照会した結果、使用者はセスタンという男性教授です。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "記録上ではこの型のロボットはすべて廃棄済みになっているんですが……面白いことに、ひとつだけ行方不明になって記録から外れている番号が存在しますね。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 17,
+              "PlotLineKey": "{Male=それが、セスタン教授のロボットか？;Female=それが、セスタン教授のロボットなの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "ええ。そして、もっと興味深いのは——行方不明になったのはロボットだけではありません。セスタン教授ご本人も、同じ調査行動中に姿を消しています。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "当時の証言によると、教授は深夜、誰にも気づかれないようにロボットを連れてキャンプを離れ——それきり消息を絶ったそうです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "後日、教授の部屋を調査した際、遺書のような文書が見つかりました。それをもとに、失踪事件は自殺と判断されたようですね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "おそらく教授は、今回の調査そのものを「死に向かう旅」だと考えていたのでしょう。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 18,
+              "PlotLineKey": "{Male=本当に自殺だったのか？;Female=本当に自殺だったの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "その質問に答えるのは、私の職務範囲外です。個人の行動を評価するつもりはありません。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "ただ、今ある情報から、少しだけヒントを差し上げましょう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "この旧式ロボットのコアパーツには、ブラックボックスのような記録機能が搭載されています。故障直前の座標データも残されているはずです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=彼らが最後にいた場所が分かる、ってことか;Female=彼らが最後にいた場所が分かる、ってことね}。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "ええ。それが今、私にできる最大限のサポートです。座標データは、あなたのデバイスに送信しました。推測の答えは、自分の目で確かめるのが一番です。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "興味があるなら、行ってみるといいでしょう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "やはり、教授の失踪には何か裏がありそうだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "ノートには、ヴォイドストームの観測のため、しばらくロイ族のもとに滞在していたと書かれていた。そこに、手がかりがあるかもしれない。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

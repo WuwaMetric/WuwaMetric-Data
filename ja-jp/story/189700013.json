@@ -1,0 +1,311 @@
+{
+  "Id": 189700013,
+  "Name": "ラスト・エコー（2）",
+  "Description": "子供から受け取った「宝物」をI.R.I.S.に渡したところ、システム分析により、この「宝物」が行方不明の教授に関係していることが判明した。あなたはこの件を調査することにした。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 189700013,
+  "ShowQuestList": [],
+  "QuestDesc": "子供から受け取った「宝物」をI.R.I.S.に渡したところ、システム分析により、この「宝物」が行方不明の教授に関係していることが判明した。あなたはこの件を調査することにした。",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 189700011,
+      "PreQuestName": "ラスト・エコー（1）"
+    },
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 915000003,
+        "ChildQuestId": 224
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "リヤス",
+          "PlotLineKey": "この前は助かったよ、{PlayerName}。お前は信頼できるやつだ。……だから……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "リヤス",
+          "PlotLineKey": "お前に、渡したいものがある。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 29,
+              "PlotLineKey": "レコーダーと、カセット？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "リヤス",
+          "PlotLineKey": "ここにしばらく滞在してた学園の教授先生に預かったんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "リヤス",
+          "PlotLineKey": "あの人に、普段の生活に役立つ理論とか技術をいろいろ教えてもらった。キャンプの若い連中は、みんな彼のことを尊敬してたよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "リヤス",
+          "PlotLineKey": "教授は言ってた。いつか、信頼できる学園の人間に渡してほしいってな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "リヤス",
+          "PlotLineKey": "あの人は、たぶんヴォイドストームを研究してたんだと思う。いつも危ないくらい近くまで行って観測してたから。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 30,
+              "PlotLineKey": "じゃあ、彼は……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "リヤス",
+          "PlotLineKey": "ああ。……ヴォイドストームに、丸ごと呑み込まれちまった。俺たちが駆けつけた時には、もう半分消えかかっててな。その時、力を振り絞ってこのカセットとレコーダーを投げてよこしたんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "リヤス",
+          "PlotLineKey": "最後に何か言ってたけど……声が、もう聞こえなかった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "リヤス",
+          "PlotLineKey": "命懸けで託したもんだから、きっと、何か大事なことを伝えたかったんだろうな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "わかった、約束する。学園に持ち帰って、きちんとカセット保管室に預けるよ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "教授は……結局、自ら死を選んだ。けれど、それはもう……自分のためじゃなかった……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "これを、ただの自殺として片づけるのは違う。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "I.R.I.S.に、真実を伝えないと。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "{PlayerName}さん。大丈夫ですか？少し、お疲れのように見えますが……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 86,
+              "PlotLineKey": "彼のの結末を、自殺だと決めつけるのは間違ってる。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "ひとつ、訂正させていただきますね。学園は、教授の死因を自殺だと断定したことはありません。あくまでも「推測」、という扱いです。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 87,
+              "PlotLineKey": "え……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "ですが、本日、正式な結論が出ました。ある学生さんが、決定的な情報を見つけたんです。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 88,
+              "PlotLineKey": "{Male=もう知ってるのか？;Female=もう知ってるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "ええ。あなたがカセット保管室に向かった時点で、アップロードされたデータへアクセスできましたから。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "セスタン教授に関するレポートの全体を、ご覧になりますか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 89,
+              "PlotLineKey": "検索をはじめよう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "セスタン教授の関連情報を検索中です。教授は、アシスタントロボットとともに調査へ出かけ、そのまま行方不明となりました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "当時の証言によると、教授は深夜、誰にも気づかれないようにロボットを連れてキャンプを離れ——それきり消息を絶ったそうです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "後日、教授の部屋を調査した際、遺書のような文書が見つかりました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "そこには、自らの研究に対する絶望と悔しさが記されています。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "教授は研究に行き詰まり、迷っていました。そして、倫理を越えた行為をしたことは否定できません。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "ですが、ある学生の調査によって明らかになりました。教授は行方不明になった後も、研究を続けていたのです。たとえそれが、自らの死に意味を与えるためであったとしても。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "そして彼は、最後に科学の根底にある精神を取り戻しました。すべての命を平等に見ること——たとえ、それが一頭のメカレインディアであっても。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "これもまた、揺るぎのない事実です。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "以上の情報を踏まえ、I.R.I.S.およびスタートーチ学園は結論を下しました。セスタン教授の死は——科学のための献身として、正式に認定されます。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "研究の途上で、身の安全に関わる不測の事態が発生したことを、心より遺憾に思います。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 90,
+              "PlotLineKey": "ありがとう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 91,
+              "PlotLineKey": "あなたはいいロボットだ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "私は感謝されるようなことも、褒められるようなこともしていません。ただ、事実をそのまま伝えただけです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "他人が教授をどう評価するか、それを変えることは私にはできません。彼がこの評価を得た理由はひとつだけ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "I.R.I.S.",
+          "PlotLineKey": "彼は、その言葉にふさわしい人間だった。それだけのことです。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

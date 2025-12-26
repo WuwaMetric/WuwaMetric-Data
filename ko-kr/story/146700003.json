@@ -1,0 +1,570 @@
+{
+  "Id": 146700003,
+  "Name": "불가사의한 괴담 · 통제불가한 공중 건설 기계",
+  "Description": "콜랍스드 아치밴드 골짜기에 숨어 있는 괴담! 천둥과 번개가 치는 비 오는 밤, 용기를 내어 그곳에 가보는 게 어떨까? 이상한 소리와 갑자기 나타난, 닫을 수 없는... 「유령」. 진실을 조사할 준비, 되었는가?",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 146700003,
+  "ShowQuestList": [],
+  "QuestDesc": "콜랍스드 아치밴드 골짜기에 숨어 있는 괴담! 천둥과 번개가 치는 비 오는 밤, 용기를 내어 그곳에 가보는 게 어떨까? 이상한 소리와 갑자기 나타난, 닫을 수 없는... 「유령」. 진실을 조사할 준비, 되었는가?",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 146700000,
+        "ChildQuestId": 4
+      }
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 1,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "어? {PlayerName}(이)가 먼저 나에게 전화를 하다니... 알겠어, 우리 동호회에 가입하려는 거야?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 117,
+              "PlotLineKey": "하하, 아직 고민 중이에요!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 118,
+              "PlotLineKey": "아니요, 그것보다...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "빗소리가 엄청 크네. 밖에... 아니, 너 지금 콜랍스드 아치밴드 골짜기에 있는 거야?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "맞아요. 비 오는 밤, 야외의 골짜기, 허튼소리를 하는 공중 건설 기계, 그리고...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "... 공중에 거꾸로 매달린, 금방이라도 떨어질 것 같은 차도",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 119,
+              "PlotLineKey": "알고 있었군요? 그래서 절 이쪽으로 보낸 거군요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 120,
+              "PlotLineKey": "역시, 이것도 동호회의 조사 리스트에 포함되어 있군요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "물론이지. 우리의 「데이터베이스」를 얕보지 말라구~",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "직접 보거나 겪은 것, 또는 근거 없는 소문이라도 라하이 로이 지역과 관련된 모든 이상 현상과 괴담이라면, 내가 모르는 게 없지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "어디 보자... 이 일은 보이드매터 학부의 학생이 제일 처음으로 발견했어. 그녀가 말하는데, 비 오는 밤이 되면 에칭 평원의 야외에선 계속 도로를 생성하는 프린트 기계가 나타난다고 했어...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "그것과 매칭되는 투자 기획도, 그것을 찾아가는 사람도 없었어. 갑자기 나타난 도로를 건설하는 기계, 마치 비 오는 밤이면 나타나는 「유령」 같았지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "아, 그리고 그때 그 학생은 동영상을 찍어 올려 이슈가 되었었어. 누군가는 인위적인 장난이라 하고, 또 누군가는 도로를 건설하는 기계는 그저 핑계일 뿐, 이 구역이 저주당한 거라고 했지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "그리고 나중에 동영상이 갑자기 없어지면서 그에 대한 토론도 점점 줄어지게 됐어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "어, 이렇게 잠재력이 있는 인재가 동호회로 끌어들이지 않았다고? 아깝네... 아니지, 너무 멀리 갔어!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "{PlayerName}, 잘 봐봐. 도로 말고 다른 무언가가 더 있는지...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "마요의 목소리는 점점 작아지면서 천둥소리 속에 사라졌다. 빗속으로 하얀 빛이 번쩍이자 그림자 하나가 쏜살같이 지나가며 모습을 숨겼다 드러냈다 한다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "떠있는 길바닥 위에 무인 바이크가 귀신처럼 낮은 굉음을 낸다",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 121,
+              "PlotLineKey": "바이크 맞죠... 봤어요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 122,
+              "PlotLineKey": "진짜 있네요. 알려줘서 감사해요",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "이것도 그 당시 이슈 중 하나였지",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "누군가는 바이크의 출현은 우연이라고 하고, 또 누군가는 그것이 괴담의 일부라고 했어. 멀리 떨어지는 게 좋을 거야. 그건 도로와 달리 움직일 수 있어서 갑자기 달려올 수도 있으니까",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "하지만 난 이 바이크가 관건이라고 생각해... {PlayerName}, 나 믿어?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 123,
+              "PlotLineKey": "일단 근거부터 얘기해 봐요",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 124,
+              "PlotLineKey": "괴담과 관련된 건 당신이 저보다 경험이 많아요",
+              "PlayVoice": false,
+              "JumpToId": 20
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "필요하지 않은 바이크가 갑자기 나타났으니까",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "심지어 도로를 건설하는 기계가 계속 길바닥을 생성하는 것도 마치 바이크가 충분히 달릴 수 있게 하는 것 같단 말이야",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 21
+        },
+        {
+          "Id": 20,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "도로를 건설하는 기계가 계속 길바닥을 생성하는 것도 마치 바이크가 충분히 달릴 수 있게 하는 것 같단 말이야",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 21
+        },
+        {
+          "Id": 21,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "그것이 단순히 길을 생성하는 게 아니라 비 오는 밤에 나타난 어떤 장면을 시뮬레이션하려는 거라면... 자, 출발하지 {PlayerName}!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "그 바이크를 따라잡는 거야! 계속 반복하는 그 장면을 깨뜨려 보자고~",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 125,
+              "PlotLineKey": "확신하나요?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "어, 나도 잘 모르겠어... 그래서 날 믿냐고 묻는 거야",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 126,
+              "PlotLineKey": "그럼 한 번 믿어보죠. 손해 보는 것도 없으니",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 127,
+              "PlotLineKey": "... 그래요. 그럼 저에게 신세 진다고 생각할게요",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 128,
+              "PlotLineKey": "그래요. 그럼 출발하죠!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "당신은 이 공중 건설 기계의 전원을 차단하려고 했지만 그것의 전원이 켜지지도, 시스템에 접속하지도 않았다는 것을 발견했다——",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "끄지도 종료도 할 수 없다. 공중 건설 기계의 붉은빛은 점점 더 심하게 반짝거린다. 점점 더 많은 길바닥이 펼쳐지는 게 금방이라도 떨어질 것 같은 공중에 떠있는 차도 같았다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(이상 현상, 아니면... 괴담? 설마 이게 바로 마요가 날 이곳으로 보낸 이유인가? 전화해서 한 번 물어보자)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "후, 이렇게... 끝난 건가?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "잠깐, 그건... 기록 장치? 방금 공중 건설 기계가 「뱉어」낸 건가?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "... 안돼요. 속도가 너무 빨라요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "괜찮아. 이미 엄청 대단한걸. 아주 조~금밖에 차이 안 났어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "그의 구역이니, 수없이 반복했겠지... 다음에 다시 한번 시도해 보자!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "밤이다. 붉은빛이 빗속에서 희미하게 반짝이며, 습한 공기 속엔 철과 먼지의 냄새가 가득했다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "규칙적인 덜컹거리는 소리",
+          "PlotLineKey": "삐걱—— 삐걱——",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "규칙적인 덜컹거리는 소리",
+          "PlotLineKey": "삐걱—— 삐걱—— 삐걱——",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 29,
+              "PlotLineKey": "무슨 소리지. 덜컹거리는...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 30,
+              "PlotLineKey": "듣기에... 어디의 공사 소리인가?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "비 오는 밤의 환경임을 감지했습니다. 조건에... 매칭합니다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "???",
+          "PlotLineKey": "임... 무—— 시작합니다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "???",
+          "PlotLineKey": "간섭하지... 마십시오",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "갑자기 이상한 남자 목소리가 울렸다. 그의 목소리는 마치 날카로운 무기가 유리창을 긁는 것처럼 사람을 소름 끼치게 한다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "그러나 보이는 건, 우뚝 서있는 공중 건설 기계 한 대뿐이었다. 그것의 껍데기는 얼룩덜룩하고 번호도 모호한 게, 사용 중인 기계는 아닌 듯하다",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "도로를 건설하는 기계가... 말을 한다고?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 32,
+              "PlotLineKey": "누구의 장난인가?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "공중 건설 기계 (이상한 남자 목소리)",
+          "PlotLineKey": "임... 무—— 시작합니다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "공중 건설 기계 (이상한 남자 목소리)",
+          "PlotLineKey": "간섭하지... 마십시오",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "... 우선 전원을 차단해 보자",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "... 안돼요. 속도가 너무 빨라요",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "괜찮아. 이미 엄청 대단한걸. 아주 조~금밖에 차이 안 났어",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "그의 구역이니, 수없이 반복했겠지... 다음에 다시 한번 시도해 보자!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "덜컹거리는 소리가 사라지고 붉은빛을 반짝이지 않는 공중 건설 기계도 정상적으로 회복된 것 같다. 기계는 부드러운 남자 목소리로 마지막 설명을 진행하고 있다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "공중 건설 기계 (부드러운 남자 목소리)",
+          "PlotLineKey": "비 오는 밤의 환경임을 감지했습니다. 조건에 매칭합니다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "공중 건설 기계 (부드러운 남자 목소리)",
+          "PlotLineKey": "테스트 시작... 실패했습니다. 테스터가 부족합니다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "공중 건설 기계 (부드러운 남자 목소리)",
+          "PlotLineKey": "중복합니다. 테스터 「K · 넬슨」이 부족합니다. 테스트 시작에 실패했습니다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "공중 건설 기계 (부드러운 남자 목소리)",
+          "PlotLineKey": "목표 수정—— 복원성 기반 시설을 시작합니다. K · 넬슨이 안전하게 도착할 수 있도록 호송하여 K · 넬슨의 죽음을 막습니다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "공중 건설 기계 (부드러운 남자 목소리)",
+          "PlotLineKey": "임무, 시작... 임무... 종료",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "드디어 공중 건설 기계는 전원이 끊긴 것처럼 아무런 소리를 내지 않았다",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "... {PlayerName}, 마지막에 K · 넬슨의 테스트가 성공했다고 생각해?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "비 오는 밤에 그 길을 계속 재건하는 건, 테스터의 죽음으로 인한 피자극성 중복 행위일까, 아니면... 아쉬움을 달래려고 스스로 진행한 사실 판단일까?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "어휴, 진짜임을 증명할 수도 거짓임을 증명할 수도 없는 결말이라니... 괘씸하면서도 아쉬워",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 175,
+              "PlotLineKey": "이게 바로 괴담의 매력이겠죠",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "어? {PlayerName}(이)가 이렇게 말할 줄은 몰랐는걸!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "마요(통신 중)",
+          "PlotLineKey": "근데... 나는 세상에 영혼이 있다는 걸 믿어. 그 공중 건설 기계의 영혼은... 아마 K · 넬슨이 부여한 지속적인 테스트의 연산 속에 숨어있을지도 몰라",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

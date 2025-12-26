@@ -1,0 +1,1169 @@
+{
+  "Id": 181700015,
+  "Name": "Bienvenue au club !",
+  "Description": "Vous avez rencontré Bjarki, un élève très gentil. Suite à ses recommandations chaleureuses, vous vous intéressez aux différents clubs de l'académie.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 181700015,
+  "ShowQuestList": [],
+  "QuestDesc": "Vous avez rencontré Bjarki, un élève très gentil. Suite à ses recommandations chaleureuses, vous vous intéressez aux différents clubs de l'académie.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 192700019,
+      "PreQuestName": "Sommet de la Gloire : Duel ravivé"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Hey, tu me dis quelque chose… Ah oui ! Tu es {Male=le nouvel étudiant;Female=la nouvelle étudiante} !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Comment se passe la vie à l'académie pour l'instant ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 200,
+              "PlotLineKey": "Très bien.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 201,
+              "PlotLineKey": "La nourriture laisse à désirer, mais sinon ça va.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Super. Ici, au sein du collectif Trek-spatial, nous venons tous des quatre coins de Solaris. Nous avons tous des habitudes et des coutumes différentes, il faut du temps pour s'habituer à tout.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 4,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Ah, c'est pas faux. Le goût et la texture de ce qu'ils servent à l'institut… pourraient vraiment être améliorés.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Mais l'apport nutritionnel est scientifiquement optimisé. C'est quelque chose que tu apprendras à aimer avec le temps.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "En parlant de la vie sur le campus, as-tu eu le temps de te renseigner sur les différents clubs de l'académie, {PlayerName} ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Si tu cherches une façon sympa d'utiliser ton temps libre, rejoindre un club est l'idéal.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 202,
+              "PlotLineKey": "Oui, j'en connais quelques-uns.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 203,
+              "PlotLineKey": "Pas encore.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Parfait, alors pas besoin que je t'explique comme ils marchent.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Alors laisse-moi t'expliquer ! Contrairement aux associations officielles qui reçoivent des financements de l'académie, les « clubs » sont dirigés par les élèves et regroupent des gens aux passions communes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Pas besoin d'avoir un sujet de recherches ! C'est juste pour que les gens se rassemblent pour faire ce qu'ils aiment.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Les clubs… Voyons. Ahah, voilà !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Il y a un super article que tu devrais lire, « L'essentiel du première année : les meilleurs clubs de l'académie Brandétoile ». Une seconde…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Bjarki transfère l'article sur votre terminal. Vous le parcourez rapidement, et certains clubs attirent tout de suite votre attention.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "L'article recense les clubs les plus populaires de l'académie Brandétoile et indique leurs lieux de réunion.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Si l'un d'eux a attiré ton attention, pense à y aller, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(L'article dit qu'il y a un club de Sommet de la gloire… J'étais peut-être membre ? Je devrais aller voir.)",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 204,
+              "PlotLineKey": "Merci, j'irai faire un tour quand j'aurai le temps.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Super. N'oublie pas de me dire ce que tu as pensé des recommandations de l'article !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Anita",
+          "PlotLineKey": "Tu arrives au bon moment, {PlayerName}. Est-ce que tu as vu Olof ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 233,
+              "PlotLineKey": "Non.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 234,
+              "PlotLineKey": "C'est qui Olof, déjà ?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Anita",
+          "PlotLineKey": "C'est bizarre… Il ne vient plus du tout aux réunions du club.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 3,
+          "Speaker": "Anita",
+          "PlotLineKey": "C'est celui qui a perdu son duel contre Chessa, quand le professeur Calith essayait de fermer le club.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Anita",
+          "PlotLineKey": "Après ce duel, il ne s'est plus joint à nous.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 5
+        },
+        {
+          "Id": 5,
+          "Speaker": "Anita",
+          "PlotLineKey": "Olof a toujours été fier de ses capacités. Je pense que sa défaite contre Chessa a dû l'anéantir.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Anita",
+          "PlotLineKey": "{PlayerName}, tu pourrais aller le chercher ? Je ne pense pas qu'il voudrait me voir ou qui que ce soit du club.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Anita",
+          "PlotLineKey": "Mais il te parlera peut-être. Tu as battu Chessa. Pour lui, c'est comme si tu l'avais vengé.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 235,
+              "PlotLineKey": "Tu sais où il est allé ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 236,
+              "PlotLineKey": "Tu as une idée d'où il a pu aller ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Anita",
+          "PlotLineKey": "Voyons… Ah, j'ai entendu dire qu'il traînait à la <color=YellowD>salle d'arcade</span> après les cours.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Anita",
+          "PlotLineKey": "Si tu le trouves, essaies de lui demander ce qui se passe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Anita",
+          "PlotLineKey": "Qu'il ait besoin d'aide, de prendre l'air, ou même… de quitter le club, peu importe, nous le soutiendrons.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 237,
+              "PlotLineKey": "Avec plaisir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Anita",
+          "PlotLineKey": "Merci, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Olof",
+          "PlotLineKey": "Ah, c'est toi… Au moins, tu n'es pas quelqu'un du club là pour remuer le couteau dans la plaie.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Olof",
+          "PlotLineKey": "Mais tu ne ferais pas ça. Tu es cette force de la nature qui a battu professeur Calith et sauvé le club.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Olof",
+          "PlotLineKey": "Je ne suis qu'un misérable insecte pour toi, non ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 251,
+              "PlotLineKey": "Pas du tout.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 252,
+              "PlotLineKey": "Le but des duels est de s'amuser.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Olof",
+          "PlotLineKey": "Évidemment que tu peux dire ça, tu as <span class=\"italic\">gagné</span>. Les gagnants restent dignes et ont le droit de dire des banalités.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Olof",
+          "PlotLineKey": "Mais les perdants ? Que peuvent-ils, eux ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Olof",
+          "PlotLineKey": "C'est marrant. Je croyais que j'étais le deuxième meilleur duelliste du club, et par extension, de l'académie. Mais depuis ce duel contre Chessa, j'ai compris…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Olof",
+          "PlotLineKey": "Que tout mon travail acharné, mon pseudo « talent », les victoires dont j'étais fier… Tout ça n'est rien comparé à un génie. Alors, à quoi bon ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Olof",
+          "PlotLineKey": "Je ne ressens plus la moindre joie en faisant des duels. Et hors de question de devenir un tyran qui martyrise les plus faibles pour se sentir mieux.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Olof",
+          "PlotLineKey": "Alors dis-moi {PlayerName}, qu'est-ce que je devrais faire ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 253,
+              "PlotLineKey": "Si c'est ce que tu penses…",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 254,
+              "PlotLineKey": "Alors tu devrais m'affronter.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Olof",
+          "PlotLineKey": "C'est ça, ta réponse ? Tu as écouté tout ce que je viens de dire, ou quoi ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Olof",
+          "PlotLineKey": "Je ne prends plus de plaisir à faire des duels. La victoire ne veut plus de moi.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 255,
+              "PlotLineKey": "Peut-être… ou peut-être pas.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 256,
+              "PlotLineKey": "Ça ne coûte rien d'essayer.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Olof",
+          "PlotLineKey": "Très bien. Après tout, tu as vaincu Chessa. Notre duel sera peut-être différent de ce que j'ai imaginé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Olof",
+          "PlotLineKey": "Je vais mettre le peu de passion qui me reste dans cette confrontation. Alors que le duel commence !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Garris",
+          "PlotLineKey": "Salut {PlayerName} !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 292,
+              "PlotLineKey": "C'est bien l'Atelier Argus ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Garris",
+          "PlotLineKey": "Oui ! Et je suis le chef de l'atelier, Garris.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Garris",
+          "PlotLineKey": "Tu t'intéresses à notre club ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 293,
+              "PlotLineKey": "Qu'est-ce que vous faites ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Garris",
+          "PlotLineKey": "Pour faire court, on « fabrique des armes ». Plus précisément des épées, des sabres… tout l'arsenal de base.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Garris",
+          "PlotLineKey": "Mais contrairement aux forgerons de Septimont qui travaillent avec des enclumes et des fourneaux, nous utilisons un établi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Garris",
+          "PlotLineKey": "Nous encourageons tout le monde à ajouter sa touche personnelle aux modèles d'armes. C'est ainsi que nous rendons hommage à la tradition, tout en utilisant les outils d'aujourd'hui.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Pourquoi vous ne faites que des armes ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Garris",
+          "PlotLineKey": "Je crois que d'une certaine manière, nous sommes tous programmés pour aimer les armes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Garris",
+          "PlotLineKey": "Les humains ont utilisé le feu pour se protéger dans la nuit. Mais faire de beaux feux de camp ne suffisait pas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Garris",
+          "PlotLineKey": "Pour vaincre ce qui se tenait dans les ténèbres, nous avons dû inventer les lames. C'était essentiel pour partir explorer l'inconnu.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Garris",
+          "PlotLineKey": "Alors pour nous, le feu du fourneau est notre art, et les armes sont notre courage pour aller découvrir cet inconnu.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 294,
+              "PlotLineKey": "Oui, je vois ce que tu veux dire.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 295,
+              "PlotLineKey": "C'est bon à savoir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Garris",
+          "PlotLineKey": "Haha, c'est ce qu'on raconte sur notre page d'accueil. La vérité, c'est que… ici, tout le monde adore les armes de mêlée bien polies et affûtées.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Garris",
+          "PlotLineKey": "Qu'est-ce qu'une lame, sinon le symbole du romantisme éternel de l'humanité ? Qui ne voudrait pas une arme légendaire et une œuvre d'art forgée de ses propres mains ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Garris",
+          "PlotLineKey": "Alors, qu'est-ce que tu en dis ? Tu te joins à nous ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 296,
+              "PlotLineKey": "Ça a l'air intéressant.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 297,
+              "PlotLineKey": "J'ai déjà hâte.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Garris",
+          "PlotLineKey": "Parfait ! Alors commençons. D'abord, tu vas devoir fabriquer un sabre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Garris",
+          "PlotLineKey": "Tiens, prends cette luxite. Si tu n'en as plus, tu pourras venir en chercher plus.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Garris",
+          "PlotLineKey": "Oh ho ! C'est une sacrée pièce que tu nous as faite là. Je peux jeter un œil ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 330,
+              "PlotLineKey": "Vas-y.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Garris prend l'arme, la fait tournoyer et l'examine avec attention avant de vous la rendre, visiblement impressionné.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Garris",
+          "PlotLineKey": "Ouah, pas mal du tout ! L'équilibre et la prise en main sont parfaits.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Garris",
+          "PlotLineKey": "Il n'est pas encore aiguisé, mais la qualité du métal est incroyable. Son tranchant sera épatant, c'est évident.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Garris",
+          "PlotLineKey": "La taille et la répartition du poids diffèrent plutôt des modèles. Est-ce que tu l'as modifié pour qu'il convienne à ton style de combat et tes habitudes ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Garris",
+          "PlotLineKey": "Oh ! Désolé, je m'emporte. Ce n'est pas tous les jours qu'on voit un tel chef-d'œuvre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Garris",
+          "PlotLineKey": "Rien ne vaut la sensation d'une arme qu'on a faite soi-même, pas vrai ? Une lame achetée ne tient pas la comparaison.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 331,
+              "PlotLineKey": "Honnêtement, je ne suis pas très difficile.",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 332,
+              "PlotLineKey": "Une personne qui m'est très chère m'a offert un sabre excellent.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            },
+            {
+              "TextId": 333,
+              "PlotLineKey": "Bon, après tout, tu sais mieux que quiconque ce qui te convient.",
+              "PlayVoice": false,
+              "JumpToId": 13
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Garris",
+          "PlotLineKey": "Hum… J'ai entendu dire que les épéistes de Huanglong préféraient la simplicité avant tout. Au final, une arme n'est que l'extension du talent de celui qui la manie.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Garris",
+          "PlotLineKey": "Dans les mains d'un maître, même une arme de base peut vaincre des ennemis puissants.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Vous montrez à Garris « Pacte de sang » que vous a offert Cantarella.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Garris",
+          "PlotLineKey": "C'est… C'est ce que je pense ?! La maîtrise secrète et légendaire de la famille Fisalia de Ragunna ?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Garris",
+          "PlotLineKey": "Je n'en avais entendu parler que dans les livres. La voir en vrai… Ah, cette lame est plus tranchante que je ne l'aurais jamais imaginé ! C'est toute une tempête qu'il y a dans cette lame !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 13,
+          "Speaker": "Garris",
+          "PlotLineKey": "Ahah, bien dit ! Une arme qu'on a faite soi-même devient comme une extension de son corps.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Garris",
+          "PlotLineKey": "Et c'est ça qui fait la beauté de cet art.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 15
+        },
+        {
+          "Id": 15,
+          "Speaker": "Garris",
+          "PlotLineKey": "Merci de m'avoir montré tes compétences exceptionnelles, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Garris",
+          "PlotLineKey": "Tu peux revenir t'entraîner à l'Atelier Argus quand tu voudras. Après tout, même les meilleurs forgerons doivent continuer à parfaire leurs compétences, non ?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Pff… Eurgh…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Excuse-moi, tu sais où je pourrais trouver le club des gastro-alchimistes ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Les « gastro-alchimistes » ? C'est moi…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 373,
+              "PlotLineKey": "Tu es la cheffe du club ?",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 374,
+              "PlotLineKey": "Tout ça n'a pas l'air très gastronomique…",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Non, la cheffe est à l'infirmerie. Crampes abdominales.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Felicia",
+          "PlotLineKey": "En parlant de ça, Dr Luuk cuisine beaucoup… On devrait peut-être le recruter aussi… ?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 6,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Bon, tu n'as pas tout à fait tort. D'habitude, tout le monde va manger à la cafétéria.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Ah, j'ai oublié de me présenter. Je suis Félicia, et je fais partie du club des gastro-alchimistes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 375,
+              "PlotLineKey": "Salut, moi c'est {PlayerName}.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 376,
+              "PlotLineKey": "Qu'est-ce que vous faites exactement dans ce club ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Eh bien, la mission principale était d'« améliorer la nourriture de l'académie », mais contrairement aux vraies associations, notre club ne fait pas d'ingénierie alimentaire ni de recherche nutritionnelle.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Nous, on se concentre sur la <span class=\"italic\">méthode</span> ! Des petites techniques pour combiner ce qu'on peut trouver à manger sur le campus et rendre tout ça meilleur.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 377,
+              "PlotLineKey": "C'est possible ça ?!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 378,
+              "PlotLineKey": "Hummm !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Par exemple, l'une de nos recettes consiste à retirer la farce des petits pains « Faim sans fin », à les reremplir de Géli-Folie, puis à tremper le tout dans le reste de bouillon des nouilles en gobelet Délices de minuit…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 379,
+              "PlotLineKey": "Ça a l'air totalement contre-nature !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 380,
+              "PlotLineKey": "On dirait de la nourriture de condamné à mort.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Felicia",
+          "PlotLineKey": "C'est l'une de nos recettes les plus <span class=\"italic\">fiables</span>. Au club, tout le monde expérimente de façon libre, en combinant les ingrédients à disposition.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Et on note les meilleures combinaisons. Nous appliquons une politique 0-déchet stricte ! Alors nous mangeons tout, même ce qui a un goût bizarre ou qui est un échec.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Les membres sont tous, <span class=\"italic\">ahem</span>, mentalement préparés à toute éventualité gastro-intestinale. C'est d'ailleurs à cause de sa dernière création que notre cheffe est à l'infirmerie.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Alors, tu veux goûter à nos bons petits plats ? Je viens d'inventer une recette qui devrait être pas mal…",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 381,
+              "PlotLineKey": "D'accord, je me lance.",
+              "PlayVoice": false,
+              "JumpToId": 17
+            },
+            {
+              "TextId": 382,
+              "PlotLineKey": "Non, tout ça n'est pas très rassurant…",
+              "PlayVoice": false,
+              "JumpToId": 25
+            }
+          ]
+        },
+        {
+          "Id": 17,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Super ! Ça fait longtemps qu'on n'avait pas vu {Male=un étudiant;Female=une étudiante} faire preuve d'autant de courage et de curiosité !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Je vais préparer ça…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Félicia ramène un plat au contenu non-identifié. Vous n'osez pas demander ce que c'est.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Avec appréhension, une certaine crainte… et même une lueur d'intérêt que vous n'admettriez jamais, vous rassemblez votre courage pour prendre une bouchée.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Alors… ? C'est comment ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 383,
+              "PlotLineKey": "C'est bizarre, mais pas totalement désagréable.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 384,
+              "PlotLineKey": "C'est… Pas mal, je dois dire.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 22,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Ouf ! Génial ! Je vais rajouter ça au livre de recettes des gastro-alchimistes !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Et cette recette portera ton nom ! Le nutri-plat façon {PlayerName} !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Merci pour le coup de main, {PlayerName} ! Je concocterai quelque chose d'encore plus excitant la prochaine fois !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous n'avez pas le courage de goûter à ce nouveau plat. Félicia comprend votre appréhension, mais semble un peu déçue.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Oh… C'est dommage. Si ça se trouve c'est délicieux, tu sais !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Felicia",
+          "PlotLineKey": "Ça en fera plus pour moi… J'espère juste ne pas rejoindre notre cheffe à l'infirmerie.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Bon. Maintenant que c'est réglé, je peux aller voir les autres clubs.)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(L'article mentionnait d'autres clubs. Je devrais aller les voir aussi.)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Bon, j'ai découvert tous les clubs mentionnés dans l'article.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Je devrais retourner voir Bjarki.)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Alors {PlayerName} ? Est-ce que ces clubs valaient le coup ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 394,
+              "PlotLineKey": "Plutôt oui.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 395,
+              "PlotLineKey": "Ce n'était pas ce à quoi je m'attendais.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Haha, très bien. Je n'ai pas écrit cet article pour rien…",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "J'en ai un peu trop fait, c'est ça ? Ils n'étaient pas à la hauteur ? Je devrais réécrire un peu cet article…",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 396,
+              "PlotLineKey": "Ah, c'est donc toi qui l'as écrit.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Eh bien, oui. J'aime bien poster des recommandations sur le forum de l'académie pour aider les petits nouveaux à prendre leurs marques.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Que ce soit en termes de clubs ou de légendes urbaines, cette académie est pleine de choses intéressantes à découvrir.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Je trouve que ça serait dommage de passer à côté.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Ah, au fait ! À la fin du semestre, l'académie organise un grand festival. Toutes les associations montrent leur travail, et les clubs préparent aussi leurs propres présentations.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "C'est un événement à ne pas rater, {PlayerName} ! Toute l'académie est en ébullition !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 397,
+              "PlotLineKey": "Je m'en souviendrai.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 398,
+              "PlotLineKey": "J'ai hâte.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Bjarki",
+          "PlotLineKey": "Bon, eh bien… à la prochaine {PlayerName} ! J'espère que tu passeras des super moments inoubliables à l'académie !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

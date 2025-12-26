@@ -1,0 +1,745 @@
+{
+  "Id": 181700016,
+  "Name": "星が瞬く夜",
+  "Description": "アンジェという名の学生を手伝い、天体観測ガイドブックを見つけた。このガイドブックは彼女にとって特別な意味を持っており、彼女と友人との約束に関係しているようだ……",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 181700016,
+  "ShowQuestList": [],
+  "QuestDesc": "アンジェという名の学生を手伝い、天体観測ガイドブックを見つけた。このガイドブックは彼女にとって特別な意味を持っており、彼女と友人との約束に関係しているようだ……",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 176000007,
+      "PreQuestName": "スペーストレック観測台：プロジェクト・ウォッチャー"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "おかしいな。一体どこに置いたんだっけ……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 121,
+              "PlotLineKey": "{Male=どうしたんだ？;Female=どうしたの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "{PlayerName}さん。ちょうどよかった。教室で薄い本を見たことはない？表紙がわりとシンプルなやつ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 122,
+              "PlotLineKey": "{Male=記憶にないな。;Female=記憶にないかな。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 123,
+              "PlotLineKey": "探すのを手伝おうか？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "いいの？ありがとう、{PlayerName}さん。あの本を取り出した後、私は教室を出てないの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "教室のこちら側は全部探したから、手分けして向こう側を探しましょう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "よかった！{PlayerName}さんが見つけてくれて。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 139,
+              "PlotLineKey": "{Male=星を見に行くのか？;Female=星を見に行くの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "……うん。私だけじゃなくて、友達も一緒にね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "これは私たちがスタートーチ学園に入ってからした約束なの。でも、制度と個人的な理由のために、私たちはそれぞれ違う学部に入ってしまった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "そのせいで、昔のように顔を合わせたり、おしゃべりしたりすることができなくなったの。言いたいことや、共有したい話題もたくさんあるのに、機会がなかなか得られなくて。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "だから、みんなを繋ぐ何かのきっかけが必要なの。他人から見たら、私たちは物静かで、地味な学生でしかないかもしれないけど……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "花火を打ち上げたり、一緒に騒ぎながら美味しいものを食べるのは、私たちには向いてない。だから、顔を上げればすぐ見れる星空を選ぶことにしたの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "星空の下で一緒に寝転がって、興味のある話題について話しながら……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "このガイドブックを見て、星空を見るのに最適な時間と場所を探してたんだ。あとで友達にも知らせるつもりだった。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 140,
+              "PlotLineKey": "最適な場所なら知ってるかもしれない……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 141,
+              "PlotLineKey": "{Male=場所はスペーストレック観測台にしたらどうだ？;Female=場所はスペーストレック観測台にしたらどうかな？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "え？観測台の修繕工事はもう終わってるの？それなら、確かに最適な場所だね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "{PlayerName}さんも良かったら、一緒に来ない？ガイドブックの内容によると、今夜の星空はかなり美しいみたいだよ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 142,
+              "PlotLineKey": "いいよ、一緒に行こう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "じゃあ、先にこの話を友達みんなに伝えに行こう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "レイメオ",
+          "PlotLineKey": "……来週の月曜は『位相コーティング理論技術基礎編』のテストがあるけど、まだ少しも読んでない……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "レイメオ",
+          "PlotLineKey": "火曜日は『意識場論』か。まあ、いけるでしょ。まだ読んでない長い章が1つ残ってる……そこまでは読みはしたけど、問題を解ける気はしないな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "レイメオ",
+          "PlotLineKey": "水曜日は、『ロイ人社会文化史』だな。水曜の朝起きてから頭に入れよう。今週末は学園バーチャルアイドルのオンラインライブがあって、徹夜しないと……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "じゃあ、今日は？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "レイメオ",
+          "PlotLineKey": "今日は、外に出て何かを見上げたい気分だけど……おっ、アンジェ。来たんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "忙しくても友達との約束は無意識に覚えてるみたいだね。どう？ガイドブックで今夜星を一番見やすい時間を調べておいたよ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 167,
+              "PlotLineKey": "それに、観測台ももう入れるようになってた。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "あっ、こちらは同じ学部の友達の{PlayerName}さんだよ。星を見るのに最適な時間と場所はもう決めたから、あとは参加者を集めるだけなんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "レイメオ",
+          "PlotLineKey": "こういう時に、俺が行かないわけがないだろ……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "でも課題が……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "レイメオ",
+          "PlotLineKey": "勉強には適度な休みも必要だ。そのバランスは人それぞれってことだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "ほどほどにしてね。友達のためとはいっても、私たちのために課題をおろそかにはしないでほしいから。じゃあ今夜22:00に。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "よし。これで誘いたい人はみんな誘った。{PlayerName}さんは誘いたい相手はいる？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 168,
+              "PlotLineKey": "{Male=そうだな……;Female=そうだね……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 169,
+              "PlotLineKey": "観測台なら、確かに1人いる。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "わかった。じゃあ各自準備を済ませてから、今夜22:00に観測台で会おう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ヒリングス",
+          "PlotLineKey": "うおっ……やっとメッセージがきたか！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ヒリングス",
+          "PlotLineKey": "いつもご利用いただき、ありがとうございます。ただいま開催中のキャンペーンについて……クソッ、また広告かよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ヒリングス",
+          "PlotLineKey": "この一週間、こういう広告以外だと、学食のピックアップメニューのお知らせしか届いてない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ヒリングス",
+          "PlotLineKey": "まさかみんな忘れてしまったのか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "一緒に星を見る約束を。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ヒリングス",
+          "PlotLineKey": "アンジェ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "ごめんね。最近ちょっと忙しくて、連絡するのが遅れちゃったの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "そうだ、この人は同じ学部の{PlayerName}さんで……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 197,
+              "PlotLineKey": "一緒にスペーストレック観測台に行こう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "ヒリングス",
+          "PlotLineKey": "観測台って……つまり、正真正銘の天文台で星を見れるってことか？カメラ、カメラ、俺のカメラは……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "わざわざ用意しなくていいよ。今回は携帯通信機かデバイスの撮影機能で我慢しよう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "{PlayerName}さん、彼はどんくさそうに見えるけど、実は私たちの中で一番洞察力に優れてるんだよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "だから彼は撮影を愛してるの。発明で世界を動かすよりも、B級映画を撮って人々の心を動かしたいんだって。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 198,
+              "PlotLineKey": "{Male=B級映画じゃないといけないのか？;Female=B級映画じゃないとダメなの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "ヒリングス",
+          "PlotLineKey": "もちろんだ。低予算の映画で人を感動させられたら、すごくクールだろ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "じゃあ今夜の撮影はB級映画の監督に任せることにするね。時間は22:00。{PlayerName}さん、もう1人の友達にも知らせに行こう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ディリファ",
+          "PlotLineKey": "{PlayerName}さん？ どうしてこちらに？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 220,
+              "PlotLineKey": "{Male=今日は定期的に受けている検査の日だろ？;Female=今日は定期的に受けている検査の日でしょ？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ディリファ",
+          "PlotLineKey": "ああ、安心してください。検査の結果はまったく問題ありませんでした。また何か問題が起きたとしても、ひとりで背負い込んだりはしませんから。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 221,
+              "PlotLineKey": "{Male=実は、聞いてほしい話があるんだ。;Female=実は、聞いてほしい話があるの。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "ディリファ",
+          "PlotLineKey": "何でしょうか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=観測台へ一緒に星を見に行かないか？観測台の修繕が終わってから、新人の募集やいろんな対応で忙しくて、まだろくに休んでないだろ。;Female=観測台へ一緒に星を見に行かない？観測台の修繕が終わってから、新人の募集やいろんな対応で忙しくて、まだろくに休んでないでしょ。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "『ラハイロイで星を見よう』ってガイドブックによると、大気シミュレータアレイによって今夜は唯一無二の星空を観測できるらしいんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "この機会に、仕事は置いておいて、ただの星を見る人として、星空の美しさを楽しんでみたらどうかな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ディリファ",
+          "PlotLineKey": "ただの星を見る人として、星空の美しさを、ですか……ふふ、わかりました。一緒に行きましょう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "{PlayerName}さん、こんばんは！誘いたい人って、ディリファさんのことだったんだね！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 245,
+              "PlotLineKey": "{Male=知り合いだったのか？;Female=知り合いだったの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ディリファ",
+          "PlotLineKey": "ええ。この間、アンジェさんに天文学の基礎知識に関する質問をされたことがありまして。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 246,
+              "PlotLineKey": "{Male=俺たち、遅刻してないよな。;Female=私たち、遅刻してないよね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 247,
+              "PlotLineKey": "{Male=もう始まってるのか？;Female=もう始まってるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "ふふっ、今夜はいつ来ても遅くはないよ。1人でも多くの観客が欲しいって、ラハイロイの星空が言っているからね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "見て、あの星達が円を作ってるところ、モーニエ教授が頭に被ってる「改良型星桟」みたいじゃない？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ヒリングス",
+          "PlotLineKey": "そうだな。なんて眩しいんだ。モーニエ教授達が頑張ってくれたおかげで、俺たちはこんな美しい星空が見れたんだな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ヒリングス",
+          "PlotLineKey": "あそこを見てくれ。あの星達を線で繋いだらカール教授のデカい鼻に見えないか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "レイメオ",
+          "PlotLineKey": "あの星達も鼻水を垂らしながら、「うおっ、厄介だな！このゴミみたいな学術研究！」って声を荒らげてるのかな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "それって、さっき一瞬だけ見えた流れ星は鼻水ってこと？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ヒリングス",
+          "PlotLineKey": "その例え方、気色悪いな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "レイメオ",
+          "PlotLineKey": "確かに。{PlayerName}とディリファさんはどう思う？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 248,
+              "PlotLineKey": "確かに。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 249,
+              "PlotLineKey": "{Male=面白いと思うぞ。;Female=面白いと思うよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "ディリファ",
+          "PlotLineKey": "ふふっ、鼻水でも、シミュレーションの流れ星でもいいですから、とりあえず願い事をしてみませんか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "いいね！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなた達は一緒に星空を見上げ、それぞれ心の中で願い事をした……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "レイメオ",
+          "PlotLineKey": "みんな……どんな願いをしたんだ？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "し——っ。口に出したら叶えてもらえなくなるよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "ディリファ",
+          "PlotLineKey": "ふふっ。{PlayerName}さん、星空を背にした私の姿を、記録に残していただけませんか？ 永遠に保存しておきたいんです。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ディリファ",
+          "PlotLineKey": "ここはどう？",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ディリファ",
+          "PlotLineKey": "ここに誘ってくれてありがとう、{PlayerName}！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ディリファ",
+          "PlotLineKey": "これでますます、観測台の存在価値が確かなものになった。それはラハイロイの気候変動を制御するだけでなく……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ディリファ",
+          "PlotLineKey": "今では、みんなが抱く展望のある素敵な未来への期待をも支えてくれている。今夜のような星空を、何百回、何千回見ても……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ディリファ",
+          "PlotLineKey": "飽きないかも！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "レイメオ",
+          "PlotLineKey": "やっぱり気になるな……みんなどんな願いをした？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "教えない！けど……私たちに関係があることだよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "今夜みたいな星空を、私は何度も見たい。その時、みんなはまだ一緒にいてくれる？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ヒリングス",
+          "PlotLineKey": "絶対一緒にいる。この星空は、独り占めするには広すぎて寂しいだろ？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "うん。{PlayerName}さん、今夜は楽しかった？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 257,
+              "PlotLineKey": "楽しかった！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "それならよかった。一緒に星を見てくれてありがとう。よかったら、次もまた誘いたいな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "アンジェ",
+          "PlotLineKey": "私たち3人は、いつでもあなたを大歓迎するからね。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

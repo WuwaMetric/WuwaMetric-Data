@@ -1,0 +1,909 @@
+{
+  "Id": 923700000,
+  "Name": "最高のメカスカウト",
+  "Description": "メカスカウトの組み立てに必要なパーツを4個集める",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 923700000,
+  "ShowQuestList": [],
+  "QuestDesc": "メカスカウトの組み立てに必要なパーツを4個集める",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 923700001,
+      "PreQuestName": "Quest_923700001_QuestName_923_1"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "学園の物資が入った包みだ……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "……これを持ち帰ろう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "悩んでいる商人",
+          "PlotLineKey": "まったく、困った子だな……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "{Male=あの、メカスカウトに使えそうな腕パーツはあるか？;Female=あの、メカスカウトに使えそうな腕パーツはある？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 55,
+              "PlotLineKey": "どんな腕パーツでもいいよ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "悩んでいる商人",
+          "PlotLineKey": "ああ、メカスカウト用のパーツか……悪いが、今日は商売する気になれなくてね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "悩んでいる商人",
+          "PlotLineKey": "うちの倅はまだ幼いのに、好き嫌いが激しいのさ！最近は食事のことですねていて、ちゃんとご飯を食べないくて……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "悩んでいる商人",
+          "PlotLineKey": "成長期だってのに、なんでご飯を食べたがらないんだろう？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "{Male=料理が豪華すぎて、舌が肥えたんじゃない？;Female=料理が豪華すぎて、舌が肥えたのかも？}",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "{Male=おやつの食べ過ぎで、お腹がいっぱいだから？;Female=おやつの食べ過ぎで、お腹がいっぱいとか？}",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "悩んでいる商人",
+          "PlotLineKey": "舌が肥えたか……一理あるな！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "悩んでいる商人",
+          "PlotLineKey": "母ちゃんといろんなうまいもんを作ってやったのに、全然興味を示さなかった。なるほど、舌が肥えたのかもな！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "悩んでいる商人",
+          "PlotLineKey": "お腹がいっぱい……一理あるな！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "悩んでいる商人",
+          "PlotLineKey": "うまいものを簡単に手に入れられるから、大切にする気持ちを忘れたんだな。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "悩んでいる商人",
+          "PlotLineKey": "あの、学食が出してる食べ物が……とてもユニークな味だと聞いたことがあるけど、それが本当だったら頼みたいことがある。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "悩んでいる商人",
+          "PlotLineKey": "そちらの名物料理とこの腕パーツと交換するのはどうかな？うちの倅に「世界の広さ」というやつを教えてやるのさ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "オッケー。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "{Male=約束だ。;Female=約束ね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（一番学園らしい食べ物といえば……「フルニュートリションわくわくゼリー」か、「目覚ましエネルペースト」あたりかな？）",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "（それを用意して交換しよう。）",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "彼がマークした場所はこの付近のはず……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "疲れた研究員",
+          "PlotLineKey": "キオンに言われて、パーツを受け取りに来た人ね？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 117,
+              "PlotLineKey": "{Male=ああ。;Female=ええ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "疲れた研究員",
+          "PlotLineKey": "全くあいつったら……廃棄されたパーツではあるけど、こいつを用意するのに、どれだけ苦労したと思ってるのよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "疲れた研究員",
+          "PlotLineKey": "いい？これは重要機密品だから、途中で開けたり、他人に見せたりは絶対にしないでね。じゃないと大変なことになるから。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "疲れた研究員",
+          "PlotLineKey": "彼に会ったら、私の代わりに思いっきり文句を言ってやってね！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "キオン",
+          "PlotLineKey": "成功だ……本当に成功したぞ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "キオン",
+          "PlotLineKey": "見て、{PlayerName}。動いてるぞ、立ち上がってるんだ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "キオン",
+          "PlotLineKey": "君が手伝ってくれたおかげで、私は初めて動く機体を組み立てた！ついに、成功したよ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 140,
+              "PlotLineKey": "{Male=初めてだったとは……;Female=初めてだったのね……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 141,
+              "PlotLineKey": "{Male=この完成度は、確かにすごいね。;Female=この完成度は、確かにすごいかもね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "？？？",
+          "PlotLineKey": "パーツを集めて何をするのかと思ったら、それを全部このデカブツに組み込むなんてな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "流れ者のボス",
+          "PlotLineKey": "この中には、お前が俺たちの陣地から奪ったパーツがあるから……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "流れ者のボス",
+          "PlotLineKey": "その修理が完了したらなおさら都合がいい。完成品はより高い値段で売れるからな！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "キオン",
+          "PlotLineKey": "ダメだ！生まれたばかりなんだ、誰にも触らせないぞ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "メカスカウト（？）",
+          "PlotLineKey": "敵意を……検出、防衛プロトコルを……起動。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "流れ者のボス",
+          "PlotLineKey": "ま、待て！こいつは失敗品のはずじゃ……なんで攻撃できるんだ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "メカスカウト（？）",
+          "PlotLineKey": "警告……直ちに退去するように。残り……5……4……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "メカスカウト（？）",
+          "PlotLineKey": "……1、攻撃開始。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "流れ者のボス",
+          "PlotLineKey": "5から1に飛ぶなんて！？卑怯だぞーー",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "キオン",
+          "PlotLineKey": "じ、自爆するなんて……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "流れ者のボス",
+          "PlotLineKey": "無駄にビビらせやがって！この鉄くずが！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "流れ者のボス",
+          "PlotLineKey": "さーて、こいつはもう粉々になったし、お前らを守るものなんぞ……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "私のことを忘れたというのか？",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "キオン",
+          "PlotLineKey": "やあ、君が確か……学園の{PlayerName}くんじゃないか？もしかして、君もこれがほしいのかい？言っておくけど、先に見つけたのは私だから、譲らないからな！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 18,
+              "PlotLineKey": "{Male=先生もジャンク漁りに来たのか？;Female=先生もジャンク漁りに来たの？}",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 19,
+              "PlotLineKey": "{Male=……譲ってなんて言ってないよ！;Female=……譲ってなんて言ってないでしょ！}",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "キオン",
+          "PlotLineKey": "ジャンク漁りだと？まったく、メカマニアのロマンがわかってないな君は！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "キオン",
+          "PlotLineKey": "てっきり同じ趣味を持つものかと……まったく、人騒がせな……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "キオン",
+          "PlotLineKey": "見ての通り、ここに積み上げられたのは全部廃棄予定のものだ。このデカいのも、今は冷たい金属でしかないのだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "キオン",
+          "PlotLineKey": "でも私は、こいつに「廃棄」という末路をたどらせたくないのだ。データコアの停止により死亡宣告を受けたのだから、あらゆるルールは適用されないという意味だろう！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 20,
+              "PlotLineKey": "今のセリフ、悪役っぽかったよ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 21,
+              "PlotLineKey": "{Male=マッドサイエンティストのセリフみたいだ……;Female=マッドサイエンティストのセリフみたいね……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "キオン",
+          "PlotLineKey": "そ、そうか？かっこいいから、一度言ってみたかったんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "キオン",
+          "PlotLineKey": "実はね、私は農学部出身だが、ずっと前からマルチタレット研に入りたかったんだ。この手でメカを設計してね。が……テストに合格出来なかった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "キオン",
+          "PlotLineKey": "でも今、脳内からアイデアがどんどん湧き出してきた。これをきっかけに私の夢が叶い、こいつも新しい形で復活させてやれるかもしれない……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "キオン",
+          "PlotLineKey": "今度こそ、誰も見たことのない素晴らしいメカスカウトを作ってみせる！手伝ってくれるか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 22,
+              "PlotLineKey": "{Male=報酬があるなら。;Female=報酬があるなら。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 23,
+              "PlotLineKey": "{Male=喜んで。;Female=喜んで。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "キオン",
+          "PlotLineKey": "大丈夫、十分の報酬を約束しよう！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "キオン",
+          "PlotLineKey": "こいつのボディはほとんど破損してないから、必要なパーツさえあればすぐにでも改修可能だ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "キオン",
+          "PlotLineKey": "本当は数日前、自腹でレッグパーツを注文したんだが、付近の流れ者に奪われた。それを奪い返すのも一つの手だが……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 24,
+              "PlotLineKey": "{Male=でも、メカスカウトは……;Female=でも、メカスカウトって……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "{Male=足がないはずだけど？;Female=足がないはずだけど？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "キオン",
+          "PlotLineKey": "細かいところは気にするな。デザインというものは、古き格式を破ることこそに意味があるのだ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "キオン",
+          "PlotLineKey": "流れ者のキャンプに潜入するのは危ないから、君は連中の不意を突いて、奪われたものを取り返すのだ。いいか、くれぐれも気をつけるんだぞ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 26,
+              "PlotLineKey": "{Male=大丈夫、俺は強いからな。;Female=大丈夫、私は強いから。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 27,
+              "PlotLineKey": "{Male=大船に乗ったつもりで！;Female=大船に乗ったつもりで！}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "悩んでいる商人",
+          "PlotLineKey": "食欲を根こそぎ奪う、このハイテク感……間違いない、これだ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "悩んでいる商人",
+          "PlotLineKey": "うちの倅の好き嫌いを治せるよう、大切に使わせてもらうよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "悩んでいる商人",
+          "PlotLineKey": "はい、約束のパーツだ。心からのお礼を言わせておくれ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "傲慢な学生",
+          "PlotLineKey": "まさか……本当に全部壊したのか！？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "傲慢な学生",
+          "PlotLineKey": "そのドライブの腕前はまさに神業！もしかして、噂のスタートーチの最速王なのか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "荒っぽい学生",
+          "PlotLineKey": "……約束通りパーツをあげるけど、その代わり、1つ条件を聞いてもらうからね！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 100,
+              "PlotLineKey": "どうぞ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 101,
+              "PlotLineKey": "{Male=条件って？;Female=条件って？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "荒っぽい学生",
+          "PlotLineKey": "れ、連絡先を教えて。今度一緒にレースに行こうよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "傲慢な学生",
+          "PlotLineKey": "私にも！機会があったらまた勝負しよう！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 102,
+              "PlotLineKey": "{Male=オッケー！;Female=オッケー！}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "キオン",
+          "PlotLineKey": "おお、想像以上の出来上がりだ！間違いない、この改修作業は必ず成功するだろう！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 40,
+              "PlotLineKey": "{Male=性能面はともかく……;Female=性能面はともかくとして……}",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 41,
+              "PlotLineKey": "{Male=……見た目はユニークだな。;Female=……見た目はユニークね。}",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "キオン",
+          "PlotLineKey": "よくわかってるじゃないか！メカスカウトの多機能を実現しようと、さまざまな機体からのパーツを取り入れているんだ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "キオン",
+          "PlotLineKey": "いやいや、あくまで資源の有効活用だから、そう褒めないでくれよ。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "キオン",
+          "PlotLineKey": "大地に立てる両足が揃った以上、そろそろ力強い両腕をつけてやらないとな！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "キオン",
+          "PlotLineKey": "ロイ人のキャンパには、学園のメカスカウトが廃棄されたパーツを回収する商人がいるから、そこを訪ねればまず間違いないだろう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "キオン",
+          "PlotLineKey": "どんな金額を提示されても大丈夫。全部私が払うから！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "キオン",
+          "PlotLineKey": "戻ってきたか！パーツは取り戻したか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 32,
+              "PlotLineKey": "{Male=見つかったが……;Female=見つかったけど……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 33,
+              "PlotLineKey": "{Male=本当にこれを使うのか？;Female=本当にこれを使うの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "キオン",
+          "PlotLineKey": "ああ、もちろん。これしかないからな！今すぐ組み立てるぞ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "キオン",
+          "PlotLineKey": "これでもう半分は完了した。あと少しだ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "キオン",
+          "PlotLineKey": "次の一歩は非常に重要だ。私はマルチタレット研の理念に従って、より強力な武器を装着させるつもりだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "キオン",
+          "PlotLineKey": "瑝瓏では、「やりたいことを成就するには、まずは鋭利な武器を用意せよ」という諺があるんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 77,
+              "PlotLineKey": "もしかしてそれって……",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 78,
+              "PlotLineKey": "「事を善くせんと欲すれば、必ず先ず其の器を利にす」のこと？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "キオン",
+          "PlotLineKey": "その通り！君も瑝瓏文化を熟知しているとは思わなかった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "キオン",
+          "PlotLineKey": "「マルチタレット」である以上、大火力を目指すべきだろう？私は昔から、メカスカウトにレールガンを装着させようとしていたのさ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "キオン",
+          "PlotLineKey": "簡単に手に入れられるものじゃないけどな。野外に調査隊が廃棄したスペーストレック重機が何台かあって、大体の場所をマップでマークしたんだが、ちょっと探しに行ってもらえないか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 79,
+              "PlotLineKey": "{Male=乗りかかった船だからな……;Female=乗りかかった船だものね……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 80,
+              "PlotLineKey": "{Male=任せてくれ。;Female=任せて。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "キオン",
+          "PlotLineKey": "おお、まさに理想的なメカスカウトの腕だ！力強く、そして逞しい！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "キオン",
+          "PlotLineKey": "今すぐ装着してみるか！うーん、直接差し込むのはちょっと無理のようだが……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 69,
+              "PlotLineKey": "無理やりくっつけても合わないよ！",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 70,
+              "PlotLineKey": "{Male=安全第一、だ。;Female=安全第一、でしょ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "キオン",
+          "PlotLineKey": "ノープロブレム。なんとかなるから、大丈夫さ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "有頂天になったキオンはあっという間にレールガンの装着を完了した……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "キオン",
+          "PlotLineKey": "ついに夢が叶いそうだ！本当に、長かった……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "キオン",
+          "PlotLineKey": "さあ、いよいよ最後の一歩だ。強大な動力源、つまり頭さえ揃ったら、こいつは動き出せる！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "キオン",
+          "PlotLineKey": "知り合いの研究者に頼んで、最高の頭を用意してもらった。それをここまで運んでくれないか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 109,
+              "PlotLineKey": "{Male=危険品じゃないよな？;Female=危険品じゃないでしょうね？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 110,
+              "PlotLineKey": "{Male=途中で爆発したりはしないよな？;Female=途中で爆発したりしないでしょうね？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "キオン",
+          "PlotLineKey": "大丈夫！特製の防護容器に入れてもらったから、安全面に問題はないさ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "キオン",
+          "PlotLineKey": "アドレスをそちらのデバイスに送信したから、頼んだぞ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "Id": 189700007,
+  "Name": "Là où les mers étoilées perdurent - II",
+  "Description": "Harriet a des inquiétudes, allez voir si vous pouvez l'aider.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 189700007,
+  "ShowQuestList": [],
+  "QuestDesc": "Harriet a des inquiétudes, allez voir si vous pouvez l'aider.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 189700015,
+      "PreQuestName": "Là où les mers étoilées perdurent - I"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 176000007,
+      "PreQuestName": "Observatoire Trek-spatial : phase de surveillance"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Harriet, que se passe-t-il ? Ça n'a pas l'air d'aller…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Oh, c'est toi. Je… Ça va. C'est juste que…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Voilà plusieurs jours que Sanna ne répond plus à mes messages.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Au Syndicat des transports, ils disent que la toundra a été balayée par d'énormes blizzards et tempêtes de néant ces temps-ci.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Si tu le veux bien, pourrais-tu y retourner pour leur demander plus d'informations ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 69,
+              "PlotLineKey": "Bien sûr. Je vais t'aider.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 70,
+              "PlotLineKey": "Tu ne veux pas y aller toi-même ?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Merci !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Harriet",
+          "PlotLineKey": "J'y suis déjà allée plusieurs fois… et j'ai encore du pain sur la planche à l'observatoire Trek-spatial…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Merci !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Au milieu de la foule qui se pressait à la station, vous avez trouvé un groupe de chercheurs qui venaient d'ôter le givre de leur combinaison de protection.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Chercheur épuisé",
+          "PlotLineKey": "Qu'y a-t-il ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 94,
+              "PlotLineKey": "(Vous expliquez la raison de votre présence ici.)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Chercheur épuisé",
+          "PlotLineKey": "Sanna ? C'est Harriet qui vous envoie ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Vous la connaissez ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Jasper",
+          "PlotLineKey": "Ha ! Je suis Jasper. Peut-être Harriet vous a-t-elle parlé de moi ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 95,
+              "PlotLineKey": "Elle m'a dit que vous étiez son supérieur.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 96,
+              "PlotLineKey": "Elle m'a dit que Sanna vous avait accompagnés dans la toundra.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Jasper",
+          "PlotLineKey": "Haha, c'est exact. Elles se sont connues lorsqu'elles ont participé à un ancien projet de recherche que je dirigeais.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Où est Sanna ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Jasper",
+          "PlotLineKey": "Elle ne reviendra pas.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Jasper",
+          "PlotLineKey": "Non, ce n'est pas ce que vous croyez. Elle n'a pas eu d'accident, mais c'était pire que ça.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Il pousse un long soupir.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Jasper",
+          "PlotLineKey": "Sanna… est une aventurière royanne très dynamique mais aussi très habile de ses mains.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Jasper",
+          "PlotLineKey": "Quant à Harriet, vous l'avez aussi rencontrée. Elle est très dépendante de Sanna, et Sanna le lui rend bien, mais… elles ont certainement des objectifs très différents toutes les deux.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Jasper",
+          "PlotLineKey": "Sanna veut du changement, de l'effervescence, tandis qu'Harriet recherche la stabilité et la routine.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Jasper",
+          "PlotLineKey": "Au cours de cette expédition sur les Exobioniques, l'institut de recherches a obtenu de nouveaux résultats et nous avons réussi à trouver plusieurs Exobioniques rares.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Jasper",
+          "PlotLineKey": "Mais à la surprise générale, Sanna a pactisé avec les contrebandiers étrangers et a volé les Exobioniques.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Jasper",
+          "PlotLineKey": "Je les ai poursuivis, sans pouvoir les attraper. Au milieu de la neige et des rafales de vent, Sanna m'a hurlé qu'elle allait voir les étoiles ailleurs et m'a demandé de dire à Harriet qu'elle n'était pas une bonne personne pour elle.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Jasper",
+          "PlotLineKey": "Je n'ai pas réussi à savoir si l'expression que je lisais sur son visage était de l'excitation ou de la tristesse. Il neigeait beaucoup trop… Je ne voyais pas grand-chose.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Jasper",
+          "PlotLineKey": "J'aurais dû leur tirer dessus pour les arrêter, mais ayant été distrait un instant, j'ai échoué. Ils ont disparu dans le blizzard qui balayait la toundra.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Jasper",
+          "PlotLineKey": "Vous savez tout. Maintenant, à vous de voir si vous voulez raconter l'histoire à Harriet.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Pourquoi n'allez-vous pas lui dire vous-même ? Elle vous respecte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Jasper",
+          "PlotLineKey": "Parce que je ne suis pas sûr qu'Harriet veuille entendre la vérité. Elle serait peut-être plus heureuse de penser que Sanna est toujours sur la toundra.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Jasper",
+          "PlotLineKey": "Je me suis déjà trompé sur le compte de Sanna et je n'ai pas tiré parce que j'ai été submergé par mes émotions. Je n'ai pas assez de recul sur la situation pour prendre les bonnes décisions et je refuse de me tromper à nouveau.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Jasper",
+          "PlotLineKey": "Je vais aller boire un coup, tout à l'heure. Quant à Harriet, je vous la confie.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Te revoilà. Alors… des nouvelles de Sanna ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 120,
+              "PlotLineKey": "(Lui dire la vérité.)",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 121,
+              "PlotLineKey": "(Lui cacher la vérité.)",
+              "PlayVoice": false,
+              "JumpToId": 13
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Harriet",
+          "PlotLineKey": "…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Je vois. Sanna… est partie.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Ce n'est rien… Je suis juste un peu perdue…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Je savais que Sanna avait toujours voulu quitter Lahai-Roi et voir le monde. Elle m'avait même proposé de l'accompagner.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Mais j'ai toujours trouvé ça… trop dangereux.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Harriet",
+          "PlotLineKey": "La vie de chercheuse à Lahai-Roi a toujours été très simple, tout comme notre amitié à toutes les deux. Chaque jour était prévisible, du matin au soir.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Il nous suffisait de monter à l'observatoire Trek-spatial à l'heure prévue par le simulateur atmosphérique pour être sûres de voir les étoiles.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Mais apparemment, elle en avait déjà assez des étoiles d'ici.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Harriet",
+          "PlotLineKey": "C'est étrange. Quand j'observais les étoiles avec elle, je trouvais toujours une beauté différente aux orbites.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Harriet",
+          "PlotLineKey": "On dirait qu'il n'y a que moi qui veuille observer l'océan d'étoiles fixe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Désolée… J'ai besoin d'être seule un instant. Merci pour ton aide.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Harriet",
+          "PlotLineKey": "C'est vrai ? Elle veut rester sur la toundra encore un peu pour continuer à guider d'autres équipes ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Harriet",
+          "PlotLineKey": "…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Je vois… Elle a sûrement dû trouver quelque chose qui la passionne !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Sanna est comme ça. Quand elle a un intérêt pour quelque chose, plus rien d'autre n'existe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Harriet",
+          "PlotLineKey": "En revanche, on s'était promis d'aller observer les étoiles à l'observatoire Trek-spatial, alors elle finira bien par revenir.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Je l'attendrai.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Je sais qu'un jour, je la reverrai. Je garderai toujours cet espoir en moi…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Harriet",
+          "PlotLineKey": "C'est comme les étoiles constantes que j'irai toujours voir filer dans le ciel de Lahai-Roi…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Elles me rendent si heureuse.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Harriet",
+          "PlotLineKey": "Merci d'avoir bien voulu te renseigner pour moi. Je me sens bien mieux, à présent.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "Harriet",
+          "PlotLineKey": "À quoi vont ressembler les étoiles, demain ?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

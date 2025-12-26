@@ -1,0 +1,311 @@
+{
+  "Id": 189700013,
+  "Name": "Reverberación final II",
+  "Description": "Entregas el «tesoro» tomado de los niños a IRIS. El análisis del sistema revela que está relacionado con un profesor desaparecido. Decides investigar más a fondo.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 189700013,
+  "ShowQuestList": [],
+  "QuestDesc": "Entregas el «tesoro» tomado de los niños a IRIS. El análisis del sistema revela que está relacionado con un profesor desaparecido. Decides investigar más a fondo.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 189700011,
+      "PreQuestName": "Reverberación final I"
+    },
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 915000003,
+        "ChildQuestId": 224
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Lias",
+          "PlotLineKey": "{PlayerName}, gracias por ayudarnos. Puedo confiar en ti.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Lias",
+          "PlotLineKey": "Quiero entregarte dos cosas.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 29,
+              "PlotLineKey": "¿Una grabadora y un casete?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Lias",
+          "PlotLineKey": "Un profesor que se quedó con nosotros por un tiempo me los dejó.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Lias",
+          "PlotLineKey": "Ahora que lo pienso, compartió con nosotros tecnología y conocimientos muy prácticos. Los más jóvenes del campamento lo tenían en alta estima.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Lias",
+          "PlotLineKey": "Me pidió que se lo entregara a alguien de la Academia. Pero solo a alguien en quien yo confiara.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Lias",
+          "PlotLineKey": "Supuse que estaba estudiando la Tormenta de Vacío. Siempre se acercaba más de lo que alguien debería.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 30,
+              "PlotLineKey": "Después, él...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Lias",
+          "PlotLineKey": "Sí... la Tormenta se lo llevó. Cuando llegamos a ayudarlo, ya casi estaba muerto... Nos lanzó su casete y grabadora antes de que fuera demasiado tarde.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Lias",
+          "PlotLineKey": "No pudimos entender para nada sus últimas palabras.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Lias",
+          "PlotLineKey": "Creo que, al lanzarlos, intentaba desesperadamente comunicarle algo importante a la Unión.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Me los llevaré. Prometo que los llevaré de regreso a la Academia y mantendré el casete del profesor a salvo en los archivos.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "El profesor... Al final, se lanzó hacia la muerte. Pero esta vez, no lo hizo por él...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "El sistema no debería calificar su final como un suicidio.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "¡Debo contarle la verdad a IRIS!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "IRIS",
+          "PlotLineKey": "¿Estás bien, {PlayerName}? Pareces algo...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 86,
+              "PlotLineKey": "No deberían haber declarado su muerte como un suicidio.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Una aclaración, la Academia nunca clasificó la muerte del profesor como suicidio. Solo era una teoría.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 87,
+              "PlotLineKey": "¿Qué?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Sin embargo..., hoy se llegó a una conclusión. {Male=Un;Female=Una} estudiante descubrió información clave.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 88,
+              "PlotLineKey": "¿Entonces ya sabes?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "IRIS",
+          "PlotLineKey": "En el momento que cargaste los datos del casete, se notificó a mi sistema.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "IRIS",
+          "PlotLineKey": "¿Te gustaría ver el informe completo del profesor Sestan?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 89,
+              "PlotLineKey": "Acceder al informe.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Recuperando datos pertinentes sobre el profesor Sestan. El profesor Sestan y su robot asistente desaparecieron durante una expedición científica.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "IRIS",
+          "PlotLineKey": "De acuerdo con los testigos, el profesor Sestan abandonó el campamento con el robot después de medianoche, sin mediar palabra, y nunca más los volvieron a ver.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Posteriormente, la Academia investigó los aposentos del profesor y descubrió una carta semejante a una nota de suicidio.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "IRIS",
+          "PlotLineKey": "La carta expresaba la frustración y la desesperación del profesor respecto a su carrera de investigador.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Era evidente que el profesor experimentó una confusión importante en su campo e incluso cruzó ciertos límites éticos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Sin embargo, {Male=un;Female=una} estudiante descubrió posteriormente que el profesor continuó su trabajo académico después de su desaparición, incluso si su única motivación era reclamar cierto sentido de propósito en su muerte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Al final, pudo redescubrir el principio más fundamental de la ciencia: tratar a toda la vida de la misma forma, incluso la de un mecha reno.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Esto es un hecho incuestionable.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "IRIS",
+          "PlotLineKey": "En conclusión, IRIS y la Academia Fuegostelar lograron un consenso: el profesor Sestan sacrificó su vida por la ciencia.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "IRIS",
+          "PlotLineKey": "La Academia expresa sus más profundas condolencias por el fallecimiento del profesor Sestan durante su investigación...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 90,
+              "PlotLineKey": "Gracias.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 91,
+              "PlotLineKey": "Eres una de las buenas, colega Iris.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "IRIS",
+          "PlotLineKey": "No es necesario agradecerme ni elogiarme. Solo declaro hechos conocidos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "IRIS",
+          "PlotLineKey": "No puedo influenciar cómo otras personas juzgan al profesor Sestan. La razón por la que recibió esta valoración...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "IRIS",
+          "PlotLineKey": "... Es simplemente debido a que era, por sí mismo, una persona digna de tal descripción.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

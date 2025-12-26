@@ -1,0 +1,464 @@
+{
+  "Id": 189700006,
+  "Name": "Legende des dunklen Duells I",
+  "Description": "Gerüchten zufolge trifft sich um Mitternacht eine Gruppe von Menschen im Bahnhof, um „dunkle Duelle“ auszutragen, bei denen Seele und Leben auf dem Spiel stehen. Du beschließt, selbst Nachforschungen anzustellen …",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 189700006,
+  "ShowQuestList": [],
+  "QuestDesc": "Gerüchten zufolge trifft sich um Mitternacht eine Gruppe von Menschen im Bahnhof, um „dunkle Duelle“ auszutragen, bei denen Seele und Leben auf dem Spiel stehen. Du beschließt, selbst Nachforschungen anzustellen …",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 192700021,
+      "PreQuestName": "Neu Entfacht: Lahai-Roi-Liga"
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 8,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Hmm … Wenn meine Informationen stimmen … müsste das hier der richtige Ort sein.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 172,
+              "PlotLineKey": "Suchst du was?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Hm? Oh, du bist es, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Bist du auch wegen des Gerüchts hier?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "Welches Gerücht?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Das über die Tunnel. Irgendjemand soll hier „dunkle Duelle“ von „Spitze des Ruhms“ veranstalten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Angeblich versammeln sich hier Duellanten, die eine Niederlage erlitten haben und das nicht verkraften. Sie sollen sich von der Idee des fairen Duells abgewendet haben und bereit sein, alles zu tun, um stärker zu werden – selbst wenn sie sich dafür der Dunkelheit hingeben müssen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Um Mitternacht duellieren sie sich an einem geheimen Ort in den Tunneln. Und der Verlierer … Na ja, ich hab schon mehrere Versionen gehört.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Die glaubwürdigste ist, dass dem Verlierer sein Deck weggenommen wird, sodass er nie wieder duellieren kann.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Schlimmeren Gerüchten zufolge spielen die Teilnehmer um ihre Seelen, und der Verlierer muss seine Seele dem Gewinner überlassen, damit dieser sich an ihr laben kann.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 174,
+              "PlotLineKey": "… Das ist wahrscheinlich ein wenig übertrieben.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 175,
+              "PlotLineKey": "Lahai-Roi ist kein rechtsfreier Raum.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Ich finde ja auch, dass das lächerlich klingt, aber diese Gerüchte kommen nicht von ungefähr. Mehrere Mitglieder des Fanklubs haben bereits eine Einladung von einer geheimnisvollen Gestalt erhalten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Plínio",
+          "PlotLineKey": "„Du willst mehr Macht? Dann komm um Mitternacht zum Bahnhof!“",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "Dieser Sache sollte ich auf den Grund gehen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 177,
+              "PlotLineKey": "Überlass das mir, ich kümmere mich darum.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Sei vorsichtig, {PlayerName} … wobei ich bezweifle, dass irgendjemand dich in einem fairen Kampf besiegen könnte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Aber wenn die Gerüchte wahr sind und es bei diesen dunklen Duellen wirklich um Leib und Seele geht … greifen die Duellanten vielleicht zu „ungewöhnlicheren“ Mitteln.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Ach übrigens! Im Bahnhof treibt sich ein Roya namens Alkain herum. Er scheint etwas über diese „dunklen Duelle“ zu wissen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Plínio",
+          "PlotLineKey": "Mir gegenüber war er sehr misstrauisch. Ich konnte keine nützlichen Informationen aus ihm herausbekommen … Aber vielleicht hast du ja mehr Glück.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 178,
+              "PlotLineKey": "Danke.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 179,
+              "PlotLineKey": "Das werde ich mir merken.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Alkain",
+          "PlotLineKey": "… Ein unbekanntes Gesicht. Wer bist du?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 141,
+              "PlotLineKey": "Ich bin hier, um mich zu duellieren.",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 142,
+              "PlotLineKey": "Ich will mehr Macht.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Duellieren …? Aber deine Augen zeugen schon von einer ungeheuren Stärke.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Wir nehmen nur jene auf … die alles verloren haben. Du hast hier nichts verloren. Duelliere dich woanders.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Alkain mustert dich, denkt einen Moment nach und nickt dann leicht.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Mehr Macht … So mächtig du auch bist, das Verlangen nach mehr Macht … kann nie gestillt werden.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Sag mir, was würdest du geben, um mehr Macht zu erlangen?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 143,
+              "PlotLineKey": "… Meine Seele?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 144,
+              "PlotLineKey": "… Mein Leben?",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 145,
+              "PlotLineKey": "… Alles.",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 146,
+              "PlotLineKey": "Ich werde jeden Tag trainieren.",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Alkain",
+          "PlotLineKey": "… Du würdest deine Seele für ein Spiel geben? Sei nicht albern.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 8,
+          "Speaker": "Alkain",
+          "PlotLineKey": "… Du würdest dein Leben für ein Spiel geben? Ist das nicht ein bisschen übertrieben?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "Alkain",
+          "PlotLineKey": "… Du würdest alles geben? Es ist doch nur ein Spiel … Du solltest es nicht so ernst nehmen.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 10,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Diese Antwort ist … akzeptabel. Ich nehme sie an.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Weißt du, ich war selbst mal ein Verlierer. Duelliere dich zuerst mit mir und zeig mir, wie mächtig du wirklich bist.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Halt … Das ist genug. Ich hab mich nicht in dir getäuscht … Du bist mächtig.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 108,
+              "PlotLineKey": "… Das war also das sogenannte dunkle Duell?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 109,
+              "PlotLineKey": "Dann gehören dein Leben und deine Seele jetzt mir?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Was? Dunkles Duell …? Wie kommst du denn auf so eine lächerliche Idee …",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Mach keine Witze. Wie kommst du nur auf so eine lächerliche Idee …",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Alkain",
+          "PlotLineKey": "… Es gibt keine dunklen Duelle. Und es gibt auch keinen Einsatz.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 110,
+              "PlotLineKey": "Na ja, mir wurde gesagt, dass …",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Du erklärst Alkain, warum du hier bist.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Alkain",
+          "PlotLineKey": "… Ich verstehe. Das sind ja ziemlich wilde Gerüchte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Manche davon sind wahr. Wie du siehst, streben wir nach Macht, weil wir alle mal verloren haben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Wir wollten am regionalen Turnier teilnehmen, sind aber in der Vorrunde ausgeschieden, weil wir nicht stark genug waren … Aber wir haben nicht aufgegeben …",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Deshalb kommen wir nach der Arbeit hierher, um uns über Duelliertechniken auszutauschen, miteinander zu trainieren und unsere Fähigkeiten zu verbessern.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Da uns unsere Niederlage ziemlich peinlich war, haben wir keine große Sache daraus gemacht. Wir haben aber vor, uns nach Abschluss unseres Trainings zu rehabilitieren.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Und jetzt wurde das Ganze zu wilden Gerüchten über dunkle Duelle aufgebauscht.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 111,
+              "PlotLineKey": "Verstehe.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 112,
+              "PlotLineKey": "Es ist erschreckend, wie schnell sich Gerüchte verbreiten können.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Ach ja, wir haben auch zwei erfahrene Duellanten hier. Keine Verlierer wie ich.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Als sie erfahren haben, dass wir hier „Spitze des Ruhms“ trainieren, wollten sie uns beim Training helfen. Sie geben uns auch Feedback darüber, ob unsere Fähigkeiten ausreichen, um uns an unseren früheren Gegnern zu rächen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Sie hätten sicher großes Interesse an {Male=einem guten Duellanten;Female=einer guten Duellantin} wie dir … Wenn du Gegner suchst, die es mit deinen Fähigkeiten aufnehmen und dir vielleicht sogar helfen können, noch besser zu werden, bist du bei denen richtig.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 113,
+              "PlotLineKey": "Okay.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 114,
+              "PlotLineKey": "Ich werde sie suchen gehen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Alkain",
+          "PlotLineKey": "Mögest du noch stärker und mächtiger werden.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

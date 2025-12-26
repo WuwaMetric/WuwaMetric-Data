@@ -1,0 +1,570 @@
+{
+  "Id": 146700003,
+  "Name": "Légendes urbaines - Le constructeur incontrôlable",
+  "Description": "La légende du Ravin effondré prend vie ! Des bruits étranges, l'électricité qui refuse de s'éteindre… et des « fantômes ». Êtes-vous prêt à découvrir la vérité ? Partons à la découverte de ce qui s'est vraiment passé.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 146700003,
+  "ShowQuestList": [],
+  "QuestDesc": "La légende du Ravin effondré prend vie ! Des bruits étranges, l'électricité qui refuse de s'éteindre… et des « fantômes ». Êtes-vous prêt à découvrir la vérité ? Partons à la découverte de ce qui s'est vraiment passé.",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 146700000,
+        "ChildQuestId": 4
+      }
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 1,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Hein ? {PlayerName} m'appelle <span class=\"italic\">en premier</span> ? Pas possible... tu vas enfin rejoindre le club, c'est ça ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 117,
+              "PlotLineKey": "Ha ha, je suis encore en train d'y réfléchir !",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 118,
+              "PlotLineKey": "Non, et j'appelle parce que...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Attends, il pleut vraiment fort. Tu es dehors... Non, tu es dans le Ravin effondré, là ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "C'est ça. Nuit pluvieuse. Le Ravin Effondré. Un Constructeur de route qui débite des répliques effrayantes. Et...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mayo",
+          "PlotLineKey": "... Une route suspendue dans les airs qui semble pouvoir tomber à tout moment.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 119,
+              "PlotLineKey": "Tu étais au courant, en fait. Pas étonnant que tu veuilles que j'aille voir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 120,
+              "PlotLineKey": "Cette histoire est dans les archives de ton club, hein ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Évidemment ! Ne sous-estime pas ma « base de données », hé hé !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Mayo",
+          "PlotLineKey": "En gros, toute histoire inexpliquée ou une rumeur paranormale à Lahai-Roi figure dans mes dossiers, que quelqu'un y ait assisté, ou que ce soit juste des ragots.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Donne-moi une minute... Ah oui ! Le premier rapport venait d'une étudiante en Matières du néant. Elle a dit que les nuits pluvieuses, un de ces Bâtisseurs imprimeurs apparaît dans les Plaines gravées et qu'il se met à construire une route...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Aucun dossier de déploiement ne lui correspond. Aucune équipe ne le revendique. Un Constructeur de route qui sort de nulle part, comme un fantôme lié aux nuits pluvieuses.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Elle a même fait une vidéo. Ça a fait un énorme tollé. Certains ont dit que c'était un canular, d'autres que c'était une couverture pour cacher une zone maudite...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Et puis pouf ! La vidéo a disparu. Effacée. La discussion s'est juste... éteinte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Humf, cette fille avait tant de potentiel... Pourquoi ne l'ai-je pas recrutée ?! Quelle occasion ratée... Bref, je disais donc !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Mayo",
+          "PlotLineKey": "{PlayerName}, regarde autour de toi. À part la route, tu vois autre chose... ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Sa voix se perd dans un coup de tonnerre soudain. Un éclair perce la pluie. Une ombre file à toute vitesse, difficile à suivre des yeux.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Sur la route flottante, une moto sans pilote glisse comme un fantôme, son moteur grondant sourdement.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 121,
+              "PlotLineKey": "C'est ça, la moto ? Je la vois.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 122,
+              "PlotLineKey": "Trouvée. Merci.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Mayo",
+          "PlotLineKey": "C'est un grand débat, ça aussi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Certains pensent que la moto est une coïncidence. D'autres disent qu'elle fait partie de la légende urbaine et qu'il ne faut pas l'approcher. Contrairement à la route, elle bouge. Elle pourrait foncer droit sur toi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Mais je pense que la moto est la clé du mystère... {PlayerName}, tu me fais confiance ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 123,
+              "PlotLineKey": "Dis-moi d'abord à quoi tu penses.",
+              "PlayVoice": false,
+              "JumpToId": 18
+            },
+            {
+              "TextId": 124,
+              "PlotLineKey": "Tu as plus d'expérience que moi, question légendes urbaines.",
+              "PlayVoice": false,
+              "JumpToId": 20
+            }
+          ]
+        },
+        {
+          "Id": 18,
+          "Speaker": "Mayo",
+          "PlotLineKey": "La moto n'est pas <span class=\"italic\">essentielle</span> ici. C'est un à côté, une pièce extérieure au puzzle.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Ce Constructeur de route qui crée inlassablement une route... Tu n'as pas l'impression qu'il construit un circuit rien que pour la moto ?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 21
+        },
+        {
+          "Id": 20,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Le Constructeur de route qui crée inlassablement une route... Tu n'as pas l'impression qu'il construit un circuit rien que pour la moto ?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 21
+        },
+        {
+          "Id": 21,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Donc il ne fait pas que construire la route. Il recrée une scène entière ! Comme un moment figé sous la pluie ! Tu sais ce que ça veut dire, {PlayerName} !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Poursuis cette moto ! Brise le schéma et voyons ce qui arrive !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 125,
+              "PlotLineKey": "Tu crois qu'on a une chance ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 23,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Hum, difficile à dire... c'est pour ça que je demande si tu me fais confiance !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 126,
+              "PlotLineKey": "Tentons le coup. On n'a rien à perdre.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 127,
+              "PlotLineKey": "... D'accord. Tu m'en dois une.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 128,
+              "PlotLineKey": "D'accord, allons-y.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous essayez d'éteindre le Constructeur de route, mais découvrez qu'il n'a aucune source d'alimentation. Il n'est connecté à aucun réseau.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Impossible de l'éteindre. Ses lumières rouges pulsent plus rapidement tandis que la route s'étend vers l'extérieur, un passage suspendu flottant dans l'air, semblant prêt à s'effondrer à tout moment.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Un phénomène inexplicable, ou une légende urbaine... ? C'est pour ça que Mayo voulait que je vienne ici ? Je devrais l'appeler.)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Ouf. Alors c'est... fini ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Attends ! C'est un module de stockage ? Le Constructeur de route vient de le cracher ?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Impossible... Quelle vitesse de fou. Bien trop rapide.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Ce n'est pas grave. Tu gères. Tu as raté de presque rien.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mayo",
+          "PlotLineKey": "C'est son territoire, après tout. Qui sait combien de fois elle a parcouru ce trajet ? Il faudra réessayer la prochaine fois !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "La nuit tombe. Des lumières rouges scintillent sous une pluie battante, avec l'odeur humide et métallique du fer et de la terre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Bruit de tremblement régulier",
+          "PlotLineKey": "Grincement... BOUM...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Bruit de tremblement régulier",
+          "PlotLineKey": "Grincement... BOUM... Grincement...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 29,
+              "PlotLineKey": "Qu'est-ce que c'est que ce bruit ?... Une sorte de martèlement...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 30,
+              "PlotLineKey": "On dirait... des travaux de construction ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "Conditions de nuit pluvieuse détectées. Condition... concordante.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "???",
+          "PlotLineKey": "Mis... sion... initiée.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "???",
+          "PlotLineKey": "N'interférez pas...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Une voix masculine étrange grince dans l'air, rauque et effrayante comme une lame raclant du verre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous vous retournez et découvrez un Constructeur de route. Son extérieur est usé, et son numéro de série est à peine reconnaissable. Il ne semble plus en service depuis un bon moment.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 31,
+              "PlotLineKey": "Est... est-ce qu'il parle ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 32,
+              "PlotLineKey": "Qui est aux commandes ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Constructeur routier (Voix étrange d'un homme)",
+          "PlotLineKey": "Mis... sion... initiée.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Constructeur routier (Voix étrange d'un homme)",
+          "PlotLineKey": "N'interférez pas...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "... Je vais essayer de couper l'alimentation.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Impossible... Quelle vitesse de fou. Bien trop rapide.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Ce n'est pas grave. Tu gères. Tu as raté de presque rien.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mayo",
+          "PlotLineKey": "C'est son territoire, après tout. Qui sait combien de fois elle a parcouru ce trajet ? Il faudra réessayer la prochaine fois !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Les secousses cessent. La lueur rouge du constructeur routier s'estompe pour laisser place à une lumière stable et calme. Lorsqu'il reprend la parole, sa voix est douce, pour sa dernière annonce.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Constructeur routier (Boix douce d'un homme)",
+          "PlotLineKey": "Conditions de nuit pluvieuse détectées. Condition concordante.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Constructeur routier (Boix douce d'un homme)",
+          "PlotLineKey": "Test initié... Échec. Sujet de test manquant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Constructeur routier (Boix douce d'un homme)",
+          "PlotLineKey": "Répétition : Sujet de test « K. Nelson » manquant. Échec de l'initiation du test.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Constructeur routier (Boix douce d'un homme)",
+          "PlotLineKey": "Correction de l'objectif, lancer l'infrastructure de réparation. Escorter K. Nelson en sécurité. Empêcher sa mort.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Constructeur routier (Boix douce d'un homme)",
+          "PlotLineKey": "Mission... début... Mission... fin.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Le Constructeur de route se tait, comme si son alimentation avait été définitivement coupée.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mayo",
+          "PlotLineKey": "... {PlayerName}, tu penses que le test final de Nelson s'est soldé par un succès ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Rebâtir cette route chaque nuit pluvieuse, c'était juste un bug, juste la machine rejouant le moment où Nelson est mort ? Ou... agissait-elle de son propre chef, dans le but d'annuler un seul regret tragique ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Rah, une conclusion qu'on ne peut ni prouver ni réfuter. Ça m'agace... et ça me fait aussi de la peine.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 175,
+              "PlotLineKey": "C'est peut-être là tout le charme du paranormal.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Hein ? Je ne m'attendais pas à ce que tu dises ça !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Mais... je crois toujours que les âmes existent vraiment. Et l'âme de ce Constructeur de route ? Elle se trouve peut-être dans la programmation même dans laquelle K. Nelson a mis tout son cœur.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

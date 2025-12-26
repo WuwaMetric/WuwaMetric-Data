@@ -1,0 +1,464 @@
+{
+  "Id": 189700006,
+  "Name": "暗黑決鬥傳說·上",
+  "Description": "在午夜的車站中，據說有人在進行以靈魂和性命為賭注的「暗黑決鬥」。你決定親自調查這個傳言的真偽……",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 189700006,
+  "ShowQuestList": [],
+  "QuestDesc": "在午夜的車站中，據說有人在進行以靈魂和性命為賭注的「暗黑決鬥」。你決定親自調查這個傳言的真偽……",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 192700021,
+      "PreQuestName": "激鬥重燃：拉海洛地區賽"
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 8,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "普林尼奧",
+          "PlotLineKey": "……唔嗯，如果消息沒錯的話，那應該就是在這了。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 172,
+              "PlotLineKey": "你在找東西嗎？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "普林尼奧",
+          "PlotLineKey": "——欸？哦，是{PlayerName}啊。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "普林尼奧",
+          "PlotLineKey": "難道說……你也是聽到了那個流言才來這裡的嗎？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "什麼流言？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "普林尼奧",
+          "PlotLineKey": "是關於隧道的。有個傳言說，隧道裡有人在舉行《榮耀之丘》的「暗黑決鬥」。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "普林尼奧",
+          "PlotLineKey": "據說聚集在這裡的都是那些因為被擊敗而心存怨念的決鬥家。他們拋棄了決鬥精神，為了變強而不擇手段。最終，他們的靈魂也都墮入暗黑。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "普林尼奧",
+          "PlotLineKey": "他們會在午夜時分，在隧道裡的某個秘密地點互相挑戰。至於敗者的命運……我聽過好幾個版本。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "普林尼奧",
+          "PlotLineKey": "比較可靠的版本是敗者會被無情地奪取卡組，從此無法決鬥。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "普林尼奧",
+          "PlotLineKey": "而更可怕的傳聞裡，在這裡決鬥需要賭上靈魂，甚至性命……敗者的一切都會成為勝利者的食糧。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 174,
+              "PlotLineKey": "……這也太誇張了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 175,
+              "PlotLineKey": "拉海洛又不是法外之地。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "普林尼奧",
+          "PlotLineKey": "我也覺得這很離譜，但這些傳言應該不是空穴來風。同好會裡的幾個決鬥家都說自己受到了神秘人物的邀請。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "普林尼奧",
+          "PlotLineKey": "「想要變強嗎？那就在午夜到車站來！」",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "看來有必要調查一下。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 177,
+              "PlotLineKey": "這事就交給我吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "普林尼奧",
+          "PlotLineKey": "……要小心啊，{PlayerName}。雖然我不覺得有人能在正常的決鬥中擊敗你。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "普林尼奧",
+          "PlotLineKey": "但如果真的像傳聞中那樣，暗黑決鬥會以靈魂和性命做賭注的話……他們為了獲勝，說不定準備了什麼見不得光的手段。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "普林尼奧",
+          "PlotLineKey": "對了！車站裡有一個叫阿爾卡因的羅伊人，他似乎知道一些「暗黑決鬥」的事。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "普林尼奧",
+          "PlotLineKey": "不過，他對我戒心很重，我沒能從他那裡得到什麼有用的資訊……也許你的運氣會比我好一點。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 178,
+              "PlotLineKey": "謝謝你。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 179,
+              "PlotLineKey": "我會注意的。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "——沒見過的生面孔。你是誰？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 141,
+              "PlotLineKey": "我是來決鬥的。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 142,
+              "PlotLineKey": "我想變強。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "決鬥……？我從你的眼神中就看得出來，你很強。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "我們這裡只接受那些……一無所有的人。你不應該來這裡的。去找別人吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "阿爾卡因審視著你，他沉思了片刻，隨後點點頭。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "變強……雖然你是強者，但對力量的追求……是沒有極限的。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "告訴我，為了變強……你願意付出什麼代價？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 143,
+              "PlotLineKey": "……我的靈魂？",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 144,
+              "PlotLineKey": "……我的生命？",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 145,
+              "PlotLineKey": "……這一切。",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 146,
+              "PlotLineKey": "日復一日地進行練習。",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "……不過是一個遊戲而已，為此付出靈魂？別開玩笑了。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 8,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "……不過是一個遊戲而已，為此付出生命？這值得嗎？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "你所擁有的一切嗎？這只是個遊戲而已……不必如此認真。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 10,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "這個答案還不錯。我勉強能夠接受。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "總之，雖然我也是曾經的失敗者之一——讓我們先來一局決鬥吧，看看你到底有多強。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "……行了，到此為止。看來我的判斷沒錯……你果然很強。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 108,
+              "PlotLineKey": "……這就是所謂的暗黑決鬥？",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 109,
+              "PlotLineKey": "所以，你的靈魂和性命歸我了？",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "什麼？暗黑決鬥……？我不知道你是從哪聽到了那些亂七八糟的謠言……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "別開玩笑了。我不知道你是從哪聽到了那些亂七八糟的謠言……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "……但這裡沒什麼暗黑決鬥，更沒什麼賭注。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 110,
+              "PlotLineKey": "我聽到的版本是這樣的。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "你向阿爾卡因說明了你來此的原因。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "……原來如此，這些傳聞也太誇張了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "傳言中有一部分是對的，如你所見，我們是在追求更強的力量沒錯，那是因為，我們都曾經是失敗者。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "我們想要參加地區賽，但是卻因為不夠強而在預選賽時就被淘汰了。但我們……不打算放棄。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "於是我們就趁著一天的工作結束時在這裡聚會，交流決鬥的技巧，互相練習，以此磨練自己。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "因為大家被擊敗的經歷說出去其實還挺丟人的，所以我們並沒有大張旗鼓地對外宣傳，而是打算在修習結束後一雪前恥。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "結果竟然……被傳成了什麼暗黑決鬥。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 111,
+              "PlotLineKey": "原來如此。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 112,
+              "PlotLineKey": "謠言還真是可怕。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "唉……哦，對了，我們這裡還有兩位強大的決鬥家，他們可不是像我這樣的失敗者。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "在得知我們在這裡練習《榮耀之丘》後，他們決定幫我們進行特訓，並擔任考官，評判我們有沒有向之前對手一雪前恥的實力。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "他們應該會對你這樣的強者很感興趣……如果你想找一些旗鼓相當的對手，來磨礪自己的鋒芒的話，說不定他們會很合適。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 113,
+              "PlotLineKey": "明白了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 114,
+              "PlotLineKey": "我這就去找他們。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "阿爾卡因",
+          "PlotLineKey": "嗯……祝你變得更強，強大的決鬥家。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

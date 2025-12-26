@@ -1,0 +1,570 @@
+{
+  "Id": 146700002,
+  "Name": "不思議怪談・霧のトンネルに迷い込む",
+  "Description": "今度の怪談は、駅のトンネルにまつわるものだ。夜になると、人を呑み込むほど濃くなる霧。そしてその霧の中にどことなく現れる脇道……果たして真実なのか、それとも暇つぶしに流された噂話なのか。勇気を出して現地に確かめてみるしかない！",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 146700002,
+  "ShowQuestList": [],
+  "QuestDesc": "今度の怪談は、駅のトンネルにまつわるものだ。夜になると、人を呑み込むほど濃くなる霧。そしてその霧の中にどことなく現れる脇道……果たして真実なのか、それとも暇つぶしに流された噂話なのか。勇気を出して現地に確かめてみるしかない！",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 146700000,
+        "ChildQuestId": 4
+      }
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 8,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "疲れている作業員",
+          "PlotLineKey": "ああ。夜になると、人がいるのも分からなくなるぐらい霧が濃くなるんだ。まったく、どこから来やがるんだか。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "憂鬱な作業員",
+          "PlotLineKey": "でも聞きましたよ。来月はスケジュール厳しくて、現場は強制残業させられるって……まあ、ただの霧だっていうなら、頑張ってみてもいいですけど。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "疲れている作業員",
+          "PlotLineKey": "へっ、お前、命知らずだな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "疲れている作業員",
+          "PlotLineKey": "ヤバいのは霧だけじゃねえ。霧の中に現れる、あの「分かれ道」だよ。昼間は見えもしないし、探しても見つからない。だが、夜になるとそこに入った奴は……二度と戻って来られねえ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "疲れている作業員",
+          "PlotLineKey": "もっとタチが悪いのはな……霧のせいで、自分がいつその分かれ道に入っちまったのか、分からねえんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "疲れている作業員",
+          "PlotLineKey": "だからぐずぐずするな。暗くなる前にさっさと切り上げて帰るぞ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "憂鬱な作業員",
+          "PlotLineKey": "話を聞いてたら鳥肌が……って、そんな訳ないじゃないですか。残業をキャンセルするための作り話ですか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "疲れている作業員",
+          "PlotLineKey": "へっ、どうしてもやりたいってならご勝手に。俺は定時で上がらせてもらうぜ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "憂鬱な作業員",
+          "PlotLineKey": "……待ってくださいよ！僕も一緒に帰ります！一人じゃ怖いですから！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=（彼らが言っていた「分かれ道」は、ここのことか？見たところ……特におかしいところはなさそうだ）;Female=（彼らが言っていた「分かれ道」は、ここのこと？見たところ……特におかしいところはなさそう）}",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=（……気のせいか？今、明かりが一瞬……？）;Female=（……気のせい？今、明かりが一瞬……？）}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=（待て、街灯の下にいるのは……？）;Female=（待って、街灯の下にいるのって……？）}",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=……真夜？こんな所で何をしてるんだ？;Female=……真夜？こんな所で何をしてるの？}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "ずぅっと、待ってたわよ……あ・な・た・を。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "怪異を見つめる時、怪異もまた……こちらを見つめているのよ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=（今のは本当に真夜か……？連絡してみよう……）;Female=（今のは本当に真夜……？連絡してみよう……）}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "電話をかけてみたが応答はない。どうやら取り込み中のようだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=（まさか一人で調査に……？追いかけて確かめないと）;Female=（まさか一人で調査に……？追いかけて確かめないと）}",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=真夜なのか？それ以上行くな、中は――;Female=真夜なの？それ以上行かないで、中は――}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "大丈夫……もっと注意しておけば、「あれ」に見つからなければ……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "捕まらなければ……私、帰れるんだから……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "私は走り続けなきゃ……この道を走り終えれば……私は……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "まただ……私、ここに来たことがあるの？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=「あれ」は一体何だ……？何があった？;Female=「あれ」は一体何なの……？何があったの？}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "しーっ、静かに――聞いて。あれが来たの……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "走って！今ならまだ間に合う！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "明かりが一つ、二つ、三つ……これで何度目かしら。もう分からない……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=閉じ込められているのか？なら俺と一緒に外に出よう。;Female=閉じ込められているの？なら私と一緒に外に出よう。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "外へ……？ううん。私は、ここを出ることができない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "ふふ、そういうことだったのね。なあんだ、私は最初から、ここから出られなかったんだ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=行き止まりか。;Female=行き止まりね。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "行き止まり？違う。ここはスタート地点――",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "もう十分よ……今こそ、は・じ・ま・り・よ。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "逃げられない、もう逃げられないの――",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "違う、こんなはずじゃ……ただ……すれば、よかったのに……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "君は逃げて。私の代わりに……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "よかった。君、速いのね……あの時の私より、ずっと。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 88,
+              "PlotLineKey": "{Male=さっきのはいったい……大丈夫か？;Female=さっきのはいったい……大丈夫？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "ええ、もう大丈夫……ただ、帰れないだけ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 89,
+              "PlotLineKey": "{Male=あなたは誰だ？;Female=あなたは誰？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 90,
+              "PlotLineKey": "{Male=真夜なのか？;Female=真夜なの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 91,
+              "PlotLineKey": "{Male=一体、何があったんだ？;Female=一体、何があったの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "もう、どうでもいいの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "もっと早く{PlayerName}に出会っていたら……でも、この先の道を、私の代わりに行ってくれる人がいる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "真夜らしき少女",
+          "PlotLineKey": "私だけの怪談は、これでおしまい。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "その正体は分からないまま、少女は寂しげに笑い、風の中に消えていった。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "{PlayerName}？やっと繋がった……ずっと通話中だったみたいだったけど。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "私に何か用？怪談についてわかったことでも？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 117,
+              "PlotLineKey": "（さっき、真夜にそっくりな人に会ったことを話す）",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 118,
+              "PlotLineKey": "（話題を変え、さっきの出来事を流す）",
+              "PlayVoice": false,
+              "JumpToId": 12
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "さっき、夜霧のトンネルで……真夜を見た。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "とにかくおかしな出来事だった。それに、あなたは……吞み込まれて、あの場所に取り残されて……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "ふふっ……ついにバレちゃったか。そうよ、実は私、とっくに消えているの――",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "なーんて、そんなわけないでしょ？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "でも、{PlayerName}……いいセンスね。この私でさえ、信じちゃうところだったわ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "でも、ごめんなさい。だって私、昼からずっと寮にいたんだもの！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 119,
+              "PlotLineKey": "{Male=本当か？;Female=本当？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "当たり前じゃない！こんなことで嘘ついてどうするのよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "でも、あなたの言ってるそのトンネルの怪談……なんか聞き覚えがあるような。どこで聞いたんだっけ？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 120,
+              "PlotLineKey": "とにかく、しばらくあの辺りには行かない方がいい。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "えー？まあ、いいけど。でも、そんなに心配しなくて大丈夫よ。未知の探索は楽じゃないって知ってるし。無茶なんてしないから！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 12,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=いや、何でもない。たぶん操作ミスかな。こっちも電波があまり良くないんだ。;Female=いや、何でもない。たぶん操作ミスかな。こっちも電波があまり良くないの。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=そっちは？怪談の調査で忙しいのか？;Female=そっちは？怪談の調査で忙しいの？}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "全然。むしろ締め切りに追われてて……昼から寮を一歩も出ていないの！やっぱり同好会は、あなたたち偉大なるメンバー様たちに頼るしかないわ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 121,
+              "PlotLineKey": "{Male=本当か？;Female=本当？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "当たり前じゃない！こんなことで嘘ついてどうするのよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=（嘘をついているにしては、彼女は自然すぎる……だが、俺が見たあの人物は、本当に彼女ではなかったのか？）;Female=（嘘をついているにしては、彼女は自然すぎる……でも、私が見たあの人物は、本当に彼女ではなかったの？）}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=何でもない。邪魔して悪かった。続けてくれ。;Female=何でもない。邪魔してごめんね。続けて。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "え、ええ……？君、なんか気になること言ってたけど……じゃあ、またね？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 19
+        },
+        {
+          "Id": 19,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "通信が切れる。あなたは去り際に振り返ったが、気づかなかった。トンネルの中でかすかに明かりが点滅し、その片隅では再び濃い霧が流れ込み始めていることに。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

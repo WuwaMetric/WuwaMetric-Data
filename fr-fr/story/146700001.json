@@ -1,0 +1,426 @@
+{
+  "Id": 146700001,
+  "Name": "Légendes urbaines - Le train vers une destination inconnue",
+  "Description": "La légende urbaine prend vie : vous avez rencontré un train de minuit transportant des fantômes, filant sans relâche vers une destination inconnue… Tout ce que Mayo a dit est-il vrai ? Allez, courage, allons découvrir ce qui s'est passé.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 146700001,
+  "ShowQuestList": [],
+  "QuestDesc": "La légende urbaine prend vie : vous avez rencontré un train de minuit transportant des fantômes, filant sans relâche vers une destination inconnue… Tout ce que Mayo a dit est-il vrai ? Allez, courage, allons découvrir ce qui s'est passé.",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 146700000,
+        "ChildQuestId": 4
+      }
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 146700011
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "L'air de minuit sent la rouille et l'humidité. Loin sur les rails, quelque chose scintille. Une lueur bleu pâle et inquiétante pulse dans l'obscurité.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Mayo, je pense que je viens de voir ce « train de minuit ».",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mayo",
+          "PlotLineKey": "{PlayerName}, comment ça se passe de ton côté ? ...Tu m'entends ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Je le poursuis !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Attends, quoi !? Hé ! Allô !? Ton signal... coupe... Ne fais pas de folies ! Tu m'entends... ?!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Cette faille... Est-ce à cause de la Matière du néant ? Ou autre chose ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Quoi qu'il en soit, je vais d'abord tout dégager.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mayo",
+          "PlotLineKey": "... {PlayerName} ? Ça va !? Tu m'entends ? Je viens de perdre ton signal !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Oh là là, aucune réponse du tout... Si quelque chose lui était arrivé... J-je j'aurais dû appeler des renforts...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 49,
+              "PlotLineKey": "Je vais bien.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 50,
+              "PlotLineKey": "Je suis de retour, en pleine forme.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Euh, ah ! Tu... tu m'as fichu une de ces frousses !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Alors tu as bien vu ce train, pas vrai ? De plus près et plus clairement que moi.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 51,
+              "PlotLineKey": "Oui. Et j'ai pris une photo pour toi.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous envoyez la photo à Mayo et lui racontez tout ce qui s'est passé pendant que la communication était coupée.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Alors le train faisait la navette entre cette faille qui génère des monstres... et notre monde ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Mais pourquoi ? Pourquoi ce train ? Qui est aux commandes ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Je vais devoir augmenter son niveau de classification et sa priorité d'enquête. Il va falloir mener des recherches plus approfondies et effectuer une vérification minutieuse pour tout comprendre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Peut-être qu'il ne transporte pas des âmes défuntes. Peut-être qu'il transporte autre chose... vers une « porte » quelque part.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 52,
+              "PlotLineKey": "(Elle devient soudain sérieuse.)",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 53,
+              "PlotLineKey": "(Elle est étonnamment sérieuse quand il s'agit de ce genre de choses...)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Une brise nocturne glaciale souffle, et au loin, sur les rails, une faible lueur bleue scintille. Vous réalisez soudain que le train poursuit peut-être encore son voyage.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Coucou ! {PlayerName}, tu m'entends ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Hein ? La connexion saute. Enfin bref, laisse tomber. Rappelle-moi une fois que tu seras près de la gare. Peut-être que la connexion sera meilleure là-bas !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous contactez Mayo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mayo",
+          "PlotLineKey": "...{PlayerName} ? Ah, voilà ! Le signal est clair maintenant !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 71,
+              "PlotLineKey": "Mayo, tu sais quelle heure il est ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Euh... presque minuit ? Pourquoi ? Qu'est-ce qui se passe ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 72,
+              "PlotLineKey": "La plupart des gens n'appellent pas à cette heure.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 73,
+              "PlotLineKey": "La plupart des gens dormiraient à cette heure.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Mais tu n'es pas « la plupart des gens », si ? En plus ! C'est à minuit que le voile est le plus fin ! C'est l'heure de pointe pour le paranormal ! La moitié des meilleures légendes urbaines commencent exactement à cette heure !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Des frissons de minuit, le cœur qui bat la chamade... Hein ? Est-ce que je viens d'entendre du vent et des grincements de métal de ton côté ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 74,
+              "PlotLineKey": "Tu as l'oreille fine, hein ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 75,
+              "PlotLineKey": "Je suis dehors, près des rails.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Parfait ! Au bon moment, au bon endroit ! Ta-da, c'est l'heure de faire une enquête de légende urbaine super authentique !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Tu as déjà entendu parler du « Train de minuit qui ne s'arrête jamais et va dieu-sait-où » ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mayo",
+          "PlotLineKey": "À minuit pile, il glisse silencieusement dans la gare, ses wagons pleins de « fantômes ». Si tu montes dedans, tu pourrais être emporté directement vers les Enfers...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Enfin, c'est ce qu'on dit, parce qu'aucun passager vivant n'en est jamais revenu.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 76,
+              "PlotLineKey": "Quel menteur professionnel a inventé celle histoire ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 77,
+              "PlotLineKey": "Ou bien personne n'a jamais essayé d'y monter ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Non ! Cette légende urbaine est différente. Elle est réelle. Authentique à 100 %... Je l'ai vue de mes propres yeux.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mayo",
+          "PlotLineKey": "J'enquêtais sur une autre affaire quand je suis tombée dessus... Le brouillard était si épais, mais j'ai vu une lumière pâle et bleue au travers. C'était comme si le train m'appelait.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 78,
+              "PlotLineKey": "Et après ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Et après ? Eh bien, je ne l'ai vue que de loin ! Il est parti avant que je puisse m'approcher !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Mayo",
+          "PlotLineKey": "J'étais <span class=\"italic\">si proche</span> ! Ça me hante depuis... C'est pourquoi, {PlayerName}, tu...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 79,
+              "PlotLineKey": "Ne me dis pas que tu veux que je mène l'enquête.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Mm-hmm ! Si tu me le demandes, j'accepte !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Ne t'inquiète pas ! En tant que directrice du fan Club du paranormal, je serai tout le temps là pour t'apporter un soutien à distance !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 80,
+              "PlotLineKey": "Ça t'obsède complètement, pas vrai ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 81,
+              "PlotLineKey": "... Eh bien, c'est plutôt sympa que tu te soucies de faire ça pour moi.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 16,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Ben, tu sais, c'est en quelque sorte l'essence de notre club, et le fil rouge qui nous guide, après tout !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Allez, je vais te guider vers l'endroit exact ! Oh, et si jamais il arrive un truc de dingue, prends une photo ! Il me faut de quoi pour recruter de nouveaux membres !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Mayo, allô ? La ligne a coupé ? Où suis-je ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "... J'imagine que c'est pas mal comme truc de dingue. Je devrais prendre une photo pour elle.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

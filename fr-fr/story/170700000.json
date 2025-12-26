@@ -1,0 +1,803 @@
+{
+  "Id": 170700000,
+  "Name": "Liste de souhaits",
+  "Description": "Vous avez un nouveau message d'un contact inconnu",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 170700000,
+  "ShowQuestList": [],
+  "QuestDesc": "Vous avez un nouveau message d'un contact inconnu",
+  "Conditions": [
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 10,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Le tunnel sous-marin dont j'ai parlé est juste devant. Emmène-moi là-bas, s'il te plaît...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Robbie",
+          "PlotLineKey": "C-C'est la première fois que je contemple ce monde depuis le fond de la mer. C'est bien plus beau que toutes les images stockées dans mon système.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Ingénieur en livrées",
+          "PlotLineKey": "Qu'est-ce qu'un vieux Mécha-éclaireur comme toi fait ici ? Il y a un problème avec ton châssis ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Non, je suis ici pour changer de couleur.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Ingénieur en livrées",
+          "PlotLineKey": "Je vois... Mais je n'ai plus de peinture. Le prochain lot n'arrivera pas avant la semaine prochaine, alors que dirais-tu de revenir à ce moment-là ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 354,
+              "PlotLineKey": "Il ne tiendra pas une semaine...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "De quoi as-tu besoin ? Nous pouvons le récupérer pour toi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Ingénieur en livrées",
+          "PlotLineKey": "Laisse-moi réfléchir... Bon, si vous êtes pressés, je peux vous faire une liste.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Emmène-moi au sommet de cette grande épée, {PlayerName}.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 79,
+              "PlotLineKey": "Qu'est-ce que tu veux faire là-haut ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 80,
+              "PlotLineKey": "Ne fais rien d'imprudent, surtout !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Robbie",
+          "PlotLineKey": "J'ai l'intention de vivre le frisson du vol en sautant dans le lac.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Dans ma base de données, j'ai trouvé un seul mot mentionné de façon répétée en relation avec les comportements humains complexes : conquérir...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Les humains avaient autrefois peur du feu, alors ils ont inventé des outils et appris à le contrôler.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Les humains ne peuvent pas marcher sur l'eau, alors ils ont construit des navires pour traverser l'océan.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Les humains voulaient toucher le ciel, alors ils ont conçu des dispositifs pour réaliser leur rêve de voler.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Malgré leur petite taille, les humains n'ont de cesse de conquérir de nouveaux territoires. Alors, dans mes derniers moments, je souhaite moi aussi dépasser mes propres limites.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Même si cela a un prix...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Robbie",
+          "PlotLineKey": "{PlayerName}, je suis trop obsolète pour être équipé d'un module de vol, donc je n'ai jamais plané dans le ciel.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Robbie",
+          "PlotLineKey": "C'est la seule façon pour moi de voler. Ne t'inquiète pas, mon module d'amortissement me protégera...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 117,
+              "PlotLineKey": "Mais ça ne va pas accélérer ta consommation d'énergie ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Robbie",
+          "PlotLineKey": "C'est justement le prix à payer. Allons-y maintenant.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Robbie",
+          "PlotLineKey": "{PlayerName}, tu pourrais m'aider à installer cette pièce ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 33,
+              "PlotLineKey": "(Essayer d'installer la pièce.)",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous essayez plusieurs fois mais finissez par échouer à installer la pièce.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Le connecteur semble être déformé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Mais au moins je l'ai récupérée. Je ne fais que la tenir, pourtant j'ai l'impression que ce vide en moi a été comblé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Merci de m'avoir aidé. Ces allers et venus ont dû te fatiguer. Viens avec moi, il y a une source chaude géothermique par ici.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Notice du système",
+          "PlotLineKey": "Mécha-éclaireur, nom de code Robbie. Les paramètres des modules de pression et de température restent dans la plage normale. Le module d'énergie central est gravement endommagé.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Notice du système",
+          "PlotLineKey": "Énergie restante à 59 %. Temps de fonctionnement estimé du système...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Ça suffit. Désactive l'autodiagnostic.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 318,
+              "PlotLineKey": "Tu sembles être endommagé.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 319,
+              "PlotLineKey": "Tu veux que j'aille chercher un ingénieur de l'académie pour t'examiner ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Merci, mais ce ne sera pas nécessaire. Les ingénieurs de l'académie ont terminé ma maintenance. Mon module principal a été gravement affecté par la Tempête de néant.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Une récupération complète n'est plus possible. Tout ce que je peux faire, c'est regarder mes réserves d'énergie se vider progressivement.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 320,
+              "PlotLineKey": "C'est comme attendre la mort !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Les machines ne connaissent pas la mort. Nous sommes soit « activées » soit « désactivées ».",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Je suis responsable de la sécurité de cette zone. J'ai été activé dans ce seul but, et je dépenserai toutes mes réserves d'énergie pour ce but.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Même si la plupart de mes modules sont hors service...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 321,
+              "PlotLineKey": "Rester ici n'a aucun sens.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Du sens... Mon système n'arrive pas à déchiffrer le message que vous essayez de me transmettre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Au lieu de rester immobile et d'attendre que ton énergie se vide, tu ne ferais pas mieux de consacrer cette énergie à quelque chose d'utile ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Oublie les tâches qui t'ont été assignées au démarrage. Pourquoi ne pas faire quelque chose qui a du sens pour toi ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Du sens...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 322,
+              "PlotLineKey": "Quelque chose que tu as toujours voulu faire mais que tu n'as jamais eu l'occasion de faire.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Mon système indique que vous parlez d'une sorte de liste de derniers souhaits que font les humains. Les machines n'ont pas ce privilège.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Cependant... Mon système n'a pas bloqué ce terme ni les requêtes qui s'y rapportent.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 323,
+              "PlotLineKey": "Alors peut-être que ton créateur voulait que tu aies ce privilège.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Robbie",
+          "PlotLineKey": "J-Je voudrais voir les tunnels sous-marins. Mais mes réserves d'énergie actuelles sont insuffisantes pour ce voyage.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 324,
+              "PlotLineKey": "Laisse-moi t'aider.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Continue simplement sur cette route. Ne t'inquiète pas, l'énergie qu'il me reste suffit pour réaliser mon dernier souhait.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Vous suivez la route en compagnie de Robbie, et vous arrivez au point le plus haut de Sundermere.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Notice du système",
+          "PlotLineKey": "Énergie restante inférieure à 5 %...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Ton énergie...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Désactive toutes les notifications système. Ne t'inquiète pas. Concentre-toi simplement sur ce que nous devons faire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Il semblerait que ce soit mon point de départ, et aussi ma ligne d'arrivée.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Même maintenant, je n'arrive toujours pas à comprendre ce que tu voulais dire quand tu as dit que je devrais faire quelque chose qui a du sens.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Vous, les humains, dites souvent que l'amour a du sens. Mon créateur a même intégré l'amour dans mon code de base, mais je ne peux pas le comprendre.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Pourtant, après cette seule journée, j'ai commencé à comprendre un peu l'amour. J'ai fait beaucoup de choses pour moi aujourd'hui.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Et quand je consulte à nouveau les exemples d'amour dans ma base de données, je me mets à leur place.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Robbie",
+          "PlotLineKey": "J'ai commencé à comprendre les câlins, les baisers, et même les mots utilisés pour exprimer des émotions fortes.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Ainsi, j'ai dépensé mon dernier 1 % d'énergie à analyser les comportements que j'ai indiqués, et le résultat était...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Que pour apprendre à exprimer l'amour, nous devons peut-être d'abord apprendre à nous aimer nous-mêmes. Comme je l'ai fait aujourd'hui.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Je ne sais pas comment faire des câlins, embrasser, ou produire de beaux écrits complexes. Je ne peux exprimer l'amour que d'une seule façon.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Robbie",
+          "PlotLineKey": "3+10i sur un axe imaginaire représente mon amour sincère pour ce monde et mon désir de le protéger.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Notice du système",
+          "PlotLineKey": "Notification système critique. Énergie restante inférieure à 1 %...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Certains humains souhaitent que les machines continuent à leur place. Mais pour moi, maintenant...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Robbie",
+          "PlotLineKey": "J'espère que tu continueras à ma place, que tu avanceras avec l'amour numérique d'une machine pour ce monde...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Bon, il est temps pour moi de partir, {PlayerName}. Je te confie mes affaires, ainsi que celles de ce monde.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Comment est la température ? Ça te convient ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 471,
+              "PlotLineKey": "Ça va.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 472,
+              "PlotLineKey": "C'est comme les bains de Septimont.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Eh bien, pour tout te dire, j'adorerais essayer de me baigner dans une source chaude. Mais en tant que machine, je suis incapable de percevoir les changements de température.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Robbie",
+          "PlotLineKey": "L'eau me semble juste collante et visqueuse.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 473,
+              "PlotLineKey": "Essaie de chercher des sources chaudes dans ton système ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Compris. Recherche en cours... Ma base de données indique que la sensation de chaleur ressentie par les humains dans les sources chaudes est due à la chaleur stimulant la peau.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Robbie",
+          "PlotLineKey": "En termes mécaniques, c'est similaire à une stimulation électrique interne.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 474,
+              "PlotLineKey": "Peut-être qu'un Zip Zap peut aider ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 475,
+              "PlotLineKey": "Peut-être qu'un renne mécanique peut aider ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 476,
+              "PlotLineKey": "Peut-être qu'une Araignée de la Terre S4 peut aider ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Comment est la température ? Ça te convient ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 471,
+              "PlotLineKey": "Ça va.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 472,
+              "PlotLineKey": "C'est comme les bains de Septimont.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Eh bien, pour tout te dire, j'adorerais essayer de me baigner dans une source chaude. Mais en tant que machine, je suis incapable de percevoir les changements de température.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Robbie",
+          "PlotLineKey": "L'eau me semble juste collante et visqueuse.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 473,
+              "PlotLineKey": "Essaie de chercher des sources chaudes dans ton système ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Compris. Recherche en cours... Ma base de données indique que la sensation de chaleur ressentie par les humains dans les sources chaudes est due à la chaleur stimulant la peau.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Robbie",
+          "PlotLineKey": "En termes mécaniques, c'est similaire à une stimulation électrique interne.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 474,
+              "PlotLineKey": "Peut-être qu'un Zip Zap peut aider ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 475,
+              "PlotLineKey": "Peut-être qu'un renne mécanique peut aider ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 476,
+              "PlotLineKey": "Peut-être qu'une Araignée de la Terre S4 peut aider ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 6,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Un Zip Zap ? Quelle sensation !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Une sensation marquée traverse Robbie.  <br>Il semble que les Zip Zaps soient les plus efficaces.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Je ressens une forte sensation de picotement qui se déplace par intermittence le long de mes circuits internes pour atteindre chaque partie de mon corps.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 9,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Par la suite, vous essayez d'utiliser toutes sortes d'Échos sur lui dans l'espoir de reproduire la sensation d'être dans une source chaude...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Je vais enregistrer cette sensation rare dans ma base de données. Même en veille, mes données seront partagées avec les autres Mécha-éclaireurs.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Je pense... que tous les robots devraient essayer de se détendre dans une source chaude. Que ce soit une source chaude naturelle ou celle d'un hôtel apocalyptique après la fin des temps.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Robbie",
+          "PlotLineKey": "J'aimerais faire plus de choses qui dépassent les paramètres de mon système. Comme changer de couleur... {PlayerName}, peux-tu m'emmener à l'Académie ?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 9,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Un renne mécanique ? La sensation est correcte...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Une légère sensation se propage à travers Robbie. Il semble que les rennes mécas soient quelque peu efficaces.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Je ressens une légère sensation de picotement qui se déplace par intermittence le long de mes circuits internes pour atteindre chaque partie de mon corps.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 12,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous invoquez une Araignée de la Terre S4 mais elle ne sait pas quoi faire.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Robbie le regarde et ne ressent rien. Il semble que l'araignée soit totalement inefficace.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Robbie",
+          "PlotLineKey": "Hmm... Je ne sens rien. Il nous faut une autre idée.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1113 @@
+{
+  "Id": 181700022,
+  "Name": "不思議怪談・出られない教室",
+  "Description": "学園に潜む不思議な怪異が襲来。放課後になると、決して出られない立ち入り禁止区域と化す教室……果たして、全ては真夜の言う通りなのか？勇気を出して、その正体を確かめに行こう！",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 181700022,
+  "ShowQuestList": [],
+  "QuestDesc": "学園に潜む不思議な怪異が襲来。放課後になると、決して出られない立ち入り禁止区域と化す教室……果たして、全ては真夜の言う通りなのか？勇気を出して、その正体を確かめに行こう！",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 146700000,
+        "ChildQuestId": 4
+      }
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 146700012
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "もしもし、{PlayerName}……今、ラベル学部の校舎の近くにいるでしょう？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 244,
+              "PlotLineKey": "{Male=どうして分かった？霊感でもあるのか？;Female=どうして分かったの？霊感でもあるの？}",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 245,
+              "PlotLineKey": "{Male=いや、いない。ハズレだ。;Female=いや、いない。ハズレよ。}",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "もちろん――ないわよ。そうだと言った方がカッコいいとは思うけど、同志の間で嘘偽りは厳禁。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "私は、君を本気で勧誘してるの。だから、誠実第一よ！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 4,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "ふふん、そんなわけないわ。私には確信があるのよ……なんたって私は心霊怪談調査のプロ。特殊な能力だって持っているかもしれないわよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "……全然乗ってこないわね。私、そんなに説得力ない？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "まあいいわ。実は、同志から君を校舎で見かけたって聞いてね。だから、あまり遠くへは行ってないと思って。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "最近校舎の辺りで広まっている新しい怪談――放課後、キャンパスが静まり返った時、渡り廊下の端から数えて二番目の教室が、絶対に逃げられない開かずの間に変わるって……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "入ってしまった人は、まるで幽霊に食べられたみたいに、いくら歩き回っても同じ光景を……永遠に同じ扉だけしか見ることができなくなる。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 246,
+              "PlotLineKey": "さすがに大袈裟すぎる。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 247,
+              "PlotLineKey": "{Male=本当か？都市伝説か何かだろ……;Female=本当？都市伝説か何かじゃないの……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "でも、そこから出られた人がそう言ってたのよ。点滅する青白い光、不気味な雑音、そして……怨霊がいたって。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 248,
+              "PlotLineKey": "{Male=キャンパスにソノラでもできたのか？;Female=キャンパスにソノラでもできたの？}",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 249,
+              "PlotLineKey": "{Male=え、出られた人がいるのか？;Female=え、出られた人がいるの？}",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "ええ。でもみんな怯えて、結局気絶しちゃったみたいで、どうやって戻ってきたのかは覚えてないんだって。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "もしかしたら、本当に常識では説明できない「超常現象」なのかも……あるいは真相を解き明かすことだって……とにかく――こんなに身近な現象を見に行かないなんて、もったいないでしょ？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "絶対に行けとまでは言わないけど、これは私たち同好会の中で、今一番ホットな怪談なの。もしかしたら今日が、君が新たな伝説を作る日になるかもしれないわよ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 250,
+              "PlotLineKey": "{Male=はいはい、そこまで言われたらな。;Female=はいはい、そこまで言われたらね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 251,
+              "PlotLineKey": "時間があれば、考えておくよ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "元気でいいわね、{PlayerName}！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "それじゃあ、勇気を出して見てきてちょうだい――その正体をね！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=端から数えて二番目……ここか？外から見る限り、他の教室と変わらないな。;Female=端から数えて二番目……ここか？外から見る限り、他の教室と変わらないね。}",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "教室に入った瞬間、青白い照明が突然点灯し、細かい灰が固まったような息苦しさを感じた。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 34,
+              "PlotLineKey": "……電気が、勝手についた……？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "？？？",
+          "PlotLineKey": "そうよ。この教室は……暗いのが嫌いだから。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "？？？",
+          "PlotLineKey": "暗くて、探し物が見つからないの……ねえ、手伝って……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "恨めしげな女の声が耳元で響き、振り返ると、透き通るような顔がそこにあった――",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "青白い光を放つ少女が、霧のようにあなたの横に漂っている。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "幽霊！？",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 36,
+              "PlotLineKey": "{Male=うわ、本当に出るんだ。;Female=うわ、本当に出るのか。}",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "？？？",
+          "PlotLineKey": "出た……？ふふ、それって、わ・た・し・の・こ・と？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "？？？",
+          "PlotLineKey": "永遠に閉じ込められている……あれを見つけない限り……一緒にここにいましょう？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "{Male=いや、あそこに扉があるじゃないか。;Female=いや、あそこに扉があるじゃない。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "？？？",
+          "PlotLineKey": "ああ……後ろのあれ？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "？？？",
+          "PlotLineKey": "無駄よ。わがままな扉だから、私の機嫌をとらないと、ここから出られないの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "？？？",
+          "PlotLineKey": "あなた、まだ状況が分かっていないみたいね……信じられないのなら、試してみればいいわ……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなたは「教室の幽霊」の真相を、ありのまま真夜に伝えた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "つまり……ただ勘違いが重なっただけってこと？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=あるいは、真実と向き合う勇気がない誰かさんのせいかもしれないな。;Female=あるいは、真実と向き合う勇気がない誰かさんのせいかもしれないね。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "へぇ、それじゃ……この怪談は、君が解決しちゃったわけね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "でも、必ずまた新しい怪談は生まれてくる。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 277,
+              "PlotLineKey": "{Male=そうなったら、また調査すればいい。;Female=そうなったら、また調査すればいい。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "その通り！それこそが私たち「超常現象同好会」の役目だもんね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "しおんの件はヒントになったわ。掲示板で新しいスレを……「真夜中のホログラム少女事件」なんてどうかしら。注目されそうね。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 278,
+              "PlotLineKey": "{Male=まさか自分で怪談を作る気か？;Female=まさか自分で怪談を作る気？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "しーっ――怪談と真相の境目は、あいまいなくらいがちょうどいいのよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=……いったい誰が呪術女なんだか。;Female=……いったい誰が呪術女なんだか。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "安心して、本当のことと結論は最後にまとめて載せるから。でも、人を惹きつける見出しは必要でしょ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "真夜（通信中）",
+          "PlotLineKey": "呪術女でも何でも、何か不思議なことを見つけたら、いつでも連絡してちょうだい。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "？？？",
+          "PlotLineKey": "どう……言ったでしょ、無駄だって。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "？？？",
+          "PlotLineKey": "ここからは出られない。「扉」の機嫌をとらない限りね。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 48,
+              "PlotLineKey": "{Male=あなたが「扉」なのか？;Female=あなたが「扉」なの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "しおん",
+          "PlotLineKey": "いいえ、ただの例えよ……私はしおん。やっぱり、誰も私を理解してくれないのね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "しおん",
+          "PlotLineKey": "扉でいるのも悪くないかも……扉は他人を必要としないし、愛してくれる人がいるかなんて……気にしないもの。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 49,
+              "PlotLineKey": "{Male=急に暗くなったな。;Female=急に暗くなったね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 50,
+              "PlotLineKey": "{Male=じゃあ……どうすれば機嫌が直るんだ？;Female=じゃあ……どうすれば機嫌が直るの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "しおん",
+          "PlotLineKey": "取り戻すのよ……彼らへの私の想い、彼らに送ったもの、彼らに付け加えたもの……全部、残らず回収してきて。そうすれば……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "しおん",
+          "PlotLineKey": "そうすれば、私は満足できる！ここから出られる！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "しおん",
+          "PlotLineKey": "そして、あなたも、ここから出られるわ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 51,
+              "PlotLineKey": "あれ？彼ら？想い？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "しおん",
+          "PlotLineKey": "ねえ、親切な人……助けて。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "しおん",
+          "PlotLineKey": "繰り返され続けるこの教室の中で、あれを見つけるのを手伝って。私の想いが込められた、三つの――",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "しおん",
+          "PlotLineKey": "「プレゼント」を。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "しおん",
+          "PlotLineKey": "そう、それよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "しおん",
+          "PlotLineKey": "ああ、やっぱり……私のことを分かってくれる人はいるのね！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "しおん",
+          "PlotLineKey": "違う、これじゃない……これは私の想いじゃないわ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "しおん",
+          "PlotLineKey": "教えたはずよ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "しおん",
+          "PlotLineKey": "違う、これじゃない……これは私の想いじゃないわ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "しおん",
+          "PlotLineKey": "教えたはずよ！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "しおん",
+          "PlotLineKey": "……やっぱり、助けてくれるのね。あれを取り戻すのを、手伝ってくれるのね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "しおん",
+          "PlotLineKey": "ふぅ、もう後悔することはないから。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 289,
+              "PlotLineKey": "{Male=今度は何を探すんだ？;Female=今度は何を探すの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "しおん",
+          "PlotLineKey": "私はね、パッケージが綺麗で、明るすぎるものが嫌いなの。見た目はいいけど、味が冷たいから。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "しおん",
+          "PlotLineKey": "でも、みんなはそう思わない。彼以外は……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "しおん",
+          "PlotLineKey": "ある日の午後、彼は疲れ果てて倒れそうだった私のために、あるものを渡してくれたの……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "しおん",
+          "PlotLineKey": "湯気で眼鏡が曇って、スープはとろっとしてて。机の上に置くといい香りが立ち上がるの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "しおん",
+          "PlotLineKey": "彼もきっと、私の感覚、私の気持ちを分かってくれるはず。だからあれから毎日、彼に同じものを送り続けたのに……どうして、どうして彼は二度と開けてくれなかったの？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "しおん",
+          "PlotLineKey": "彼は嫌そうにそれを脇に置いて、それどころか……他の人にあげようとしたのよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "しおん",
+          "PlotLineKey": "ひどい、ひどい、ひどすぎるわ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "しおん",
+          "PlotLineKey": "私のためにあれを取り戻して！",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "しおん",
+          "PlotLineKey": "そう、それよ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "しおん",
+          "PlotLineKey": "ねえ、あなた……私とだんだん息が合ってきたみたい……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "しおん",
+          "PlotLineKey": "違う、これじゃない……これは私の想いじゃない……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "しおん",
+          "PlotLineKey": "あとちょっとなのに……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "しおん",
+          "PlotLineKey": "違う、これじゃない……これは私の想いじゃない……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "しおん",
+          "PlotLineKey": "あとちょっとなのに……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "しおん",
+          "PlotLineKey": "それじゃあ……これが最後よ。また協力してくれる？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 307,
+              "PlotLineKey": "{Male=分かった、何を探せばいいか教えてくれ。;Female=分かった、何を探せばいいか教えて。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 308,
+              "PlotLineKey": "{Male=ほら、もう迷ってる場合じゃないだろ！;Female=ほら、もう迷ってる場合じゃないでしょ！}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "しおん",
+          "PlotLineKey": "うん、あなたがそう言うなら……私は立ち直るわ。きっと、絶対に……抜け出せるはず！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "しおん",
+          "PlotLineKey": "こう見えて私、ミュージシャンなの。私なら、どんなに冷たい鍵盤でも、暖かい演奏ができる。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "しおん",
+          "PlotLineKey": "でも、彼のためなら、ずっと大事にしてきたあれを、差し出してもいい……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "しおん",
+          "PlotLineKey": "結局彼はイエスとは言わなかったけど、ノーとも言わなかった。ただ私に言ったの……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "しおん",
+          "PlotLineKey": "それは、お・も・す・ぎ・る。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "しおん",
+          "PlotLineKey": "だめ、あんな人のところに置いておくわけにはいかないわ！あの白と黒の鍵盤を持つ私の宝物を取り戻してきて。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "しおん",
+          "PlotLineKey": "違う、これじゃない……これは私の想いじゃない……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "しおん",
+          "PlotLineKey": "あとちょっとなのに……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "しおん",
+          "PlotLineKey": "違う、これじゃない……これは私の想いじゃない……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "しおん",
+          "PlotLineKey": "あとちょっとなのに……",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "しおん",
+          "PlotLineKey": "全部取り戻したわ……私があげた「プレゼント」……でも私の想いは？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "しおん",
+          "PlotLineKey": "彼への想いも、同じように……いいえ、できない。もし私が返したら……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "しおん",
+          "PlotLineKey": "返したものを彼が見たら、私を思い出して、もしかしたら気が変わるかもしれない。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 353,
+              "PlotLineKey": "回収したり戻したり……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 354,
+              "PlotLineKey": "{Male=それじゃ、まるできりがないな。;Female=それじゃ、まるできりがないね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "しおん",
+          "PlotLineKey": "あ、ああ……私……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=確かにプレゼントとしてはちょっと……変わってるけど。でも、あなたを好きな人なら、その想いは分かってくれるはずだ。;Female=確かにプレゼントとしてはちょっと……変わってるけど。でも、あなたを好きな人なら、その想いは分かってくれるはず。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=本当にあなたのことを大切に思ってる人なら、態度をコロコロ変えたりはしない。;Female=本当にあなたのことを大切に思ってる人なら、態度をコロコロ変えたりはしないわ。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなたの言葉に、少女は固まった。彼女を包む青白い光が強くなる。あなたは近くの機械を一瞥し、ついに彼女の正体を確かめることにした。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 355,
+              "PlotLineKey": "{Male=ただのホログラム映像なんだろ？;Female=ただのホログラム映像なんでしょ？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "しおん",
+          "PlotLineKey": "え？き、気づいてたのね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "しおん",
+          "PlotLineKey": "その通り、私はここにはいないわ。これはホログラム投影技術を使った、ちょっとしたトリックよ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 356,
+              "PlotLineKey": "{Male=どうして幽霊のフリなんてしたんだ？;Female=どうして幽霊のフリなんてしたの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "しおん",
+          "PlotLineKey": "わ、悪気はなかったのよ。ただ……こんな場所に行く勇気がなくて。だから運試し気分で、度胸のある親切な人が助けてくれないかと思って。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 357,
+              "PlotLineKey": "{Male=どうして度胸が必要なんだ？;Female=どうして度胸が必要なの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 358,
+              "PlotLineKey": "{Male=どうして来られないんだ？;Female=どうして来られないの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "しおん",
+          "PlotLineKey": "もちろん、片思いしてた彼に会いたくないからよ。自分があげた物を取り戻しに来るなんて、考えただけでも気まずいでしょ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "しおん",
+          "PlotLineKey": "彼に理由を聞かれたり、挨拶されたりしたら、見て見ぬフリはできないし……とにかく、彼にどう顔向けすればいいか分からないの。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "しおん",
+          "PlotLineKey": "もう一つは……やっぱり、「呪術女」が本当に怖いから。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 359,
+              "PlotLineKey": "呪術女？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "しおん",
+          "PlotLineKey": "知らないの？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "しおん",
+          "PlotLineKey": "呪術女は音もなく教室の間をうろついて、一人になった学生を捕まえて操るのよ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "しおん",
+          "PlotLineKey": "彼女は学生たちに呪いをかけて、呪術で召喚した禁忌の存在に食べさせるの……もし教室に残ってたら、ガリッ、ガリッて、噛み砕かれちゃうわ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "しおん",
+          "PlotLineKey": "だから彼女に目をつけられたくないし……しーっ――聞いて！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "しおん",
+          "PlotLineKey": "ドクン、ドクン、ガリッ――ガリッ――足音よ、それに何かを噛む音。彼女だわ、呪術女が来たのよ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 360,
+              "PlotLineKey": "{Male=自分で自分を怖がらせるな――;Female=自分で自分を怖がらせないで――}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "ザヒーラ",
+          "PlotLineKey": "（あなたたちがいることに驚いたような反応）",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "ザヒーラ",
+          "PlotLineKey": "（すぐに手を上げ、空中に何かを描くような仕草をする……指先で呪文を唱えているのか、空気が微かに震える）",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "しおん",
+          "PlotLineKey": "や、やっぱり呪術を使ってるわ……もうだめ、食べられちゃう！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "しおん",
+          "PlotLineKey": "ホログラムを切るべきかしら、で、でも、私、助けてもらったばかりなのに……そんなひどいこと……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=落ち着けしおん。これはザヒーラ、俺の友達だ。呪術なんかじゃない、ただの彼女の共鳴能力だよ。;Female=落ち着いてしおん。これはザヒーラ、私の友達。呪術なんかじゃない、ただの彼女の共鳴能力だよ。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "しおん",
+          "PlotLineKey": "……え？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=彼女は喋れないから、特別な共鳴能力で他の人と話すんだ。それは完全に誤解だよ。;Female=彼女は喋れないから、特別な共鳴能力で他の人と話すの。それは完全に誤解だよ。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "ザヒーラ",
+          "PlotLineKey": "（誤解されたことに不満なようで、小さく口を尖らせる）",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "しおん",
+          "PlotLineKey": "……ご、誤解？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "しおん",
+          "PlotLineKey": "じゃあ、噂話のせいで、私はいい人を怪異だと思ってたってこと？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "ザヒーラ",
+          "PlotLineKey": "（腕を組み、怒ったフリをして頷く）",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "しおん",
+          "PlotLineKey": "ごめんなさい――！！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "ザヒーラ",
+          "PlotLineKey": "（こっそり目を開け、しおんが本当に申し訳なさそうにしているのを見て、ため息をつき、優しくその肩を叩く）",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "しおん",
+          "PlotLineKey": "ちょっと、急に優しくしないでよ！ドキドキしちゃうじゃない！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "しおん",
+          "PlotLineKey": "私、惚れっぽいタイプなのよ。やっと気持ちを整理できたっていうのに……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 361,
+              "PlotLineKey": "あなたって人は……",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 362,
+              "PlotLineKey": "さっきまで死ぬほど怖がってたくせに！",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 34,
+          "Speaker": "しおん",
+          "PlotLineKey": "乙女心に口出ししないでよ……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=結局今回の件は、怪談の呪術女を怖がるあまり、逆に自分が怪談の一部になって、新しい怪談を生み出してしまったということか……;Female=結局今回の件は、怪談の呪術女を怖がるあまり、逆に自分が怪談の一部になって、新しい怪談を生み出してしまったということね……}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "しおん",
+          "PlotLineKey": "はあ？どういう意味よ、私のこと？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 37,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=そうだ。他人を逃げ場のない教室に閉じ込める「幽霊」のことだよ。;Female=そう。他人を逃げ場のない教室に閉じ込める「幽霊」のことよ。}",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

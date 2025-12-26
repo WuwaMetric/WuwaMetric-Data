@@ -1,0 +1,1113 @@
+{
+  "Id": 181700022,
+  "Name": "Légendes urbaines - L'amphithéâtre confinée",
+  "Description": "Allons découvrir ce qui s'est passé.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 181700022,
+  "ShowQuestList": [],
+  "QuestDesc": "Allons découvrir ce qui s'est passé.",
+  "Conditions": [
+    {
+      "Type": "PreChildQuest",
+      "PreChildQuest": {
+        "QuestId": 146700000,
+        "ChildQuestId": 4
+      }
+    },
+    {
+      "Type": "PreLevelPlay",
+      "PreLevelPlay": 146700012
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Saaaalut, {PlayerName}... ? Tu es dans les environs de l'Institut Rabelle en ce moment ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 244,
+              "PlotLineKey": "Comment le sais-tu ? Tu as vraiment des pouvoirs psychiques ?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 245,
+              "PlotLineKey": "Non, pas là. Bouh.",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mayo",
+          "PlotLineKey": "J'aimerais bien ! Ça aurait été si cool à dire. Mais... il faut être honnête avec un membre du club. C'est la règle numéro un !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Et tu es quelqu'un que je m'efforce vraiment de recruter, tu sais. Je dois rester complètement honnête !",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Pfft, impossible que je me trompe. Je suis une experte du paranormal, tu sais. Peut-être que j'ai quelques... talents cachés.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Mayo",
+          "PlotLineKey": "... Ouah, tu ne joues pas du tout le jeu. <span class=\"italic\">Quelle poisse</span>. J'étais si peu convaincante ?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Bon, d'accord, c'est l'heure de la vérité. Un autre membre t'a vu là-bas plus tôt. J'ai pensé que tu ne pouvais pas être parti loin.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Mayo",
+          "PlotLineKey": "En parlant de ça, il y a une rumeur qui circule à l'Institut Rabelle. Après les cours, quand le calme envahit le campus, la deuxième salle de classe depuis le couloir devient une zone sans issue...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Quiconque y entre reste coincé, comme si la salle te dévorait. Peu importe ce que tu essaies, tu finis toujours par revenir à votre point de départ… face à la même porte.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 246,
+              "PlotLineKey": "Tu as un don pour tout dramatiser.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 247,
+              "PlotLineKey": "Sans rire ? Ça fait trop légende urbaine de série B...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Je ne fais que répéter ce que le survivant a dit. Des lumières bleu-blanc vacillantes, un bourdonnement bizarre et parasité, et... un esprit vengeur maudit.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 248,
+              "PlotLineKey": "Il y a une incursion de Sonora sur le campus ?",
+              "PlayVoice": false,
+              "JumpToId": 11
+            },
+            {
+              "TextId": 249,
+              "PlotLineKey": "Attends, mais quelqu'un s'en est sorti, alors ?",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Oui, mais il a dit qu'il avait eu si peur qu'il s'est évanoui. Il s'est réveillé dehors. Il ignore comment il s'est échappé.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Peut-être que c'est vraiment une sorte d'événement paranormal inexplicable. Ou peut-être qu'il y a une explication parfaitement logique que l'on doit découvrir. On n'est pas loin... Allez, ça ne pique pas ta curiosité ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Rien ne t'oblige à y aller, mais <span class=\"italic\">c'est</span> l'un des sujets les plus chauds de notre club en ce moment. Qui sait, tu pourrais bien écrire ta première légende aujourd'hui.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 250,
+              "PlotLineKey": "D'accord, d'accord, tu m'as convaincue. Je vais aller voir ça.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 251,
+              "PlotLineKey": "J'irai voir si j'ai le temps.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "Mayo",
+          "PlotLineKey": "J'aime quand tu parles comme ça, {PlayerName} !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Allez, sois courageux ! Va voir par toi-même ce qu'il y a vraiment là-dedans !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "La deuxième depuis le couloir... C'est celle-ci ? Ça ressemble à une salle de classe ordinaire de l'extérieur.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Dès que vous y entrez, des lumières blanches éclatantes s'allument brusquement. L'air se fige pendant une seconde, prenant une qualité granuleuse.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 34,
+              "PlotLineKey": "… Les lumières se sont-elles allumées toutes seules ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "???",
+          "PlotLineKey": "Oui. Parce que cette salle de classe... n'aime pas l'obscurité.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "???",
+          "PlotLineKey": "Il fait trop sombre. Je ne trouve pas mes affaires... Viens, viens m'aider...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Une voix amère murmure à votre oreille. Vous vous retournez et vous retrouvez nez à nez avec une silhouette presque transparente...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Une fille luisant d'une faible lumière phosphorescente bleue flotte à vos côtés.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 35,
+              "PlotLineKey": "Qui... Non, <i>qu'est-ce que</i> tu es ?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 36,
+              "PlotLineKey": "Ça alors, il y a vraiment quelque chose de bizarre ici.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "???",
+          "PlotLineKey": "Quelque chose de bizarre ? Hé hé... Tu. Parles. De. Moi ?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 7
+        },
+        {
+          "Id": 7,
+          "Speaker": "???",
+          "PlotLineKey": "Je suis piégée ici pour toujours... À moins que je ne les retrouve... Reste avec moi.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 37,
+              "PlotLineKey": "Tu sais, la porte est juste là.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "???",
+          "PlotLineKey": "Oh... Tu parles de celle qui est derrière toi ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "???",
+          "PlotLineKey": "C'est inutile. Cette porte... elle est capricieuse. À moins que je ne sois contente.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "???",
+          "PlotLineKey": "On dirait que tu ne comprends toujours pas ce qui se passe... Si tu ne me crois pas, vas-y. Vois par toi-même...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "Vous expliquez la vérité derrière le « fantôme » à Mayo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Alors... c'était juste une série de malentendus ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Ou bien quelqu'un avait simplement trop peur d'affronter la réalité.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Ha ! Alors ça veut dire... tu viens officiellement de démystifier une autre légende urbaine.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Mais tu sais, les légendes urbaines... elles réapparaissent parfois toutes seules.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 277,
+              "PlotLineKey": "Alors nous continuerons à enquêter sur elles.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Exactement ! Sinon, à quoi servirait le Club des fans du paranormal ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Mayo",
+          "PlotLineKey": "En fait, l'histoire de Shion m'a donné une idée. Je vais commencer une série sur le forum... « La Hantise de l'hologramme de minuit ». Classe, non ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 278,
+              "PlotLineKey": "Ne me dis pas que tu es en train de créer tes propres légendes urbaines.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Chut ! Tu ne devrais pas tracer une ligne si claire entre les légendes urbaines et la vérité.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "... Tu commences à ressembler à la vraie Bergère des esprits.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mayo",
+          "PlotLineKey": "Bon, d'accord ! Je publierai les vrais résultats de l'enquête à la fin. Mais il nous faut un bonne histoire pour recruter de nouveaux membres, non ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mayo",
+          "PlotLineKey": "En tout cas, Bergère des esprits ou quoi que ce soit d'autre, si tu tombes sur une autre légende urbaine, appelle-moi quand tu veux !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "???",
+          "PlotLineKey": "Alors ? Tu as déjà essayé ? Je te l'avais dit, c'est inutile.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "???",
+          "PlotLineKey": "Tu ne peux partir que si tu fais plaisir à cette « porte ».",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 48,
+              "PlotLineKey": "Es-tu la « porte » ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Shion",
+          "PlotLineKey": "Non, ce n'est qu'une métaphore... Je m'appelle Shion. Comme je m'y attendais. Personne ne me comprend jamais.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Shion",
+          "PlotLineKey": "Si seulement j'étais la porte... Une porte n'a besoin de personne. Elle n'a aucun état d'âme... Elle se fiche qu'on l'aime ou non.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 49,
+              "PlotLineKey": "Bah, pourquoi tu déprimes d'un coup ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 50,
+              "PlotLineKey": "Alors... comment dois-je m'y prendre pour te faire plaisir exactement ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Shion",
+          "PlotLineKey": "Ramène-les... Les sentiments que j'ai mis en eux... Les choses que je leur ai données... Les parties de moi que j'ai attachées. Tout. Seulement alors...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Shion",
+          "PlotLineKey": "Seulement alors serai-je satisfaite. Seulement alors... pourrai-je partir.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Shion",
+          "PlotLineKey": "Et seulement alors pourras-tu partir.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 51,
+              "PlotLineKey": "Eux ? Elles ? Des sentiments ? Tout ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Shion",
+          "PlotLineKey": "S'il te plaît, bonne âme. Aide-moi.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Shion",
+          "PlotLineKey": "Dans cette salle de classe sans fin... aide-moi à rassembler les trois choses qui portent mes sentiments...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Shion",
+          "PlotLineKey": "Mes « cadeaux ».",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "Oui, c'est ça !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "Tu vois ? Quelqu'un me comprend, finalement.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "Non... pas celui-ci. Ce n'est pas mon cadeau !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "Je t'ai dit ce que je voulais !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "Non... pas celui-ci. Ce n'est pas mon cadeau !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "Je t'ai dit ce que je voulais !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "... Je savais que tu m'aiderais. Que tu m'aiderais à les récupérer.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "Il n'y a plus de retour en arrière possible maintenant.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 289,
+              "PlotLineKey": "Alors que cherchons-nous cette fois-ci ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Shion",
+          "PlotLineKey": "Je déteste les choses qui ont l'air trop propres et brillantes. Jolie en apparence... mais avec un goût glacial.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Shion",
+          "PlotLineKey": "Mais personne d'autre ne ressentait la même chose, à part <span class=\"italic\">lui</span>...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Shion",
+          "PlotLineKey": "Cet après-midi-là, quand j'étais si épuisée que j'allais m'évanouir, c'est lui qui m'a donné de quoi vraiment me réchauffer de l'intérieur...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Shion",
+          "PlotLineKey": "La vapeur embuait mes lunettes. Le bouillon était si riche et épais. Quand il l'a posé sur la table, l'odeur a empli la pièce... salée et savoureuse.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Shion",
+          "PlotLineKey": "Il devait comprendre ce que je ressentais. Alors j'ai commencé à lui donner la même chose, tous les jours... Mais alors... pourquoi a-t-il cessé de les ouvrir ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Shion",
+          "PlotLineKey": "Il les mettait simplement de côté... et disait qu'il allait les <span class=\"italic\">partager</span> avec d'autres élèves !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Shion",
+          "PlotLineKey": "Il est allé trop loin, trop loin, TROP LOIN !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Shion",
+          "PlotLineKey": "Trouve-le. Rapporte-le-moi !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "Oui, c'est ça !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "On dirait que... tu commences à mieux me comprendre...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "Non, ce n'est pas ça... Ce n'est pas mon cadeau...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "Tu y étais presque...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "Non, ce n'est pas ça... Ce n'est pas mon cadeau...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "Tu y étais presque...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "Eh bien... c'est le dernier. Tu veux vraiment m'aider ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 307,
+              "PlotLineKey": "Oui. Dis-moi ce que tu cherches.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 308,
+              "PlotLineKey": "Allez ! Dis-moi tout sans détour !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "Si c'est ce que tu penses... alors je vais me ressaisir. Cette fois, je peux absolument, définitivement tourner la page !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Shion",
+          "PlotLineKey": "Tu ne t'en doutes certainement pas, mais je suis en fait musicienne. Même les touches les plus froides sonnent chaleureusement quand je les joue.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Shion",
+          "PlotLineKey": "Malgré tout, si <span class=\"italic\">lui</span> me l'avait demandé, je lui aurais donné l'instrument qui m'accompagne depuis des années...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Shion",
+          "PlotLineKey": "Il n'a pas dit oui. Mais il n'a pas refusé non plus. Il m'a seulement dit...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Shion",
+          "PlotLineKey": "« C'est vraiment trop lourd. »",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Shion",
+          "PlotLineKey": "Non. Aide-moi à le retrouver. Mon précieux trésor aux touches noires et blanches. Je ne le laisserai pas chez quelqu'un comme ça !",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "Non, ce n'est pas ça... Ce n'est pas mon cadeau...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "Tu y étais presque...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "Non, ce n'est pas ça... Ce n'est pas mon cadeau...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "Tu y étais presque...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Shion",
+          "PlotLineKey": "Ils sont tous revenus... tous mes « cadeaux »... Mais qu'en est-il de mes sentiments ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Shion",
+          "PlotLineKey": "Mes sentiments pour lui... Pourrais-je... ? Non, je ne peux pas. Si je les remets...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Shion",
+          "PlotLineKey": "S'il les voyait, peut-être qu'il se souviendrait de moi. Peut-être qu'il changerait d'avis...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 353,
+              "PlotLineKey": "Tu les as repris, et maintenant tu veux les redonner ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 354,
+              "PlotLineKey": "C'est un cercle vicieux, non ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Shion",
+          "PlotLineKey": "Je... Je...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "C'est vrai que les choses que tu as offertes... sortaient un peu de l'ordinaire. Mais quelqu'un qui t'aimerait vraiment accepterait ce côté de toi, qu'il soit bizarre ou non.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Et quelqu'un qui tiendrait vraiment à toi ne te ferait pas tourner en rond.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "La jeune fille se fige à vos mots. La lueur bleue qui l'entoure s'intensifie. Vous jetez un coup d'œil à une interface de données proche et décidez de révéler la vérité.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 355,
+              "PlotLineKey": "Tu n'es qu'une projection, n'est-ce pas ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Shion",
+          "PlotLineKey": "Hein ? Tu... tu as remarqué...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Shion",
+          "PlotLineKey": "Techniquement, oui. Je ne suis pas vraiment ici. C'est juste une petite astuce avec la technologie holographique.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 356,
+              "PlotLineKey": "Alors pourquoi toute cette mise en scène de fantôme ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Shion",
+          "PlotLineKey": "Je... je ne voulais effrayer personne ! En fait... je n'arrivais pas à me résoudre à venir en personne, alors j'ai tenté ma chance, en espérant qu'une âme courageuse m'aiderait.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 357,
+              "PlotLineKey": "Pourquoi quelqu'un de courageux ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 358,
+              "PlotLineKey": "Pourquoi n'as-tu pas osé venir toi-même ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "Shion",
+          "PlotLineKey": "D'une part, je ne veux vraiment, vraiment pas que ce garçon me voie... chercher mes cadeaux en cachette. Rien que d'y penser, la honte !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Shion",
+          "PlotLineKey": "S'il me demandait une explication, ou essayait de me dire bonjour, je ne pourrais pas faire semblant de ne pas le connaître... Je ne sais pas comment réagir face à lui.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Shion",
+          "PlotLineKey": "Et aussi, la Bergère des esprits est terrifiante.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 359,
+              "PlotLineKey": "La Bergère des esprits ?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Shion",
+          "PlotLineKey": "Tu ne la connais pas ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "Shion",
+          "PlotLineKey": "Elle ne fait jamais de bruit. Elle se contente de marcher dans les salles de classe vides, traquant les étudiants isolés.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Shion",
+          "PlotLineKey": "Elle leur jette un sort et les nourrit à cette... cette chose qu'elle a invoquée ! Si tu es encore dans une salle de classe, tu te fais dévorer tout entier !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "Shion",
+          "PlotLineKey": "Donc je ne veux pas être sa prochaine cible. Et puis... Chut, écoute !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "Shion",
+          "PlotLineKey": "Boum... boum... Criiic, CRIIIC. Des pas ! Et... et des bruits de mastication ! C'est elle ! La Bergère des esprits est là !",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 360,
+              "PlotLineKey": "Shion, ne te fais pas peur toute seule.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 19,
+          "Speaker": "Zahira",
+          "PlotLineKey": "(Au moment où vos regards se croisent, elle semble un peu surprise de vous trouver ici.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "Zahira",
+          "PlotLineKey": "(Puis elle lève la main, traçant de lents cercles dans l'air, comme si elle tissait un sort obscur. L'espace autour d'elle scintille faiblement.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "Shion",
+          "PlotLineKey": "JE LE SAVAIS ! C'est un vrai sort ! Je suis fichue !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "Shion",
+          "PlotLineKey": "Dois-je couper la projection ? M-mais tu m'as aidée... Je ne peux pas t'abandonner ici...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Calme-toi, Shion. C'est Zahira, mon amie. Et ce n'est pas un sort. C'est juste son Forte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 24,
+          "Speaker": "Shion",
+          "PlotLineKey": "... Quoi ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 25,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Elle ne peut pas parler, alors son Forte fonctionne un peu différemment. Tout ça n'est qu'un malentendu.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 26,
+          "Speaker": "Zahira",
+          "PlotLineKey": "(Elle gonfle légèrement les joues, comme si elle était agacée d'être mal comprise.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 27,
+          "Speaker": "Shion",
+          "PlotLineKey": "Un m-malentendu ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 28,
+          "Speaker": "Shion",
+          "PlotLineKey": "Donc les rumeurs étaient fausses... et j'ai pris une bonne personne pour une légende urbaine ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 29,
+          "Speaker": "Zahira",
+          "PlotLineKey": "(Elle croise les bras, faisant semblant d'être en colère, et hoche la tête.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 30,
+          "Speaker": "Shion",
+          "PlotLineKey": "Je suis désolée !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 31,
+          "Speaker": "Zahira",
+          "PlotLineKey": "(Devant les remords sincères de Shion, elle soupire et tapote doucement son épaule.)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 32,
+          "Speaker": "Shion",
+          "PlotLineKey": "Ne sois pas si gentille tout d'un coup ! Mon cœur bat déjà assez vite !",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 33,
+          "Speaker": "Shion",
+          "PlotLineKey": "Je... je tombe amoureuse pour un rien, d'accord ?! Et je viens de récupérer mes sentiments, alors je suis émotionnellement vulnérable en ce moment...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 361,
+              "PlotLineKey": "Shion, tu...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 362,
+              "PlotLineKey": "Tu étais terrifiée il y a une seconde !",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 34,
+          "Speaker": "Shion",
+          "PlotLineKey": "Les affaires de cœur des filles. Tu ne comprendrais pas...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 35,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Au final, tu avais tellement peur de la Bergère des esprits que tu as fini par devenir toi-même une légende urbaine, en créant une vraie...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 36,
+          "Speaker": "Shion",
+          "PlotLineKey": "Quoi ? Tu parles de <span class=\"italic\">moi</span> ?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 37,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Exactement, le « fantôme » qui piège les gens dans une salle de classe sans issue.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

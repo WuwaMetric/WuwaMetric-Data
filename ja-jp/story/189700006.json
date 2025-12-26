@@ -1,0 +1,464 @@
+{
+  "Id": 189700006,
+  "Name": "暗黒のデュエル伝説・上",
+  "Description": "真夜中の駅で、魂と命を賭けた「暗黒のデュエル」が行われているという噂がある。あなたはその真偽を自ら確かめることにした……",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 189700006,
+  "ShowQuestList": [],
+  "QuestDesc": "真夜中の駅で、魂と命を賭けた「暗黒のデュエル」が行われているという噂がある。あなたはその真偽を自ら確かめることにした……",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 192700021,
+      "PreQuestName": "激闘リターン：ラハイロイ地区戦"
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 8,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "プリニオ",
+          "PlotLineKey": "……うむ、情報が間違ってなければ、この辺りにあるはず。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 172,
+              "PlotLineKey": "{Male=何か探してるのか？;Female=何か探してるの？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "プリニオ",
+          "PlotLineKey": "――えっ？ああ、{PlayerName}か。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "プリニオ",
+          "PlotLineKey": "もしかして……あなたも例の噂を聞いてここに？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "噂？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "プリニオ",
+          "PlotLineKey": "トンネルについての噂だよ。何でも、トンネルの中でグローリー・ヒルズの「暗黒のデュエル」が行われてるらしくてさ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "プリニオ",
+          "PlotLineKey": "ここに集まってる連中は皆、敗れた後心に怨念を宿したデュエリストばかりだとか。奴等はデュエル精神を捨て、強くなるためならなんだってできる。そして果てには、連中の魂は暗黒に堕ちてしまう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "プリニオ",
+          "PlotLineKey": "奴等は真夜中に、トンネルのどこかにある秘密拠点で挑戦し合ってる。敗者の運命については……いくつかのバージョンがあるんだけど。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "プリニオ",
+          "PlotLineKey": "一番可能性の高い言い方によると、負けた人は無情にもデッキを奪われ、永遠にデュエルができなくなるとか。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "プリニオ",
+          "PlotLineKey": "それよりも怖い噂によると、ここでデュエルするには魂か命を賭けなければいけないとか……敗者は勝者にすべてを喰らわれてしまうらしい。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 174,
+              "PlotLineKey": "{Male=それはさすがに大げさすぎないか。;Female=それはさすがに大げさすぎない？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 175,
+              "PlotLineKey": "ラハイロイは無法の地じゃあるまいし。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "プリニオ",
+          "PlotLineKey": "俺だってあり得ないと思ってるけど、ただの根も葉もない噂だとも思えない。同好会のデュエリストが何人も、自分が謎の自分からの招待を受けたって言ってるくらいだぜ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "プリニオ",
+          "PlotLineKey": "「強くなりたいか？ならば真夜中の駅に来い！」",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "{Male=どうやら調べておく必要がありそうだな。;Female=どうやら調べておく必要がありそうだね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 177,
+              "PlotLineKey": "{Male=この事は俺に任せてくれ。;Female=この事は私に任せて。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "プリニオ",
+          "PlotLineKey": "……気を付けてくれよ、{PlayerName}。普通のデュエルであなたに勝てる人がいるとは思わないけど。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "プリニオ",
+          "PlotLineKey": "しかしもし本当に噂通りだったら、暗黒のデュエルは魂や命を賭けてやってるものならば……奴等は勝つために、何をしでかすか分からないからな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "プリニオ",
+          "PlotLineKey": "そうだ！駅にはアルカインというロイ人がいるんだけど、その人なら「暗黒のデュエル」のことについて多少知っているはずだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "プリニオ",
+          "PlotLineKey": "でも、彼は俺にすごい警戒心を持ってる。俺が聞いても何も教えちゃくれないんだ……もしかするとあなたなら。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 178,
+              "PlotLineKey": "ありがとう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 179,
+              "PlotLineKey": "気を付けるよ。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "――見ない顔だな。お前は誰だ？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 141,
+              "PlotLineKey": "{Male=俺はデュエルしに来た。;Female=私はデュエルしに来た。}",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 142,
+              "PlotLineKey": "{Male=俺は強くなりたい。;Female=私は強くなりたい。}",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "デュエルだと……？その目から分かる、お前は強い。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "ここは……何もない人しか受け入れん。お前はここに来るべきじゃない、他を当たれ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "アルカインがあなたをじっと見つめている。そしてしばらく考えたら頷いた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "強くなる、だと……お前は充分強いが、力を求めることに……上限はない。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "教えてみろ、強くなるためには……どんな対価を払うつもりだ？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 143,
+              "PlotLineKey": "{Male=……俺の魂？;Female=……私の魂？}",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 144,
+              "PlotLineKey": "{Male=……俺の命？;Female=……私の命？}",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 145,
+              "PlotLineKey": "{Male=……俺のすべてだ。;Female=……私のすべてよ。}",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 146,
+              "PlotLineKey": "繰り返す練習。",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "……ただのゲームだ。ゲームのために魂を差し出すだと？ふざけやがって。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 8,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "……ただのゲームだ。ゲームのために命を差し出すだと？ふざけやがって。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "お前のすべてを差し出すというのか？ただのゲームだ……そう意気込むことはない。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 10,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "いい答えだ。一応は納得してやろう。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "とにかく、俺もかつは敗者の一人だった――まずはお前がどれほどのもんか、デュエルで試させてもらおう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "……ここまでだ。どうやら俺の目に狂いはなかったようだな……お前はやはり強い。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 108,
+              "PlotLineKey": "……これがいわゆる暗黒のデュエル？",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 109,
+              "PlotLineKey": "{Male=これで、あなたの魂も命も俺のものになったのか？;Female=これで、あなたの魂も命も私のものになったの？}",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "はぁ？暗黒のデュエル……？どこからそんなでたらめな噂話を聞きつけたのか知らないが……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "ふざけるな。どこからそんなでたらめな噂話を聞きつけたのか知らないが……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "……ここには暗黒のデュエルも賭けもない。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 110,
+              "PlotLineKey": "{Male=俺が聞いた話はこうだ。;Female=私が聞いた話はこうよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "あなたはアルカインにここに来た理由を教えた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "……なるほど、何というバカバカしい噂話なんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "まぁ、一部は合ってる。お前の見ての通り、俺たちは確かに更なる強さを求めてはいる。なぜなら、俺たちは皆敗者だったからだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "地区戦に参加しようにも、強さが足りないせいで、予選であっさりと負けたんだ。だが……俺たちは諦めたくはない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "だから一日の仕事が終わってここに集まってるんだ。デュエルの技を交流したり、互いの腕を磨いたりしている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "それぞれの負けの過程はみっともないものばかりだから、これといった宣伝は控えていてな。修行が終わったら、皆にアッと言わせようと黙々と頑張ってるだけだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "それがその……暗黒のデュエルなんかになっちまって。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 111,
+              "PlotLineKey": "そういうことか。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 112,
+              "PlotLineKey": "{Male=噂は本当に怖いんだな。;Female=噂は本当に怖いんだね。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "はぁ……あっそうだ。ここには他にも強いデュエリストが2人いるんだ、彼らは俺のような敗者じゃない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "俺たちがここに集まってグローリー・ヒルズをやると知った後、彼らは俺たちのために特訓を行って、指導教官になってくれてる。そして自分を負かした相手に復讐を果たせるかどうかを評定してるんだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "2人なら、お前のような強者には興味があるだろう……もしお前の腕ほどの相手と、切磋琢磨がしたけりゃ、2人はいい相手になれるはずだ。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 113,
+              "PlotLineKey": "分かった。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 114,
+              "PlotLineKey": "すぐに2人を探しに行こう。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "アルカイン",
+          "PlotLineKey": "ああ……更に強くなれることを祈るよ、強きデュエリスト。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

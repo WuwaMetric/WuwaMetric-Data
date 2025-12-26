@@ -1,0 +1,502 @@
+{
+  "Id": 195700000,
+  "Name": "世界上最近的海",
+  "Description": "与阿布讨论溺森涡道的建设",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 195700000,
+  "ShowQuestList": [],
+  "QuestDesc": "与阿布讨论溺森涡道的建设",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100034,
+      "PreQuestName": "致第二次日出"
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 10,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "阿布",
+          "PlotLineKey": "溺森涡道终于建成了！这一路可真是不容易……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "阿布",
+          "PlotLineKey": "我看看它的介绍：通过透明结构与全息投影，溺森涡道希望为途经者带来美轮美奂的体验……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "阿布",
+          "PlotLineKey": "说到全息投影……{PlayerName}，我有个很帅的主意！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "阿布",
+          "PlotLineKey": "既然这里的景色都是全息投影出来的，是不是有机会投影点更帅的东西？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "阿布",
+          "PlotLineKey": "比如，把鱼全都换成叹息古龙，或者把水都变成火，让这里变成炼狱之路之类的！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 416,
+              "PlotLineKey": "听起来好帅。",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 417,
+              "PlotLineKey": "又不是游乐园……",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "阿布",
+          "PlotLineKey": "对吧！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "阿布",
+          "PlotLineKey": "哎呀，{PlayerName}你就满足一下我的好奇心嘛……！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "阿布",
+          "PlotLineKey": "莫宁不是研究院的大科学家嘛，她肯定了解这些，我们去问问她吧！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "拿你没办法……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "莫宁现在应该还在休假中，发飞讯问问她吧。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "莫宁",
+          "PlotLineKey": "久等了，前辈。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "莫宁",
+          "PlotLineKey": "那个，关于前辈的问题，我在来之前远程查阅了研究院的数据库。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "莫宁",
+          "PlotLineKey": "投影的内容的确可以调整，不过要达到前辈所描述的效果，需要考虑光学引擎架构，投影镜头素质，显示芯片尺寸和类型。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "莫宁",
+          "PlotLineKey": "如果前辈需要的话，我可以……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 302,
+              "PlotLineKey": "我想说的不是这个。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "病人就应该好好休息，不是吗？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "莫宁",
+          "PlotLineKey": "可是，保持心情愉快的方法……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "溺森涡道的风景很美。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "要一起看看吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "我相信，那也会让你心情愉快的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "莫宁",
+          "PlotLineKey": "……我明白了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "莫宁",
+          "PlotLineKey": "那么，我会认真感受与前辈的这次旅程的。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "莫宁",
+          "PlotLineKey": "我记得溺森涡道在停用之前，还只是一条没有任何装饰的隧道，前辈竟然能将它建设成这样。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "莫宁",
+          "PlotLineKey": "穿行其中，感觉就像被海水包围，好像变成了深海里的潜航器一样。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 349,
+              "PlotLineKey": "鱼更好一些吧？",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 350,
+              "PlotLineKey": "潜航器？帅！",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "莫宁",
+          "PlotLineKey": "唔，鱼类的视野范围可以覆盖360度，人类可能无法体会它们眼中的风景。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "莫宁",
+          "PlotLineKey": "前辈更喜欢把自己想象成鱼吗？我试试看，努力地把视线朝向两边……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "莫宁",
+          "PlotLineKey": "没错！那是一种海底资源勘探用的设备，它能通过多推进器布局实现高机动性，实现在水下的自由活动……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "莫宁",
+          "PlotLineKey": "嗯……应该，就和前辈现在驾驶摩托的技术差不多。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "莫宁",
+          "PlotLineKey": "哇，前辈，有许多水母！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "真漂亮！",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "可惜只是投影。",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "莫宁",
+          "PlotLineKey": "它们的荧光，看起来就像海洋里的星星一样。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "莫宁",
+          "PlotLineKey": "嗯，我的说法有误，应该纠正为“有许多全息投影水母”。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "莫宁",
+          "PlotLineKey": "不知道在真正的大海里，它们会不会看起来更加美丽。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "莫宁",
+          "PlotLineKey": "其实，虽然拥有许多相关知识，但我没有见过真正的海。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "莫宁",
+          "PlotLineKey": "我虽然出生在新联邦，但因为那时双腿无法行动，没有出过远门。来到拉海洛之后，也因为保密要求从来没有离开过。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "莫宁",
+          "PlotLineKey": "前辈应该已经去过许多地方了。能告诉我，真正的海是什么样的吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 214,
+              "PlotLineKey": "（描述黎那汐塔的海）",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 215,
+              "PlotLineKey": "（描述黑海岸的海）",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "一片承载着信仰、神话与狂欢的蔚蓝色。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "莫宁",
+          "PlotLineKey": "听起来……很美，很温柔。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "那是用风暴与浓雾保护着秘密的漆黑水域。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "莫宁",
+          "PlotLineKey": "这种地方，会激发人类的探索欲呢。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "莫宁",
+          "PlotLineKey": "但是，就算眼前不是真正的大海，好像也并不值得遗憾。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "莫宁",
+          "PlotLineKey": "因为，与前辈一同见证的风景要比那更珍贵。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "莫宁",
+          "PlotLineKey": "谢谢你带我看这些，前辈。我现在……感觉很开心。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "莫宁",
+          "PlotLineKey": "就像你说的那样，观赏美丽的风景，的确能让人心情愉快。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "莫宁",
+          "PlotLineKey": "唔，正好到研究院附近了，那我就回去工作了。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 325,
+              "PlotLineKey": "？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "莫宁",
+          "PlotLineKey": "呵呵……是开玩笑的，前辈。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "莫宁",
+          "PlotLineKey": "在病假结束之前，我会按照前辈说的，好好休息的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "就算假期结束也是一样。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "莫宁",
+          "PlotLineKey": "我会记住的。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "莫宁",
+          "PlotLineKey": "那，请问……下次想放松的时候，也可以像今天这样，邀请前辈一起吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 326,
+              "PlotLineKey": "当然。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "莫宁",
+          "PlotLineKey": "太好了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "莫宁",
+          "PlotLineKey": "那么，我想要在前辈以后的日程里，留下一个名额。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "莫宁",
+          "PlotLineKey": "希望有一天，能和你一起看到真正的海。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

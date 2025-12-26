@@ -1,0 +1,909 @@
+{
+  "Id": 923700000,
+  "Name": "Unvergleichlicher Mecha",
+  "Description": "Hilf Zeon, alle vier Teile zu finden und die Statue fertigzustellen.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 923700000,
+  "ShowQuestList": [],
+  "QuestDesc": "Hilf Zeon, alle vier Teile zu finden und die Statue fertigzustellen.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 923700001,
+      "PreQuestName": "Quest_923700001_QuestName_923_1"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Das ist ein Versorgungspaket von der Akademie ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "... Ich sollte es zurückbringen.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Besorgter Händler",
+          "PlotLineKey": "Dieser Junge ... Was soll ich nur mit dem machen ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "Entschuldigung. Haben Sie Armteile für einen Mecha?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 55,
+              "PlotLineKey": "Eigentlich ist mir jeder Arm recht.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Besorgter Händler",
+          "PlotLineKey": "Hm? Ersatzteile ...? Ich habe heute wirklich keine Lust auf Geschäfte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Besorgter Händler",
+          "PlotLineKey": "Mein Sohn, dieser kleine Racker, ist wählerisch beim Essen geworden! Er macht Theater und weigert sich, unser Essen anzurühren ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Besorgter Händler",
+          "PlotLineKey": "Ein Junge in seinem Alter muss doch essen. Warum rührt er nichts an?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "Hat er all das gute Essen vielleicht satt?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "Hat vor dem Essen zu viele Snacks gehabt?",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Besorgter Händler",
+          "PlotLineKey": "Satt ... Das könnte sein!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Besorgter Händler",
+          "PlotLineKey": "Seine Mutter und ich geben uns alle Mühe, die besten Gerichte für ihn zu kochen! Aber er wendet den Kopf ab. Er muss unser Essen einfach satt haben!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "Besorgter Händler",
+          "PlotLineKey": "Zu viele Snacks ... Das könnte sein!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Besorgter Händler",
+          "PlotLineKey": "Bei so vielen leckeren Sachen, die überall herumliegen, schätzt er seine Mahlzeiten natürlich nicht mehr.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "Besorgter Händler",
+          "PlotLineKey": "Aber ich habe gehört, dass das Essen in euren Akademie-Mensen einen ... besonderen Geschmack hat. Stimmt das? Könntest du mir vielleicht helfen?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Besorgter Händler",
+          "PlotLineKey": "Bring mir das kultigste Essen eurer Akademie und diese Armteile gehören dir! Es ist Zeit, dass ich meinem Jungen die Vielfalt dieser Welt zeige!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "Kein Problem.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "Dann haben wir einen Deal.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Ein typisches Essen der Akademie ... Ist es das „Vollwert-Quetschgelee“ oder die „Wachmacher-Energiegel-Beutel“?)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(Ich bereite es für den Tausch vor.)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Laut seiner Markierung sollten sie hier irgendwo sein ...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Müde Forscherin",
+          "PlotLineKey": "Zeon hat dich geschickt, um die Materialien abzuholen, richtig?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 117,
+              "PlotLineKey": "Ganz genau.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Müde Forscherin",
+          "PlotLineKey": "Der hat keine Ahnung, wie viel Ärger das war ... Auch wenn es um etwas geht, das technisch gesehen außer Betrieb ist, war es ein Albtraum, zu besorgen, was er wollte.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Müde Forscherin",
+          "PlotLineKey": "Hör zu, das ist ein geheimes Bauteil. Du darfst den Koffer auf keinen Fall öffnen. Und niemand darf ihn sehen. Sonst bekommen wir <span class=\"font-bold\">alle</span> richtig Ärger.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Müde Forscherin",
+          "PlotLineKey": "Und wenn du ihn siehst? Gib ihm ordentlich Saures von mir, ja?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Wir haben es geschafft ... Wir haben es wirklich geschafft!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "{PlayerName}, schau! Er bewegt sich! Er steht von alleine auf!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Dank deiner Hilfe ist das mein erster vollständig funktionsfähiger Mecha! Wir haben es geschafft!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 140,
+              "PlotLineKey": "Oh, das ist also das erste Mal ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 141,
+              "PlotLineKey": "So weit zu kommen ist an sich schon beeindruckend.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "Also das ist der Zweck eurer Sammelei? Ein wandelnder Schrotthaufen, wie ich sehe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Häuptling der Ausgestoßenen",
+          "PlotLineKey": "Einige dieser Teile wurden aus unserem Lager gestohlen ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Häuptling der Ausgestoßenen",
+          "PlotLineKey": "Wir danken dir, dass du uns die Arbeit erspart hast. Wir werden die ganze Maschine verkaufen! Das bringt einen besseren Preis!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Nein! Niemand fasst meinen Mecha an! Er ist noch ein Kind!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mecha-Kundschafter (?)",
+          "PlotLineKey": "Erkenne ... feindliche Absicht. Aktiviere ... Verteidigungsprotokoll.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Häuptling der Ausgestoßenen",
+          "PlotLineKey": "Was zum ...! Das Ding bewegt sich ...?? Es ist doch kein Fehlschlag?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mecha-Kundschafter (?)",
+          "PlotLineKey": "Warnung ... Sofort evakuieren. Countdown eingeleitet ... 5 ... 4 ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mecha-Kundschafter (?)",
+          "PlotLineKey": "... 1. Angriff wird eingeleitet.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Häuptling der Ausgestoßenen",
+          "PlotLineKey": "Wie konnte er von 5 auf 1 springen?! Das ist nicht fair!!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Er ... hat sich selbst zerstört ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Häuptling der Ausgestoßenen",
+          "PlotLineKey": "Heh. Der Schrotthaufen hat mir einen ganz schönen Schrecken eingejagt!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Häuptling der Ausgestoßenen",
+          "PlotLineKey": "Aber jetzt ist er nur noch ein Haufen Metallschrott! Mal sehen, wer dich jetzt noch beschützt!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Hallo? Ich bin auch noch da. Hast du mich etwa vergessen?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Nanu? Bist du nicht ... {PlayerName} von der Akademie? Du willst das auch? Nein, nein! Wer zuerst kommt, mahlt zuerst, okay? Denk gar nicht daran, es mir wegzunehmen!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 18,
+              "PlotLineKey": "Sammeln Professoren jetzt auch Ersatzteile?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 19,
+              "PlotLineKey": "... Wer hat denn gesagt, dass ich es stehlen will?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Sammeln?! Wie wagst du es, die Arbeit eines Maschinenenthusiasten als Sammeln zu bezeichnen?!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Oh, du bist also kein Gleichgesinnter ... Puh, ich hatte kurz Angst.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Wie du siehst, ist alles hier bereits offiziell außer Betrieb gesetzt worden. Dieser große Kerl ist jetzt nur noch ein Haufen kaltes, nutzloses Metall.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Aber „außer Betrieb gesetzt“ sollte nicht das Ende sein. Da das Löschen seines Datenkerns bereits seine Todesankündigung ist, sind wir nun von allen Regeln befreit!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 20,
+              "PlotLineKey": "Das klingt irgendwie böse.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 21,
+              "PlotLineKey": "Das klingt wie etwas, was ein verrückter Wissenschaftler sagen würde.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "W-Wirklich? Ich fand den Spruch ziemlich cool. Ich wollte so was schon immer mal sagen, haha.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Um ehrlich zu sein, ich komme zwar aus dem Agrarflügel, aber ich habe schon immer davon geträumt, dem Multi-Geschützturm-Club beizutreten und meine eigenen Mecha zu entwerfen ... Ich habe nur, nun ja, die Bewertung nicht bestanden.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Aber jetzt habe ich plötzlich eine Welle der Inspiration. Das könnte meine Chance sein, meinem Traum zu folgen und diesen Mecha zu überholen. Stell dir nur vor, wie er wieder auf eigenen Beinen steht ...!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Ich werde einen Mecha erschaffen, wie ihn noch niemand zuvor gesehen hat! Also ... hilfst du mir dabei?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 22,
+              "PlotLineKey": "Wenn du mich dafür bezahlst.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 23,
+              "PlotLineKey": "Ich bin dabei. Lass uns das machen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Mach dir keine Sorgen, die Belohnung wird dich bestimmt zufriedenstellen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Sein Torso ist praktisch intakt. Wenn wir nur die richtigen Teile finden, können wir sofort mit den Modifikationen anfangen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Ehrlich gesagt habe ich vor ein paar Tagen aus eigener Tasche eine Ladung Beinteile bestellt, aber sie wurden von Ausgestoßenen gestohlen. Wollen wir versuchen, sie zurückzuholen?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 24,
+              "PlotLineKey": "Aber der Mecha-Kundschafter ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "... hat sowieso keine Beinsockel.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Vergiss die Details. Wir dürfen uns nicht von bestehenden Designs einschränken lassen. Wir müssen mit allen Konventionen brechen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Das Lager der Ausgestoßenen ist kein Spielplatz. Du solltest für Ablenkung sorgen und dich dann reinschleichen, um die Teile zu holen. Denk dran: Sicherheit geht vor!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 26,
+              "PlotLineKey": "Mach dir keine Sorgen, ich kann gut auf mich aufpassen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 27,
+              "PlotLineKey": "Warte einfach auf meinen Erfolg",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Besorgter Händler",
+          "PlotLineKey": "Dieser Geschmack, der einem den Appetit raubt ... Dieses Gefühl von Wissenschaft ... Ja, genau das ist es!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Besorgter Händler",
+          "PlotLineKey": "Ich werde dieses „großzügige Geschenk“ gut nutzen. Möge es meinem Jungen seine Wählerischkeit nehmen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Besorgter Händler",
+          "PlotLineKey": "Die Teile gehören dir, wie versprochen. Hab vielen Dank.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Arroganter Student",
+          "PlotLineKey": "Du hast ... Du hast sie wirklich alle zerschmettert?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Arroganter Student",
+          "PlotLineKey": "Mit deiner gottgleichen Fahrweise musst du eine Legende sein! Bist du etwa {Male=dieser sogenannte „Sternenfackel-Reiter“;Female=diese sogenannte „Sternenfackel-Reiterin“}?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Kurzatmiger Student",
+          "PlotLineKey": "... Du hast gewonnen, also gehören die Teile dir. Aber unter einer Bedingung!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 100,
+              "PlotLineKey": "Lass hören.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 101,
+              "PlotLineKey": "Welche Bedingung?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Kurzatmiger Student",
+          "PlotLineKey": "I-Ich hätte gerne deine Kontaktdaten. Wenn wir mal die Gelegenheit haben, lass uns zusammen Rennen fahren!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Arroganter Student",
+          "PlotLineKey": "Ich auch! Du musst unbedingt zu unserem nächsten Rennen kommen!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 102,
+              "PlotLineKey": "Kein Problem!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Ach du meine Güte, die Modifikationen sind sogar noch besser geworden, als ich mir vorgestellt hatte! Ich bin jetzt voller Zuversicht, dass wir es schaffen können!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 40,
+              "PlotLineKey": "Lass uns erst mal sehen, wie es funktioniert ...",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 41,
+              "PlotLineKey": "... Das Design sieht wirklich innovativ aus.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Du hast es verstanden! Ich habe bewusst Teile aus verschiedenen Quellen gewählt, um die Leistungsvielfalt zu maximieren!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Ach, hör auf! Ich habe nur vorhandene Ressourcen sinnvoll genutzt. Aber danke!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Jetzt, da er auf eigenen Beinen stehen kann, ist es Zeit, ihm ein paar starke Arme zu geben!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeon",
+          "PlotLineKey": "In einem Roya-Lager gibt es einen Händler, der sich auf das Recycling beschädigter Teile von Akademie-Mechas spezialisiert hat. Der hat bestimmt, was wir brauchen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Mach dir keine Sorgen, egal was er verlangt, ich kümmere mich um die Kosten!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Da bist du ja wieder! Wie ist es gelaufen? Hast du die Teile gefunden?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 32,
+              "PlotLineKey": "Hab ich schon, aber ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 33,
+              "PlotLineKey": "Bist du sicher, dass die geeignet sind?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Auf jeden Fall! Die sind wie für meinen Mecha-Kundschafter gemacht! Ich baue sie sofort ein!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Ich bin schon zur Hälfte mit dem Zusammenbau fertig. Der Sieg ist zum Greifen nah!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Jetzt kommt der entscheidende Schritt – ich plane, ihm ein stärkeres Waffensystem zu verpassen, ganz im Sinne der Philosophie des Multi-Geschützturm-Clubs!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Es gibt ein altes Sprichwort aus Huanglong, das sinngemäß lautet: „Wenn du deine Arbeit gut machen willst, brauchst du zuerst eine scharfe Waffe.“",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 77,
+              "PlotLineKey": "Denkst du etwa an ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 78,
+              "PlotLineKey": "„Wenn ein Handwerker gute Arbeit leisten will, muss er zuerst seine Werkzeuge schärfen.“",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Genau! Das ist es! Ich wusste nicht, dass du dich so gut mit der Kultur von Huanglong auskennst.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Zu Multi-Geschütztürmen gehören Kanonen, stimmt's? Ich wollte schon immer eine elektromagnetische Railgun an einem Mecha-Kundschafter installieren.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Aber solche Waffen sind nicht besonders leicht zu finden. Das Expeditionsteam hat mehrere außer Betrieb gesetzte Spacetrek-Explorer, die draußen in der Wildnis vor sich hin rosten. Ich habe ihre Standorte auf deiner Karte markiert. Könntest du mir helfen, sie zu finden?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 79,
+              "PlotLineKey": "Nun sind wir schon so weit gekommen ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 80,
+              "PlotLineKey": "Überlass das mir.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Oooh, das sind die Mecha-Arme meiner Träume! So viel Kraft! Ich kann das Potenzial förmlich spüren!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Schau ruhig zu, wie ich diese Teile installiere! Hmm, die Anschlüsse passen vielleicht nicht ganz perfekt ...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 69,
+              "PlotLineKey": "Du kannst sie nicht einfach reindrücken!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 70,
+              "PlotLineKey": "Sicherheit geht vor.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Nur Kleinigkeiten! Jedes Problem hat eine Lösung. Mach dir keine Sorgen!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Vor Freude überwältigt baut Zeon die elektromagnetische Railgun in Rekordzeit zusammen ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Nach all den Jahren bin ich meinem Traum noch nie so nah gewesen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Nur noch ein letzter Schritt! Wir brauchen eine Energiequelle, die stark genug ist, oder einfach gesagt, den Kopf, und dann ist er fertig!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Ich habe einen Kollegen aus dem Forschungsbereich um einen Gefallen gebeten. Er hat die perfekte Kopfeinheit gefunden. Könntest du ein letztes Mal für mich losziehen und sie holen?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 109,
+              "PlotLineKey": "Das ist nichts Gefährliches, oder?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 110,
+              "PlotLineKey": "Das Ding wird doch nicht auf dem Rückweg explodieren, oder?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Auf keinen Fall! Ich habe ihn gebeten, es in einem speziellen Schutzcontainer zu lagern. Sicherheit garantiert!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Die Adresse wurde an dein Terminal geschickt. Beeil dich und komm heil wieder zurück!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

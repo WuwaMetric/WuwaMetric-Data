@@ -1,0 +1,461 @@
+{
+  "Id": 189700007,
+  "Name": "星の海は変わらず・二",
+  "Description": "ハリエットは何かに悩んでいるようだ。話を聞いてみよう。",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 189700007,
+  "ShowQuestList": [],
+  "QuestDesc": "ハリエットは何かに悩んでいるようだ。話を聞いてみよう。",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 189700015,
+      "PreQuestName": "星の海は変わらず・一"
+    },
+    {
+      "Type": "PreQuest",
+      "PreQuest": 176000007,
+      "PreQuestName": "スペーストレック観測台：プロジェクト・ウォッチャー"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=ハリエット、大丈夫か？顔色が悪いぞ。;Female=ハリエット、大丈夫？顔色が悪いよ。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "あ……{PlayerName}さん。私は……大丈夫です。ただ……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "……サーナからずっと連絡が返ってこないんです。もう何日も経っています。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "リンクドスパインの方たちから聞いたんですけど、最近は氷原の吹雪がひどくて……それにヴォイドストームも……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "もしよければ、もう一度様子を伺って来てもらえませんか。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 69,
+              "PlotLineKey": "わかった。",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 70,
+              "PlotLineKey": "{Male=自分で行かないのか？;Female=自分で行かないの？}",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "お手数をかけます……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "何度か行ってみたんですが……今は、ちょうど観測台でやることがあって……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "……どうかお願いします。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "駅の人混みの中で、防護服の霜がまだ溶けきっていない研究員たちの一団を見つけた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "疲れた研究員",
+          "PlotLineKey": "どうしたんだ？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 94,
+              "PlotLineKey": "（用件を伝える。）",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "疲れた研究員",
+          "PlotLineKey": "……サーナか？ハリエットから頼まれたんだな。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=彼女を知っているのか？;Female=彼女を知っているの？}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "ああ、私はジェスパーだ。ハリエットから聞いてるかな。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 95,
+              "PlotLineKey": "先輩だと言ってた。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 96,
+              "PlotLineKey": "サーナと一緒に氷原へ行ったって言ってた。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "はは……そうだな。二人が知り合ったのは、私が以前担当していた研究プロジェクトに一緒に参加したからだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=サーナはどこにいる？;Female=サーナはどこにいるの？}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "もう戻らない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "いや、君が想像するような事故じゃない。それ以上にまずいことだ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "彼は重く息を吐いた。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "サーナは……元気で冒険心の強いロイ族の娘で、手先も器用だ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "ハリエットに会ったことがあるだろう。彼女はサーナに依存しているし、サーナも彼女に優しくしているが……二人が求めている関係性は、おそらく同じものではない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "サーナは変化や刺激を、ハリエットは安定と不変を求めている。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "今回のエクソスウォーム調査で、研究院が新しい成果を出して、いくつか珍しい個体を発見した。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "だが、皆が気を抜いた隙に、サーナは密猟者と手を組んで、それを盗み出した。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "……私は追ったが、影しかつかめなかった。サーナは吹雪の中で「別の場所の星を見に行く」と口にして……ハリエットに、自分は悪党だと伝えてほしい、と言った。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "彼女の表情は、高揚していたのか、それとも沈んでいたのか……吹雪に隠されて見分けがつかなかった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "本来なら、私は発砲して彼らを止めるべきだったのに、ほんの一瞬、気を抜いてしまい、できなかった。彼らは氷原の吹雪の深みに消えていった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "これが私の知るすべてだ。ハリエットに伝えるかどうかは……君が決めてくれ。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=なぜ自分で言わない？あんたは、ハリエットに敬われている先輩だろう。;Female=なぜ自分で伝えないの？あなたは、ハリエットに敬われている先輩でしょう。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "ハリエットに伝えるべきなのか分からないんだ。サーナが氷原にいると思い続けた方が、彼女にとってはいいのかもしれない。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "私はサーナの人となりを見誤った。発砲するかどうかの判断も、感情に流された。三度目の過ちは避けたい。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "ジェスパー",
+          "PlotLineKey": "……後で少し飲みに行く。伝えるかどうかは、君に任せる。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "戻ってきたんですね。あの……サーナのこと、何か分かりましたか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 120,
+              "PlotLineKey": "（真実を告げる。）",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 121,
+              "PlotLineKey": "（真実を隠す。）",
+              "PlayVoice": false,
+              "JumpToId": 13
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "そうでしたか……サーナは、行ってしまったんですね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "大丈夫です……ただ、少し胸騒ぎがして。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "本当は分かっていたんです。サーナはずっとラハイロイを離れて、外の世界を見たがっていました。私を誘ってくれたこともあって……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "でも、私はただ……怖い、そう思ってしまった。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "ラハイロイで研究員として過ごす日々は単調で、彼女との関係もずっとそうでした。朝から夜まで、決まった生活を繰り返すだけ……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "大気アレイのスケジュールに合わせてスペーストレック観測台に上れば、必ず星が見えるんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "……サーナは、もうここの星に飽きてしまったんですね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "変わらない星の軌道の中にも、毎回違った美しさが見えたのに……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "同じ星海を、ずっと一緒に見ていきたいと思っていたのは、私だけだった……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "……すみません。少し、一人でいたいんです。助けてくださって、ありがとうございました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "そうなんですね……このところは氷原で、別の隊の案内をしているんですか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "……そうですか。きっと、また何か興味を引かれたんでしょうね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "サーナはそういう人です。夢中になると、他のことはつい忘れてしまう。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 17,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "でも……彼女とは、スペーストレック観測台で星を見る約束をしてますから。ちゃんと戻ってきてくれるはずです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 18,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "私は、待っています。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 19,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "「また会える」って思えることがあると……心に置いておける期待ができて……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 20,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "ラハイロイの空を流れる、いつもの星を思い浮かべているだけで……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 21,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "……なんだか嬉しくなるんです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 22,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "代わりに聞いてきてくれて、ありがとうございました、おかげで安心できました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 23,
+          "Speaker": "ハリエット",
+          "PlotLineKey": "明日の星は……どうなるんでしょうね。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

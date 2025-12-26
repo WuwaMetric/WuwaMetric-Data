@@ -1,0 +1,502 @@
+{
+  "Id": 195700000,
+  "Name": "世界で一番近い海",
+  "Description": "アブと溺れ森の渦道の建設について話し合う",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 195700000,
+  "ShowQuestList": [],
+  "QuestDesc": "アブと溺れ森の渦道の建設について話し合う",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100034,
+      "PreQuestName": "二度目の日の出へ"
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 10,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "アブ",
+          "PlotLineKey": "溺れ森の渦道がやっとできたぞ！本当に大変だったな……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "アブ",
+          "PlotLineKey": "「透明な構造とホログラム投影を使った溺れ森の渦道は、旅する者に美しい瞬間を残せるだろう」って書いてある……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "アブ",
+          "PlotLineKey": "ホログラム投影と言えば……{PlayerName}、ちょっとかっこいいアイデアを思いついたぞ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "アブ",
+          "PlotLineKey": "ここの景色が全部ホログラム投影でできたのなら、もっとかっこいいものを投影してもいいんじゃないか？",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "アブ",
+          "PlotLineKey": "例えば、魚を全部嘆きのドレイクに変えて、水を炎にして、ここを煉獄の道にしたりとか！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 416,
+              "PlotLineKey": "{Male=確かにかっこよさそうだ。;Female=確かにかっこよさそうね。}",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 417,
+              "PlotLineKey": "遊園地じゃあるまいし……",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "アブ",
+          "PlotLineKey": "そうだろう！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "アブ",
+          "PlotLineKey": "まあまあ、{PlayerName}、ここは我の好奇心を満たしてくれてもいいじゃないか……！",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "アブ",
+          "PlotLineKey": "モーニエって研究院の偉い科学者なんだろう？そいつならきっと何か知ってるはずだ、聞きに行ってみようぜ！",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=しょうがないな……;Female=しょうがないね……}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=モーニエはまだ休暇中のはずだ、;Female=モーニエはまだ休暇中のはず、}メッセージを送ってみよう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "お待たせしました、先輩。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "あの、先ほどの質問についてですが、ここに来る前にリモートで研究院のデータベースを検索してみました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "投影の内容は確かに調整可能ですが、先輩が言っていた効果にするには、光学エンジンの構造や投影カメラの性能、ディスプレイチップのサイズやタイプなども考慮に入れる必要がありますね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "先輩が必要でしたら、私が……",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 302,
+              "PlotLineKey": "いや、{Male=俺が聞きたかったのはその話じゃなく……;Female=私が聞きたかったのはその話じゃなくて……}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=怪我人はちゃんと休むんだ。分かったか？;Female=怪我人はちゃんと休むこと。分かった？}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "しかし、気分を良くする方法は……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "{Male=溺れ森の渦道はとても綺麗なんだ。;Female=溺れ森の渦道はとても綺麗なのよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "{Male=一緒に見ないか？;Female=一緒に見ない？}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=風景を眺めることも気分を良くしてくれるはずだ。;Female=風景を眺めることも気分を良くしてくれるはず。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "……分かりました。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "それでは、先輩との旅路をしっかり実感して、大切にしましょう。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "溺れ森の渦道の使用が停止される前は、まだ何の飾り付けもされていないトンネルのはずですが、よくこんなふうに建設できましたね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "通り過ぎると、まるで海に包まれたような心地になりますね、深海を潜る潜水艇に乗っているような気分です。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 349,
+              "PlotLineKey": "{Male=魚のほうがしっくりくるかな？;Female=魚のほうがしっくりくるかな？}",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 350,
+              "PlotLineKey": "{Male=潜水艇か、かっこいいな！;Female=潜水艇か、かっこいいね！}",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "そうですか？魚類の視野範囲は360度もありますので、人間である私たちでは、魚たちの目に映る風景を想像し難いですね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "先輩は自分のことを魚と想像するのが好きなのですか？私もやってみましょう、視線をできるだけ両側に移して……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "そうですよね！あれは海底資源を探査するための設備で、多数の推進器が備えられていることで高い機動力を持ち、水中でも自由に活動できるようになっていて……",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "えっと……先輩のバイクの運転技術と同じレベルですね。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "わぁ～。先輩、クラゲがたくさんいますよ！",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "{Male=きれいだな！;Female=きれいだね！}",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "{Male=ただの投影なのが残念だ。;Female=ただの投影なのが残念ね。}",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "その蛍光を見ていると、まるで海の中で輝く星々のように感じます。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "うーん、少し言い方を変えたほうがいいですね。正しくは「ホログラム投影のクラゲがたくさんいます」と言ったほうが自然ですね。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "本物の海では、クラゲはもっと美しく見えるのでしょうか。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "実は、たくさんの知識は持っているのに、本物の海を見たことがないのです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "ネオユニオンに生まれましたが、そのときは両脚が動かせませんでしたので、遠出したことは一度もありませんでした。ラハイロイに来てからも、守秘義務のせいでここを離れたことがないのです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "先輩はたくさんの場所を旅してきたのですよね？本物の海がどんなものなのか、教えていただけますか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 214,
+              "PlotLineKey": "（リナシータの海について伝える）",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 215,
+              "PlotLineKey": "（ブラックショアの海について伝える）",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "信仰や神話、狂宴を背負っている青。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "なんだか……美しくて優しいと感じます。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "あれは嵐や霧によって守られている黒い秘密の水域。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "そのような場所が、人間の探索欲をそそるのですね。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "目の前に広がっているのが本物の海でなくても、もう残念に思うことはありません。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "先輩と一緒に見届けた風景こそが、何よりも大切なのですから。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "連れてきてくれてありがとう、先輩。私は今……とても嬉しい気分です。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "先輩が言った通り、美しい景色を眺めると、本当に心が晴れますね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "おや、ちょうど研究院の近くに着きましたし、私はそろそろ仕事に戻りますね。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 325,
+              "PlotLineKey": "？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "ふふっ……冗談ですよ、先輩。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "傷病休暇が終わるまでは、先輩の言う通り、ちゃんと休みますから。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "{Male=傷病休暇が終わってもだ。;Female=傷病休暇が終わってもだよ。}",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "覚えておきます。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "では……次にリラックスしたいと思ったときも、今日みたいに先輩を誘ってもいいですか？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 326,
+              "PlotLineKey": "{Male=もちろんだ。;Female=もちろんだよ。}",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "良かったです。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "それでは、先輩のスケジュールに、私との約束を入れておいてくださいね。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "モーニエ",
+          "PlotLineKey": "いつか先輩と一緒に、本物の海を見られる日を楽しみにしています。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

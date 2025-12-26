@@ -1,0 +1,179 @@
+{
+  "Id": 189700011,
+  "Name": "Reverberación final I",
+  "Description": "Entregas el «tesoro» tomado de los niños a IRIS. El análisis del sistema revela que está relacionado con un profesor desaparecido. Decides investigar más a fondo.",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 189700011,
+  "ShowQuestList": [],
+  "QuestDesc": "Entregas el «tesoro» tomado de los niños a IRIS. El análisis del sistema revela que está relacionado con un profesor desaparecido. Decides investigar más a fondo.",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 189700008,
+      "PreQuestName": "Infancia oculta"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Este número de serie tiene el formato que emplea la Academia. Tal vez IRIS sabe algo al respecto...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "IRIS",
+          "PlotLineKey": "¿Eh? ¿Te encontraste más problemas, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 16,
+              "PlotLineKey": "¿Tienes algo de información sobre esto?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Un poco más cerca... Mmm, esto es un componente central perteneciente a un robot asistente obsoleto de la Academia.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Estos modelos se asignaron exclusivamente a un solo usuario. Espera un momento mientras examino la base de datos.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "IRIS",
+          "PlotLineKey": "... El número de serie lleva a un profesor Sestan.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Esto es interesante... los registros muestran que se programó el desmantelamiento de estos robots. Excepto uno, que se registró como perdido.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 17,
+              "PlotLineKey": "¿El robot del profesor Sestan?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Correcto. Y quién lo diría, el profesor se esfumó junto a él. El informe oficial indica que ambos desaparecieron durante una expedición científica.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "IRIS",
+          "PlotLineKey": "De acuerdo con los testigos, el profesor Sestan abandonó el campamento con el robot después de medianoche, sin mediar palabra, y nunca más los volvieron a ver.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Posteriormente, la Academia investigó los aposentos del profesor y descubrió una carta semejante a una nota de suicidio. La Academia especuló que su desaparición terminó en suicido.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Parece que consideró esa expedición como su último viaje.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 18,
+              "PlotLineKey": "¿Pero fue realmente un suicidio?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "IRIS",
+          "PlotLineKey": "No estoy obligada a responder eso. No emitiré juicio sobre el profesor a nivel personal.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Pero más allá de eso, puedo asistir con los hechos disponibles.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Una ventaja de estos robots obsoletos es que sus componentes centrales contienen una caja negra que registra sus últimas coordenadas geográficas conocidas antes de desactivarse.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Lo que significa que podemos buscar al robot, y al profesor, en el último lugar que los vieron.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "IRIS",
+          "PlotLineKey": "Sí, es todo lo que puedo hacer por ti por ahora. Las coordenadas se cargaron a tu terminal. Tus especulaciones deben ser verificadas en persona.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 15,
+          "Speaker": "IRIS",
+          "PlotLineKey": "No dudes en ir a satisfacer tu curiosidad.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Parece que la desaparición del profesor no fue tan simple después de todo.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Su bitácora decía que se quedó con una tribu roya para analizar la Tormenta de Vacío. Eso podría llevar a una pista...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,909 @@
+{
+  "Id": 923700000,
+  "Name": "Unparalleled Mechascout",
+  "Description": "Help Zeon find all four Mechascout parts and complete the statue",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 923700000,
+  "ShowQuestList": [],
+  "QuestDesc": "Help Zeon find all four Mechascout parts and complete the statue",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 923700001,
+      "PreQuestName": "Quest_923700001_QuestName_923_1"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "It's a supplies package from the Academy...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "I should bring it back.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Troubled Merchant",
+          "PlotLineKey": "That little rascal... What's to be done...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "Excuse me. You got any arm parts for a Mechascout?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 55,
+              "PlotLineKey": "Any arm will do, actually.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Troubled Merchant",
+          "PlotLineKey": "Huh? Parts... I find I am in no mood for business today.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Troubled Merchant",
+          "PlotLineKey": "My son, that little scamp, has grown a picky tongue! He throws fits, refusing to eat our food.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Troubled Merchant",
+          "PlotLineKey": "A growing lad needs his food. Why won't he eat?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "He got tired of all the good food?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "Had too many snacks before his meal?",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "Troubled Merchant",
+          "PlotLineKey": "Got tired of them... You have a point!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Troubled Merchant",
+          "PlotLineKey": "We make our best dishes for him, his mother and I! Yet he turns his head away. Bored of our food, he must be!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "Troubled Merchant",
+          "PlotLineKey": "Too many snacks... You have a point!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Troubled Merchant",
+          "PlotLineKey": "With so many tasty treats lying around, of course he doesn't appreciate his meals.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "Troubled Merchant",
+          "PlotLineKey": "But I've heard that food in your Academy halls has... a unique flavor. True, this tale? A hand you could lend?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Troubled Merchant",
+          "PlotLineKey": "Bring me the Academy's most iconic food, and these arm parts are yours! It's time I showed my boy the diversity this world has to offer!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "No problem.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "It's a deal.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(The quintessential Academy food... Is it the \"Complete Nutrition Squeezy Jelly\" or the \"Instant Wakeup Energy Gel Sachet\"?)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(I'll get it ready for the trade.)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "According to his marked location, they should be around here...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Tired Researcher",
+          "PlotLineKey": "Zeon sent you to pick up the materials, correct?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 117,
+              "PlotLineKey": "That's me.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Tired Researcher",
+          "PlotLineKey": "He has no idea how much trouble this was... It's technically decommissioned, but getting what he asked for was a nightmare.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Tired Researcher",
+          "PlotLineKey": "Listen, this is a classified component. Do not open the case. Don't let anyone see it. Or we'll <span class=\"italic\">all</span> be in deep trouble.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Tired Researcher",
+          "PlotLineKey": "And when you see him? Give him an earful for me, will you?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "We did it! We really did it!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "{PlayerName}, look! It's moving! It's standing on its own!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Thanks to your help, this is my first fully functional mech assembly! We did it!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 140,
+              "PlotLineKey": "Oh, so this is a first...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 141,
+              "PlotLineKey": "Getting this far is impressive in itself.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "So <span class=\"italic\">this</span> is the purpose for your scavenging? A walking heap of scrap, I see.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Outcast Leader",
+          "PlotLineKey": "Some of those parts were stolen from our camp.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Outcast Leader",
+          "PlotLineKey": "Our thanks you have, for saving us the work. We will sell the whole machine! A finer price it will bring!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeon",
+          "PlotLineKey": "No! No one lays a finger on my mech! It's just a child!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mechascout (?)",
+          "PlotLineKey": "Detected... Hostile intent. Initiating... Defense Protocol.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Outcast Leader",
+          "PlotLineKey": "What the...! It moves?? Is it not a failed creation?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mechascout (?)",
+          "PlotLineKey": "Warning... Evacuate immediately. Countdown initiated... 5... 4...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mechascout (?)",
+          "PlotLineKey": "...1. Commencing attack.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Outcast Leader",
+          "PlotLineKey": "How did it jump from 5 to 1?! That's not fair—",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "It... activated self-destruct.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Outcast Leader",
+          "PlotLineKey": "Heh. That pile of bolts gave me a start!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Outcast Leader",
+          "PlotLineKey": "But now it's blown to smithereens! Let's see what shields you now—",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Hello? I'm still here. Did you forget about me?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Huh? Aren't you... {PlayerName} from the Academy? You want this? No, no! Finders keepers, alright? Don't even think about taking it!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 18,
+              "PlotLineKey": "Are professors scavenging for parts now?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 19,
+              "PlotLineKey": "Who said I was going to steal it?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Scavenging?! How dare you call the work of a machine enthusiast scavenging!?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Oh, you're not a fellow enthusiast... Phew, you had me worried for a second.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeon",
+          "PlotLineKey": "As you can see, everything here is already officially decommissioned. This big guy is now just a pile of cold, useless metal.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeon",
+          "PlotLineKey": "But \"decommissioned\" shouldn't be its end. Since the wiping of its data core is already an announcement of its death, we are now free from all the rules!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 20,
+              "PlotLineKey": "That line sounds pretty villainous.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 21,
+              "PlotLineKey": "Sounds like something a mad scientist would say.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "R-really? I thought that line was rather cool. I've been saving it, haha.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeon",
+          "PlotLineKey": "To be honest, I'm from the Agronomy Wing, but I've always dreamed of joining the Multi-Turret Club and designing my own mechs... I just, well, didn't pass their assessment.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zeon",
+          "PlotLineKey": "But now, I've just had a wave of inspiration. This may be my chance to follow my dream and rehaul this mech. Just imagine it standing on its own feet again!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Zeon",
+          "PlotLineKey": "I will create a Mechascout the likes of which no one has ever seen! So... will you help me?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 22,
+              "PlotLineKey": "If you're paying.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 23,
+              "PlotLineKey": "I'm in. Let's do it.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Don't worry, I'll give you a satisfying reward for your trouble!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Its torso is pretty much intact. If we can just find the right parts, we can start the modifications right away.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Actually, I ordered a batch of leg parts out of my own pocket a few days ago, but they were stolen by Outcasts. What if we tried to get them back?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 24,
+              "PlotLineKey": "But the Mechascout...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "...Doesn't have any leg sockets anyway.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Never mind the details. We shouldn't let existing designs limit ourselves. We must break free from all conventions!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Zeon",
+          "PlotLineKey": "The Outcast's camp is no joke. You should create a distraction, then sneak in to grab the parts. Remember, safety first!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 26,
+              "PlotLineKey": "Don't worry, I can handle myself pretty well.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 27,
+              "PlotLineKey": "Just wait for the good news!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "Troubled Merchant",
+          "PlotLineKey": "This taste that robs a person of their appetite... this feeling of science... Yes, this is it!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Troubled Merchant",
+          "PlotLineKey": "I'll make good use of this \"generous gift.\" May it cure my boy's finicky ways.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Troubled Merchant",
+          "PlotLineKey": "The parts are yours, as was promised. My thanks to you.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Haughty Student",
+          "PlotLineKey": "You actually... smashed all of them?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Haughty Student",
+          "PlotLineKey": "That kind of god-tier driving, you must be a legend! Are you the one they call the \"Startorch Rider\"?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Short-tempered Student",
+          "PlotLineKey": "You won, so the parts are yours. But on one condition!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 100,
+              "PlotLineKey": "Let's hear it.",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 101,
+              "PlotLineKey": "What condition?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Short-tempered Student",
+          "PlotLineKey": "I-I'd like to have your contact info. If we get a chance, let's go racing together!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Haughty Student",
+          "PlotLineKey": "Me too! You have to come to our next race!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 102,
+              "PlotLineKey": "You got it!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Oh my, the modifications turned out even better than I imagined! I feel confident that we can finish this now!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 40,
+              "PlotLineKey": "Let's see how it works first...",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 41,
+              "PlotLineKey": "The bodywork does look innovative.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "You get it! I specifically chose parts from different sources to maximize performance diversity!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Oh, stop! I just made use of existing resources. But thank you!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Now that it can stand on its own two feet, it's time to give it a pair of strong arms!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeon",
+          "PlotLineKey": "There's a merchant at a Roya camp who specializes in recycling damaged parts from the Academy's Mechascouts. He'll definitely have what we need.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Don't worry, whatever he charges, I'll mark it in the expenses!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "You're finally back! How did it go? Did you find the parts?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 32,
+              "PlotLineKey": "I did, but...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 33,
+              "PlotLineKey": "You sure these are suitable?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "No question about it! They were made for my Mechascout! I'll install them right away!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "I am halfway through the assembly process. Victory is in sight!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Now, the next step is crucial. I'm planning to install a more powerful weapon system, true to the Multi-Turret Club's philosophy!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "There's an old Huanglong saying, something like, \"If you want to do a job well, you first need a sharp weapon.\"",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 77,
+              "PlotLineKey": "Are you thinking of...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 78,
+              "PlotLineKey": "\"If a workman wishes to do a good job, he must first sharpen his tools.\"",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Exactly! That's the one! I didn't know you were so familiar with Huanglong culture.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Can't have \"Multi-Turrets\" without \"guns,\" eh? Eh?! I've been dying to install an electromagnetic railgun on a Mechascout.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zeon",
+          "PlotLineKey": "But such weapons aren't particularly easy to find. The Expedition Team has several decommissioned Spacetrek Explorers rusting out in the wild. I've marked their locations on your map. Mind helping me track them down?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 79,
+              "PlotLineKey": "We've come this far...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 80,
+              "PlotLineKey": "Leave it to me.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Oooh, these are the Mechascout arms of my dreams! So much power! I can feel the potential!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Watch as I install these parts! Hmm, the connection ports might not be a perfect fit...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 69,
+              "PlotLineKey": "You can't just force it in!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 70,
+              "PlotLineKey": "Safety first, safety first.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Minor issues! Every problem has a solution. Don't worry!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Overwhelmed with joy, Zeon assembles the electromagnetic railgun in record time.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "After all these years, this is the closest I've come to fulfilling my dream!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Just one final step! We need a strong enough power source, or in simple terms, the head, and then it'll be finished!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeon",
+          "PlotLineKey": "I called in a favor from a colleague in the field. He found the perfect head unit. Could you make one last trip and bring it back?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 109,
+              "PlotLineKey": "It's not something dangerous, is it?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 110,
+              "PlotLineKey": "It won't blow up on the way back, right?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeon",
+          "PlotLineKey": "Absolutely not! I asked him to store it inside a specialized protective container. Safety guaranteed!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "The address has been sent to your Terminal. Make haste, and travel safe!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "Id": 195700000,
+  "Name": "Das Meer in greifbarer Nähe",
+  "Description": "Bespreche mit Abby die Konstruktion des Versunkenen Tunnels",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 195700000,
+  "ShowQuestList": [],
+  "QuestDesc": "Bespreche mit Abby die Konstruktion des Versunkenen Tunnels",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100034,
+      "PreQuestName": "Ode an den zweiten Sonnenaufgang"
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 10,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Abby",
+          "PlotLineKey": "Der Versunkene Tunnel ist endlich fertig! Was für ein Unterfangen ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Abby",
+          "PlotLineKey": "Mal sehen, was hier steht: „Mit transparenter Konstruktion und holografischer Projektion verspricht der Versunkene Tunnel ein großartiges Erlebnis ...“",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Abby",
+          "PlotLineKey": "Und apropos Hologramme ... Ich habe eine fantastische Idee, {PlayerName}!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Abby",
+          "PlotLineKey": "Da die ganze Landschaft eine holografische Projektion ist, können wir vielleicht etwas noch Cooleres projizieren?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Abby",
+          "PlotLineKey": "Zum Beispiel die Fischschwärme in Drachen der Klage verwandeln oder das Wasser zu Feuer machen und diesen Ort zu einer Höllenfahrt!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 416,
+              "PlotLineKey": "Klingt ziemlich cool.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 417,
+              "PlotLineKey": "Das ist doch kein Vergnügungspark ...",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Abby",
+          "PlotLineKey": "Genau!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Abby",
+          "PlotLineKey": "Ach komm, befriedige doch einfach meine Neugier!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Abby",
+          "PlotLineKey": "Mornye ist doch eine große Wissenschaftlerin am Forschungsinstitut! Sie kann uns bestimmt dabei helfen!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Du machst’s einem aber auch nicht leicht …",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Mornye ist gerade krankgeschrieben. Schick ihr eine Nachricht.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Entschuldigung, dass ich so spät bin.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Bevor ich herkam, habe ich remote in der Datenbank des Forschungsinstituts nach Informationen zu deiner Frage gesucht.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Die Projektion kann tatsächlich geändert werden, aber um die Effekte zu erreichen, die du beschrieben hast, muss man die Struktur der optischen Engine, die Qualität der Projektorlinse und die Abmessungen und das Modell des Display-Chips berücksichtigen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Falls du möchtest, kann ich ...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 302,
+              "PlotLineKey": "Darüber wollte ich nicht sprechen.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Findest du nicht, dass du dich in deinem Zustand ausruhen solltest?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Aber eine positive Einstellung bewahren ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "Die Landschaft des Versunkenen Tunnels ist sehr schön.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "Wollen wir uns gemeinsam umschauen?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Das sollte deine Stimmung heben.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mornye",
+          "PlotLineKey": "… Verstehe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Dann werde ich mich darauf konzentrieren, diese Reise mit dir zu genießen.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Ich erinnere mich, dass der Versunkene Tunnel vor ihrer Stilllegung nur ein einfacher Tunnel war. Unglaublich, dass du es geschafft hast, sie so umzugestalten.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Es ist, als würde man mit einem U-Boot durch den Ozean fahren.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 349,
+              "PlotLineKey": "Ein Fisch wäre better ...?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 350,
+              "PlotLineKey": "Ein U-Boot? Cool!",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Hmm, das Sichtfeld von Fischen umfasst 360 Grad. Menschen können wahrscheinlich nicht erleben, wie sie die Landschaft sehen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Stellst du dir lieber vor, ein Fisch zu sein? Lass mich mal sehen. Vielleicht kann ich versuchen, gleichzeitig in beide Richtungen zu schauen ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Genau! Die werden für Tiefseeerkundungen eingesetzt. Sie nutzen mehrere Propeller an verschiedenen Stellen für hohe Manövrierfähigkeit. Sie können sich fast frei im Wasser bewegen ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Mornye",
+          "PlotLineKey": "... Ähnlich wie du dein Motorrad fährst.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Wow, schau, Quallen!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "Wunderschön!",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "Schade, dass sie nur Hologramme sind.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Sie leuchten – wie Sterne im Ozean.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Oh, entschuldige. Ich hätte sagen sollen: „Schau, holografisch projizierte Quallen“!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Ich frage mich, ob die echten noch schöner sind.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Weißt du, obwohl ich viel darüber weiß, habe ich das Meer noch nie persönlich gesehen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Obwohl ich in der Neuen Föderation geboren wurde, bin ich nie gereist, weil ich damals meine Beine nicht bewegen konnte. Und auch nach meiner Ankunft in Lahai-Roi bin ich wegen der Vertraulichkeitsvereinbarungen nie weggegangen.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Du warst bestimmt schon an allen möglichen Orten. Kannst du mir erzählen, wie das Meer wirklich aussieht?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 214,
+              "PlotLineKey": "(Beschreibe Rinascitas Meer)",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 215,
+              "PlotLineKey": "(Beschreibe das Meer der Schwarzen Küsten)",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Eine Weite aus strahlendem Türkis – voller Glaube, Mythen und Freude.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Das klingt ... wunderschön. Friedlich.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Pechschwarzes Wasser, das Geheimnisse mit Sturm und Nebel bewacht.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Das klingt nach einem Ort, der danach verlangt, erkundet zu werden.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Aber auch wenn dieses Meer nicht echt ist, ist er trotzdem sehenswert.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Und die schönste Landschaft ist die, die ich mit dir sehen kann.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Danke, dass du mir das gezeigt hast. Ich bin ... wirklich glücklich.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Es ist genau wie du gesagt hast. Die Landschaft zu betrachten hilft wirklich dabei, eine positive Einstellung zu bewahren.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Oh, wir sind jetzt in der Nähe des Forschungsinstituts. Ich sollte wieder zurück zur Arbeit.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 325,
+              "PlotLineKey": "Ähm ...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Oh, das war nur ein Scherz, hehe.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Ich werde mich ausruhen, bis mein Krankenstand vorbei ist, genau wie du gesagt hast.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Und auch wenn du wieder arbeitest.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Ich werde es mir merken.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Also, ähm ... Wenn ich mich das nächste Mal entspannen möchte, kann ich dich dann einladen, mitzukommen? So wie heute?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 326,
+              "PlotLineKey": "Klar.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Toll.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Dann reservier mir einen Platz in deinem Terminkalender.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Ich hoffe, eines Tages kann ich mit dir das echte Meer sehen.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

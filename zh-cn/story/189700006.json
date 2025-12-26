@@ -1,0 +1,464 @@
+{
+  "Id": 189700006,
+  "Name": "暗黑决斗传说·上",
+  "Description": "在午夜的车站中，据说有人在进行以灵魂和性命为赌注的“暗黑决斗”。你决定亲自调查这个传言的真伪……",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 189700006,
+  "ShowQuestList": [],
+  "QuestDesc": "在午夜的车站中，据说有人在进行以灵魂和性命为赌注的“暗黑决斗”。你决定亲自调查这个传言的真伪……",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 192700021,
+      "PreQuestName": "激斗重燃：拉海洛地区赛"
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 8,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "普林尼奥",
+          "PlotLineKey": "……唔嗯，如果消息没错的话，那应该就是在这了。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 172,
+              "PlotLineKey": "你在找东西吗？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "普林尼奥",
+          "PlotLineKey": "——诶？哦，是{PlayerName}啊。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "普林尼奥",
+          "PlotLineKey": "难道说……你也是听到了那个流言才来这里的吗？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 173,
+              "PlotLineKey": "什么流言？",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "普林尼奥",
+          "PlotLineKey": "是关于隧道的。有个传言说，隧道里有人在举行《荣耀之丘》的“暗黑决斗”。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "普林尼奥",
+          "PlotLineKey": "据说聚集在这里的都是那些因为被击败而心存怨念的决斗家。他们抛弃了决斗精神，为了变强而不择手段。最终，他们的灵魂也都堕入暗黑。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "普林尼奥",
+          "PlotLineKey": "他们会在午夜时分，在隧道里的某个秘密地点互相挑战。至于败者的命运……我听过好几个版本。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "普林尼奥",
+          "PlotLineKey": "比较靠谱的版本是败者会被无情地夺取卡组，从此无法决斗。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "普林尼奥",
+          "PlotLineKey": "而更可怕的传闻里，在这里决斗需要赌上灵魂，甚至性命……败者的一切都会成为胜利者的食粮。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 174,
+              "PlotLineKey": "……这也太夸张了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 175,
+              "PlotLineKey": "拉海洛又不是法外之地。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "普林尼奥",
+          "PlotLineKey": "我也觉得这很离谱，但这些传言应该不是空穴来风。同好会里的几个决斗家都说自己受到了神秘人物的邀请。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "普林尼奥",
+          "PlotLineKey": "“想要变强吗？那就在午夜到车站来！”",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 176,
+              "PlotLineKey": "看来有必要调查一下。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 177,
+              "PlotLineKey": "这事儿就交给我吧。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 11,
+          "Speaker": "普林尼奥",
+          "PlotLineKey": "……要小心啊，{PlayerName}。虽然我不觉得有人能在正常的决斗中击败你。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "普林尼奥",
+          "PlotLineKey": "但如果真的像传闻中那样，暗黑决斗会以灵魂和性命做赌注的话……他们为了获胜，说不定准备了什么见不得光的手段。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "普林尼奥",
+          "PlotLineKey": "对了！车站里有一个叫阿尔卡因的罗伊人，他似乎知道一些“暗黑决斗”的事儿。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "普林尼奥",
+          "PlotLineKey": "不过，他对我戒心很重，我没能从他那里得到什么有用的信息……也许你的运气会比我好一点。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 178,
+              "PlotLineKey": "谢谢你。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 179,
+              "PlotLineKey": "我会注意的。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "——没见过的生面孔。你是谁？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 141,
+              "PlotLineKey": "我是来决斗的。",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 142,
+              "PlotLineKey": "我想变强。",
+              "PlayVoice": false,
+              "JumpToId": 4
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "决斗……？我从你的眼神中就看得出来，你很强。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "我们这里只接受那些……一无所有的人。你不应该来这里的。去找别人吧。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "阿尔卡因审视着你，他沉思了片刻，随后点点头。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "变强……虽然你是强者，但对力量的追求……是没有极限的。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 6
+        },
+        {
+          "Id": 6,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "告诉我，为了变强……你愿意付出什么代价？",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 143,
+              "PlotLineKey": "……我的灵魂？",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 144,
+              "PlotLineKey": "……我的生命？",
+              "PlayVoice": false,
+              "JumpToId": 8
+            },
+            {
+              "TextId": 145,
+              "PlotLineKey": "……这一切。",
+              "PlayVoice": false,
+              "JumpToId": 9
+            },
+            {
+              "TextId": 146,
+              "PlotLineKey": "日复一日地进行练习。",
+              "PlayVoice": false,
+              "JumpToId": 10
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "……不过是一个游戏而已，为此付出灵魂？别开玩笑了。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 8,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "……不过是一个游戏而已，为此付出生命？这值得吗？",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "你所拥有的一切吗？这只是个游戏而已……不必如此认真。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 10,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "这个答案还不错。我勉强能够接受。",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "总之，虽然我也是曾经的失败者之一——让我们先来一局决斗吧，看看你到底有多强。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "……行了，到此为止。看来我的判断没错……你果然很强。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 108,
+              "PlotLineKey": "……这就是所谓的暗黑决斗？",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 109,
+              "PlotLineKey": "所以，你的灵魂和性命归我了？",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "什么？暗黑决斗……？我不知道你是从哪听到了那些乱七八糟的谣言……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "别开玩笑了。我不知道你是从哪听到了那些乱七八糟的谣言……",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "……但这里没什么暗黑决斗，更没什么赌注。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 110,
+              "PlotLineKey": "我听到的版本是这样的。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_83",
+          "PlotLineKey": "你向阿尔卡因说明了你来此的原因。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "……原来如此，这些传闻也太夸张了。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "传言中有一部分是对的，如你所见，我们是在追求更强的力量没错，那是因为，我们都曾经是失败者。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "我们想要参加地区赛，但是却因为不够强而在预选赛时就被淘汰了。但我们……不打算放弃。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "于是我们就趁着一天的工作结束时在这里聚会，交流决斗的技巧，互相练习，以此磨练自己。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "因为大家被击败的经历说出去其实还挺丢人的，所以我们并没有大张旗鼓地对外宣传，而是打算在修习结束后一雪前耻。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "结果竟然……被传成了什么暗黑决斗。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 111,
+              "PlotLineKey": "原来如此。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 112,
+              "PlotLineKey": "谣言还真是可怕。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 12,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "唉……哦，对了，我们这里还有两位强大的决斗家，他们可不是像我这样的失败者。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "在得知我们在这里练习《荣耀之丘》后，他们决定帮我们进行特训，并担任考官，评判我们有没有向之前对手一雪前耻的实力。",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "他们应该会对你这样的强者很感兴趣……如果你想找一些旗鼓相当的对手，来磨砺自己的锋芒的话，没准他们会很合适。",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 113,
+              "PlotLineKey": "明白了。",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 114,
+              "PlotLineKey": "我这就去找他们。",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "阿尔卡因",
+          "PlotLineKey": "嗯……祝你变得更强，强大的决斗家。",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}

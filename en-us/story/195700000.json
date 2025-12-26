@@ -1,0 +1,502 @@
+{
+  "Id": 195700000,
+  "Name": "The Sea Just Within Reach",
+  "Description": "Discuss the Submerged Tunnel rebuild with Abby",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 195700000,
+  "ShowQuestList": [],
+  "QuestDesc": "Discuss the Submerged Tunnel rebuild with Abby",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 100034,
+      "PreQuestName": "Ode to the Second Sunrise"
+    },
+    {
+      "Type": "SystemState",
+      "Config": {
+        "Type": "RoadBuildState",
+        "RoadId": 10,
+        "IsBuilt": true
+      }
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Abby",
+          "PlotLineKey": "The Submerged Tunnel is finally done! What an undertaking...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Abby",
+          "PlotLineKey": "Let's see what it says: \"Through its transparent design and holographic projections, the Submerged Tunnel offers travelers a breathtaking visual journey...\"",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Abby",
+          "PlotLineKey": "And speaking of holograms... I have the coolest idea, {PlayerName}!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Abby",
+          "PlotLineKey": "Since the whole view is just a projection... whaddya say we project something even cooler?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Abby",
+          "PlotLineKey": "Like, change the schools of fish into Dragons of Dirge, or turn the water into fire and make the whole tunnel a Path of the Inferno!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 416,
+              "PlotLineKey": "I like the way you think.",
+              "PlayVoice": false,
+              "JumpToId": 6
+            },
+            {
+              "TextId": 417,
+              "PlotLineKey": "This isn't an amusement park.",
+              "PlayVoice": false,
+              "JumpToId": 7
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Abby",
+          "PlotLineKey": "I know!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 7,
+          "Speaker": "Abby",
+          "PlotLineKey": "Oh, just humor me would you, {PlayerName}?",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Abby",
+          "PlotLineKey": "Isn't Mornye some big scientist at the Research Institute? She can help us with this!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Alright, alright...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Mornye is still on sick leave. I'll send her a message.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Sorry to keep you waiting, Mentor.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Before coming here, I did a remote search through the Institute's database.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mornye",
+          "PlotLineKey": "The projections can be changed, but to get the effects you're describing, you'd have to consider the optic engine architecture, lens quality, display chip specs…",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mornye",
+          "PlotLineKey": "If you want, I could—",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 302,
+              "PlotLineKey": "That's not what I wanted to talk about.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "Don't you think you ought to be resting in your condition?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Mornye",
+          "PlotLineKey": "But it's about keeping a good mood...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 303,
+              "PlotLineKey": "The Submerged Tunnel scenery is stunning.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 8,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 304,
+              "PlotLineKey": "How about we go take it in together?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "You're going to love it, I'm sure of it.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mornye",
+          "PlotLineKey": "...I see.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Okay. I will endeavor to focus on enjoying this trip with you.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mornye",
+          "PlotLineKey": "I remember that before the Submerged Tunnel was closed, it was just an ordinary tunnel. I can't believe you managed to turn it into this.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mornye",
+          "PlotLineKey": "It's like going through the ocean in a submarine.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 349,
+              "PlotLineKey": "Wouldn't a fish make more sense?",
+              "PlayVoice": false,
+              "JumpToId": 3
+            },
+            {
+              "TextId": 350,
+              "PlotLineKey": "A submarine? Cool!",
+              "PlayVoice": false,
+              "JumpToId": 5
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mornye",
+          "PlotLineKey": "A fish's vision covers 360 degrees. I don't think a human could experience the scenery quite the way they do.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Do you prefer to imagine yourself as a fish? Let me try. Maybe I can look in both directions at once...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Exactly! They're used for deep-sea surveys. It uses multiple propellers, so it's highly maneuverable. It can move freely in the water...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Heh... similar to how you're steering the motorbike right now.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Wow, look, Mentor! Jellyfish!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 203,
+              "PlotLineKey": "Beautiful!",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 204,
+              "PlotLineKey": "Too bad they're only holograms.",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mornye",
+          "PlotLineKey": "They glow like stars in the ocean.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Oh, I'm sorry. I should have said, \"Look, holographically projected jellyfish!\"",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mornye",
+          "PlotLineKey": "I wonder if the real ones are even prettier.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mornye",
+          "PlotLineKey": "You know… even though I know so much about it, I've never actually seen the real ocean.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Even though I was born in the New Federation, I never traveled because of my condition. And after coming to Lahai-Roi, I never left because of confidentiality requirements.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mornye",
+          "PlotLineKey": "I bet you've been to all sorts of places. Can you tell me what the ocean really looks like?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 214,
+              "PlotLineKey": "(Describe Rinascita's ocean)",
+              "PlayVoice": false,
+              "JumpToId": 4
+            },
+            {
+              "TextId": 215,
+              "PlotLineKey": "(Describe the Black Shores)",
+              "PlayVoice": false,
+              "JumpToId": 6
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "A blue sparkling with faith, myth, and celebration.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Mornye",
+          "PlotLineKey": "It sounds... Beautiful. Serene.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "A black sea where fog and storms guard its secrets.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Sounds like a place just begging to be explored.",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 8
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Even though this isn't the real ocean, it's still a sight to see.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Mornye",
+          "PlotLineKey": "And the best kind of scenery is the kind I get to see with you.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Thank you for showing me this, Mentor. I feel... really happy.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Mornye",
+          "PlotLineKey": "It's like you said. Taking in the scenery really does help you keep a positive attitude.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Oh, we're near the Research Institute now. I should get back to work.",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 325,
+              "PlotLineKey": "Um...?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Hehe... I'm only joking, Mentor.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Mornye",
+          "PlotLineKey": "I'll rest up until my sick leave is over, just like you said.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "And after you go back to work.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Of course.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mornye",
+          "PlotLineKey": "So, um... The next time I want to take a break, can I invite you? Like we did today?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 326,
+              "PlotLineKey": "Of course.",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 9,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Great.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mornye",
+          "PlotLineKey": "Then I'd like to reserve a spot in your schedule.",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mornye",
+          "PlotLineKey": "I hope one day I'll get to see the real ocean with you.",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}
