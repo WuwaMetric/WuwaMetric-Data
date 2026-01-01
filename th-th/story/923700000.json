@@ -1,0 +1,909 @@
+{
+  "Id": 923700000,
+  "Name": "Mechascount ที่ยอดเยี่ยมที่สุด",
+  "Description": "ช่วย Zeon ค้นหาชิ้นส่วน Mechascount 4 ชิ้น และประกอบให้เสร็จ",
+  "MaleTexture": "",
+  "FemaleTexture": "",
+  "AreaIcon": "",
+  "QuestId": 923700000,
+  "ShowQuestList": [],
+  "QuestDesc": "ช่วย Zeon ค้นหาชิ้นส่วน Mechascount 4 ชิ้น และประกอบให้เสร็จ",
+  "Conditions": [
+    {
+      "Type": "PreQuest",
+      "PreQuest": 923700001,
+      "PreQuestName": "Quest_923700001_QuestName_923_1"
+    }
+  ],
+  "Chapters": [
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "กล่องพัสดุของสถาบันนี่นา...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "...หยิบไปเลย",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "พ่อค้าผู้ขัดข้องใจ",
+          "PlotLineKey": "ลูกเอ๊ย พ่อละปวดหัวจริงๆ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 54,
+              "PlotLineKey": "พ่อค้า มีอะไหล่แขนที่เหมาะกับ Mechascout มั้ย?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 55,
+              "PlotLineKey": "ไม่ต้องตรงรุ่นมากก็ได้",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "พ่อค้าผู้ขัดข้องใจ",
+          "PlotLineKey": "หา? อะไหล่เหรอ... วันนี้ไม่มีอารมณ์ค้าขายเลยจริงๆ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "พ่อค้าผู้ขัดข้องใจ",
+          "PlotLineKey": "ก็ลูกผมน่ะสิ ตัวกะเปี๊ยกแค่นี้ แต่ดันเลือกกินซะแล้ว! แล้วก็เถียงกับคนในบ้านเพราะเรื่องนี้ ไม่ยอมกินข้าวเลย...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "พ่อค้าผู้ขัดข้องใจ",
+          "PlotLineKey": "ทั้งที่อยู่ในวัยโตแท้ๆ ทำไมถึงไม่ยอมกินอะไรเลยนะ?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 56,
+              "PlotLineKey": "มีของอร่อยเยอะไป กินจนเบื่อแล้ว?",
+              "PlayVoice": false,
+              "JumpToId": 7
+            },
+            {
+              "TextId": 57,
+              "PlotLineKey": "กินขนมเยอะไป เลยอิ่มซะก่อน?",
+              "PlayVoice": false,
+              "JumpToId": 9
+            }
+          ]
+        },
+        {
+          "Id": 7,
+          "Speaker": "พ่อค้าผู้ขัดข้องใจ",
+          "PlotLineKey": "กินจนเบื่อแล้ว... ฟังดูมีเหตุผลนะ!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "พ่อค้าผู้ขัดข้องใจ",
+          "PlotLineKey": "ผมกับแม่เด็กทำของอร่อยให้สารพัด เขายังไม่แลสักนิด สงสัยจะเบื่อจริงๆ นั่นแหละ!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 9,
+          "Speaker": "พ่อค้าผู้ขัดข้องใจ",
+          "PlotLineKey": "อิ่มซะก่อน... ฟังดูมีเหตุผลนะ!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "พ่อค้าผู้ขัดข้องใจ",
+          "PlotLineKey": "มีของกินอร่อยอยู่รอบตัว ก็เลยไม่เห็นค่าสินะ",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 11
+        },
+        {
+          "Id": 11,
+          "Speaker": "พ่อค้าผู้ขัดข้องใจ",
+          "PlotLineKey": "ว่าแต่ ได้ยินมาว่าอาหารที่โรงอาหารสถาบันพวกคุณน่ะ รสชาติ... พิเศษไม่เหมือนใคร จริงเหรอ? ถ้าจริง ช่วยผมหน่อยได้มั้ย?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "พ่อค้าผู้ขัดข้องใจ",
+          "PlotLineKey": "เอาอาหารที่เป็นเอกลักษณ์ที่สุดของสถาบัน มาแลกกับอะไหล่แขนของผมนะ! เจ้าตัวเล็กที่บ้านผมจะได้สัมผัสความหลากหลายบ้าง!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 58,
+              "PlotLineKey": "ไม่มีปัญหา",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 59,
+              "PlotLineKey": "ตกลงตามนั้น",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 13,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(อาหารที่เป็นเอกลักษณ์ที่สุดของสถาบัน... จะเป็น \"เยลลี่โภชนาการครบครัน\" เหรอว่า \"เจลกระตุ้นพลังงานด่วน\" ดีล่ะ?)",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 14,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "(กลับไปเตรียมก่อน แล้วค่อยมาแลกละกัน)",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "ตามจุดที่เขาทำเครื่องหมายไว้ ก็น่าจะอยู่แถวนี้แหละ...",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "นักวิจัยผู้เหนื่อยล้า",
+          "PlotLineKey": "Zeon ให้คุณมารับวัสดุใช่มั้ย?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 117,
+              "PlotLineKey": "ใช่แล้ว",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "นักวิจัยผู้เหนื่อยล้า",
+          "PlotLineKey": "เจ้านั่นน่ะชอบหาเรื่องให้คนอื่นจริงๆ... ถึงจะเป็นอะไหล่ที่ทิ้งแล้วก็เถอะ แต่ของที่เขาขอนี่ กว่าจะได้มาไม่ใช่ง่ายๆ เลย",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "นักวิจัยผู้เหนื่อยล้า",
+          "PlotLineKey": "จำไว้นะ ของชิ้นนี้เป็นความลับสุดยอด ห้ามเปิดระหว่างทางเด็ดขาด แล้วก็ห้ามให้ใครเห็น ไม่งั้นเรื่องใหญ่แน่",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "นักวิจัยผู้เหนื่อยล้า",
+          "PlotLineKey": "ไว้เธอไปเจอเขาแล้ว อย่าลืมบ่นแทนฉันให้สาสมด้วยล่ะ!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "สำเร็จแล้ว... เราทำได้แล้วจริงๆ!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "{PlayerName} ดูสิ มันขยับแล้ว มันลุกขึ้นยืนแล้ว!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "เพราะคุณช่วยแท้ๆ เลย นี่เป็นครั้งแรกที่ฉันประกอบหุ่นยนต์ให้เคลื่อนไหวได้! เราทำสำเร็จแล้ว!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 140,
+              "PlotLineKey": "ครั้งแรกเลยเหรอเนี่ย...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 141,
+              "PlotLineKey": "ทำได้ขนาดนี้ คุณเก่งมากจริงๆ นะ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "???",
+          "PlotLineKey": "เราก็นึกว่าเก็บอะไหล่ไปทำอะไรกัน ที่แท้ก็เอามาประกอบเป็นหุ่นกระป๋องเน่าตัวนี้นี่เอง",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "หัวหน้าผู้ลี้ภัย",
+          "PlotLineKey": "ในอะไหล่พวกนี้... มีส่วนที่คุณขโมยจากค่ายของเราอยู่ด้วยนะ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "หัวหน้าผู้ลี้ภัย",
+          "PlotLineKey": "ซ่อมเสร็จแล้วก็ดี เราจะได้ไม่เปลืองแรง เอาไปขายทั้งตัวนี่แหละ น่าจะได้หลายตังค์!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ไม่ได้! อย่ามาแตะต้องหุ่นยนต์ฉันนะ! มันยังเด็กอยู่เลย!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Mechascout",
+          "PlotLineKey": "ตรวจพบ... เจตนาคุกคาม เปิด... โปรโตคอลป้องกันตัว",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "หัวหน้าผู้ลี้ภัย",
+          "PlotLineKey": "เดี๋ยวก่อน! มันโจมตีได้ไง... นี่มันของเจ๊งแล้วไม่ใช่เหรอ!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 10,
+          "Speaker": "Mechascout",
+          "PlotLineKey": "คำเตือน... ถอยไปเดี๋ยวนี้... นับถอยหลัง ...5...4...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Mechascout",
+          "PlotLineKey": "...1 เริ่มโจมตี",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "หัวหน้าผู้ลี้ภัย",
+          "PlotLineKey": "ไหงนับ 4 แล้วไป 1 เฉยเลยล่ะ?! เล่นไม่ซื่อนี่นาาา",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "มะ...มันระเบิดตัวเองไปแล้วเหรอ...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "หัวหน้าผู้ลี้ภัย",
+          "PlotLineKey": "ดีแล้ว เศษเหล็กซังกะบ๊วย อยากทำฉันใจแป้วดีนัก!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "หัวหน้าผู้ลี้ภัย",
+          "PlotLineKey": "แต่ตอนนี้มันพังไม่มีชิ้นดีแล้ว! ดูซิว่าจะมีใครปกป้องแกได้อีก",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "{PlayerName}",
+          "PlotLineKey": "มีฉันอยู่นี่ไง... ทำไมล่ะ ลืมฉันไปแล้วเหรอไง?",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "เอ๊ะ? คุณคือ... {PlayerName} ที่มาจากสถาบันใช่มั้ยเนี่ย? อยากได้อันนี้เหมือนกันเหรอ? มะ...ไม่ได้นะ! ใครมาก่อนได้ก่อนสิ อย่ามาแย่ง!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 18,
+              "PlotLineKey": "อาจารย์ก็มาเก็บขยะเหรอ?",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 19,
+              "PlotLineKey": "...ใครจะแย่งกันเล่า!",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "เก็บขยะอะไรกัน! เรื่องของคนรักเครื่องกล จะเรียกว่าเก็บขยะได้ยังไง!",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ไม่ใช่คอเดียวกันหรอกเหรอ... ทำฉันตื่นตูมไปเองซะงั้น",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ก็อย่างที่เห็นแหละนะ ของที่กองอยู่ตรงนี้ผ่านขั้นตอนปลดระวางหมดแล้ว เจ้าตัวใหญ่นี่ ตอนนี้เป็นแค่กองโลหะเย็นชืดกองหนึ่ง",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeon",
+          "PlotLineKey": "แต่จุดจบของมันไม่ควรเป็นการ \"ปลดระวาง\" ในเมื่อแกนข้อมูลดับลงก็ถือว่ามันตายแล้ว ทีนี้เราก็หลุดพ้นจากกฎเกณฑ์ทุกข้อได้เลย!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 20,
+              "PlotLineKey": "พูดแบบนี้ กลิ่นตัวร้ายลอยมาเลยแฮะ",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 21,
+              "PlotLineKey": "ฟังดูเหมือนนักวิทยาศาสตร์บ้าพูดเลย...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "งะ...งั้นเหรอ? ฉันว่ามันเท่ดีน่ะ อยากลองพูดมานานแล้ว ฮะๆ",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeon",
+          "PlotLineKey": "บอกตามตรงนะ ถึงฉันจะมาจากแผนกเกษตรกรรม แต่ก็อยากเข้าชมรมป้อมปืนหมู่ และออกแบบหุ่นยนต์กลไกด้วยตัวเองมาตลอด... เสียดายที่สอบไม่ผ่าน",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zeon",
+          "PlotLineKey": "แต่ตอนนี้สมองของฉันมีแรงบันดาลใจเกิดขึ้นไม่หยุดเลย ไม่แน่ว่าฉันอาจไขว่คว้าความฝันกลับมาได้ แล้วเจ้านี่ก็อาจจะได้ร่างใหม่ ยืนทะนงองอาจได้...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 9,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ฉันทำได้แน่ ฉันจะสร้าง Mechascout ที่ยอดเยี่ยม แบบที่ไม่มีใครเคยเห็นมาก่อน... คุณจะช่วยฉันรึเปล่า?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 22,
+              "PlotLineKey": "ถ้ามีค่าตอบแทนก็จะช่วยได้",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 23,
+              "PlotLineKey": "ฉันจะช่วยด้วยนะ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 10,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ไม่ต้องห่วง ค่าตอบแทนต้องถูกใจแน่นอน!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 11,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ลำตัวของมันยังสมบูรณ์ดี ถ้าหาอะไหล่ที่เข้ากันได้ก็เริ่มดัดแปลงได้ทันที",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 12,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ที่จริงฉันควักกระเป๋าสั่งอะไหล่ช่วงขามาเมื่อไม่กี่วันก่อน แต่ดันโดนผู้ลี้ภัยแถวนี้ปล้นไป... งั้นเราไปทวงกลับมากันมั้ย?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 13,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 24,
+              "PlotLineKey": "แต่ Mechascout...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 14,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 25,
+              "PlotLineKey": "มันไม่มีขานี่นา",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 15,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ไม่ต้องสนใจรายละเอียดพวกนี้หรอก เราจะยึดติดกับรูปแบบเดิมๆ ไม่ได้ ต้องทลายทุกกรอบที่เคยมี!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 16,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ค่ายผู้ลี้ภัยมันอันตรายนะ คุณแค่ไปเบี่ยงเบนความสนใจพวกเขาแล้วหยิบของออกมาก็พอ จำไว้นะ ความปลอดภัยต้องมาก่อน!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 26,
+              "PlotLineKey": "ไม่ต้องห่วง ฉันเก่งอยู่แล้ว",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 27,
+              "PlotLineKey": "รอฟังข่าวดีได้เลย!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 2,
+          "Speaker": "พ่อค้าผู้ขัดข้องใจ",
+          "PlotLineKey": "ความรู้สึกไฮเทคจนกินไม่ลงแบบนี้... ใช่แล้ว รสชาตินี้แหละ!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "พ่อค้าผู้ขัดข้องใจ",
+          "PlotLineKey": "ผมจะใช้ \"ของขวัญล้ำค่า\" ชิ้นนี้ให้เป็นประโยชน์ หวังว่าจะดัดนิสัยเลือกกินของลูกผมได้",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "พ่อค้าผู้ขัดข้องใจ",
+          "PlotLineKey": "อะไหล่กล่องนี้เป็นของตอบแทนที่สัญญาไว้ ขอบคุณจากใจจริงนะ!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "นักเรียนผู้หยิ่งทะนง",
+          "PlotLineKey": "อะไรเนี่ย... ชนแตกเรียบเลยเหรอ?!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "นักเรียนผู้หยิ่งทะนง",
+          "PlotLineKey": "ฝีมือขับรถระดับเทพแบบนี้ ไม่ใช่มือสมัครเล่นแน่! เหรอว่าจะเป็น \"เทพนักบิดสตาร์ทอร์ช\" ในตำนานคนนั้น?",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "นักเรียนขี้โมโห",
+          "PlotLineKey": "...ในเมื่อเธอชนะ อะไหล่นี่ก็เป็นของเธอ แต่มีข้อแม้อยู่อย่างนึง!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 100,
+              "PlotLineKey": "ว่ามาสิ",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 101,
+              "PlotLineKey": "ข้อแม้อะไร?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 4,
+          "Speaker": "นักเรียนขี้โมโห",
+          "PlotLineKey": "ขะ ขอเบอร์ติดต่อหน่อยสิ! ถ้ามีโอกาสคราวหน้า ไปแข่งรถด้วยกันอีกนะ!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "นักเรียนผู้หยิ่งทะนง",
+          "PlotLineKey": "ให้ฉันด้วยสิ! ถ้าจัดแข่งกันอีก ต้องมาให้ได้นะ!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 102,
+              "PlotLineKey": "ได้เลย!",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "โห... ไม่คิดเลยว่าพอปรับแต่งแล้วจะออกมาดีขนาดนี้! ตอนนี้มั่นใจเต็มร้อยเลยว่าทำได้สมบูรณ์แน่!",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 40,
+              "PlotLineKey": "เรื่องประสิทธิภาพเอาไว้ก่อนนะ...",
+              "PlayVoice": false,
+              "JumpToId": 2
+            },
+            {
+              "TextId": 41,
+              "PlotLineKey": "...การออกแบบนี่ จัดว่าเด็ด",
+              "PlayVoice": false,
+              "JumpToId": 3
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ดูออกด้วยเหรอ! ฉันตั้งใจใช้ชิ้นส่วนจากแหล่งต่างๆ ก็เพื่อให้ Mechascout มีประสิทธิภาพการทำงานที่หลากหลายนั่นแหละ",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "โอย แค่ใช้ทรัพยากรที่มีให้เกิดประโยชน์สูงสุดเท่านั้นเอง ชมจนฉันเขินหมดแล้วเนี่ย",
+          "PlayVoice": false,
+          "Options": [],
+          "JumpToId": 4
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ไหนๆ มันก็มีขาคู่ใหม่ที่ยืนได้แล้ว ต่อไปก็ถึงเวลาติดแขนที่แข็งแรงพอให้มัน!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ที่ค่ายชาวโรญามีพ่อค้าคนหนึ่ง รับซื้อซากอะไหล่ของหุ่นอารักขาจากสถาบันโดยเฉพาะ เขาน่าจะมีแขนที่เข้ากันได้พอดี",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ไม่ต้องห่วง ไม่ว่าเขาจะเรียกราคาเท่าไหร่ ฉันออกให้เต็มจำนวน!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "กลับมาแล้ว! เป็นไงบ้าง เจออะไหล่มั้ย?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 32,
+              "PlotLineKey": "เจอแล้วแหละ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 33,
+              "PlotLineKey": "แต่แน่ใจเหรอว่าใช้ได้จริง?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ได้สิ เข้ากันสุดๆ เหมือนเกิดมาเพื่อมันเลย! ฉันจะเอามาประกอบเดี๋ยวนี้แหละ!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ประกอบไปได้ครึ่งทางแล้ว! ชัยชนะอยู่ไม่ไกลแล้ว!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ต่อไปเป็นขั้นตอนสำคัญ ฉันจะติดอาวุธที่แรงกว่านี้ให้มัน ตามแนวคิดของพวกชมรมป้อมปืนหมู่!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "มีคำกล่าวเก่าๆ ของวงหลง ความหมายประมาณว่า \"ถ้าจะทำสิ่งใดให้ดี ต้องมีอาวุธที่คมพอเสียก่อน",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 77,
+              "PlotLineKey": "คำกล่าวเก่าๆ นั้นคือ...",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 78,
+              "PlotLineKey": "หากแม้นนายช่างหวังสร้างงานดี เครื่องมือที่มีพึงลับให้คม",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ใช่เลย! ประโยคนี้แหละ! ไม่คิดเลยนะ ว่าคุณจะรู้จักวัฒนธรรมหวงหลงถึงขนาดนี้",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 7,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ป้อมปืนหมู่\" จะไม่มีปืนได้ยังไงล่ะ? ฉันอยากลองติดตั้งปืนใหญ่แม่เหล็กไฟฟ้าให้ Mechascout มานานแล้ว",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 8,
+          "Speaker": "Zeon",
+          "PlotLineKey": "แต่ของแบบนี้มันหายาก ทีมวิจัยมี Spacetrek Explorer ที่ทิ้งแล้วเอาไปไว้ที่ทุ่งน้ำแข็ง ฉันทำเครื่องหมายตำแหน่งคร่าวๆ ไว้บนแผนที่แล้ว ช่วยไปดูให้หน่อยได้มั้ย?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 79,
+              "PlotLineKey": "มาถึงขนาดนี้แล้ว…",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 80,
+              "PlotLineKey": "เดี๋ยวไปดูหน่อย",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Zeon",
+          "PlotLineKey": "โอ้ววว! นี่แหละแขน Mechascout ในฝันของฉัน! แข็งแกร่ง... แข็งแกร่งสุดๆ!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ฉันจะติดตั้งเลยนะ! อืม... ถึงจุดเชื่อมมันจะไม่ค่อยเข้าพอดีก็เถอะ...",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 69,
+              "PlotLineKey": "บิดแรงขนาดนั้น ไม่ไหวมั้ง!",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 70,
+              "PlotLineKey": "ระวังหน่อยๆ",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "เรื่องเล็กน่า แก้ไขได้หมดเลย ไม่ต้องห่วง!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    },
+    {
+      "Dialogues": [
+        {
+          "Id": 1,
+          "Speaker": "Speaker_undefined",
+          "PlotLineKey": "Zeon ที่ดีใจสุดขีด ประกอบปืนใหญ่แม่เหล็กไฟฟ้าเสร็จสิ้นด้วยความเร็วสูงสุด...",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 2,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ในรอบหลายปีที่ผ่านมา นี่เป็นการเข้าใกล้ความฝันของฉันมากที่สุด!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 3,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ตอนนี้เหลือแค่ขั้นตอนสุดท้าย สิ่งที่ต้องมีคือแหล่งพลังงานที่ทรงพลังมากพอ ที่เขาเรียกกันว่า \"หัว\" นั่นแหละ แล้วมันก็จะขยับได้!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 4,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ฉันขอให้เพื่อนร่วมงานที่ทำวิจัยด้านนี้หา \"หัว\" ที่เหมาะสมที่สุดมาให้แล้ว คุณช่วยไปเอามาให้ฉันหน่อยได้มั้ย?",
+          "PlayVoice": false,
+          "Options": [
+            {
+              "TextId": 109,
+              "PlotLineKey": "คงไม่ใช่ของอันตรายใช่มั้ย?",
+              "PlayVoice": false,
+              "JumpToId": null
+            },
+            {
+              "TextId": 110,
+              "PlotLineKey": "มันจะไม่ระเบิดกลางทางใช่มั้ย?",
+              "PlayVoice": false,
+              "JumpToId": null
+            }
+          ]
+        },
+        {
+          "Id": 5,
+          "Speaker": "Zeon",
+          "PlotLineKey": "สบายใจได้! ฉันให้เขาบรรจุใส่ภาชนะป้องกันพิเศษไว้แล้ว ปลอดภัยหายห่วง!",
+          "PlayVoice": false,
+          "Options": []
+        },
+        {
+          "Id": 6,
+          "Speaker": "Zeon",
+          "PlotLineKey": "ฉันส่งที่อยู่ไปที่เทอร์มินัลของคุณแล้ว รีบไปรีบกลับล่ะ ขอให้เดินทางปลอดภัยนะ!",
+          "PlayVoice": false,
+          "Options": []
+        }
+      ]
+    }
+  ]
+}
